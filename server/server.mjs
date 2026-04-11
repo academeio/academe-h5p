@@ -20,10 +20,10 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PORT = process.env.PORT || 3200;
 
 // Paths
-const LIBS_PATH = path.resolve(__dirname, '../h5p/libs');
-const CONTENT_PATH = path.resolve(__dirname, '../h5p/activities');
-const CORE_PATH = path.resolve(__dirname, 'node_modules/h5p-php-library');
-const EDITOR_PATH = path.resolve(__dirname, 'node_modules/h5p-editor-php-library');
+const LIBS_PATH = path.resolve(__dirname, '../libs');
+const CONTENT_PATH = path.resolve(__dirname, '../activities');
+const CORE_PATH = path.resolve(__dirname, 'h5p-core');
+const EDITOR_PATH = path.resolve(__dirname, 'h5p-editor');
 
 // Anonymous user for player-only mode
 const ANON_USER = {
