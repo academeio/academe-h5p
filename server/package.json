@@ -1,0 +1,17 @@
+{
+  "name": "academe-h5p-server",
+  "version": "1.0.0",
+  "description": "Academe H5P — Player server for CBME interactive activities",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "dependencies": {
+    "@lumieducation/h5p-server": "^10.0.4",
+    "@lumieducation/h5p-express": "^10.0.5",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "tmp": "0.2.3"
+  }
+}
