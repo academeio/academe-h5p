@@ -1,0 +1,62 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Cranial nerve nuclei & Cerebral hemispheres — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Sudden Speech Loss</strong></p>",
+      "startScreenSubtitle": "<p>A 68-year-old retired teacher with a history of hypertension and atrial fibrillation is brought to the emergency department by her daughter. She suddenly developed inability to speak and right-sided weakness while having breakfast 2 hours ago. She is conscious and appears to understand commands but cannot produce words. Vitals: HR 92/min (irregularly irregular), BP 180/100 mmHg, RR 18/min, SpO2 97%. You are the neurology registrar on call.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly localised the stroke to the left MCA territory affecting Broca's area and the internal capsule, distinguished expressive from receptive aphasia, understood the organisation of the motor cortex, and chose appropriate acute stroke management. Your knowledge of cranial nerve nuclei organisation, cerebral hemispheres, and motor pathways was thorough.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some features but missed important anatomical connections. Review Broca's vs Wernicke's areas, the precentral and postcentral gyri, corticospinal fibres in the internal capsule, and cranial nerve nuclear columns.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the anatomy of the cerebral hemispheres: motor cortex (precentral gyrus), sensory cortex (postcentral gyrus), Broca's area (frontal), Wernicke's area (temporal), the internal capsule, and the seven functional columns of cranial nerve nuclei.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Neurological Examination</h2><p>On rapid neurological assessment:</p><ul><li><strong>Speech:</strong> Non-fluent aphasia — she understands commands and attempts to speak but produces only single syllables with great effort. She can follow 2-step commands. Comprehension is preserved.</li><li><strong>Motor:</strong> Right-sided hemiplegia — face (lower half drooping, forehead spared), arm (0/5 power), leg (2/5 power). Left side normal.</li><li><strong>Sensory:</strong> Reduced sensation on the right face, arm, and leg to light touch and pinprick</li><li><strong>Eyes:</strong> Conjugate deviation to the left (eyes looking towards the lesion side)</li><li><strong>NIHSS score:</strong> 16 (moderate-severe stroke)</li></ul><p><strong>Anatomical context:</strong> The primary motor cortex is in the <strong>precentral gyrus</strong>, and the primary somatosensory cortex is in the <strong>postcentral gyrus</strong>. <strong>Broca's area</strong> (areas 44 and 45) in the <strong>frontal lobe</strong> controls motor speech. <strong>Wernicke's area</strong> in the temporal lobe handles speech comprehension. Cranial nerve nuclei are organised into <strong>seven functional columns</strong> (GSE, GVE, SVE, GSA, GVA, SVA, SSA).</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The patient has non-fluent aphasia with preserved comprehension and right hemiplegia. Which brain region is most likely affected by the stroke?</p>", "alternatives": [
+          {"text": "Left frontal lobe including Broca's area (motor speech) and the precentral gyrus (motor cortex), with extension to the internal capsule", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Non-fluent (Broca's/expressive) aphasia with preserved comprehension localises to Broca's area in the left frontal lobe (areas 44-45). The right hemiplegia indicates involvement of the left precentral gyrus (primary motor cortex) and/or the posterior limb of the internal capsule, which carries corticospinal (motor) fibres. A left MCA territory stroke explains all findings — aphasia + contralateral hemiplegia.</p>"}},
+          {"text": "Right frontal lobe — causing contralateral motor deficit and speech arrest", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>A right frontal lobe stroke would cause left-sided (not right-sided) hemiplegia. Also, speech centres (Broca's and Wernicke's) are in the dominant (left) hemisphere in 95% of right-handed individuals. Right hemisphere strokes cause neglect syndromes, not aphasia.</p>"}},
+          {"text": "Left temporal lobe (Wernicke's area) — causing language dysfunction", "nextContentId": -2, "feedback": {"title": "<p>Not the best answer</p>", "subtitle": "<p>Wernicke's area (superior temporal gyrus) lesion causes fluent/receptive aphasia — the patient speaks fluently but with meaningless words and cannot comprehend speech. This patient has non-fluent aphasia with PRESERVED comprehension — this is Broca's (expressive) aphasia from a left frontal lobe lesion, not Wernicke's aphasia.</p>"}},
+          {"text": "Bilateral cerebellar hemispheres — causing dysarthria and ataxia", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Cerebellar lesions cause dysarthria (slurred speech), not aphasia. The patient has true aphasia — difficulty producing language, not just articulation problems. Additionally, cerebellar lesions cause ipsilateral ataxia, not contralateral hemiplegia. This is a left MCA territory stroke affecting Broca's area and the motor cortex.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Imaging and Anatomical Correlation</h2><p><strong>CT brain (non-contrast, immediate):</strong> No haemorrhage. Early hyperdense left MCA sign (thromboembolus).</p><p><strong>CT angiogram:</strong> Occlusion of the left middle cerebral artery (M1 segment).</p><p><strong>CT perfusion:</strong> Large ischaemic penumbra (salvageable tissue) in the left MCA territory — approximately 80 mL of core infarct with 150 mL penumbra.</p><p><strong>Anatomical correlation — Internal capsule and motor pathways:</strong></p><ul><li>The <strong>internal capsule</strong> carries <strong>corticospinal (motor) fibres</strong> in its <strong>posterior limb</strong>. A lacunar infarct here alone can cause contralateral <strong>hemiplegia</strong> (pure motor stroke).</li><li>In this patient, the larger MCA territory infarct affects both cortical areas (Broca's, motor cortex, sensory cortex) and subcortical white matter (internal capsule).</li><li><strong>Parkinson's disease correlation:</strong> Degeneration of dopaminergic neurons in the <strong>substantia nigra pars compacta</strong> causes resting tremor, rigidity, and <strong>bradykinesia</strong> — a different pathway (extrapyramidal) from the corticospinal tract affected here.</li></ul>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The patient is within the treatment window (2 hours from onset) with a large vessel occlusion and salvageable penumbra. What is the most appropriate acute management?</p>", "alternatives": [
+          {"text": "IV thrombolysis (alteplase) immediately, followed by mechanical thrombectomy for the M1 occlusion", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Within 4.5 hours of onset, IV alteplase (tPA) is indicated for ischaemic stroke. For large vessel occlusions (M1 MCA) with salvageable penumbra, mechanical thrombectomy (up to 24 hours with favourable imaging) is added. The combined approach — 'drip and ship' or 'drip and retrieve' — has the best outcomes. This patient at 2 hours is well within both windows. Blood pressure must be controlled (<185/110 before thrombolysis).</p>"}},
+          {"text": "Aspirin 300 mg orally and observation — thrombolysis is too risky", "nextContentId": -2, "feedback": {"title": "<p>Undertreatment</p>", "subtitle": "<p>Aspirin alone is insufficient for a major MCA territory stroke with large vessel occlusion within the treatment window. IV thrombolysis and mechanical thrombectomy are the standard of care and dramatically improve outcomes. Aspirin is started after 24 hours post-thrombolysis. The risk-benefit ratio strongly favours active treatment in this scenario.</p>"}},
+          {"text": "Emergency decompressive craniectomy to reduce intracranial pressure", "nextContentId": -3, "feedback": {"title": "<p>Premature</p>", "subtitle": "<p>Decompressive craniectomy is reserved for malignant MCA infarction with life-threatening cerebral oedema, typically developing 24-48 hours after stroke onset. At 2 hours from onset, the priority is reperfusion therapy (IV thrombolysis + mechanical thrombectomy) to salvage the ischaemic penumbra. Craniectomy may be considered later if malignant oedema develops.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The patient receives IV alteplase at 2.5 hours and undergoes successful mechanical thrombectomy of the left M1 occlusion with TICI 3 reperfusion. Within 24 hours, speech production improves significantly — she can produce short phrases. Right arm power improves to 3/5, leg to 4/5. She is started on anticoagulation for atrial fibrillation after 24 hours. At 3-month follow-up, she has mild residual expressive aphasia and good motor recovery.</p><p><strong>Key anatomical points:</strong></p><ul><li>Cranial nerve nuclei: <strong>seven functional columns</strong> (GSE, GVE, SVE, GSA, GVA, SVA, <strong>SSA</strong>)</li><li>Primary motor cortex: <strong>precentral gyrus</strong>; primary somatosensory cortex: <strong>postcentral gyrus</strong></li><li><strong>Broca's area</strong> (frontal, areas 44-45): motor <strong>speech</strong>; <strong>Wernicke's area</strong> (temporal): speech <strong>comprehension</strong></li><li>Internal capsule posterior limb: <strong>corticospinal (motor) fibres</strong> — lacunar infarct → contralateral <strong>hemiplegia</strong></li><li><strong>Substantia nigra</strong> degeneration → Parkinson's disease (resting tremor, rigidity, <strong>bradykinesia</strong>)</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

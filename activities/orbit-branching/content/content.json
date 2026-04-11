@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "AN31.1-5 | Orbit — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Orbit — Extraocular Muscles & Cranial Nerve Palsies</h2>",
+      "startScreenSubtitle": "<p>A 50-year-old diabetic man presents with sudden onset double vision and a drooping eyelid. Work through this case exploring extraocular muscle innervation, cranial nerve palsies, and orbital anatomy.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly identified CN III palsy and demonstrated strong knowledge of extraocular muscle innervation and orbital anatomy.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review LR6 SO4 rest 3, Horner's syndrome triad, and the lacrimal drainage system.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit cranial nerve innervation of extraocular muscles, the annulus of Zinn, and CN III palsy presentation.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A 50-year-old man with poorly controlled diabetes presents with sudden right-sided ptosis and diplopia. On examination, his right eye is deviated <strong>down and out</strong> — the classic position in oculomotor (CN III) palsy due to the unopposed actions of the lateral rectus (CN VI) and superior oblique (CN IV).</p><p>You apply the mnemonic <strong>LR6 SO4 rest 3</strong>: the lateral rectus is supplied by CN VI (abducens), the superior oblique by CN IV (trochlear), and all remaining extraocular muscles by CN III (oculomotor).</p><p>All four recti muscles arise from a common tendinous ring called the <strong>annulus of Zinn</strong>.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The patient's right eye is down and out. In a complete CN III palsy, which muscles are still functioning to produce this position?</p>", "alternatives": [ { "text": "Lateral rectus (CN VI) pulls laterally and superior oblique (CN IV) pulls downward", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Medial rectus (CN III) pulls medially and inferior oblique (CN III) pulls upward", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "Both medial rectus and inferior oblique are supplied by CN III, which is paralysed. The unopposed muscles are lateral rectus (CN VI) and superior oblique (CN IV).", "image": {}, "endScreenScore": 0 } }, { "text": "Superior rectus (CN III) pulls upward and inferior rectus (CN III) pulls downward", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Both superior and inferior recti are supplied by CN III, which is paralysed. The eye deviates down and out due to the unopposed lateral rectus (VI) and superior oblique (IV).", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! Lateral rectus (CN VI) and superior oblique (CN IV) are unopposed, producing the down-and-out position.</p><p>You also examine the left eye and notice a mild ptosis with miosis (constricted pupil) and anhidrosis on the left side — the classic triad of <strong>Horner's syndrome</strong>, suggesting interruption of the sympathetic chain, possibly from a separate pathology.</p><p>You examine the lacrimal system: tears drain from the lacrimal puncta into lacrimal canaliculi, then the lacrimal sac, and finally the <strong>nasolacrimal duct</strong>, which opens into the inferior meatus of the nose.</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The left eye shows ptosis, miosis, and anhidrosis. What is this triad called and what does it indicate?</p>", "alternatives": [ { "text": "Horner's syndrome — indicating disruption of the sympathetic supply to the eye and face", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "CN III palsy — indicating oculomotor nerve damage", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "CN III palsy causes ptosis but with mydriasis (dilated pupil) and eye deviation down-and-out. Ptosis + miosis (constricted pupil) + anhidrosis is Horner's syndrome (sympathetic disruption).", "image": {}, "endScreenScore": 0 } }, { "text": "CN VI palsy — indicating abducens nerve damage", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "CN VI palsy causes inability to abduct the eye, not ptosis or pupillary changes. Ptosis + miosis + anhidrosis = Horner's syndrome (sympathetic chain disruption).", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! Key orbital anatomy points:</p><ul><li><strong>LR6 SO4 rest 3:</strong> Lateral rectus (VI), superior oblique (IV), all others (III)</li><li><strong>CN III palsy:</strong> Eye down and out (unopposed LR + SO), ptosis, mydriasis</li><li><strong>Horner's syndrome:</strong> Ptosis + miosis + anhidrosis (sympathetic disruption)</li><li><strong>Annulus of Zinn:</strong> Common tendinous ring, origin of four recti</li><li><strong>Lacrimal drainage:</strong> Puncta → canaliculi → lacrimal sac → nasolacrimal duct → inferior meatus</li></ul>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

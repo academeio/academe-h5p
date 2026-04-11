@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "AN59.1-4 | Pons — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Pons — Anatomy, Cranial Nerves & Locked-in Syndrome</h2>",
+      "startScreenSubtitle": "<p>A 60-year-old hypertensive man is brought to the emergency department after sudden collapse. He appears conscious but cannot move or speak. Work through this case exploring pontine anatomy and clinical correlations.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly identified locked-in syndrome and demonstrated strong knowledge of pontine anatomy, cranial nerve relationships, and cerebellar connections.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review pontine divisions, facial colliculus formation, and cerebellar peduncles.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit the basis pontis vs tegmentum, CN VI-VII relationship, locked-in syndrome features, and middle cerebellar peduncle anatomy.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A 60-year-old man with uncontrolled hypertension is brought to the ED after sudden collapse. On examination, he is awake and alert — his eyes are open and he appears to follow commands — but he is quadriplegic and anarthric (cannot speak). He can only communicate through <strong>vertical eye</strong> movements and blinking.</p><p>An MRI reveals a massive pontine haemorrhage. This is <strong>locked-in syndrome</strong>: the patient is fully <strong>conscious</strong> but the ventral pons (basis pontis) containing the corticospinal and corticobulbar tracts is destroyed.</p><p>The pons is divided into a ventral part called the <strong>basis pontis</strong> and a dorsal part called the <strong>tegmentum</strong>.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>In locked-in syndrome from pontine haemorrhage, the patient is fully conscious but can only communicate through vertical eye movements. Why is consciousness preserved?</p>", "alternatives": [ { "text": "The reticular activating system in the tegmentum (dorsal pons) is spared, preserving consciousness", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "The cerebral cortex is directly damaged but the brainstem compensates", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "The cerebral cortex is intact in locked-in syndrome. Consciousness is preserved because the tegmentum (dorsal pons) containing the reticular activating system is spared.", "image": {}, "endScreenScore": 0 } }, { "text": "The cerebellum takes over consciousness functions when the pons is damaged", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "The cerebellum does not mediate consciousness. In locked-in syndrome, consciousness is preserved because the tegmentum (containing the reticular activating system) is spared while the ventral basis pontis is destroyed.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! The tegmentum (dorsal pons) containing the reticular activating system is spared.</p><p>On the MRI, you identify key pontine structures. The <strong>facial nerve</strong> (CN VII) fibres loop over the <strong>abducens</strong> (CN VI) nucleus to form the genu of CN VII, creating the facial <strong>colliculus</strong> — a small elevation on the floor of the 4th ventricle.</p><p>The <strong>middle cerebellar peduncle</strong> is the largest peduncle and carries <strong>pontocerebellar</strong> fibres from the pontine nuclei to the cerebellum, forming part of the corticopontocerebellar pathway.</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The facial colliculus is a landmark on the 4th ventricle floor. How is it formed?</p>", "alternatives": [ { "text": "CN VII fibres loop over the CN VI nucleus, creating an elevation called the facial colliculus", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "CN VI fibres loop over the CN VII nucleus to form the colliculus", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "It's the reverse — CN VII (facial) fibres loop around the CN VI (abducens) nucleus, not the other way round. This looping creates the genu of CN VII and the facial colliculus.", "image": {}, "endScreenScore": 0 } }, { "text": "The trigeminal nucleus (CN V) creates the colliculus as it projects into the 4th ventricle", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "The trigeminal nucleus does not form the facial colliculus. It is created by CN VII fibres looping over the CN VI nucleus on the floor of the 4th ventricle.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! Key pontine anatomy:</p><ul><li><strong>Pontine divisions:</strong> Ventral basis pontis (motor tracts) + dorsal tegmentum (reticular formation, cranial nerve nuclei)</li><li><strong>Locked-in syndrome:</strong> Conscious but quadriplegic; communicates via vertical eye movements only</li><li><strong>Facial colliculus:</strong> CN VII fibres loop over CN VI nucleus on 4th ventricle floor</li><li><strong>Middle cerebellar peduncle:</strong> Largest peduncle; carries pontocerebellar fibres to the cerebellum</li></ul>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

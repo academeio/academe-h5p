@@ -1,0 +1,163 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Respiratory Physiology — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>Respiratory Physiology Case</h2>",
+      "startScreenSubtitle": "<p>A 65-year-old smoker presents with progressive breathlessness. Apply your knowledge of lung volumes, gas transport, and ventilatory control to guide clinical management.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You correctly applied respiratory physiology principles including lung volumes, oxygen-haemoglobin dissociation, CO2 transport, and ventilatory control to this COPD case.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "<h2>Partial Understanding</h2>",
+        "endScreenSubtitle": "<p>You showed some knowledge but missed key concepts. Review lung volumes, the oxygen-haemoglobin dissociation curve, and chemoreceptor physiology.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "<h2>Needs Improvement</h2>",
+        "endScreenSubtitle": "<p>Review the fundamentals of respiratory physiology: lung capacities, gas transport mechanisms, and ventilatory control centres.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Case Presentation</h3><p>A 65-year-old man with a 40-pack-year smoking history presents with progressive dyspnoea on exertion over 2 years. He has a barrel-shaped chest and uses accessory muscles of respiration.</p><p><strong>Pulmonary function tests:</strong></p><ul><li>FEV1: 1.2 L (predicted 3.2 L) — 37% predicted</li><li>FVC: 3.0 L (predicted 4.0 L) — 75% predicted</li><li>FEV1/FVC ratio: 0.40 (obstructive pattern)</li><li>Residual volume: Markedly increased</li><li>Total lung capacity: Increased</li></ul><p>Remember: Total lung capacity = vital capacity + residual volume. In emphysema, air trapping increases the residual volume, contributing to hyperinflation.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Case Presentation"}
+        },
+        "contentId": 0,
+        "feedback": {},
+        "nextContentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Arterial blood gas shows PaO2 55 mmHg (low) and PaCO2 50 mmHg (high). Oxygen is transported in blood mainly bound to haemoglobin (98.5%). Which factor shifts the oxygen-haemoglobin dissociation curve to the RIGHT, reducing oxygen affinity?</p>",
+              "alternatives": [
+                {
+                  "text": "Increased CO2, decreased pH, increased temperature, and increased 2,3-DPG — the Bohr effect",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>The rightward shift (Bohr effect) facilitates oxygen unloading at the tissues. In this COPD patient, elevated CO2 and the resulting respiratory acidosis (low pH) shift the curve right, helping deliver oxygen to tissues despite lower PaO2. Increased 2,3-DPG (from chronic hypoxia) further enhances oxygen release.</p>"
+                  }
+                },
+                {
+                  "text": "Decreased temperature and alkalosis — cold tissues need more oxygen",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Decreased temperature and alkalosis shift the curve to the LEFT, increasing haemoglobin's oxygen affinity and making it harder to release oxygen to tissues. The RIGHT shift (increased temperature, acidosis, high CO2, high 2,3-DPG) promotes oxygen unloading — which is what active, metabolising tissues need.</p>"
+                  }
+                },
+                {
+                  "text": "Carbon monoxide binding — it displaces oxygen from haemoglobin",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Partially correct concept, wrong mechanism",
+                    "subtitle": "<p>Carbon monoxide binds haemoglobin with 240x the affinity of oxygen and shifts the curve to the LEFT (not right), making remaining oxygen bind more tightly and harder to release. This is why CO poisoning is so dangerous — it both displaces O2 AND prevents its release at tissues.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Oxygen-Haemoglobin Dissociation"}
+        },
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Ventilatory Control</h3><p>The patient is placed on supplemental oxygen at 2 L/min via nasal cannula. After 30 minutes, he becomes drowsy and his respiratory rate drops from 22 to 10 breaths/min.</p><p><strong>Understanding the ventilatory drive:</strong></p><ul><li>Ventilation is controlled primarily by the <strong>medullary respiratory centre</strong></li><li>The <strong>central chemoreceptors</strong> (medulla) respond to CSF pH changes (driven by CO2)</li><li>The <strong>peripheral chemoreceptors</strong> (carotid body) respond to low PaO2</li></ul><p>In chronic CO2 retention (as in this COPD patient), the central chemoreceptors become desensitised to high CO2. The ventilatory drive becomes dependent on <strong>hypoxic drive</strong> via the carotid body chemoreceptors.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Ventilatory Control"}
+        },
+        "contentId": 2,
+        "feedback": {},
+        "nextContentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Why did high-flow oxygen cause respiratory depression in this COPD patient with chronic CO2 retention?</p>",
+              "alternatives": [
+                {
+                  "text": "Correcting hypoxia removed the hypoxic drive — the only remaining stimulus to breathe, since central chemoreceptors are desensitised to chronic hypercapnia",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>In chronic CO2 retainers, the central chemoreceptors adapt to persistently elevated CO2 and stop responding. The carotid body peripheral chemoreceptors, stimulated by low PaO2, become the primary ventilatory drive. Excessive oxygen therapy removes this hypoxic stimulus, leading to hypoventilation, further CO2 retention, and CO2 narcosis. Target SpO2 88-92% in these patients.</p>"
+                  }
+                },
+                {
+                  "text": "Oxygen is directly toxic to the medullary respiratory centre at high concentrations",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Oxygen toxicity at normal atmospheric pressures does not directly suppress the medullary respiratory centre. The mechanism is loss of hypoxic drive: in chronic CO2 retainers, the central chemoreceptors are desensitised, and breathing depends on the peripheral chemoreceptors sensing hypoxia. Correcting hypoxia removes this drive.</p>"
+                  }
+                },
+                {
+                  "text": "The patient was simply falling asleep from exhaustion, unrelated to oxygen therapy",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>The drowsiness is directly caused by CO2 narcosis from worsening hypercapnia. When excessive oxygen removed the hypoxic ventilatory drive, the patient hypoventilated, CO2 accumulated further, and the rising PaCO2 caused drowsiness progressing to narcosis. This is a well-recognised clinical hazard.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Oxygen-Induced Hypoventilation"}
+        },
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Key Learning Points</h3><ul><li><strong>Total lung capacity:</strong> Vital capacity + residual volume; increased in emphysema due to air trapping</li><li><strong>Oxygen transport:</strong> 98.5% bound to haemoglobin, 1.5% dissolved in plasma</li><li><strong>Right shift of O2-Hb curve:</strong> Increased temperature, CO2, 2,3-DPG, and decreased pH (Bohr effect) — promotes O2 unloading</li><li><strong>CO2 transport:</strong> Bicarbonate (70%), carbaminohaemoglobin (23%), dissolved (7%)</li><li><strong>Ventilatory control:</strong> Medullary respiratory centre; central chemoreceptors (CO2/pH); peripheral chemoreceptors in carotid body (PaO2)</li><li><strong>COPD oxygen therapy:</strong> Target SpO2 88-92% to avoid suppressing the hypoxic drive in chronic CO2 retainers</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Key Learning Points"}
+        },
+        "contentId": 4,
+        "feedback": {},
+        "nextContentId": -1
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Vertebral column — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>Vertebral Column Case</h2>",
+      "startScreenSubtitle": "<p>A 40-year-old man presents with severe low back pain radiating to the leg. Apply your knowledge of vertebral column anatomy, intervertebral discs, and lumbar puncture landmarks to guide diagnosis and management.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You correctly applied vertebral column anatomy including disc prolapse levels, lumbar puncture landmarks, and spinal pathology to manage this case.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "<h2>Partial Understanding</h2>",
+        "endScreenSubtitle": "<p>You showed some knowledge but missed key concepts. Review intervertebral disc anatomy, common prolapse levels, and lumbar puncture technique.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "<h2>Needs Improvement</h2>",
+        "endScreenSubtitle": "<p>Review vertebral column fundamentals: curvatures, disc anatomy, lumbar puncture landmarks, and common spinal pathologies (disc prolapse, Pott's disease, spondylolisthesis).</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Case Presentation</h3><p>A 40-year-old office worker presents with sudden-onset severe low back pain after lifting a heavy box. The pain radiates down the left leg to the foot, worsened by coughing and straining. He has numbness in the lateral aspect of the left foot.</p><p><strong>Examination findings:</strong></p><ul><li>Positive straight leg raise test at 30 degrees on the left</li><li>Diminished ankle reflex on the left</li><li>Weakness of left ankle plantarflexion</li><li>Reduced sensation over the lateral foot (S1 dermatome)</li></ul><p><strong>Key anatomy:</strong> The vertebral column has four curvatures: cervical lordosis, thoracic kyphosis, lumbar lordosis, and sacral kyphosis. The intervertebral disc consists of a central <strong>nucleus pulposus</strong> surrounded by the <strong>annulus fibrosus</strong>.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Case Presentation"}
+        },
+        "contentId": 0,
+        "feedback": {},
+        "nextContentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>The patient has S1 radiculopathy (ankle reflex loss, plantarflexion weakness, lateral foot numbness). The L4-L5 and L5-S1 discs account for 90% of symptomatic disc prolapses. Which disc level is most likely affected?</p>",
+              "alternatives": [
+                {
+                  "text": "L5-S1 disc prolapse compressing the S1 nerve root",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>A posterolateral L5-S1 disc prolapse compresses the S1 nerve root (which exits below the S1 pedicle). S1 radiculopathy causes: absent ankle jerk, weakness of plantarflexion (gastrocnemius/soleus), and numbness in the S1 dermatome (lateral foot, sole, posterior calf). The L4-L5 and L5-S1 levels account for ~90% of symptomatic disc herniations.</p>"
+                  }
+                },
+                {
+                  "text": "L3-L4 disc prolapse compressing the L4 nerve root",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>L4 radiculopathy would cause diminished knee jerk (not ankle jerk), weakness of ankle dorsiflexion and knee extension, and numbness in the medial leg — not the lateral foot. The clinical findings here (lost ankle reflex, weak plantarflexion, lateral foot numbness) point to S1 involvement from an L5-S1 disc prolapse.</p>"
+                  }
+                },
+                {
+                  "text": "L4-L5 disc prolapse compressing the L5 nerve root",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Close, but not the best answer",
+                    "subtitle": "<p>L5 radiculopathy causes weakness of great toe extension (EHL) and ankle dorsiflexion, with numbness on the dorsum of the foot — but the ankle reflex is preserved. This patient has a lost ankle reflex and weak plantarflexion, which is S1, not L5. The L5-S1 disc is compressing the S1 root.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Disc Prolapse Level"}
+        },
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Lumbar Puncture Considerations</h3><p>The patient is stable and improving with conservative management. However, if a diagnostic lumbar puncture were needed, understanding the landmarks is critical.</p><p><strong>Lumbar puncture anatomy:</strong></p><ul><li>The spinal cord ends at <strong>L1-L2</strong> (conus medullaris) in adults</li><li>The needle is inserted at the <strong>L3-L4 or L4-L5 interspace</strong> — below the cord termination</li><li>The intercristal line (connecting the iliac crests) marks the <strong>L4 spinous process or L4-L5 interspace</strong></li><li>The needle passes through: skin → subcutaneous tissue → supraspinous ligament → interspinous ligament → <strong>ligamentum flavum</strong> (produces a characteristic 'pop') → epidural space → dura → arachnoid → subarachnoid space</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Lumbar Puncture Anatomy"}
+        },
+        "contentId": 2,
+        "feedback": {},
+        "nextContentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Why is lumbar puncture performed at L3-L4 or L4-L5, and not at a higher level?</p>",
+              "alternatives": [
+                {
+                  "text": "Because the spinal cord ends at L1-L2 — puncture below this level enters the cauda equina (nerve roots floating in CSF), avoiding cord damage",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>The spinal cord (conus medullaris) terminates at L1-L2 in adults. Below this level, only the cauda equina (nerve roots) and filum terminale are present, floating in CSF. A needle at L3-L4 or L4-L5 can safely enter the subarachnoid space to sample CSF without risking spinal cord injury. The nerve roots are pushed aside by the needle rather than being damaged.</p>"
+                  }
+                },
+                {
+                  "text": "Because the interspinous spaces are wider at L3-L4, making needle insertion technically easier",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Partially correct but missing the key reason",
+                    "subtitle": "<p>While the lumbar interspinous spaces are relatively wide (especially in flexion), the primary reason for choosing L3-L4 or below is safety — the spinal cord ends at L1-L2. Puncture above this level risks cord injury. The wider spaces are a secondary advantage, not the primary indication for this level.</p>"
+                  }
+                },
+                {
+                  "text": "Because CSF is only present in the lumbar subarachnoid space, not at higher levels",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>CSF fills the entire subarachnoid space from the brain to approximately S2. It is present at all spinal levels. The reason for choosing L3-L4 or L4-L5 is that the spinal cord ends at L1-L2 — puncture below this level avoids cord damage while still accessing CSF in the lumbar cistern.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Lumbar Puncture Level"}
+        },
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Key Learning Points</h3><ul><li><strong>Vertebral curvatures:</strong> Four in sagittal plane — cervical lordosis, thoracic kyphosis, lumbar lordosis, sacral kyphosis; primary (thoracic/sacral) present at birth</li><li><strong>Intervertebral disc:</strong> Central nucleus pulposus + surrounding annulus fibrosus; L4-L5 and L5-S1 account for 90% of symptomatic prolapses</li><li><strong>Lumbar puncture:</strong> L3-L4 or L4-L5 interspace; cord ends at L1-L2; ligamentum flavum produces the 'pop'</li><li><strong>Spondylolisthesis:</strong> Anterior slipping of one vertebra over another, most commonly L4 over L5</li><li><strong>Pott's disease:</strong> Tuberculosis of the spine — most common cause of spinal cord compression in India</li><li><strong>Cervical vertebrae:</strong> Unique transverse foramina transmitting vertebral arteries</li><li><strong>Sacroiliac joint:</strong> Affected in ankylosing spondylitis (HLA-B27 associated)</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Key Learning Points"}
+        },
+        "contentId": 4,
+        "feedback": {},
+        "nextContentId": -1
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

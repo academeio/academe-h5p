@@ -1,0 +1,147 @@
+{
+  "branchingScenario": {
+    "title": "PBL: General Features of lymphatic system — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Swollen Leg in Coastal Tamil Nadu</strong></p>",
+      "startScreenSubtitle": "<p>A 35-year-old fisherman from Cuddalore, Tamil Nadu presents with progressive swelling of his right leg over the past 2 years. The swelling is non-pitting and the skin has become thickened and rugose. You need to understand the lymphatic system to diagnose and manage this case.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified lymphatic filariasis (Wuchereria bancrofti) causing secondary lymphoedema/elephantiasis, understood the thoracic duct drainage pattern, the role of lacteals in fat absorption, and lymphatic capillary structure. Excellent regional clinical awareness.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>Review the lymphatic system: thoracic duct vs right lymphatic duct drainage, lacteals and chylomicron absorption, lymphatic capillary structure (discontinuous basement membrane), and causes of secondary lymphoedema including filariasis in coastal Tamil Nadu.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review lymphatic system anatomy: thoracic duct drainage, right lymphatic duct, lacteals, lymphatic capillary structure, daily fluid turnover (~3 litres), and Wuchereria bancrofti causing elephantiasis.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 35-year-old fisherman from Cuddalore district, coastal Tamil Nadu, presents with:</p><ul><li>Progressive non-pitting swelling of the right leg — started at the ankle 2 years ago, now extends to the thigh</li><li>The skin has become thick, rough, and verrucous (\"elephant skin\")</li><li>Recurrent episodes of fever with red streaks on the leg (acute adenolymphangitis)</li><li>Inability to wear shoes or walk long distances</li></ul><p><strong>On examination:</strong></p><ul><li>Right lower limb: massive non-pitting oedema, skin thickening (pachyderma)</li><li>Circumference: Right thigh 65 cm, Left thigh 48 cm</li><li>Inguinal lymph nodes: enlarged, firm, non-tender</li><li>Left lower limb: normal</li><li>No cardiac, hepatic, or renal causes of oedema found</li></ul><p>Approximately <strong>3 litres</strong> of fluid per day leaks from blood capillaries into the interstitium and must be returned by the lymphatic system. The <strong>thoracic duct</strong> drains lymph from the entire body except the right side of the head, neck, and right upper limb.</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Given the coastal Tamil Nadu location, progressive non-pitting oedema, and recurrent fever episodes, what is the most likely diagnosis?</p>",
+              "alternatives": [
+                {
+                  "text": "Lymphatic filariasis (Wuchereria bancrofti) causing elephantiasis",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Secondary lymphoedema in coastal Tamil Nadu is commonly caused by Wuchereria bancrofti infection, leading to elephantiasis. The adult worms lodge in lymphatic vessels and lymph nodes, causing chronic inflammation, fibrosis, and obstruction of lymphatic drainage. The recurrent febrile episodes (acute adenolymphangitis) are characteristic of filarial attacks.</p>"
+                  }
+                },
+                {
+                  "text": "Deep vein thrombosis with post-thrombotic syndrome",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Less likely</p>",
+                    "subtitle": "<p>DVT-related oedema is typically pitting (at least initially) and does not cause the skin thickening (pachyderma) seen in lymphoedema. The coastal location, recurrent febrile episodes, and non-pitting nature all point to filarial lymphoedema rather than venous disease.</p>"
+                  }
+                },
+                {
+                  "text": "Congestive heart failure",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Cardiac oedema is typically bilateral, pitting, and associated with other signs of heart failure (dyspnoea, raised JVP, hepatomegaly). This patient has unilateral non-pitting oedema with skin thickening — indicating lymphatic obstruction, not cardiac failure.</p>"
+                  }
+                },
+                {
+                  "text": "Primary lymphoedema (congenital)",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Unlikely given the age and location</p>",
+                    "subtitle": "<p>Primary lymphoedema (Milroy's disease) presents at birth or early life. This patient developed symptoms at age 33 in a filariasis-endemic area (coastal Tamil Nadu), making secondary lymphoedema from Wuchereria bancrofti far more likely.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Investigation Results</h2><p>Investigations confirm <strong>lymphatic filariasis</strong>:</p><ul><li>Peripheral blood smear (collected at midnight): <strong>microfilariae of Wuchereria bancrofti detected</strong></li><li>Filarial antigen test (ICT card): <strong>Positive</strong></li><li>Lymphoscintigraphy: Obstruction of lymphatic drainage in right inguinal region</li></ul><p><strong>Lymphatic anatomy reviewed:</strong></p><ul><li>The <strong>thoracic duct</strong> drains lymph from the entire body except the right upper quadrant (right head, neck, right upper limb) — which drains via the <strong>right lymphatic duct</strong></li><li>Specialised lymphatic capillaries in intestinal villi called <strong>lacteals</strong> absorb dietary fats as <strong>chylomicrons</strong></li><li>Lymphatic capillaries have overlapping endothelial cells with no tight junctions and a <strong>discontinuous basement membrane</strong> — unlike blood capillaries, allowing easy entry of fluid, proteins, and even cells</li></ul><p>How should this patient be managed?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the most appropriate management for this patient with filarial elephantiasis?</p>",
+              "alternatives": [
+                {
+                  "text": "DEC (diethylcarbamazine) + albendazole + limb care (elevation, compression, skin hygiene)",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>DEC (diethylcarbamazine) kills microfilariae and some adult worms. Albendazole has synergistic antifilarial action. Limb care is essential: meticulous skin hygiene prevents secondary bacterial infections (which worsen the lymphoedema), compression bandaging reduces swelling, and elevation aids drainage. Established elephantiasis has irreversible fibrotic changes, so management is aimed at preventing progression.</p>"
+                  }
+                },
+                {
+                  "text": "Diuretics to reduce the swelling",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Ineffective</p>",
+                    "subtitle": "<p>Diuretics reduce fluid overload in cardiac and renal conditions but do NOT treat lymphoedema. Lymphoedema is caused by lymphatic obstruction (here by filarial worms), not fluid overload. The protein-rich lymphatic fluid cannot be mobilised by diuretics, and their use may worsen dehydration without reducing the swelling.</p>"
+                  }
+                },
+                {
+                  "text": "Surgical amputation of the affected limb",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Not indicated</p>",
+                    "subtitle": "<p>Amputation is never a first-line treatment for elephantiasis. Debulking surgery (Charles procedure) may be considered in extreme cases for cosmetic and functional improvement, but the primary treatment is antiparasitic medication combined with limb care. Most patients improve significantly with conservative management.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Teaching Points</h2><p>Treatment prescribed:</p><ul><li><strong>DEC 6 mg/kg/day</strong> for 12 days + <strong>Albendazole 400 mg</strong> single dose</li><li><strong>Limb care program</strong>: daily washing with soap, elevation at night, compression bandaging during the day, antifungal cream for interdigital infections</li><li><strong>Prevention</strong>: use of bed nets (mosquito-borne transmission via Culex mosquitoes)</li></ul><p><strong>Key Lymphatic System Concepts:</strong></p><ul><li><strong>Thoracic duct</strong>: drains entire body except right head, neck, and right upper limb</li><li><strong>Right lymphatic duct</strong>: drains the right upper quadrant</li><li>~<strong>3 litres/day</strong> of interstitial fluid returned by lymphatics</li><li><strong>Lacteals</strong>: absorb dietary fats as chylomicrons in intestinal villi</li><li>Lymphatic capillaries: <strong>discontinuous basement membrane</strong>, no tight junctions</li><li>Secondary lymphoedema in coastal Tamil Nadu: <strong>Wuchereria bancrofti</strong> → elephantiasis</li></ul>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

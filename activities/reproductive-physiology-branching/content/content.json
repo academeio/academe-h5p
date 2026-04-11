@@ -1,0 +1,171 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Reproductive Physiology — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>Reproductive Physiology Case</h2>",
+      "startScreenSubtitle": "<p>A 28-year-old woman presents with secondary amenorrhoea. Apply your knowledge of the menstrual cycle, hormonal regulation, and gonadal function to guide the diagnostic workup.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You correctly applied reproductive physiology principles including the menstrual cycle phases, LH surge, and hormonal regulation to reach the diagnosis.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "<h2>Partial Understanding</h2>",
+        "endScreenSubtitle": "<p>You demonstrated some knowledge but missed key hormonal relationships. Review the menstrual cycle phases, ovulation triggers, and feedback mechanisms.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "<h2>Needs Improvement</h2>",
+        "endScreenSubtitle": "<p>Review the fundamentals: menstrual cycle phases, LH/FSH roles, corpus luteum function, and mechanisms of hormonal contraception.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Case Presentation</h3><p>A 28-year-old woman presents with absence of menstruation for the past 4 months. She has regular cycles previously (28-day cycle). She is not pregnant (urine hCG negative). She reports recent significant weight loss and high stress levels.</p><p><strong>Hormonal profile:</strong></p><ul><li>FSH: 1.2 mIU/mL (low)</li><li>LH: 0.8 mIU/mL (low)</li><li>Oestradiol: 15 pg/mL (low)</li><li>Prolactin: Normal</li><li>TSH: Normal</li></ul><p>In a normal 28-day cycle, the <strong>follicular phase</strong> (days 1-14) is dominated by oestrogen from developing follicles, <strong>ovulation</strong> occurs on day 14 triggered by the LH surge, and the <strong>luteal phase</strong> (days 15-28) is dominated by progesterone from the corpus luteum.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Case Presentation"}
+        },
+        "contentId": 0,
+        "feedback": {},
+        "nextContentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>The patient has low FSH, low LH, and low oestradiol. At which level of the hypothalamic-pituitary-gonadal axis is the problem?</p>",
+              "alternatives": [
+                {
+                  "text": "Hypothalamic — stress and weight loss have suppressed GnRH pulsatility, causing hypogonadotropic hypogonadism",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>Low FSH and LH with low oestradiol indicates hypogonadotropic hypogonadism — the hypothalamus is not producing adequate GnRH pulses. Functional hypothalamic amenorrhoea is caused by stress, weight loss, or excessive exercise suppressing GnRH via increased CRH and cortisol.</p>"
+                  }
+                },
+                {
+                  "text": "Ovarian — primary ovarian failure causing low oestrogen",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>In primary ovarian failure (e.g., premature ovarian insufficiency), the ovaries fail to produce oestrogen, but FSH and LH would be elevated (hypergonadotropic hypogonadism) due to loss of negative feedback. This patient has LOW gonadotropins, pointing to a hypothalamic-pituitary problem.</p>"
+                  }
+                },
+                {
+                  "text": "Uterine — Asherman's syndrome with endometrial scarring",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Asherman's syndrome causes amenorrhoea due to intrauterine adhesions, but the hormonal profile would be normal (normal FSH, LH, and oestradiol) because the hypothalamic-pituitary-ovarian axis is intact. This patient has abnormally low hormones.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Localise the Lesion"}
+        },
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Understanding the Mechanism</h3><p>In functional hypothalamic amenorrhoea, the absence of pulsatile GnRH means:</p><ul><li>No FSH → no follicular development → no oestrogen production</li><li>No LH surge → no ovulation</li><li>No corpus luteum formation → no progesterone</li><li>No endometrial shedding → amenorrhoea</li></ul><p>The <strong>LH surge</strong> is the critical trigger for ovulation. It requires adequate oestrogen levels (positive feedback) sustained for 36-48 hours to switch the hypothalamic response from negative to positive feedback.</p><p><strong>Treatment options</strong> include addressing the underlying cause (nutrition, stress management) or hormonal therapy if fertility is desired.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Pathophysiology"}
+        },
+        "contentId": 2,
+        "feedback": {},
+        "nextContentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>The patient asks about contraception once her cycles resume. The combined oral contraceptive pill (COCP) prevents pregnancy primarily by which mechanism?</p>",
+              "alternatives": [
+                {
+                  "text": "Inhibiting the LH surge, thereby preventing ovulation",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>The COCP contains synthetic oestrogen and progesterone that suppress gonadotropin release via negative feedback on the hypothalamus and pituitary. The primary mechanism is prevention of the mid-cycle LH surge, which is essential for ovulation. Secondary mechanisms include cervical mucus thickening and endometrial thinning.</p>"
+                  }
+                },
+                {
+                  "text": "Directly destroying the oocyte within the follicle",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>The COCP does not destroy oocytes. It works by suppressing the hypothalamic-pituitary axis, primarily preventing the LH surge needed for ovulation. The oocytes remain viable within primordial follicles, which is why fertility returns after stopping the pill.</p>"
+                  }
+                },
+                {
+                  "text": "Stimulating excessive FSH to cause premature follicular atresia",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>The COCP actually suppresses FSH (not stimulates it) through negative feedback from the exogenous oestrogen and progesterone. This prevents follicular development. Without a dominant follicle, there is no LH surge and no ovulation.</p>"
+                  }
+                },
+                {
+                  "text": "Blocking progesterone receptors on the endometrium only",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Progesterone receptor antagonists (like mifepristone) work this way, but the COCP provides exogenous progesterone — it does not block progesterone receptors. The COCP's primary action is at the hypothalamic-pituitary level, suppressing the LH surge and preventing ovulation.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Contraceptive Mechanism"}
+        },
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Key Learning Points</h3><ul><li><strong>Menstrual cycle phases:</strong> Follicular/menstrual (days 1-14, oestrogen dominant), ovulation (day 14, LH surge), luteal/secretory (days 15-28, progesterone from corpus luteum)</li><li><strong>LH surge:</strong> Triggered by sustained high oestradiol (positive feedback); essential for ovulation and corpus luteum formation</li><li><strong>SRY gene:</strong> On Y chromosome; directs gonadal differentiation into testis</li><li><strong>Testosterone:</strong> Produced by Leydig (interstitial) cells under LH; Sertoli cells support spermatogenesis under FSH</li><li><strong>COCP mechanism:</strong> Suppresses LH surge (prevents ovulation) via negative feedback from exogenous oestrogen + progesterone</li><li><strong>Hypothalamic amenorrhoea:</strong> Low GnRH → low FSH/LH → low oestrogen → anovulation; caused by stress, weight loss, excessive exercise</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Key Learning Points"}
+        },
+        "contentId": 4,
+        "feedback": {},
+        "nextContentId": -1
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

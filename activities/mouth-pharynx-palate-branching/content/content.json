@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "AN36.1-7 | Mouth, Pharynx & Palate — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Oral Cavity, Pharynx & Palate — Clinical Anatomy</h2>",
+      "startScreenSubtitle": "<p>A 62-year-old man presents with difficulty swallowing and regurgitation of undigested food. Work through this case exploring the anatomy of the tongue, pharynx, and related structures.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly identified the anatomical basis of Zenker's diverticulum and demonstrated strong knowledge of tongue innervation and pharyngeal anatomy.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review tongue innervation, Killian's dehiscence, and Waldeyer's ring.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit cranial nerve supply to the tongue, pharyngeal constrictors, and the lymphoid ring of the pharynx.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A 62-year-old man presents with progressive dysphagia over 6 months. He reports regurgitation of undigested food several hours after eating, halitosis, and a gurgling sensation in his neck. A barium swallow reveals a posterior pharyngeal pouch — a <strong>Zenker's diverticulum</strong>.</p><p>You recall that this herniates through <strong>Killian's dehiscence</strong>, the weak area between the two parts of the <strong>inferior pharyngeal constrictor</strong> muscle. The motor supply to the pharyngeal constrictors is provided by the <strong>vagus</strong> nerve (CN X) via the pharyngeal plexus.</p><p>On examination, his tongue movements appear normal. The primary protrusor of the tongue is the <strong>genioglossus</strong> muscle.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>During examination, you test tongue sensation. Which nerve carries general sensation from the anterior two-thirds of the tongue, and which nerve carries taste from the same region?</p>", "alternatives": [ { "text": "Lingual nerve (CN V3) for general sensation; chorda tympani (CN VII) for taste", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Glossopharyngeal nerve (CN IX) for both general sensation and taste", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "CN IX supplies both sensation and taste, but to the posterior one-third. The anterior two-thirds receives general sensation from the lingual nerve (V3) and taste from the chorda tympani (VII).", "image": {}, "endScreenScore": 0 } }, { "text": "Hypoglossal nerve (CN XII) for general sensation; vagus (CN X) for taste", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "CN XII is purely motor (supplies all tongue muscles except palatoglossus). The lingual nerve (V3) provides general sensation and the chorda tympani (VII) carries taste from the anterior two-thirds.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! The lingual nerve (V3) provides general sensation and the chorda tympani (VII) carries taste from the anterior two-thirds of the tongue.</p><p>You note the patient also has enlarged tonsils. The ring of lymphoid tissue at the pharyngeal entrance is called <strong>Waldeyer's lymphatic ring</strong>, comprising the palatine, pharyngeal (adenoid), tubal, and lingual tonsils.</p><p>The parotid duct (Stensen's duct) opens into the vestibule opposite the upper <strong>second molar</strong> tooth. On examination, saliva flow from this duct is normal.</p><p>The soft palate contains <strong>five</strong> muscles that control its movement during swallowing and speech.</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The patient requires surgery for his Zenker's diverticulum. Which nerve supplies all intrinsic and extrinsic muscles of the tongue (with one exception), and what is that exception?</p>", "alternatives": [ { "text": "Hypoglossal nerve (CN XII) supplies all tongue muscles except palatoglossus (supplied by CN X)", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Glossopharyngeal nerve (CN IX) supplies all tongue muscles except genioglossus", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "CN IX provides sensation and taste to the posterior third of the tongue but is not motor to tongue muscles. The hypoglossal nerve (XII) supplies all tongue muscles except palatoglossus.", "image": {}, "endScreenScore": 0 } }, { "text": "Vagus nerve (CN X) supplies all tongue muscles except styloglossus", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "CN X supplies the pharyngeal constrictors and palatoglossus. The hypoglossal nerve (CN XII) supplies all other intrinsic and extrinsic tongue muscles.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! Key anatomical points from this case:</p><ul><li><strong>Tongue sensation:</strong> Anterior 2/3 — lingual nerve (V3) general, chorda tympani (VII) taste; Posterior 1/3 — glossopharyngeal (IX) both</li><li><strong>Tongue motor:</strong> Hypoglossal (XII) all muscles except palatoglossus (CN X)</li><li><strong>Genioglossus:</strong> Primary tongue protrusor</li><li><strong>Zenker's diverticulum:</strong> Herniates through Killian's dehiscence in the inferior constrictor</li><li><strong>Waldeyer's ring:</strong> Lymphoid tissue ring at pharyngeal entrance</li><li><strong>Parotid duct:</strong> Opens opposite upper 2nd molar</li></ul>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

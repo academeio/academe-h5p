@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "AN9.1-3 | Pectoral region — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Pectoral Muscles, Breast Anatomy & Lymphatic Drainage</h2>",
+      "startScreenSubtitle": "<p>A 52-year-old woman presents with a lump in her right breast. Work through this case exploring pectoral muscle anatomy, breast lymphatic drainage, and nerve supply.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly identified pectoral anatomy, breast lymphatic drainage, and nerve supply relevant to mastectomy surgery.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review pectoralis major insertion, pectoralis minor, and breast lymphatic drainage.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit the three heads of pectoralis major, its insertion, nerve supply, and the predominant lymphatic drainage route of the breast.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A 52-year-old woman presents with a 3-cm firm, non-tender lump in the upper outer quadrant of her right breast. There is skin dimpling and peau d'orange. Axillary lymph nodes are palpable.</p><p>You consider the anatomy of the pectoral region. Pectoralis major has three heads of origin: the <strong>clavicular</strong> head, the <strong>sternocostal</strong> head, and the abdominal head. All three heads converge to insert on the lateral lip of the <strong>bicipital groove</strong> (intertubercular sulcus) of the humerus.</p><p>Deep to pectoralis major lies pectoralis minor, which inserts on the <strong>coracoid</strong> process of the scapula.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The patient has palpable axillary lymph nodes. What is the most common route of lymphatic drainage of the breast, and what percentage does it carry?</p>", "alternatives": [ { "text": "Axillary lymph nodes — receiving about 75% of breast lymphatic drainage", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Internal mammary (parasternal) nodes — receiving about 75% of drainage", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "Internal mammary nodes receive some drainage (especially from medial quadrants), but the dominant route is via the axillary lymph nodes, which receive approximately 75% of breast drainage.", "image": {}, "endScreenScore": 0 } }, { "text": "Supraclavicular nodes — receiving about 75% of drainage", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Supraclavicular nodes are involved in advanced disease. The most common route of breast lymphatic drainage is to the axillary lymph nodes (~75%).", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! Approximately 75% of breast lymph drains to the axillary nodes.</p><p>The patient is scheduled for modified radical mastectomy. The surgeon must carefully preserve the nerve supply to the pectoral muscles:</p><ul><li>The clavicular head of pectoralis major is supplied by the <strong>lateral pectoral</strong> nerve</li><li>The sternocostal head receives supply from both the lateral and <strong>medial pectoral</strong> nerves</li></ul><p>During axillary dissection, care is also taken to preserve the long thoracic nerve (to serratus anterior) and the thoracodorsal nerve (to latissimus dorsi).</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>During surgery, the surgeon identifies pectoralis minor deep to pectoralis major. Where does pectoralis minor insert?</p>", "alternatives": [ { "text": "The coracoid process of the scapula", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "The lateral lip of the bicipital groove of the humerus", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "The bicipital groove (intertubercular sulcus) is the insertion of pectoralis major, not minor. Pectoralis minor inserts on the coracoid process of the scapula.", "image": {}, "endScreenScore": 0 } }, { "text": "The acromion process of the scapula", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "The acromion is the insertion point for parts of the deltoid and trapezius. Pectoralis minor inserts on the coracoid process of the scapula.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! Key pectoral region anatomy:</p><ul><li><strong>Pectoralis major:</strong> 3 heads (clavicular, sternocostal, abdominal) → inserts on lateral lip of bicipital groove</li><li><strong>Pectoralis minor:</strong> Deep to pec major → inserts on coracoid process</li><li><strong>Nerve supply:</strong> Lateral pectoral nerve (clavicular head), both lateral and medial pectoral nerves (sternocostal)</li><li><strong>Breast lymphatics:</strong> ~75% drain to axillary nodes</li></ul>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

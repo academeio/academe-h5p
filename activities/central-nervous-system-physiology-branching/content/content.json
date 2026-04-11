@@ -1,0 +1,62 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Central Nervous System Physiology — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Trembling Mechanic</strong></p>",
+      "startScreenSubtitle": "<p>A 58-year-old auto mechanic presents to the neurology clinic with a 1-year history of progressively worsening resting tremor in his right hand, difficulty initiating movements, and a shuffling gait. His wife reports that his facial expression has become 'mask-like'. Vitals are normal. You are the neurology registrar evaluating him.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified Parkinson's disease with dopamine depletion in the substantia nigra, understood the basal ganglia circuitry, applied the concepts of UMN vs LMN lesions, and chose appropriate dopaminergic therapy. Your knowledge of CNS physiology including the thalamus, hypothalamus, and pain pathways was thorough.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified Parkinson's features but missed some physiological concepts. Review the role of the basal ganglia, dopamine pathways, UMN vs LMN lesion patterns, the reticular activating system, and the Gate Control Theory of pain.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review CNS physiology: the functional hierarchy of the brain, thalamus as relay station, hypothalamus as homeostatic regulator, UMN vs LMN lesions, basal ganglia function, Wernicke's area, and Brown-Sequard syndrome.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Neurological Examination</h2><p>On detailed neurological examination:</p><ul><li><strong>Tremor:</strong> 4-5 Hz resting tremor in the right hand (pill-rolling type). Tremor decreases with intentional movement.</li><li><strong>Rigidity:</strong> Lead-pipe rigidity in the right upper and lower limbs with cogwheel phenomenon at the wrist</li><li><strong>Bradykinesia:</strong> Slow finger tapping, reduced arm swing on the right, difficulty with rapid alternating movements</li><li><strong>Gait:</strong> Short shuffling steps, reduced arm swing, stooped posture, festinating gait</li><li><strong>Face:</strong> Hypomimia (mask-like face), reduced blink rate</li><li><strong>Power:</strong> Normal (5/5) in all limbs — no weakness</li><li><strong>Reflexes:</strong> Normal (no hyperreflexia or clonus — ruling out UMN lesion)</li></ul><p><strong>Physiological context:</strong> The <strong>thalamus</strong> acts as the relay station for all sensory signals (except smell). The <strong>hypothalamus</strong> is the master regulator of homeostasis. The basal ganglia (including the substantia nigra) modulate voluntary movement through complex circuitry involving dopaminergic pathways.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The clinical triad of resting tremor, rigidity, and bradykinesia is characteristic of Parkinson's disease. What is the underlying neurochemical deficiency?</p>", "alternatives": [
+          {"text": "Depletion of dopamine in the substantia nigra of the basal ganglia, disrupting the nigrostriatal pathway", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Parkinson's disease results from progressive degeneration of dopaminergic neurons in the substantia nigra pars compacta. This depletes dopamine in the nigrostriatal pathway, causing an imbalance between the direct (facilitatory) and indirect (inhibitory) pathways of the basal ganglia. The result is excessive inhibition of the thalamus, leading to reduced motor cortex activation — manifesting as bradykinesia, rigidity, and resting tremor.</p>"}},
+          {"text": "Excess acetylcholine in the cerebral cortex causing overstimulation of motor pathways", "nextContentId": -2, "feedback": {"title": "<p>Partially relevant but not the primary cause</p>", "subtitle": "<p>While there is a relative excess of cholinergic activity in Parkinson's (due to dopamine depletion), the primary deficiency is dopamine in the substantia nigra. The dopamine-acetylcholine imbalance in the striatum is secondary to dopamine loss, not primary cholinergic excess.</p>"}},
+          {"text": "Serotonin deficiency in the raphe nuclei causing disrupted motor planning", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Serotonin deficiency is primarily associated with depression and mood disorders, not the motor syndrome of Parkinson's disease. The cardinal features of Parkinson's (tremor, rigidity, bradykinesia) are caused by dopamine depletion in the substantia nigra of the basal ganglia.</p>"}},
+          {"text": "GABA deficiency in the cerebellum causing loss of motor coordination", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Cerebellar lesions cause intention tremor, dysmetria, and ataxia — not the resting tremor and rigidity of Parkinson's disease. Parkinson's is a basal ganglia disorder caused by dopamine depletion in the substantia nigra.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Diagnostic Workup and Differential Diagnosis</h2><p><strong>MRI brain:</strong> No structural lesion, no hydrocephalus, no vascular parkinsonism features. Mild nigral volume loss.</p><p><strong>DaTscan (dopamine transporter SPECT):</strong> Reduced dopamine transporter uptake in the right putamen (contralateral to the predominantly affected left-sided symptoms) — consistent with early Parkinson's disease.</p><p><strong>Key CNS physiology concepts in differential diagnosis:</strong></p><ul><li><strong>UMN vs LMN lesions:</strong> UMN lesions cause spastic paralysis with hyperreflexia; LMN lesions cause flaccid paralysis with hyporeflexia. This patient has neither — Parkinson's is an extrapyramidal (basal ganglia) disorder.</li><li><strong>Reticular activating system:</strong> Maintains consciousness and wakefulness. Not affected in early Parkinson's, but sleep disturbance is common as the disease progresses.</li><li><strong>Wernicke's area</strong> in the superior temporal gyrus is responsible for language comprehension — not affected in Parkinson's (speech becomes hypophonic but comprehension is preserved).</li><li><strong>Brown-Sequard syndrome</strong> (spinal cord hemisection) causes ipsilateral motor loss and contralateral pain/temperature loss — a different neurological pattern entirely.</li></ul>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Given the diagnosis of early Parkinson's disease in a 58-year-old functionally impaired patient, what is the most appropriate initial pharmacotherapy?</p>", "alternatives": [
+          {"text": "Levodopa-carbidopa combination — the gold standard for motor symptom control in Parkinson's disease", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Levodopa (a dopamine precursor) combined with carbidopa (a peripheral decarboxylase inhibitor) is the most effective treatment for motor symptoms of Parkinson's disease. Levodopa crosses the blood-brain barrier and is converted to dopamine in the remaining nigrostriatal neurons. Carbidopa prevents peripheral conversion, reducing side effects and increasing CNS availability. In a 58-year-old with functional impairment, levodopa is first-line.</p>"}},
+          {"text": "High-dose anticholinergic medication (trihexyphenidyl) to reduce the relative cholinergic excess", "nextContentId": -2, "feedback": {"title": "<p>Not first-line</p>", "subtitle": "<p>Anticholinergics may help tremor-predominant Parkinson's in younger patients, but they have significant side effects (confusion, urinary retention, constipation, dry mouth) particularly problematic in older patients. Levodopa-carbidopa is the gold standard for motor symptom control and should be first-line in a 58-year-old with bradykinesia and gait disturbance.</p>"}},
+          {"text": "Deep brain stimulation of the subthalamic nucleus as initial treatment", "nextContentId": -3, "feedback": {"title": "<p>Incorrect as initial treatment</p>", "subtitle": "<p>Deep brain stimulation (DBS) is reserved for patients with advanced Parkinson's disease who develop motor fluctuations and dyskinesias despite optimised medical therapy. It is not appropriate as initial treatment. The standard first-line treatment is levodopa-carbidopa.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The patient is started on levodopa-carbidopa 100/25 mg three times daily. At 6-week follow-up, there is significant improvement in bradykinesia, rigidity, and tremor. His gait has improved and his wife notes better facial expressivity. He is able to continue working as a mechanic.</p><p><strong>Key CNS physiology points:</strong></p><ul><li>The brain contains approximately <strong>86 billion neurons</strong></li><li>The <strong>thalamus</strong> relays all sensory signals (except smell) to the cerebral cortex</li><li>The <strong>hypothalamus</strong> is the master regulator of homeostasis</li><li><strong>UMN lesions</strong>: spastic paralysis + hyperreflexia; <strong>LMN lesions</strong>: flaccid paralysis + hyporeflexia</li><li>The <strong>reticular activating system</strong> maintains consciousness and wakefulness</li><li><strong>Parkinson's disease</strong>: dopamine depletion in the <strong>substantia nigra</strong></li><li><strong>Gate Control Theory:</strong> large-diameter A-beta fibres inhibit pain transmission by small C fibres</li><li><strong>Wernicke's area</strong> (superior temporal gyrus): language comprehension</li><li><strong>Brown-Sequard syndrome</strong>: spinal cord hemisection → ipsilateral motor + contralateral pain/temperature loss</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

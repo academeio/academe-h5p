@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "AN40.1-5 | Organs of hearing and equilibrium — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Ear Anatomy — External, Middle & Inner Ear</h2>",
+      "startScreenSubtitle": "<p>A 6-year-old child presents with ear pain and hearing loss following recurrent otitis media. Work through this case exploring the anatomy of the ear, otoscopy technique, and the organs of hearing and equilibrium.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly identified ear anatomy, otoscopy technique, and the functional organisation of the inner ear.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review the ossicular chain, myringotomy site, and cochlea vs semicircular canal function.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit EAM structure, otoscopy technique, middle ear ossicles, safe myringotomy quadrant, and inner ear anatomy.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A 6-year-old child is brought by his mother with right ear pain, fever, and reduced hearing for 3 days. On otoscopy, you see a bulging, erythematous tympanic membrane with a middle ear effusion.</p><p>The external auditory meatus is approximately <strong>2.5 cm</strong> long in adults and comprises an outer cartilaginous one-third and an inner <strong>bony</strong> two-thirds.</p><p>To straighten the EAM for otoscopy in adults, the pinna is pulled <strong>upward</strong> and backward. In children under 3 years, it is pulled <strong>downward</strong> and backward due to the less developed bony canal.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The child needs a myringotomy to drain the middle ear effusion. In which quadrant of the tympanic membrane should the incision be made to avoid damaging the ossicles and chorda tympani nerve?</p>", "alternatives": [ { "text": "Anteroinferior (or posteroinferior) quadrant — the safe quadrant", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Posterosuperior quadrant where the membrane is thinnest", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "The posterosuperior quadrant is dangerous — the ossicles and chorda tympani nerve are located there. Myringotomy is safely performed in the anteroinferior quadrant.", "image": {}, "endScreenScore": 0 } }, { "text": "Directly through the centre (umbo) for best drainage", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "The umbo is where the malleus handle attaches — incising here would damage the ossicle. The safe site for myringotomy is the anteroinferior quadrant.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! The anteroinferior quadrant is the safe site for myringotomy.</p><p>An audiogram shows conductive hearing loss. You review the middle ear ossicular chain: the three ossicles are the <strong>malleus</strong> (attached to the tympanic membrane), the <strong>incus</strong>, and the <strong>stapes</strong> (attached to the oval window). These transmit and amplify sound vibrations from the tympanic membrane to the inner ear.</p><p>In the inner ear, the <strong>cochlea</strong> is the organ of hearing, while the <strong>semicircular canals</strong> detect rotational acceleration for equilibrium.</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>After treatment, the child develops vertigo. Which inner ear structures are responsible for detecting rotational acceleration (equilibrium)?</p>", "alternatives": [ { "text": "The three semicircular canals detect rotational acceleration", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "The cochlea detects both sound and rotational movement", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "The cochlea is specifically for hearing. The semicircular canals (three loop-shaped structures) are the organs that detect rotational acceleration for equilibrium.", "image": {}, "endScreenScore": 0 } }, { "text": "The middle ear ossicles sense equilibrium through vibration", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "The ossicles transmit sound, not equilibrium signals. Rotational acceleration is detected by the three semicircular canals of the inner ear.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! Key ear anatomy points:</p><ul><li><strong>EAM:</strong> ~2.5 cm long; outer cartilaginous 1/3, inner bony 2/3</li><li><strong>Otoscopy:</strong> Adults — pull pinna up and back; Children <3 — pull down and back</li><li><strong>Ossicles:</strong> Malleus → incus → stapes (TM to oval window)</li><li><strong>Myringotomy:</strong> Anteroinferior quadrant (safe site)</li><li><strong>Cochlea:</strong> Hearing; <strong>Semicircular canals:</strong> Rotational equilibrium</li></ul>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

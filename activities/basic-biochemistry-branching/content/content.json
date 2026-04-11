@@ -1,0 +1,62 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Basic Biochemistry — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Child with Hepatosplenomegaly</strong></p>",
+      "startScreenSubtitle": "<p>A 2-year-old boy is brought to the paediatric clinic by his parents who noticed progressive abdominal distension over 6 months. He has developmental delay — not yet walking independently. On examination, he has marked hepatosplenomegaly. His parents are consanguineous. You are the paediatric registrar evaluating this child.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified a lysosomal storage disease, understood the role of lysosomes in cellular metabolism, linked it to the organelle dysfunction, and chose appropriate diagnostic workup. Your knowledge of biomolecules, cell organelles, and their clinical significance was thorough.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some features but missed key connections between organelle function and disease. Review the four classes of biomolecules, lysosomal function at acidic pH, mitochondrial inheritance, and the fluid mosaic model of the cell membrane.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the fundamentals of basic biochemistry: the four classes of biomolecules, cell membrane structure, lysosomal function, and mitochondrial role in ATP synthesis.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Initial Assessment</h2><p>On detailed examination:</p><ul><li><strong>Growth:</strong> Height and weight below 3rd percentile for age</li><li><strong>Abdomen:</strong> Liver palpable 6 cm below the right costal margin, spleen palpable 4 cm below the left costal margin</li><li><strong>Neurological:</strong> Hypotonia, developmental delay (gross motor and cognitive), cherry-red spot on fundoscopy</li><li><strong>Skeletal:</strong> Mild coarsening of facial features</li></ul><p><strong>Biochemical context:</strong> The four classes of biomolecules are carbohydrates, lipids, proteins, and nucleic acids. Cells process these through various organelles. Lysosomes are membrane-bound organelles containing hydrolytic enzymes that function at an acidic pH of approximately 4.5. They are responsible for degrading and recycling macromolecules. When lysosomal enzymes are deficient, undegraded substrates accumulate, causing lysosomal storage diseases.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The combination of hepatosplenomegaly, developmental delay, and cherry-red spot in a child of consanguineous parents suggests dysfunction of which cellular organelle?</p>", "alternatives": [
+          {"text": "Lysosomes — deficiency of hydrolytic enzymes leads to accumulation of undegraded substrates (lysosomal storage disease)", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Lysosomal storage diseases result from deficiency of specific lysosomal hydrolytic enzymes, causing accumulation of undegraded substrates (lipids, glycoproteins, mucopolysaccharides) within lysosomes. The cherry-red spot (retinal ganglion cell lipid accumulation), hepatosplenomegaly (macrophage storage), and neurodegeneration are classic features. Examples include Tay-Sachs, Gaucher, and Niemann-Pick diseases.</p>"}},
+          {"text": "Mitochondria — defective oxidative phosphorylation causing energy failure", "nextContentId": -2, "feedback": {"title": "<p>Not quite</p>", "subtitle": "<p>Mitochondrial diseases typically present with muscle weakness, lactic acidosis, and multi-organ energy failure. They show maternal inheritance (mitochondrial DNA). While mitochondria are crucial for ATP synthesis, the cherry-red spot with hepatosplenomegaly and consanguinity is classic for a lysosomal storage disease with autosomal recessive inheritance.</p>"}},
+          {"text": "Endoplasmic reticulum — defective protein folding and secretion", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>ER dysfunction causes diseases related to protein misfolding (e.g., cystic fibrosis, alpha-1 antitrypsin deficiency), not the pattern of substrate accumulation with cherry-red spot and organomegaly. This presentation is classic for a lysosomal storage disease.</p>"}},
+          {"text": "Peroxisomes — defective very-long-chain fatty acid oxidation", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Peroxisomal disorders (e.g., Zellweger syndrome) present with craniofacial abnormalities, seizures, and liver dysfunction, but the cherry-red spot with marked hepatosplenomegaly in a consanguineous family is diagnostic of a lysosomal storage disease.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Diagnostic Workup</h2><p><strong>Laboratory investigations:</strong></p><ul><li><strong>Complete blood count:</strong> Pancytopenia (bone marrow infiltration by storage cells)</li><li><strong>Peripheral smear:</strong> Large vacuolated macrophages (foam cells) — storage cells laden with undegraded lipid</li><li><strong>Enzyme assay:</strong> Markedly reduced acid sphingomyelinase activity — consistent with <strong>Niemann-Pick disease type A</strong></li><li><strong>Genetic testing:</strong> Homozygous pathogenic variant in the SMPD1 gene (autosomal recessive — explains consanguinity link)</li></ul><p><strong>Biochemical correlation:</strong></p><ul><li>The <strong>cell membrane</strong> is composed of a phospholipid bilayer with embedded proteins, as described by the fluid mosaic model (Singer and Nicolson). Sphingomyelin is a key membrane phospholipid.</li><li>In Niemann-Pick disease, deficient acid sphingomyelinase prevents degradation of sphingomyelin in <strong>lysosomes</strong> (pH ~4.5), leading to its accumulation.</li><li><strong>Mitochondria</strong> — double-membrane organelles responsible for ATP synthesis via oxidative phosphorylation — show maternal inheritance. They are not primarily affected in this disease but their function may be secondarily impaired by substrate accumulation.</li></ul>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>What is the most appropriate management approach for this child with Niemann-Pick disease type A?</p>", "alternatives": [
+          {"text": "Supportive care, genetic counselling, and multidisciplinary management — no curative enzyme replacement therapy is available for type A", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Niemann-Pick type A is a severe infantile neurovisceral form with no approved enzyme replacement therapy. Management is supportive — nutrition, seizure control, physiotherapy, and palliative care. Genetic counselling is essential for the family. Unlike Gaucher disease (which has ERT), type A Niemann-Pick has a poor prognosis with most children not surviving beyond 3-4 years.</p>"}},
+          {"text": "Start enzyme replacement therapy immediately to replace the deficient sphingomyelinase", "nextContentId": -2, "feedback": {"title": "<p>Not available for this condition</p>", "subtitle": "<p>Unlike Gaucher disease (which has effective ERT with imiglucerase), there is no approved enzyme replacement therapy for Niemann-Pick type A. Research into gene therapy and substrate reduction is ongoing, but current management remains supportive with multidisciplinary care and genetic counselling.</p>"}},
+          {"text": "Bone marrow transplant to provide enzyme-producing donor cells", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Bone marrow transplant has been attempted in some lysosomal storage diseases but has not shown benefit in Niemann-Pick type A, particularly because it does not prevent the severe neurological deterioration. The CNS damage is progressive and irreversible. Supportive care and genetic counselling are the mainstay.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The family receives genetic counselling. Both parents are confirmed heterozygous carriers. They are informed about the 25% recurrence risk and offered prenatal testing for future pregnancies. A multidisciplinary team provides supportive care including physiotherapy, nutrition support, and developmental stimulation.</p><p><strong>Key biochemistry points:</strong></p><ul><li>The four classes of biomolecules: <strong>carbohydrates, lipids, proteins, nucleic acids</strong></li><li>The cell membrane: <strong>phospholipid bilayer</strong> with embedded proteins — <strong>fluid mosaic model</strong></li><li><strong>Lysosomes</strong>: membrane-bound organelles with hydrolytic enzymes at pH ~4.5; defects cause <strong>lysosomal storage diseases</strong></li><li><strong>Mitochondria</strong>: double-membrane organelles for <strong>ATP</strong> synthesis via oxidative phosphorylation; show <strong>maternal inheritance</strong></li><li>Sphingomyelin is a membrane lipid degraded in lysosomes; deficiency of sphingomyelinase causes Niemann-Pick disease</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

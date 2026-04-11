@@ -1,0 +1,62 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Back of Leg & Sole — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Weekend Athlete</strong></p>",
+      "startScreenSubtitle": "<p>A 42-year-old sedentary office worker presents to the emergency department after feeling a sudden 'snap' in the back of his left leg while playing recreational badminton. He describes feeling as if someone kicked him in the calf. He is now unable to stand on tiptoe on the left foot. Vitals are normal. You are the orthopaedic registrar on call.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly diagnosed Achilles tendon rupture in the avascular zone, performed the Thompson test, and chose appropriate surgical management. Your understanding of the posterior compartment anatomy, tendon structure, and plantar fascia was thorough.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some key features but missed important anatomical details. Review the formation of the calcaneal tendon, its avascular zone, the deep posterior compartment muscles (Tom, Dick, ANd Very Nervous Harry), and the Thompson test.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the anatomy of the back of the leg including the superficial and deep posterior compartments, the calcaneal tendon, the structures behind the medial malleolus, and plantar fasciitis.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Examination</h2><p>On examination of the left lower limb:</p><ul><li><strong>Inspection:</strong> Swelling and bruising over the posterior calf, approximately 4 cm above the calcaneal insertion. A palpable gap is felt in the tendon substance.</li><li><strong>Active movement:</strong> Unable to plantarflex against resistance. Cannot stand on tiptoe on the left foot.</li><li><strong>Thompson (Simmonds) test:</strong> Squeezing the calf muscles produces no plantarflexion of the foot — <strong>positive test</strong>, confirming calcaneal tendon rupture.</li><li><strong>Neurovascular:</strong> Dorsalis pedis and posterior tibial pulses palpable. Sensation intact.</li></ul><p><strong>Anatomical context:</strong> The calcaneal (Achilles) tendon is formed by the convergence of the gastrocnemius (two-headed superficial calf muscle) and the soleus (deep to gastrocnemius). It is the thickest and strongest tendon in the body. The avascular zone lies 2-6 cm above the calcaneal insertion — this is where most ruptures occur due to poor blood supply.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The Thompson test involves squeezing the calf. When positive (no plantarflexion), it confirms Achilles tendon rupture. Why does the rupture typically occur 2-6 cm above the calcaneal insertion?</p>", "alternatives": [
+          {"text": "This is the avascular zone of the tendon with the poorest blood supply, making it vulnerable to degeneration and rupture", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The calcaneal tendon has a watershed area of relatively poor blood supply located 2-6 cm above the calcaneal insertion. This avascular zone makes the tendon susceptible to degenerative changes and is the most common site of rupture, particularly in middle-aged 'weekend warriors' who subject an already-degenerated tendon to sudden explosive loads.</p>"}},
+          {"text": "This is the narrowest point of the tendon where mechanical stress is highest", "nextContentId": -2, "feedback": {"title": "<p>Partially correct but not the primary reason</p>", "subtitle": "<p>While the tendon does taper somewhat, the primary reason for rupture at this location is the poor blood supply (avascular zone) 2-6 cm above the insertion, not purely mechanical narrowing. The watershed area of poor vascularity leads to degenerative changes that predispose to rupture.</p>"}},
+          {"text": "This is where the gastrocnemius and soleus tendons merge, creating a structural weak point", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The gastrocnemius and soleus tendons merge higher up in the calf, not at the rupture site. The vulnerability of the 2-6 cm zone is due to its poor blood supply (avascular zone), not the tendon junction. This watershed area undergoes degenerative changes that predispose to rupture.</p>"}},
+          {"text": "This is where the tendon receives its nerve supply, making it more pain-sensitive and prone to injury", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The nerve supply to the tendon is not the relevant factor. The 2-6 cm zone above the calcaneal insertion is vulnerable because it has the poorest blood supply (avascular zone), leading to degenerative changes that predispose to rupture.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Imaging and Anatomical Correlation</h2><p><strong>Ultrasound of the left Achilles tendon:</strong> Complete rupture with a 3 cm gap, located 4 cm above the calcaneal insertion. Tendon ends show degenerative changes. No retraction beyond the musculotendinous junction.</p><p><strong>Deep posterior compartment — structures behind the medial malleolus:</strong></p><p>The mnemonic <strong>'Tom, Dick, ANd Very Nervous Harry'</strong> helps remember the structures passing behind the medial malleolus from anterior to posterior:</p><ul><li><strong>T</strong>ibialis posterior (Tom)</li><li>Flexor <strong>D</strong>igitorum longus (Dick)</li><li>Posterior tibial <strong>A</strong>rtery (ANd)</li><li>Tibial <strong>N</strong>erve (Very Nervous)</li><li>Flexor <strong>H</strong>allucis longus (Harry)</li></ul><p>These structures are all intact in this case as they lie in the deep posterior compartment, separate from the superficial compartment containing the calcaneal tendon.</p><p><strong>Additional clinical pearl:</strong> Plantar fasciitis — the most common cause of heel pain in adults — occurs at the calcaneal attachment of the plantar aponeurosis, often in those who stand for prolonged periods. It is distinct from Achilles tendon pathology.</p>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Given the complete Achilles tendon rupture in a 42-year-old active patient, what is the most appropriate management?</p>", "alternatives": [
+          {"text": "Surgical repair (open or percutaneous) followed by graduated rehabilitation — lower re-rupture rate in active patients", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>For active patients under 60 with complete Achilles tendon ruptures, surgical repair is generally preferred as it is associated with a lower re-rupture rate (2-5% vs 10-15% with conservative treatment). Modern protocols use accelerated functional rehabilitation with early weight-bearing. Percutaneous techniques reduce wound complications.</p>"}},
+          {"text": "Below-knee cast in equinus position for 8 weeks with no weight-bearing", "nextContentId": -2, "feedback": {"title": "<p>Conservative option exists but has limitations</p>", "subtitle": "<p>Non-operative management with casting or functional bracing is an option, but it carries a higher re-rupture rate (10-15%) compared to surgical repair (2-5%). For a 42-year-old active patient wishing to return to sport, surgical repair with accelerated rehabilitation is generally preferred.</p>"}},
+          {"text": "Immediate physiotherapy with progressive loading — tendons heal without immobilisation", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>A completely ruptured Achilles tendon cannot heal with physiotherapy alone. The tendon ends must either be surgically repaired or approximated with immobilisation in equinus (plantarflexion). Unprotected loading of a ruptured tendon will prevent healing.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The patient undergoes successful percutaneous Achilles tendon repair under regional anaesthesia. He begins graduated weight-bearing at 2 weeks in a controlled ankle movement (CAM) boot. Physiotherapy focuses on progressive calf strengthening. At 6 months, he returns to recreational sport with good calf strength and no re-rupture.</p><p><strong>Key anatomical points:</strong></p><ul><li>The <strong>calcaneal tendon</strong> is formed by gastrocnemius + soleus — the thickest and strongest tendon in the body</li><li>The <strong>avascular zone</strong> (2-6 cm above insertion) is where most ruptures occur</li><li>The <strong>Thompson test</strong> (squeezing the calf) confirms rupture when no plantarflexion occurs</li><li>Structures behind the medial malleolus: <strong>Tom, Dick, ANd Very Nervous Harry</strong> (tibialis posterior, FDL, posterior tibial artery, tibial nerve, FHL)</li><li><strong>Plantar fasciitis</strong> is the commonest cause of heel pain in adults</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Thorax — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>Thorax Anatomy Case</h2>",
+      "startScreenSubtitle": "<p>A 45-year-old man involved in a road traffic accident presents with severe chest pain and respiratory distress. Apply your knowledge of thoracic wall anatomy to guide emergency management.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You correctly applied thoracic anatomy including rib classification, intercostal neurovascular bundle anatomy, and diaphragm innervation to manage this trauma case.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "<h2>Partial Understanding</h2>",
+        "endScreenSubtitle": "<p>You showed some knowledge but missed key concepts. Review rib classification, the sternal angle, intercostal anatomy, and diaphragm nerve supply.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "<h2>Needs Improvement</h2>",
+        "endScreenSubtitle": "<p>Review thoracic wall anatomy: ribs, sternum, intercostal spaces, diaphragm, and the clinical significance of flail chest.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Case Presentation</h3><p>A 45-year-old man is brought to the emergency department after a high-speed road traffic accident. He was the driver without a seatbelt. He complains of severe left-sided chest pain worsened by breathing.</p><p><strong>Examination findings:</strong></p><ul><li>Respiratory rate: 32/min, shallow breathing</li><li>A segment of the left lateral chest wall moves inward during inspiration and outward during expiration</li><li>Palpable crepitus over ribs 4-8 on the left side</li><li>SpO2: 88% on room air</li></ul><p><strong>Key anatomy:</strong> True ribs (ribs 1-7) attach directly to the sternum; floating ribs (11-12) have free anterior ends. The sternal angle (angle of Louis) marks the junction of the manubrium and body at the level of T4.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Case Presentation"}
+        },
+        "contentId": 0,
+        "feedback": {},
+        "nextContentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>The chest wall segment moves inward during inspiration and outward during expiration. This paradoxical movement indicates which condition?</p>",
+              "alternatives": [
+                {
+                  "text": "Flail chest — a segment of chest wall moves paradoxically due to multiple adjacent rib fractures (each rib fractured in at least two places)",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>Flail chest occurs when three or more adjacent ribs are each fractured in two or more places, creating a free-floating segment. This segment moves paradoxically — inward during inspiration (when intrathoracic pressure decreases) and outward during expiration. The underlying pulmonary contusion is usually more dangerous than the mechanical problem.</p>"
+                  }
+                },
+                {
+                  "text": "Tension pneumothorax — air under pressure displacing the mediastinum",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Tension pneumothorax causes tracheal deviation, distended neck veins, absent breath sounds, and hypotension — but not paradoxical chest wall movement. The key finding here is a segment of chest wall moving independently in the opposite direction to the rest of the thorax, which is pathognomonic of flail chest.</p>"
+                  }
+                },
+                {
+                  "text": "Simple rib fracture — a single rib is broken causing localised pain",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>A simple (single) rib fracture causes localised pain but does NOT produce paradoxical chest wall movement. Flail chest requires multiple adjacent ribs to each be fractured in at least two places, creating an unstable segment that moves independently of the rest of the thorax.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Identify the Condition"}
+        },
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Chest Drain Insertion</h3><p>The patient also has a haemopneumothorax (blood and air in the pleural cavity) and needs a chest drain. The safe triangle for insertion is the 4th-5th intercostal space in the mid-axillary line.</p><p><strong>Critical anatomy for safe insertion:</strong></p><ul><li>The intercostal neurovascular bundle runs in the costal groove on the inferior border of each rib</li><li>The order is <strong>VAN</strong> from superior to inferior: Vein, Artery, Nerve</li><li>Therefore, the needle/tube should be inserted just above the upper border of the rib below to avoid the neurovascular bundle</li></ul><p>The diaphragm must also be considered — it is the primary muscle of inspiration and is supplied by the <strong>phrenic nerve (C3, C4, C5)</strong>. Insertion too low risks diaphragmatic or abdominal organ injury.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Chest Drain Anatomy"}
+        },
+        "contentId": 2,
+        "feedback": {},
+        "nextContentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>When inserting a chest drain, the tube should pass along the upper border of the lower rib. Why?</p>",
+              "alternatives": [
+                {
+                  "text": "The intercostal neurovascular bundle (VAN) runs in the costal groove along the inferior border of each rib — inserting above the lower rib avoids damaging these structures",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>The intercostal vein, artery, and nerve run in the costal groove on the inferior aspect of each rib, protected by its lower border. Inserting the drain just above the upper border of the rib below ensures the neurovascular bundle is avoided. Damage to the intercostal artery can cause life-threatening haemorrhage.</p>"
+                  }
+                },
+                {
+                  "text": "The ribs are thinner at their upper border, making insertion easier",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>The choice of insertion site is not about rib thickness. It is about avoiding the intercostal neurovascular bundle (VAN — vein, artery, nerve) that runs along the inferior border of each rib in the costal groove. The tube is directed above the upper border of the lower rib to stay well below the neurovascular bundle of the rib above.</p>"
+                  }
+                },
+                {
+                  "text": "The phrenic nerve runs along the lower border of each rib",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>The phrenic nerve (C3, C4, C5) runs vertically through the mediastinum to supply the diaphragm — it does not run along rib borders. The structures running along the inferior border of each rib are the intercostal vein, artery, and nerve (VAN order from superior to inferior).</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Safe Insertion Technique"}
+        },
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Key Learning Points</h3><ul><li><strong>Rib classification:</strong> True ribs (1-7) attach to sternum; false ribs (8-10) via costal cartilage; floating ribs (11-12) have free ends</li><li><strong>Sternal angle (of Louis):</strong> Manubriosternal junction at T4-T5 level; landmark for 2nd rib, aortic arch, tracheal bifurcation</li><li><strong>Intercostal bundle:</strong> VAN (vein, artery, nerve) from superior to inferior in the costal groove on inferior rib border</li><li><strong>Flail chest:</strong> Paradoxical movement from multiple adjacent rib fractures; underlying pulmonary contusion is the main concern</li><li><strong>Diaphragm:</strong> Primary muscle of inspiration; supplied by the phrenic nerve (C3, C4, C5 — 'C3, 4, 5 keeps the diaphragm alive')</li><li><strong>Chest drain:</strong> Insert in safe triangle (4th-5th ICS, mid-axillary line), above upper border of lower rib to avoid neurovascular bundle</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Key Learning Points"}
+        },
+        "contentId": 4,
+        "feedback": {},
+        "nextContentId": -1
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

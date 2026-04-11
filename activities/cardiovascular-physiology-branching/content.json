@@ -1,0 +1,61 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Cardiovascular Physiology — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Breathless Young Woman</strong></p>",
+      "startScreenSubtitle": "<p>A 24-year-old woman presents to the cardiology outpatient clinic with a 3-month history of exertional dyspnoea, palpitations, and occasional pre-syncope. She has no prior cardiac history. Vitals: HR 52/min regular, BP 100/65 mmHg, RR 18/min, SpO2 98%. You are the cardiology registrar evaluating her.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified complete heart block with impaired cardiac output, applied the Frank-Starling law and cardiac output equation, and chose appropriate management with permanent pacemaker implantation. Your understanding of cardiac automaticity, the conduction system, and haemodynamic principles was exemplary.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some features but missed key physiological connections. Review the cardiac conduction system, the SA node as primary pacemaker, the Frank-Starling law, the Fick principle, and baroreceptor-mediated blood pressure regulation.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review cardiovascular physiology: SA node automaticity, cardiac output (SV x HR), the Frank-Starling law, heart sounds, baroreceptor reflexes, gap junctions, and the Fick principle.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Assessment</h2><p>On cardiovascular examination:</p><ul><li><strong>Pulse:</strong> 52/min, regular, normal volume. Jugular venous pressure shows intermittent cannon A waves.</li><li><strong>Auscultation:</strong> S1 varies in intensity. S2 is normally split. Occasional S4 is heard. No murmurs.</li><li><strong>BP:</strong> 100/65 mmHg with a wide pulse pressure</li></ul><p><strong>ECG findings:</strong> Complete AV dissociation — atrial rate 80/min, ventricular rate 48/min. P waves and QRS complexes are completely independent. Narrow QRS complexes suggest a junctional escape rhythm.</p><p><strong>Physiological context:</strong> The SA node fires at an intrinsic rate of 70-80 bpm and is the primary pacemaker due to its property of <strong>automaticity</strong> — the ability to generate action potentials spontaneously without neural input. Gap junctions between cardiac myocytes allow the heart to function as a <strong>functional syncytium</strong>, enabling coordinated contraction. The long refractory period (~250 ms) prevents tetanic contraction.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The patient's heart rate is 52/min. Cardiac output = Stroke Volume x Heart Rate. If her stroke volume is 70 mL, what is her cardiac output, and how does this compare to normal?</p>", "alternatives": [
+          {"text": "3.64 L/min — significantly below the normal resting cardiac output of approximately 5 L/min, explaining her symptoms", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Cardiac output = 70 mL x 52/min = 3,640 mL/min = 3.64 L/min. Normal resting cardiac output is approximately 5 L/min. Her reduced cardiac output (27% below normal) explains the exertional dyspnoea, reduced exercise tolerance, and pre-syncope. By the Frank-Starling law, her stroke volume may increase somewhat with increased preload, but the bradycardia limits overall cardiac output.</p>"}},
+          {"text": "5.2 L/min — within normal range, so her symptoms must have another cause", "nextContentId": -3, "feedback": {"title": "<p>Incorrect calculation</p>", "subtitle": "<p>70 mL x 52/min = 3,640 mL/min (3.64 L/min), not 5.2 L/min. Normal resting cardiac output is approximately 5 L/min. Her cardiac output is significantly reduced, which explains her symptoms of exertional dyspnoea and pre-syncope.</p>"}},
+          {"text": "3.64 L/min — but this is normal for a young woman", "nextContentId": -2, "feedback": {"title": "<p>Calculation is correct, interpretation is wrong</p>", "subtitle": "<p>While 3.64 L/min is indeed the correct calculation (70 x 52), normal resting cardiac output is approximately 5 L/min regardless of sex. A cardiac output of 3.64 L/min represents a 27% reduction from normal, which explains her symptoms of exertional dyspnoea and pre-syncope.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Haemodynamic Assessment</h2><p><strong>Echocardiography:</strong> Normal LV size and systolic function (EF 60%). No structural heart disease. No valvular abnormalities.</p><p><strong>Exercise stress test:</strong> Chronotropic incompetence — heart rate fails to rise above 60/min despite maximal exertion. Symptoms of dyspnoea and light-headedness reproduced at peak exercise.</p><p><strong>Physiological correlation:</strong></p><ul><li><strong>Frank-Starling law:</strong> The force of contraction increases with increasing venous return (preload). During exercise, venous return increases, but in this patient, the heart rate cannot increase to augment cardiac output — this is the limiting factor.</li><li><strong>Baroreceptors</strong> in the carotid sinus and aortic arch sense the low blood pressure and attempt short-term compensation by increasing sympathetic tone, but this cannot overcome the conduction block.</li><li><strong>First heart sound (S1)</strong> varies in intensity because the AV valves (mitral and tricuspid) close at varying positions depending on the PR interval — which varies randomly in complete heart block.</li><li><strong>Fick principle:</strong> Cardiac output = O2 consumption / arteriovenous O2 difference. Her body compensates for low CO by increasing O2 extraction (widening A-V O2 difference).</li></ul>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Given complete heart block with symptomatic bradycardia and chronotropic incompetence in a young patient, what is the definitive management?</p>", "alternatives": [
+          {"text": "Permanent dual-chamber pacemaker (DDD) to restore AV synchrony and allow rate-responsive heart rate increase", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Complete heart block with symptoms is a Class I indication for permanent pacing. A DDD (dual-chamber, dual-sensing, dual-response) pacemaker restores AV synchrony — pacing both atria and ventricles — which optimises cardiac output by the Frank-Starling mechanism. Rate-responsive mode allows heart rate to increase with activity, correcting chronotropic incompetence.</p>"}},
+          {"text": "Long-term oral atropine to increase heart rate via vagal blockade", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Oral atropine is not effective for long-term management of complete heart block. Atropine works by blocking vagal input to the SA node, but in complete heart block, the problem is at the AV node/His-Purkinje level. Permanent pacing is the definitive treatment for symptomatic complete heart block.</p>"}},
+          {"text": "Isoproterenol infusion to increase heart rate, followed by observation", "nextContentId": -2, "feedback": {"title": "<p>Temporary measure only</p>", "subtitle": "<p>Isoproterenol (a beta-agonist) can temporarily increase heart rate and is used as a bridge in acute situations, but it is not a long-term solution. Complete heart block requires permanent pacing. Continuous isoproterenol carries risks of arrhythmias and is not feasible for chronic management.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The patient undergoes successful implantation of a dual-chamber rate-responsive pacemaker (DDDR). At 6-week follow-up, her heart rate is 72/min at rest with appropriate rate response during exercise. Symptoms of dyspnoea and pre-syncope have completely resolved. Calculated cardiac output is now approximately 5 L/min.</p><p><strong>Key cardiovascular physiology points:</strong></p><ul><li>The <strong>SA node</strong> fires at 70-80 bpm — the primary pacemaker with <strong>automaticity</strong></li><li>The long refractory period (~250 ms) prevents <strong>tetanic contraction</strong></li><li><strong>Cardiac output</strong> = stroke volume x heart rate; normal ~5 L/min</li><li>The <strong>Frank-Starling law</strong>: force of contraction increases with increased preload (venous return)</li><li><strong>S1</strong> is produced by closure of <strong>AV valves</strong> (mitral and tricuspid)</li><li><strong>Baroreceptors</strong> in the carotid sinus and aortic arch mediate short-term BP regulation</li><li>The <strong>Fick principle</strong>: CO = O2 consumption / A-V O2 difference</li><li><strong>Gap junctions</strong> allow the heart to function as a <strong>functional syncytium</strong></li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

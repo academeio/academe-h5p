@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Histology & Embryology (Abdomen & Pelvis) — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Histology & Embryology (Abdomen & Pelvis)</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in GIT histology and abdominal embryology. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: Neonatal Vomiting</h2><p>A 2-day-old neonate presents with bilious vomiting since birth. The baby has not passed meconium. Abdominal X-ray shows a \"double-bubble\" sign. The baby also has features suggestive of Down syndrome.</p><p><strong>Key concept:</strong> The double-bubble sign suggests duodenal atresia, caused by failure of recanalisation of the duodenum during development. The epithelium of the GIT is derived from endoderm.</p>"}, "subContentId": "d4e5f6a7-4444-4ddd-b444-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The X-ray shows a double-bubble sign. What embryological mechanism causes duodenal atresia?</p>", "alternatives": [
+          {"text": "Failure of recanalisation of the duodenum during development", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The duodenum undergoes solid-stage occlusion and then recanalises. Failure of this process causes duodenal atresia with the classic double-bubble sign.</p>"}},
+          {"text": "Failure of migration of neural crest cells to the duodenum", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Failure of neural crest cell migration causes Hirschsprung disease (aganglionosis of distal bowel), not duodenal atresia.</p>"}},
+          {"text": "Abnormal rotation of the midgut around the superior mesenteric artery", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Abnormal midgut rotation causes malrotation and volvulus, not duodenal atresia. Duodenal atresia is due to failure of recanalisation.</p>"}}
+        ]}}, "subContentId": "d4e5f6a7-4444-4ddd-b444-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Surgical Findings</h2><p>At surgery, complete duodenal atresia is confirmed. A duodenoduodenostomy is performed. Biopsy of the duodenal wall is taken for histology. The pathologist identifies Brunner's glands in the submucosa, confirming duodenal tissue.</p><p><strong>Concept:</strong> The GIT wall has a universal four-layer structure: mucosa, submucosa, muscularis externa, and serosa/adventitia. Brunner's glands in the submucosa are the distinguishing feature of the duodenum, while Peyer's patches identify the ileum.</p>"}, "subContentId": "d4e5f6a7-4444-4ddd-b444-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>How did the pathologist confirm this was duodenal tissue? What is the distinguishing histological feature of the duodenum?</p>", "alternatives": [
+          {"text": "Brunner's glands in the submucosa — unique to the duodenum", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Brunner's glands (mucous-secreting glands in the submucosa) are pathognomonic for the duodenum. Peyer's patches identify the ileum.</p>"}},
+          {"text": "Peyer's patches in the submucosa identify all parts of the small intestine", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Peyer's patches (aggregated lymphoid follicles) are the distinguishing feature of the ileum, not the duodenum.</p>"}},
+          {"text": "Parietal cells in the mucosa confirm duodenal tissue", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Parietal (oxyntic) cells are found in the fundic glands of the stomach, not the duodenum. They secrete HCl and intrinsic factor.</p>"}}
+        ]}}, "subContentId": "d4e5f6a7-4444-4ddd-b444-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>The baby recovers well after surgery. Genetic testing confirms Trisomy 21. The parents are counselled about associated conditions.</p><p><strong>Learning points:</strong></p><ul><li>GIT wall: mucosa, submucosa, muscularis externa, serosa/adventitia</li><li>Brunner's glands (submucosa) = duodenum; Peyer's patches = ileum</li><li>GIT epithelium derives from endoderm; liver and pancreas bud from foregut</li><li>Hirschsprung disease = failure of neural crest cell migration</li><li>Kidney develops from intermediate mesoderm</li></ul>"}, "subContentId": "d4e5f6a7-4444-4ddd-b444-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

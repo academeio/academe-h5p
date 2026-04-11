@@ -1,0 +1,62 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Axilla — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Newborn with a Limp Arm</strong></p>",
+      "startScreenSubtitle": "<p>A male neonate is delivered after a prolonged and difficult labour with shoulder dystocia. Birth weight is 4.5 kg. The paediatrician notes that the baby's right arm hangs limply at the side with the forearm pronated and the wrist flexed — the 'waiter's tip' position. The left arm moves normally. You are the paediatrics resident on the neonatal team.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified Erb's palsy from upper trunk (C5-C6) injury, understood the anatomy of the brachial plexus and axilla, and chose appropriate conservative management with physiotherapy. Your knowledge of the axillary walls, brachial plexus organisation, and rotator cuff was thorough.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some features correctly but confused aspects of the brachial plexus anatomy. Review the roots, trunks, divisions, cords, and branches of the brachial plexus, and the clinical differences between Erb's and Klumpke's palsy.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the anatomy of the axilla (walls, contents), the brachial plexus (C5-T1), the rotator cuff muscles (SITS), and the three parts of the axillary artery divided by pectoralis minor.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Assessment</h2><p>You examine the neonate carefully:</p><ul><li><strong>Right upper limb:</strong> Arm adducted, internally rotated, forearm pronated, wrist flexed — classic 'waiter's tip' position</li><li><strong>Absent movements:</strong> No shoulder abduction, no shoulder external rotation, no elbow flexion, no forearm supination</li><li><strong>Preserved movements:</strong> Finger flexion and grip are strong, wrist flexion present</li><li><strong>Moro reflex:</strong> Absent on the right, normal on the left</li><li><strong>Grasp reflex:</strong> Present bilaterally (intact C8-T1)</li></ul><p><strong>Anatomical context:</strong> The axilla is a pyramid-shaped space. Its anterior wall is formed by pectoralis major and pectoralis minor. The posterior wall contains subscapularis, latissimus dorsi, and teres major. The medial wall has the ribs and serratus anterior. The brachial plexus (C5-T1) and axillary vessels pass through this space.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The 'waiter's tip' position with loss of shoulder abduction, external rotation, and elbow flexion indicates injury to which part of the brachial plexus?</p>", "alternatives": [
+          {"text": "Upper trunk (C5-C6) — Erb's palsy", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Erb's palsy results from injury to the upper trunk of the brachial plexus (C5-C6 roots). This affects the suprascapular nerve (shoulder abduction/external rotation), musculocutaneous nerve (elbow flexion), and axillary nerve (deltoid). The arm assumes the waiter's tip position: adducted, internally rotated, forearm pronated.</p>"}},
+          {"text": "Lower trunk (C8-T1) — Klumpke's palsy", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Klumpke's palsy (lower trunk C8-T1 injury) causes claw hand with loss of intrinsic hand muscles and finger flexion. The grasp reflex is absent. In this case, finger grip is preserved and the grasp reflex is intact, ruling out Klumpke's palsy. The waiter's tip position is diagnostic of Erb's palsy (upper trunk C5-C6).</p>"}},
+          {"text": "Posterior cord — affecting the radial and axillary nerves", "nextContentId": -2, "feedback": {"title": "<p>Not quite</p>", "subtitle": "<p>A posterior cord lesion would cause wrist drop (radial nerve) and deltoid weakness (axillary nerve), but would spare biceps function (musculocutaneous nerve from lateral cord). This baby has loss of elbow flexion indicating musculocutaneous nerve involvement, pointing to an upper trunk lesion rather than isolated posterior cord injury.</p>"}},
+          {"text": "Complete brachial plexus avulsion (C5-T1)", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>A complete plexus avulsion would cause total paralysis of the entire upper limb including the hand. This baby has preserved finger grip and grasp reflex, indicating the lower trunk (C8-T1) is intact. This is an upper trunk (C5-C6) injury — Erb's palsy.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Investigation and Further Assessment</h2><p><strong>X-ray right shoulder and clavicle:</strong> No fracture of humerus or clavicle. Glenohumeral joint in normal position.</p><p><strong>Ultrasound of the brachial plexus:</strong> Swelling and oedema of the upper trunk at Erb's point (junction of C5-C6 roots). No avulsion of nerve roots from the spinal cord.</p><p><strong>Anatomical correlation — Rotator cuff and axillary structures:</strong></p><ul><li>The rotator cuff muscles (SITS: Supraspinatus, Infraspinatus, Teres minor, Subscapularis) stabilise the shoulder. The supraspinatus (most commonly torn in adults) is supplied by C5-C6 via the suprascapular nerve — paralysed in Erb's palsy.</li><li>The serratus anterior is innervated by the long thoracic nerve — its paralysis causes winging of the scapula (not affected here as C5-C6-C7 roots supply this nerve).</li><li>The axillary artery is divided into three parts by pectoralis minor, with 1, 2, and 3 branches respectively. The axillary nerve wraps around the surgical neck of the humerus.</li></ul>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Given the diagnosis of neonatal Erb's palsy with no root avulsion, what is the most appropriate initial management?</p>", "alternatives": [
+          {"text": "Gentle physiotherapy and passive range-of-motion exercises, with neurosurgical review if no recovery by 3 months", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Most neonatal Erb's palsies (80-90%) recover spontaneously with conservative management. Gentle passive range-of-motion exercises prevent joint contractures, particularly of the shoulder and elbow. If there is no significant recovery of biceps function by 3 months, neurosurgical consultation for nerve grafting or transfer is indicated.</p>"}},
+          {"text": "Immediate microsurgical nerve repair within the first week", "nextContentId": -2, "feedback": {"title": "<p>Too aggressive initially</p>", "subtitle": "<p>Immediate surgery is not indicated for neonatal Erb's palsy unless there is evidence of root avulsion. Most cases (80-90%) recover spontaneously. Surgery is reserved for cases with no recovery of biceps function by 3 months of age.</p>"}},
+          {"text": "Splint the arm in abduction and external rotation for 6 weeks", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Rigid splinting is not recommended as it can cause joint stiffness and does not promote nerve recovery. The correct approach is gentle passive range-of-motion exercises to maintain joint mobility while awaiting spontaneous nerve regeneration.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The baby is started on gentle physiotherapy from Day 5. At 6 weeks, early recovery of elbow flexion is noted. By 4 months, there is good recovery of shoulder abduction and external rotation. At 1 year, the right arm shows near-complete functional recovery.</p><p><strong>Key anatomical points:</strong></p><ul><li>The axilla is a <strong>pyramid-shaped</strong> space: anterior wall (pectoralis major/minor), posterior wall (subscapularis, latissimus dorsi, teres major), medial wall (ribs + serratus anterior)</li><li>The <strong>brachial plexus</strong> arises from C5-T1: upper trunk injury → <strong>Erb's palsy</strong> (waiter's tip); lower trunk injury → <strong>Klumpke's palsy</strong> (claw hand)</li><li>Rotator cuff muscles: <strong>SITS</strong> — supraspinatus is most commonly torn</li><li><strong>Long thoracic nerve</strong> paralysis → winging of the scapula</li><li>Axillary artery: 3 parts divided by <strong>pectoralis minor</strong> (1, 2, 3 branches)</li><li><strong>Axillary nerve</strong> wraps around the surgical neck of the humerus</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

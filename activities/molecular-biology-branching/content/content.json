@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "BI10.1-7 | Molecular Biology — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>DNA Replication, Transcription & Purine Metabolism</h2>",
+      "startScreenSubtitle": "<p>A 58-year-old man presents with an acutely swollen, erythematous first metatarsophalangeal joint. Work through this case exploring DNA structure, replication, transcription, purine metabolism, and modern molecular techniques.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly linked purine metabolism to gout and demonstrated strong understanding of DNA replication, transcription, and molecular techniques.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review purine bases, DNA replication enzymes, and the relationship between uric acid and gout.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit DNA structure (purines vs pyrimidines), replication machinery (helicase, DNA polymerase), transcription, and purine catabolism.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A 58-year-old man presents to the emergency department with severe pain and swelling of his right great toe. The joint is erythematous, warm, and exquisitely tender. He has a history of hypertension and chronic kidney disease.</p><p>Synovial fluid analysis reveals negatively birefringent needle-shaped crystals — confirming <strong>gout</strong>. You recall that the final degradation product of purine metabolism in humans is <strong>uric acid</strong>, and its accumulation in joints causes this condition.</p><p>The two purine bases in DNA are <strong>adenine</strong> and <strong>guanine</strong>, both with a characteristic double-ring structure.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The patient's gout results from uric acid accumulation. During normal DNA replication, which enzyme unwinds the double helix, and in which direction does DNA polymerase synthesise the new strand?</p>", "alternatives": [ { "text": "Helicase unwinds the helix; DNA polymerase synthesises in the 5' to 3' direction", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "RNA polymerase unwinds the helix; DNA polymerase synthesises in the 3' to 5' direction", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "RNA polymerase is involved in transcription, not replication. Helicase unwinds the DNA, and DNA polymerase always synthesises in the 5' to 3' direction.", "image": {}, "endScreenScore": 0 } }, { "text": "Topoisomerase unwinds the helix; DNA polymerase synthesises bidirectionally", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Topoisomerase relieves torsional strain but does not unwind the helix — that is helicase's role. DNA polymerase synthesises exclusively in the 5' to 3' direction.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! Helicase unwinds DNA and polymerase synthesises 5'→3'.</p><p>The patient's serum uric acid is markedly elevated. You consider whether genetic factors might contribute. A colleague suggests genetic testing using <strong>PCR</strong> (polymerase chain reaction) to amplify specific DNA sequences, and mentions that <strong>CRISPR-Cas9</strong> genome editing technology (derived from bacterial immune systems) could theoretically correct underlying metabolic enzyme defects.</p><p>You also recall that in <strong>transcription</strong>, the enzyme <strong>RNA polymerase</strong> reads the template DNA strand and synthesises a complementary <strong>mRNA</strong> molecule, which is then translated into the enzymes of purine metabolism.</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>To confirm a suspected enzyme deficiency contributing to hyperuricaemia, which molecular technique would you use to amplify the gene of interest from the patient's DNA?</p>", "alternatives": [ { "text": "PCR (polymerase chain reaction) to amplify specific DNA sequences", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "CRISPR-Cas9 to cut and sequence the gene", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "CRISPR-Cas9 is a genome editing tool, not a diagnostic amplification technique. PCR is the standard method for amplifying specific DNA sequences for diagnosis.", "image": {}, "endScreenScore": 0 } }, { "text": "Reverse transcriptase to convert the gene to RNA for analysis", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Reverse transcriptase converts RNA to DNA (used by retroviruses and in RT-PCR). For amplifying a known DNA sequence, standard PCR using DNA polymerase is the correct choice.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! You have correctly integrated molecular biology with clinical practice:</p><ul><li><strong>Purines:</strong> Adenine and guanine (double-ring); catabolised to uric acid → gout when accumulated</li><li><strong>Replication:</strong> Helicase unwinds DNA; DNA polymerase synthesises 5'→3'</li><li><strong>Transcription:</strong> RNA polymerase reads template DNA → produces mRNA</li><li><strong>PCR:</strong> Amplifies specific DNA sequences for diagnostic purposes</li><li><strong>CRISPR-Cas9:</strong> Genome editing derived from bacterial immune systems</li></ul><p>This case demonstrates how fundamental molecular biology directly underlies clinical conditions like gout.</p>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

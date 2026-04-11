@@ -1,0 +1,163 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Spinal Cord — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>Spinal Cord Case</h2>",
+      "startScreenSubtitle": "<p>A 35-year-old man presents with weakness and sensory loss after a stabbing injury. Apply your knowledge of spinal cord anatomy and tracts to localise the lesion and predict the clinical deficits.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You correctly identified Brown-Sequard syndrome, localised the lesion, and understood the anatomical basis of the neurological deficits.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "<h2>Partial Understanding</h2>",
+        "endScreenSubtitle": "<p>You showed some knowledge but missed key concepts. Review the spinal cord tracts, Brown-Sequard syndrome, and the lateral horn.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "<h2>Needs Improvement</h2>",
+        "endScreenSubtitle": "<p>Review spinal cord anatomy: conus medullaris level, enlargements, ascending and descending tracts, and cord syndromes.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Case Presentation</h3><p>A 35-year-old man is brought to the emergency department after being stabbed on the right side of his back at the T10 level. Neurological examination reveals:</p><ul><li><strong>Right leg:</strong> Weakness (upper motor neuron type), loss of proprioception and vibration sense</li><li><strong>Left leg:</strong> Loss of pain and temperature sensation from T10 downward</li><li>Bladder function initially intact</li></ul><p><strong>Key anatomical facts:</strong></p><ul><li>The spinal cord extends from the foramen magnum to the <strong>L1-L2 vertebral level</strong> in adults</li><li>The terminal end is called the <strong>conus medullaris</strong></li><li>The cervical enlargement supplies the upper limb; the lumbar enlargement supplies the lower limb</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Case Presentation"}
+        },
+        "contentId": 0,
+        "feedback": {},
+        "nextContentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>The patient has ipsilateral motor loss and proprioception loss with contralateral pain and temperature loss. Which spinal cord syndrome does this pattern represent?</p>",
+              "alternatives": [
+                {
+                  "text": "Brown-Sequard syndrome — hemisection of the spinal cord on the right side at T10",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>Brown-Sequard syndrome results from hemisection of the cord. Ipsilateral findings: UMN weakness (corticospinal tract) and loss of proprioception/vibration (dorsal columns) — these tracts have already crossed or cross in the medulla. Contralateral finding: loss of pain and temperature (spinothalamic tract crosses 1-2 segments above entry).</p>"
+                  }
+                },
+                {
+                  "text": "Anterior cord syndrome — ischaemia of the anterior two-thirds of the cord",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Anterior cord syndrome causes bilateral motor paralysis and bilateral loss of pain/temperature, but PRESERVES dorsal column function (proprioception, vibration). This patient has unilateral deficits with ipsilateral proprioception loss — inconsistent with anterior cord syndrome.</p>"
+                  }
+                },
+                {
+                  "text": "Central cord syndrome — damage to the central grey matter",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Central cord syndrome (classically from hyperextension injury in elderly with cervical spondylosis) causes 'cape-like' bilateral suspended sensory loss and upper limb weakness greater than lower limb weakness. This patient's pattern of ipsilateral motor/proprioception and contralateral pain/temperature loss is classic Brown-Sequard.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Identify the Syndrome"}
+        },
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Tract Anatomy Explained</h3><p>Understanding Brown-Sequard syndrome requires knowledge of where each tract crosses:</p><ul><li><strong>Corticospinal tract (motor):</strong> Crosses in the medullary pyramids → damage at T10 causes ipsilateral UMN weakness below the lesion</li><li><strong>Dorsal columns (proprioception, vibration, fine touch):</strong> Ascend ipsilaterally, cross in the medulla → damage causes ipsilateral loss</li><li><strong>Spinothalamic tract (pain, temperature):</strong> Crosses within 1-2 segments of entry → damage at T10 causes contralateral loss from ~T12 downward</li></ul><p>The <strong>lateral horn</strong> is present only at <strong>T1-L2 levels</strong> and contains <strong>preganglionic sympathetic neurons</strong>. At T10, the hemisection may also disrupt ipsilateral sympathetic outflow.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Tract Anatomy"}
+        },
+        "contentId": 2,
+        "feedback": {},
+        "nextContentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>The lateral horn is present only at T1-L2 levels. What type of neurons does it contain, and what happens if the lateral horn is damaged at T10?</p>",
+              "alternatives": [
+                {
+                  "text": "Preganglionic sympathetic neurons — damage causes ipsilateral loss of sympathetic supply to the lower limb (vasodilation, warm skin, anhidrosis)",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>The lateral horn (intermediolateral cell column, T1-L2) contains preganglionic sympathetic neurons. Damage at T10 disrupts sympathetic supply to the ipsilateral lower limb and abdominal viscera, causing vasodilation (warm, flushed skin), anhidrosis (absent sweating), and loss of pilomotor response on that side.</p>"
+                  }
+                },
+                {
+                  "text": "Parasympathetic neurons — damage causes urinary retention and constipation",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>The lateral horn at T1-L2 contains sympathetic, not parasympathetic neurons. Sacral parasympathetic neurons are located at S2-S4 (not in the lateral horn). Parasympathetic disruption causing bladder dysfunction would occur with sacral cord or cauda equina lesions, not at T10.</p>"
+                  }
+                },
+                {
+                  "text": "Lower motor neurons — damage causes flaccid paralysis at the T10 level",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Lower motor neurons are located in the anterior (ventral) horn, not the lateral horn. The lateral horn at T1-L2 specifically contains preganglionic sympathetic neurons. Damage to the anterior horn would cause LMN signs (flaccid paralysis, atrophy, fasciculations) at that segmental level only.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Lateral Horn Function"}
+        },
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Key Learning Points</h3><ul><li><strong>Spinal cord termination:</strong> Conus medullaris at L1-L2 in adults (L3 in neonates)</li><li><strong>Enlargements:</strong> Cervical (C4-T1, brachial plexus) and lumbar (L1-S3, lumbosacral plexus)</li><li><strong>Brown-Sequard syndrome:</strong> Hemisection — ipsilateral UMN weakness + proprioception loss; contralateral pain/temperature loss</li><li><strong>Tract crossings:</strong> Corticospinal crosses at medullary pyramids; dorsal columns cross in medulla; spinothalamic crosses within 1-2 segments of entry</li><li><strong>Lateral horn (T1-L2):</strong> Preganglionic sympathetic neurons; damage causes ipsilateral autonomic dysfunction</li><li><strong>Clinical correlation:</strong> Penetrating injuries cause partial cord syndromes; complete transection causes bilateral total loss below the level</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Key Learning Points"}
+        },
+        "contentId": 4,
+        "feedback": {},
+        "nextContentId": -1
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

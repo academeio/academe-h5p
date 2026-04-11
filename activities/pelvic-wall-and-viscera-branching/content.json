@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "AN48.1-8 | Pelvic wall and viscera — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Pelvic Anatomy — Diaphragm, Viscera & Clinical Applications</h2>",
+      "startScreenSubtitle": "<p>A 65-year-old multiparous woman presents with a sensation of something coming down per vaginum. Work through this case exploring pelvic floor anatomy, visceral relationships, and clinical procedures.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly identified pelvic floor anatomy, uterine prolapse mechanisms, and suprapubic cystostomy landmarks.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review the pelvic diaphragm, puborectalis function, and BPH anatomy.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit levator ani, puborectalis, internal iliac artery, pelvic types, and surgical landmarks for cystostomy.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A 65-year-old woman, para 5, presents with a mass descending through the vaginal introitus, worse on straining. She also reports urinary stress incontinence.</p><p>This is <strong>uterine prolapse</strong>, resulting from weakening of the <strong>levator ani</strong> muscle and the cardinal and uterosacral ligaments. The pelvic diaphragm is formed primarily by the levator ani and the coccygeus muscle.</p><p>The <strong>puborectalis</strong> sling (part of levator ani) maintains the anorectal angle of approximately 90 degrees, essential for faecal continence. The nerve supply to levator ani comes from <strong>S3</strong> and S4 nerve roots.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>What is the primary muscle forming the pelvic diaphragm, and what structure maintains the anorectal angle for faecal continence?</p>", "alternatives": [ { "text": "Levator ani forms the pelvic diaphragm; the puborectalis sling maintains the anorectal angle", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "The obturator internus forms the pelvic diaphragm; the external sphincter maintains the angle", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "Obturator internus forms the lateral pelvic wall, not the diaphragm. The pelvic diaphragm is primarily levator ani, and the puborectalis sling maintains the anorectal angle.", "image": {}, "endScreenScore": 0 } }, { "text": "The piriformis forms the pelvic diaphragm; the coccygeus maintains the angle", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Piriformis is a posterior pelvic wall muscle. The pelvic diaphragm is primarily levator ani, and the puborectalis sling maintains the ~90-degree anorectal angle.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! Levator ani is the primary pelvic diaphragm muscle, and puborectalis maintains the anorectal angle.</p><p>The patient's husband, aged 70, accompanies her. He has been experiencing urinary hesitancy and poor stream. Examination reveals an enlarged prostate. In benign prostatic hypertrophy (BPH), the <strong>median (middle)</strong> lobe of the prostate enlarges and obstructs the internal urethral orifice.</p><p>The <strong>internal iliac</strong> artery is the main arterial supply to the pelvic viscera, pelvic walls, and perineum. The pelvic inlet is bounded posteriorly by the <strong>promontory</strong> of the sacrum.</p><p>The female pelvis is classified as <strong>gynaecoid</strong> type — rounded inlet, subpubic angle >90 degrees.</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The husband develops acute urinary retention from BPH. A suprapubic cystostomy is planned. Where should the trocar be inserted?</p>", "alternatives": [ { "text": "Two centimetres above the pubic symphysis when the bladder is distended, avoiding the peritoneum", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "At the umbilicus in the midline for best access to the distended bladder", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "The umbilicus is too high and would risk entering the peritoneal cavity. Suprapubic cystostomy is performed 2 cm above the pubic symphysis with a distended bladder.", "image": {}, "endScreenScore": 0 } }, { "text": "Through the perineum, posterior to the scrotum", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "That approach is used for perineal urethrostomy, not cystostomy. Suprapubic cystostomy is performed 2 cm above the pubic symphysis when the bladder is distended.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! Key pelvic anatomy:</p><ul><li><strong>Pelvic diaphragm:</strong> Levator ani + coccygeus; nerve supply S3-S4</li><li><strong>Puborectalis:</strong> Maintains anorectal angle (~90°) for continence</li><li><strong>Uterine prolapse:</strong> Weakened levator ani + cardinal/uterosacral ligaments</li><li><strong>BPH:</strong> Median lobe obstructs internal urethral orifice</li><li><strong>Internal iliac artery:</strong> Main pelvic blood supply</li><li><strong>Suprapubic cystostomy:</strong> 2 cm above pubic symphysis with distended bladder</li><li><strong>Gynaecoid pelvis:</strong> Rounded inlet, subpubic angle >90°</li></ul>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

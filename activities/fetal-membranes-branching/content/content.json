@@ -1,0 +1,147 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Fetal membranes — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Swollen Abdomen in Pregnancy</strong></p>",
+      "startScreenSubtitle": "<p>A 28-year-old primigravida at 34 weeks of gestation presents with a rapidly increasing abdominal girth and difficulty breathing. On examination, her uterus is larger than expected for dates and you cannot palpate fetal parts easily. An ultrasound is ordered.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified polyhydramnios, understood normal amniotic fluid dynamics (fetal urine production and swallowing), the role of the chorion frondosum in forming the placenta, and the haemochorial nature of human placentation. You also correctly identified the management approach.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some aspects correctly. Review amniotic fluid dynamics (source: fetal urine after 16 weeks; removal: fetal swallowing), normal volume (800-1000 mL at 36 weeks), and the distinction between polyhydramnios and oligohydramnios.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review fetal membranes: chorion (trophoblast + somatic mesoderm), chorion frondosum, amniotic fluid dynamics, haemochorial placenta, and clinical conditions — polyhydramnios and Potter sequence (oligohydramnios from bilateral renal agenesis).</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 28-year-old primigravida at 34 weeks presents to the antenatal clinic with:</p><ul><li>Rapidly increasing abdominal girth over the past 2 weeks</li><li>Breathlessness, especially when lying flat</li><li>Difficulty walking due to the large abdomen</li><li>History of gestational diabetes (poorly controlled)</li></ul><p><strong>On examination:</strong></p><ul><li>Uterine height: 40 cm (expected: 34 cm for 34 weeks)</li><li>Abdomen is tense; fetal parts are difficult to palpate (fluid thrill positive)</li><li>Fetal heart sounds are distant but regular</li><li>Mild bilateral pedal oedema</li></ul><p>After 16 weeks of gestation, the primary source of amniotic fluid is fetal urine, and the fetus removes fluid by swallowing about 500–600 mL per day. Normal amniotic fluid volume at 36 weeks is approximately 800–1000 mL.</p><p>What do you suspect and what investigation would confirm it?</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Based on the clinical presentation (uterus larger than dates, tense abdomen, difficulty palpating fetal parts), what is the most likely diagnosis?</p>",
+              "alternatives": [
+                {
+                  "text": "Polyhydramnios — excess amniotic fluid (>2 litres)",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Polyhydramnios is defined as amniotic fluid exceeding 2 litres (AFI >25 cm on ultrasound). The uterus-larger-than-dates, tense abdomen, difficulty palpating fetal parts, and fluid thrill are all classic signs. Causes include fetal inability to swallow (e.g., oesophageal atresia, anencephaly) or increased urine production (e.g., maternal diabetes causing fetal polyuria).</p>"
+                  }
+                },
+                {
+                  "text": "Oligohydramnios — reduced amniotic fluid",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Opposite finding</p>",
+                    "subtitle": "<p>Oligohydramnios would present with a uterus SMALLER than dates, easily palpable fetal parts, and reduced fetal movements. The most severe cause is bilateral renal agenesis, leading to Potter sequence (pulmonary hypoplasia, limb deformities, characteristic facies). This patient has a uterus LARGER than dates with excessive fluid.</p>"
+                  }
+                },
+                {
+                  "text": "Twin pregnancy",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Should be considered but not the primary diagnosis here</p>",
+                    "subtitle": "<p>While twin pregnancy can cause a uterus larger than dates, the fluid thrill, inability to palpate fetal parts, and distant heart sounds suggest excess amniotic fluid rather than multiple fetuses. Ultrasound would distinguish these conditions. The patient's poorly controlled gestational diabetes is a key risk factor for polyhydramnios.</p>"
+                  }
+                },
+                {
+                  "text": "Hydatidiform mole",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>A hydatidiform mole presents in the first trimester with a snowstorm pattern on ultrasound, very high beta-hCG, and no fetal parts. This patient is at 34 weeks with a viable fetus — molar pregnancy is not compatible with this presentation.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Investigation Results</h2><p>Ultrasound confirms <strong>polyhydramnios</strong> with an Amniotic Fluid Index (AFI) of 32 cm (normal: 8–24 cm). A single live fetus is seen with no structural anomalies detected.</p><p><strong>Key embryology reviewed:</strong></p><ul><li>The <strong>chorion</strong> is formed by the trophoblast and extraembryonic somatic mesoderm</li><li>The part facing the decidua basalis with proliferating villi is called <strong>chorion frondosum</strong> — this forms the fetal part of the placenta</li><li>The human placenta is <strong>haemochorial</strong>, meaning maternal blood directly bathes the chorionic villi</li><li>The fetus produces urine from about 16 weeks → major source of amniotic fluid</li><li>The fetus swallows ~500–600 mL/day → removes amniotic fluid</li></ul><p>Given the polyhydramnios and gestational diabetes, how should you manage this patient?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the most appropriate management for this patient with polyhydramnios and gestational diabetes?</p>",
+              "alternatives": [
+                {
+                  "text": "Strict glycaemic control + serial ultrasound monitoring + amnioreduction if symptomatic",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Controlling maternal blood glucose reduces fetal hyperglycaemia and polyuria, which is the likely cause of polyhydramnios in this case. Serial ultrasound monitors fluid volume and fetal growth. Therapeutic amnioreduction (removing excess fluid by amniocentesis) is done if the mother is severely symptomatic (breathlessness, preterm labour risk).</p>"
+                  }
+                },
+                {
+                  "text": "Immediate caesarean section delivery",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Premature intervention</p>",
+                    "subtitle": "<p>At 34 weeks, the fetus is premature and would benefit from continued intrauterine development. Immediate delivery is not indicated unless there are complications (cord prolapse, placental abruption, severe maternal distress). Conservative management with glycaemic control and monitoring is preferred.</p>"
+                  }
+                },
+                {
+                  "text": "Fluid restriction for the mother",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Maternal fluid restriction does NOT reduce amniotic fluid volume. The primary source of amniotic fluid after 16 weeks is fetal urine, not maternal fluid transfer. The key is to control the underlying cause — in this case, maternal hyperglycaemia causing fetal polyuria.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Teaching Points</h2><p>Management plan:</p><ul><li><strong>Strict glycaemic control</strong> with insulin adjustment</li><li><strong>Serial ultrasound</strong> every 2 weeks for AFI and fetal growth</li><li><strong>Betamethasone</strong> for fetal lung maturity (in case of preterm delivery)</li><li><strong>Amnioreduction</strong> if symptomatic (>1.5 litres drained slowly)</li></ul><p><strong>Key Fetal Membrane Concepts:</strong></p><ul><li><strong>Chorion</strong> = trophoblast + extraembryonic somatic mesoderm</li><li><strong>Chorion frondosum</strong> = part with proliferating villi → forms fetal placenta</li><li><strong>Amniotic fluid source</strong> after 16 weeks = fetal urine; removed by fetal swallowing</li><li><strong>Normal volume</strong> at 36 weeks = 800–1000 mL</li><li><strong>Polyhydramnios</strong> = >2 litres (impaired swallowing or excess production)</li><li><strong>Haemochorial placenta</strong> = maternal blood bathes chorionic villi directly</li><li><strong>Potter sequence</strong> = oligohydramnios from bilateral renal agenesis → pulmonary hypoplasia</li></ul>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

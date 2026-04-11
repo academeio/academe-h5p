@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Hip Joint — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Hip Joint</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in Hip Joint anatomy. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: Road Traffic Accident</h2><p>A 35-year-old man is brought to the emergency department after a high-speed motor vehicle collision. He was the front-seat passenger with the knee hitting the dashboard. His left lower limb is held in flexion, adduction, and internal rotation. He is in severe pain and unable to move the hip.</p><p><strong>Key concept:</strong> The hip joint is a ball-and-socket synovial joint designed for stability over mobility. In posterior dislocation (common in RTAs), the limb is held in flexion, adduction, and internal rotation.</p>"}, "subContentId": "c3d4e5f6-3333-4ccc-b333-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Based on the limb position (flexion, adduction, internal rotation), what is the most likely diagnosis and what type of joint is the hip?</p>", "alternatives": [
+          {"text": "Posterior hip dislocation — the hip is a ball-and-socket joint designed for stability", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The classic triad of flexion, adduction, and internal rotation indicates posterior dislocation of the ball-and-socket hip joint.</p>"}},
+          {"text": "Anterior hip dislocation — the limb would be in the same position", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Anterior dislocation produces the OPPOSITE position: extension, abduction, and external rotation. The described position is classic for posterior dislocation.</p>"}},
+          {"text": "Femoral neck fracture — joint type is irrelevant", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Femoral neck fractures typically present with shortening and external rotation. The fixed position of flexion, adduction, and internal rotation is pathognomonic of posterior dislocation.</p>"}}
+        ]}}, "subContentId": "c3d4e5f6-3333-4ccc-b333-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Investigation Results</h2><p>X-ray confirms posterior dislocation. CT scan shows no associated acetabular fracture. The orthopaedic team performs closed reduction under sedation. Post-reduction, the patient is warned about the risk of avascular necrosis of the femoral head.</p><p><strong>Concept:</strong> Fractures or dislocations around the femoral neck risk avascular necrosis (AVN) because the retinacular blood vessels running along the neck are damaged, cutting off blood supply to the femoral head. The acetabulum is formed by three bones: ilium (superior), ischium (posteroinferior), and pubis (anteroinferior).</p>"}, "subContentId": "c3d4e5f6-3333-4ccc-b333-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Why is avascular necrosis a feared complication after hip dislocation? Which blood vessels are at risk?</p>", "alternatives": [
+          {"text": "The retinacular blood vessels along the femoral neck are damaged, cutting off blood supply to the femoral head", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The retinacular vessels are the primary blood supply to the femoral head. Their disruption leads to AVN — a serious long-term complication.</p>"}},
+          {"text": "The obturator artery is the sole supply and is always torn in dislocation", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The obturator artery (via the ligamentum teres) provides only a minor contribution. The retinacular vessels are the critical supply.</p>"}},
+          {"text": "AVN is caused by nerve damage, not vascular compromise", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>AVN (Avascular Necrosis) is by definition due to loss of blood supply. The retinacular vessels along the femoral neck are the key structures at risk.</p>"}}
+        ]}}, "subContentId": "c3d4e5f6-3333-4ccc-b333-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>The patient is kept non-weight-bearing for 6 weeks. Follow-up MRI at 3 months shows no signs of AVN. He makes a full recovery.</p><p><strong>Learning points:</strong></p><ul><li>The hip is a ball-and-socket joint prioritising stability over mobility</li><li>The acetabulum is formed by ilium, ischium, and pubis</li><li>The iliofemoral ligament (Y-ligament of Bigelow) is the strongest ligament in the body</li><li>Posterior dislocation: flexion, adduction, internal rotation</li><li>AVN risk due to retinacular vessel damage</li></ul>"}, "subContentId": "c3d4e5f6-3333-4ccc-b333-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

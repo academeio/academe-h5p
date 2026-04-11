@@ -1,0 +1,163 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Ventricular System & Special sensory pathways — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>Ventricular System & Visual Pathways Case</h2>",
+      "startScreenSubtitle": "<p>A 50-year-old woman presents with headaches and visual field defects. Apply your knowledge of the ventricular system, CSF circulation, and visual pathways to guide diagnosis.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You correctly applied knowledge of the ventricular system, CSF flow, and visual pathway anatomy to diagnose and manage this case.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "<h2>Partial Understanding</h2>",
+        "endScreenSubtitle": "<p>You showed some knowledge but missed key concepts. Review the ventricular connections, types of hydrocephalus, and optic chiasm anatomy.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "<h2>Needs Improvement</h2>",
+        "endScreenSubtitle": "<p>Review the fundamentals: ventricular system anatomy, CSF circulation, optic chiasm fibre crossing, and visual field defect patterns.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Case Presentation</h3><p>A 50-year-old woman presents with a 3-month history of progressive headaches (worse in the morning), nausea, and gradual loss of peripheral vision in both eyes. She has also noticed irregular menstrual cycles and mild galactorrhoea.</p><p><strong>Examination findings:</strong></p><ul><li>Visual acuity: 6/6 bilaterally (central vision preserved)</li><li>Visual fields: Loss of temporal visual fields bilaterally</li><li>Fundoscopy: Early papilloedema</li><li>No other cranial nerve deficits</li></ul><p><strong>Key anatomy:</strong> The ventricular system includes the lateral ventricles (connected to the 3rd ventricle via the <strong>foramen of Monro</strong>), the 3rd ventricle (connected to the 4th via the <strong>cerebral aqueduct of Sylvius</strong>), and the 4th ventricle.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Case Presentation"}
+        },
+        "contentId": 0,
+        "feedback": {},
+        "nextContentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>The patient has bilateral temporal visual field loss (bitemporal hemianopia). Which structure is being compressed, and which fibres are damaged?</p>",
+              "alternatives": [
+                {
+                  "text": "Optic chiasm — the nasal retinal fibres that cross at the chiasm are damaged, causing loss of temporal visual fields bilaterally",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>At the optic chiasm, nasal retinal fibres (which carry temporal visual field information) cross to the opposite side, while temporal retinal fibres remain ipsilateral. A pituitary tumour compressing the chiasm from below damages the crossing nasal fibres, causing bitemporal hemianopia — the classic visual field defect of chiasmal compression.</p>"
+                  }
+                },
+                {
+                  "text": "Both optic nerves — bilateral optic neuritis causing peripheral vision loss",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Bilateral optic nerve damage would typically cause bilateral central scotomas or diffuse visual loss, not a clean bitemporal hemianopia. The pattern of bilateral temporal field loss specifically localises to the optic chiasm, where the crossing nasal retinal fibres are selectively damaged by midline compression from below.</p>"
+                  }
+                },
+                {
+                  "text": "Lateral geniculate nucleus — relay station damage causing bilateral field cuts",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>The lateral geniculate nucleus (LGN) is a relay in the thalamus. Unilateral LGN damage would cause contralateral homonymous hemianopia, not bitemporal hemianopia. Bitemporal hemianopia specifically indicates optic chiasm compression, where crossing nasal retinal fibres are damaged.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Visual Field Defect"}
+        },
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>MRI Findings and Hydrocephalus</h3><p>MRI reveals a <strong>pituitary macroadenoma</strong> (3 cm) extending superiorly to compress the optic chiasm. The tumour also partially obstructs the foramen of Monro.</p><p><strong>Imaging shows:</strong></p><ul><li>Dilated lateral ventricles bilaterally</li><li>Mildly dilated 3rd ventricle</li><li>Normal-sized 4th ventricle</li></ul><p>This pattern indicates <strong>obstructive (non-communicating) hydrocephalus</strong> — CSF flow is blocked at the foramen of Monro. Compare this with aqueductal stenosis, where the block is at the cerebral aqueduct (lateral and 3rd ventricles dilated, 4th ventricle normal).</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "MRI and Hydrocephalus"}
+        },
+        "contentId": 2,
+        "feedback": {},
+        "nextContentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>In aqueductal stenosis (blockage of the cerebral aqueduct of Sylvius), which ventricles would be dilated?</p>",
+              "alternatives": [
+                {
+                  "text": "The lateral ventricles and 3rd ventricle would be dilated, while the 4th ventricle remains normal in size",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>The cerebral aqueduct connects the 3rd ventricle to the 4th ventricle. Obstruction here causes CSF to accumulate upstream — dilating the lateral ventricles and 3rd ventricle. The 4th ventricle, being downstream of the block, remains normal. This is the most common cause of congenital hydrocephalus.</p>"
+                  }
+                },
+                {
+                  "text": "Only the 4th ventricle would be dilated, as CSF backs up below the blockage",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>CSF flows from the lateral ventricles → 3rd ventricle → cerebral aqueduct → 4th ventricle. A block at the aqueduct causes upstream dilation (lateral + 3rd ventricles), not downstream. The 4th ventricle would be normal or small. Think of it like a dam — water backs up upstream of the blockage.</p>"
+                  }
+                },
+                {
+                  "text": "All four ventricles would be equally dilated because CSF circulates in a closed loop",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>CSF does not circulate in a closed loop — it flows in one direction: lateral ventricles → foramen of Monro → 3rd ventricle → cerebral aqueduct → 4th ventricle → foramina of Luschka and Magendie → subarachnoid space → arachnoid granulations. A block at any point causes dilation only upstream of the obstruction.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Hydrocephalus Pattern"}
+        },
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Key Learning Points</h3><ul><li><strong>Ventricular connections:</strong> Lateral ventricles → foramen of Monro → 3rd ventricle → cerebral aqueduct (of Sylvius) → 4th ventricle</li><li><strong>Aqueductal stenosis:</strong> Dilated lateral and 3rd ventricles with normal 4th ventricle — most common cause of congenital hydrocephalus</li><li><strong>Optic chiasm:</strong> Nasal retinal fibres cross; temporal retinal fibres remain ipsilateral</li><li><strong>Bitemporal hemianopia:</strong> Classic sign of chiasmal compression (e.g., pituitary tumour) — damage to crossing nasal fibres</li><li><strong>Pituitary tumour effects:</strong> Visual field defects (chiasm), hormonal disturbance (prolactin, GH, ACTH), and potentially hydrocephalus (foramen of Monro compression)</li><li><strong>CSF flow:</strong> Produced by choroid plexus → ventricles → subarachnoid space → absorbed by arachnoid granulations into venous sinuses</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Key Learning Points"}
+        },
+        "contentId": 4,
+        "feedback": {},
+        "nextContentId": -1
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

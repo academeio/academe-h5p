@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Introduction to embryology — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Introduction to Embryology</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in embryology. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: First Trimester Concern</h2><p>A 32-year-old woman, 5 weeks pregnant, presents worried because she took ibuprofen for a headache before knowing she was pregnant (at approximately 10 days post-fertilisation). She asks about the risk to her baby.</p><p><strong>Key concept:</strong> The first two weeks of development are called the \"all-or-none\" period — teratogen exposure either kills the embryo or causes no malformation. Human prenatal development spans approximately 38 weeks (266 days) from fertilisation.</p>"}, "subContentId": "a7b8c9d0-7777-4aaa-b777-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The patient took medication at 10 days post-fertilisation. During this \"all-or-none\" period, what is the expected outcome of teratogen exposure?</p>", "alternatives": [
+          {"text": "Either the embryo is killed or there is no malformation — the \"all-or-none\" period", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The first two weeks constitute the all-or-none period. Cells are totipotent and can compensate for damaged cells, or the damage is lethal.</p>"}},
+          {"text": "Major organ malformations are most likely during the first two weeks", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Major malformations occur during weeks 3-8 (the embryonic period) when organogenesis occurs. The first two weeks follow the all-or-none principle.</p>"}},
+          {"text": "Minor functional defects without structural anomalies are the typical outcome", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Functional defects without structural anomalies are more characteristic of the fetal period (after week 8). The first two weeks follow the all-or-none rule.</p>"}}
+        ]}}, "subContentId": "a7b8c9d0-7777-4aaa-b777-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Counselling Session</h2><p>The obstetrician reassures her about the timing of exposure. However, she is counselled about avoiding medications during weeks 3-8 of development, which is the period of greatest risk.</p><p><strong>Concept:</strong> The embryonic period (weeks 3-8) is when organogenesis occurs and all major organ systems are established. This is the period of greatest susceptibility to teratogens.</p>"}, "subContentId": "a7b8c9d0-7777-4aaa-b777-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Why is the embryonic period (weeks 3-8) the most critical time for teratogen exposure?</p>", "alternatives": [
+          {"text": "Because organogenesis occurs during this period — all major organ systems are being established", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Weeks 3-8 are the embryonic period when organogenesis occurs. Disruption during this time causes major structural malformations.</p>"}},
+          {"text": "Because the placenta has not yet formed, so there is no barrier to drugs", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The placenta forms during this period but the vulnerability is due to active organogenesis, not absence of a placental barrier. Many drugs cross the placenta anyway.</p>"}},
+          {"text": "Because the embryo is growing fastest in terms of size during weeks 3-8", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Maximum growth in size occurs during the fetal period. Weeks 3-8 are critical because of organogenesis — the formation and differentiation of organ systems.</p>"}}
+        ]}}, "subContentId": "a7b8c9d0-7777-4aaa-b777-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>The pregnancy proceeds normally. The first trimester screening is reassuring. The patient avoids all unnecessary medications during the remainder of the first trimester.</p><p><strong>Learning points:</strong></p><ul><li>Prenatal development: ~38 weeks (266 days) from fertilisation</li><li>Weeks 1-2: all-or-none period (lethal or no effect)</li><li>Weeks 3-8: embryonic period — organogenesis — greatest teratogenic risk</li><li>Ontogeny = individual development; Phylogeny = species evolution</li></ul>"}, "subContentId": "a7b8c9d0-7777-4aaa-b777-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

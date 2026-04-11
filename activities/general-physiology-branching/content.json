@@ -1,0 +1,168 @@
+{
+  "branchingScenario": {
+    "title": "PBL: General Physiology — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: General Physiology</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in General Physiology. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>",
+        "contentId": -1,
+        "endScreenScore": 10
+      },
+      {
+        "endScreenTitle": "<h2>Partially Correct</h2>",
+        "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>",
+        "contentId": -2,
+        "endScreenScore": 5
+      },
+      {
+        "endScreenTitle": "<h2>Needs Review</h2>",
+        "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>",
+        "contentId": -3,
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Case: Acute Dehydration</h2><p>A 22-year-old marathon runner collapses after a race on a hot day. He is confused and has dry mucous membranes. His blood pressure is 90/60 mmHg and heart rate is 120 bpm. Laboratory results show serum sodium of 155 mEq/L and serum osmolality of 310 mOsm/kg.</p><p><strong>Key concept:</strong> Body fluid is distributed between intracellular (approximately two-thirds of total body water) and extracellular (approximately one-third) compartments. Osmosis drives water movement across semipermeable membranes from regions of low solute concentration to high solute concentration.</p>"
+          },
+          "subContentId": "a1b2c3d4-1111-4aaa-b111-000000000001"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the primary mechanism causing water to shift between fluid compartments in this patient?</p>",
+              "alternatives": [
+                {
+                  "text": "Osmosis — water moves from low to high solute concentration across a semipermeable membrane",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Osmosis is the key mechanism governing water distribution between compartments.</p>"
+                  }
+                },
+                {
+                  "text": "Active transport via the sodium-potassium ATPase pump",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Not quite</p>",
+                    "subtitle": "<p>The Na-K ATPase maintains the resting membrane potential but is not the primary mechanism for bulk water movement between compartments.</p>"
+                  }
+                },
+                {
+                  "text": "Facilitated diffusion through aquaporin channels only",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incomplete</p>",
+                    "subtitle": "<p>Aquaporins are water channels, but the driving force for water movement is osmosis — the osmotic gradient determines direction.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "a1b2c3d4-1111-4aaa-b111-000000000002"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Investigation Results</h2><p>IV normal saline is started. After 1 litre, his blood pressure improves to 110/70 mmHg. Repeat labs show sodium 148 mEq/L. His confusion is improving.</p><p><strong>Concept:</strong> The resting membrane potential of a neuron is approximately -70 mV, maintained by the sodium-potassium ATPase pump which uses ATP to move 3 Na+ out and 2 K+ in against their concentration gradients. Electrolyte disturbances can alter membrane potential and cause neurological symptoms.</p>"
+          },
+          "subContentId": "a1b2c3d4-1111-4aaa-b111-000000000003"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Why did this patient develop confusion with hypernatraemia? What maintains the normal resting membrane potential of neurons?</p>",
+              "alternatives": [
+                {
+                  "text": "The sodium-potassium ATPase pump maintains resting potential at -70 mV; hypernatraemia disrupts this gradient",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>The Na-K ATPase uses ATP to maintain the -70 mV resting potential. Hypernatraemia alters the electrochemical gradient, causing neuronal dysfunction.</p>"
+                  }
+                },
+                {
+                  "text": "Passive diffusion of chloride ions is the sole determinant of resting potential",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>While chloride contributes, the Na-K ATPase pump is the primary maintainer of resting membrane potential through active transport against concentration gradients.</p>"
+                  }
+                },
+                {
+                  "text": "Confusion is caused by direct sodium toxicity to neurons, unrelated to membrane potential",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Not accurate</p>",
+                    "subtitle": "<p>The neurological effects are due to osmotic water shifts and altered membrane potentials, not direct sodium toxicity.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "a1b2c3d4-1111-4aaa-b111-000000000004"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Clinical Resolution</h2><p>With gradual rehydration using hypotonic fluids, the patient's sodium normalises over 48 hours. His mental status returns to normal.</p><p><strong>Learning points:</strong></p><ul><li>Active transport requires ATP and moves substances against their concentration gradient</li><li>The cell membrane's phospholipid bilayer with embedded proteins controls selective permeability</li><li>Osmosis governs water movement between fluid compartments</li><li>The Na-K ATPase pump is essential for maintaining resting membrane potential</li></ul>"
+          },
+          "subContentId": "a1b2c3d4-1111-4aaa-b111-000000000005"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

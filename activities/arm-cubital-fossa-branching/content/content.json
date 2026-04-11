@@ -1,0 +1,62 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Arm & Cubital fossa — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>Saturday Night Palsy</strong></p>",
+      "startScreenSubtitle": "<p>A 28-year-old man presents to the orthopaedic outpatient clinic with inability to extend his right wrist and fingers since waking up the previous morning. He reports falling asleep on a park bench with his arm draped over the back of the bench after a party. He has no other neurological symptoms. Vitals are normal. You are the orthopaedic resident assessing him.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified radial nerve palsy from compression in the spiral groove, performed appropriate examination of the cubital fossa and arm compartments, and chose conservative management with a wrist splint. Your understanding of arm anatomy, nerve courses, and the cubital fossa was thorough.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified the nerve injury but missed some anatomical details. Review the course of the radial nerve through the spiral groove, the compartments of the arm, and the boundaries and contents of the cubital fossa.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the anatomy of the arm including its compartments, the course of the radial nerve, the muscles of the anterior compartment, and the boundaries of the cubital fossa.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Neurological Examination</h2><p>On examination of the right upper limb:</p><ul><li><strong>Motor:</strong> Complete wrist drop — unable to extend wrist or fingers (finger drop). Unable to extend the thumb. Grip strength is weakened (extensor stabilisation lost). Elbow flexion and extension are preserved. Shoulder movements are normal.</li><li><strong>Sensory:</strong> Reduced sensation over the dorsum of the hand in the first web space (anatomical snuffbox territory)</li><li><strong>Reflexes:</strong> Brachioradialis reflex absent on the right. Biceps and triceps reflexes are preserved.</li></ul><p><strong>Anatomical context:</strong> The arm is divided into anterior and posterior compartments by the medial and lateral intermuscular septa. The anterior compartment contains biceps brachii, brachialis, and coracobrachialis. The radial nerve runs in the spiral groove (radial groove) of the humerus, in close contact with the bone, making it vulnerable to compression.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The pattern of wrist drop with preserved triceps function and preserved elbow extension suggests the radial nerve is injured at which location?</p>", "alternatives": [
+          {"text": "In the spiral groove of the humerus — below the branch to triceps but above the branches to wrist and finger extensors", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The radial nerve gives off branches to the triceps in the axilla and upper arm before entering the spiral groove. Compression in the spiral groove (Saturday night palsy) spares triceps function but causes wrist drop and finger drop because the branches to the posterior forearm compartment extensors arise distal to this point.</p>"}},
+          {"text": "At the posterior cord of the brachial plexus in the axilla", "nextContentId": -2, "feedback": {"title": "<p>Not quite</p>", "subtitle": "<p>A posterior cord lesion would affect the axillary nerve as well, causing deltoid weakness and loss of shoulder abduction. Additionally, triceps would be weak. The preserved triceps and shoulder function localises the lesion to the spiral groove, distal to the triceps branches.</p>"}},
+          {"text": "At the cubital fossa, where the nerve passes between brachioradialis and brachialis", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>If the radial nerve were injured at the cubital fossa, the brachioradialis reflex might be variably affected, but the key finding is the absent brachioradialis reflex AND complete wrist/finger drop — this pattern is classic for spiral groove compression.</p>"}},
+          {"text": "In the posterior interosseous nerve tunnel (arcade of Frohse)", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Posterior interosseous nerve syndrome causes finger drop WITHOUT wrist drop (because the extensor carpi radialis longus is innervated proximal to the arcade). This patient has complete wrist drop, pointing to a more proximal lesion in the spiral groove.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Further Assessment — Cubital Fossa</h2><p>You examine the cubital fossa to check for associated injuries or signs of compression at multiple levels.</p><p><strong>Cubital fossa examination:</strong></p><ul><li>The boundaries are: <strong>brachioradialis</strong> (laterally), <strong>pronator teres</strong> (medially), and an imaginary line between the epicondyles (superiorly)</li><li>The <strong>median cubital vein</strong> crosses superficially — it connects the cephalic and basilic veins and is the preferred site for venipuncture</li><li>Contents from lateral to medial: radial nerve (deep, between brachioradialis and brachialis), biceps tendon, brachial artery, median nerve</li></ul><p><strong>Nerve conduction studies (NCS):</strong> Performed 3 weeks later — confirm conduction block across the spiral groove segment with preserved distal latencies. This indicates neuropraxia (compression injury) rather than axonotmesis.</p><p><strong>EMG:</strong> No denervation potentials in extensor muscles — consistent with neuropraxia and a good prognosis for recovery.</p>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Given the diagnosis of radial nerve neuropraxia at the spiral groove, what is the most appropriate management?</p>", "alternatives": [
+          {"text": "Wrist cock-up splint to maintain functional hand position + physiotherapy + observe for recovery over 6-12 weeks", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Neuropraxia (compression without axon damage) has an excellent prognosis. The nerve recovers spontaneously over weeks to months. A cock-up wrist splint prevents extensor tendon contracture and maintains hand function. Physiotherapy preserves range of motion. Surgery is only considered if there is no recovery by 3-4 months.</p>"}},
+          {"text": "Urgent surgical exploration and nerve decompression at the spiral groove", "nextContentId": -2, "feedback": {"title": "<p>Too aggressive</p>", "subtitle": "<p>Surgical exploration is reserved for cases with no recovery after 3-4 months, or where imaging shows a structural lesion (fracture, bone callus). Neuropraxia recovers spontaneously in the vast majority of cases. Conservative management is appropriate first.</p>"}},
+          {"text": "Steroid injection at the spiral groove + complete arm immobilisation", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Steroid injection at the spiral groove is not standard treatment for Saturday night palsy. Complete immobilisation would lead to joint stiffness. The correct approach is a wrist splint (to maintain function) with active physiotherapy while awaiting spontaneous nerve recovery.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The patient is fitted with a cock-up wrist splint and starts physiotherapy. At 8 weeks, he shows progressive recovery with return of wrist extension. By 12 weeks, he has full recovery of wrist and finger extension with normal grip strength.</p><p><strong>Key anatomical points:</strong></p><ul><li>The arm is divided into anterior and posterior compartments by <strong>intermuscular septa</strong></li><li>Anterior compartment muscles: <strong>biceps brachii, brachialis, coracobrachialis</strong></li><li>The <strong>radial nerve</strong> runs in the <strong>spiral groove</strong> — vulnerable to compression (Saturday night palsy)</li><li>Cubital fossa boundaries: <strong>brachioradialis</strong> (lateral), <strong>pronator teres</strong> (medial), epicondylar line (superior)</li><li>The <strong>median cubital vein</strong> connects the cephalic and basilic veins — preferred venipuncture site</li><li>Spiral groove injury: wrist drop + finger drop, triceps spared</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

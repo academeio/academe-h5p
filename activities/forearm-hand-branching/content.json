@@ -1,0 +1,147 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Forearm & hand — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Numb Hand</strong></p>",
+      "startScreenSubtitle": "<p>A 42-year-old woman who works as a data entry operator presents with tingling and numbness in her right hand for 3 months, worse at night. She frequently drops objects and has pain radiating up her forearm. You need to identify the nerve involved and plan management.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified carpal tunnel syndrome (median nerve compression under the flexor retinaculum), distinguished it from ulnar and radial nerve injuries, and understood the anatomical snuffbox and scaphoid fracture significance.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>Review the three major nerves of the forearm: median (carpal tunnel syndrome), ulnar (claw hand), and radial (wrist drop). Also review the anatomical snuffbox with the scaphoid bone on its floor.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review forearm and hand anatomy: carpal tunnel contents, nerve distributions, flexor carpi ulnaris as the only superficial flexor not supplied by median nerve, and the anatomical snuffbox.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 42-year-old female data entry operator presents with:</p><ul><li>Tingling and numbness in the thumb, index, middle, and radial half of ring finger — for 3 months</li><li>Symptoms are worse at night, waking her from sleep</li><li>She shakes her hand to relieve symptoms (\"flick sign\" positive)</li><li>Dropping objects from the right hand</li><li>Dull ache radiating up the forearm</li></ul><p><strong>On examination:</strong></p><ul><li>Thenar eminence wasting (mild) on the right hand</li><li>Reduced sensation over the palmar surface of thumb, index, middle finger, and radial half of ring finger</li><li>Tinel's sign positive at the wrist (tapping over the carpal tunnel produces tingling)</li><li>Phalen's test positive (wrist flexion for 60 seconds reproduces symptoms)</li><li>Grip strength reduced on the right</li></ul><p>The carpal tunnel is bounded dorsally by the carpal bones and anteriorly by the flexor retinaculum. What nerve is being compressed?</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Which nerve is compressed in carpal tunnel syndrome, causing the symptoms described?</p>",
+              "alternatives": [
+                {
+                  "text": "Median nerve — compressed deep to the flexor retinaculum",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Carpal tunnel syndrome is caused by compression of the median nerve as it passes deep to the flexor retinaculum at the wrist. The median nerve supplies sensation to the palmar surface of the lateral 3.5 fingers and motor function to the thenar muscles (LOAF — Lumbricals 1&2, Opponens pollicis, Abductor pollicis brevis, Flexor pollicis brevis superficial head).</p>"
+                  }
+                },
+                {
+                  "text": "Ulnar nerve",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Ulnar nerve injury causes claw hand deformity (hyperextension at MCP joints and flexion at IP joints) and affects the medial 1.5 fingers. The affected distribution here (lateral 3.5 fingers) points to the median nerve. The only superficial flexor NOT supplied by the median nerve is flexor carpi ulnaris, which is supplied by the ulnar nerve.</p>"
+                  }
+                },
+                {
+                  "text": "Radial nerve",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Radial nerve injury causes wrist drop (inability to extend the wrist and fingers), not sensory loss in the palmar fingers. The radial nerve supplies the posterior compartment of the forearm and hand dorsum. This patient has palmar sensory symptoms indicating median nerve involvement.</p>"
+                  }
+                },
+                {
+                  "text": "Musculocutaneous nerve",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>The musculocutaneous nerve supplies the anterior compartment of the arm (biceps, brachialis, coracobrachialis) and becomes the lateral cutaneous nerve of forearm. It does not innervate the hand. The symptoms here are in the median nerve distribution.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Investigation Results</h2><p>Nerve conduction studies confirm <strong>carpal tunnel syndrome</strong>:</p><ul><li>Prolonged distal motor latency of the median nerve at the wrist</li><li>Reduced sensory conduction velocity across the carpal tunnel</li><li>Normal ulnar nerve studies</li></ul><p><strong>Anatomical review — Carpal tunnel contents:</strong></p><ul><li>4 tendons of flexor digitorum superficialis</li><li>4 tendons of flexor digitorum profundus</li><li>1 tendon of flexor pollicis longus</li><li><strong>Median nerve</strong> — the most superficial structure, lying just deep to the flexor retinaculum</li></ul><p>Note: The only superficial flexor of the forearm NOT supplied by the median nerve is <strong>flexor carpi ulnaris</strong>, which is supplied by the ulnar nerve.</p><p>How would you manage this patient?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Given moderate carpal tunnel syndrome with thenar wasting, what is the most appropriate management?</p>",
+              "alternatives": [
+                {
+                  "text": "Surgical decompression — carpal tunnel release (division of flexor retinaculum)",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>With thenar muscle wasting (indicating axonal damage), surgical decompression is indicated. The flexor retinaculum is divided to release pressure on the median nerve. Conservative management (splinting, steroid injection) is appropriate for mild cases, but thenar wasting indicates significant nerve compression requiring surgery.</p>"
+                  }
+                },
+                {
+                  "text": "Wrist splinting alone and reassurance",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Insufficient for this stage</p>",
+                    "subtitle": "<p>Wrist splinting (especially at night in neutral position) is appropriate for mild CTS without wasting. This patient has thenar muscle wasting indicating significant axonal damage — she needs surgical decompression to prevent irreversible nerve damage.</p>"
+                  }
+                },
+                {
+                  "text": "Ulnar nerve transposition",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Wrong nerve, wrong surgery</p>",
+                    "subtitle": "<p>Ulnar nerve transposition is done for cubital tunnel syndrome (ulnar nerve compression at the elbow), not carpal tunnel syndrome. CTS involves the median nerve and requires division of the flexor retinaculum, not ulnar nerve surgery.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Teaching Points</h2><p>The patient undergoes <strong>open carpal tunnel release</strong> under local anaesthesia. The flexor retinaculum is divided, and the median nerve is decompressed. Post-operatively, symptoms improve within days to weeks.</p><p><strong>Key Forearm & Hand Anatomy:</strong></p><ul><li><strong>Carpal tunnel syndrome</strong>: median nerve compressed under flexor retinaculum</li><li><strong>Wrist drop</strong>: radial nerve injury → cannot extend wrist/fingers</li><li><strong>Claw hand</strong>: ulnar nerve injury → MCP hyperextension + IP flexion</li><li><strong>Flexor carpi ulnaris</strong>: the only superficial flexor NOT supplied by the median nerve</li><li><strong>Anatomical snuffbox</strong>: depression at base of thumb, scaphoid bone on floor → tenderness = scaphoid fracture</li></ul><p>The patient should avoid repetitive wrist movements and use ergonomic adaptations at her workstation to prevent recurrence.</p>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

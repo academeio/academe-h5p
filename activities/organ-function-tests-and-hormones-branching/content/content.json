@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "BI11.1-2 | Organ Function tests and Hormones — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Liver Function Tests, Thyroid Profile & Renal Markers</h2>",
+      "startScreenSubtitle": "<p>A 48-year-old man with a history of heavy alcohol use presents with jaundice. Work through this case interpreting liver function tests, thyroid function, and renal markers.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly interpreted LFT patterns, thyroid function tests, and renal markers with strong biochemical reasoning.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review AST:ALT ratio significance, TSH-T4 feedback, and albumin half-life.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit ALT as a hepatocellular marker, the AST:ALT ratio in alcoholic hepatitis, thyroid feedback loops, and creatinine as a GFR marker.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A 48-year-old man presents with jaundice, spider naevi, and palmar erythema. He admits to consuming alcohol daily for 15 years. His LFT panel shows:</p><ul><li>AST: 280 U/L (elevated)</li><li>ALT: 120 U/L (elevated)</li><li>AST:ALT ratio: >2:1</li><li>Albumin: 2.8 g/dL (low)</li></ul><p>The most specific marker of hepatocellular injury is <strong>ALT</strong> (alanine aminotransferase), a <strong>cytoplasmic</strong> enzyme found almost exclusively in hepatocytes. An AST:ALT ratio greater than <strong>2:1</strong> suggests <strong>alcoholic</strong> hepatitis, because alcohol depletes <strong>pyridoxal phosphate</strong> (vitamin B6), which is needed for ALT synthesis.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The patient's AST:ALT ratio is >2:1. Why does this pattern specifically suggest alcoholic hepatitis rather than viral hepatitis?</p>", "alternatives": [ { "text": "Alcohol depletes pyridoxal phosphate (vitamin B6), which is required for ALT synthesis, so ALT is disproportionately low", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Alcohol directly destroys ALT enzyme in the bloodstream", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "Alcohol does not destroy circulating ALT. The mechanism is that alcohol depletes pyridoxal phosphate (B6), a cofactor needed for ALT synthesis, causing disproportionately low ALT.", "image": {}, "endScreenScore": 0 } }, { "text": "Viral hepatitis increases ALT production while alcohol increases AST", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Both hepatitis types release AST and ALT. The key is that alcohol depletes pyridoxal phosphate (vitamin B6), required for ALT synthesis, causing the characteristic >2:1 AST:ALT ratio.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! B6 depletion reduces ALT synthesis, elevating the AST:ALT ratio.</p><p>Additional tests reveal:</p><ul><li>TSH: 12 mIU/L (elevated) — Free T4: 0.5 ng/dL (low)</li><li>Creatinine: 1.8 mg/dL (elevated)</li><li>Albumin half-life: approximately <strong>21 days</strong></li></ul><p>The thyroid results show <strong>primary hypothyroidism</strong>: TSH is <strong>elevated</strong> because free T4 is <strong>decreased</strong>, and the feedback loop from the thyroid to the <strong>anterior pituitary</strong> is disrupted.</p><p>Serum <strong>creatinine</strong> is the most commonly used marker of glomerular filtration rate, while <strong>albumin</strong> reflects hepatic <strong>synthetic</strong> function.</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The patient's albumin is low at 2.8 g/dL. What does low serum albumin indicate in the context of liver disease, and why does it take weeks to decline?</p>", "alternatives": [ { "text": "It reflects impaired hepatic synthetic function; albumin has a long half-life of approximately 21 days", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "It indicates renal albumin loss; albumin drops rapidly in hours", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "While nephrotic syndrome causes albumin loss, in this liver disease context, low albumin reflects impaired hepatic synthesis. Its long half-life (~21 days) explains the gradual decline.", "image": {}, "endScreenScore": 0 } }, { "text": "It indicates malnutrition only; albumin is not made by the liver", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Albumin is synthesised primarily by the liver. Low albumin in liver disease indicates impaired hepatic synthetic function. Its half-life is approximately 21 days.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! Key biochemical principles:</p><ul><li><strong>ALT:</strong> Most specific hepatocellular injury marker (cytoplasmic enzyme)</li><li><strong>AST:ALT >2:1:</strong> Suggests alcoholic hepatitis (B6 depletion reduces ALT synthesis)</li><li><strong>Primary hypothyroidism:</strong> High TSH + low free T4 (disrupted thyroid-pituitary feedback)</li><li><strong>Creatinine:</strong> Most common GFR marker</li><li><strong>Albumin:</strong> Reflects hepatic synthetic function, half-life ~21 days</li></ul>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

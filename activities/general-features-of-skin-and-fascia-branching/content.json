@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: General features of skin and fascia — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Scarring Dilemma</strong></p>",
+      "startScreenSubtitle": "<p>A 25-year-old woman presents to the plastic surgery OPD concerned about a wide, unsightly scar on her abdomen from an emergency appendectomy 6 months ago. She is planning her wedding and wants the scar improved. Understanding skin anatomy will guide the surgical approach.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified that the scar was made perpendicular to Langer's lines, understood the difference between thick and thin skin, dermatomes, and the structure of superficial fascia (subcutaneous tissue). Excellent knowledge of skin anatomy applied to clinical practice.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>Review Langer's lines (collagen fibre orientation affecting scarring), thick vs thin skin (palms/soles vs rest of body), dermatomes (single spinal nerve), and the composition of superficial fascia.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review skin anatomy: thick vs thin skin, dermatomes, Langer's lines, superficial fascia contents (fat, cutaneous nerves, superficial vessels), and wound healing principles.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Patient Presentation</h2><p>A 25-year-old woman presents with a wide, raised scar on the right iliac fossa from appendectomy 6 months ago. Hypertrophic, 8 cm, perpendicular to natural skin tension lines. Thick skin = palms/soles; thin skin = rest of body. Skin weighs ~3.5 kg, covers ~2 sq metres. Dermatome = area supplied by single spinal nerve (T12-L1 here).</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Why did this scar become hypertrophic?</p>", "alternatives": [
+          {"text": "Incision perpendicular to Langer's lines", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Incisions along Langer's lines follow collagen fibre orientation and heal with minimal scarring. Perpendicular incisions are pulled apart by skin tension.</p>"}},
+          {"text": "Skin too thick in this area", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Abdominal skin is thin skin. Thick skin is only on palms/soles.</p>"}},
+          {"text": "Dermatome was damaged", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>A dermatome is a sensory distribution pattern, not a physical structure that can be damaged.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Anatomical Basis</h2><p>Langer's lines = collagen fibre orientation. Skin: epidermis (avascular) + dermis (collagen, vessels, nerves). Beneath: superficial fascia (subcutaneous tissue) contains fat, cutaneous nerves, superficial vessels.</p>"}, "subContentId": "scene-2"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Best management for this hypertrophic scar?</p>", "alternatives": [
+          {"text": "Z-plasty to realign along Langer's lines + silicone sheeting", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Z-plasty reorients the scar along collagen fibres, reducing tension and improving healing.</p>"}},
+          {"text": "Dermabrasion", "nextContentId": -2, "feedback": {"title": "<p>Partially helpful</p>", "subtitle": "<p>Doesn't address the underlying orientation problem. Hypertrophy may recur.</p>"}},
+          {"text": "Vitamin E cream", "nextContentId": -3, "feedback": {"title": "<p>No evidence</p>", "subtitle": "<p>Vitamin E cream has no proven benefit for scar reduction.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Key Points</h2><ul><li>Thick skin: palms/soles; Thin skin: rest of body</li><li>Dermatome: area supplied by single spinal nerve</li><li>Langer's lines: incisions along these lines heal with minimal scarring</li><li>Superficial fascia: fat, cutaneous nerves, superficial vessels</li><li>Skin: ~3.5 kg, ~2 sq metres</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

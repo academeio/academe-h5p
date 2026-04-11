@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Medulla Oblongata — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Medulla Oblongata</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in medullary anatomy and clinical syndromes. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: Sudden Vertigo and Dysphagia</h2><p>A 65-year-old hypertensive man suddenly develops vertigo, nausea, difficulty swallowing, and hoarseness of voice. On examination, he has drooping of the left eyelid (ptosis), constricted left pupil (miosis), and loss of sweating on the left face (Horner syndrome). Pain and temperature sensation is lost on the right side of the body but intact on the left face.</p><p><strong>Key concept:</strong> In Wallenberg syndrome (lateral medullary syndrome), the posterior inferior cerebellar artery (PICA) is occluded, causing ipsilateral Horner syndrome with contralateral loss of pain and temperature.</p>"}, "subContentId": "a3b4c5d6-dddd-4aaa-bddd-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>This patient has ipsilateral Horner syndrome and contralateral pain/temperature loss. Which artery is occluded in this classic syndrome?</p>", "alternatives": [
+          {"text": "Posterior inferior cerebellar artery (PICA) — causing Wallenberg (lateral medullary) syndrome", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>PICA occlusion causes Wallenberg syndrome with ipsilateral Horner syndrome, ipsilateral cranial nerve palsies, and contralateral pain/temperature loss.</p>"}},
+          {"text": "Anterior spinal artery — causing medial medullary syndrome", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Anterior spinal artery occlusion causes medial medullary syndrome (ipsilateral tongue weakness + contralateral hemiplegia). Wallenberg syndrome involves PICA.</p>"}},
+          {"text": "Basilar artery — causing locked-in syndrome", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Basilar artery occlusion causes locked-in syndrome (quadriplegia with preserved consciousness). This lateral medullary presentation is from PICA occlusion.</p>"}}
+        ]}}, "subContentId": "a3b4c5d6-dddd-4aaa-bddd-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Investigation Results</h2><p>MRI brain confirms a left lateral medullary infarct. The neurologist explains the anatomy: at the pyramidal decussation, 85% of corticospinal fibres cross to the opposite side forming the lateral corticospinal tract. However, in this patient, the lateral (not medial) medulla is affected.</p><p><strong>Concept:</strong> The nucleus gracilis carries fine touch and proprioception from the lower limb, while the nucleus cuneatus carries the same from the upper limb. The medial lemniscus is formed by internal arcuate fibres crossing at the sensory decussation.</p>"}, "subContentId": "a3b4c5d6-dddd-4aaa-bddd-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Which nucleus in the medulla carries fine touch and proprioception from the lower limb?</p>", "alternatives": [
+          {"text": "Nucleus gracilis — carries fine touch and proprioception from the lower limb/lower body", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Gracilis = lower limb (think \"gracile\" = slender = legs). Cuneatus = upper limb. Their fibres cross as internal arcuate fibres to form the medial lemniscus.</p>"}},
+          {"text": "Nucleus cuneatus — it handles all sensory modalities from both limbs", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Nucleus cuneatus carries fine touch and proprioception from the UPPER limb only. Nucleus gracilis handles the lower limb.</p>"}},
+          {"text": "The spinal nucleus of trigeminal — which handles all body proprioception", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The spinal nucleus of trigeminal handles pain and temperature from the face. Nucleus gracilis (lower limb) and cuneatus (upper limb) handle body fine touch and proprioception.</p>"}}
+        ]}}, "subContentId": "a3b4c5d6-dddd-4aaa-bddd-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>The patient is managed with antiplatelet therapy and blood pressure control. Swallowing improves over weeks with speech therapy. Horner syndrome persists but is cosmetically acceptable.</p><p><strong>Learning points:</strong></p><ul><li>Wallenberg syndrome: PICA occlusion causing lateral medullary infarct</li><li>Ipsilateral Horner syndrome + contralateral pain/temperature loss</li><li>Pyramidal decussation: 85% fibres cross to form lateral corticospinal tract</li><li>Gracilis = lower limb; Cuneatus = upper limb (fine touch + proprioception)</li><li>Medial lemniscus formed by internal arcuate fibres at sensory decussation</li></ul>"}, "subContentId": "a3b4c5d6-dddd-4aaa-bddd-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

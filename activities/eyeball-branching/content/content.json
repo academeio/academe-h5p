@@ -1,0 +1,147 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Eyeball — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Blurred Vision Emergency</strong></p>",
+      "startScreenSubtitle": "<p>A 62-year-old diabetic male presents with sudden painless loss of vision in his right eye and a headache. He was watching television when he noticed a 'curtain falling' over his visual field. You need to determine the anatomical basis of his symptoms.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified acute angle-closure glaucoma, understood the three coats of the eyeball, the role of the ciliary body in aqueous humour secretion, and the clinical significance of the fovea centralis and optic disc. Your knowledge of ocular anatomy is excellent.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some aspects but missed key anatomical connections. Review the three coats of the eyeball (fibrous, vascular/uveal, neural/retinal), the ciliary body's role in accommodation and aqueous humour secretion, and the difference between the fovea (highest acuity, cones only) and optic disc (blind spot, no photoreceptors).</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the anatomy of the eyeball: three concentric coats, corneal innervation (ophthalmic division of trigeminal), the ciliary body and its functions, aqueous humour drainage, and the retinal anatomy including the fovea centralis and optic disc.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 62-year-old male, a retired teacher with poorly controlled type 2 diabetes, presents to the eye casualty with:</p><ul><li>Sudden severe pain in the right eye for 2 hours</li><li>Blurred vision with halos around lights</li><li>Nausea and vomiting</li><li>The eye became red and painful while watching a movie in a dark theatre</li></ul><p><strong>On examination:</strong></p><ul><li>Visual acuity: Right eye — counting fingers at 1 metre; Left eye — 6/9</li><li>Right eye: conjunctival injection, hazy cornea (oedematous)</li><li>Right pupil: mid-dilated, fixed, non-reactive to light</li><li>IOP (intraocular pressure): Right eye — 58 mmHg (normal: 10–21 mmHg)</li><li>Shallow anterior chamber on slit-lamp examination</li></ul><p>The cornea provides two-thirds of the eye's refractive power. It is supplied by the ophthalmic division (CN V1) of the trigeminal nerve. The eyeball has three concentric coats. What is the likely diagnosis?</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Based on the acute painful red eye with raised IOP and mid-dilated fixed pupil, what is the most likely diagnosis?</p>",
+              "alternatives": [
+                {
+                  "text": "Acute angle-closure glaucoma",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>The presentation of acute painful red eye with markedly raised IOP (58 mmHg), mid-dilated fixed pupil, shallow anterior chamber, and corneal oedema is classic for acute angle-closure glaucoma. The aqueous humour, secreted by the ciliary body, is blocked from draining through the trabecular meshwork when the peripheral iris occludes the drainage angle.</p>"
+                  }
+                },
+                {
+                  "text": "Central retinal artery occlusion (CRAO)",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Not the best answer</p>",
+                    "subtitle": "<p>CRAO presents with sudden painless loss of vision with a pale retina and cherry-red spot at the fovea centralis (the region of highest visual acuity containing only cones). It does NOT cause pain, raised IOP, or a red eye. This patient has a painful red eye with raised IOP — pointing to glaucoma.</p>"
+                  }
+                },
+                {
+                  "text": "Optic neuritis",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Optic neuritis presents with painful eye movements and reduced vision, often in young females with multiple sclerosis. It does NOT cause raised IOP or a red eye. The optic disc (where the optic nerve exits) is affected in optic neuritis, but IOP remains normal.</p>"
+                  }
+                },
+                {
+                  "text": "Anterior uveitis",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Close but not correct</p>",
+                    "subtitle": "<p>Anterior uveitis (iritis) involves inflammation of the uveal coat (the middle vascular coat of the eyeball, which includes the iris, ciliary body, and choroid). It causes a painful red eye but typically with a SMALL pupil (miosis), cells and flare in the anterior chamber, and normal or low IOP — not the markedly raised IOP seen here.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Investigation Findings</h2><p>Gonioscopy confirms a <strong>closed drainage angle</strong> in the right eye. The anterior chamber is shallow with a convex iris configuration (iris bombe).</p><p><strong>Anatomical basis:</strong></p><ul><li>The eyeball has three concentric coats: outer <strong>fibrous</strong> coat (cornea + sclera), middle <strong>vascular/uveal</strong> coat (iris, ciliary body, choroid), and inner <strong>neural/retinal</strong> coat</li><li>The <strong>ciliary body</strong> secretes aqueous humour and contains the ciliary muscle for accommodation, innervated by parasympathetic fibres (CN III) via the ciliary ganglion</li><li>Aqueous humour flows from the posterior chamber → through the pupil → into the anterior chamber → drains via the trabecular meshwork into the canal of Schlemm</li><li>In angle-closure glaucoma, the peripheral iris blocks the trabecular meshwork, trapping aqueous humour and causing IOP to rise sharply</li></ul><p>What is the immediate management?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the most appropriate immediate management for acute angle-closure glaucoma?</p>",
+              "alternatives": [
+                {
+                  "text": "IV mannitol + topical pilocarpine + topical timolol, followed by laser peripheral iridotomy",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Immediate IOP reduction is essential. IV mannitol (osmotic agent) rapidly lowers IOP. Topical pilocarpine (parasympathomimetic) constricts the pupil, pulling the iris away from the drainage angle. Topical timolol (beta-blocker) reduces aqueous production. Definitive treatment is laser peripheral iridotomy, which creates an alternative pathway for aqueous flow.</p>"
+                  }
+                },
+                {
+                  "text": "Topical atropine to dilate the pupil",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Dangerous — this would worsen the condition!</p>",
+                    "subtitle": "<p>Atropine is a mydriatic (dilates the pupil) and cycloplegic (paralyses the ciliary body). Dilating the pupil in angle-closure glaucoma would push the peripheral iris further into the drainage angle, worsening the obstruction and raising IOP further. Pilocarpine (miotic) is needed to constrict the pupil.</p>"
+                  }
+                },
+                {
+                  "text": "Oral antibiotics and warm compresses",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>This is not an infectious condition. Acute angle-closure glaucoma is a mechanical obstruction of aqueous humour drainage requiring urgent IOP reduction and definitive surgical intervention (laser iridotomy), not antibiotics.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Teaching Points</h2><p>You initiate emergency treatment:</p><ul><li><strong>IV Mannitol 20%</strong> — rapid osmotic IOP reduction</li><li><strong>Topical pilocarpine 2%</strong> — constricts pupil, opens drainage angle</li><li><strong>Topical timolol 0.5%</strong> — reduces aqueous production by the ciliary body</li><li><strong>Laser peripheral iridotomy</strong> — definitive treatment, performed once IOP is lowered</li></ul><p><strong>Key Eyeball Anatomy Reviewed:</strong></p><ul><li><strong>Three coats</strong>: fibrous (cornea + sclera), vascular/uveal (iris, ciliary body, choroid), neural (retina)</li><li><strong>Cornea</strong>: two-thirds of refractive power, supplied by ophthalmic nerve (CN V1)</li><li><strong>Ciliary body</strong>: secretes aqueous humour + accommodation (parasympathetic via CN III)</li><li><strong>Fovea centralis</strong>: highest visual acuity, contains only cones</li><li><strong>Optic disc</strong>: blind spot, where optic nerve exits, no photoreceptors</li></ul>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

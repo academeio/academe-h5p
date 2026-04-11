@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Lungs & Trachea — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Lungs & Trachea</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in respiratory anatomy. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: Child with Choking</h2><p>A 3-year-old child is brought to the emergency department after choking on a peanut 2 hours ago. He has a persistent cough, unilateral wheeze on the right side, and decreased breath sounds on the right. Chest X-ray shows hyperinflation of the right lung with mediastinal shift to the left on expiration.</p><p><strong>Key concept:</strong> The right main bronchus is wider, shorter, and more vertical than the left, making it the common site for foreign body aspiration.</p>"}, "subContentId": "e1f2a3b4-bbbb-4eee-bbbb-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Why has the peanut most likely lodged in the right bronchus? What anatomical feature explains this?</p>", "alternatives": [
+          {"text": "The right main bronchus is wider, shorter, and more vertical than the left", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The right bronchus being wider, shorter, and more vertical makes it the path of least resistance for aspirated foreign bodies.</p>"}},
+          {"text": "The left bronchus is blocked by the aortic arch, diverting objects to the right", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>While the aortic arch crosses over the left bronchus, the primary reason for right-sided aspiration is the right bronchus being wider, shorter, and more vertical.</p>"}},
+          {"text": "The carina deflects all objects to the right side by default", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The carina (T4/T5 bifurcation) does not preferentially deflect objects. The right bronchus anatomy (wider, shorter, more vertical) is the key factor.</p>"}}
+        ]}}, "subContentId": "e1f2a3b4-bbbb-4eee-bbbb-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Bronchoscopy Findings</h2><p>Rigid bronchoscopy confirms a peanut lodged in the right main bronchus. It is successfully removed. The pulmonologist notes the trachea is approximately 10-11 cm long, extending from C6 to T4/T5 where it bifurcates at the carina.</p><p><strong>Concept:</strong> The right lung has 3 lobes and 10 bronchopulmonary segments. The left lung has 2 lobes. The trachea has 16-20 C-shaped hyaline cartilage rings that are open posteriorly.</p>"}, "subContentId": "e1f2a3b4-bbbb-4eee-bbbb-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>A chest drain may be needed if complications develop. Where should the needle be inserted relative to the rib to avoid the neurovascular bundle?</p>", "alternatives": [
+          {"text": "Over the upper (superior) border of the lower rib", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The intercostal neurovascular bundle (vein, artery, nerve) runs along the inferior border of each rib. Insert over the superior border of the lower rib to avoid injury.</p>"}},
+          {"text": "Along the lower (inferior) border of the upper rib", "nextContentId": -2, "feedback": {"title": "<p>Dangerous!</p>", "subtitle": "<p>The neurovascular bundle runs in the costal groove along the INFERIOR border of the rib. Inserting here risks damaging the intercostal vessels and nerve.</p>"}},
+          {"text": "Through the middle of the intercostal space — the bundle is in the posterior chest only", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The neurovascular bundle runs along the entire inferior border of the rib, not just posteriorly. Always insert over the SUPERIOR border of the lower rib.</p>"}}
+        ]}}, "subContentId": "e1f2a3b4-bbbb-4eee-bbbb-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>The peanut is removed successfully. The child recovers fully with no complications. Parents are counselled about choking hazards in young children.</p><p><strong>Learning points:</strong></p><ul><li>Trachea: 10-11 cm, C6 to T4/T5, bifurcates at carina</li><li>Right bronchus: wider, shorter, more vertical — common aspiration site</li><li>Right lung: 3 lobes, 10 segments; Left: 2 lobes</li><li>Trachea: 16-20 C-shaped cartilage rings, open posteriorly</li><li>Chest drain: over superior border of lower rib</li></ul>"}, "subContentId": "e1f2a3b4-bbbb-4eee-bbbb-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

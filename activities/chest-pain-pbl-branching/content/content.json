@@ -1,0 +1,198 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Acute Chest Pain — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>Acute Chest Pain</strong></p>",
+      "startScreenSubtitle": "<p>A 55-year-old male presents to the Emergency Department with sudden-onset severe retrosternal chest pain radiating to the left arm, associated with sweating and nausea. Pain started 2 hours ago while climbing stairs. He is a known smoker (30 pack-years) and diabetic.</p><p>Work through this clinical scenario to reach the correct diagnosis and management.</p>"
+    },
+    "endScreens": [
+      {
+        "endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>",
+        "endScreenSubtitle": "<p>You correctly identified STEMI and initiated appropriate emergency management. Key learning points:<br>- ECG is the first investigation in acute chest pain<br>- ST elevation in contiguous leads = STEMI<br>- Primary PCI is the gold standard treatment<br>- Door-to-balloon time &lt;90 minutes is critical</p>",
+        "endScreenScore": 10,
+        "contentId": -1
+      },
+      {
+        "endScreenTitle": "<p><strong>Suboptimal Management</strong></p>",
+        "endScreenSubtitle": "<p>Your clinical reasoning needs refinement. Review the approach to acute chest pain, focusing on ECG interpretation and STEMI management protocols. Remember: time is myocardium!</p>",
+        "endScreenScore": 3,
+        "contentId": -2
+      },
+      {
+        "endScreenTitle": "<p><strong>Incorrect Approach</strong></p>",
+        "endScreenSubtitle": "<p>This approach could lead to significant delay in treatment. In acute MI, every minute of delay increases myocardial damage. Always prioritise ECG and vital signs assessment first.</p>",
+        "endScreenScore": 0,
+        "contentId": -3
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Initial Assessment</h2><p>You are the duty medical officer in the Emergency Department. The patient is brought in on a stretcher, looking pale and diaphoretic.</p><p><strong>Vitals:</strong></p><ul><li>BP: 90/60 mmHg</li><li>HR: 110/min, irregular</li><li>RR: 24/min</li><li>SpO₂: 94% on room air</li><li>Temperature: 37.1°C</li></ul><p>The patient is clutching his chest and appears distressed. He rates his pain as 9/10.</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed to examination",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Based on the presentation, what is your <strong>first priority</strong> investigation?</p>",
+              "alternatives": [
+                {
+                  "text": "12-lead ECG",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>A 12-lead ECG is the single most important initial investigation in acute chest pain. It should be obtained within 10 minutes of arrival. This helps differentiate between STEMI, NSTEMI, and other causes.</p>"
+                  }
+                },
+                {
+                  "text": "Chest X-ray",
+                  "nextContentId": 5,
+                  "feedback": {
+                    "title": "<p>Not the best choice</p>",
+                    "subtitle": "<p>While a chest X-ray is important, it should not delay the ECG. In acute coronary syndromes, the ECG provides immediate diagnostic information and guides urgent treatment decisions.</p>"
+                  }
+                },
+                {
+                  "text": "CT Pulmonary Angiogram",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>A CTPA is indicated for suspected pulmonary embolism. The clinical presentation here (retrosternal pain radiating to the arm, smoker, diabetic) is more consistent with acute coronary syndrome. Always start with an ECG.</p>"
+                  }
+                },
+                {
+                  "text": "Send troponin and wait for results",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Dangerous delay!</p>",
+                    "subtitle": "<p>While troponin is important, waiting for results (which take 1-3 hours) before any other action could be fatal. The ECG gives immediate information and should always come first in acute chest pain.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>ECG Findings</h2><p>The 12-lead ECG shows:</p><ul><li><strong>ST elevation</strong> in leads II, III, and aVF (>2mm)</li><li>Reciprocal ST depression in leads I and aVL</li><li>Heart rate: 108 bpm</li><li>Sinus tachycardia with occasional PVCs</li></ul><p>This pattern is consistent with an <strong>inferior STEMI</strong> (ST-Elevation Myocardial Infarction) involving the right coronary artery territory.</p><p><em>The clock is ticking — time is myocardium!</em></p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Decide on management",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>You have confirmed <strong>inferior STEMI</strong>. What is the <strong>definitive treatment</strong>?</p>",
+              "alternatives": [
+                {
+                  "text": "Primary PCI (Percutaneous Coronary Intervention)",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Excellent!</p>",
+                    "subtitle": "<p>Primary PCI is the gold standard treatment for STEMI when available within 120 minutes. Door-to-balloon time should be &lt;90 minutes. Activate the cath lab immediately!</p>"
+                  }
+                },
+                {
+                  "text": "Thrombolysis with streptokinase",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Acceptable but not optimal</p>",
+                    "subtitle": "<p>Thrombolysis is used when PCI is not available within 120 minutes. Since we have a cath lab, primary PCI is preferred as it has better outcomes (higher vessel patency, lower re-infarction rates, lower mortality).</p>"
+                  }
+                },
+                {
+                  "text": "Conservative management with anticoagulation",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect for STEMI</p>",
+                    "subtitle": "<p>Conservative management is NEVER appropriate for STEMI. This is a medical emergency requiring immediate reperfusion therapy. Delay in treatment directly increases mortality and infarct size.</p>"
+                  }
+                },
+                {
+                  "text": "Emergency CABG (Coronary Artery Bypass Grafting)",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Not first-line</p>",
+                    "subtitle": "<p>Emergency CABG is reserved for specific situations: failed PCI, left main disease, or multivessel disease not amenable to PCI. Primary PCI is the first-line definitive treatment for STEMI.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Immediate Management While Preparing for PCI</h2><p>While the cath lab is being activated, initiate the following <strong>MONA</strong> protocol:</p><ul><li><strong>M</strong>orphine — 2-4 mg IV for pain relief (use with caution)</li><li><strong>O</strong>xygen — Only if SpO₂ &lt;94% (our patient qualifies at 94%)</li><li><strong>N</strong>itroglycerine — Sublingual, but <strong>contraindicated</strong> here due to hypotension (BP 90/60)</li><li><strong>A</strong>spirin — 325 mg chewed immediately (antiplatelet)</li></ul><p>Also administer:</p><ul><li>Ticagrelor 180 mg or Clopidogrel 600 mg loading dose</li><li>Unfractionated heparin bolus</li><li>IV fluids cautiously (suspect right ventricular involvement in inferior MI)</li></ul><p><strong>Key point:</strong> In inferior STEMI, always check right-sided leads (V4R) to rule out right ventricular MI. Nitrates and diuretics are contraindicated in RV infarction as they reduce preload.</p>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Complete scenario",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Chest X-ray Results</h2><p>The chest X-ray shows:</p><ul><li>Normal cardiac silhouette</li><li>Clear lung fields bilaterally</li><li>No pneumothorax</li><li>No widened mediastinum (makes aortic dissection less likely)</li></ul><p>The chest X-ray is essentially normal, which is expected in acute MI. While this rules out some differentials (pneumothorax, aortic dissection), it does not diagnose the underlying coronary event.</p><p><strong>You have lost valuable time.</strong> The ECG should have been your first investigation.</p>"
+          },
+          "subContentId": "scene-5"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Now order ECG",
+        "nextContentId": 2,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

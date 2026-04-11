@@ -1,0 +1,62 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Chemistry & Metabolism of Proteins and Immunology — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Fair-Haired Infant</strong></p>",
+      "startScreenSubtitle": "<p>A 6-month-old infant is brought to the paediatric clinic by parents concerned about unusual body odour ('musty' smell) and lighter skin and hair colour compared to both parents and siblings. The baby was born at term with no complications, but developmental milestones appear delayed — not yet sitting unsupported. Newborn screening was not performed at birth (born in a facility without screening). You are the paediatrics registrar.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly diagnosed phenylketonuria (PKU), understood the enzyme deficiency (phenylalanine hydroxylase), linked it to protein metabolism and amino acid catabolism, and chose appropriate dietary management. Your knowledge of protein structure, the urea cycle, essential amino acids, and immunoglobulins was thorough.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some features but missed key biochemical connections. Review essential amino acids (PVT TIM HALL), protein structural levels, the urea cycle with CPS-I, PKU and phenylalanine hydroxylase, and IgG function.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review protein biochemistry: essential amino acids, four levels of protein structure, the urea cycle, PKU (phenylalanine hydroxylase deficiency), and immunoglobulins (IgG crossing the placenta).</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Assessment</h2><p>On examination of the 6-month-old infant:</p><ul><li><strong>General:</strong> Fair skin, light blonde hair, blue eyes — both parents have dark hair and brown eyes</li><li><strong>Odour:</strong> Characteristic musty/mousy body odour</li><li><strong>Development:</strong> Poor head control for age, not sitting unsupported, limited social smile, no babbling</li><li><strong>Skin:</strong> Dry, eczematous patches on cheeks and flexural areas</li><li><strong>Neurological:</strong> Mild hypertonia in lower limbs, hyperreflexia, no seizures reported yet</li><li><strong>Growth:</strong> Head circumference below 10th percentile (microcephaly developing)</li></ul><p><strong>Biochemical context:</strong> Proteins are composed of amino acids. The nine essential amino acids that must be obtained from the diet are remembered by the mnemonic <strong>PVT TIM HALL</strong> (Phenylalanine, Valine, Tryptophan, Threonine, Isoleucine, Methionine, Histidine, Arginine [in infants], Leucine, Lysine). Amino acid catabolism produces ammonia, which is toxic and must be detoxified by the <strong>urea cycle</strong> in the liver.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The combination of fair colouring, musty odour, developmental delay, and eczema in an unscreened infant suggests which inborn error of amino acid metabolism?</p>", "alternatives": [
+          {"text": "Phenylketonuria (PKU) — caused by deficiency of the enzyme phenylalanine hydroxylase, leading to accumulation of phenylalanine", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>PKU is caused by deficiency of phenylalanine hydroxylase (PAH), which normally converts phenylalanine to tyrosine. Accumulated phenylalanine is neurotoxic, causing intellectual disability if untreated. The musty odour is from phenylacetic acid (a phenylalanine metabolite). Fair colouring occurs because tyrosine (needed for melanin synthesis) is deficient. PKU is autosomal recessive and detectable by newborn screening (Guthrie test).</p>"}},
+          {"text": "Maple syrup urine disease — defective branched-chain amino acid metabolism", "nextContentId": -2, "feedback": {"title": "<p>Not quite</p>", "subtitle": "<p>MSUD causes a sweet maple syrup odour (not musty), and typically presents in the first week of life with lethargy, poor feeding, and seizures. The musty odour, fair colouring, and eczema are characteristic of PKU (phenylalanine hydroxylase deficiency), not MSUD.</p>"}},
+          {"text": "Homocystinuria — defective methionine metabolism", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Homocystinuria presents with tall stature, lens subluxation, thromboembolism, and intellectual disability — but not with musty odour or fair colouring. The clinical features described (musty smell, fair skin/hair, eczema, developmental delay) are classic for PKU (phenylalanine hydroxylase deficiency).</p>"}},
+          {"text": "Albinism — defective melanin synthesis", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>While albinism causes fair colouring, it does not cause musty odour, developmental delay, or eczema. The combination of all these features points to PKU, where tyrosine deficiency (due to blocked phenylalanine → tyrosine conversion) causes reduced melanin, while accumulated phenylalanine causes neurological damage.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Diagnostic Confirmation</h2><p><strong>Laboratory results:</strong></p><ul><li><strong>Serum phenylalanine:</strong> 28 mg/dL (markedly elevated; normal <2 mg/dL)</li><li><strong>Serum tyrosine:</strong> 0.5 mg/dL (low; normal 1-3 mg/dL)</li><li><strong>Urine ferric chloride test:</strong> Green colour — positive for phenylpyruvic acid</li><li><strong>Genetic testing:</strong> Homozygous pathogenic variant in the PAH gene — confirms classic PKU</li></ul><p><strong>Biochemical correlation — Protein structure and amino acid metabolism:</strong></p><ul><li>The four levels of protein structure: <strong>Primary</strong> (amino acid sequence), <strong>Secondary</strong> (alpha-helix and beta-sheet), Tertiary (3D folding), <strong>Quaternary</strong> (multi-subunit assembly). PAH enzyme function depends on correct protein folding (tertiary structure).</li><li>The <strong>urea cycle</strong> detoxifies ammonia from amino acid catabolism. The rate-limiting enzyme is <strong>carbamoyl phosphate synthetase I (CPS-I)</strong>. In PKU, the urea cycle is not directly affected — the problem is in the specific catabolic pathway of phenylalanine.</li><li><strong>Immunological note:</strong> <strong>IgG</strong> is the most abundant immunoglobulin in serum. It crosses the <strong>placenta</strong> and provides passive immunity to the newborn. This baby's immune function is unaffected by PKU.</li></ul>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>What is the cornerstone of PKU management to prevent further neurological damage?</p>", "alternatives": [
+          {"text": "Strict low-phenylalanine diet with special medical formula, supplemented with tyrosine, and regular monitoring of serum phenylalanine levels", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The mainstay of PKU treatment is lifelong dietary restriction of phenylalanine intake. Special medical formulas provide all essential amino acids except phenylalanine. Tyrosine supplementation is needed because the phenylalanine-to-tyrosine conversion is blocked. Target serum phenylalanine is 2-6 mg/dL. Early dietary intervention (ideally within the first 2 weeks of life) can prevent intellectual disability. This child at 6 months has already sustained some neurological damage, but dietary treatment will prevent further deterioration.</p>"}},
+          {"text": "Enzyme replacement therapy with recombinant phenylalanine hydroxylase", "nextContentId": -2, "feedback": {"title": "<p>Not currently available</p>", "subtitle": "<p>There is no enzyme replacement therapy for PKU. PAH is an intracellular hepatic enzyme, making ERT impractical. However, sapropterin (BH4, the PAH cofactor) can help some patients with mild PKU who have residual enzyme activity. The mainstay remains dietary restriction of phenylalanine with tyrosine supplementation.</p>"}},
+          {"text": "High-protein diet to provide more tyrosine and compensate for the metabolic block", "nextContentId": -3, "feedback": {"title": "<p>Incorrect — this would worsen the condition</p>", "subtitle": "<p>A high-protein diet would dramatically increase phenylalanine intake (phenylalanine is present in virtually all proteins) and worsen neurological damage. The treatment is the opposite — strict restriction of phenylalanine intake using special low-phenylalanine formulas, with tyrosine supplementation to replace what cannot be synthesised.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The infant is started on a strict low-phenylalanine diet with special medical formula and tyrosine supplementation. Serum phenylalanine is monitored weekly and maintained at 2-6 mg/dL. At 12-month follow-up, the musty odour has resolved, hair has darkened somewhat, eczema has improved, and developmental progress (though delayed) is showing improvement. The family receives genetic counselling about the 25% recurrence risk.</p><p><strong>Key protein biochemistry points:</strong></p><ul><li>Essential amino acids: <strong>PVT TIM HALL</strong> — must be obtained from diet</li><li>Four levels of protein structure: <strong>primary, secondary, tertiary, quaternary</strong></li><li>Ammonia from amino acid catabolism is detoxified by the <strong>urea cycle</strong>; rate-limiting enzyme is <strong>CPS-I</strong></li><li><strong>PKU</strong>: deficiency of <strong>phenylalanine hydroxylase (PAH)</strong> → accumulation of <strong>phenylalanine</strong> → intellectual disability if untreated</li><li><strong>IgG</strong>: most abundant immunoglobulin, crosses the <strong>placenta</strong>, provides passive immunity to the newborn</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

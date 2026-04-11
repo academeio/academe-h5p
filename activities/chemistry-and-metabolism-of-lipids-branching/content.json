@@ -1,0 +1,62 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Chemistry and Metabolism of Lipids — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Man with Chest Pain</strong></p>",
+      "startScreenSubtitle": "<p>A 55-year-old businessman with a known history of hypercholesterolaemia presents to the cardiology clinic after experiencing exertional chest pain (angina) for the past 2 months. He is a smoker (20 pack-years), has a family history of premature coronary artery disease, and has been non-compliant with his statin medication. Vitals: BP 150/95 mmHg, HR 84/min. BMI 28. You are the cardiology registrar.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly linked hypercholesterolaemia to atherosclerosis, understood the roles of LDL and HDL, identified HMG-CoA reductase as the statin target, and chose comprehensive management. Your knowledge of lipid metabolism including beta-oxidation, the carnitine shuttle, and lipid classification was thorough.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some features but missed key metabolic pathways. Review beta-oxidation, the carnitine shuttle (CPT-1), HMG-CoA reductase as the target of statins, LDL vs HDL, and the classification of lipids.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review lipid biochemistry: beta-oxidation in mitochondria, HMG-CoA reductase, the carnitine shuttle, LDL (bad) vs HDL (good, reverse cholesterol transport), and lipid classification (simple, compound, derived).</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Assessment and Lipid Profile</h2><p><strong>Lipid profile (fasting):</strong></p><ul><li>Total cholesterol: 310 mg/dL (high; desirable <200)</li><li>LDL cholesterol: 220 mg/dL (very high; optimal <100)</li><li>HDL cholesterol: 32 mg/dL (low; desirable >40 in men)</li><li>Triglycerides: 290 mg/dL (high; normal <150)</li></ul><p><strong>ECG:</strong> ST depression in leads V4-V6 during treadmill test — positive for myocardial ischaemia.</p><p><strong>Coronary CT angiogram:</strong> 70% stenosis of the left anterior descending artery with calcified plaque.</p><p><strong>Biochemical context:</strong> Lipids are classified into three categories:</p><ul><li><strong>Simple lipids:</strong> fats (triglycerides), waxes</li><li><strong>Compound (complex) lipids:</strong> phospholipids, glycolipids</li><li><strong>Derived lipids:</strong> cholesterol, steroids</li></ul><p><strong>LDL</strong> (low-density lipoprotein) is called 'bad cholesterol' because it deposits cholesterol in arterial walls, driving atherosclerosis. <strong>HDL</strong> (high-density lipoprotein) is 'good cholesterol' because it performs <strong>reverse cholesterol transport</strong> — carrying cholesterol from peripheral tissues back to the liver for excretion.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Statins are the most effective drugs for lowering LDL cholesterol. Which enzyme do they inhibit in the cholesterol synthesis pathway?</p>", "alternatives": [
+          {"text": "HMG-CoA reductase — the rate-limiting enzyme of the mevalonate pathway of cholesterol synthesis", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>HMG-CoA reductase catalyses the conversion of HMG-CoA to mevalonate — the rate-limiting step in endogenous cholesterol synthesis. Statins are structural analogues of HMG-CoA and competitively inhibit this enzyme, reducing hepatic cholesterol synthesis. This upregulates LDL receptors on hepatocytes, increasing LDL clearance from the blood, thereby lowering serum LDL cholesterol by 30-50%.</p>"}},
+          {"text": "Acetyl-CoA carboxylase — the rate-limiting enzyme of fatty acid synthesis", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Acetyl-CoA carboxylase is the rate-limiting enzyme of fatty acid synthesis (lipogenesis), not cholesterol synthesis. Statins specifically target HMG-CoA reductase, the rate-limiting enzyme of the mevalonate pathway of cholesterol biosynthesis.</p>"}},
+          {"text": "CPT-1 (carnitine palmitoyltransferase 1) — the rate-limiting enzyme of fatty acid oxidation", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>CPT-1 is the rate-limiting enzyme of the carnitine shuttle that transports fatty acids into mitochondria for beta-oxidation. It is not the target of statins. Statins inhibit HMG-CoA reductase, the rate-limiting enzyme of cholesterol synthesis.</p>"}},
+          {"text": "Lipoprotein lipase — the enzyme that breaks down triglycerides in lipoproteins", "nextContentId": -2, "feedback": {"title": "<p>Not the statin target</p>", "subtitle": "<p>Lipoprotein lipase breaks down triglycerides in circulating lipoproteins, releasing fatty acids for tissue uptake. It is not the target of statins. Fibrates (not statins) increase lipoprotein lipase activity. Statins specifically inhibit HMG-CoA reductase in the cholesterol synthesis pathway.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Understanding the Metabolic Pathways</h2><p>You counsel the patient on lipid metabolism to help him understand why medication compliance is important.</p><p><strong>Key metabolic pathways:</strong></p><ul><li><strong>Beta-oxidation</strong> of fatty acids occurs in the <strong>mitochondria</strong> (mitochondrial matrix). Each cycle removes 2 carbons, producing acetyl-CoA, NADH, and FADH2. A 16-carbon fatty acid (palmitate) yields 129 ATP molecules — far more energy per gram than carbohydrates.</li><li>Fatty acids are transported into mitochondria by the <strong>carnitine shuttle system</strong>. The rate-limiting enzyme is <strong>CPT-1</strong> (carnitine palmitoyltransferase 1), located on the outer mitochondrial membrane.</li><li>The acetyl-CoA produced by beta-oxidation can enter the TCA cycle for energy production, or be used for ketone body synthesis (ketogenesis) during fasting or in uncontrolled diabetes.</li></ul><p><strong>Clinical correlation:</strong> In this patient, the high LDL deposits cholesterol in the coronary artery wall, triggering inflammation and plaque formation (atherosclerosis). The low HDL means reduced reverse cholesterol transport — cholesterol is not efficiently removed from arterial walls. This combination accelerates coronary artery disease.</p>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Given the significant coronary artery disease and severely deranged lipid profile, what is the most appropriate comprehensive management plan?</p>", "alternatives": [
+          {"text": "High-intensity statin (atorvastatin 40-80 mg), smoking cessation, aspirin, antihypertensive, lifestyle modification, and consider PCI for the 70% LAD stenosis", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Comprehensive cardiovascular risk reduction requires: (1) High-intensity statin to lower LDL by >50% (target LDL <70 mg/dL in established CAD); (2) Smoking cessation — the single most important modifiable risk factor; (3) Antiplatelet therapy (aspirin); (4) Blood pressure control; (5) Diet and exercise; (6) Consider percutaneous coronary intervention (PCI) for the symptomatic 70% LAD stenosis. This addresses both the metabolic (lipid) and structural (stenosis) components of his disease.</p>"}},
+          {"text": "Dietary modification alone — reduce fat intake and exercise more, repeat lipids in 6 months", "nextContentId": -3, "feedback": {"title": "<p>Dangerously inadequate</p>", "subtitle": "<p>With LDL 220 mg/dL, established coronary artery disease, and angina, dietary modification alone is grossly insufficient. This patient has very high cardiovascular risk and needs immediate high-intensity statin therapy, antiplatelet agents, antihypertensives, and consideration for coronary intervention. Diet is important but adjunctive, not sole therapy.</p>"}},
+          {"text": "Low-dose statin and fibrate combination to address both cholesterol and triglycerides", "nextContentId": -2, "feedback": {"title": "<p>Not optimal</p>", "subtitle": "<p>A low-dose statin is inadequate for this level of LDL elevation (220 mg/dL) with established CAD. High-intensity statin (atorvastatin 40-80 mg) is required to achieve >50% LDL reduction. Adding fibrate to statin increases myopathy risk. Moreover, this plan neglects smoking cessation, antiplatelet therapy, and evaluation for coronary intervention.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The patient is started on atorvastatin 80 mg, aspirin 75 mg, and amlodipine 5 mg. He undergoes successful PCI with drug-eluting stent to the LAD. He quits smoking with nicotine replacement therapy. At 3-month follow-up: LDL drops to 68 mg/dL, HDL improves to 42 mg/dL, and he is free of angina.</p><p><strong>Key lipid biochemistry points:</strong></p><ul><li><strong>Beta-oxidation</strong> occurs in <strong>mitochondria</strong>, producing <strong>acetyl-CoA</strong>, NADH, and FADH2</li><li><strong>HMG-CoA reductase</strong> — rate-limiting enzyme of cholesterol synthesis; target of <strong>statins</strong></li><li><strong>LDL</strong> = bad cholesterol (deposits in arteries); <strong>HDL</strong> = good cholesterol (<strong>reverse cholesterol transport</strong>)</li><li><strong>Carnitine shuttle</strong> transports fatty acids into mitochondria; rate-limiting enzyme is <strong>CPT-1</strong></li><li>Lipid classification: <strong>simple</strong> (fats, waxes), <strong>compound</strong> (phospholipids, glycolipids), <strong>derived</strong> (cholesterol, steroids)</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Introduction to the nervous system — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Introduction to the Nervous System</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in the nervous system. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: Weakness After a Fall</h2><p>A 60-year-old man presents with weakness and numbness in both lower limbs after falling from a ladder. He has increased tone (spasticity) in both legs, exaggerated knee jerks, and an extensor plantar response (positive Babinski sign). He has a sensory level at T10. Bladder function is impaired.</p><p><strong>Key concept:</strong> An upper motor neuron lesion produces spastic paralysis with increased reflexes, while a lower motor neuron lesion produces flaccid paralysis with decreased reflexes.</p>"}, "subContentId": "b8c9d0e1-8888-4bbb-b888-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>This patient has spastic paralysis with increased reflexes. Is this an upper motor neuron (UMN) or lower motor neuron (LMN) lesion?</p>", "alternatives": [
+          {"text": "Upper motor neuron lesion — spastic paralysis with increased reflexes and positive Babinski", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>UMN lesions produce spasticity, hyperreflexia, and extensor plantar response. LMN lesions produce flaccidity, hyporeflexia, and muscle wasting.</p>"}},
+          {"text": "Lower motor neuron lesion — the fall directly damaged peripheral nerves", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>LMN lesions produce flaccid paralysis with DECREASED reflexes and muscle wasting. This patient has spasticity and hyperreflexia — classic UMN signs.</p>"}},
+          {"text": "Combined UMN and LMN lesion based on the bladder involvement alone", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Bladder involvement occurs in both UMN and LMN lesions. The key distinguishing features are spasticity + hyperreflexia (UMN) vs. flaccidity + hyporeflexia (LMN).</p>"}}
+        ]}}, "subContentId": "b8c9d0e1-8888-4bbb-b888-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Investigation Results</h2><p>MRI spine shows a spinal cord compression at T9-T10. The spinal cord is part of the central nervous system. The neurosurgeon explains that within the CNS, myelination is performed by oligodendrocytes, and damage to these cells can worsen neurological deficits.</p><p><strong>Concept:</strong> The nervous system is divided into the central (brain + spinal cord) and peripheral (cranial and spinal nerves) nervous systems. A typical spinal nerve forms from union of a dorsal (sensory) root and ventral (motor) root.</p>"}, "subContentId": "b8c9d0e1-8888-4bbb-b888-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Which cells are responsible for myelination in the CNS, where this patient's lesion is located?</p>", "alternatives": [
+          {"text": "Oligodendrocytes myelinate axons in the CNS", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Oligodendrocytes are the myelinating cells of the CNS. In the PNS, this function is performed by Schwann cells.</p>"}},
+          {"text": "Schwann cells myelinate all neurons throughout both CNS and PNS", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Schwann cells myelinate only in the peripheral nervous system. The CNS uses oligodendrocytes for myelination — an important distinction for understanding demyelinating diseases.</p>"}},
+          {"text": "Astrocytes are the primary myelinating cells of the central nervous system", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Astrocytes have supportive functions (blood-brain barrier, metabolic support) but do not produce myelin. Oligodendrocytes are the CNS myelinating cells.</p>"}}
+        ]}}, "subContentId": "b8c9d0e1-8888-4bbb-b888-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>Emergency decompressive surgery is performed. Post-operatively, the patient gradually regains motor and sensory function over several months of rehabilitation.</p><p><strong>Learning points:</strong></p><ul><li>CNS = brain + spinal cord; PNS = cranial + spinal nerves</li><li>UMN lesion: spastic paralysis, hyperreflexia; LMN: flaccid, hyporeflexia</li><li>CNS myelination: oligodendrocytes; PNS: Schwann cells</li><li>Spinal nerve = dorsal (sensory) root + ventral (motor) root</li><li>Sympathetic: T1-L2; Parasympathetic: craniosacral</li></ul>"}, "subContentId": "b8c9d0e1-8888-4bbb-b888-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

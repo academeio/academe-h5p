@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Haematology — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Haematology</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in Haematology. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: Unexplained Fatigue</h2><p>A 28-year-old vegetarian woman presents with progressive fatigue, pallor, and breathlessness on exertion for 3 months. She has heavy menstrual periods. On examination, she has koilonychia and angular stomatitis. Haemoglobin is 8.2 g/dL (normal for females: 12-15 g/dL).</p><p><strong>Key concept:</strong> Iron is absorbed mainly in the duodenum and transported in blood bound to transferrin. Iron deficiency is the commonest cause of anaemia worldwide.</p>"}, "subContentId": "b2c3d4e5-2222-4bbb-b222-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Given her diet and menstrual history, where is iron primarily absorbed and how is it transported in the blood?</p>", "alternatives": [
+          {"text": "Iron is absorbed in the duodenum and transported bound to transferrin", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Iron absorption occurs in the duodenum, and transferrin is the plasma transport protein for iron.</p>"}},
+          {"text": "Iron is absorbed throughout the small intestine and transported by albumin", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Iron absorption is specifically localised to the duodenum, and it is transported by transferrin, not albumin.</p>"}},
+          {"text": "Iron is absorbed in the stomach and transported as free ferric ions", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The stomach acidifies iron to aid absorption, but actual absorption occurs in the duodenum. Iron never circulates freely — it binds transferrin.</p>"}}
+        ]}}, "subContentId": "b2c3d4e5-2222-4bbb-b222-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Investigation Results</h2><p>Further investigations reveal: Serum ferritin 8 ng/mL (low), TIBC elevated, peripheral smear shows microcytic hypochromic red cells. Reticulocyte count is low. She is started on oral iron supplementation.</p><p><strong>Concept:</strong> Erythropoiesis is stimulated by erythropoietin (EPO), produced mainly by the kidneys in response to hypoxia. The bone marrow requires adequate iron, vitamin B12, and folate for effective red cell production.</p>"}, "subContentId": "b2c3d4e5-2222-4bbb-b222-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>If this patient's anaemia worsened and she needed a blood transfusion, what must be checked first regarding ABO blood groups?</p>", "alternatives": [
+          {"text": "ABO antigens on red blood cell surfaces and corresponding antibodies in plasma must be matched", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>ABO antigens are on the red cell surface and corresponding antibodies are in plasma. Mismatched transfusion causes haemolytic reaction.</p>"}},
+          {"text": "Only the Rh factor needs to be checked before transfusion", "nextContentId": -2, "feedback": {"title": "<p>Incomplete</p>", "subtitle": "<p>Both ABO and Rh typing are essential. ABO mismatch causes the most severe acute haemolytic transfusion reactions.</p>"}},
+          {"text": "Blood group testing is unnecessary if haemoglobin is below 7 g/dL", "nextContentId": -3, "feedback": {"title": "<p>Dangerous misconception</p>", "subtitle": "<p>Blood group compatibility must ALWAYS be confirmed before transfusion regardless of haemoglobin level. ABO mismatch can be fatal.</p>"}}
+        ]}}, "subContentId": "b2c3d4e5-2222-4bbb-b222-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>After 3 months of oral iron therapy, her haemoglobin rises to 12.5 g/dL. She is counselled about dietary iron sources and menstrual management.</p><p><strong>Learning points:</strong></p><ul><li>Normal Hb: Males 13-17 g/dL, Females 12-15 g/dL</li><li>Erythropoietin from kidneys stimulates erythropoiesis in response to hypoxia</li><li>The intrinsic pathway is measured by APTT; activated by contact with collagen</li><li>Iron is absorbed in the duodenum and transported by transferrin</li></ul>"}, "subContentId": "b2c3d4e5-2222-4bbb-b222-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

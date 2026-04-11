@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "PY3.1-12 | Nerve and Muscle Physiology — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Neuromuscular Junction & Nerve Conduction</h2>",
+      "startScreenSubtitle": "<p>A 28-year-old woman presents with fluctuating weakness and ptosis that worsens throughout the day. Work through this case exploring neuromuscular transmission, the sliding filament theory, and nerve conduction.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly identified the physiology of neuromuscular transmission and demonstrated understanding of muscle contraction and nerve conduction.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review ACh receptors, the sliding filament mechanism, and saltatory conduction.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit neuromuscular junction physiology, calcium-troponin interaction, myelination, and the all-or-none law.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A 28-year-old woman presents with drooping eyelids and difficulty swallowing that worsens as the day progresses. She reports that her symptoms improve after rest. Anti-acetylcholine receptor antibodies are positive.</p><p>This is <strong>myasthenia gravis</strong> — an autoimmune disorder targeting the neuromuscular junction. The neurotransmitter at the NMJ is <strong>acetylcholine</strong>, which normally binds to <strong>nicotinic</strong> receptors on the motor end plate, triggering muscle contraction.</p><p>In this patient, antibodies block and destroy these receptors, reducing the effectiveness of neuromuscular transmission.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>In normal muscle contraction (sliding filament theory), what happens when calcium is released into the sarcoplasm?</p>", "alternatives": [ { "text": "Calcium binds to troponin C, which moves tropomyosin away from actin binding sites, allowing cross-bridge formation", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Calcium binds directly to actin, causing it to shorten and contract", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "Calcium does not bind directly to actin. It binds to troponin C, which shifts tropomyosin to expose actin binding sites for myosin cross-bridge formation.", "image": {}, "endScreenScore": 0 } }, { "text": "Calcium binds to myosin, activating its ATPase to generate force", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Calcium's primary role is binding to troponin C, not directly to myosin. This shifts tropomyosin off the actin binding sites, permitting the actin-myosin cross-bridge cycle.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! Calcium → troponin C → tropomyosin moves → actin exposed → cross-bridges form.</p><p>Nerve conduction studies are performed. The results show a decremental response on repetitive nerve stimulation, confirming the NMJ defect. You note that normal myelinated nerve fibres conduct impulses rapidly because of <strong>saltatory</strong> conduction, where impulses jump between <strong>nodes of Ranvier</strong>.</p><p>The all-or-none law states that a stimulus must reach <strong>threshold</strong> to generate an action potential, and increasing stimulus strength does not increase the <strong>amplitude</strong> of the action potential.</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>Why do myelinated nerves conduct faster than unmyelinated ones?</p>", "alternatives": [ { "text": "Saltatory conduction: the impulse jumps between nodes of Ranvier, skipping myelinated segments", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Myelin increases the amplitude of the action potential at each point", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "The all-or-none law means amplitude is constant regardless of myelin. Myelinated fibres are faster because of saltatory conduction — impulses jump between nodes of Ranvier.", "image": {}, "endScreenScore": 0 } }, { "text": "Myelin provides additional neurotransmitter release at each node", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Neurotransmitters are released at synapses, not along the axon. Myelin speeds conduction via saltatory conduction — the impulse jumps from one node of Ranvier to the next.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! Key physiological principles from this case:</p><ul><li><strong>NMJ:</strong> ACh binds nicotinic receptors on motor end plate</li><li><strong>Sliding filament:</strong> Ca²⁺ → troponin C → tropomyosin shifts → actin-myosin cross-bridges</li><li><strong>Saltatory conduction:</strong> Impulses jump between nodes of Ranvier in myelinated fibres</li><li><strong>All-or-none law:</strong> Threshold must be reached; amplitude is constant regardless of stimulus strength</li><li><strong>Myasthenia gravis:</strong> Anti-AChR antibodies reduce NMJ transmission efficiency</li></ul>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

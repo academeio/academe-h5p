@@ -1,0 +1,163 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Radiodiagnosis — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>Radiodiagnosis Case</h2>",
+      "startScreenSubtitle": "<p>A 55-year-old man presents with sudden-onset severe abdominal pain. Work through the imaging findings to reach the correct diagnosis and guide management.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You correctly interpreted the radiographic findings, identified the appropriate contrast agent, and understood CT density values. Outstanding radiodiagnosis knowledge.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "<h2>Partial Understanding</h2>",
+        "endScreenSubtitle": "<p>You showed some radiological knowledge but missed key imaging principles. Review radiographic densities, contrast agents, and Hounsfield units.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "<h2>Needs Improvement</h2>",
+        "endScreenSubtitle": "<p>Review the fundamentals of X-ray interpretation, contrast studies, and CT imaging. Focus on the five radiographic densities and indications for different contrast agents.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Case Presentation</h3><p>A 55-year-old man presents to the emergency department with sudden-onset severe epigastric pain radiating to the back. He has a history of peptic ulcer disease. On examination, the abdomen is rigid with board-like rigidity and absent bowel sounds.</p><p><strong>An erect chest X-ray is obtained.</strong></p><p>The radiograph shows a crescent of lucency beneath both domes of the diaphragm. This finding represents <strong>free gas (pneumoperitoneum)</strong> — one of the five radiographic densities.</p><p>Consider what this finding indicates and the urgent next step.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Case Presentation"}
+        },
+        "contentId": 0,
+        "feedback": {},
+        "nextContentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Free gas under the diaphragm on an erect X-ray in this clinical context most likely indicates:</p>",
+              "alternatives": [
+                {
+                  "text": "Perforation of a hollow viscus — this is a surgical emergency requiring urgent intervention",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>Free gas under the diaphragm (pneumoperitoneum) in a patient with peptic ulcer disease and peritoneal signs indicates perforated peptic ulcer — a surgical emergency requiring urgent laparotomy or laparoscopic repair.</p>"
+                  }
+                },
+                {
+                  "text": "Normal finding after a recent meal due to swallowed air",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Swallowed air is contained within the GI tract lumen and does not appear as free gas under the diaphragm. Free subdiaphragmatic air indicates gas has escaped from a perforated hollow viscus into the peritoneal cavity.</p>"
+                  }
+                },
+                {
+                  "text": "Pleural effusion requiring chest drain insertion",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Pleural effusion appears as a fluid density (white) at the lung bases with a meniscus sign, not as lucency (black) under the diaphragm. The crescent of lucency here represents free gas, not fluid.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Interpret the X-ray Finding"}
+        },
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Contrast Study Consideration</h3><p>The surgical team requests a contrast study to confirm the site of perforation before surgery.</p><p><strong>Important decision:</strong> When perforation is suspected, the choice of contrast agent is critical.</p><ul><li><strong>Barium sulfate:</strong> Excellent mucosal coating for routine GI studies, but causes severe chemical peritonitis if it leaks into the peritoneal cavity</li><li><strong>Water-soluble iodine contrast (Gastrografin):</strong> Safe if it leaks into the peritoneum — rapidly absorbed and excreted by the kidneys</li></ul><p>You must choose the appropriate contrast agent for this clinical scenario.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Contrast Agent Selection"}
+        },
+        "contentId": 2,
+        "feedback": {},
+        "nextContentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Which contrast agent should be used for this patient with suspected GI perforation?</p>",
+              "alternatives": [
+                {
+                  "text": "Water-soluble iodine contrast (Gastrografin) — safe in suspected perforation as it is absorbed from the peritoneum",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>Gastrografin is the contrast of choice when perforation is suspected. It is water-soluble, rapidly absorbed from the peritoneal cavity, and does not cause peritonitis. Barium is absolutely contraindicated as it causes severe granulomatous peritonitis.</p>"
+                  }
+                },
+                {
+                  "text": "Barium sulfate — it provides the best mucosal detail for identifying the perforation site",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Dangerous choice!",
+                    "subtitle": "<p>Barium sulfate is contraindicated when perforation is suspected. If barium leaks into the peritoneal cavity, it causes severe barium peritonitis with high mortality. Always use water-soluble contrast (Gastrografin) when perforation is a possibility.</p>"
+                  }
+                },
+                {
+                  "text": "No contrast needed — proceed directly to CT with Hounsfield unit measurements only",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Partially correct",
+                    "subtitle": "<p>CT without oral contrast can identify pneumoperitoneum and sometimes the perforation site. However, the question specifically asks about contrast choice. When oral contrast is needed in suspected perforation, water-soluble iodine contrast is the correct choice. CT with Hounsfield units helps quantify tissue density (bone ~+400 to +1000 HU, air ~-1000 HU).</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Contrast Agent Decision"}
+        },
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Key Learning Points</h3><ul><li><strong>Five radiographic densities</strong> (most to least opaque): Metal/bone > soft tissue > fat > air > (foreign body varies)</li><li><strong>Pneumoperitoneum:</strong> Free gas under the diaphragm on erect X-ray indicates perforation of a hollow viscus — a surgical emergency</li><li><strong>Barium sulfate:</strong> Excellent for routine GI contrast studies but absolutely contraindicated when perforation is suspected (causes barium peritonitis)</li><li><strong>Gastrografin:</strong> Water-soluble iodine contrast — safe in suspected perforation, absorbed from peritoneum</li><li><strong>CT Hounsfield units:</strong> Quantify tissue density — bone (+400 to +1000 HU), soft tissue (+20 to +70 HU), fat (-50 to -100 HU), air (-1000 HU)</li><li><strong>Erect chest X-ray:</strong> Most sensitive plain film for detecting pneumoperitoneum — as little as 1 mL of free air can be visible</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Key Learning Points"}
+        },
+        "contentId": 4,
+        "feedback": {},
+        "nextContentId": -1
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

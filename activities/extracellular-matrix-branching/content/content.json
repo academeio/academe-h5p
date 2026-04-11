@@ -1,0 +1,147 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Extracellular Matrix — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Child with Fragile Bones</strong></p>",
+      "startScreenSubtitle": "<p>A 4-year-old boy is brought to the orthopaedic OPD with a history of 6 fractures in the past 2 years, including fractures from minor falls. His mother reports that her child's teeth appear translucent. You need to work through the diagnosis systematically.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified osteogenesis imperfecta due to Type I collagen mutations, understood the role of vitamin C in collagen synthesis, and recognised that the triple helix structure with glycine every third residue is fundamental to collagen biology.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some aspects correctly but missed key connections. Review collagen structure (triple helix, Gly-X-Y repeats), the role of vitamin C in hydroxylation, and the specific collagen types affected in osteogenesis imperfecta (Type I) and Ehlers-Danlos syndrome (Type III).</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the fundamentals of extracellular matrix biochemistry: collagen structure (30% of body protein, triple helix), amino acid composition (Gly-Pro-Hyp repeats), post-translational modifications requiring vitamin C, and clinical disorders of collagen.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 4-year-old boy is brought to the orthopaedic OPD by his mother with complaints of:</p><ul><li>Recurrent fractures — 6 fractures in 2 years from trivial trauma (falling from a chair, bumping into furniture)</li><li>Bluish discolouration of the whites of his eyes</li><li>Teeth that appear translucent and chip easily (dentinogenesis imperfecta)</li><li>Short stature for his age (below 3rd centile)</li></ul><p><strong>On examination:</strong></p><ul><li>Height: 85 cm (below 3rd centile for age)</li><li>Blue sclerae bilaterally</li><li>Translucent teeth with enamel chipping</li><li>Joint hypermobility (Beighton score 7/9)</li><li>Healed deformities of both tibiae from previous fractures</li><li>No signs of child abuse (consistent history, family supportive)</li></ul><p>You suspect a connective tissue disorder involving collagen. What is the most likely underlying defect?</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the most likely diagnosis and the specific collagen defect?</p>",
+              "alternatives": [
+                {
+                  "text": "Osteogenesis imperfecta — mutation in Type I collagen genes (COL1A1/COL1A2)",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Osteogenesis imperfecta (brittle bone disease) is caused by mutations in Type I collagen genes. Type I collagen is the most abundant collagen in bone, skin, and tendons. Collagen is the most abundant protein in the body (~30% of total protein) with a characteristic triple helix structure. Every third amino acid must be glycine — the smallest amino acid — to allow tight winding of the helix.</p>"
+                  }
+                },
+                {
+                  "text": "Ehlers-Danlos syndrome — defective Type III collagen",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Close but not correct</p>",
+                    "subtitle": "<p>Vascular Ehlers-Danlos syndrome involves defective Type III collagen, but it presents primarily with vascular fragility, easy bruising, and organ rupture — not recurrent fractures. The blue sclerae and dentinogenesis imperfecta are hallmarks of osteogenesis imperfecta (Type I collagen defect), not EDS.</p>"
+                  }
+                },
+                {
+                  "text": "Scurvy — vitamin C deficiency affecting collagen synthesis",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Not in this clinical context</p>",
+                    "subtitle": "<p>Vitamin C (ascorbic acid) is essential for hydroxylation of proline and lysine in collagen synthesis, and its deficiency causes scurvy. However, scurvy presents with bleeding gums, petechiae, and poor wound healing — not recurrent fractures with blue sclerae. This child has a genetic collagen defect, not a nutritional one.</p>"
+                  }
+                },
+                {
+                  "text": "Rickets — vitamin D deficiency",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Rickets causes bowing of legs and widened wrists/costochondral junctions due to deficient mineralisation, not a primary collagen defect. The blue sclerae, dentinogenesis imperfecta, and joint hypermobility all point to a collagen disorder — specifically osteogenesis imperfecta.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Investigation Results</h2><p>Genetic testing confirms <strong>Osteogenesis Imperfecta Type I</strong> — a heterozygous mutation in the COL1A1 gene leading to reduced production of Type I collagen.</p><p><strong>Key biochemistry:</strong></p><ul><li>Collagen accounts for approximately <strong>30%</strong> of total body protein</li><li>Its hallmark structure is the <strong>triple helix</strong></li><li>Every third amino acid must be <strong>glycine</strong> (the smallest amino acid) for tight winding</li><li>Positions X and Y are often <strong>proline</strong> and <strong>hydroxyproline</strong></li><li>Hydroxylation of proline and lysine requires <strong>vitamin C</strong> (ascorbic acid) as a cofactor for prolyl and lysyl hydroxylase</li></ul><p>The child's mother asks about long-term management. What would you recommend?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the most appropriate long-term management strategy for this child with osteogenesis imperfecta?</p>",
+              "alternatives": [
+                {
+                  "text": "Bisphosphonates (pamidronate) + physiotherapy + fracture prevention counselling",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Bisphosphonates (especially IV pamidronate in children) reduce fracture frequency by inhibiting osteoclast-mediated bone resorption, increasing bone density. Physiotherapy maintains mobility and muscle strength. There is no cure for OI as the underlying collagen gene mutation cannot be corrected, but management significantly improves quality of life.</p>"
+                  }
+                },
+                {
+                  "text": "High-dose vitamin C supplementation to fix the collagen defect",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Vitamin C won't fix a genetic defect</p>",
+                    "subtitle": "<p>Vitamin C is essential for collagen synthesis (hydroxylation of proline/lysine), and its deficiency causes scurvy. However, OI is caused by a genetic mutation in collagen genes, not by vitamin C deficiency. Supplementation cannot correct a structural gene defect in COL1A1/COL1A2.</p>"
+                  }
+                },
+                {
+                  "text": "Calcium and vitamin D supplementation alone",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Insufficient</p>",
+                    "subtitle": "<p>While calcium and vitamin D support bone health, they cannot address the fundamental collagen defect in osteogenesis imperfecta. The problem is in the protein matrix (Type I collagen), not in mineral supply. Bisphosphonates are the standard pharmacological treatment for OI.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management Plan and Teaching Points</h2><p>You start the child on:</p><ul><li><strong>IV Pamidronate cycles</strong> — given every 3–4 months to reduce fracture frequency</li><li><strong>Physiotherapy</strong> — swimming and gentle exercises to build muscle strength</li><li><strong>Orthopaedic follow-up</strong> — for fracture management and potential rodding of long bones</li><li><strong>Genetic counselling</strong> for the family (autosomal dominant inheritance)</li></ul><p><strong>Key ECM Concepts Reviewed:</strong></p><ul><li><strong>Collagen</strong>: most abundant body protein (~30%), triple helix structure</li><li><strong>Gly-X-Y repeats</strong>: glycine every third position, proline and hydroxyproline at X and Y</li><li><strong>Vitamin C</strong>: essential cofactor for prolyl and lysyl hydroxylase; deficiency → scurvy</li><li><strong>OI</strong>: Type I collagen mutation → fragile bones, blue sclerae, dentinogenesis imperfecta</li><li><strong>Vascular EDS</strong>: Type III collagen defect → vascular fragility, organ rupture</li></ul>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

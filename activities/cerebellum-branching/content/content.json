@@ -1,0 +1,61 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Cerebellum — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Unsteady Child</strong></p>",
+      "startScreenSubtitle": "<p>A 6-year-old girl is brought to the paediatric neurology clinic by her parents who noticed progressive unsteadiness of gait and frequent falls over the past 3 weeks. She has also developed early morning headaches and vomiting. Previously, she was a healthy, active child with no significant medical history. Vitals: HR 82/min, BP 95/60 mmHg. You are the paediatric neurology registrar.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified a cerebellar vermis tumour causing midline cerebellar signs, understood the functional zones of the cerebellum, the intracerebellar nuclei, and the reason for ipsilateral deficits. Your understanding of cerebellar peduncles and the double-crossing principle was thorough.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified the cerebellar pathology but missed some anatomical details. Review the three functional zones (vestibulocerebellum, spinocerebellum, pontocerebellum), the intracerebellar nuclei, the cerebellar peduncles, and why cerebellar lesions cause ipsilateral deficits.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review cerebellar anatomy: the three functional zones, the four intracerebellar nuclei (fastigial, globosus, emboliformis, dentate), the three peduncles, and the double-crossing principle that explains ipsilateral cerebellar signs.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Neurological Examination</h2><p>On examination:</p><ul><li><strong>Gait:</strong> Wide-based, staggering (truncal ataxia) — cannot walk in a straight line. Falls equally to both sides.</li><li><strong>Limbs:</strong> Mild dysmetria bilaterally on finger-nose and heel-shin tests, but relatively mild compared to the severe gait disturbance</li><li><strong>Speech:</strong> Mildly scanning (staccato quality)</li><li><strong>Eyes:</strong> Bilateral nystagmus, worse on lateral gaze. No papilloedema on initial fundoscopy (later confirmed on dilated exam).</li><li><strong>Power:</strong> Normal (5/5) in all limbs</li><li><strong>Signs of raised ICP:</strong> Early morning headaches, vomiting, irritability</li></ul><p><strong>Anatomical context:</strong> The cerebellum has three functional zones:</p><ul><li><strong>Vestibulocerebellum</strong> (flocculonodular lobe): balance and eye movements</li><li><strong>Spinocerebellum</strong> (vermis + paravermal zone): posture and gait</li><li><strong>Pontocerebellum/Neocerebellum</strong> (lateral hemispheres): skilled voluntary movements</li></ul><p>Truncal ataxia with bilateral signs suggests a <strong>midline (vermal)</strong> lesion affecting the spinocerebellum.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The predominant truncal ataxia with relatively mild limb signs suggests a lesion in which part of the cerebellum?</p>", "alternatives": [
+          {"text": "The vermis (spinocerebellum) — responsible for posture and gait, connected to the fastigial nucleus", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The vermis is part of the spinocerebellum, which controls axial (trunk) movements, posture, and gait. It projects to the fastigial nucleus (the most medial intracerebellar nucleus). Midline (vermal) lesions cause truncal ataxia and gait disturbance with relatively preserved limb coordination. In children, the most common posterior fossa tumour affecting the vermis is medulloblastoma.</p>"}},
+          {"text": "The lateral cerebellar hemispheres (pontocerebellum) — responsible for skilled voluntary movements", "nextContentId": -2, "feedback": {"title": "<p>Not the best answer</p>", "subtitle": "<p>Lateral hemisphere (pontocerebellum) lesions cause limb ataxia, dysmetria, and intention tremor on the ipsilateral side, with relatively preserved gait. This child has predominantly truncal ataxia (gait disturbance) with mild limb signs, pointing to a midline vermal lesion, not a lateral hemisphere lesion.</p>"}},
+          {"text": "The flocculonodular lobe (vestibulocerebellum) — responsible for balance only", "nextContentId": -2, "feedback": {"title": "<p>Partially correct</p>", "subtitle": "<p>The vestibulocerebellum (flocculonodular lobe) is involved in balance and vestibulo-ocular reflexes, and its lesion can cause gait ataxia. However, in children with posterior fossa tumours, truncal ataxia with raised ICP typically points to a vermis (spinocerebellum) lesion — most commonly a medulloblastoma. The distinction is important for surgical planning.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Imaging and Anatomical Correlation</h2><p><strong>MRI brain with contrast:</strong></p><ul><li>A 4 cm enhancing mass in the cerebellar vermis, filling the fourth ventricle</li><li>Obstructive hydrocephalus with dilated lateral and third ventricles</li><li>No leptomeningeal dissemination on spinal MRI</li><li>Radiological appearance consistent with <strong>medulloblastoma</strong> (the commonest malignant posterior fossa tumour in children)</li></ul><p><strong>Anatomical correlation — Intracerebellar nuclei and peduncles:</strong></p><ul><li>The intracerebellar nuclei from medial to lateral: <strong>Fastigial</strong> (vermis output), Globosus, Emboliformis, and <strong>Dentate</strong> (hemisphere output)</li><li>The <strong>inferior cerebellar peduncle</strong> carries mainly input fibres including the posterior spinocerebellar tract and olivocerebellar fibres</li><li>The <strong>middle cerebellar peduncle</strong> (largest) carries pontocerebellar fibres (corticopontocerebellar pathway)</li><li>The <strong>superior cerebellar peduncle</strong> carries mainly output fibres from the dentate nucleus</li></ul><p><strong>Why cerebellar lesions cause ipsilateral deficits:</strong> Cerebellar output crosses twice — once in the superior cerebellar peduncle and once in the corticospinal pathway — resulting in the effect being on the same (ipsilateral) side as the lesion.</p>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The child has a midline cerebellar tumour with obstructive hydrocephalus. What is the most appropriate initial management?</p>", "alternatives": [
+          {"text": "Urgent surgical resection of the tumour (maximal safe resection) with CSF diversion if needed, followed by adjuvant chemoradiotherapy based on histology", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Medulloblastoma management begins with maximal safe surgical resection — approaching through a posterior fossa craniectomy. If hydrocephalus is severe, an external ventricular drain (EVD) may be placed pre-operatively. Histological and molecular classification determines risk stratification and guides adjuvant craniospinal irradiation with chemotherapy. Medulloblastoma can spread via CSF (drop metastases), hence staging includes spinal MRI.</p>"}},
+          {"text": "Chemotherapy first to shrink the tumour, then consider surgery if it responds", "nextContentId": -2, "feedback": {"title": "<p>Not standard protocol</p>", "subtitle": "<p>For medulloblastoma, upfront maximal surgical resection is the standard of care. Neoadjuvant chemotherapy is not the standard approach. Surgery provides tissue diagnosis, reduces tumour burden, and relieves the obstructive hydrocephalus. Adjuvant chemoradiotherapy follows surgery based on risk stratification.</p>"}},
+          {"text": "Ventriculoperitoneal shunt for the hydrocephalus, then observe with serial imaging", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>While hydrocephalus needs to be addressed, treating only the hydrocephalus without addressing the tumour is inappropriate. The tumour is causing the obstruction and will continue to grow. Surgical resection is the definitive treatment, and hydrocephalus often resolves after tumour removal. A VP shunt alone also carries the risk of peritoneal tumour seeding.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The child undergoes successful near-total resection of the cerebellar vermis medulloblastoma. Post-operatively, her truncal ataxia transiently worsens (posterior fossa syndrome) but gradually improves over weeks. Histology confirms classic medulloblastoma, standard-risk. She receives craniospinal irradiation followed by adjuvant chemotherapy. At 1-year follow-up, she is walking independently with mild residual ataxia.</p><p><strong>Key cerebellar anatomy points:</strong></p><ul><li>Three functional zones: <strong>vestibulocerebellum</strong> (balance), <strong>spinocerebellum</strong> (posture/gait), <strong>pontocerebellum</strong> (skilled movements)</li><li>Intracerebellar nuclei (medial to lateral): <strong>Fastigial, Globosus, Emboliformis, Dentate</strong></li><li><strong>Inferior cerebellar peduncle:</strong> mainly input (posterior spinocerebellar tract, olivocerebellar fibres)</li><li>Cerebellar lesions cause <strong>ipsilateral</strong> deficits because output crosses <strong>twice</strong> (superior cerebellar peduncle + corticospinal tract)</li><li>Vermal lesions → <strong>truncal ataxia</strong>; hemispheric lesions → <strong>limb ataxia</strong></li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

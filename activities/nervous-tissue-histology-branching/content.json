@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "AN68.1-3 | Nervous tissue histology — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Nervous Tissue — Neurons, Glia & Peripheral Nerves</h2>",
+      "startScreenSubtitle": "<p>A 35-year-old man presents with ascending weakness and areflexia following a viral infection. Work through this case applying your knowledge of neuron structure, myelination, and peripheral nerve organisation.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly identified the histological basis of Guillain-Barre syndrome and demonstrated strong knowledge of nervous tissue organisation.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review Schwann cells vs oligodendrocytes and the connective tissue sheaths of peripheral nerves.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit neuron ultrastructure, myelinating cells in PNS and CNS, and the epineurium-perineurium-endoneurium hierarchy.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A 35-year-old man presents with progressive ascending weakness in both legs over 5 days, preceded by a diarrhoeal illness 2 weeks ago. Deep tendon reflexes are absent. Nerve conduction studies show prolonged distal motor <strong>latencies</strong> — suggesting <strong>demyelination</strong> of peripheral nerves.</p><p>This is <strong>Guillain-Barré syndrome</strong> — an autoimmune demyelinating polyneuropathy. In the PNS, myelin is produced by <strong>Schwann cells</strong>, which are the targets of the autoimmune attack.</p><p>You recall that multipolar neurons have a large polygonal <strong>soma (cell body)</strong> with abundant <strong>Nissl bodies</strong> (rough endoplasmic reticulum) in the cytoplasm.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>In Guillain-Barré syndrome, the autoimmune attack targets myelin in peripheral nerves. Which cells produce myelin in the PNS versus the CNS?</p>", "alternatives": [ { "text": "Schwann cells in the PNS; oligodendrocytes in the CNS", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Oligodendrocytes in the PNS; astrocytes in the CNS", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "It's the reverse — Schwann cells myelinate in the PNS, and oligodendrocytes myelinate in the CNS. Astrocytes provide structural support but do not produce myelin.", "image": {}, "endScreenScore": 0 } }, { "text": "Microglia in the PNS; Schwann cells in the CNS", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Microglia are immune cells of the CNS. Schwann cells produce myelin in the PNS, while oligodendrocytes produce myelin in the CNS.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! Schwann cells (PNS) and oligodendrocytes (CNS) are the myelinating cells.</p><p>A nerve biopsy is considered. You recall the connective tissue organisation of a peripheral nerve:</p><ul><li><strong>Epineurium:</strong> The outermost sheath surrounding the entire nerve</li><li><strong>Perineurium:</strong> Wraps each fascicle within the nerve</li><li><strong>Endoneurium:</strong> Surrounds individual nerve fibres</li></ul><p>The biopsy confirms segmental demyelination with inflammatory infiltrates, consistent with Guillain-Barré syndrome.</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>On the nerve biopsy, you identify the connective tissue layers. Which layer surrounds each fascicle within the peripheral nerve?</p>", "alternatives": [ { "text": "Perineurium wraps each fascicle", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Epineurium wraps each fascicle", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "Epineurium is the outermost sheath surrounding the entire nerve. Perineurium is the layer that wraps each individual fascicle.", "image": {}, "endScreenScore": 0 } }, { "text": "Endoneurium wraps each fascicle", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Endoneurium surrounds individual nerve fibres within a fascicle. The layer wrapping each fascicle is the perineurium.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! Key points from this case:</p><ul><li><strong>Neuron structure:</strong> Multipolar neurons have a polygonal soma with Nissl bodies (RER)</li><li><strong>PNS myelin:</strong> Schwann cells; <strong>CNS myelin:</strong> Oligodendrocytes</li><li><strong>Nerve sheaths:</strong> Epineurium (whole nerve) → perineurium (fascicle) → endoneurium (individual fibre)</li><li><strong>Guillain-Barré:</strong> Autoimmune demyelination of peripheral nerves → prolonged distal motor latencies</li></ul>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "branchingScenario": {
+    "title": "PBL: General features of Muscle — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Collapsed Marathon Runner</strong></p>",
+      "startScreenSubtitle": "<p>A 28-year-old amateur marathon runner collapses at the 35 km mark during a hot summer race. He is brought to the medical tent with severe muscle cramps, dark brown urine, and confusion. You need to identify the condition and understand its muscular basis.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified exertional rhabdomyolysis, understood the three types of muscle tissue (skeletal, cardiac, smooth), distinguished them histologically (striations + peripheral nuclei = skeletal), and recognised the significance of intercalated discs in cardiac muscle and aponeuroses vs tendons in skeletal muscle.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>Review the three muscle types, their histological features (skeletal = striated + peripheral nuclei, cardiac = striated + central nuclei + intercalated discs, smooth = non-striated + central nuclei), and the difference between tendons and aponeuroses.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review muscle tissue types, histological identification, tendons vs aponeuroses, spurt vs shunt muscles, and intercalated discs in cardiac muscle.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 28-year-old amateur marathon runner collapses at the 35 km mark during a summer race (ambient temperature 38°C):</p><ul><li>Severe, generalised muscle cramps and pain</li><li>Dark brown (\"cola-coloured\") urine</li><li>Confusion and agitation</li><li>He did not adequately hydrate during the race</li></ul><p><strong>On examination:</strong></p><ul><li>HR: 120 bpm, BP: 90/60 mmHg (dehydrated)</li><li>Temperature: 39.5°C (hyperthermia)</li><li>Muscles of both thighs and calves are swollen and tender</li><li>Urine output: minimal, dark brown (positive for myoglobin on dipstick)</li></ul><p>The three types of muscle tissue are <strong>skeletal</strong>, <strong>cardiac</strong>, and <strong>smooth</strong>. Skeletal muscle is identified histologically by the presence of <strong>striations</strong> and multiple <strong>peripheral</strong> nuclei. When skeletal muscle is damaged, it releases myoglobin into the blood.</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Based on the clinical presentation (muscle pain, dark urine, dehydration after exertion), what is the most likely diagnosis?</p>",
+              "alternatives": [
+                {
+                  "text": "Exertional rhabdomyolysis — skeletal muscle breakdown releasing myoglobin",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Rhabdomyolysis is the breakdown of skeletal muscle fibres, releasing myoglobin, creatine kinase (CK), and potassium into the blood. The myoglobin is filtered by the kidneys, causing dark brown urine and potentially acute kidney injury. Skeletal muscle is the type involved — identified by striations and peripheral nuclei on histology.</p>"
+                  }
+                },
+                {
+                  "text": "Acute myocardial infarction",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Unlikely in this context</p>",
+                    "subtitle": "<p>While cardiac muscle is also striated muscle, the cardiac muscle has central nuclei and intercalated discs (unlike skeletal muscle with peripheral nuclei). An MI in a 28-year-old is very rare, and the dark urine with generalised muscle pain points to rhabdomyolysis from skeletal muscle damage, not cardiac injury.</p>"
+                  }
+                },
+                {
+                  "text": "Heat stroke without muscle damage",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Partially correct but incomplete</p>",
+                    "subtitle": "<p>Heat stroke is present (hyperthermia, confusion), but the dark brown urine containing myoglobin indicates significant skeletal muscle damage (rhabdomyolysis). Heat stroke and rhabdomyolysis frequently coexist in exertional cases — the muscle breakdown is the critical issue requiring specific management.</p>"
+                  }
+                },
+                {
+                  "text": "Dehydration-induced smooth muscle spasm",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Smooth muscle is found in blood vessels, gut, and visceral organs — it is non-striated and has a single central nucleus. The cramps during marathon running involve skeletal muscle (striated, voluntary, peripheral nuclei), not smooth muscle. The dark urine from myoglobin confirms skeletal muscle damage.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Investigation Results</h2><table><tr><th>Test</th><th>Result</th><th>Normal</th></tr><tr><td>Serum CK</td><td><strong>45,000 U/L</strong></td><td>&lt;200 U/L</td></tr><tr><td>Serum Potassium</td><td><strong>6.2 mmol/L</strong></td><td>3.5–5.0</td></tr><tr><td>Serum Creatinine</td><td><strong>280 µmol/L</strong></td><td>60–110</td></tr><tr><td>Urine myoglobin</td><td><strong>Positive</strong></td><td>Negative</td></tr></table><p>The massively elevated CK (from damaged skeletal muscle) and myoglobinuria confirm <strong>rhabdomyolysis</strong>. The raised creatinine indicates acute kidney injury (AKI) from myoglobin-induced tubular damage.</p><p><strong>Muscle anatomy review:</strong></p><ul><li>A broad flat tendon is called an <strong>aponeurosis</strong> (e.g., external oblique aponeurosis), while a round cord-like attachment is a <strong>tendon</strong> (e.g., Achilles tendon)</li><li>A <strong>spurt</strong> muscle has its insertion far from the joint and is most effective as a prime mover</li><li>A <strong>shunt</strong> muscle has its insertion close to the joint and stabilises it</li></ul><p>What is the immediate management priority?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the most critical immediate management for rhabdomyolysis with acute kidney injury?</p>",
+              "alternatives": [
+                {
+                  "text": "Aggressive IV fluid resuscitation (normal saline) to maintain urine output >200 mL/hr",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>The cornerstone of rhabdomyolysis management is aggressive IV fluid resuscitation. High-volume normal saline dilutes the myoglobin in the renal tubules, prevents cast formation, and maintains renal perfusion. Target urine output of >200 mL/hr (or 3 mL/kg/hr) to flush out myoglobin and prevent acute tubular necrosis. Monitor potassium closely (hyperkalaemia risk from muscle breakdown).</p>"
+                  }
+                },
+                {
+                  "text": "Immediate dialysis",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>May be needed but not the first step</p>",
+                    "subtitle": "<p>Dialysis is reserved for severe cases with refractory hyperkalaemia, fluid overload, or severe metabolic acidosis that do not respond to fluid resuscitation. The first priority is always aggressive IV hydration. Most cases of rhabdomyolysis-induced AKI can be managed with fluids alone if started early.</p>"
+                  }
+                },
+                {
+                  "text": "Muscle biopsy to confirm the diagnosis",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Not needed and delays treatment</p>",
+                    "subtitle": "<p>The diagnosis of rhabdomyolysis is clinical + biochemical (massively elevated CK + myoglobinuria). Muscle biopsy is invasive, time-consuming, and unnecessary in this clinical context. The immediate priority is to protect the kidneys with aggressive fluid resuscitation.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Teaching Points</h2><p>Treatment initiated:</p><ul><li><strong>IV Normal Saline</strong> at 500 mL/hr initially, then adjusted to maintain UO >200 mL/hr</li><li><strong>Continuous ECG monitoring</strong> for hyperkalaemia-induced arrhythmias</li><li><strong>Calcium gluconate</strong> for cardioprotection (K+ = 6.2)</li><li><strong>Cooling measures</strong> for hyperthermia</li></ul><p><strong>Key Muscle Concepts:</strong></p><ul><li><strong>Three muscle types</strong>: skeletal (striated, peripheral nuclei, voluntary), cardiac (striated, central nuclei, intercalated discs, involuntary), smooth (non-striated, central nucleus, involuntary)</li><li><strong>Skeletal muscle histology</strong>: striations + multiple peripheral nuclei</li><li><strong>Aponeurosis</strong> = broad flat tendon; <strong>Tendon</strong> = round cord-like attachment</li><li><strong>Spurt muscle</strong> = insertion far from joint (prime mover); <strong>Shunt muscle</strong> = insertion near joint (stabiliser)</li><li><strong>Intercalated discs</strong>: specialised junctions in cardiac muscle for coordinated contraction</li></ul>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

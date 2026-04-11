@@ -1,0 +1,63 @@
+{
+  "branchingScenario": {
+    "title": "PBL: 3rd to 8th week of development — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Sacrococcygeal Mass</strong></p>",
+      "startScreenSubtitle": "<p>A 1-day-old neonate is referred to paediatric surgery after the midwife noticed a large mass protruding from the sacrococcygeal region at delivery. The baby was born at 38 weeks by elective caesarean section due to a prenatally diagnosed mass. Birth weight is 3.4 kg. The mass is approximately 8 cm in diameter, lobulated, and partly cystic. You are the paediatric surgery registrar on call.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified the sacrococcygeal teratoma arising from primitive streak remnants, ordered appropriate imaging, and planned timely surgical excision. Understanding that failure of primitive streak regression leads to persistence of pluripotent cells capable of forming all three germ layers is fundamental to embryology.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some key features but missed important aspects of the embryological basis or management. Review the role of the primitive streak in gastrulation and the consequences of its failed regression.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the events of the 3rd week of development, particularly gastrulation, primitive streak formation, and notochord development. Understanding these foundational concepts is essential for clinical correlation.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Initial Assessment</h2><p>You examine the neonate in the NICU. The mass arises from the sacrococcygeal region, is 8 cm in diameter, lobulated, and has both solid and cystic components. The overlying skin is intact. The baby is otherwise well, with normal vital signs (HR 140/min, RR 42/min, SpO2 98%). Neurological examination of the lower limbs is normal. Anal tone appears preserved.</p><p><strong>Key embryological concept:</strong> During the 3rd week of development, the primitive streak appears on Day 14-15 in the caudal midline. It is responsible for gastrulation — converting the bilaminar disc into a trilaminar disc (ectoderm, mesoderm, endoderm). If the primitive streak fails to regress after the 4th week, remnant pluripotent cells can persist in the sacrococcygeal region.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Based on the location and characteristics of this neonatal mass, what is the most likely embryological origin?</p>", "alternatives": [
+          {"text": "Remnant cells from failure of the primitive streak to regress", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Sacrococcygeal teratomas arise from persistent primitive streak cells. The primitive streak normally regresses after the 4th week, but if pluripotent cells remain, they can differentiate into tissues from all three germ layers, forming a teratoma.</p>"}},
+          {"text": "Failure of neural tube closure at the caudal end", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Neural tube closure defects (like spina bifida) present differently — typically as open defects with exposed neural tissue. This lobulated mass with solid and cystic components is characteristic of a teratoma from primitive streak remnants, not a neural tube defect.</p>"}},
+          {"text": "Abnormal notochord development causing a chordoma", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Chordomas are rare tumours arising from notochord remnants, but they are extremely uncommon in neonates and typically present in adults. This presentation is classic for a sacrococcygeal teratoma from persistent primitive streak cells.</p>"}},
+          {"text": "Ectopic proliferation of surface ectoderm", "nextContentId": -2, "feedback": {"title": "<p>Not quite</p>", "subtitle": "<p>While ectodermal elements may be found in the tumour, the origin is not surface ectoderm alone. Sacrococcygeal teratomas contain tissues from all three germ layers because they arise from pluripotent primitive streak remnant cells.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Investigation Results</h2><p>You order investigations:</p><ul><li><strong>Ultrasound:</strong> Mixed solid-cystic mass, 8 x 6 x 5 cm, predominantly exophytic (Altman Type I), well-vascularised solid component</li><li><strong>Plain radiograph:</strong> Calcifications visible within the mass — suggesting bone and teeth formation (tissues from multiple germ layers)</li><li><strong>Serum alpha-fetoprotein (AFP):</strong> 45,000 ng/mL (elevated, but AFP is normally high in neonates — serial monitoring required)</li><li><strong>MRI pelvis:</strong> No intrapelvic extension, no intraspinal involvement, sacrum intact</li></ul><p><strong>Embryological correlation:</strong> The presence of tissues from all three germ layers (ectoderm → skin/neural tissue, mesoderm → bone/cartilage, endoderm → gut epithelium) confirms the origin from pluripotent cells. These are the same cells that, during normal development, migrate through the primitive streak during gastrulation to form the trilaminar disc.</p>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Given the imaging findings and the neonatal age, what is the most appropriate management plan?</p>", "alternatives": [
+          {"text": "Early surgical excision including the coccyx, with serial AFP monitoring", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Complete surgical excision including coccygectomy is the standard treatment for neonatal sacrococcygeal teratomas. The coccyx must be removed as it contains residual primitive streak cells that could lead to recurrence. Serial AFP monitoring detects malignant transformation (yolk sac tumour).</p>"}},
+          {"text": "Chemotherapy first to shrink the tumour, then surgery", "nextContentId": -2, "feedback": {"title": "<p>Not the best approach</p>", "subtitle": "<p>Neoadjuvant chemotherapy is reserved for immature/malignant teratomas or recurrences. In neonates with mature teratomas (Altman Type I), primary surgical excision is preferred. Delaying surgery increases the risk of malignant transformation.</p>"}},
+          {"text": "Observe and serial imaging — the mass may regress spontaneously", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Sacrococcygeal teratomas do not regress spontaneously. Delayed surgery increases the risk of malignant transformation (from mature to immature/yolk sac tumour). Early excision is essential.</p>"}},
+          {"text": "Fine needle aspiration biopsy to determine tissue type before deciding", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Biopsy of sacrococcygeal teratomas risks tumour seeding and haemorrhage. The diagnosis is made clinically and radiologically. Definitive management is complete surgical excision with coccygectomy.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The neonate undergoes successful surgical excision of the sacrococcygeal teratoma with coccygectomy on Day 3 of life. Histopathology confirms a mature teratoma with tissues from all three germ layers: skin and neural tissue (ectoderm), cartilage and bone (mesoderm), and respiratory and gut epithelium (endoderm).</p><p><strong>Summary of embryological principles:</strong></p><ul><li>The <strong>primitive streak</strong> appears on Day 14-15 and drives gastrulation</li><li><strong>Gastrulation</strong> converts the bilaminar disc into a trilaminar disc (ectoderm, mesoderm, endoderm)</li><li>The <strong>primitive node</strong> (Hensen's node) at the cranial end organises the entire embryo</li><li>The <strong>notochord</strong> induces the neural plate from overlying ectoderm (neurulation)</li><li>Failure of primitive streak regression → sacrococcygeal <strong>teratoma</strong> containing all three germ layers</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

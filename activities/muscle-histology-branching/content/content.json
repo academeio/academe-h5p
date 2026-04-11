@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "AN67.1-3 | Muscle histology — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Muscle Tissue Types — Histological Identification</h2>",
+      "startScreenSubtitle": "<p>A 45-year-old woman presents with progressive muscle weakness. Work through this case applying your knowledge of skeletal, cardiac, and smooth muscle histology and the sarcomere.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly identified histological features of all three muscle types and demonstrated understanding of sarcomere structure.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but confused features between muscle types. Review nuclear position, striations, and intercalated discs.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit the distinguishing histological features of skeletal, cardiac, and smooth muscle, plus sarcomere structure.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A 45-year-old woman presents with progressive proximal muscle weakness over 3 months. A muscle biopsy is taken from the quadriceps for histological examination.</p><p>Under the microscope, the biopsy shows long, cylindrical fibres with visible cross-striations. The nuclei are <strong>multiple</strong> and located at the <strong>periphery</strong> beneath the sarcolemma — confirming this is <strong>skeletal muscle</strong>.</p><p>The basic contractile unit of striated muscle is the <strong>sarcomere</strong>, bounded by <strong>Z lines</strong> on either side.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The pathologist also examines a cardiac tissue sample from a post-mortem case. Which histological features distinguish cardiac muscle from skeletal muscle?</p>", "alternatives": [ { "text": "Central nuclei, visible cross-striations, and intercalated discs at cell junctions", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Peripheral multiple nuclei with no intercalated discs", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "Peripheral multiple nuclei describe skeletal muscle. Cardiac muscle has centrally placed nuclei and unique intercalated discs at cell-to-cell junctions.", "image": {}, "endScreenScore": 0 } }, { "text": "Spindle-shaped cells with a single central nucleus and no striations", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "You described smooth muscle. Cardiac muscle has centrally placed nuclei, visible cross-striations, AND intercalated discs — the key distinguishing feature.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! Cardiac muscle has central nuclei, cross-striations, and intercalated discs.</p><p>The patient also has gastrointestinal symptoms. A biopsy of the intestinal wall shows the muscularis layer. The smooth muscle cells here are <strong>spindle (fusiform)</strong> shaped with a <strong>single</strong> central elongated nucleus and no striations.</p><p>The pathologist notes that unlike striated muscle, smooth muscle lacks organised sarcomeres but still contracts using actin-myosin interactions regulated by calcium-calmodulin rather than troponin.</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>Returning to the skeletal muscle biopsy, the pathologist identifies sarcomeres. What are the boundaries of each sarcomere?</p>", "alternatives": [ { "text": "Z lines (Z discs) on either side define each sarcomere", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "M lines on either side define each sarcomere", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "The M line is the midpoint of the sarcomere (middle of the A band). The boundaries are the Z lines (Z discs) on either side.", "image": {}, "endScreenScore": 0 } }, { "text": "Intercalated discs on either side define each sarcomere", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Intercalated discs are unique to cardiac muscle at cell-cell junctions. The sarcomere is bounded by Z lines (Z discs) on either side.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! Summary of muscle histology:</p><ul><li><strong>Skeletal muscle:</strong> Multiple peripheral nuclei, cross-striations, sarcomeres bounded by Z lines</li><li><strong>Cardiac muscle:</strong> Central nuclei, cross-striations, intercalated discs</li><li><strong>Smooth muscle:</strong> Spindle-shaped, single central nucleus, no striations</li><li><strong>Sarcomere:</strong> Basic contractile unit, bounded by Z lines (Z discs)</li></ul><p>These histological distinctions are essential for identifying tissue types in biopsies and understanding muscle pathology.</p>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

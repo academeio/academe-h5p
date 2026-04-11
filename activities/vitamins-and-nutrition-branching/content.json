@@ -1,0 +1,163 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Vitamins and Nutrition — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>Vitamins and Nutrition Case</h2>",
+      "startScreenSubtitle": "<p>A 4-year-old child from a rural area presents with night blindness and skin changes. Apply your knowledge of vitamin biochemistry and deficiency states to guide diagnosis and treatment.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You correctly identified the vitamin deficiency, understood the biochemistry of fat-soluble vitamin absorption, and applied nutritional knowledge to guide management.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "<h2>Partial Understanding</h2>",
+        "endScreenSubtitle": "<p>You showed some knowledge but missed key concepts. Review fat-soluble vs water-soluble vitamins, their absorption, and clinical deficiency presentations.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "<h2>Needs Improvement</h2>",
+        "endScreenSubtitle": "<p>Review vitamin biochemistry fundamentals: fat-soluble vitamins (A, D, E, K), their active forms, absorption requirements, and deficiency diseases.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Case Presentation</h3><p>A 4-year-old boy from a rural area in India is brought by his mother with complaints of difficulty seeing in dim light for the past 2 months. She also noticed small white foamy patches on the sides of his eyes.</p><p><strong>Examination findings:</strong></p><ul><li>BMI: Below 3rd percentile (severe undernutrition)</li><li>Dry, scaly skin (phrynoderma)</li><li>Bilateral conjunctival xerosis with foamy white patches (Bitot's spots)</li><li>Poor dark adaptation on testing</li></ul><p><strong>Key context:</strong> Fat-soluble vitamins (A, D, E, K) are absorbed with dietary fat via <strong>micelles</strong> and require <strong>bile salts</strong> for proper absorption. Vitamin A has three active forms: <strong>retinol, retinal, and retinoic acid</strong>.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Case Presentation"}
+        },
+        "contentId": 0,
+        "feedback": {},
+        "nextContentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>The child has night blindness (nyctalopia) and Bitot's spots. Which vitamin deficiency is responsible, and which active form is specifically involved in vision?</p>",
+              "alternatives": [
+                {
+                  "text": "Vitamin A deficiency — retinal (the aldehyde form) combines with opsin in rod cells to form rhodopsin, which is essential for dim-light vision",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>Vitamin A deficiency causes night blindness (nyctalopia) because retinal (11-cis-retinal) is the chromophore in rhodopsin — the visual pigment in rod photoreceptors. Bitot's spots are foamy, triangular patches of keratinised conjunctival epithelium, pathognomonic of vitamin A deficiency. The three active forms are retinol (transport), retinal (vision), and retinoic acid (gene regulation, epithelial differentiation).</p>"
+                  }
+                },
+                {
+                  "text": "Vitamin D deficiency — it affects calcium absorption needed for proper retinal function",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Vitamin D deficiency causes rickets in children and osteomalacia in adults due to impaired calcium absorption — not night blindness. Night blindness and Bitot's spots are pathognomonic of vitamin A deficiency. Vitamin D deficiency affects 70-90% of Indians but presents with bone disease, not eye disease.</p>"
+                  }
+                },
+                {
+                  "text": "Vitamin B12 deficiency — it causes optic neuropathy and visual problems",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>B12 deficiency can cause optic neuropathy and subacute combined degeneration of the cord, but NOT night blindness or Bitot's spots. B12 is a water-soluble vitamin uniquely stored in the liver for 3-5 years. The clinical picture here (night blindness + Bitot's spots + xerosis) is classic vitamin A deficiency.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Identify the Deficiency"}
+        },
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Vitamin D Co-deficiency</h3><p>On further workup, the child is also found to have:</p><ul><li>Serum calcium: 7.2 mg/dL (low)</li><li>Serum phosphate: 2.8 mg/dL (low)</li><li>Alkaline phosphatase: 850 U/L (markedly elevated)</li><li>Wrist X-ray: Widening and cupping of the metaphysis</li></ul><p>These findings indicate concurrent <strong>rickets</strong> from <strong>vitamin D deficiency</strong>. In India, vitamin D deficiency affects 70-90% of the population.</p><p>Vitamin D deficiency causes <strong>rickets in children</strong> (defective mineralisation of growing bone) and <strong>osteomalacia in adults</strong> (defective mineralisation of mature bone).</p><p>Since vitamins A and D are both fat-soluble and require bile salts and micelles for absorption, malnutrition commonly causes combined deficiency.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Vitamin D Co-deficiency"}
+        },
+        "contentId": 2,
+        "feedback": {},
+        "nextContentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Water-soluble vitamins differ from fat-soluble vitamins in several important ways. Which statement about water-soluble vitamins is correct?</p>",
+              "alternatives": [
+                {
+                  "text": "They are excreted in urine and have low toxicity risk — except vitamin B12, which is uniquely stored in the liver for 3-5 years",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>Water-soluble vitamins (B-complex, C) are generally not stored significantly in the body, are excreted in urine, and have low toxicity risk from excess intake. Vitamin B12 is the notable exception — it is stored in the liver (3-5 years worth), which is why B12 deficiency takes years to manifest even after complete cessation of intake (e.g., after gastrectomy).</p>"
+                  }
+                },
+                {
+                  "text": "They require bile salts for absorption, just like fat-soluble vitamins",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Water-soluble vitamins are absorbed directly from the intestinal lumen without requiring bile salts or micelle formation. Only fat-soluble vitamins (A, D, E, K) require bile salts and dietary fat for absorption via micelles. This is why fat malabsorption (e.g., biliary obstruction, coeliac disease) causes fat-soluble vitamin deficiency but not water-soluble.</p>"
+                  }
+                },
+                {
+                  "text": "They are all stored extensively in the liver, making deficiency very rare",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Most water-soluble vitamins are NOT stored significantly in the body — they are excreted in urine when in excess. This means deficiency can develop relatively quickly (weeks to months) with inadequate intake. The exception is B12, which is stored in the liver for 3-5 years. Fat-soluble vitamins (A, D, E, K) are the ones stored in body fat and liver.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Water-Soluble Vitamins"}
+        },
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Key Learning Points</h3><ul><li><strong>Fat-soluble vitamins (A, D, E, K):</strong> Absorbed via micelles, require bile salts; can accumulate and cause toxicity</li><li><strong>Vitamin A deficiency:</strong> Night blindness (nyctalopia) and Bitot's spots; three active forms — retinol, retinal, retinoic acid</li><li><strong>Vitamin D deficiency:</strong> Affects 70-90% of Indians; causes rickets (children) and osteomalacia (adults)</li><li><strong>Water-soluble vitamins:</strong> Excreted in urine, low toxicity risk; except B12 which is stored in the liver for 3-5 years</li><li><strong>Malnutrition:</strong> Often causes combined fat-soluble vitamin deficiency due to inadequate dietary fat and impaired micelle formation</li><li><strong>WHO staging of xerophthalmia:</strong> Night blindness → conjunctival xerosis → Bitot's spots → corneal xerosis → corneal ulceration → keratomalacia</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Key Learning Points"}
+        },
+        "contentId": 4,
+        "feedback": {},
+        "nextContentId": -1
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

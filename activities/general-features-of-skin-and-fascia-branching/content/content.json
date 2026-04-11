@@ -1,0 +1,139 @@
+{
+  "branchingScenario": {
+    "title": "PBL: General features of skin and fascia — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Scarring Dilemma</strong></p>",
+      "startScreenSubtitle": "<p>A 25-year-old woman presents to the plastic surgery OPD concerned about a wide, unsightly scar on her abdomen from an emergency appendectomy 6 months ago. She is planning her wedding and wants the scar improved. Understanding skin anatomy will guide the surgical approach.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified that the scar was made perpendicular to Langer's lines, understood the difference between thick and thin skin, dermatomes, and the structure of superficial fascia (subcutaneous tissue). Excellent knowledge of skin anatomy applied to clinical practice.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>Review Langer's lines (collagen fibre orientation affecting scarring), thick vs thin skin (palms/soles vs rest of body), dermatomes (single spinal nerve), and the composition of superficial fascia.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review skin anatomy: thick vs thin skin, dermatomes, Langer's lines, superficial fascia contents (fat, cutaneous nerves, superficial vessels), and wound healing principles.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 25-year-old woman presents to the plastic surgery OPD with:</p><ul><li>A wide, raised, unsightly scar on the right iliac fossa (from appendectomy 6 months ago)</li><li>The scar is 8 cm long, oriented obliquely from lateral to medial</li><li>It is hypertrophic — raised, red, and itchy</li><li>She is getting married in 3 months and wants it improved</li></ul><p><strong>On examination:</strong></p><ul><li>Hypertrophic scar: 8 x 1.5 cm, raised, firm, red, confined to the original wound boundaries</li><li>The scar runs perpendicular to the natural skin tension lines in that region</li><li>Surrounding skin is normal (thin skin type)</li></ul><p>The two main types of skin are <strong>thick skin</strong> (found on palms and soles) and <strong>thin skin</strong> (covering the rest of the body). The skin weighs about 3.5 kg and covers approximately 2 square metres.</p><p>A <strong>dermatome</strong> is the area of skin supplied by a single spinal nerve. The appendectomy region (right iliac fossa) is in the T12-L1 dermatome.</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Why did this patient develop a hypertrophic scar? What anatomical principle was violated during the original surgery?</p>",
+              "alternatives": [
+                {
+                  "text": "The incision was made perpendicular to Langer's lines, not along them",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Surgical incisions made along Langer's lines heal with minimal scarring because they follow the orientation of collagen fibres in the dermis. When an incision is made perpendicular to Langer's lines, the wound edges are pulled apart by skin tension, leading to wider, hypertrophic scars. This is why elective surgeries plan incisions along Langer's lines whenever possible.</p>"
+                  }
+                },
+                {
+                  "text": "The skin in this area is too thick to heal properly",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>The skin over the abdomen is thin skin (not thick skin — thick skin is only on palms and soles). Thin skin heals well when incisions follow Langer's lines. The poor scarring is due to the incision orientation being perpendicular to the collagen fibre alignment, not the skin type.</p>"
+                  }
+                },
+                {
+                  "text": "The dermatome was damaged during surgery",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect use of the term</p>",
+                    "subtitle": "<p>A dermatome refers to the area of skin supplied by a single spinal nerve — it is a sensory distribution pattern, not a physical structure that can be \"damaged.\" The dermatome concept is important for understanding referred pain and nerve root lesions, but it does not determine scar quality. Scar quality depends on incision orientation relative to Langer's lines.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Anatomical Basis</h2><p>The original emergency appendectomy used a <strong>McBurney's (grid-iron) incision</strong>, which in this case crossed Langer's lines at an unfavourable angle.</p><p><strong>Skin anatomy reviewed:</strong></p><ul><li><strong>Langer's lines</strong>: represent the predominant orientation of collagen fibres in the dermis. Incisions along these lines result in less tension and better healing</li><li>The skin has two layers: <strong>epidermis</strong> (epithelial, avascular) and <strong>dermis</strong> (connective tissue, contains collagen, blood vessels, nerves)</li><li>Beneath the skin is the <strong>superficial fascia</strong> (also called subcutaneous tissue), which contains fat, cutaneous nerves, and superficial blood vessels</li><li>A <strong>dermatome</strong> is the skin area supplied by a single spinal nerve — the right iliac fossa is T12-L1</li></ul><p>What scar revision technique would you recommend?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the most appropriate management to improve this hypertrophic scar?</p>",
+              "alternatives": [
+                {
+                  "text": "Scar revision with Z-plasty to realign the scar along Langer's lines + silicone sheeting",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Z-plasty is a surgical technique that reorients a scar to align with Langer's lines and natural skin creases. By creating triangular flaps that are transposed, the scar direction changes to follow the collagen fibre orientation, reducing tension and improving healing. Silicone sheeting post-operatively further reduces hypertrophic scar formation.</p>"
+                  }
+                },
+                {
+                  "text": "Dermabrasion to sand down the raised scar",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Partially helpful but not the best approach</p>",
+                    "subtitle": "<p>Dermabrasion can improve the surface texture of a scar but does not address the underlying problem — the scar orientation perpendicular to Langer's lines. Without reorienting the scar, dermabrasion alone will not prevent recurrence of hypertrophy. Z-plasty addresses the root cause by changing the scar direction.</p>"
+                  }
+                },
+                {
+                  "text": "Application of vitamin E cream",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>No evidence of benefit</p>",
+                    "subtitle": "<p>Despite popular belief, vitamin E cream has no proven benefit for scar reduction. Some studies even show it can cause contact dermatitis. Evidence-based treatments include silicone sheeting, pressure therapy, intralesional steroid injections, and surgical revision (Z-plasty) for scars perpendicular to Langer's lines.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Teaching Points</h2><p>Treatment plan:</p><ul><li><strong>Scar revision with Z-plasty</strong> — reorients the scar along Langer's lines</li><li><strong>Silicone sheeting</strong> post-operatively for 3–6 months</li><li><strong>Intralesional triamcinolone</strong> if hypertrophy recurs</li><li>Wedding in 3 months — start with steroid injections now, plan Z-plasty after the wedding for optimal timing</li></ul><p><strong>Key Skin & Fascia Concepts:</strong></p><ul><li><strong>Thick skin</strong>: palms and soles; <strong>Thin skin</strong>: rest of the body</li><li><strong>Dermatome</strong>: area of skin supplied by a single spinal nerve</li><li><strong>Langer's lines</strong>: collagen fibre orientation — surgical incisions along these lines heal with minimal scarring</li><li><strong>Superficial fascia</strong> (subcutaneous tissue): contains fat, cutaneous nerves, superficial blood vessels</li><li>Skin weight: ~3.5 kg; surface area: ~2 sq metres</li></ul>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

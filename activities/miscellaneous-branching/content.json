@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "BI13.1-5 | Miscellaneous — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Oncogenes, Tumour Suppressors & Toxicology</h2>",
+      "startScreenSubtitle": "<p>A 55-year-old man with a history of chronic alcohol use presents with jaundice and hepatomegaly. Work through this case applying your knowledge of oncogenes, tumour suppressors, HIV virology, and alcohol metabolism.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly identified the biochemical basis of alcoholic liver disease and demonstrated strong knowledge of molecular oncology and virology.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review the roles of oncogenes, tumour suppressors, reverse transcriptase, and alcohol metabolism.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit the fundamentals of proto-oncogene activation, p53 function, HIV replication, and ethanol oxidation pathways.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A 55-year-old man presents with jaundice, tender hepatomegaly, and ascites. He admits to drinking heavily for 20 years. His liver biopsy shows macrovesicular steatosis and Mallory-Denk bodies.</p><p>Meanwhile, his blood work reveals elevated liver enzymes. You recall that chronic alcohol consumption causes liver damage because ethanol is oxidised to <strong>acetaldehyde</strong> by alcohol dehydrogenase, increasing the <strong>NADH:NAD+</strong> ratio and promoting fatty acid synthesis.</p><p>The patient also asks about a family member recently diagnosed with colon cancer involving a <strong>RAS</strong> mutation — an oncogene mutated in approximately 30% of all human cancers.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The patient's family member has a colon tumour with a RAS mutation. When a proto-oncogene mutates to become an oncogene, what is the fundamental change in cell signalling?</p>", "alternatives": [ { "text": "The growth signal becomes permanently active, driving uncontrolled proliferation", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "The cell loses the ability to undergo apoptosis via p53", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "Loss of apoptosis relates to tumour suppressor gene (p53) dysfunction, not oncogene activation. RAS is a proto-oncogene that becomes a permanently active growth signal when mutated.", "image": {}, "endScreenScore": 0 } }, { "text": "The cell begins producing reverse transcriptase", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Reverse transcriptase is an enzyme used by retroviruses like HIV, not a product of oncogene activation. Oncogenes produce permanently active growth signals.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! Oncogenes produce permanently active growth signals. You now investigate the patient further.</p><p>Biopsy of a suspicious hepatic nodule reveals hepatocellular carcinoma. Immunohistochemistry shows absent <strong>p53</strong> staining — the guardian of the genome. When DNA damage is irreparable, p53 normally triggers <strong>apoptosis</strong> (programmed cell death) to eliminate damaged cells.</p><p>Additionally, the patient is found to be HIV-positive. HIV is a <strong>retrovirus</strong> that uses <strong>reverse transcriptase</strong> to convert its RNA genome into DNA, which integrates into the host genome using <strong>integrase</strong>.</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The patient is HIV-positive and has hepatocellular carcinoma with absent p53. Which combination correctly describes the key molecular events?</p>", "alternatives": [ { "text": "HIV uses reverse transcriptase and integrase; p53 loss removes the apoptosis checkpoint for damaged cells", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "HIV uses DNA polymerase; p53 loss causes increased NADH production", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "HIV uses reverse transcriptase (not DNA polymerase) to convert RNA to DNA. NADH:NAD+ ratio changes are due to alcohol metabolism, not p53 dysfunction.", "image": {}, "endScreenScore": 0 } }, { "text": "HIV integrates via helicase; p53 loss activates RAS oncogene", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "HIV integration uses integrase, not helicase. p53 loss and RAS activation are independent events — p53 is a tumour suppressor, while RAS is an oncogene.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! You have correctly identified the molecular mechanisms at play:</p><ul><li><strong>Alcoholic liver disease:</strong> Ethanol → acetaldehyde (via alcohol dehydrogenase), increased NADH:NAD+ ratio → fatty liver</li><li><strong>Oncogenes:</strong> Mutated RAS = permanently active growth signal (~30% of cancers)</li><li><strong>Tumour suppressors:</strong> p53 = guardian of the genome; triggers apoptosis when DNA damage is irreparable</li><li><strong>HIV virology:</strong> Retrovirus using reverse transcriptase (RNA→DNA) and integrase (genome integration)</li></ul><p>This case illustrates how alcohol-induced liver damage, loss of tumour suppressor function, and viral co-infection can converge in hepatocellular carcinoma.</p>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

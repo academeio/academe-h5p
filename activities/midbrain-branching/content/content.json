@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Midbrain — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Midbrain</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in midbrain anatomy and clinical syndromes. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: Sudden Eye Deviation</h2><p>A 70-year-old diabetic man suddenly develops drooping of the right eyelid, dilation of the right pupil, and the right eye deviates \"down and out.\" He also has weakness of the left arm and leg (left hemiplegia). Brain imaging shows an infarct in the right midbrain.</p><p><strong>Key concept:</strong> In Weber syndrome, a midbrain lesion damages CN III (oculomotor) nerve fascicles causing ipsilateral palsy and the corticospinal tract causing contralateral hemiplegia.</p>"}, "subContentId": "b4c5d6e7-eeee-4bbb-beee-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>This patient has ipsilateral CN III palsy and contralateral hemiplegia. What is this syndrome called, and which two structures in the midbrain are affected?</p>", "alternatives": [
+          {"text": "Weber syndrome — CN III fascicles (ipsilateral palsy) and corticospinal tract (contralateral hemiplegia)", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Weber syndrome is the classic ventral midbrain syndrome affecting CN III and the cerebral peduncle (corticospinal tract).</p>"}},
+          {"text": "Benedikt syndrome — CN III and the red nucleus causing tremor", "nextContentId": -2, "feedback": {"title": "<p>Close but not quite</p>", "subtitle": "<p>Benedikt syndrome involves CN III + red nucleus (causing contralateral tremor/ataxia). Weber syndrome involves CN III + corticospinal tract (causing contralateral hemiplegia).</p>"}},
+          {"text": "Wallenberg syndrome — a brainstem infarct causing cranial nerve palsy", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Wallenberg syndrome is a lateral MEDULLARY syndrome (PICA territory). This midbrain lesion with CN III palsy + contralateral hemiplegia is Weber syndrome.</p>"}}
+        ]}}, "subContentId": "b4c5d6e7-eeee-4bbb-beee-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Neuroanatomical Correlation</h2><p>The neuroradiologist explains the midbrain anatomy: it is divided into the tectum (dorsally), tegmentum (middle), and cerebral peduncles (ventrally). The lesion is in the ventral midbrain, affecting the cerebral peduncle and CN III as it exits.</p><p><strong>Concept:</strong> The substantia nigra has pars compacta (produces dopamine) and pars reticulata (GABAergic output to thalamus). The superior colliculus is for visual reflexes; the inferior colliculus is an auditory relay.</p>"}, "subContentId": "b4c5d6e7-eeee-4bbb-beee-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The substantia nigra lies in the midbrain. Which part produces dopamine, and what disease results from its degeneration?</p>", "alternatives": [
+          {"text": "Pars compacta produces dopamine — its degeneration causes Parkinson's disease", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The pars compacta of the substantia nigra produces dopamine for the nigrostriatal pathway. Its degeneration is the hallmark of Parkinson's disease.</p>"}},
+          {"text": "Pars reticulata produces dopamine — its degeneration causes tremor", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Pars reticulata provides GABAergic (not dopaminergic) output to the thalamus. Pars compacta is the dopamine-producing part.</p>"}},
+          {"text": "The entire substantia nigra produces serotonin, not dopamine", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The substantia nigra (specifically pars compacta) produces dopamine. Serotonin is produced by the raphe nuclei. Dopamine depletion leads to Parkinson's disease.</p>"}}
+        ]}}, "subContentId": "b4c5d6e7-eeee-4bbb-beee-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>The patient is managed with antiplatelet therapy, glycaemic control, and rehabilitation. CN III function partially recovers over months. The contralateral weakness improves with physiotherapy.</p><p><strong>Learning points:</strong></p><ul><li>Midbrain regions: tectum, tegmentum, cerebral peduncles</li><li>Weber syndrome: CN III palsy (ipsilateral) + hemiplegia (contralateral)</li><li>Substantia nigra: pars compacta (dopamine) + pars reticulata (GABA)</li><li>Superior colliculus = visual reflexes; Inferior colliculus = auditory relay</li></ul>"}, "subContentId": "b4c5d6e7-eeee-4bbb-beee-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

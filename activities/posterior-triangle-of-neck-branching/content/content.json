@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "AN29.1-AN30.5 | Posterior triangle of neck — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Posterior Triangle — Boundaries, Brachial Plexus & Clinical Correlations</h2>",
+      "startScreenSubtitle": "<p>A newborn is noticed to have the head tilted to one side. Work through this case exploring the posterior triangle boundaries, brachial plexus injuries, and accessory nerve anatomy.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly identified torticollis, posterior triangle anatomy, and brachial plexus injury patterns.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review SCM, brachial plexus roots, and the accessory nerve.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit the posterior triangle boundaries, Erb's palsy presentation, scalene muscles, and accessory nerve course.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A newborn is noticed to have the head persistently tilted to the right with the chin rotated to the <strong>opposite</strong> (left) side. A firm swelling is palpable in the right <strong>sternocleidomastoid</strong> (SCM) muscle. This is congenital <strong>torticollis</strong> (wryneck), caused by fibrosis of the SCM.</p><p>The posterior triangle of the neck is bounded anteriorly by the <strong>sternocleidomastoid</strong>, posteriorly by the trapezius, and inferiorly by the middle third of the <strong>clavicle</strong>.</p><p>The brachial plexus roots emerge between the <strong>scalenus anterior</strong> and scalenus medius muscles in the posterior triangle.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>Another newborn in the nursery had a difficult delivery with shoulder dystocia. The baby's right arm hangs limply with the shoulder adducted and elbow extended — the waiter's tip position. Which brachial plexus injury is this?</p>", "alternatives": [ { "text": "Erb's palsy — upper trunk injury (C5, C6) causing the waiter's tip position", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Klumpke's palsy — lower trunk injury (C8, T1) causing a claw hand", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "Klumpke's palsy affects the lower trunk (C8, T1) and causes a claw hand, not the waiter's tip. The waiter's tip position (adducted shoulder, extended elbow) is Erb's palsy (C5, C6 — upper trunk).", "image": {}, "endScreenScore": 0 } }, { "text": "Complete brachial plexus palsy affecting all roots C5-T1", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Complete plexus palsy would cause a flail arm. The specific waiter's tip position (adducted shoulder, extended elbow, pronated forearm) is characteristic of Erb's palsy — upper trunk (C5, C6) injury.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! Erb's palsy is an upper trunk (C5, C6) injury producing the waiter's tip position.</p><p>Returning to the original patient, you plan physiotherapy for the torticollis. You counsel the parents that the <strong>accessory nerve</strong> (spinal accessory, CN XI) crosses the posterior triangle obliquely and is at risk during surgical procedures such as lymph node biopsy in this region.</p><p>The accessory nerve supplies two key muscles: the sternocleidomastoid and the trapezius. Damage during surgery would cause weakness of shoulder shrugging (trapezius) and difficulty turning the head (SCM).</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>A patient undergoes lymph node biopsy in the posterior triangle and develops weakness of shoulder shrugging. Which nerve was likely damaged?</p>", "alternatives": [ { "text": "The spinal accessory nerve (CN XI), which crosses the posterior triangle and supplies trapezius", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "The phrenic nerve, which crosses the anterior surface of scalenus anterior", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "The phrenic nerve lies on scalenus anterior and supplies the diaphragm, not the trapezius. Shoulder shrug weakness indicates accessory nerve (CN XI) damage.", "image": {}, "endScreenScore": 0 } }, { "text": "The long thoracic nerve, which supplies serratus anterior", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Long thoracic nerve damage causes winging of the scapula (serratus anterior weakness), not shoulder shrug weakness. The spinal accessory nerve (CN XI) supplies trapezius.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! Key posterior triangle anatomy:</p><ul><li><strong>Boundaries:</strong> SCM (anterior), trapezius (posterior), clavicle (inferior)</li><li><strong>Torticollis:</strong> SCM fibrosis — head tilts to affected side, chin rotates to opposite side</li><li><strong>Erb's palsy:</strong> Upper trunk (C5, C6) — waiter's tip position</li><li><strong>Accessory nerve (XI):</strong> Crosses triangle obliquely; supplies SCM + trapezius; at risk during biopsy</li><li><strong>Brachial plexus roots:</strong> Emerge between scalenus anterior and medius</li></ul>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

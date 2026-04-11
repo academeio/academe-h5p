@@ -1,0 +1,61 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Abdominal cavity — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Jaundiced Patient</strong></p>",
+      "startScreenSubtitle": "<p>A 52-year-old woman presents to the emergency department with a 3-day history of progressively worsening right upper quadrant pain, jaundice, and fever. She has a known history of gallstones. Vitals: Temperature 38.8°C, HR 102/min, BP 110/70 mmHg, RR 20/min. You are the surgical registrar on call.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified Charcot's triad of ascending cholangitis, understood the anatomy of Calot's triangle and the portal triad, and chose appropriate management with ERCP followed by interval cholecystectomy. Your knowledge of peritoneal anatomy and biliary drainage was exemplary.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You showed some understanding but missed key anatomical relationships. Review the boundaries of Calot's triangle, the formation of the portal vein, and the communication between the greater and lesser sacs through the epiploic foramen.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the anatomy of the abdominal cavity, particularly the peritoneal spaces, portal vein formation, Calot's triangle, and the three major openings of the diaphragm.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Presentation</h2><p>On examination, the patient is jaundiced and febrile. She has significant tenderness in the right upper quadrant with a positive Murphy's sign. There is no generalised peritonism. Bowel sounds are present.</p><p><strong>Blood results:</strong></p><ul><li>WBC: 18,000/mm³ (elevated)</li><li>Total bilirubin: 6.2 mg/dL (elevated)</li><li>Direct bilirubin: 4.8 mg/dL (elevated — obstructive pattern)</li><li>ALP: 420 U/L (elevated)</li><li>GGT: 380 U/L (elevated)</li><li>ALT: 120 U/L (mildly elevated)</li><li>Amylase: 85 U/L (normal)</li></ul><p>The clinical triad of <strong>right upper quadrant pain, fever, and jaundice</strong> (Charcot's triad) strongly suggests ascending cholangitis secondary to choledocholithiasis.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>During cholecystectomy, a critical anatomical landmark must be identified to avoid bile duct injury. Calot's triangle is bounded by which structures?</p>", "alternatives": [
+          {"text": "Cystic duct inferiorly, common hepatic duct medially, inferior surface of the liver superiorly", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Calot's triangle (cystohepatic triangle) is bounded by the cystic duct inferiorly, the common hepatic duct medially, and the inferior surface of the liver superiorly. The cystic artery — typically a branch of the right hepatic artery — is the key structure within this triangle that must be identified and ligated during cholecystectomy.</p>"}},
+          {"text": "Common bile duct medially, cystic duct laterally, portal vein posteriorly", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>This does not describe Calot's triangle. The boundaries are: cystic duct (inferior), common hepatic duct (medial), and inferior surface of the liver (superior). The cystic artery lies within this triangle.</p>"}},
+          {"text": "Right hepatic artery superiorly, cystic duct inferiorly, common bile duct medially", "nextContentId": -2, "feedback": {"title": "<p>Not quite</p>", "subtitle": "<p>The right hepatic artery is a content of Calot's triangle (variant anatomy), not a boundary. The correct boundaries are: cystic duct inferiorly, common hepatic duct medially, and inferior surface of the liver superiorly.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Imaging and Further Assessment</h2><p><strong>Ultrasound abdomen:</strong></p><ul><li>Distended gallbladder with multiple stones, thickened wall (6 mm)</li><li>Common bile duct dilated to 12 mm with a 1.2 cm stone at the distal CBD</li><li>Intrahepatic biliary dilatation</li></ul><p><strong>Anatomical correlation:</strong> The portal vein is formed behind the neck of the pancreas by the union of the superior mesenteric vein and the splenic vein. The CBD runs in the free edge of the lesser omentum (hepatoduodenal ligament) alongside the portal vein and hepatic artery proper — collectively called the portal triad.</p><p>The lesser sac (omental bursa) communicates with the greater sac through the <strong>epiploic foramen (of Winslow)</strong>. In emergencies, haemorrhage from the portal triad can be controlled by compressing the hepatoduodenal ligament (Pringle manoeuvre) — your fingers pass through the epiploic foramen to access this.</p>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Given the CBD stone causing obstructive jaundice and cholangitis, what is the most appropriate initial management?</p>", "alternatives": [
+          {"text": "IV antibiotics + urgent ERCP with sphincterotomy and stone extraction", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Ascending cholangitis requires urgent biliary decompression. ERCP with sphincterotomy and stone extraction is the gold standard. IV antibiotics are started immediately. Once the acute episode resolves, interval laparoscopic cholecystectomy is performed to prevent recurrence.</p>"}},
+          {"text": "Emergency open cholecystectomy with CBD exploration", "nextContentId": -2, "feedback": {"title": "<p>Not optimal</p>", "subtitle": "<p>Emergency surgery in acute cholangitis carries high morbidity and mortality. The standard of care is initial stabilisation with IV antibiotics followed by urgent ERCP for biliary decompression. Surgery is deferred until the acute episode resolves.</p>"}},
+          {"text": "Conservative management with IV antibiotics alone and reassess in 48 hours", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>While antibiotics are essential, cholangitis with obstructive CBD stone requires urgent biliary decompression (ERCP). Antibiotics alone will not resolve the obstruction and the patient may deteriorate to Reynolds' pentad (Charcot's triad + confusion + hypotension).</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The patient undergoes successful ERCP with sphincterotomy and CBD stone extraction. Bile drainage is restored and she defervesces within 24 hours. Bilirubin normalises over 5 days. She undergoes elective laparoscopic cholecystectomy 6 weeks later with careful identification of Calot's triangle and the critical view of safety.</p><p><strong>Key anatomical points:</strong></p><ul><li>The peritoneal cavity has a <strong>greater sac</strong> and <strong>lesser sac</strong> (omental bursa), communicating through the <strong>epiploic foramen</strong></li><li>The <strong>portal vein</strong> forms behind the neck of the pancreas (SMV + splenic vein)</li><li><strong>Calot's triangle:</strong> cystic duct, common hepatic duct, liver — contains the cystic artery</li><li>The <strong>diaphragm</strong> has three major openings: caval (T8), oesophageal (T10), aortic (T12)</li><li>The <strong>Pringle manoeuvre</strong> compresses the hepatoduodenal ligament via the epiploic foramen</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Minerals, electrolytes, Water and Acid base balance — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Minerals, Electrolytes & Acid-Base Balance</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in iron metabolism and acid-base balance. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: Fatigue and Spoon-shaped Nails</h2><p>A 35-year-old woman presents with fatigue, pica (craving ice), and spoon-shaped nails (koilonychia). Lab results: Hb 7.5 g/dL, MCV 65 fL (low), serum ferritin 5 ng/mL (very low), TIBC elevated. She has been taking antacids regularly for dyspepsia and drinks large amounts of tea.</p><p><strong>Key concept:</strong> The master regulator of iron homeostasis is hepcidin, produced by the liver. It binds and internalises ferroportin, blocking iron export from enterocytes. Serum ferritin is the best single marker to distinguish IDA from anaemia of chronic disease.</p>"}, "subContentId": "c5d6e7f8-ffff-4ccc-bfff-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Her serum ferritin is low and TIBC is high. What is the best single marker distinguishing iron deficiency anaemia from anaemia of chronic disease?</p>", "alternatives": [
+          {"text": "Serum ferritin — low in IDA, normal or high in anaemia of chronic disease", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Ferritin reflects iron stores. It is low in IDA but elevated in ACD (as an acute phase reactant). TIBC is high in IDA because the body upregulates transferrin to capture more iron.</p>"}},
+          {"text": "Haemoglobin level — it is always lower in IDA than in ACD", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Haemoglobin can be low in both conditions. Serum ferritin is the best discriminator — low in IDA, normal/high in ACD.</p>"}},
+          {"text": "Serum iron alone — it is the definitive test for iron status", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Serum iron fluctuates with meals and diurnal variation. Serum ferritin is the best single marker for distinguishing IDA from ACD.</p>"}}
+        ]}}, "subContentId": "c5d6e7f8-ffff-4ccc-bfff-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Treatment and Counselling</h2><p>She is started on oral iron supplements with vitamin C (ascorbic acid) to enhance absorption. She is advised to avoid taking iron with tea (contains tannins that inhibit absorption) and to stop antacids around iron dosing times.</p><p><strong>Concept:</strong> Iron is absorbed in the duodenum; non-haem iron absorption is enhanced by Vitamin C (ascorbic acid) and inhibited by phytates and tannins. Transferrin carries two Fe3+ ions per molecule.</p>"}, "subContentId": "c5d6e7f8-ffff-4ccc-bfff-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Why was she advised to take iron with Vitamin C and avoid tea? What enhances and inhibits iron absorption?</p>", "alternatives": [
+          {"text": "Vitamin C (ascorbic acid) enhances non-haem iron absorption; tannins and phytates inhibit it", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Vitamin C reduces Fe3+ to Fe2+ (the absorbable form) and keeps iron soluble. Tannins (in tea) and phytates (in cereals) chelate iron, reducing absorption.</p>"}},
+          {"text": "Vitamin C prevents iron oxidation in the stomach; tea has no effect on iron absorption", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>While Vitamin C does reduce iron, tannins in tea significantly inhibit non-haem iron absorption by chelating iron in the gut lumen.</p>"}},
+          {"text": "Vitamin C increases gastric acid which dissolves iron tablets faster; tea delays gastric emptying", "nextContentId": -3, "feedback": {"title": "<p>Incomplete</p>", "subtitle": "<p>The key mechanism is that Vitamin C reduces ferric (Fe3+) to ferrous (Fe2+) iron for absorption. Tannins directly chelate iron, not merely delay emptying.</p>"}}
+        ]}}, "subContentId": "c5d6e7f8-ffff-4ccc-bfff-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>After 3 months of iron supplementation with dietary modifications, her Hb rises to 11.8 g/dL and ferritin normalises. She is counselled to continue iron for 3-6 months after Hb normalisation to replenish stores.</p><p><strong>Learning points:</strong></p><ul><li>Hepcidin (liver) = master regulator of iron; binds ferroportin</li><li>Ferritin = best marker: low in IDA, normal/high in ACD</li><li>Iron absorbed in duodenum; enhanced by Vitamin C, inhibited by tannins/phytates</li><li>Transferrin carries 2 Fe3+ ions; TIBC is high in IDA</li><li>Henderson-Hasselbalch: pH = pKa + log([base]/[acid])</li></ul>"}, "subContentId": "c5d6e7f8-ffff-4ccc-bfff-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

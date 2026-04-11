@@ -1,0 +1,147 @@
+{
+  "branchingScenario": {
+    "title": "PBL: General Features, Joints, radiographs & surface marking (Upper Limb) — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Swollen Forearm After a Fall</strong></p>",
+      "startScreenSubtitle": "<p>A 22-year-old male college student presents to the emergency department 6 hours after a motorcycle accident. He has a swollen, tense right forearm with severe pain out of proportion to the visible injury. You need to identify the surgical emergency.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified acute compartment syndrome, understood the fascial compartments of the upper limb, the role of intermuscular septa, and the significance of superficial veins (cephalic and basilic) connected by the median cubital vein. Emergency fasciotomy was the correct management.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>Review the fascial layers (superficial and deep fascia), compartment syndrome pathophysiology, the role of intermuscular septa in creating closed compartments, and the superficial venous anatomy of the upper limb.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review upper limb fascia: superficial vs deep fascia, intermuscular septa creating anterior (flexor) and posterior (triceps) compartments, compartment syndrome, and superficial veins (cephalic, basilic, median cubital).</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 22-year-old male is brought to the ED 6 hours after a motorcycle accident with a fractured right forearm (both radius and ulna):</p><ul><li>Severe, escalating pain in the right forearm — not relieved by IV morphine</li><li>The forearm is swollen and tense (\"woody hard\")</li><li>Pain dramatically increases with passive extension of fingers</li><li>Tingling and numbness in the fingers</li><li>The cast applied at a peripheral hospital has been split</li></ul><p><strong>On examination:</strong></p><ul><li>Right forearm: swollen, tense, shiny skin</li><li>Passive extension of fingers causes severe pain (stretch test positive)</li><li>Radial pulse is palpable but weak</li><li>Capillary refill time: 4 seconds (delayed)</li><li>Sensation reduced in the median and ulnar nerve distributions</li></ul><p>The upper limb has two layers of fascia: <strong>superficial fascia</strong> (containing fat and cutaneous nerves) and <strong>deep fascia</strong> (wrapping around muscles like a tight sleeve). The arm is divided into compartments by <strong>intermuscular septa</strong>.</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the most likely diagnosis in this patient with a tense, swollen forearm, pain on passive stretch, and neurovascular compromise?</p>",
+              "alternatives": [
+                {
+                  "text": "Acute compartment syndrome — a surgical emergency",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Compartment syndrome is a dangerous condition where swelling within a closed fascial compartment compresses nerves and blood vessels. The 6 P's (Pain out of proportion, Pain on passive stretch, Paraesthesia, Pallor, Pulselessness, Paralysis) are the warning signs. The deep fascia forms a non-expansile sleeve, so any swelling within it raises intracompartmental pressure dangerously.</p>"
+                  }
+                },
+                {
+                  "text": "Deep vein thrombosis of the upper limb",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Unlikely in this context</p>",
+                    "subtitle": "<p>DVT can cause swelling but does not cause pain on passive stretch of fingers or the \"woody hard\" feel of a tense compartment. The history of fracture and the 6-hour delay make compartment syndrome far more likely. Remember, the superficial veins (cephalic vein laterally, basilic vein medially) are connected by the median cubital vein at the cubital fossa.</p>"
+                  }
+                },
+                {
+                  "text": "Volkmann's ischaemic contracture",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>This is a complication, not the current diagnosis</p>",
+                    "subtitle": "<p>Volkmann's ischaemic contracture is the LATE consequence of untreated compartment syndrome. It occurs when the forearm muscles undergo ischaemic necrosis and are replaced by fibrotic tissue, leading to a permanent flexion contracture. The current diagnosis is acute compartment syndrome, which needs emergency treatment to prevent Volkmann's contracture.</p>"
+                  }
+                },
+                {
+                  "text": "Fracture haematoma — needs observation only",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Dangerously wrong!</p>",
+                    "subtitle": "<p>While fractures cause swelling, the combination of pain out of proportion, pain on passive stretch, and neurovascular compromise indicates compartment syndrome, not simple fracture swelling. Observation alone would lead to irreversible muscle and nerve death within 6–8 hours.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Diagnosis Confirmed</h2><p>Compartment pressure measurement shows <strong>45 mmHg</strong> in the anterior compartment (normal: &lt;15 mmHg; fasciotomy indicated at &gt;30 mmHg or within 30 mmHg of diastolic BP).</p><p><strong>Anatomical basis:</strong></p><ul><li>The forearm has <strong>anterior (flexor)</strong> and <strong>posterior (extensor)</strong> compartments separated by the interosseous membrane and intermuscular septa</li><li>The deep fascia forms a non-expansile envelope — any swelling (from fracture bleeding, oedema) raises pressure within this closed space</li><li>Rising pressure compresses first the veins, then capillaries, then arterioles — leading to muscle and nerve ischaemia</li><li>Nerves are more sensitive than muscles — paraesthesia appears before paralysis</li></ul><p>What is the emergency management?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the emergency management for acute compartment syndrome?</p>",
+              "alternatives": [
+                {
+                  "text": "Emergency fasciotomy — open all compartments and leave wounds open",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Emergency fasciotomy involves incising the deep fascia to release pressure immediately. All involved compartments must be opened. The wounds are left open and covered with sterile dressings, then closed (delayed primary closure or skin grafting) after 48–72 hours once swelling subsides. Time is critical — irreversible damage occurs after 6–8 hours of ischaemia.</p>"
+                  }
+                },
+                {
+                  "text": "Elevate the limb and apply ice packs",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Dangerously inadequate!</p>",
+                    "subtitle": "<p>While elevation may help mild swelling, established compartment syndrome with pressure >30 mmHg requires SURGICAL decompression. Conservative measures alone will not reduce intracompartmental pressure enough to restore perfusion. Every minute of delay risks permanent muscle and nerve death.</p>"
+                  }
+                },
+                {
+                  "text": "Apply a tighter bandage for compression",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Absolutely wrong — this would worsen the condition!</p>",
+                    "subtitle": "<p>External compression would further increase intracompartmental pressure, accelerating ischaemia. In compartment syndrome, all circumferential dressings, casts, and bandages must be REMOVED. The treatment is decompression (fasciotomy), not compression.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Teaching Points</h2><p>Emergency fasciotomy was performed within 1 hour of admission. Both anterior and posterior compartments were opened. The muscle was pink and contractile (viable). Fractures were stabilised with external fixation. Wounds were left open for delayed closure at 72 hours.</p><p><strong>Key Upper Limb General Features:</strong></p><ul><li><strong>Two fascial layers</strong>: superficial fascia (fat, cutaneous nerves) and deep fascia (muscle sleeve)</li><li><strong>Intermuscular septa</strong> divide arm into anterior (flexor) and posterior (triceps) compartments</li><li><strong>Compartment syndrome</strong>: swelling within closed fascial compartment compresses nerves and vessels → emergency fasciotomy</li><li><strong>Superficial veins</strong>: cephalic (lateral), basilic (medial), connected by median cubital vein at cubital fossa</li><li>Median cubital vein is the common site for venepuncture</li></ul>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

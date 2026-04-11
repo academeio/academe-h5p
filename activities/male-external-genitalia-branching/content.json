@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Male external genitalia — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Male External Genitalia</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in male external genitalia anatomy. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: Scrotal Swelling</h2><p>A 20-year-old man presents with a painless left-sided scrotal swelling that feels like a \"bag of worms\" and is more prominent on standing. It disappears when he lies down. Examination reveals a left varicocele. The right side is normal.</p><p><strong>Key concept:</strong> Varicocele is almost always left-sided because the left testicular vein drains into the left renal vein at a right angle, while the right testicular vein drains directly into the IVC.</p>"}, "subContentId": "f2a3b4c5-cccc-4fff-bccc-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Why is varicocele predominantly left-sided? What is the key anatomical difference in venous drainage?</p>", "alternatives": [
+          {"text": "The left testicular vein drains into the left renal vein at a right angle; the right drains directly into the IVC", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The right-angle drainage into the left renal vein creates higher venous pressure, predisposing to varicocele on the left side.</p>"}},
+          {"text": "The left testis hangs lower, creating more hydrostatic pressure in its veins", "nextContentId": -2, "feedback": {"title": "<p>Incomplete</p>", "subtitle": "<p>While the left testis does hang lower, the key anatomical reason is the venous drainage pattern — left testicular vein enters the left renal vein at a right angle.</p>"}},
+          {"text": "The left testis has more veins in the pampiniform plexus than the right", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Both sides have similar pampiniform plexuses. The left-sided predominance is due to the left testicular vein draining into the renal vein at right angles.</p>"}}
+        ]}}, "subContentId": "f2a3b4c5-cccc-4fff-bccc-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Further Evaluation</h2><p>Semen analysis shows reduced sperm count. Ultrasound confirms Grade III varicocele. The urologist discusses the anatomy of the testis — it is enclosed by the tunica albuginea and divided into approximately 250 lobules containing seminiferous tubules. He explains that the testis developed retroperitoneally.</p><p><strong>Concept:</strong> The lymphatic drainage of the testis is to the para-aortic (lumbar) nodes, not inguinal nodes, because the testis develops retroperitoneally and descends through the inguinal canal guided by the gubernaculum.</p>"}, "subContentId": "f2a3b4c5-cccc-4fff-bccc-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>If a testicular tumour is suspected, where would you expect lymph node metastasis? Why not to inguinal nodes?</p>", "alternatives": [
+          {"text": "Para-aortic (lumbar) nodes — because the testis develops retroperitoneally and descends guided by the gubernaculum", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Testicular lymphatics follow the developmental origin. The testis develops retroperitoneally, so its lymphatics drain to para-aortic nodes, not inguinal.</p>"}},
+          {"text": "Superficial inguinal nodes — because the testis lies in the scrotum", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The scrotal skin drains to inguinal nodes, but the testis itself drains to para-aortic nodes reflecting its retroperitoneal developmental origin.</p>"}},
+          {"text": "External iliac nodes — following the cremasteric artery drainage", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The testicular lymphatic drainage follows the testicular vessels to para-aortic nodes, reflecting the gonad's retroperitoneal origin before descent.</p>"}}
+        ]}}, "subContentId": "f2a3b4c5-cccc-4fff-bccc-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>Varicocelectomy is performed. Follow-up semen analysis shows improvement in sperm parameters. No testicular tumour is identified.</p><p><strong>Learning points:</strong></p><ul><li>Testis: enclosed by tunica albuginea, ~250 lobules with seminiferous tubules</li><li>Cremasteric muscle from internal oblique — thermoregulation</li><li>Left varicocele: left testicular vein drains into left renal vein (right angle)</li><li>Testicular lymphatics drain to para-aortic nodes (retroperitoneal origin)</li><li>Testicular descent guided by the gubernaculum</li></ul>"}, "subContentId": "f2a3b4c5-cccc-4fff-bccc-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

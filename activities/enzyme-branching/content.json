@@ -1,0 +1,147 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Enzyme — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Chest Pain Emergency</strong></p>",
+      "startScreenSubtitle": "<p>A 58-year-old male presents to the emergency department at 2 AM with severe crushing chest pain radiating to the left arm for 4 hours. He is a known diabetic and smoker. You need to identify the correct cardiac biomarker to confirm diagnosis.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified troponin as the most specific cardiac biomarker for myocardial infarction, understood enzyme kinetics principles including Km and Vmax, and recognised that competitive inhibitors increase apparent Km. Your understanding of enzyme classification and clinical enzymology is strong.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some aspects correctly but missed key concepts. Review Michaelis-Menten kinetics (Km = substrate concentration at half Vmax), types of enzyme inhibition, and the clinical significance of cardiac biomarkers in diagnosing MI.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the fundamentals of enzyme biochemistry: apoenzyme vs holoenzyme, Michaelis-Menten kinetics, types of inhibition (competitive, non-competitive, uncompetitive), the six IUBMB enzyme classes, and clinical enzymology especially cardiac markers.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 58-year-old male auto-rickshaw driver presents to the emergency department at 2 AM with:</p><ul><li>Severe crushing retrosternal chest pain for 4 hours, radiating to left arm and jaw</li><li>Profuse sweating (diaphoresis) and nausea</li><li>History: Type 2 diabetes mellitus (10 years), smoker (20 pack-years), hypertension</li></ul><p><strong>On examination:</strong></p><ul><li>HR: 100 bpm, BP: 90/60 mmHg (hypotensive)</li><li>Cold, clammy extremities</li><li>S3 gallop on auscultation</li><li>ECG shows ST-segment elevation in leads II, III, aVF (inferior MI)</li></ul><p>You need to confirm the diagnosis with a cardiac biomarker. The emergency lab can run multiple enzyme assays. Which biomarker is most appropriate?</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Which cardiac biomarker is the most specific for diagnosing myocardial infarction?</p>",
+              "alternatives": [
+                {
+                  "text": "Serum Troponin I",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Serum troponin I is the most specific cardiac enzyme marker for diagnosing myocardial infarction. Troponin is released from damaged cardiomyocytes and remains elevated for 7–14 days. It is classified as a hydrolase in terms of the enzyme it interacts with in the contractile apparatus. The six IUBMB classes are: oxidoreductases, transferases, hydrolases, lyases, isomerases, and ligases.</p>"
+                  }
+                },
+                {
+                  "text": "Serum LDH (Lactate Dehydrogenase)",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Not the best choice</p>",
+                    "subtitle": "<p>LDH is an oxidoreductase that catalyses lactate to pyruvate conversion. While LDH-1 isoenzyme rises in MI, it is not specific to cardiac tissue — it is also elevated in haemolysis, liver disease, and many other conditions. Troponin is far more specific for myocardial injury.</p>"
+                  }
+                },
+                {
+                  "text": "Serum AST (Aspartate Transaminase)",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>AST is a transferase enzyme found in liver, heart, skeletal muscle, and kidney. It lacks specificity for cardiac injury and is no longer recommended as a primary cardiac biomarker. AST is classified as a transferase — one of the six IUBMB enzyme classes.</p>"
+                  }
+                },
+                {
+                  "text": "Serum Amylase",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Amylase is a hydrolase enzyme primarily associated with pancreatic and salivary gland pathology, not cardiac injury. It would be elevated in acute pancreatitis, not myocardial infarction. Always match the enzyme marker to the suspected organ of injury.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Investigation Results</h2><p>The cardiac biomarker results return:</p><table><tr><th>Test</th><th>Result</th><th>Normal Range</th></tr><tr><td>Troponin I</td><td><strong>15.2 ng/mL</strong></td><td>&lt;0.04 ng/mL</td></tr><tr><td>CK-MB</td><td><strong>85 U/L</strong></td><td>&lt;25 U/L</td></tr><tr><td>LDH</td><td><strong>420 U/L</strong></td><td>140–280 U/L</td></tr></table><p>The markedly elevated troponin confirms <strong>acute myocardial infarction</strong>. CK-MB (a transferase) is also elevated but is less specific than troponin.</p><p><strong>Enzyme kinetics concept:</strong> The cardiac enzymes follow Michaelis-Menten kinetics. The Km (Michaelis constant) represents the substrate concentration at which the reaction velocity is half of Vmax. Understanding enzyme kinetics helps in designing enzyme-based diagnostic assays.</p><p>The patient needs immediate management. A colleague suggests starting a statin (HMG-CoA reductase inhibitor). You recall that this drug acts as a competitive inhibitor.</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>A competitive inhibitor like a statin (which blocks HMG-CoA reductase) has what effect on enzyme kinetics?</p>",
+              "alternatives": [
+                {
+                  "text": "Increases apparent Km, Vmax unchanged",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>A competitive inhibitor binds to the active site of the enzyme, competing with the substrate. This increases the apparent Km (more substrate needed to reach half-Vmax) but Vmax remains unchanged because at very high substrate concentrations, the inhibitor can be outcompeted. The protein without cofactor is the apoenzyme; with cofactor, it is the holoenzyme.</p>"
+                  }
+                },
+                {
+                  "text": "Decreases Vmax, Km unchanged",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>That describes non-competitive inhibition</p>",
+                    "subtitle": "<p>In non-competitive inhibition, the inhibitor binds to an allosteric site (not the active site), reducing Vmax without changing Km. In competitive inhibition, the inhibitor binds to the active site and increases apparent Km while Vmax remains unchanged.</p>"
+                  }
+                },
+                {
+                  "text": "Decreases both Km and Vmax",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>That describes uncompetitive inhibition</p>",
+                    "subtitle": "<p>Uncompetitive inhibition involves binding to the enzyme-substrate complex, decreasing both apparent Km and Vmax. Competitive inhibition is different — the inhibitor binds to the active site of the free enzyme, increasing Km while leaving Vmax unchanged.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Teaching Points</h2><p>The patient is managed with:</p><ul><li><strong>Primary PCI (percutaneous coronary intervention)</strong> within 90 minutes</li><li><strong>Dual antiplatelet therapy</strong> (aspirin + clopidogrel)</li><li><strong>Atorvastatin 80 mg</strong> — a competitive inhibitor of HMG-CoA reductase</li><li><strong>ACE inhibitor</strong> for cardiac remodelling prevention</li></ul><p><strong>Key Enzyme Concepts Reviewed:</strong></p><ul><li><strong>Apoenzyme</strong> = protein part without cofactor; <strong>Holoenzyme</strong> = complete enzyme with cofactor</li><li><strong>Km</strong> = substrate concentration at half-Vmax (measures enzyme-substrate affinity)</li><li><strong>Competitive inhibition</strong>: binds active site, increases Km, Vmax unchanged</li><li><strong>Troponin I</strong> is the most specific cardiac marker for MI</li><li><strong>Six IUBMB classes</strong>: Oxidoreductases, Transferases, Hydrolases, Lyases, Isomerases, Ligases</li></ul><p>The patient's troponin should be monitored serially — it peaks at 12–24 hours and remains elevated for up to 14 days, making it useful for both early diagnosis and late presentation of MI.</p>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

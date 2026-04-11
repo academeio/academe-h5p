@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Integrated Physiology — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Integrated Physiology</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in Integrated Physiology. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: Mountain Trekker</h2><p>A 30-year-old trekker ascends rapidly to 4,500 metres altitude. Within 24 hours, he develops headache, nausea, and breathlessness. His SpO2 is 78%. His heart rate is 110 bpm. A blood sample shows haemoglobin of 14 g/dL (baseline was 13 g/dL).</p><p><strong>Key concept:</strong> Acclimatisation to high altitude involves increased erythropoietin production leading to polycythaemia. The body compensates for hypoxia through multiple integrated mechanisms.</p>"}, "subContentId": "e5f6a7b8-5555-4eee-b555-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>What is the body's primary long-term compensatory mechanism for high-altitude hypoxia?</p>", "alternatives": [
+          {"text": "Increased erythropoietin production leading to polycythaemia (more red blood cells)", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>EPO production increases in response to hypoxia, stimulating erythropoiesis and eventually causing polycythaemia — the hallmark of altitude acclimatisation.</p>"}},
+          {"text": "Immediate increase in haemoglobin concentration through haemoconcentration only", "nextContentId": -2, "feedback": {"title": "<p>Incomplete</p>", "subtitle": "<p>Haemoconcentration may occur acutely, but the key long-term adaptation is increased EPO-driven erythropoiesis leading to true polycythaemia.</p>"}},
+          {"text": "Decreased metabolic rate to reduce oxygen demand", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Metabolic rate actually increases at altitude. The primary compensation is increased red cell production via erythropoietin to enhance oxygen-carrying capacity.</p>"}}
+        ]}}, "subContentId": "e5f6a7b8-5555-4eee-b555-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Progression</h2><p>The trekker descends to 3,000 metres and is treated with supplemental oxygen. His symptoms improve. He decides to attempt the altitude again after a week of gradual acclimatisation. During exercise at altitude, his cardiac output increases significantly.</p><p><strong>Concept:</strong> During exercise, cardiac output increases by increasing both heart rate and stroke volume. Core temperature is maintained at approximately 37°C through a balance of heat production and heat loss.</p>"}, "subContentId": "e5f6a7b8-5555-4eee-b555-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>During exercise at altitude, how does the cardiovascular system increase cardiac output?</p>", "alternatives": [
+          {"text": "By increasing both heart rate and stroke volume", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Cardiac output = heart rate x stroke volume. During exercise, both components increase to meet the higher oxygen demand.</p>"}},
+          {"text": "Only by increasing heart rate — stroke volume remains constant during exercise", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Both heart rate AND stroke volume increase during exercise. Stroke volume increases due to increased venous return (Frank-Starling mechanism) and increased contractility.</p>"}},
+          {"text": "By peripheral vasodilation alone without changes in cardiac parameters", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Peripheral vasodilation occurs in exercising muscles, but the primary increase in cardiac output comes from increased heart rate and stroke volume.</p>"}}
+        ]}}, "subContentId": "e5f6a7b8-5555-4eee-b555-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>After gradual acclimatisation over a week, the trekker successfully reaches the summit. His SpO2 has improved to 88% at the same altitude.</p><p><strong>Learning points:</strong></p><ul><li>Altitude acclimatisation: increased EPO leading to polycythaemia</li><li>Exercise: cardiac output increases via heart rate + stroke volume</li><li>Core temperature maintained at ~37°C by balancing heat production and loss</li><li>In starvation, the brain adapts to use ketone bodies as fuel</li><li>Fever: pyrogens raise hypothalamic set point</li></ul>"}, "subContentId": "e5f6a7b8-5555-4eee-b555-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

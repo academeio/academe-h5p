@@ -1,0 +1,62 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Cavity of Nose — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Recurrent Nosebleed</strong></p>",
+      "startScreenSubtitle": "<p>A 16-year-old boy is brought to the ENT emergency with profuse bleeding from the right nostril for the past 45 minutes. His mother reports he has had recurrent nosebleeds over the past year, always from the right side. Current episode started spontaneously while studying. He is anxious but alert. Vitals: HR 104/min, BP 105/65 mmHg, RR 22/min, SpO2 99%. You are the ENT registrar on call.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified Little's area as the bleeding source, understood the nasal septum anatomy, applied appropriate first-aid and cautery, and investigated for underlying causes. Your knowledge of the nasal cavity anatomy, paranasal sinuses, and vascular supply was thorough.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified the bleeding site but missed some anatomical details. Review Little's area (Kiesselbach's plexus), the components of the nasal septum, the ostiomeatal complex, and sinus drainage patterns.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the anatomy of the nasal cavity: nasal septum components, Little's area, paranasal sinus drainage, the sphenopalatine artery, and nerve supply of the nasal cavity.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Initial Assessment and First Aid</h2><p>You perform initial assessment while applying first aid:</p><ul><li>Patient seated upright, leaning forward</li><li>Pinching the soft part of the nose with continuous pressure</li><li>Suction clears clots — active oozing point identified on the <strong>anterior nasal septum</strong></li><li>Estimated blood loss ~200 mL (blood-soaked towels)</li></ul><p><strong>Anterior rhinoscopy (after topical decongestant):</strong> Active oozing from the anteroinferior part of the right nasal septum — <strong>Little's area (Kiesselbach's plexus)</strong>. Mild septal deviation to the right at the cartilage-vomer junction. No posterior bleeding source visible.</p><p><strong>Anatomical context:</strong> The nasal septum is formed by the septal cartilage anteriorly, the perpendicular plate of the <strong>ethmoid</strong> bone superiorly, and the <strong>vomer</strong> inferiorly. Little's area is the site of 90% of all epistaxis cases — it is a rich anastomotic area (Kiesselbach's plexus) on the anteroinferior septum where branches of the anterior ethmoidal, sphenopalatine, superior labial, and greater palatine arteries converge.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The bleeding is from Little's area on the anterior nasal septum. What is the most appropriate next step to control this anterior epistaxis?</p>", "alternatives": [
+          {"text": "Chemical cautery with silver nitrate to the visible bleeding point after applying topical anaesthesia and decongestant", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>For anterior epistaxis from a visible bleeding point in Little's area, chemical cautery with silver nitrate is the first-line treatment after achieving topical anaesthesia and vasoconstriction. The silver nitrate stick is applied directly to the bleeding vessel for 5-10 seconds. Only one side of the septum should be cauterised at a time to avoid septal perforation risk.</p>"}},
+          {"text": "Immediate posterior nasal packing with a Foley catheter", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Posterior nasal packing is reserved for posterior epistaxis (from the sphenopalatine artery territory) that does not respond to anterior measures. This is an anterior bleed from Little's area — chemical cautery is the appropriate first-line treatment.</p>"}},
+          {"text": "Emergency sphenopalatine artery ligation under general anaesthesia", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Sphenopalatine artery ligation is reserved for severe posterior epistaxis unresponsive to packing. This is an anterior bleed from Little's area that can be managed with simple chemical cautery. Escalation to surgical ligation is unnecessary.</p>"}},
+          {"text": "Anterior nasal packing with ribbon gauze soaked in bismuth iodoform", "nextContentId": -2, "feedback": {"title": "<p>Not the best first choice</p>", "subtitle": "<p>Anterior nasal packing can control the bleeding but is more uncomfortable and carries risks of pressure necrosis. When a discrete bleeding point is visible in Little's area, chemical cautery is preferred as it is more targeted and definitive. Packing is used when the bleeding point cannot be identified or cautery fails.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Post-Cautery Assessment</h2><p>Chemical cautery is successful. Bleeding stops completely. You now perform a thorough nasal examination.</p><p><strong>Examination findings:</strong></p><ul><li>Right deviated nasal septum at the <strong>vomer-cartilage junction</strong> (most common site of deviation) — causing drying and crusting over Little's area, predisposing to recurrent epistaxis</li><li>No nasal polyps or masses</li><li>Inferior turbinates mildly hypertrophied</li><li>Middle meatus clear — <strong>ostiomeatal complex</strong> appears patent (this is where maxillary, frontal, and anterior ethmoidal sinuses drain)</li></ul><p><strong>Anatomical correlation — Sinus drainage:</strong></p><ul><li>The <strong>nasolacrimal duct</strong> drains into the <strong>inferior meatus</strong></li><li>Maxillary, frontal, and anterior ethmoidal sinuses drain into the <strong>middle meatus</strong> via the <strong>ostiomeatal complex</strong></li><li>Posterior ethmoidal sinuses drain into the <strong>superior meatus</strong></li><li>The sphenoidal sinus drains into the <strong>sphenoethmoidal recess</strong></li></ul><p>The largest artery supplying the nasal cavity is the <strong>sphenopalatine artery</strong> (branch of maxillary artery) — the source of severe posterior epistaxis.</p>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The patient has a deviated nasal septum causing recurrent epistaxis from Little's area. What is the long-term management plan?</p>", "alternatives": [
+          {"text": "Nasal moisturising with saline, antiseptic cream to Little's area, and consider septoplasty if epistaxis recurs despite conservative measures", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Conservative measures (nasal saline irrigation, antiseptic cream like Naseptin to Little's area, humidification, avoid nose-picking) are first-line for recurrent anterior epistaxis. If epistaxis recurs frequently despite these measures, septoplasty to correct the deviated septum may be considered to reduce mucosal drying and trauma over the deviation.</p>"}},
+          {"text": "Immediate FESS (Functional Endoscopic Sinus Surgery) to address the underlying sinus pathology", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>FESS is the surgical treatment for chronic sinusitis unresponsive to medical management, targeting the ostiomeatal complex. This patient has no sinus disease — his problem is recurrent epistaxis from a deviated septum drying out Little's area. FESS is not indicated here.</p>"}},
+          {"text": "Bilateral sphenopalatine artery ligation to prevent any future epistaxis", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Sphenopalatine artery ligation is a last-resort procedure for intractable posterior epistaxis. This patient has anterior epistaxis from Little's area related to a deviated septum. Conservative measures and possibly septoplasty are appropriate, not arterial ligation.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The patient is started on nasal saline spray and antiseptic cream (Naseptin) to Little's area twice daily. At 3-month follow-up, he has had no further nosebleeds. The septum is monitored, and septoplasty is reserved for future consideration if epistaxis recurs.</p><p><strong>Key anatomical points:</strong></p><ul><li><strong>Nasal septum:</strong> septal cartilage (anterior), perpendicular plate of <strong>ethmoid</strong> (superior), <strong>vomer</strong> (inferior)</li><li><strong>Little's area</strong> (Kiesselbach's plexus) — site of <strong>90%</strong> of all epistaxis</li><li><strong>Ostiomeatal complex</strong> — drainage pathway for maxillary, frontal, and anterior ethmoidal sinuses into the middle meatus</li><li>Nasolacrimal duct drains into the <strong>inferior meatus</strong>; posterior ethmoidal sinuses into the <strong>superior meatus</strong></li><li>The <strong>sphenopalatine artery</strong> is the largest nasal artery (branch of maxillary artery)</li><li>Sphenoidal sinus drains into the <strong>sphenoethmoidal recess</strong></li><li>Nasal nerve supply: CN <strong>V1</strong> (anterior/superior) and CN V2 (posterior/inferior)</li><li>Deviated septum most commonly at the <strong>vomer</strong>-cartilage junction</li><li><strong>FESS</strong> is the surgical treatment for chronic <strong>sinusitis</strong></li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

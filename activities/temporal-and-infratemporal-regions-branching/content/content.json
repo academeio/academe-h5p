@@ -1,0 +1,163 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Temporal and Infratemporal regions — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>Infratemporal Fossa Case</h2>",
+      "startScreenSubtitle": "<p>A 22-year-old man presents with a locked jaw after yawning widely. Apply your knowledge of the muscles of mastication, TMJ anatomy, and infratemporal fossa contents to guide management.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You correctly applied knowledge of the muscles of mastication, TMJ mechanics, and infratemporal fossa anatomy to manage this clinical scenario.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "<h2>Partial Understanding</h2>",
+        "endScreenSubtitle": "<p>You showed some knowledge but missed key concepts. Review the muscles of mastication, TMJ anatomy, and the pterygoid venous plexus.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "<h2>Needs Improvement</h2>",
+        "endScreenSubtitle": "<p>Review the fundamentals: muscles of mastication (nerve supply, actions), TMJ anatomy, maxillary artery, and pterygoid venous plexus connections.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Case Presentation</h3><p>A 22-year-old man presents to the emergency department unable to close his mouth after yawning widely. His jaw is locked in an open position with the chin deviated downward. He is in pain and drooling.</p><p><strong>Examination findings:</strong></p><ul><li>Mouth fixed in wide-open position</li><li>Bilateral preauricular depressions (empty glenoid fossae)</li><li>Palpable condyles anterior to the articular eminences bilaterally</li></ul><p><strong>Key anatomy:</strong> All four muscles of mastication — masseter, temporalis, medial pterygoid, and lateral pterygoid — are supplied by the <strong>mandibular division (V3) of the trigeminal nerve</strong>.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Case Presentation"}
+        },
+        "contentId": 0,
+        "feedback": {},
+        "nextContentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>In TMJ dislocation, the condyle slips anterior to the articular eminence. Which muscle is responsible for keeping the jaw locked in the dislocated position?</p>",
+              "alternatives": [
+                {
+                  "text": "Lateral pterygoid — its spasm holds the condyle anterior to the articular eminence, preventing reduction",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>The lateral pterygoid is the only muscle of mastication that opens (depresses) the mandible and protrudes it forward. When the condyle dislocates anteriorly past the articular eminence, the lateral pterygoid goes into spasm, pulling the condyle further forward and preventing it from sliding back over the eminence. Reduction requires downward and backward pressure on the mandible.</p>"
+                  }
+                },
+                {
+                  "text": "Masseter — its powerful contraction locks the jaw in the open position",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>The masseter is a powerful elevator (closer) of the mandible — it would pull the jaw closed, not keep it locked open. The lateral pterygoid is the muscle responsible for mandibular depression and protrusion, and its spasm in dislocation prevents the condyle from returning posterior to the articular eminence.</p>"
+                  }
+                },
+                {
+                  "text": "Temporalis — its fan-shaped fibres pull the condyle anteriorly",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>The temporalis is primarily an elevator of the mandible, with its posterior fibres retracting the mandible. It does not pull the condyle forward. The lateral pterygoid, with its superior and inferior heads, is the only muscle of mastication that depresses and protrudes the mandible.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "TMJ Dislocation Mechanism"}
+        },
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Infratemporal Fossa Anatomy</h3><p>After successful reduction of the TMJ dislocation, the patient mentions he recently had a dental abscess in his upper molar. You are concerned about potential spread of infection.</p><p><strong>The infratemporal fossa contains:</strong></p><ul><li><strong>Maxillary artery:</strong> Terminal branch of the external carotid artery — dominant vessel of the infratemporal fossa</li><li><strong>Pterygoid venous plexus:</strong> Communicates with the cavernous sinus intracranially</li><li><strong>Mandibular nerve (V3):</strong> Motor to muscles of mastication; sensory to lower face</li><li><strong>Muscles:</strong> Lateral and medial pterygoid muscles</li></ul><p>The communication between the pterygoid venous plexus and the cavernous sinus is clinically critical because dental infections can spread intracranially via this route.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Infratemporal Fossa Contents"}
+        },
+        "contentId": 2,
+        "feedback": {},
+        "nextContentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>A dental infection in the infratemporal fossa can spread intracranially. Via which venous communication can this occur?</p>",
+              "alternatives": [
+                {
+                  "text": "The pterygoid venous plexus communicates with the cavernous sinus — infection can spread to cause cavernous sinus thrombosis",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>The pterygoid venous plexus in the infratemporal fossa communicates with the cavernous sinus via emissary veins passing through the foramen ovale and foramen of Vesalius. These veins are valveless, allowing bidirectional flow and spread of infection. Cavernous sinus thrombosis is a life-threatening complication with cranial nerve palsies (III, IV, V1, V2, VI).</p>"
+                  }
+                },
+                {
+                  "text": "The maxillary artery directly connects to the circle of Willis, allowing arterial spread",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>The maxillary artery is a terminal branch of the external carotid artery and does not connect to the circle of Willis (which is supplied by the internal carotid and vertebral arteries). Infection spread from the infratemporal fossa to the cranial cavity occurs via the venous route through the pterygoid plexus to the cavernous sinus.</p>"
+                  }
+                },
+                {
+                  "text": "The infection cannot spread intracranially from the infratemporal fossa — the skull base forms a complete barrier",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>The skull base has multiple foramina (foramen ovale, foramen spinosum, foramen of Vesalius) through which vessels and nerves pass, connecting the infratemporal fossa to the middle cranial fossa. The pterygoid venous plexus communicates with the cavernous sinus through these openings, providing a pathway for infection spread.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Intracranial Spread"}
+        },
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Key Learning Points</h3><ul><li><strong>Muscles of mastication:</strong> All four (masseter, temporalis, medial pterygoid, lateral pterygoid) are supplied by the mandibular nerve (CN V3)</li><li><strong>Lateral pterygoid:</strong> Only muscle that depresses (opens) the mandible; has superior and inferior heads</li><li><strong>TMJ dislocation:</strong> Condyle slips anterior to the articular eminence; locked by lateral pterygoid spasm</li><li><strong>Maxillary artery:</strong> Terminal branch of the external carotid — dominant vessel of the infratemporal fossa</li><li><strong>Pterygoid venous plexus:</strong> Communicates with the cavernous sinus — route for intracranial spread of dental infections</li><li><strong>Clinical significance:</strong> Valveless emissary veins allow bidirectional flow between the face and intracranial venous sinuses</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Key Learning Points"}
+        },
+        "contentId": 4,
+        "feedback": {},
+        "nextContentId": -1
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

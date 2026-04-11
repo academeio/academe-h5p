@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "AN81.1-3 | Prenatal Diagnosis — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Prenatal Screening & Diagnostic Techniques</h2>",
+      "startScreenSubtitle": "<p>A 38-year-old primigravida is concerned about the risk of Down syndrome. Work through this case exploring prenatal screening methods, diagnostic procedures, and the PCPNDT Act.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly identified prenatal screening and diagnostic approaches, including NIPT sensitivity and the PCPNDT Act.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review NIPT vs amniocentesis timing, serum marker patterns, and the PCPNDT Act.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit prenatal screening markers, NIPT mechanism, amniocentesis vs CVS timing, and Indian laws on sex determination.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A 38-year-old primigravida at 12 weeks of gestation is anxious about the risk of chromosomal abnormalities, particularly Down syndrome (trisomy 21). She asks about available screening and diagnostic options.</p><p>You explain that <strong>NIPT</strong> (non-invasive prenatal testing) detects cell-free fetal <strong>DNA</strong> in maternal blood and has a sensitivity of <strong>99%</strong> for trisomy 21. It can be performed as early as 10 weeks.</p><p>You also counsel her about the <strong>PCPNDT Act</strong> of 1994, which prohibits sex determination for the purpose of sex-selective abortion in India.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The patient's NIPT is positive for trisomy 21. She wants a confirmatory diagnostic test. Which invasive procedure can be performed earliest, and at what gestational age?</p>", "alternatives": [ { "text": "Chorionic villus sampling (CVS) at 10-12 weeks — earlier than amniocentesis", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Amniocentesis at 10-12 weeks for earliest diagnosis", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "Amniocentesis is typically performed at 15-18 weeks, not 10-12 weeks. CVS can be done earlier at 10-12 weeks of gestation for first-trimester diagnosis.", "image": {}, "endScreenScore": 0 } }, { "text": "Cordocentesis at 10-12 weeks via fetal blood sampling", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Cordocentesis (fetal blood sampling) is performed after 18 weeks and is reserved for specific indications. CVS at 10-12 weeks is the earliest confirmatory diagnostic test.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! CVS can be performed at 10-12 weeks, earlier than amniocentesis (15-18 weeks).</p><p>You review the patient's first-trimester screening results. In Down syndrome screening, serum AFP is <strong>decreased</strong> and hCG is <strong>increased</strong>. Combined with nuchal translucency measurement on ultrasound, this gives a risk estimate.</p><p>The patient asks whether CVS or amniocentesis would be better at this stage:</p><ul><li><strong>CVS:</strong> 10-12 weeks — samples chorionic villi (placental tissue)</li><li><strong>Amniocentesis:</strong> 15-18 weeks — samples amniotic fluid containing fetal cells</li></ul>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>In the serum screening for Down syndrome, what is the pattern of AFP and hCG levels?</p>", "alternatives": [ { "text": "AFP is decreased and hCG is increased in Down syndrome", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Both AFP and hCG are increased in Down syndrome", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "In Down syndrome, AFP is decreased (not increased) while hCG is elevated. Remember: AFP down, hCG up in trisomy 21.", "image": {}, "endScreenScore": 0 } }, { "text": "Both AFP and hCG are decreased in Down syndrome", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "In Down syndrome, hCG is elevated, not decreased. The pattern is AFP decreased + hCG increased. This is opposite to neural tube defects where AFP is elevated.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! Key prenatal diagnosis concepts:</p><ul><li><strong>NIPT:</strong> Detects cell-free fetal DNA in maternal blood; 99% sensitivity for trisomy 21</li><li><strong>CVS:</strong> 10-12 weeks (earliest invasive test)</li><li><strong>Amniocentesis:</strong> 15-18 weeks</li><li><strong>Down syndrome markers:</strong> AFP decreased, hCG increased</li><li><strong>PCPNDT Act (1994):</strong> Prohibits sex determination for sex-selective abortion in India</li></ul>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Endocrine Physiology — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Anxious Executive</strong></p>",
+      "startScreenSubtitle": "<p>A 35-year-old female executive presents with a 3-month history of weight loss (8 kg), tremor, heat intolerance, and palpitations. She appears anxious with a fine resting tremor and prominent eyes.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified Graves' disease based on the clinical features, confirmed with thyroid function tests showing elevated T3/T4 with suppressed TSH, and selected anti-thyroid medication as first-line management. The presence of thyroid-stimulating antibodies (TSI) binding to TSH receptors drives the hyperthyroidism in Graves' disease.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some aspects correctly but missed key diagnostic or management steps. Review the hypothalamic-pituitary-thyroid axis and how thyroid-stimulating immunoglobulins cause Graves' disease by mimicking TSH at the receptor level.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the endocrine physiology of the thyroid axis, including the role of the hypothalamo-hypophyseal portal system, T3/T4 synthesis from tyrosine residues requiring iodine, and the negative feedback loop involving TSH.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 35-year-old female executive visits your outpatient clinic with complaints of:</p><ul><li>Unintentional weight loss of 8 kg over 3 months despite increased appetite</li><li>Tremor in both hands affecting her writing</li><li>Heat intolerance — she keeps the office AC at maximum</li><li>Palpitations, especially at night</li><li>Irregular menstrual periods</li></ul><p><strong>On examination:</strong></p><ul><li>HR: 110 bpm (regular), BP: 140/70 mmHg (wide pulse pressure)</li><li>Warm, moist skin with fine tremor of outstretched hands</li><li>Diffuse, non-tender thyroid enlargement (goitre)</li><li>Bilateral exophthalmos with lid retraction</li><li>Brisk reflexes throughout</li></ul><p>You suspect a thyroid disorder. What investigation would you order first?</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Which is the most appropriate initial investigation for this patient?</p>",
+              "alternatives": [
+                {
+                  "text": "Serum TSH and free T3/T4 levels",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>TSH is the most sensitive screening test for thyroid dysfunction. In hyperthyroidism, TSH is suppressed by negative feedback while free T3/T4 are elevated. The hypothalamus controls the anterior pituitary via releasing hormones transported through the hypothalamo-hypophyseal portal system.</p>"
+                  }
+                },
+                {
+                  "text": "Thyroid ultrasound",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Not the best first choice</p>",
+                    "subtitle": "<p>While ultrasound can assess thyroid morphology, it does not confirm the functional status. Thyroid function tests (TSH, free T3/T4) should always be the first investigation in suspected thyroid disease to establish whether the patient is hyper- or hypothyroid.</p>"
+                  }
+                },
+                {
+                  "text": "Serum cortisol level",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>The clinical features (weight loss, tremor, heat intolerance, exophthalmos, goitre) point strongly to hyperthyroidism, not adrenal pathology. Cortisol is secreted by the zona fasciculata of the adrenal cortex and is regulated by the HPA axis — a different endocrine axis entirely.</p>"
+                  }
+                },
+                {
+                  "text": "Fasting blood glucose and insulin levels",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Although weight loss is present, the combination of goitre, exophthalmos, tremor, and heat intolerance strongly suggests hyperthyroidism, not a pancreatic disorder. Insulin is secreted by beta cells and promotes glucose uptake — this patient's presentation does not suggest insulin pathology.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Investigation Results</h2><p>The thyroid function tests return:</p><table><tr><th>Test</th><th>Result</th><th>Normal Range</th></tr><tr><td>TSH</td><td><strong>0.01 mIU/L</strong></td><td>0.4–4.0 mIU/L</td></tr><tr><td>Free T4</td><td><strong>58 pmol/L</strong></td><td>10–25 pmol/L</td></tr><tr><td>Free T3</td><td><strong>18 pmol/L</strong></td><td>3.5–6.5 pmol/L</td></tr></table><p>The results confirm <strong>primary hyperthyroidism</strong> — markedly elevated T3/T4 with suppressed TSH. Thyroid hormones T3 and T4 are synthesised from tyrosine residues on thyroglobulin and require iodine for their production.</p><p>Given her exophthalmos and diffuse goitre, <strong>Graves' disease</strong> is the most likely diagnosis. TSH receptor antibodies (TRAb) are positive.</p><p>How would you manage this patient?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the most appropriate first-line management for this patient with Graves' disease?</p>",
+              "alternatives": [
+                {
+                  "text": "Start carbimazole (anti-thyroid drug) + propranolol for symptom control",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Anti-thyroid drugs (carbimazole/methimazole) are the first-line treatment for Graves' disease. They inhibit thyroid peroxidase, blocking T3/T4 synthesis. A beta-blocker like propranolol provides rapid symptomatic relief of tremor, tachycardia, and anxiety while waiting for the anti-thyroid drug to take effect.</p>"
+                  }
+                },
+                {
+                  "text": "Immediate subtotal thyroidectomy",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Not first-line</p>",
+                    "subtitle": "<p>Surgery is reserved for patients who fail medical therapy, have very large goitres, or have suspected malignancy. The patient must first be rendered euthyroid with anti-thyroid drugs before surgery to prevent thyroid storm. Medical management is always attempted first in uncomplicated Graves' disease.</p>"
+                  }
+                },
+                {
+                  "text": "Radioactive iodine (I-131) ablation immediately",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Not the best initial approach</p>",
+                    "subtitle": "<p>Radioactive iodine is an effective definitive treatment but is usually considered after a trial of anti-thyroid drugs or when drugs are contraindicated. In a young woman of reproductive age, anti-thyroid drugs are preferred initially as RAI is contraindicated in pregnancy and requires contraception for 6 months post-treatment.</p>"
+                  }
+                },
+                {
+                  "text": "High-dose corticosteroids",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Corticosteroids are not the primary treatment for Graves' hyperthyroidism. While they may be used for severe thyroid eye disease (Graves' ophthalmopathy), the hyperthyroidism itself requires anti-thyroid drugs. Cortisol is regulated by the HPA axis — a separate endocrine pathway.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Follow-up</h2><p>You start the patient on:</p><ul><li><strong>Carbimazole 20 mg daily</strong> — blocks thyroid hormone synthesis by inhibiting thyroid peroxidase</li><li><strong>Propranolol 40 mg TDS</strong> — controls tachycardia, tremor, and anxiety</li></ul><p><strong>Key Teaching Points:</strong></p><ul><li>In Graves' disease, thyroid-stimulating immunoglobulins (TSI) bind to TSH receptors, mimicking TSH action and causing unregulated thyroid hormone production</li><li>TSH is suppressed because elevated T3/T4 exert negative feedback on the anterior pituitary and hypothalamus via the hypothalamo-hypophyseal portal system</li><li>The hypothalamus releases TRH, which stimulates TSH release from the anterior pituitary — this axis is suppressed in Graves' disease</li><li>Anti-thyroid drugs work by blocking the organification of iodine and coupling of iodotyrosines</li></ul><p>The patient should be monitored with thyroid function tests every 4–6 weeks initially, with dose adjustment to maintain euthyroidism. Treatment typically continues for 12–18 months before considering drug withdrawal.</p>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

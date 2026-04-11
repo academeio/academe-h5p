@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Knee joint, Anterior compartment of leg & dorsum of foot — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Knee Joint & Anterior Leg Compartment</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in knee joint anatomy, the anterior compartment of the leg, and the dorsum of the foot. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: Football Injury</h2><p>A 25-year-old football player is tackled from the side with a valgus force to the knee. He hears a \"pop\" and the knee swells rapidly. On examination, there is tenderness along the medial joint line, a positive anterior drawer test, and medial instability on valgus stress testing.</p><p><strong>Key concept:</strong> The classic unhappy triad (O'Donoghue's triad) involves damage to the anterior cruciate ligament (ACL), medial collateral ligament (MCL), and medial meniscus.</p>"}, "subContentId": "c9d0e1f2-9999-4ccc-b999-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The clinical findings suggest the \"unhappy triad\" knee injury. Which three structures are classically involved?</p>", "alternatives": [
+          {"text": "Anterior cruciate ligament (ACL), medial collateral ligament (MCL), and medial meniscus", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The unhappy/terrible triad involves ACL + MCL + medial meniscus, typically from a lateral blow causing valgus force on the knee.</p>"}},
+          {"text": "Posterior cruciate ligament, lateral collateral ligament, and lateral meniscus", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>PCL injuries are typically from dashboard injuries (posterior force on flexed knee). The unhappy triad involves ACL, MCL, and medial meniscus from a valgus force.</p>"}},
+          {"text": "Patellar ligament, quadriceps tendon, and medial meniscus", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>These are extensor mechanism injuries. The unhappy triad from a valgus force involves ACL, MCL, and medial meniscus.</p>"}}
+        ]}}, "subContentId": "c9d0e1f2-9999-4ccc-b999-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Post-Surgical Recovery</h2><p>ACL reconstruction is performed. During rehabilitation, the physiotherapist notices the patient has difficulty dorsiflexing his foot on the same side. Examination reveals foot drop. The deep peroneal nerve was injured during the lateral knee injury.</p><p><strong>Concept:</strong> All four muscles of the anterior compartment of the leg are supplied by the deep peroneal nerve. Injury causes foot drop (inability to dorsiflex). The anterior tibial artery becomes the dorsalis pedis artery at the ankle.</p>"}, "subContentId": "c9d0e1f2-9999-4ccc-b999-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The patient developed foot drop. Which nerve supplies the anterior compartment of the leg, and what is the clinical consequence of its injury?</p>", "alternatives": [
+          {"text": "Deep peroneal nerve — its injury causes foot drop (inability to dorsiflex the foot)", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The deep peroneal (deep fibular) nerve supplies all four anterior compartment muscles. Injury causes foot drop with loss of dorsiflexion.</p>"}},
+          {"text": "Superficial peroneal nerve — causing loss of all foot movements", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The superficial peroneal nerve supplies the lateral compartment (eversion). Foot drop specifically results from deep peroneal nerve injury affecting dorsiflexion.</p>"}},
+          {"text": "Tibial nerve — causing inability to plantarflex the foot", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The tibial nerve supplies the posterior compartment (plantarflexion). Foot drop (loss of dorsiflexion) is caused by deep peroneal nerve injury.</p>"}}
+        ]}}, "subContentId": "c9d0e1f2-9999-4ccc-b999-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>The deep peroneal nerve injury is a neuropraxia that recovers over 3 months. The patient returns to sport after full ACL rehabilitation. The dorsalis pedis pulse is palpable, confirming intact anterior tibial artery.</p><p><strong>Learning points:</strong></p><ul><li>Unhappy triad: ACL + MCL + medial meniscus (valgus force)</li><li>Deep peroneal nerve supplies anterior compartment; injury causes foot drop</li><li>Anterior tibial artery becomes dorsalis pedis at the ankle</li><li>Popliteus muscle \"unlocks\" the knee from full extension</li></ul>"}, "subContentId": "c9d0e1f2-9999-4ccc-b999-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

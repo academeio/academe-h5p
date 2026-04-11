@@ -1,0 +1,60 @@
+{
+  "branchingScenario": {
+    "title": "AN74.1-4 | Patterns of Inheritance — Clinical Case",
+    "startScreen": {
+      "startScreenTitle": "<h2>Mendelian Inheritance & Genetic Counselling</h2>",
+      "startScreenSubtitle": "<p>A couple seeks genetic counselling after their first child is diagnosed with cystic fibrosis. Work through this case exploring autosomal dominant, autosomal recessive, and X-linked inheritance patterns.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "Excellent Clinical Reasoning!",
+        "endScreenSubtitle": "You correctly identified inheritance patterns and demonstrated strong understanding of genetic counselling principles.",
+        "endScreenScore": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "Partially Correct",
+        "endScreenSubtitle": "You showed some understanding but missed key concepts. Review recurrence risks for autosomal recessive disorders and X-linked inheritance.",
+        "endScreenScore": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "Needs Review",
+        "endScreenSubtitle": "Revisit autosomal dominant vs recessive vs X-linked inheritance patterns, carrier status, and anticipation.",
+        "endScreenScore": 0
+      }
+    ],
+    "content": [
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Case Presentation</h3><p>A young couple presents for genetic counselling. Their 2-year-old son has been diagnosed with cystic fibrosis (CF), an autosomal recessive disorder. Both parents are unaffected.</p><p>Autosomal recessive disorders require <strong>two</strong> copies of the mutant allele for phenotypic expression. Both parents must be <strong>heterozygous</strong> carriers. With each pregnancy, there is a <strong>25%</strong> chance of having an affected child.</p><p>The family history also reveals the father's mother has Huntington's disease — an autosomal dominant disorder with <strong>vertical transmission</strong> through every generation, where an affected heterozygous parent has a <strong>50%</strong> chance of passing the mutant allele to each offspring.</p>" }, "metadata": { "title": "Case Presentation", "contentType": "Text" } },
+        "contentId": 0,
+        "nextContentId": 1,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The couple asks about the risk for their next pregnancy. Both parents are carriers for CF (autosomal recessive). What is the chance their next child will be affected?</p>", "alternatives": [ { "text": "25% — both parents are heterozygous, so 1 in 4 chance of homozygous affected offspring", "nextContentId": 2, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "50% — because one allele from each parent is mutant", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "50% is the carrier (heterozygous) probability. For autosomal recessive, both alleles must be mutant: Aa x Aa gives 25% AA, 50% Aa, 25% aa. Only 25% are affected.", "image": {}, "endScreenScore": 0 } }, { "text": "100% — because they already have one affected child", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Each pregnancy is an independent event. With two carrier parents (Aa x Aa), each child has a 25% chance of being affected (aa), regardless of previous children.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Investigation Question", "contentType": "Branching Question" } },
+        "contentId": 1
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Further Investigation</h3><p>Correct! Each pregnancy carries a 25% risk of an affected child.</p><p>The father is concerned about Huntington's disease from his mother. You explain that Huntington's shows <strong>anticipation</strong> — the phenomenon where a genetic disease becomes more severe in successive generations, due to trinucleotide <strong>repeat</strong> expansion. Myotonic dystrophy is another classic example.</p><p>The family also mentions a maternal uncle with haemophilia A. X-linked recessive disorders predominantly affect <strong>males</strong> because they have only <strong>one</strong> X chromosome and cannot be carriers in the traditional sense — a single mutant allele on the X causes disease.</p>" }, "metadata": { "title": "Investigation Results", "contentType": "Text" } },
+        "contentId": 2,
+        "nextContentId": 3,
+        "feedback": {}
+      },
+      {
+        "type": { "library": "H5P.BranchingQuestion 1.0", "params": { "branchingQuestion": { "question": "<p>The father wants to know about Huntington's disease. His mother is affected. What is the phenomenon where the disease becomes more severe in successive generations?</p>", "alternatives": [ { "text": "Anticipation — caused by trinucleotide repeat expansion across generations", "nextContentId": 4, "feedback": { "title": "", "subtitle": "", "image": {}, "endScreenScore": 0 } }, { "text": "Penetrance — the gene becomes more penetrant with each generation", "nextContentId": -2, "feedback": { "title": "Not quite", "subtitle": "Penetrance describes whether a genotype produces a phenotype. The progressive worsening across generations is called anticipation, caused by expanding trinucleotide repeats.", "image": {}, "endScreenScore": 0 } }, { "text": "Epistasis — other genes amplify the disease effect over generations", "nextContentId": -3, "feedback": { "title": "Incorrect", "subtitle": "Epistasis is when one gene masks or modifies another gene's effect. The correct term is anticipation — trinucleotide repeat expansions grow larger each generation, causing earlier onset and greater severity.", "image": {}, "endScreenScore": 0 } } ] } }, "metadata": { "title": "Management Question", "contentType": "Branching Question" } },
+        "contentId": 3
+      },
+      {
+        "type": { "library": "H5P.AdvancedText 1.1", "params": { "text": "<h3>Clinical Synthesis</h3><p>Excellent! Key genetics principles:</p><ul><li><strong>Autosomal dominant:</strong> 50% transmission risk, vertical pattern, heterozygous expression</li><li><strong>Autosomal recessive:</strong> 25% risk when both parents are carriers (heterozygous), requires two mutant alleles</li><li><strong>X-linked recessive:</strong> Predominantly affects males (single X chromosome)</li><li><strong>Anticipation:</strong> Disease worsens across generations due to trinucleotide repeat expansion (Huntington's, myotonic dystrophy)</li></ul>" }, "metadata": { "title": "Clinical Synthesis", "contentType": "Text" } },
+        "contentId": 4,
+        "nextContentId": -1,
+        "feedback": {}
+      }
+    ],
+    "scoringOptionGroup": { "scoringOption": "static-end-score" },
+    "behaviour": { "enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false },
+    "l10n": { "startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen" }
+  }
+}

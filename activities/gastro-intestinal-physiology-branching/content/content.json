@@ -1,0 +1,147 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Gastro-intestinal Physiology — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Burning Epigastric Pain</strong></p>",
+      "startScreenSubtitle": "<p>A 40-year-old male auto-rickshaw driver presents with burning epigastric pain for 6 months, worsening on an empty stomach and relieved by food. He has been self-medicating with antacids. You need to correlate his symptoms with GI physiology.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified peptic ulcer disease, understood the roles of parietal cells (HCl) and chief cells (pepsinogen), the three phases of gastric secretion, and the physiology of bile, MMC, and nutrient absorption.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>Review gastric cell types (parietal = HCl, chief = pepsinogen), the three phases of gastric secretion (cephalic, gastric, intestinal), and absorption sites (jejunum for most nutrients, ileum for bile salts and B12).</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review GI physiology: gastric secretion cells and phases, bile production and storage, MMC and motilin, and regional absorption in the small intestine.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 40-year-old male auto-rickshaw driver presents with:</p><ul><li>Burning epigastric pain for 6 months</li><li>Pain occurs 2–3 hours after meals (\"hunger pain\")</li><li>Relieved by food and antacids</li><li>Occasional night-time pain waking him from sleep</li><li>No vomiting, no weight loss, no haematemesis</li><li>Takes NSAIDs frequently for back pain</li><li>Smokes 10 beedis/day</li></ul><p><strong>On examination:</strong></p><ul><li>Mild epigastric tenderness, no guarding</li><li>No palpable mass</li><li>Bowel sounds normal</li></ul><p>Gastric acid (HCl) is secreted by <strong>parietal (oxyntic) cells</strong>, while pepsinogen is secreted by <strong>chief (peptic) cells</strong> in the gastric glands. The three phases of gastric secretion are: cephalic (vagal), gastric, and intestinal.</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Which investigation is most appropriate to confirm the diagnosis of peptic ulcer disease?</p>",
+              "alternatives": [
+                {
+                  "text": "Upper GI endoscopy (oesophago-gastro-duodenoscopy)",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Upper GI endoscopy is the gold standard for diagnosing peptic ulcer disease. It allows direct visualisation of the ulcer, biopsy for H. pylori testing and malignancy exclusion, and assessment of mucosal damage caused by the imbalance between acid secretion (by parietal cells) and mucosal defence mechanisms.</p>"
+                  }
+                },
+                {
+                  "text": "Barium meal X-ray",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Less preferred</p>",
+                    "subtitle": "<p>Barium meal can show ulcer craters but cannot take biopsies for H. pylori or rule out malignancy. Endoscopy is preferred as it is both diagnostic and therapeutic. However, barium meal may be used when endoscopy is not available.</p>"
+                  }
+                },
+                {
+                  "text": "Abdominal CT scan",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Not the first-line investigation</p>",
+                    "subtitle": "<p>CT scan is useful for complications of PUD (perforation, abscess) but not for diagnosing an uncomplicated peptic ulcer. Endoscopy directly visualises the mucosa and allows biopsy, making it the investigation of choice.</p>"
+                  }
+                },
+                {
+                  "text": "Serum amylase",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Serum amylase is elevated in acute pancreatitis, not peptic ulcer disease. The epigastric pain of pancreatitis typically radiates to the back, is constant, and is worse after fatty meals — different from the hunger pain pattern seen here.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Endoscopy Findings</h2><p>Upper GI endoscopy reveals a <strong>1.5 cm duodenal ulcer</strong> in the first part of the duodenum (D1), anteriorly. The ulcer base is clean with no active bleeding. Rapid urease test (CLO test) is <strong>positive for H. pylori</strong>.</p><p><strong>Physiology correlation:</strong></p><ul><li>Duodenal ulcers result from excess acid production overwhelming mucosal defences</li><li>H. pylori infection increases gastrin secretion, which stimulates parietal cells to produce more HCl</li><li>The cephalic phase (vagal) accounts for ~30% of gastric acid secretion — stimulated by sight, smell, and taste of food even before food reaches the stomach</li><li>Bile produced by the liver and stored in the gallbladder emulsifies fats — bile reflux can damage gastric/duodenal mucosa</li></ul><p>How should you manage this patient?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the most appropriate management for this H. pylori-positive duodenal ulcer?</p>",
+              "alternatives": [
+                {
+                  "text": "Triple therapy (PPI + amoxicillin + clarithromycin) for 14 days + stop NSAIDs",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>H. pylori eradication with triple therapy is the standard treatment. The PPI (proton pump inhibitor) blocks the H+/K+ ATPase (proton pump) on parietal cells, dramatically reducing acid secretion. Stopping NSAIDs removes the second causative factor. After eradication, ulcer healing rates exceed 95%.</p>"
+                  }
+                },
+                {
+                  "text": "Antacids alone and lifestyle modification",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Insufficient</p>",
+                    "subtitle": "<p>Antacids provide temporary symptom relief by neutralising gastric acid but do NOT eradicate H. pylori or heal the ulcer definitively. Without H. pylori eradication, the ulcer will recur in >80% of cases. Triple therapy is essential.</p>"
+                  }
+                },
+                {
+                  "text": "Emergency surgery — truncal vagotomy",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Not indicated</p>",
+                    "subtitle": "<p>Vagotomy (cutting the vagus nerve to reduce the cephalic phase of acid secretion) was historically used before PPIs were available. Modern management with PPIs + H. pylori eradication is highly effective, and surgery is reserved for complications (perforation, uncontrollable bleeding, obstruction).</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Teaching Points</h2><p>Treatment prescribed:</p><ul><li><strong>Pantoprazole 40 mg BD</strong> (PPI — blocks proton pump on parietal cells)</li><li><strong>Amoxicillin 1g BD + Clarithromycin 500 mg BD</strong> for 14 days (H. pylori eradication)</li><li><strong>Stop NSAIDs</strong> and substitute with paracetamol</li><li><strong>Smoking cessation</strong></li></ul><p><strong>Key GI Physiology Concepts:</strong></p><ul><li><strong>Parietal cells</strong> → HCl; <strong>Chief cells</strong> → pepsinogen</li><li><strong>Three phases</strong>: cephalic (vagal, before food), gastric (food in stomach), intestinal (food in duodenum)</li><li><strong>Bile</strong>: produced by liver, stored in gallbladder, emulsifies fats</li><li><strong>MMC</strong> (migrating motor complex): interdigestive motility, regulated by motilin</li><li><strong>Absorption</strong>: most nutrients in jejunum; bile salts and vitamin B12 in ileum</li></ul>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

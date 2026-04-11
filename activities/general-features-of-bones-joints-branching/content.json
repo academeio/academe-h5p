@@ -1,0 +1,139 @@
+{
+  "branchingScenario": {
+    "title": "PBL: General features of bones & Joints — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Child Who Won't Use Her Arm</strong></p>",
+      "startScreenSubtitle": "<p>A 7-year-old girl is brought to the orthopaedic OPD with pain in her left arm after falling from a tree 3 days ago. Her mother notices the child is not using the left arm and there is swelling near the elbow. X-ray shows a fracture involving the growth plate region.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified a Salter-Harris type II fracture involving the metaphysis and growth plate, understood the relationship between diaphysis, metaphysis, and epiphysis, and applied Hilton's law to explain the referred pain. Knowledge of the clavicle as the only membranous long bone was also demonstrated.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>Review the parts of a long bone (diaphysis, metaphysis, epiphysis), the significance of the growth plate in children, Salter-Harris classification, the nutrient artery direction mnemonic, and Hilton's law.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review long bone anatomy: diaphysis (shaft), epiphysis (ends), metaphysis (transitional zone with growth plate), nutrient arteries, the clavicle's unique features, and Hilton's law.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 7-year-old girl is brought to the orthopaedic OPD with:</p><ul><li>Pain in the left arm after falling from a tree 3 days ago</li><li>Swelling around the left elbow</li><li>The child refuses to use the left arm (\"pseudoparalysis\")</li><li>Pain on attempted movement of the elbow</li></ul><p><strong>On examination:</strong></p><ul><li>Swelling and tenderness around the distal humerus</li><li>Ecchymosis (bruising) around the elbow</li><li>Painful restriction of elbow flexion and extension</li><li>Neurovascular status of the hand is intact</li></ul><p>The tubular middle portion of a long bone is the <strong>diaphysis (shaft)</strong>, the expanded ends are the <strong>epiphysis</strong>, and the transitional zone between them containing the growth plate in children is the <strong>metaphysis</strong>.</p><p>X-ray of the left elbow is reviewed.</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>The X-ray shows a fracture line through the growth plate (physis) with a triangular metaphyseal fragment. What type of Salter-Harris fracture is this?</p>",
+              "alternatives": [
+                {
+                  "text": "Salter-Harris Type II — fracture through the physis with a metaphyseal fragment",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Salter-Harris Type II is the most common growth plate fracture (75%). The fracture line passes through the physis (growth plate) and extends into the metaphysis, producing the characteristic triangular metaphyseal fragment (Thurston-Holland fragment). The metaphysis is the transitional zone between the diaphysis and epiphysis containing the growth plate in children.</p>"
+                  }
+                },
+                {
+                  "text": "Salter-Harris Type I — fracture through the physis only",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Close but not correct</p>",
+                    "subtitle": "<p>Type I involves a fracture through the physis ONLY, with no metaphyseal fragment visible on X-ray. The X-ray may even appear normal (the fracture is only through cartilage). This patient has a visible triangular metaphyseal fragment, indicating Type II.</p>"
+                  }
+                },
+                {
+                  "text": "Simple diaphyseal fracture",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>A diaphyseal fracture occurs through the shaft of the bone (diaphysis), away from the growth plate. This patient's fracture involves the growth plate region (metaphysis/physis), which is a different location with different implications for growth disturbance in children.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Diagnosis and Anatomical Correlation</h2><p>The diagnosis is confirmed as a <strong>Salter-Harris Type II fracture</strong> of the distal humerus.</p><p><strong>Key bone anatomy concepts:</strong></p><ul><li><strong>Diaphysis</strong>: the shaft — contains the medullary cavity with yellow marrow in adults</li><li><strong>Epiphysis</strong>: the expanded ends — covered with articular cartilage at joint surfaces</li><li><strong>Metaphysis</strong>: transitional zone containing the growth plate (physis) in children — the most vascular region and common site for haematogenous osteomyelitis</li><li>The nutrient artery direction follows the mnemonic: \"To the elbow I go, from the knee I flee\" — nutrient arteries of the upper limb point towards the elbow, while those of the lower limb point away from the knee</li></ul><p>The child also has pain when the elbow is touched or moved. <strong>Hilton's law</strong> states that the nerve supplying a joint also supplies the muscles moving that joint and the skin over those muscles — explaining why elbow joint pain is felt over a wider area.</p><p>How should this fracture be managed?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the most appropriate management for this minimally displaced Salter-Harris Type II fracture of the distal humerus?</p>",
+              "alternatives": [
+                {
+                  "text": "Closed reduction under anaesthesia + above-elbow cast immobilisation + follow-up",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Most Salter-Harris Type II fractures can be managed with gentle closed reduction (to restore alignment without further damaging the growth plate) and cast immobilisation. Follow-up with serial X-rays is essential to monitor for growth disturbance. The growth plate is the most vulnerable structure — rough handling can damage the germinal layer and cause premature fusion.</p>"
+                  }
+                },
+                {
+                  "text": "Open reduction and internal fixation with plate and screws across the growth plate",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Avoid crossing the growth plate with hardware</p>",
+                    "subtitle": "<p>In children, hardware (screws, plates) should NOT cross the growth plate if possible, as they can damage the physis and cause growth arrest or angular deformity. If surgical fixation is needed (for significantly displaced fractures), smooth K-wires that can be removed are preferred, placed to avoid the growth plate.</p>"
+                  }
+                },
+                {
+                  "text": "Sling immobilisation only — no reduction needed",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Insufficient</p>",
+                    "subtitle": "<p>While some undisplaced Salter-Harris Type I fractures can be managed with simple immobilisation, a Type II fracture with a visible metaphyseal fragment typically needs closed reduction to ensure proper alignment. Without reduction, malunion can cause growth disturbance and angular deformity.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Teaching Points</h2><p>The child undergoes closed reduction under general anaesthesia, confirmed with fluoroscopy, and is placed in an above-elbow backslab cast. Follow-up at 1 week for check X-ray and at 6 months for growth assessment.</p><p><strong>Key Bone & Joint Anatomy:</strong></p><ul><li><strong>Diaphysis</strong> (shaft), <strong>Epiphysis</strong> (ends), <strong>Metaphysis</strong> (transitional zone with growth plate)</li><li><strong>Nutrient artery</strong>: \"To the elbow I go, from the knee I flee\"</li><li><strong>Clavicle</strong>: the only long bone that ossifies in membrane and has no medullary cavity</li><li><strong>Hilton's law</strong>: the nerve supplying a joint also supplies its muscles and overlying skin</li><li>Growth plate injuries (Salter-Harris) are unique to children and can cause growth disturbance</li></ul>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

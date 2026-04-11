@@ -1,0 +1,147 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Gametogenesis and fertilization — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Couple Struggling to Conceive</strong></p>",
+      "startScreenSubtitle": "<p>A 30-year-old couple presents to the infertility clinic after 2 years of unprotected intercourse without conception. The wife has irregular menstrual cycles (35–50 days), and the husband's semen analysis is pending. You need to evaluate both partners systematically.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified anovulation as the cause, understood the LH surge triggering ovulation on day 14, recognised that spermatogenesis takes 74 days in seminiferous tubules, and knew that fertilisation occurs in the ampulla of the fallopian tube with the acrosome reaction enabling zona pellucida penetration.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>Review the menstrual cycle (functionalis vs basalis layers, LH surge on day 14), spermatogenesis (74 days in seminiferous tubules), and fertilisation (ampulla, acrosome reaction).</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review gametogenesis and fertilisation fundamentals: endometrial layers, menstrual cycle hormones, spermatogenesis duration and location, and the site and mechanism of fertilisation.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 30-year-old couple presents to the infertility clinic:</p><p><strong>Wife (Mrs. S):</strong></p><ul><li>Irregular menstrual cycles: 35–50 days (normal: 28±7 days)</li><li>Occasional missed periods (amenorrhoea for 2–3 months)</li><li>Mild hirsutism (excess facial hair) and acne</li><li>BMI: 28 (overweight)</li></ul><p><strong>Husband (Mr. S):</strong></p><ul><li>No significant medical history</li><li>Semen analysis pending</li></ul><p>The endometrium has two layers: the <strong>functionalis</strong> layer that is shed during menstruation, and the <strong>basalis</strong> layer that serves as the regenerative source. In a normal cycle, the LH surge triggers ovulation on approximately day 14.</p><p>What is the most likely cause of infertility in this couple?</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Based on the wife's irregular cycles, hirsutism, and BMI, what is the most likely cause of infertility?</p>",
+              "alternatives": [
+                {
+                  "text": "Anovulation due to polycystic ovarian syndrome (PCOS)",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>PCOS is the commonest cause of anovulatory infertility. The irregular cycles suggest absent or infrequent ovulation — without the LH surge, the mature follicle does not rupture to release the ovum, and the ruptured follicle cannot transform into the corpus luteum. The hirsutism and obesity are classic features of PCOS (hyperandrogenism + insulin resistance).</p>"
+                  }
+                },
+                {
+                  "text": "Tubal blockage from previous infection",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Possible but less likely here</p>",
+                    "subtitle": "<p>Tubal blockage would prevent the sperm from reaching the ovum in the ampulla of the fallopian tube (where fertilisation normally occurs). However, tubal disease does not cause irregular cycles or hirsutism. The irregular cycle pattern here points to an ovulatory disorder.</p>"
+                  }
+                },
+                {
+                  "text": "Male factor — azoospermia",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Must be evaluated but not the primary suspicion</p>",
+                    "subtitle": "<p>Male factor should always be evaluated (semen analysis is pending). Spermatogenesis occurs in the seminiferous tubules and takes approximately 74 days. However, the wife's irregular cycles and hirsutism strongly suggest PCOS as the primary contributing factor.</p>"
+                  }
+                },
+                {
+                  "text": "Endometriosis",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Less likely</p>",
+                    "subtitle": "<p>Endometriosis (ectopic endometrial tissue) causes painful periods (dysmenorrhoea) and painful intercourse (dyspareunia), which this patient does not report. The irregular cycles and hirsutism point more towards PCOS.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Investigation Results</h2><table><tr><th>Test</th><th>Result</th><th>Normal</th></tr><tr><td>Day 2 FSH</td><td>5.2 mIU/mL</td><td>3–10</td></tr><tr><td>Day 2 LH</td><td><strong>14.8 mIU/mL</strong></td><td>2–8</td></tr><tr><td>LH:FSH ratio</td><td><strong>2.85:1</strong></td><td>&lt;2:1</td></tr><tr><td>Testosterone</td><td><strong>3.8 nmol/L</strong></td><td>&lt;2.5</td></tr><tr><td>Day 21 Progesterone</td><td><strong>2.1 nmol/L</strong></td><td>&gt;30 (ovulatory)</td></tr><tr><td>USS Pelvis</td><td colspan=\"2\">12+ follicles per ovary, 2–9 mm (\"string of pearls\")</td></tr></table><p>The low day 21 progesterone confirms <strong>anovulation</strong>. The elevated LH:FSH ratio and hyperandrogenism confirm <strong>PCOS</strong> (Rotterdam criteria: 2 of 3 — oligo-anovulation, hyperandrogenism, polycystic ovaries on USS).</p><p><strong>Husband's semen analysis:</strong> Normal (volume 3 mL, count 60 million/mL, motility 55%, morphology 5% normal forms). Spermatogenesis takes approximately 74 days in the seminiferous tubules.</p><p>What treatment would you offer for ovulation induction?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the first-line treatment for ovulation induction in PCOS?</p>",
+              "alternatives": [
+                {
+                  "text": "Letrozole (aromatase inhibitor) + lifestyle modification (weight loss)",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Letrozole is now the first-line ovulation induction agent for PCOS (superior to clomiphene in recent evidence). It reduces oestrogen production, releasing the hypothalamus from negative feedback and allowing FSH to rise and stimulate follicular development. Combined with weight loss (even 5–10% improves ovulation rates), it is highly effective. Fertilisation will occur in the ampulla of the fallopian tube if ovulation is successfully induced.</p>"
+                  }
+                },
+                {
+                  "text": "Immediate IVF (in vitro fertilisation)",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Too aggressive as first line</p>",
+                    "subtitle": "<p>IVF is reserved for cases where simpler treatments fail or where there are additional factors (tubal disease, severe male factor). For anovulatory PCOS with a normal semen analysis, ovulation induction is the first step. IVF bypasses natural fertilisation — the acrosome reaction and zona pellucida penetration occur in the lab instead of in the ampulla.</p>"
+                  }
+                },
+                {
+                  "text": "Combined oral contraceptive pills",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Counterproductive</p>",
+                    "subtitle": "<p>OCPs suppress ovulation — they would prevent pregnancy, not promote it. While OCPs are used in PCOS for cycle regulation when pregnancy is not desired, they are clearly inappropriate when the goal is conception. The patient needs ovulation induction, not suppression.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Teaching Points</h2><p>Treatment plan:</p><ul><li><strong>Lifestyle modification</strong>: target 5–10% weight loss (reduces insulin resistance, improves ovulation)</li><li><strong>Letrozole 2.5 mg</strong> days 3–7 of cycle for ovulation induction</li><li><strong>Follicular monitoring</strong> with serial ultrasound to confirm ovulation</li><li><strong>Timed intercourse</strong> around ovulation day</li></ul><p><strong>Key Gametogenesis & Fertilisation Concepts:</strong></p><ul><li><strong>Endometrium</strong>: functionalis (shed in menstruation) + basalis (regenerative source)</li><li><strong>LH surge</strong> → ovulation on approximately day 14; corpus luteum forms from ruptured follicle</li><li><strong>Spermatogenesis</strong>: occurs in seminiferous tubules, takes ~74 days</li><li><strong>Fertilisation</strong>: occurs in the ampulla of the fallopian tube</li><li><strong>Acrosome reaction</strong>: enables sperm to penetrate the zona pellucida</li></ul>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

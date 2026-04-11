@@ -1,0 +1,61 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Chemistry and Metabolism of Carbohydrates — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Uncontrolled Diabetic</strong></p>",
+      "startScreenSubtitle": "<p>A 45-year-old overweight man presents to the medicine outpatient clinic for routine follow-up of his type 2 diabetes mellitus, diagnosed 3 years ago. He is on oral hypoglycaemics but admits to poor dietary compliance. He also reports chronic bloating and diarrhoea after consuming milk. Vitals: BP 140/90 mmHg, HR 78/min. BMI 31. You are the medicine registrar evaluating him.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly interpreted the HbA1c, understood glycolysis and its rate-limiting enzyme, diagnosed lactose intolerance, and chose appropriate management. Your knowledge of carbohydrate chemistry, glucose metabolism, and clinical applications was thorough.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some aspects but missed key biochemical connections. Review the difference between aldohexoses and ketohexoses, glycolysis (PFK-1 as rate-limiting enzyme), HbA1c interpretation, and the enzymatic basis of lactose intolerance.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review carbohydrate chemistry and metabolism: glucose vs fructose, glycolysis (cytoplasm, 2 ATP net), PFK-1 and fructose-1,6-bisphosphatase, lactose intolerance, and HbA1c as a marker of glycaemic control.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Laboratory Assessment</h2><p><strong>Fasting blood glucose:</strong> 198 mg/dL (elevated; normal <100 mg/dL)</p><p><strong>HbA1c:</strong> 9.2% (target <7%; indicates poor glycaemic control over the preceding 2-3 months)</p><p><strong>Fasting lipid profile:</strong> Total cholesterol 240, triglycerides 280, LDL 160, HDL 35 mg/dL (dyslipidaemic)</p><p><strong>Serum creatinine:</strong> 1.0 mg/dL (normal)</p><p><strong>Urine albumin-creatinine ratio:</strong> 45 mg/g (microalbuminuria — early diabetic nephropathy)</p><p><strong>Biochemical context:</strong> Glucose is an <strong>aldohexose</strong> (aldehyde group) while fructose is a <strong>ketohexose</strong> (ketone group); both share the molecular formula C6H12O6. <strong>HbA1c</strong> (glycated haemoglobin) is formed by the non-enzymatic glycation of haemoglobin by glucose. It reflects average blood glucose over the preceding <strong>2-3 months</strong> (the lifespan of a red blood cell) and is the gold standard for monitoring long-term diabetic control.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The patient's HbA1c is 9.2%. This test measures glycated haemoglobin and reflects average blood glucose over 2-3 months. In uncontrolled diabetes, which metabolic pathway is primarily impaired at the cellular level?</p>", "alternatives": [
+          {"text": "Glycolysis is dysregulated — the rate-limiting enzyme PFK-1 (phosphofructokinase-1) is normally stimulated by insulin signalling; insulin resistance reduces glucose utilisation", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Glycolysis occurs in the cytoplasm and converts glucose into two molecules of pyruvate, yielding a net gain of 2 ATP. The rate-limiting enzyme is PFK-1 (phosphofructokinase-1), which is allosterically regulated. In type 2 diabetes, insulin resistance impairs glucose uptake and utilisation, leading to hyperglycaemia. Meanwhile, gluconeogenesis (rate-limiting enzyme: fructose-1,6-bisphosphatase) is inappropriately activated in the liver, further increasing blood glucose.</p>"}},
+          {"text": "The citric acid cycle is completely blocked, preventing all ATP generation", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The citric acid cycle is not blocked in diabetes. The primary problem in type 2 diabetes is insulin resistance leading to impaired glucose uptake and dysregulated glycolysis (PFK-1) and gluconeogenesis (fructose-1,6-bisphosphatase). The citric acid cycle continues to function using alternative fuel sources like fatty acids.</p>"}},
+          {"text": "Glycogen synthesis is excessive, causing all glucose to be stored rather than metabolised", "nextContentId": -2, "feedback": {"title": "<p>Opposite of the truth</p>", "subtitle": "<p>In diabetes with insulin resistance, glycogen synthesis is actually reduced (insulin stimulates glycogen synthase). The problem is impaired glucose uptake and utilisation through glycolysis, combined with inappropriately increased gluconeogenesis. This leads to hyperglycaemia, not excessive storage.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Addressing the GI Symptoms</h2><p>You now assess his chronic bloating and diarrhoea after milk consumption.</p><p><strong>History:</strong> Symptoms began about 5 years ago. Bloating, abdominal cramps, and watery diarrhoea within 30-60 minutes of consuming milk or dairy products. No blood in stool. Symptoms resolve when he avoids dairy.</p><p><strong>Hydrogen breath test:</strong> Positive — significant rise in breath hydrogen after oral lactose load, confirming <strong>lactose intolerance</strong>.</p><p><strong>Biochemical explanation:</strong> Lactose intolerance occurs due to deficiency of the enzyme <strong>lactase</strong>, which normally hydrolyses lactose (milk sugar, a disaccharide) into glucose and galactose in the small intestinal brush border. When lactase is deficient, undigested lactose passes to the colon where it is fermented by bacteria, producing hydrogen, carbon dioxide, and short-chain fatty acids — causing bloating, flatulence, and osmotic diarrhoea.</p><p>This is distinct from milk protein allergy (immune-mediated) and involves carbohydrate malabsorption rather than protein hypersensitivity.</p>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Given the uncontrolled diabetes (HbA1c 9.2%) with microalbuminuria and concurrent lactose intolerance, what is the most comprehensive management plan?</p>", "alternatives": [
+          {"text": "Intensify diabetes treatment (add/optimise medications targeting HbA1c <7%), start ACE inhibitor for microalbuminuria, dietary modification with lactose-free alternatives for calcium intake", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>A comprehensive approach is needed: (1) Intensify glycaemic control — add or optimise metformin, consider adding a second agent (SGLT2 inhibitor or GLP-1 RA), target HbA1c <7% to reduce complications; (2) Start ACE inhibitor for microalbuminuria to slow diabetic nephropathy; (3) Dietary modification — avoid lactose-containing dairy, use lactose-free milk or lactase supplements, ensure adequate calcium from alternative sources to prevent osteoporosis.</p>"}},
+          {"text": "Switch to insulin therapy immediately and stop all oral medications", "nextContentId": -2, "feedback": {"title": "<p>Not the best approach at this stage</p>", "subtitle": "<p>While HbA1c 9.2% indicates poor control, switching directly to insulin is not the first step in type 2 diabetes management. Optimising oral agents (metformin + second agent) with lifestyle modification should be tried first. Insulin is considered when oral combination therapy fails to achieve targets. Also, this plan doesn't address the microalbuminuria or lactose intolerance.</p>"}},
+          {"text": "Focus only on strict dietary control and exercise — medications are not needed yet", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>With HbA1c 9.2% and microalbuminuria, lifestyle measures alone are insufficient. This patient needs intensified pharmacotherapy for diabetes, renoprotection with an ACE inhibitor, and management of lactose intolerance. Delaying treatment risks progression to diabetic nephropathy and cardiovascular complications.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The patient's metformin dose is optimised and an SGLT2 inhibitor is added. He starts an ACE inhibitor for microalbuminuria. Dietary counselling includes lactose-free alternatives and a diabetic diet plan. At 3-month follow-up, HbA1c improves to 7.4%, GI symptoms have resolved, and urine albumin has decreased.</p><p><strong>Key carbohydrate biochemistry points:</strong></p><ul><li>Glucose is an <strong>aldohexose</strong>, fructose is a <strong>ketohexose</strong>; both are C6H12O6</li><li><strong>Glycolysis</strong> occurs in the <strong>cytoplasm</strong>: glucose → 2 pyruvate, net gain <strong>2 ATP</strong></li><li>Rate-limiting enzyme of glycolysis: <strong>PFK-1</strong> (phosphofructokinase-1)</li><li>Rate-limiting enzyme of gluconeogenesis: <strong>fructose-1,6-bisphosphatase</strong></li><li><strong>Lactose intolerance</strong>: deficiency of <strong>lactase</strong> → undigested lactose fermented by colonic bacteria → bloating and diarrhoea</li><li><strong>HbA1c</strong> reflects average blood glucose over <strong>2-3 months</strong> — the gold standard for monitoring diabetic control</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

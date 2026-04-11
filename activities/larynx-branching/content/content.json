@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Larynx — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Larynx</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in laryngeal anatomy. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: Post-Thyroidectomy Hoarseness</h2><p>A 45-year-old woman develops hoarseness immediately after total thyroidectomy for multinodular goitre. On indirect laryngoscopy, the left vocal cord is in the paramedian position and is immobile. The right vocal cord compensates by crossing the midline.</p><p><strong>Key concept:</strong> The recurrent laryngeal nerve supplies all intrinsic muscles of the larynx except the cricothyroid (supplied by the external laryngeal nerve). The posterior cricoarytenoid is the only muscle that abducts the vocal cords.</p>"}, "subContentId": "d0e1f2a3-aaaa-4ddd-baaa-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Which nerve was most likely injured during thyroidectomy, and which muscle's paralysis specifically prevents vocal cord abduction?</p>", "alternatives": [
+          {"text": "Recurrent laryngeal nerve — paralysis of posterior cricoarytenoid (the only abductor of vocal cords)", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The RLN supplies all intrinsic laryngeal muscles except cricothyroid. The posterior cricoarytenoid is the sole abductor — its paralysis fixes the cord.</p>"}},
+          {"text": "External laryngeal nerve — paralysis of all intrinsic muscles", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The external laryngeal nerve supplies ONLY the cricothyroid muscle (tensor of vocal cords). The recurrent laryngeal nerve supplies all other intrinsic muscles.</p>"}},
+          {"text": "Superior laryngeal nerve trunk — causing complete vocal cord paralysis", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The superior laryngeal nerve divides into internal (sensory) and external (cricothyroid) branches. Recurrent laryngeal nerve injury is the feared complication of thyroidectomy.</p>"}}
+        ]}}, "subContentId": "d0e1f2a3-aaaa-4ddd-baaa-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Further Assessment</h2><p>The ENT surgeon considers emergency airway management. He notes that in bilateral RLN injury, the airway is compromised because both cords are adducted. He considers cricothyrotomy if needed — a procedure through the cricothyroid membrane.</p><p><strong>Concept:</strong> The cricothyroid membrane (conus elasticus) is the site for emergency airway access. The cricoid cartilage is the only complete ring in the respiratory tract. The larynx extends from C3 to C6.</p>"}, "subContentId": "d0e1f2a3-aaaa-4ddd-baaa-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>If emergency surgical airway access is needed, through which membrane is a cricothyrotomy performed?</p>", "alternatives": [
+          {"text": "The cricothyroid membrane (conus elasticus) — between the thyroid and cricoid cartilages", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>The cricothyroid membrane is superficial, avascular, and easily accessible — making it the site for emergency airway access.</p>"}},
+          {"text": "The thyrohyoid membrane — between the thyroid cartilage and hyoid bone", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The thyrohyoid membrane is pierced by the internal laryngeal nerve and superior laryngeal vessels. Cricothyrotomy uses the cricothyroid membrane below.</p>"}},
+          {"text": "Directly through the cricoid cartilage — the only complete cartilage ring", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>While the cricoid is the only complete ring, cutting through cartilage is avoided. The cricothyroid membrane provides a safe, accessible window for emergency airway access.</p>"}}
+        ]}}, "subContentId": "d0e1f2a3-aaaa-4ddd-baaa-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>The unilateral vocal cord paralysis is managed conservatively. Over 6 months, the cord partially recovers. Speech therapy helps the patient develop compensatory voice strategies.</p><p><strong>Learning points:</strong></p><ul><li>Cricoid cartilage = only complete ring in respiratory tract</li><li>Larynx extends from C3 to C6</li><li>RLN supplies all intrinsic muscles except cricothyroid (external laryngeal nerve)</li><li>Posterior cricoarytenoid = only abductor of vocal cords</li><li>Cricothyroid membrane = emergency airway access site</li><li>Glottic carcinoma presents early with hoarseness</li></ul>"}, "subContentId": "d0e1f2a3-aaaa-4ddd-baaa-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

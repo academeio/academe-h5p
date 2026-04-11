@@ -1,0 +1,62 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Anterior abdominal wall — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Groin Swelling</strong></p>",
+      "startScreenSubtitle": "<p>A 65-year-old retired manual labourer presents with a painful swelling in the right groin that appeared suddenly while lifting heavy furniture 6 hours ago. He reports nausea and has vomited once. He has a long history of chronic constipation and straining. Vitals: Temperature 37.2°C, HR 96/min, BP 130/85 mmHg. You are the surgical registrar assessing him in the emergency department.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified the direct inguinal hernia through Hesselbach's triangle, distinguished it from an indirect hernia, and chose appropriate surgical management. Your understanding of the anatomy of the anterior abdominal wall, inguinal canal, and rectus sheath was thorough.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some features correctly but confused key anatomical landmarks. Review Hesselbach's triangle boundaries, the inguinal canal contents, and the significance of the arcuate line.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the anatomy of the anterior abdominal wall, including the inguinal canal, Hesselbach's triangle, and the layers of the rectus sheath above and below the arcuate line.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Examination</h2><p>On examination, there is a tender, irreducible swelling (4 x 3 cm) in the right groin, located <strong>medial to the inferior epigastric vessels</strong> (determined later on imaging). The swelling does not extend into the scrotum. There is no cough impulse. The overlying skin is not erythematous. Bowel sounds are hyperactive.</p><p><strong>Anatomical context:</strong> The abdomen is divided into four quadrants by the median sagittal plane and the transumbilical plane. The inguinal canal extends from the deep inguinal ring (lateral to the inferior epigastric vessels) to the superficial inguinal ring (in the external oblique aponeurosis). It transmits the spermatic cord in males and the round ligament in females.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The swelling is medial to the inferior epigastric vessels. Through which anatomical region does a direct inguinal hernia protrude?</p>", "alternatives": [
+          {"text": "Hesselbach's triangle — bounded by inferior epigastric vessels laterally, rectus abdominis medially, and inguinal ligament inferiorly", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Direct inguinal hernias protrude through Hesselbach's triangle (inguinal triangle), which is bounded by the inferior epigastric vessels laterally, the lateral border of rectus abdominis medially, and the inguinal ligament inferiorly. Unlike indirect hernias, they do not pass through the deep inguinal ring.</p>"}},
+          {"text": "The deep inguinal ring, lateral to the inferior epigastric vessels", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Hernias passing through the deep inguinal ring (lateral to inferior epigastric vessels) are indirect inguinal hernias. This swelling is medial to the inferior epigastric vessels, indicating it is a direct hernia passing through Hesselbach's triangle.</p>"}},
+          {"text": "The femoral canal, below the inguinal ligament", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Femoral hernias pass through the femoral canal below the inguinal ligament and medial to the femoral vein. This swelling is above the inguinal ligament and medial to the inferior epigastric vessels — it is a direct inguinal hernia through Hesselbach's triangle.</p>"}},
+          {"text": "A defect in the linea alba above the umbilicus", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Defects in the linea alba cause epigastric hernias, not inguinal hernias. This groin swelling medial to the inferior epigastric vessels is a direct inguinal hernia through Hesselbach's triangle.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Investigation Results</h2><p><strong>CT abdomen and pelvis:</strong></p><ul><li>Right direct inguinal hernia containing a loop of small bowel</li><li>Bowel loop shows wall thickening but preserved enhancement (viable — not strangulated yet)</li><li>Hernia defect located medial to the inferior epigastric vessels, confirming direct hernia through Hesselbach's triangle</li></ul><p><strong>Blood results:</strong> WBC 12,000/mm³ (mildly elevated), lactate 1.8 mmol/L (upper normal)</p><p><strong>Anatomical correlation — Rectus sheath:</strong> Below the arcuate line (approximately halfway between the umbilicus and pubic symphysis), the posterior wall of the rectus sheath is deficient because all three aponeuroses (external oblique, internal oblique, transversus abdominis) pass anterior to the rectus abdominis muscle. This makes the lower abdominal wall inherently weaker posteriorly, contributing to hernia formation in the inguinal region.</p>"}, "subContentId": "scene-2"},
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>The hernia is irreducible with viable bowel. What is the most appropriate management?</p>", "alternatives": [
+          {"text": "Urgent surgical repair — open or laparoscopic herniorrhaphy with mesh reinforcement of the posterior wall", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>An irreducible inguinal hernia with viable bowel requires urgent surgical repair to prevent strangulation. Direct hernias are repaired by reinforcing the posterior wall of the inguinal canal (the transversalis fascia in Hesselbach's triangle) with mesh. Both open (Lichtenstein) and laparoscopic (TEP/TAPP) approaches are acceptable.</p>"}},
+          {"text": "Attempt gentle manual reduction under sedation and schedule elective repair", "nextContentId": -2, "feedback": {"title": "<p>Not the safest approach</p>", "subtitle": "<p>While gentle reduction can be attempted for recent-onset hernias without signs of strangulation, this hernia has been irreducible for 6 hours with nausea and vomiting. Urgent surgical repair is safer to assess bowel viability directly and prevent progression to strangulation.</p>"}},
+          {"text": "Apply a truss and discharge with outpatient surgical follow-up", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>A truss is not appropriate for irreducible hernias. There is a risk of bowel incarceration and strangulation. This patient requires urgent surgical intervention.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Outcome and Key Learning Points</h2><p>The patient undergoes successful open Lichtenstein mesh herniorrhaphy. The incarcerated small bowel loop is viable and is reduced. The posterior wall defect in Hesselbach's triangle is reinforced with polypropylene mesh. He recovers well and is discharged on Day 2.</p><p><strong>Key anatomical points:</strong></p><ul><li>The abdomen is divided into <strong>four quadrants</strong> by the median sagittal and transumbilical planes</li><li>The <strong>inguinal canal</strong> transmits the spermatic cord (males) / round ligament (females), from deep ring to superficial ring</li><li><strong>Hesselbach's triangle:</strong> inferior epigastric vessels (lateral), rectus abdominis (medial), inguinal ligament (inferior) — site of direct hernias</li><li>Below the <strong>arcuate line</strong>, all aponeuroses pass anterior to rectus abdominis, leaving the posterior wall deficient</li><li><strong>Direct hernias</strong> are medial to inferior epigastric vessels; <strong>indirect hernias</strong> are lateral</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

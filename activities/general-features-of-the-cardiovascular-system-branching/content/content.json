@@ -1,0 +1,147 @@
+{
+  "branchingScenario": {
+    "title": "PBL: General features of the cardiovascular system — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Blue Baby</strong></p>",
+      "startScreenSubtitle": "<p>A newborn baby is noted to have bluish discolouration (cyanosis) within hours of birth. The baby was born at full term with no complications during delivery. The paediatrician suspects a congenital heart defect involving the fetal circulation. You need to understand the cardiovascular anatomy to identify the problem.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified a cyanotic congenital heart defect, understood the ductus arteriosus (connecting pulmonary trunk to aorta in fetal life), the three layers of blood vessel walls, the Windkessel function of elastic arteries, and the concept of end arteries and infarction.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>Review the fetal circulation (ductus arteriosus bypassing the lungs), the three vessel wall layers (intima, media, adventitia), the Windkessel function, arterioles as resistance vessels, and end arteries.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review cardiovascular anatomy: vessel wall layers, elastic vs muscular arteries, arterioles as resistance vessels, end arteries vs anastomotic vessels, and the fetal circulation including the ductus arteriosus.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A newborn male baby, delivered at 39 weeks by normal vaginal delivery, develops progressive cyanosis within 6 hours of birth:</p><ul><li>Central cyanosis (bluish lips, tongue, and nail beds)</li><li>Tachypnoea (respiratory rate 70/min)</li><li>Poor feeding — gets tired and breathless while feeding</li><li>No respiratory distress syndrome signs</li></ul><p><strong>On examination:</strong></p><ul><li>SpO2: 65% on room air (normal: >95%)</li><li>Heart rate: 160 bpm (normal for newborn)</li><li>Single loud S2 (second heart sound)</li><li>No heart murmur initially</li><li>Chest X-ray: \"egg-on-a-string\" appearance (narrow mediastinum)</li></ul><p>The three layers of a blood vessel wall are tunica <strong>intima</strong>, tunica <strong>media</strong>, and tunica <strong>adventitia</strong>. In the fetal circulation, the <strong>ductus arteriosus</strong> shunts blood from the pulmonary trunk to the aorta, bypassing the non-functional lungs.</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Based on the severe cyanosis unresponsive to oxygen, single S2, 'egg-on-a-string' chest X-ray, and no murmur, what is the most likely diagnosis?</p>",
+              "alternatives": [
+                {
+                  "text": "Transposition of the Great Arteries (TGA) — the aorta arises from the right ventricle",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>In TGA, the aorta arises from the right ventricle (carrying deoxygenated blood to the body) and the pulmonary artery from the left ventricle (carrying oxygenated blood back to the lungs). This creates two parallel circuits — survival depends on mixing of blood through the ductus arteriosus, foramen ovale, or an ASD. The 'egg-on-a-string' appearance is due to the narrow mediastinum from the abnormal great vessel relationship.</p>"
+                  }
+                },
+                {
+                  "text": "Ventricular septal defect (VSD)",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Unlikely</p>",
+                    "subtitle": "<p>VSD typically presents with a loud pansystolic murmur and initially causes acyanotic heart disease (left-to-right shunt). It does not cause severe cyanosis in the first hours of life. This patient has cyanosis without a murmur and an egg-on-a-string chest X-ray — pointing to TGA.</p>"
+                  }
+                },
+                {
+                  "text": "Neonatal pneumonia",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Neonatal pneumonia would show respiratory distress with bilateral infiltrates on chest X-ray, and the SpO2 would improve with supplemental oxygen. This baby's cyanosis is unresponsive to oxygen (a hallmark of cyanotic congenital heart disease) and the chest X-ray shows an egg-on-a-string pattern, not pneumonic infiltrates.</p>"
+                  }
+                },
+                {
+                  "text": "Patent ductus arteriosus (PDA)",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Not the primary problem</p>",
+                    "subtitle": "<p>In TGA, the PDA is actually beneficial — it allows some mixing of blood between the two parallel circuits. The ductus arteriosus normally shunts blood from the pulmonary trunk to the aorta in fetal life, bypassing the non-functional lungs. After birth, if it stays open, it helps keep TGA babies alive until surgical correction.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Diagnosis Confirmed</h2><p>Echocardiography confirms <strong>D-Transposition of the Great Arteries (d-TGA)</strong>:</p><ul><li>Aorta arises anteriorly from the right ventricle</li><li>Pulmonary artery arises posteriorly from the left ventricle</li><li>Patent foramen ovale with minimal shunting</li><li>Small patent ductus arteriosus — providing life-saving blood mixing</li></ul><p><strong>Cardiovascular anatomy reviewed:</strong></p><ul><li>The <strong>ductus arteriosus</strong> connects the pulmonary trunk to the aorta in fetal life, bypassing the non-functional lungs. After birth, it normally closes to form the ligamentum arteriosum</li><li>Elastic arteries (aorta, pulmonary trunk) exhibit the <strong>Windkessel function</strong> — they stretch during systole and recoil during diastole to maintain continuous blood flow</li><li><strong>Arterioles</strong> are called resistance vessels because they are the main determinants of peripheral vascular resistance</li></ul><p>What is the immediate management?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the most important immediate management for this baby with TGA?</p>",
+              "alternatives": [
+                {
+                  "text": "IV prostaglandin E1 (alprostadil) to keep the ductus arteriosus open + balloon atrial septostomy",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Prostaglandin E1 keeps the ductus arteriosus patent, maintaining blood mixing between the two parallel circuits. Balloon atrial septostomy (Rashkind procedure) creates a larger opening in the atrial septum to improve mixing. Definitive treatment is the arterial switch operation (Jatene procedure) within the first 2 weeks of life.</p>"
+                  }
+                },
+                {
+                  "text": "Emergency closure of the ductus arteriosus with indomethacin",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>This would be fatal!</p>",
+                    "subtitle": "<p>Indomethacin (a prostaglandin inhibitor) closes the ductus arteriosus. In TGA, the ductus is the lifeline — it allows mixing of oxygenated and deoxygenated blood between the two parallel circuits. Closing it would eliminate blood mixing and cause severe hypoxia and death. The ductus must be kept OPEN with prostaglandin E1.</p>"
+                  }
+                },
+                {
+                  "text": "High-flow oxygen therapy alone",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Insufficient</p>",
+                    "subtitle": "<p>In TGA, the cyanosis is due to a structural defect creating parallel circulations, not a lung problem. Supplemental oxygen does not significantly improve SpO2 because the issue is inadequate mixing of blood, not inadequate oxygenation. The baby needs prostaglandin E1 to maintain the ductus arteriosus and a septostomy to improve atrial mixing.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Teaching Points</h2><p>Immediate management:</p><ul><li><strong>Prostaglandin E1 infusion</strong> (0.05 µg/kg/min) — keeps ductus arteriosus open</li><li><strong>Balloon atrial septostomy</strong> (Rashkind procedure) — enlarges atrial communication for better mixing</li><li><strong>Arterial switch operation</strong> (Jatene procedure) planned within 2 weeks</li></ul><p><strong>Key Cardiovascular Anatomy:</strong></p><ul><li><strong>Three vessel wall layers</strong>: tunica intima, tunica media, tunica adventitia</li><li><strong>Windkessel function</strong>: elastic arteries stretch during systole and recoil during diastole</li><li><strong>Arterioles</strong>: resistance vessels — main determinants of peripheral vascular resistance</li><li><strong>End artery</strong>: no anastomoses — blockage causes infarction (e.g., central retinal artery)</li><li><strong>Ductus arteriosus</strong>: pulmonary trunk to aorta shunt in fetal life, bypassing non-functional lungs</li></ul>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

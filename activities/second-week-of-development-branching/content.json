@@ -1,0 +1,163 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Second week of development — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>Embryology Case — Second Week</h2>",
+      "startScreenSubtitle": "<p>A 30-year-old woman presents with a positive pregnancy test and mild vaginal bleeding. Apply your knowledge of implantation, trophoblast differentiation, and early embryonic development to guide the clinical workup.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You correctly applied second-week embryology including implantation, trophoblast biology, and bilaminar disc formation to the clinical scenario.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "<h2>Partial Understanding</h2>",
+        "endScreenSubtitle": "<p>You showed some knowledge but missed key concepts. Review the implantation window, trophoblast layers, and hCG function.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "<h2>Needs Improvement</h2>",
+        "endScreenSubtitle": "<p>Review second-week embryology: implantation site, cytotrophoblast vs syncytiotrophoblast, bilaminar disc, and the role of hCG.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Case Presentation</h3><p>A 30-year-old woman presents at 5 weeks of amenorrhoea with a positive urine pregnancy test and mild vaginal spotting. She is anxious about the bleeding. Transvaginal ultrasound shows an intrauterine gestational sac in the upper posterior wall of the uterus.</p><p><strong>Key embryological context:</strong></p><ul><li>The <strong>normal site of implantation</strong> is the posterior wall of the fundus of the uterus</li><li>The <strong>implantation window</strong> corresponds to days 20-24 of the menstrual cycle, when the endometrium is receptive</li><li>Light bleeding during implantation can occur as the trophoblast invades endometrial blood vessels</li></ul><p>Consider the trophoblast biology that drives implantation and early pregnancy maintenance.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Case Presentation"}
+        },
+        "contentId": 0,
+        "feedback": {},
+        "nextContentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>The trophoblast differentiates into two layers during implantation. Which layer is directly invasive and erodes into the endometrial stroma and blood vessels?</p>",
+              "alternatives": [
+                {
+                  "text": "Syncytiotrophoblast — the multinucleated outer layer that invades the endometrium and produces hCG",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>The syncytiotrophoblast is the invasive outer layer that erodes into the endometrial stroma, glands, and blood vessels (creating lacunae). It produces hCG, which maintains the corpus luteum. The inner cytotrophoblast is the proliferative layer that replenishes the syncytiotrophoblast.</p>"
+                  }
+                },
+                {
+                  "text": "Cytotrophoblast — the inner layer that actively invades maternal tissue",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Not quite",
+                    "subtitle": "<p>The cytotrophoblast is the inner, proliferative layer that serves as a stem cell population. While cytotrophoblast cells do migrate through the syncytiotrophoblast later (as extravillous trophoblast), it is the syncytiotrophoblast that initially invades the endometrium during implantation.</p>"
+                  }
+                },
+                {
+                  "text": "Hypoblast — the ventral layer of the embryonic disc that invades the uterine wall",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>The hypoblast (primitive endoderm) is part of the bilaminar embryonic disc, not the trophoblast. It lines the blastocyst cavity and contributes to the yolk sac. The invasion of the endometrium is performed by the syncytiotrophoblast, the outer layer of the trophoblast.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Trophoblast Biology"}
+        },
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Serum hCG and Pregnancy Maintenance</h3><p>The patient's serum beta-hCG level is 1,500 mIU/mL. A repeat test 48 hours later shows 3,200 mIU/mL (adequate doubling).</p><p><strong>hCG (human chorionic gonadotropin)</strong> is produced by the syncytiotrophoblast and is the basis of all pregnancy tests. Its critical function is to maintain the <strong>corpus luteum</strong> in the ovary, which continues to produce progesterone until the placenta takes over at ~10-12 weeks.</p><p>Without hCG, the corpus luteum would regress, progesterone would fall, and the pregnancy would be lost.</p><p>The <strong>bilaminar embryonic disc</strong> at this stage consists of two layers: the <strong>epiblast</strong> (dorsal) and the <strong>hypoblast</strong> (ventral), which will give rise to all tissues of the embryo.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "hCG and Corpus Luteum"}
+        },
+        "contentId": 2,
+        "feedback": {},
+        "nextContentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>If the gestational sac were located in the fallopian tube instead of the uterus, this would be an ectopic pregnancy. Why does the posterior wall of the uterine fundus represent the normal implantation site?</p>",
+              "alternatives": [
+                {
+                  "text": "The posterior fundal wall has the richest blood supply and thickest endometrium during the implantation window (days 20-24), providing optimal conditions for trophoblast invasion",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>The posterior wall of the uterine fundus has the most developed spiral arteries and thickest decidualised endometrium during the secretory phase (days 20-24). This provides the best environment for trophoblast invasion, lacuna formation, and establishment of uteroplacental circulation. Ectopic implantation elsewhere (tube, cervix, ovary) is pathological.</p>"
+                  }
+                },
+                {
+                  "text": "The blastocyst randomly lands anywhere in the uterus — there is no preferred site",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Implantation is not random. The blastocyst preferentially implants in the posterior wall of the uterine fundus where the endometrium is thickest and most vascular during the implantation window. Implantation in the lower uterine segment (placenta praevia) or outside the uterus (ectopic) is abnormal and clinically significant.</p>"
+                  }
+                },
+                {
+                  "text": "Gravity causes the blastocyst to settle on the posterior wall when the woman is supine",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Implantation is not determined by gravity. The blastocyst actively interacts with the endometrium through molecular signalling (integrins, selectins, cytokines). The posterior fundal wall provides optimal endometrial receptivity during the implantation window (days 20-24) due to its rich spiral artery blood supply.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Implantation Site"}
+        },
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Key Learning Points</h3><ul><li><strong>Normal implantation site:</strong> Posterior wall of the uterine fundus</li><li><strong>Implantation window:</strong> Days 20-24 of the menstrual cycle, when the endometrium is receptive</li><li><strong>Trophoblast layers:</strong> Inner cytotrophoblast (proliferative) and outer syncytiotrophoblast (invasive, hormone-producing)</li><li><strong>hCG:</strong> Produced by syncytiotrophoblast; maintains corpus luteum; basis of pregnancy tests</li><li><strong>Corpus luteum:</strong> Source of progesterone in early pregnancy; maintained by hCG until placental takeover (~10-12 weeks)</li><li><strong>Bilaminar disc:</strong> Epiblast (dorsal) and hypoblast (ventral) — formed during the second week; precursor to all embryonic tissues</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Key Learning Points"}
+        },
+        "contentId": 4,
+        "feedback": {},
+        "nextContentId": -1
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

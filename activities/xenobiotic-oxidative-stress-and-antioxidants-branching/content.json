@@ -1,0 +1,163 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Xenobiotic, oxidative stress and antioxidants — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>Xenobiotic Metabolism Case</h2>",
+      "startScreenSubtitle": "<p>A 20-year-old student presents after intentional paracetamol overdose. Apply your knowledge of drug metabolism, oxidative stress, and antioxidant defence to guide emergency management.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You correctly applied xenobiotic metabolism principles including Phase I/II reactions, NAPQI toxicity, and the glutathione-NAC rescue mechanism to manage this paracetamol overdose.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "<h2>Partial Understanding</h2>",
+        "endScreenSubtitle": "<p>You showed some knowledge but missed key concepts. Review CYP450, Phase I and II reactions, and the mechanism of paracetamol toxicity.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "<h2>Needs Improvement</h2>",
+        "endScreenSubtitle": "<p>Review xenobiotic metabolism fundamentals: Phase I (CYP450), Phase II (conjugation), NAPQI formation, glutathione depletion, and N-acetylcysteine as antidote.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Case Presentation</h3><p>A 20-year-old college student is brought to the emergency department 6 hours after ingesting 30 tablets of paracetamol (500 mg each = 15 g total) in a suicide attempt. She is currently asymptomatic but anxious.</p><p><strong>Initial findings:</strong></p><ul><li>Paracetamol level at 4 hours: 250 mcg/mL (above treatment line on Rumack-Matthew nomogram)</li><li>ALT: 45 U/L (normal, but expected to rise)</li><li>INR: 1.0 (normal)</li><li>Serum creatinine: Normal</li></ul><p><strong>Key biochemistry:</strong> Phase I biotransformation reactions are primarily catalysed by the <strong>cytochrome P450 (CYP450) monooxygenase system</strong> located in the <strong>smooth endoplasmic reticulum</strong> of hepatocytes.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Case Presentation"}
+        },
+        "contentId": 0,
+        "feedback": {},
+        "nextContentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>At therapeutic doses, paracetamol is safely metabolised. At toxic doses, which reactive metabolite accumulates and causes liver damage?</p>",
+              "alternatives": [
+                {
+                  "text": "NAPQI (N-acetyl-p-benzoquinone imine) — a highly reactive metabolite that depletes hepatic glutathione and causes oxidative hepatocellular necrosis",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>At therapeutic doses, ~90% of paracetamol is safely conjugated (Phase II — glucuronidation and sulphation). Only ~5% is oxidised by CYP2E1 (Phase I) to NAPQI, which is immediately detoxified by conjugation with glutathione. At toxic doses, the Phase II pathways are saturated, more NAPQI is formed, glutathione stores are depleted (below 30% of normal), and NAPQI covalently binds to hepatocyte proteins causing necrosis.</p>"
+                  }
+                },
+                {
+                  "text": "Free paracetamol itself — the drug directly damages hepatocytes at high concentrations",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Paracetamol itself is not hepatotoxic. The toxicity comes from its CYP450-generated metabolite NAPQI (N-acetyl-p-benzoquinone imine). At therapeutic doses, NAPQI is safely conjugated with glutathione. At toxic doses, glutathione is depleted and NAPQI accumulates, binding covalently to hepatocyte proteins and causing centrilobular necrosis.</p>"
+                  }
+                },
+                {
+                  "text": "Glucuronic acid conjugates — excessive conjugation overloads the liver",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Glucuronide conjugates are the safe, water-soluble metabolites of paracetamol (Phase II). They are non-toxic and are excreted in urine. The problem in overdose is that the Phase II conjugation pathways become saturated, shunting more paracetamol through the CYP450 pathway (Phase I), generating the toxic metabolite NAPQI.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Toxic Metabolite"}
+        },
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Antidote Mechanism</h3><p>The patient is started on <strong>N-acetylcysteine (NAC)</strong> — the specific antidote for paracetamol poisoning.</p><p><strong>Why NAC works:</strong></p><ul><li>NAC is a precursor of <strong>glutathione (GSH)</strong></li><li>It replenishes depleted hepatic glutathione stores</li><li>Restored glutathione can conjugate with NAPQI, converting it to a non-toxic mercapturic acid conjugate excreted in urine</li><li>NAC is most effective within 8 hours of ingestion but can still help up to 24 hours</li></ul><p><strong>Antioxidant defence system:</strong> The body's enzymatic antioxidants also protect against oxidative damage:</p><ul><li><strong>Superoxide dismutase (SOD):</strong> Converts superoxide radicals to hydrogen peroxide (H2O2)</li><li><strong>Catalase and glutathione peroxidase:</strong> Convert H2O2 to water</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "NAC Mechanism"}
+        },
+        "contentId": 2,
+        "feedback": {},
+        "nextContentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Phase II reactions involve conjugation to increase water solubility for excretion. Which of the following correctly describes Phase II metabolism?</p>",
+              "alternatives": [
+                {
+                  "text": "Conjugation of the xenobiotic with polar molecules such as glucuronic acid, sulphate, or glutathione to increase water solubility (hydrophilicity) for renal excretion",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>Phase II reactions attach polar groups to the drug or its Phase I metabolite, making it water-soluble for urinary or biliary excretion. Key conjugation reactions include glucuronidation (most common, via UDP-glucuronyltransferase), sulphation, glutathione conjugation (critical for NAPQI detoxification), acetylation, and methylation. These are generally detoxification reactions.</p>"
+                  }
+                },
+                {
+                  "text": "Oxidation by CYP450 to create reactive intermediates that are more easily excreted",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "That describes Phase I, not Phase II",
+                    "subtitle": "<p>CYP450-mediated oxidation, reduction, and hydrolysis are Phase I reactions. They introduce or expose functional groups (-OH, -NH2, -SH) on the xenobiotic. Phase I can sometimes create reactive intermediates (like NAPQI). Phase II reactions then conjugate these products with polar molecules (glucuronate, sulphate, glutathione) to increase water solubility.</p>"
+                  }
+                },
+                {
+                  "text": "Breakdown of the drug into smaller fragments by hydrolysis enzymes in lysosomes",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Drug metabolism does not primarily occur in lysosomes. Phase I reactions (oxidation, reduction, hydrolysis) occur mainly in the smooth ER via CYP450. Phase II reactions (conjugation with glucuronate, sulphate, glutathione, amino acids) occur in the cytosol and ER, making drugs more water-soluble for excretion — not breaking them into fragments.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Phase II Metabolism"}
+        },
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Key Learning Points</h3><ul><li><strong>Phase I reactions:</strong> CYP450 monooxygenase system in smooth ER; oxidation, reduction, hydrolysis; can create reactive metabolites</li><li><strong>Phase II reactions:</strong> Conjugation with glucuronic acid, sulphate, or glutathione; increases water solubility for excretion</li><li><strong>Paracetamol toxicity:</strong> NAPQI accumulates when Phase II pathways are saturated; depletes hepatic glutathione; causes centrilobular necrosis</li><li><strong>N-acetylcysteine (NAC):</strong> Antidote for paracetamol; replenishes glutathione stores; most effective within 8 hours</li><li><strong>Antioxidant enzymes:</strong> SOD (superoxide → H2O2), catalase and glutathione peroxidase (H2O2 → water)</li><li><strong>Glutathione (GSH):</strong> Major intracellular antioxidant; conjugates reactive electrophiles; critical for NAPQI detoxification</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Key Learning Points"}
+        },
+        "contentId": 4,
+        "feedback": {},
+        "nextContentId": -1
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

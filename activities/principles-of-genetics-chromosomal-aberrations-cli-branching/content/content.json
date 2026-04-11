@@ -1,0 +1,171 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Principles of Genetics, Chromosomal Aberrations & Clinical Genetics — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>Clinical Genetics Case</h2>",
+      "startScreenSubtitle": "<p>A 38-year-old primigravida presents for prenatal counselling. Work through the clinical reasoning to identify chromosomal abnormalities and guide genetic management.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You correctly identified the chromosomal aberration, interpreted the karyotype, and guided appropriate genetic counselling. Strong grasp of clinical genetics principles.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "<h2>Partial Understanding</h2>",
+        "endScreenSubtitle": "<p>You demonstrated some knowledge of genetics but missed key diagnostic or counselling steps. Review trisomies, sex chromosome disorders, and translocation patterns.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "<h2>Needs Improvement</h2>",
+        "endScreenSubtitle": "<p>Review the fundamentals of chromosomal aberrations, karyotyping, and genetic counselling. Focus on Down syndrome, Turner syndrome, and Robertsonian translocations.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Case Presentation</h3><p>A 38-year-old primigravida is referred to the genetics clinic after a first-trimester screening reveals increased nuchal translucency (3.8 mm) and abnormal serum markers (low PAPP-A, high free beta-hCG). She is anxious about the possibility of a chromosomal abnormality in her baby.</p><p><strong>Key information:</strong></p><ul><li>Advanced maternal age (38 years)</li><li>Nuchal translucency: 3.8 mm (elevated)</li><li>Combined risk for trisomy 21: 1 in 50</li></ul><p>Consider which chromosomal abnormality is most likely given these findings.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Case Presentation"}
+        },
+        "contentId": 0,
+        "feedback": {},
+        "nextContentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Based on the maternal age, elevated nuchal translucency, and abnormal serum markers, which chromosomal abnormality is most likely?</p>",
+              "alternatives": [
+                {
+                  "text": "Trisomy 21 (Down syndrome) — the most common autosomal trisomy with increased incidence at advanced maternal age",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>Trisomy 21 is the most common chromosomal cause of intellectual disability. Incidence increases sharply with maternal age: ~1 in 30 at age 45. The combined first-trimester screen (nuchal translucency + serum markers) has ~90% detection rate.</p>"
+                  }
+                },
+                {
+                  "text": "Turner syndrome (45,X) — a sex chromosome monosomy",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Not the best answer",
+                    "subtitle": "<p>Turner syndrome can present with increased nuchal translucency (often as cystic hygroma), but the serum marker pattern here (low PAPP-A, high beta-hCG) is more characteristic of trisomy 21. Turner syndrome typically shows low beta-hCG.</p>"
+                  }
+                },
+                {
+                  "text": "Klinefelter syndrome (47,XXY) — a sex chromosome trisomy",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Klinefelter syndrome is usually not detected prenatally through standard screening. It does not typically cause elevated nuchal translucency or the characteristic serum marker pattern seen here.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Identify the Chromosomal Abnormality"}
+        },
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Diagnostic Workup</h3><p>Amniocentesis is performed at 16 weeks. The karyotype report returns: <strong>47,XX,+21</strong>.</p><p>This confirms trisomy 21 (Down syndrome) — three copies of chromosome 21 due to <strong>meiotic nondisjunction</strong>, most commonly during maternal meiosis I.</p><p><strong>The parents ask:</strong> 'If we have another child, what is the recurrence risk?'</p><p>You need to determine whether this is a free trisomy (nondisjunction) or a translocation form, as this critically affects recurrence risk and genetic counselling.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Karyotype Results"}
+        },
+        "contentId": 2,
+        "feedback": {},
+        "nextContentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>The karyotype shows 47,XX,+21 (free trisomy). What is the most appropriate recurrence risk counselling for this couple?</p>",
+              "alternatives": [
+                {
+                  "text": "Recurrence risk is approximately 1% or the age-related risk, whichever is higher — standard for free trisomy 21",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>For free trisomy 21 from nondisjunction, the empirical recurrence risk is ~1% for mothers under 35, or the age-related risk if higher. At age 38, the age-related risk (~1 in 150) is lower than 1%, so 1% is quoted. Parental karyotyping is still recommended to exclude a balanced Robertsonian translocation carrier.</p>"
+                  }
+                },
+                {
+                  "text": "Recurrence risk is 100% because it is a genetic condition that will always recur",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Free trisomy 21 from nondisjunction is typically a sporadic event. The recurrence risk is low (~1%), not 100%. Only if a parent carries a 21;21 Robertsonian translocation would the recurrence be 100%.</p>"
+                  }
+                },
+                {
+                  "text": "Recurrence risk is 25% following autosomal recessive inheritance pattern",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>Down syndrome is a chromosomal aneuploidy, not a single-gene disorder. It does not follow Mendelian inheritance patterns. The recurrence risk for free trisomy 21 is approximately 1%.</p>"
+                  }
+                },
+                {
+                  "text": "No increased recurrence risk — it was a random event with no chance of recurring",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Not quite",
+                    "subtitle": "<p>While nondisjunction is largely random, there IS a slightly increased recurrence risk (~1%) above the background population risk. This may relate to predisposition to nondisjunction or undetected gonadal mosaicism.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Genetic Counselling"}
+        },
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Key Learning Points</h3><ul><li><strong>Trisomy 21 (Down syndrome):</strong> Most common autosomal trisomy; 95% due to meiotic nondisjunction, 4% Robertsonian translocation, 1% mosaicism</li><li><strong>Advanced maternal age:</strong> Major risk factor — risk increases from 1 in 1,500 at age 20 to 1 in 30 at age 45</li><li><strong>Turner syndrome (45,X):</strong> Short stature, webbed neck, ovarian dysgenesis; most common sex chromosome abnormality in females</li><li><strong>Robertsonian translocation:</strong> Fusion of two acrocentric chromosomes (13, 14, 15, 21, 22); balanced carriers have 45 chromosomes but are phenotypically normal</li><li><strong>Mosaicism:</strong> Two or more genetically distinct cell lines from post-zygotic nondisjunction; phenotype depends on proportion and distribution of abnormal cells</li><li><strong>Recurrence risk:</strong> ~1% for free trisomy 21; up to 100% if parent carries a 21;21 Robertsonian translocation</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Key Learning Points"}
+        },
+        "contentId": 4,
+        "feedback": {},
+        "nextContentId": -1
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

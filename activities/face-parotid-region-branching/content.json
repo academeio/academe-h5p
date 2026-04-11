@@ -1,0 +1,139 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Face & parotid region — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Drooping Face</strong></p>",
+      "startScreenSubtitle": "<p>A 45-year-old woman presents with sudden inability to close her right eye and drooling from the right corner of her mouth since waking up this morning. She had ear pain 2 days ago. You need to localise the lesion and plan management.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified a lower motor neuron facial nerve palsy (Bell's palsy), distinguished it from an UMN lesion by forehead involvement, understood the five terminal branches of the facial nerve, and recognised the clinical significance of the deep facial vein connection to the cavernous sinus.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>You identified some aspects correctly. Review the difference between UMN and LMN facial palsy (forehead sparing in UMN due to bilateral cortical representation), the five terminal branches (Temporal, Zygomatic, Buccal, Marginal mandibular, Cervical), and Frey's syndrome.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review the facial nerve (CN VII) anatomy: origin from 2nd pharyngeal arch, exit through stylomastoid foramen, five terminal branches within parotid gland, UMN vs LMN palsy distinction, and the dangerous connections of facial veins to the cavernous sinus.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Patient Presentation</h2><p>A 45-year-old schoolteacher presents to the ENT OPD with complaints since waking up:</p><ul><li>Inability to close her right eye — it waters constantly</li><li>Drooling from the right corner of her mouth</li><li>Difficulty whistling and puffing out her cheek</li><li>Food collects in the right cheek while eating</li><li>She had mild pain behind the right ear 2 days ago</li></ul><p><strong>On examination:</strong></p><ul><li>Right-sided facial asymmetry at rest</li><li>Cannot wrinkle forehead on the right side</li><li>Cannot close the right eye — Bell's phenomenon positive (eyeball rolls upward)</li><li>Loss of nasolabial fold on the right</li><li>Cannot show teeth on the right side</li><li>Taste sensation reduced on the anterior 2/3 of the right tongue</li><li>Left side of face: completely normal</li></ul><p>All muscles of facial expression are derived from the 2nd pharyngeal arch and supplied by the facial nerve (CN VII). Is this an upper motor neuron or lower motor neuron lesion?</p>"
+          },
+          "subContentId": "scene-0"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Based on the clinical findings, is this an upper motor neuron (UMN) or lower motor neuron (LMN) facial palsy?</p>",
+              "alternatives": [
+                {
+                  "text": "Lower motor neuron (LMN) palsy — because the forehead is involved",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>In an LMN facial palsy, ALL muscles of facial expression on the affected side are paralysed, including the forehead (frontalis). In a UMN facial palsy, the forehead is spared because it has bilateral cortical representation — both hemispheres send fibres to the forehead muscles, so a unilateral cortical lesion does not affect it.</p>"
+                  }
+                },
+                {
+                  "text": "Upper motor neuron (UMN) palsy — because it's sudden onset",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Incorrect reasoning</p>",
+                    "subtitle": "<p>Both UMN and LMN palsies can be sudden. The key distinguishing feature is forehead involvement. In UMN palsy, the forehead is SPARED due to bilateral cortical representation. This patient cannot wrinkle her forehead — indicating LMN involvement.</p>"
+                  }
+                },
+                {
+                  "text": "UMN palsy — because taste is affected",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Taste loss on the anterior 2/3 of the tongue (chorda tympani branch) indicates a peripheral (LMN) lesion of the facial nerve, not a cortical (UMN) lesion. UMN lesions affect motor function only and spare the forehead. This patient has forehead involvement + taste loss = LMN palsy.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-1"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Diagnosis and Anatomical Correlation</h2><p>The diagnosis is <strong>Bell's palsy</strong> — an idiopathic LMN facial nerve palsy, likely due to viral inflammation (HSV) causing oedema of the nerve within the facial canal.</p><p><strong>Anatomical review — Five terminal branches of the facial nerve within the parotid gland (mnemonic: To Zanzibar By Motor Car):</strong></p><ol><li><strong>Temporal</strong> — supplies frontalis and orbicularis oculi (upper)</li><li><strong>Zygomatic</strong> — supplies orbicularis oculi (lower)</li><li><strong>Buccal</strong> — supplies buccinator and muscles around the mouth</li><li><strong>Marginal mandibular</strong> — supplies muscles of the lower lip</li><li><strong>Cervical</strong> — supplies platysma</li></ol><p><strong>Clinical pearl:</strong> The deep facial vein connects the pterygoid venous plexus to the facial vein, providing a route for infection from the face to reach the cavernous sinus — the \"dangerous triangle of the face.\"</p><p>How would you manage this patient?</p>"
+          },
+          "subContentId": "scene-2"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Proceed",
+        "nextContentId": 3,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>What is the most appropriate management for this patient with Bell's palsy?</p>",
+              "alternatives": [
+                {
+                  "text": "Oral prednisolone + eye care (artificial tears, taping at night) + physiotherapy",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "<p>Correct!</p>",
+                    "subtitle": "<p>Oral corticosteroids (prednisolone) started within 72 hours improve recovery rates in Bell's palsy by reducing nerve oedema. Eye protection is essential to prevent exposure keratitis (corneal drying and ulceration) since the eye cannot close. Physiotherapy helps maintain muscle tone during recovery.</p>"
+                  }
+                },
+                {
+                  "text": "Urgent parotidectomy to decompress the nerve",
+                  "nextContentId": -3,
+                  "feedback": {
+                    "title": "<p>Incorrect</p>",
+                    "subtitle": "<p>Parotidectomy is not indicated for Bell's palsy. The compression occurs within the facial canal (temporal bone), not within the parotid gland. Interestingly, Frey's syndrome (gustatory sweating) is a known complication of parotidectomy — it occurs due to aberrant regeneration of parasympathetic secretomotor fibres to sweat glands.</p>"
+                  }
+                },
+                {
+                  "text": "IV antibiotics for suspected infection",
+                  "nextContentId": -2,
+                  "feedback": {
+                    "title": "<p>Not the standard treatment</p>",
+                    "subtitle": "<p>Bell's palsy is thought to be viral (HSV reactivation), not bacterial. Some protocols add acyclovir (antiviral) to steroids, but IV antibiotics are not indicated. The mainstay of treatment is oral corticosteroids + eye protection.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "subContentId": "scene-3"
+        },
+        "showContentTitle": false,
+        "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h2>Management and Teaching Points</h2><p>You prescribe:</p><ul><li><strong>Prednisolone 60 mg/day</strong> for 5 days, then taper over 5 days</li><li><strong>Eye care</strong>: artificial tears 4-hourly, eye taping at night to prevent exposure keratitis</li><li><strong>Facial physiotherapy</strong> starting at 2 weeks</li></ul><p><strong>Key Anatomy Reviewed:</strong></p><ul><li><strong>Facial nerve (CN VII)</strong>: motor to all muscles of facial expression (2nd pharyngeal arch)</li><li><strong>UMN vs LMN palsy</strong>: forehead spared in UMN (bilateral cortical representation), involved in LMN</li><li><strong>Five terminal branches</strong>: Temporal, Zygomatic, Buccal, Marginal mandibular, Cervical</li><li><strong>Deep facial vein</strong>: connects pterygoid plexus to facial vein → route to cavernous sinus</li><li><strong>Frey's syndrome</strong>: gustatory sweating after parotidectomy due to aberrant parasympathetic regeneration</li></ul><p>Prognosis: 85% of patients with Bell's palsy recover completely within 3–6 months.</p>"
+          },
+          "subContentId": "scene-4"
+        },
+        "showContentTitle": false,
+        "proceedButtonText": "Finish",
+        "nextContentId": -1,
+        "feedback": {},
+        "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

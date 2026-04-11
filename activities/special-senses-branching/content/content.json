@@ -1,0 +1,163 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Special Senses — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>Special Senses Case</h2>",
+      "startScreenSubtitle": "<p>A 70-year-old man presents with progressive hearing loss and dizziness. Apply your knowledge of the auditory and vestibular systems to guide the diagnostic workup.</p>"
+    },
+    "endScreens": [
+      {
+        "contentId": -1,
+        "endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>",
+        "endScreenSubtitle": "<p>You correctly applied special senses physiology including auditory pathways, vestibular function, and cranial nerve involvement to this clinical scenario.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 10
+      },
+      {
+        "contentId": -2,
+        "endScreenTitle": "<h2>Partial Understanding</h2>",
+        "endScreenSubtitle": "<p>You showed some knowledge but missed key concepts. Review the auditory pathway, vestibular apparatus, and taste innervation.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 5
+      },
+      {
+        "contentId": -3,
+        "endScreenTitle": "<h2>Needs Improvement</h2>",
+        "endScreenSubtitle": "<p>Review the fundamentals: photoreceptors, auditory ossicles, organ of Corti, vestibular apparatus, and cranial nerve pathways for special senses.</p>",
+        "contentBehavior": "useBehavioralSettings",
+        "score": 0
+      }
+    ],
+    "content": [
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Case Presentation</h3><p>A 70-year-old man presents with progressive hearing loss in the right ear over 6 months, accompanied by tinnitus and episodic vertigo. He also reports a change in taste sensation on the right side of his tongue.</p><p><strong>Examination findings:</strong></p><ul><li>Weber test: Lateralises to the LEFT ear</li><li>Rinne test: Air conduction > bone conduction bilaterally (positive)</li><li>Right-sided facial weakness (upper and lower face)</li><li>Diminished taste on the anterior two-thirds of the right tongue</li></ul><p>Sound is transmitted from the tympanic membrane through three ossicles — <strong>malleus, incus, and stapes</strong> — to the oval window. The <strong>organ of Corti</strong> in the cochlea contains the hair cells that transduce sound into neural signals.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Case Presentation"}
+        },
+        "contentId": 0,
+        "feedback": {},
+        "nextContentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>Weber lateralises to the left (away from the affected ear) and Rinne is positive bilaterally. What type of hearing loss does the right ear have?</p>",
+              "alternatives": [
+                {
+                  "text": "Sensorineural hearing loss — damage to the cochlea or auditory nerve (CN VIII) on the right side",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>In sensorineural hearing loss, Weber lateralises to the NORMAL ear (left) because the damaged cochlea/nerve on the right cannot perceive the bone-conducted sound as well. Rinne remains positive (AC > BC) in both ears because both air and bone conduction are reduced proportionally. This pattern points to cochlear or retrocochlear pathology.</p>"
+                  }
+                },
+                {
+                  "text": "Conductive hearing loss — a problem with the ossicular chain on the right",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>In conductive hearing loss, Weber would lateralise to the AFFECTED ear (right), not away from it. Also, Rinne would be negative (BC > AC) in the affected ear. This patient has Weber lateralising to the left and positive Rinne bilaterally, indicating sensorineural hearing loss.</p>"
+                  }
+                },
+                {
+                  "text": "Mixed hearing loss — both conductive and sensorineural components equally",
+                  "nextContentId": 2,
+                  "feedback": {
+                    "title": "Not the best answer",
+                    "subtitle": "<p>The tuning fork tests clearly indicate a sensorineural pattern: Weber to the normal ear and positive Rinne bilaterally. Combined with facial nerve involvement and taste loss, this suggests a cerebellopontine angle lesion affecting CN VII and VIII — not a mixed peripheral problem.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Type of Hearing Loss"}
+        },
+        "contentId": 1
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Localising the Lesion</h3><p>The combination of findings points to a <strong>cerebellopontine angle (CPA) lesion</strong>, most likely an acoustic neuroma (vestibular schwannoma):</p><ul><li><strong>Hearing loss + tinnitus:</strong> Compression of the cochlear division of CN VIII</li><li><strong>Vertigo:</strong> Involvement of the vestibular division — the semicircular canals detect <strong>rotational acceleration</strong>, while the utricle and saccule detect <strong>linear acceleration</strong></li><li><strong>Facial weakness:</strong> Compression of CN VII (facial nerve)</li><li><strong>Loss of taste:</strong> The anterior two-thirds of the tongue is innervated by the <strong>facial nerve (CN VII)</strong> via the chorda tympani; the posterior one-third by the <strong>glossopharyngeal nerve (CN IX)</strong></li></ul><p>MRI with gadolinium is the gold standard for confirming the diagnosis.</p>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Localising the Lesion"}
+        },
+        "contentId": 2,
+        "feedback": {},
+        "nextContentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.BranchingQuestion 1.0",
+          "params": {
+            "branchingQuestion": {
+              "question": "<p>The patient's vertigo is episodic and triggered by head movements. The vestibular apparatus has two functional components. Which correctly describes their functions?</p>",
+              "alternatives": [
+                {
+                  "text": "Semicircular canals detect rotational (angular) acceleration; utricle and saccule detect linear acceleration and head position",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Correct!",
+                    "subtitle": "<p>The three semicircular canals (horizontal, anterior, posterior) are oriented in three perpendicular planes and detect angular/rotational acceleration via endolymph flow deflecting the cupula. The otolith organs (utricle for horizontal, saccule for vertical) detect linear acceleration and static head tilt via otoconia on hair cells.</p>"
+                  }
+                },
+                {
+                  "text": "Semicircular canals detect gravity and static position; utricle and saccule detect movement",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Reversed!",
+                    "subtitle": "<p>This is backwards. The otolith organs (utricle and saccule) detect gravity and linear acceleration using otoconia (calcium carbonate crystals). The semicircular canals detect rotational/angular acceleration using endolymph flow. Benign paroxysmal positional vertigo (BPPV) occurs when otoconia dislodge into a semicircular canal.</p>"
+                  }
+                },
+                {
+                  "text": "The cochlea handles both hearing and balance — the vestibular apparatus is not involved",
+                  "nextContentId": 4,
+                  "feedback": {
+                    "title": "Incorrect",
+                    "subtitle": "<p>The cochlea is specifically for hearing (organ of Corti with hair cells for sound transduction). Balance is handled by the vestibular apparatus: semicircular canals (angular acceleration) and otolith organs — utricle and saccule (linear acceleration and gravity). Both share the membranous labyrinth but have distinct functions.</p>"
+                  }
+                }
+              ]
+            }
+          },
+          "metadata": {"contentType": "Branching Question", "license": "U", "title": "Vestibular Function"}
+        },
+        "contentId": 3
+      },
+      {
+        "type": {
+          "library": "H5P.AdvancedText 1.1",
+          "params": {
+            "text": "<h3>Key Learning Points</h3><ul><li><strong>Photoreceptors:</strong> Rods (dim light, peripheral vision) and cones (colour, fine detail/acuity)</li><li><strong>Auditory pathway:</strong> Tympanic membrane → malleus → incus → stapes → oval window → cochlear fluid → organ of Corti hair cells</li><li><strong>Hearing tests:</strong> Weber lateralises to normal ear in sensorineural loss, to affected ear in conductive loss; Rinne negative in conductive loss</li><li><strong>Taste innervation:</strong> Anterior 2/3 tongue — facial nerve (CN VII); posterior 1/3 — glossopharyngeal (CN IX)</li><li><strong>Vestibular system:</strong> Semicircular canals (rotational acceleration); utricle + saccule (linear acceleration and gravity)</li><li><strong>Acoustic neuroma:</strong> CPA tumour causing sensorineural hearing loss, tinnitus, vertigo, and facial nerve compression</li></ul>"
+          },
+          "metadata": {"contentType": "Text", "license": "U", "title": "Key Learning Points"}
+        },
+        "contentId": 4,
+        "feedback": {},
+        "nextContentId": -1
+      }
+    ],
+    "scoringOptionGroup": {
+      "scoringOption": "static-end-score"
+    },
+    "behaviour": {
+      "enableBackwardsNavigation": true,
+      "forceContentFinished": false,
+      "randomizeBranchingQuestions": false
+    },
+    "l10n": {
+      "startScreenButtonText": "Begin Case",
+      "endScreenButtonText": "Restart Case",
+      "backButtonText": "Back",
+      "disableProceedButtonText": "Complete this section first",
+      "replayButtonText": "Replay",
+      "scoreText": "Your score:",
+      "fullscreenAria": "Fullscreen"
+    }
+  }
+}

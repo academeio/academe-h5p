@@ -1,0 +1,47 @@
+{
+  "branchingScenario": {
+    "title": "PBL: Integration of Metabolism and Biological Oxidation — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<h2>PBL: Integration of Metabolism and Biological Oxidation</h2>",
+      "startScreenSubtitle": "<p>Work through this clinical case to test your understanding of key concepts in metabolic integration and biological oxidation. Make diagnostic and management decisions based on the clinical scenario.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<h2>Excellent Clinical Reasoning!</h2>", "endScreenSubtitle": "<p>You made the correct clinical decisions at each step. You demonstrated strong understanding of the underlying concepts. Well done!</p>", "contentId": -1, "endScreenScore": 10},
+      {"endScreenTitle": "<h2>Partially Correct</h2>", "endScreenSubtitle": "<p>You showed some understanding but chose a suboptimal path. Review the feedback provided and try again to reinforce your learning.</p>", "contentId": -2, "endScreenScore": 5},
+      {"endScreenTitle": "<h2>Needs Review</h2>", "endScreenSubtitle": "<p>Your clinical reasoning needs strengthening in this area. Review the source material carefully, paying attention to the key concepts highlighted, then attempt the case again.</p>", "contentId": -3, "endScreenScore": 0}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Case: Suspicious House Fire</h2><p>Firefighters rescue an unconscious 45-year-old man from a house fire. He has cherry-red skin colour. Despite high-flow oxygen, his condition deteriorates. Blood gas analysis shows a normal PaO2 but elevated lactate. The toxicology team suspects cyanide poisoning from burning synthetic materials.</p><p><strong>Key concept:</strong> Cyanide blocks Complex IV of the electron transport chain, preventing oxygen from acting as the terminal electron acceptor. This halts oxidative phosphorylation despite adequate oxygen supply.</p>"}, "subContentId": "f6a7b8c9-6666-4fff-b666-000000000001"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Cyanide poisoning blocks a specific complex in the electron transport chain. Which complex is affected and what is the consequence?</p>", "alternatives": [
+          {"text": "Complex IV (cytochrome c oxidase) — prevents oxygen from accepting electrons, halting ATP synthesis", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Cyanide binds to Complex IV, blocking the final step of the ETC where oxygen accepts electrons. This causes histotoxic hypoxia despite adequate O2.</p>"}},
+          {"text": "Complex I (NADH dehydrogenase) — blocks entry of electrons from NADH", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Complex I inhibitors include rotenone and barbiturates. Cyanide specifically targets Complex IV, the terminal oxidase.</p>"}},
+          {"text": "ATP synthase (Complex V) — directly blocks ATP production", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Oligomycin inhibits ATP synthase. Cyanide blocks Complex IV, preventing electron flow to oxygen. Without electron flow, the proton gradient cannot be maintained.</p>"}}
+        ]}}, "subContentId": "f6a7b8c9-6666-4fff-b666-000000000002"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Treatment Response</h2><p>Hydroxocobalamin (vitamin B12a) is administered as a cyanide antidote. The patient's lactate begins to decrease. The team discusses how the cells had been unable to utilise oxygen for aerobic metabolism, forcing reliance on anaerobic glycolysis.</p><p><strong>Concept:</strong> The three central metabolic hubs are Acetyl-CoA, pyruvate, and the TCA (Krebs) cycle. The chemiosmotic theory (Peter Mitchell) explains how the proton gradient drives ATP synthesis by ATP synthase.</p>"}, "subContentId": "f6a7b8c9-6666-4fff-b666-000000000003"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>According to the chemiosmotic theory, how does the electron transport chain generate ATP?</p>", "alternatives": [
+          {"text": "The proton gradient across the inner mitochondrial membrane drives ATP synthesis by ATP synthase", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Peter Mitchell's chemiosmotic theory: ETC complexes pump protons, creating a gradient. Protons flow back through ATP synthase, driving ATP synthesis.</p>"}},
+          {"text": "Substrate-level phosphorylation in the matrix directly produces all mitochondrial ATP", "nextContentId": -2, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Substrate-level phosphorylation produces only a small amount of ATP (in glycolysis and TCA cycle). The vast majority comes from oxidative phosphorylation via the chemiosmotic mechanism.</p>"}},
+          {"text": "Direct chemical coupling between NADH oxidation and ATP formation without a proton gradient", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>The chemiosmotic theory specifically disproved the chemical coupling hypothesis. ATP synthesis is driven by the electrochemical proton gradient.</p>"}}
+        ]}}, "subContentId": "f6a7b8c9-6666-4fff-b666-000000000004"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Clinical Resolution</h2><p>The patient recovers with hydroxocobalamin treatment. His lactate normalises within 6 hours as mitochondrial function is restored.</p><p><strong>Learning points:</strong></p><ul><li>Three metabolic hubs: Acetyl-CoA, pyruvate, and TCA cycle</li><li>Cyanide blocks Complex IV of the ETC</li><li>Chemiosmotic theory (Mitchell): proton gradient drives ATP synthase</li><li>Fasting: glucagon promotes fuel mobilisation; Fed state: insulin promotes storage</li></ul>"}, "subContentId": "f6a7b8c9-6666-4fff-b666-000000000005"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}

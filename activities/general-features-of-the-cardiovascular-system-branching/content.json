@@ -1,0 +1,48 @@
+{
+  "branchingScenario": {
+    "title": "PBL: General features of the cardiovascular system — Clinical Reasoning",
+    "startScreen": {
+      "startScreenTitle": "<p><strong>The Blue Baby</strong></p>",
+      "startScreenSubtitle": "<p>A newborn baby is noted to have bluish discolouration (cyanosis) within hours of birth. The paediatrician suspects a congenital heart defect involving the fetal circulation.</p>"
+    },
+    "endScreens": [
+      {"endScreenTitle": "<p><strong>Excellent Clinical Reasoning!</strong></p>", "endScreenSubtitle": "<p>You correctly identified TGA, understood the ductus arteriosus, vessel wall layers, Windkessel function, and end arteries.</p>", "endScreenScore": 10, "contentId": -1},
+      {"endScreenTitle": "<p><strong>Partial Understanding</strong></p>", "endScreenSubtitle": "<p>Review the fetal circulation, vessel wall layers, Windkessel function, and end arteries.</p>", "endScreenScore": 5, "contentId": -2},
+      {"endScreenTitle": "<p><strong>Needs Review</strong></p>", "endScreenSubtitle": "<p>Review cardiovascular anatomy: vessel wall layers, elastic vs muscular arteries, arterioles, end arteries, and fetal circulation.</p>", "endScreenScore": 0, "contentId": -3}
+    ],
+    "content": [
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Patient Presentation</h2><p>Newborn male, 39 weeks, central cyanosis (SpO2 65%), tachypnoea, single loud S2, no murmur, 'egg-on-a-string' CXR. Three vessel wall layers: tunica intima, media, adventitia. Ductus arteriosus shunts blood from pulmonary trunk to aorta in fetal life, bypassing non-functional lungs.</p>"}, "subContentId": "scene-0"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Most likely diagnosis?</p>", "alternatives": [
+          {"text": "Transposition of the Great Arteries (TGA)", "nextContentId": 2, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>Aorta from RV, PA from LV — two parallel circuits. Survival depends on ductus arteriosus for mixing.</p>"}},
+          {"text": "Ventricular septal defect", "nextContentId": -2, "feedback": {"title": "<p>Unlikely</p>", "subtitle": "<p>VSD causes a murmur and is initially acyanotic (left-to-right shunt).</p>"}},
+          {"text": "Neonatal pneumonia", "nextContentId": -3, "feedback": {"title": "<p>Incorrect</p>", "subtitle": "<p>Pneumonia shows infiltrates on CXR and responds to O2. This is cyanotic heart disease.</p>"}},
+          {"text": "Patent ductus arteriosus", "nextContentId": -2, "feedback": {"title": "<p>Not the primary problem</p>", "subtitle": "<p>In TGA, the PDA is beneficial — it allows blood mixing between the parallel circuits.</p>"}}
+        ]}}, "subContentId": "scene-1"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Echo Confirms d-TGA</h2><p>Aorta from RV anteriorly, PA from LV posteriorly. Small PDA providing life-saving mixing. Elastic arteries (aorta) have Windkessel function: stretch in systole, recoil in diastole. Arterioles = resistance vessels. End arteries have no anastomoses; blockage causes infarction.</p>"}, "subContentId": "scene-2"},
+        "showContentTitle": false, "proceedButtonText": "Proceed", "nextContentId": 3, "feedback": {}, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.BranchingQuestion 1.0", "params": {"branchingQuestion": {"question": "<p>Immediate management?</p>", "alternatives": [
+          {"text": "IV prostaglandin E1 to keep ductus open + balloon atrial septostomy", "nextContentId": 4, "feedback": {"title": "<p>Correct!</p>", "subtitle": "<p>PGE1 keeps ductus patent for mixing. Septostomy improves atrial mixing. Arterial switch operation within 2 weeks.</p>"}},
+          {"text": "Close the ductus with indomethacin", "nextContentId": -3, "feedback": {"title": "<p>Fatal!</p>", "subtitle": "<p>The ductus is the lifeline in TGA. Closing it eliminates blood mixing.</p>"}},
+          {"text": "High-flow oxygen alone", "nextContentId": -2, "feedback": {"title": "<p>Insufficient</p>", "subtitle": "<p>The problem is structural, not pulmonary. Oxygen doesn't fix inadequate blood mixing.</p>"}}
+        ]}}, "subContentId": "scene-3"},
+        "showContentTitle": false, "contentBehaviour": "useBehavioural"
+      },
+      {
+        "type": {"library": "H5P.AdvancedText 1.1", "params": {"text": "<h2>Key Cardiovascular Anatomy</h2><ul><li>Three vessel wall layers: intima, media, adventitia</li><li>Windkessel function: elastic arteries stretch/recoil for continuous flow</li><li>Arterioles: resistance vessels (main determinant of PVR)</li><li>End artery: no anastomoses, blockage causes infarction</li><li>Ductus arteriosus: pulmonary trunk to aorta shunt in fetal life</li></ul>"}, "subContentId": "scene-4"},
+        "showContentTitle": false, "proceedButtonText": "Finish", "nextContentId": -1, "feedback": {}, "contentBehaviour": "useBehavioural"
+      }
+    ],
+    "scoringOptionGroup": {"scoringOption": "static-end-score"},
+    "behaviour": {"enableBackwardsNavigation": true, "forceContentFinished": false, "randomizeBranchingQuestions": false},
+    "l10n": {"startScreenButtonText": "Begin Case", "endScreenButtonText": "Restart Case", "backButtonText": "Back", "disableProceedButtonText": "Complete this section first", "replayButtonText": "Replay", "scoreText": "Your score:", "fullscreenAria": "Fullscreen"}
+  }
+}
