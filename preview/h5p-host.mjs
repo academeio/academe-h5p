@@ -41,6 +41,7 @@ export function h5pHostPage({ title, topicName, codeRange, activityPath, libsPat
     'memory-game':  { badge: 'Memory Game',           color: '#d97706', hint: 'Find all matching pairs' },
     'image-sequencing': { badge: 'Image Sequencing',  color: '#d97706', hint: 'Arrange the images in the correct order' },
     timeline:       { badge: 'Timeline',              color: '#6d28d9', hint: 'Explore the events on the timeline' },
+    'interactive-video': { badge: 'Interactive Video', color: '#db2777', hint: 'Watch the video — it will pause for quick checks along the way' },
   };
   const cfg = TYPE_CONFIG[h5pType] || TYPE_CONFIG.hotspots;
   const badgeLabel = cfg.badge;
