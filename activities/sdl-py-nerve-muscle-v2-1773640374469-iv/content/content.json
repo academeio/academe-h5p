@@ -11,9 +11,9 @@
         }
       ],
       "startScreenOptions": {
-        "title": "PY3.1-PY3.9 — Interactive Video (PY)",
+        "title": "PY3.1-PY3.9 — Interactive Lecture (PY)",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive video with 6 embedded questions for PY3.1-PY3.9."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for PY3.1-PY3.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -35,7 +35,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which factor is the PRIMARY reason the resting membrane potential sits close to </p>",
+          "label": "<p>Which factor is the PRIMARY reason the resting membrane potential of a neuron is</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -44,41 +44,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which factor is the PRIMARY reason the resting membrane potential sits close to −70 mV rather than 0 mV?</p>",
+              "question": "<p>Which factor is the PRIMARY reason the resting membrane potential of a neuron is close to −70 mV?</p>",
               "answers": [
                 {
-                  "text": "<div>The membrane is far more permeable to potassium than to sodium at rest, allowing K⁺ to diffuse out</div>",
+                  "text": "<div>High membrane permeability to potassium through leak channels, allowing K⁺ efflux</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. At rest, open K⁺ leak channels dominate membrane permeability, so K⁺ exits down its gradient and leaves the interior negative, approaching the K⁺ Nernst potential.</div>",
+                    "chosenFeedback": "<div>Correct. At rest, the membrane is far more permeable to K⁺ than Na⁺. K⁺ leak channels let K⁺ exit down its concentration gradient, leaving the interior negative — close to the K⁺ Nernst potential.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The Na⁺/K⁺ pump directly generates the entire resting potential by pumping ions electrogenically</div>",
+                  "text": "<div>The Na⁺/K⁺-ATPase directly generating most of the voltage across the membrane</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The pump contributes only a small electrogenic component (3 Na⁺ out for 2 K⁺ in). Its main role is maintaining the gradients that K⁺ leak channels exploit.</div>",
+                    "chosenFeedback": "<div>The pump is electrogenic but contributes only a few millivolts. Its main role is maintaining the ion gradients that the leak channels then use.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Voltage-gated sodium channels remain slightly open, letting Na⁺ leak inward</div>",
+                  "text": "<div>Continuous inward leak of chloride ions along its concentration gradient</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Voltage-gated Na⁺ channels are closed at rest. A small background Na⁺ leak exists but only slightly offsets the dominant K⁺ effect.</div>",
+                    "chosenFeedback": "<div>Chloride plays a minor role in most neurons at rest. The dominant determinant is potassium permeability through leak channels.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Chloride ions are actively pumped out of the cell, leaving the interior negative</div>",
+                  "text": "<div>Open voltage-gated sodium channels allowing a small steady Na⁺ influx</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Cl⁻ distribution is largely passive in most neurons and is not the principal determinant of the resting potential.</div>",
+                    "chosenFeedback": "<div>Voltage-gated Na⁺ channels are closed at rest. A small Na⁺ leak exists, but it only offsets the K⁺-driven potential slightly.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -87,12 +87,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: at rest, the membrane is most permeable to K⁺. The resting potential therefore sits near E_K (−94 mV), offset slightly by Na⁺ leak to about −70 mV."
+                  "feedback": "Remember: the membrane at rest is mainly permeable to K⁺. K⁺ efflux through leak channels creates the negative interior; the pump maintains the gradient but does not directly set the voltage."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "The resting potential is essentially a potassium diffusion potential, modified slightly by Na⁺ leak and the electrogenic pump."
+                  "feedback": "Well done. The resting potential is essentially a potassium diffusion potential, shifted slightly by Na⁺ leak and maintained by the Na⁺/K⁺ pump."
                 }
               ],
               "behaviour": {
@@ -119,7 +119,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "dd36fbbb-02fc-430a-bbc5-7338536d542c",
+            "subContentId": "6090b91a-02d6-436c-95f4-071c02f0cba3",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -145,95 +145,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In multiple sclerosis, nerve conduction velocity is markedly slowed. What is the</p>",
+          "label": "<p>In saltatory conduction, action potentials are regenerated only at the nodes of </p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>In multiple sclerosis, nerve conduction velocity is markedly slowed. What is the underlying mechanism?</p>",
-              "answers": [
-                {
-                  "text": "<div>Axonal transection prevents any electrical signal from propagating</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>In MS the axons are relatively preserved; it is the myelin sheath that is damaged. Complete transection would abolish conduction, not merely slow it.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Loss of myelin disrupts saltatory conduction, forcing the impulse back to slow continuous conduction</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Without intact myelin, the action potential cannot jump between nodes of Ranvier, so conduction reverts to slow point-to-point propagation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Voltage-gated sodium channels are destroyed at the axon hillock</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>MS does not selectively destroy axon hillock Na⁺ channels. The primary lesion is demyelination of internodes.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The sodium–potassium pump fails, collapsing ion gradients</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The Na⁺/K⁺ pump is not the target in MS. Gradients remain intact; it is saltatory conduction that is disrupted.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Recall: myelin acts as an insulator so that current flows only at nodes of Ranvier. Strip the myelin and saltatory conduction fails — conduction slows dramatically even though the axon is intact."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Demyelination slows conduction by abolishing the node-to-node jumping of action potentials characteristic of myelinated fibres."
-                }
-              ],
+              "question": "<p>In saltatory conduction, action potentials are regenerated only at the nodes of Ranvier because voltage-gated sodium channels are concentrated there.</p>",
+              "correct": "true",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This is true. Myelin prevents current leak across internodes, and the nodes of Ranvier — rich in voltage-gated Na⁺ channels — are where each action potential is regenerated.",
+                "correctAnswerMessage": "Correct. Myelin insulates the internodes, and Na⁺ channels cluster at the nodes. The action potential 'jumps' from node to node, dramatically increasing conduction velocity.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "d1dbb831-4fc3-43cf-b086-51d7ee14349c",
+            "subContentId": "29379698-3fd9-444d-ba9f-973d5ff64365",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "In multiple sclerosis, nerve conduction",
+              "title": "In saltatory conduction, action potentia",
               "authors": [],
               "changes": []
             }
@@ -255,7 +203,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>At the neuromuscular junction, what event immediately triggers acetylcholine rel</p>",
+          "label": "<p>In myasthenia gravis, muscle weakness occurs because autoantibodies target which</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -264,41 +212,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>At the neuromuscular junction, what event immediately triggers acetylcholine release from the axon terminal?</p>",
+              "question": "<p>In myasthenia gravis, muscle weakness occurs because autoantibodies target which structure at the neuromuscular junction?</p>",
               "answers": [
                 {
-                  "text": "<div>Binding of acetylcholine to nicotinic receptors on the motor end plate</div>",
+                  "text": "<div>Voltage-gated calcium channels on the presynaptic axon terminal</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This occurs AFTER release, on the postsynaptic side. It generates the end-plate potential, not the release itself.</div>",
+                    "chosenFeedback": "<div>These are the target in Lambert-Eaton myasthenic syndrome, not myasthenia gravis. The effect there is reduced ACh release.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Opening of voltage-gated potassium channels in the axon terminal</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>K⁺ channel opening repolarises the terminal; it does not trigger vesicle fusion.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Influx of calcium through voltage-gated calcium channels in the presynaptic terminal</div>",
+                  "text": "<div>Nicotinic acetylcholine receptors on the motor end-plate</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Depolarisation of the terminal opens voltage-gated Ca²⁺ channels; the inrush of Ca²⁺ drives SNARE-mediated vesicle fusion and ACh release.</div>",
+                    "chosenFeedback": "<div>Correct. Autoantibodies destroy postsynaptic nicotinic receptors, reducing the end-plate potential below the safety factor and causing fatiguable weakness.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Activation of acetylcholinesterase in the synaptic cleft</div>",
+                  "text": "<div>Acetylcholinesterase in the synaptic cleft</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Acetylcholinesterase terminates the signal by hydrolysing ACh after release — it plays no role in triggering release.</div>",
+                    "chosenFeedback": "<div>AChE is inhibited by drugs like neostigmine and organophosphates, not by autoantibodies in myasthenia gravis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>SNARE proteins involved in vesicle fusion</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>SNAREs are cleaved by botulinum toxin, which blocks ACh release. Myasthenia gravis attacks the postsynaptic receptors.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -307,12 +255,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the sequence: action potential → terminal depolarisation → voltage-gated Ca²⁺ channels open → Ca²⁺ influx → vesicle fusion → ACh release."
+                  "feedback": "Myasthenia gravis is a postsynaptic disorder — autoantibodies against nicotinic ACh receptors. Lambert-Eaton, botulinum, and AChE inhibitors affect different parts of the junction."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Calcium influx is the key trigger linking terminal depolarisation to neurotransmitter release at every chemical synapse, including the NMJ."
+                  "feedback": "Exactly. Loss of functional nicotinic receptors shrinks the end-plate potential. Neostigmine helps by letting ACh linger and find the remaining receptors."
                 }
               ],
               "behaviour": {
@@ -339,69 +287,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8409cb89-e619-47a7-b811-2dd8af44dde3",
+            "subContentId": "5d734fa5-f6b8-415c-92f3-9d2e83a49edd",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "At the neuromuscular junction, what even",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 786.1,
-            "to": 796.1
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>In the cross-bridge cycle of skeletal muscle, ATP binding to the myosin head cau</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>In the cross-bridge cycle of skeletal muscle, ATP binding to the myosin head causes it to DETACH from actin, not to perform the power stroke.</p>",
-              "correct": "true",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Review the cycle: the power stroke occurs when Pi is released from an already-attached myosin head. ATP is needed AFTER the stroke, to detach the head. In rigor mortis, absence of ATP locks myosin on actin.",
-                "correctAnswerMessage": "Correct. ATP binding detaches myosin from actin; hydrolysis then re-cocks the head. The power stroke itself is driven by release of inorganic phosphate, not ATP binding. This is why rigor mortis occurs — without ATP, myosin cannot detach.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "8b82bae2-bb0a-4571-8328-203d3d3af20d",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "In the cross-bridge cycle of skeletal mu",
+              "title": "In myasthenia gravis, muscle weakness oc",
               "authors": [],
               "changes": []
             }
@@ -423,7 +313,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>According to Henneman's size principle, how does the nervous system initially pr</p>",
+          "label": "<p>During skeletal muscle excitation-contraction coupling, calcium released from th</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -432,41 +322,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>According to Henneman's size principle, how does the nervous system initially produce finely graded, low-force contractions?</p>",
+              "question": "<p>During skeletal muscle excitation-contraction coupling, calcium released from the sarcoplasmic reticulum triggers contraction by binding to which molecule?</p>",
               "answers": [
                 {
-                  "text": "<div>By recruiting large motor units first, then adding smaller ones as force demand rises</div>",
+                  "text": "<div>Myosin light chain, activating cross-bridge cycling directly</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This reverses the size principle. Large units would produce coarse, powerful contractions — incompatible with fine control.</div>",
+                    "chosenFeedback": "<div>That is the mechanism in smooth muscle, via calmodulin and myosin light chain kinase. Skeletal muscle uses a different calcium sensor.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>By recruiting small motor units first, adding progressively larger ones as more force is required</div>",
+                  "text": "<div>Tropomyosin, physically displacing it from actin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Tropomyosin does move off the binding sites, but not because calcium binds it directly. Calcium binds troponin, which then shifts tropomyosin.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Troponin C, causing tropomyosin to shift and expose actin binding sites</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Small, low-threshold motor units are recruited first to enable fine control; larger units are added later to produce greater force.</div>",
+                    "chosenFeedback": "<div>Correct. Ca²⁺ binds troponin C, the troponin complex shifts tropomyosin off actin, and myosin heads can then attach and pivot.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>By increasing the firing rate of a single motor unit without recruiting any additional units</div>",
+                  "text": "<div>The ryanodine receptor, opening it to release more calcium</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Rate coding contributes to force gradation, but the size principle specifically describes the ORDER of motor unit recruitment, not rate changes alone.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>By simultaneously activating all motor units at submaximal intensity</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Simultaneous activation would produce an all-or-none response at the whole-muscle level and prevent fine grading of force.</div>",
+                    "chosenFeedback": "<div>The ryanodine receptor releases calcium; it is not the calcium-binding sensor that initiates cross-bridge cycling. That role belongs to troponin C.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -475,12 +365,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The size principle: small motor units (low threshold) are recruited first for fine control, then progressively larger ones. Rate coding (wave summation, tetanus) is a SECOND mechanism of force gradation."
+                  "feedback": "In skeletal muscle, calcium binds troponin C. This shifts the troponin-tropomyosin complex off actin, exposing binding sites for myosin heads."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Small-first recruitment enables smooth, precise control for delicate movements; larger units join only as force demand grows."
+                  "feedback": "Well done. Troponin C is the calcium switch in skeletal and cardiac muscle. Smooth muscle uses calmodulin instead."
                 }
               ],
               "behaviour": {
@@ -507,11 +397,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e1d693dd-9eed-47d4-93c6-ec84b493aae3",
+            "subContentId": "66348673-dd7a-4728-9931-4a2f671a2d79",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "According to Henneman's size principle,",
+              "title": "During skeletal muscle excitation-contra",
               "authors": [],
               "changes": []
             }
@@ -533,7 +423,65 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>An athlete sprints maximally for 8 seconds. Which energy system is the PRIMARY s</p>",
+          "label": "<p>In smooth muscle, calcium initiates contraction by binding to calmodulin, which </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>In smooth muscle, calcium initiates contraction by binding to calmodulin, which then activates myosin light chain kinase.</p>",
+              "correct": "true",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This is actually true. Smooth muscle has no troponin. Calcium binds calmodulin, which activates MLCK — phosphorylation of the myosin light chain then permits cross-bridge cycling.",
+                "correctAnswerMessage": "Correct. Smooth muscle lacks troponin. Ca²⁺-calmodulin activates MLCK, which phosphorylates the myosin light chain and enables cross-bridge cycling.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "5be1f6b6-3c45-4859-a270-ff77b51b1f23",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "In smooth muscle, calcium initiates cont",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1465.275,
+            "to": 1475.275
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Why can cardiac muscle NOT be tetanised, unlike skeletal muscle?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -542,41 +490,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>An athlete sprints maximally for 8 seconds. Which energy system is the PRIMARY source of ATP during this burst?</p>",
+              "question": "<p>Why can cardiac muscle NOT be tetanised, unlike skeletal muscle?</p>",
               "answers": [
                 {
-                  "text": "<div>Aerobic oxidative phosphorylation in the mitochondria</div>",
+                  "text": "<div>Cardiac muscle lacks sarcoplasmic reticulum, so calcium cannot be recycled quickly enough</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Oxidative phosphorylation is the dominant source only for sustained efforts beyond 2 minutes. It is too slow to meet the demands of an 8-second sprint.</div>",
+                    "chosenFeedback": "<div>Cardiac muscle has a sarcoplasmic reticulum and uses calcium-induced calcium release. The barrier to tetanus is electrical, not a calcium recycling problem.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Anaerobic glycolysis generating lactate</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Anaerobic glycolysis becomes the main source roughly between 10 seconds and 2 minutes. It is not the primary supplier during the first 8 seconds.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The phosphocreatine system via creatine kinase</div>",
+                  "text": "<div>Cardiac action potentials have a prolonged plateau phase, producing an absolute refractory period that lasts almost the entire contraction</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. For the first 8–10 seconds, phosphocreatine rapidly regenerates ATP through creatine kinase — the fastest available source, ideal for short explosive bursts.</div>",
+                    "chosenFeedback": "<div>Correct. The long plateau — driven by L-type Ca²⁺ channels — keeps the cell refractory throughout the contraction, so summation and therefore tetanus are impossible.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Beta-oxidation of fatty acids</div>",
+                  "text": "<div>Cardiac cells are electrically isolated from each other, preventing the spread of repetitive stimuli</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Fatty acid oxidation is slow and suits prolonged, low-to-moderate intensity exercise — not the first seconds of a sprint.</div>",
+                    "chosenFeedback": "<div>The opposite is true. Gap junctions at intercalated discs electrically couple cardiac cells so that excitation spreads easily.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Cardiac muscle relies entirely on aerobic metabolism, which cannot sustain the rapid firing needed for tetanus</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Aerobic dependence matters for fatigue resistance, but the reason tetanus is impossible is the long absolute refractory period, not energy supply.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -585,12 +533,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the timeline: phosphocreatine (0–10 s) → anaerobic glycolysis (10 s–2 min) → aerobic oxidative phosphorylation (>2 min)."
+                  "feedback": "The key is the prolonged cardiac action potential. Its plateau (from L-type Ca²⁺ channels) gives an absolute refractory period nearly as long as the contraction itself, so a second contraction cannot summate."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "The phosphocreatine system dominates the first 8–10 seconds of all-out effort; glycolysis and oxidative phosphorylation take over progressively thereafter."
+                  "feedback": "Exactly. The long plateau and matching refractory period are a protective mechanism — if the heart tetanised, it would stop pumping blood."
                 }
               ],
               "behaviour": {
@@ -617,11 +565,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8682e420-9f97-4278-b317-6cb6163b2dc0",
+            "subContentId": "8710b9c7-cf9b-4901-8126-07d63a79ba74",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "An athlete sprints maximally for 8 secon",
+              "title": "Why can cardiac muscle NOT be tetanised,",
               "authors": [],
               "changes": []
             }
@@ -650,16 +598,16 @@
           "label": "2: scene-7"
         },
         {
-          "time": 786,
-          "label": "3: scene-8"
-        },
-        {
           "time": 979,
-          "label": "4: scene-10"
+          "label": "3: scene-10"
         },
         {
           "time": 1271,
-          "label": "5: scene-13"
+          "label": "4: scene-13"
+        },
+        {
+          "time": 1465,
+          "label": "5: scene-16"
         }
       ],
       "endscreens": [
@@ -676,7 +624,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "3f69d6b0-0e77-4d63-ab7d-ba84db52b455",
+              "subContentId": "3da221b0-f1f7-4c1a-a45a-ee1d1d7ea638",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -699,7 +647,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "417dc898-f48a-47ad-a2db-3aeb0875ca30",
+        "subContentId": "2e11c8ad-d107-4624-af72-240ccf2fc5a5",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
