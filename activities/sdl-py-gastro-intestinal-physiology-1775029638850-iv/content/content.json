@@ -35,7 +35,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the regulation of gastric acid secretion, which hormone acts as the negative </p>",
+          "label": "<p>Gastrin stimulates acid secretion from parietal cells. Which hormone provides th</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -44,14 +44,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In the regulation of gastric acid secretion, which hormone acts as the negative feedback signal that switches off gastrin release when acidity rises?</p>",
+              "question": "<p>Gastrin stimulates acid secretion from parietal cells. Which hormone provides the negative feedback that switches gastrin off when gastric acidity rises?</p>",
               "answers": [
                 {
                   "text": "<div>Secretin</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Secretin is released by duodenal S cells in response to acid entering the duodenum. It stimulates pancreatic bicarbonate secretion but does not directly inhibit gastrin release from G cells.</div>",
+                    "chosenFeedback": "<div>Secretin is released by S cells in the duodenum in response to acid entering from the stomach. It stimulates pancreatic bicarbonate secretion to neutralise that acid, but it does not directly inhibit gastrin release from G cells.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -60,7 +60,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>CCK is released by I cells in response to fat and protein. It stimulates pancreatic enzyme secretion and gallbladder contraction, but does not participate in the gastrin feedback loop.</div>",
+                    "chosenFeedback": "<div>CCK is released by I cells in response to fat and protein in the duodenum. It triggers pancreatic enzyme secretion and gallbladder contraction but does not form a feedback loop with gastrin.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -69,7 +69,7 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. When gastric acidity rises, D cells release somatostatin, which directly inhibits gastrin secretion from neighbouring G cells. This is the classic negative feedback loop controlling acid output.</div>",
+                    "chosenFeedback": "<div>Correct. When gastric pH drops below 2, D cells in the antral mucosa release somatostatin, which directly inhibits gastrin release from neighbouring G cells. This is a classic paracrine negative feedback loop.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -78,7 +78,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>GIP (from duodenal K cells) suppresses gastric acid and stimulates insulin release, but it acts from the duodenum — it is not the local antral signal that directly switches off gastrin.</div>",
+                    "chosenFeedback": "<div>GIP is released by K cells in the duodenum in response to fat and carbohydrate. It suppresses gastric acid secretion and stimulates insulin release, but it does not directly inhibit gastrin at the G-cell level.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -87,12 +87,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the feedback pattern described in this section: gastrin drives acid secretion, and rising acidity activates somatostatin from D cells, which then switches gastrin off."
+                  "feedback": "Review the gastrin–somatostatin feedback loop. When gastric pH falls below 2, D cells release somatostatin, which acts locally on G cells to shut down gastrin secretion."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The gastrin–somatostatin negative feedback loop is a core regulatory mechanism: rising acidity activates D cells → somatostatin release → gastrin suppression → reduced acid output."
+                  "feedback": "Well done. The gastrin–somatostatin axis is a textbook example of paracrine negative feedback in the gut. Rising acidity activates D cells, which suppress G cells locally."
                 }
               ],
               "behaviour": {
@@ -119,11 +119,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f2820f3b-7518-4a22-b00e-eaf753247dcd",
+            "subContentId": "77b5e792-c06d-4d69-968d-14f076605c3e",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In the regulation of gastric acid secret",
+              "title": "Gastrin stimulates acid secretion from p",
               "authors": [],
               "changes": []
             }
@@ -145,43 +145,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The cephalic phase of gastric secretion contributes the largest proportion (abou</p>",
+          "label": "<p>Which phase of gastric acid secretion contributes the largest share of total aci</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The cephalic phase of gastric secretion contributes the largest proportion (about 60%) of total gastric acid output.</p>",
-              "correct": "false",
+              "question": "<p>Which phase of gastric acid secretion contributes the largest share of total acid output, and what is its primary stimulus?</p>",
+              "answers": [
+                {
+                  "text": "<div>Cephalic phase — vagal stimulation from sight and smell of food</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The cephalic phase does involve vagal stimulation triggered by the sight or thought of food, but it accounts for only about 30% of total acid output, not the largest share.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Gastric phase — gastrin release triggered by stomach distension</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The gastric phase contributes approximately 60% of total acid output. When food distends the stomach wall, G cells release gastrin, which is the dominant driver of acid secretion.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Intestinal phase — secretin release when chyme enters the duodenum</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The intestinal phase contributes only about 10% and is primarily inhibitory. Secretin released here actually suppresses further acid secretion rather than stimulating it.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Gastric phase — parasympathetic stimulation from Meissner's plexus</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While the gastric phase is indeed the largest contributor, its primary stimulus is gastrin from G cells, not Meissner's plexus. Meissner's plexus regulates mucosal secretion and blood flow but is not the main driver of acid output in this phase.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The three phases contribute roughly 30% (cephalic), 60% (gastric), and 10% (intestinal). The gastric phase is dominant because food in the stomach directly stimulates G cells to release gastrin."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Excellent. The gastric phase dominates acid secretion (60%), driven by gastrin from antral G cells. Remember the 30-60-10 rule for cephalic, gastric, and intestinal phases."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "The cephalic phase contributes roughly 30% of acid output via vagal stimulation. The gastric phase is the major contributor at about 60%, driven by gastrin release when food physically distends the stomach. The intestinal phase adds the remaining 10%.",
-                "correctAnswerMessage": "Correct — it is false. The gastric phase contributes about 60%, driven mainly by gastrin release when food distends the stomach. The cephalic phase accounts for only about 30%, triggered by vagal stimulation from the sight or thought of food.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "0ed1598c-80b5-492e-8ac6-280c1ac8f853",
+            "subContentId": "2b141e6a-3594-4748-8c9c-e28b94021e14",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The cephalic phase of gastric secretion",
+              "title": "Which phase of gastric acid secretion co",
               "authors": [],
               "changes": []
             }
@@ -203,227 +255,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Brunner's glands secrete alkaline mucus to protect the duodenal wall from gastri</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>Brunner's glands secrete alkaline mucus to protect the duodenal wall from gastric acid. What happens to these glands under chronic sympathetic stimulation (stress)?</p>",
-              "answers": [
-                {
-                  "text": "<div>They increase their alkaline mucus output</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Sympathetic stimulation actually suppresses Brunner's gland activity. Increased output occurs with parasympathetic (vagal) stimulation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>They are suppressed, reducing mucosal protection</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Sympathetic tone dominates during stress, suppressing Brunner's glands. The duodenal mucosa loses its alkaline mucus shield, which is why duodenal ulcers are more common under chronic stress.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>They switch from mucus secretion to enzyme secretion</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Brunner's glands secrete only alkaline mucus; they do not produce digestive enzymes under any stimulus. The switch does not occur.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>They undergo hypertrophy and become overactive</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Chronic stress causes suppression, not hypertrophy, of Brunner's glands. Hypertrophy of Brunner's glands is a separate, rare pathological condition unrelated to sympathetic stimulation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Remember: vagal (parasympathetic) stimulation activates Brunner's glands, while sympathetic stimulation suppresses them. Under chronic stress, sympathetic dominance removes the alkaline mucus barrier, predisposing to duodenal ulcers."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. The stress–ulcer link through Brunner's gland suppression is a classic example of how autonomic regulation directly affects mucosal defence."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "fa98b0e5-ab76-4d49-9500-3c9473196ffe",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "Brunner's glands secrete alkaline mucus",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 784.1,
-            "to": 794.1
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>After digestion, chylomicrons assembled inside enterocytes are too large to ente</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>After digestion, chylomicrons assembled inside enterocytes are too large to enter blood capillaries. By which route do they reach the systemic circulation?</p>",
-              "answers": [
-                {
-                  "text": "<div>Portal vein → liver → hepatic vein</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The portal vein carries water-soluble nutrients (glucose, amino acids) to the liver. Chylomicrons are too large for blood capillary fenestrations and cannot use this route.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Mesenteric veins → inferior vena cava</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Mesenteric veins drain into the portal system and carry only water-soluble nutrients. Chylomicrons require the lymphatic route.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Lacteals → thoracic duct → left subclavian vein</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Chylomicrons enter the lacteals (lymphatic capillaries inside villi), travel through lymphatic vessels to the thoracic duct, and empty into the bloodstream at the left subclavian vein — bypassing the liver entirely on first pass.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Hepatic artery → systemic circulation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The hepatic artery delivers oxygenated blood to the liver; it plays no role in nutrient absorption from the gut.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Remember: fat takes the lymphatic route because chylomicrons are physically too large for blood capillaries. They enter lacteals in the villi, travel via the thoracic duct, and join the bloodstream at the left subclavian vein."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. The lymphatic route for fat (lacteals → thoracic duct → subclavian vein) is a key distinction from the portal route used by carbohydrates and proteins."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "c7ad290d-9413-48ca-86ea-f78a5062793b",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "After digestion, chylomicrons assembled",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 993.5,
-            "to": 1003.5
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>The gallbladder synthesises bile and releases it into the duodenum when stimulat</p>",
+          "label": "<p>Under chronic stress, sympathetic stimulation suppresses Brunner's gland secreti</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -432,7 +264,175 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>The gallbladder synthesises bile and releases it into the duodenum when stimulated by cholecystokinin.</p>",
+              "question": "<p>Under chronic stress, sympathetic stimulation suppresses Brunner's gland secretion, reducing the alkaline mucus barrier in the duodenum and increasing the risk of duodenal ulcers.</p>",
+              "correct": "true",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is true. Brunner's glands are activated by parasympathetic (vagal) input and suppressed by sympathetic stimulation. During chronic stress, sympathetic tone dominates, reducing the protective alkaline mucus layer in the duodenum and predisposing to ulcer formation.",
+                "correctAnswerMessage": "Correct. Brunner's glands in the duodenal submucosa secrete alkaline mucus that shields the duodenal wall from gastric acid. Vagal stimulation activates them, but sympathetic dominance during stress suppresses them, leaving the mucosa vulnerable to acid injury.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "0abdf8ef-4138-4e89-869f-125d2ed2b9cc",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "Under chronic stress, sympathetic stimul",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 897.825,
+            "to": 907.825
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>During fasting, the small intestine undergoes cyclical contractions every 90 min</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>During fasting, the small intestine undergoes cyclical contractions every 90 minutes to sweep residual contents forward. Which hormone drives this migrating myoelectric complex?</p>",
+              "answers": [
+                {
+                  "text": "<div>Gastrin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Gastrin stimulates gastric acid secretion and motility in the fed state. It does not drive the fasting housekeeping contractions of the migrating myoelectric complex.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Cholecystokinin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>CCK is released postprandially in response to fat and protein. It actually interrupts the MMC pattern when feeding begins, rather than driving it.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Motilin</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Motilin is released cyclically during fasting and drives the migrating myoelectric complex. Erythromycin, a motilin receptor agonist, is used clinically as a prokinetic drug precisely because of this mechanism.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Secretin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Secretin is released when acid enters the duodenum and drives pancreatic bicarbonate secretion. It plays no role in the cyclical fasting contractions of the MMC.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Motilin is the hormone that drives the migrating myoelectric complex every 90 minutes during fasting. A useful clinical link: erythromycin acts as a motilin agonist and is used as a prokinetic."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. Motilin drives the MMC during fasting. When these contractions are disrupted, bacteria accumulate in the small intestine, causing small intestinal bacterial overgrowth (SIBO)."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "e342e64b-fe29-47d8-83b6-5a99075a5b58",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "During fasting, the small intestine unde",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1094.375,
+            "to": 1104.375
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>The majority of the body's serotonin is produced in the brain, where it regulate</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>The majority of the body's serotonin is produced in the brain, where it regulates mood and behaviour.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -450,16 +450,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "The gallbladder stores and concentrates bile but does not make it. Bile is synthesised by hepatocytes in the liver. CCK causes gallbladder contraction and sphincter of Oddi relaxation, releasing stored bile into the duodenum.",
-                "correctAnswerMessage": "Correct — it is false. The gallbladder does not synthesise bile; hepatocytes in the liver produce bile continuously. The gallbladder only stores and concentrates bile between meals, then contracts under CCK stimulation to release it.",
+                "wrongAnswerMessage": "This statement is false. While serotonin does regulate mood in the brain, 95% of the body's total serotonin is actually produced in the gut by enterochromaffin cells. It regulates gut motility and signals satiety to the brain. This gut-brain serotonin connection explains why SSRIs frequently cause GI side effects like nausea and diarrhoea.",
+                "correctAnswerMessage": "Correct — this statement is false. Approximately 95% of the body's serotonin is produced in the gut by enterochromaffin cells, not in the brain. Gut serotonin regulates motility and sends satiety signals to the brain via the vagus nerve. This is why SSRIs commonly cause gastrointestinal side effects.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "720cd631-aa89-40f8-8d73-90d23fded46b",
+            "subContentId": "bdef62ca-8f53-426e-ab33-970e89b598a5",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "The gallbladder synthesises bile and rel",
+              "title": "The majority of the body's serotonin is",
               "authors": [],
               "changes": []
             }
@@ -475,13 +475,13 @@
         },
         {
           "duration": {
-            "from": 1235.525,
-            "to": 1245.525
+            "from": 1314.15,
+            "to": 1324.15
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with cholera has profuse watery diarrhoea that persists even when fast</p>",
+          "label": "<p>During abdominal examination, you suspect splenomegaly. From which region should</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -490,41 +490,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with cholera has profuse watery diarrhoea that persists even when fasting. Which type of diarrhoea does this represent?</p>",
+              "question": "<p>During abdominal examination, you suspect splenomegaly. From which region should you begin palpation to avoid missing a grossly enlarged spleen?</p>",
               "answers": [
                 {
-                  "text": "<div>Osmotic diarrhoea</div>",
+                  "text": "<div>Left hypochondrium, moving downward</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Osmotic diarrhoea is caused by unabsorbed solutes drawing water into the lumen. It characteristically stops with fasting because the osmotic load is removed. Cholera diarrhoea persists during fasting.</div>",
+                    "chosenFeedback": "<div>Starting at the left hypochondrium risks pressing directly onto a massively enlarged spleen without detecting its lower edge. You may miss the extent of enlargement entirely.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Secretory diarrhoea</div>",
+                  "text": "<div>Epigastrium, moving laterally</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The epigastrium is the starting point for liver palpation. The spleen enlarges diagonally toward the right iliac fossa, so a lateral approach from the epigastrium would not follow the correct axis of splenic enlargement.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Right iliac fossa, sweeping toward the left hypochondrium</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In cholera, the toxin activates adenylyl cyclase in enterocytes, causing sustained chloride and water secretion regardless of oral intake. The hallmark of secretory diarrhoea is that it persists during fasting.</div>",
+                    "chosenFeedback": "<div>Correct. The spleen enlarges downward and to the right. Starting from the right iliac fossa and sweeping diagonally upward toward the left hypochondrium on inspiration ensures you detect even a massively enlarged spleen.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Inflammatory diarrhoea</div>",
+                  "text": "<div>Umbilical region, moving in all directions</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Inflammatory diarrhoea produces blood and pus (mucoid/bloody stools), as seen in dysentery or inflammatory bowel disease. Cholera produces rice-water stools without blood.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Malabsorptive diarrhoea</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Malabsorptive diarrhoea produces fatty, floating stools (steatorrhoea) due to failure to absorb nutrients. This is not the mechanism in cholera.</div>",
+                    "chosenFeedback": "<div>A non-directed approach from the umbilicus lacks the systematic diagonal sweep needed to follow the spleen's axis of enlargement. You risk missing the splenic edge altogether.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -533,12 +533,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The four types differ by mechanism: secretory (persists with fasting — active secretion, e.g. cholera), osmotic (stops with fasting — unabsorbed solutes), inflammatory (blood and pus), and malabsorptive (fatty stools). Use the fasting test to distinguish secretory from osmotic."
+                  "feedback": "Remember: the spleen enlarges diagonally toward the right iliac fossa. Begin palpation there and sweep upward toward the left hypochondrium, asking the patient to breathe deeply so the diaphragm pushes the spleen into your examining hand."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. The key distinguishing feature: secretory diarrhoea persists during fasting (active ion secretion), while osmotic diarrhoea stops (no osmotic load). Cholera is the classic secretory example."
+                  "feedback": "Well done. Starting from the right iliac fossa and sweeping toward the left hypochondrium on inspiration is the correct technique. The spleen must enlarge to three times its normal size before it becomes palpable."
                 }
               ],
               "behaviour": {
@@ -565,11 +565,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "d03c0645-5b50-460d-8bf9-d5ec42e7a767",
+            "subContentId": "d29141b2-9a83-489e-bf7f-eefd9ca05986",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with cholera has profuse water",
+              "title": "During abdominal examination, you suspec",
               "authors": [],
               "changes": []
             }
@@ -598,16 +598,16 @@
           "label": "2: scene-7"
         },
         {
-          "time": 784,
-          "label": "3: scene-8"
+          "time": 898,
+          "label": "3: scene-9"
         },
         {
-          "time": 994,
-          "label": "4: scene-10"
+          "time": 1094,
+          "label": "4: scene-11"
         },
         {
-          "time": 1236,
-          "label": "5: scene-12"
+          "time": 1314,
+          "label": "5: scene-13"
         }
       ],
       "endscreens": [
@@ -624,7 +624,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "d604da6a-0d97-470c-b964-d474cb4a8720",
+              "subContentId": "3ce2e9aa-609b-4178-a26c-9175c03703b2",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -647,7 +647,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "a80c607f-4520-4a36-86b7-fc3d10e6eedf",
+        "subContentId": "9eb5db29-df73-407c-a1f6-ba8aede81a8a",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
