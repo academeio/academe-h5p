@@ -72,6 +72,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 /* Responsive H5P hotspot icons */
 .h5p-image-hotspots{font-size:clamp(10px,2.2vw,22px)!important}
 .h5p-image-hotspot{font-size:clamp(10px,2.5vw,24px)!important}
+
+/* Interactive Video caption (WebVTT ::cue) — bring default down ~20%
+   from the browser's default so captions stop crowding the video area. */
+video::cue{font-size:80%;background:rgba(0,0,0,.72);line-height:1.3}
 </style>
 </head>
 <body>
