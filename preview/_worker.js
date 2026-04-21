@@ -35,8 +35,11 @@ export default {
         const v = upstream.headers.get(h);
         if (v) headers.set(h, v);
       }
-      // Captions don't change once published; 24h browser cache is safe.
-      headers.set('cache-control', 'public, max-age=86400, must-revalidate');
+      // Captions are small but change when we re-translate/re-emit. ETag-based
+      // revalidation on every request is the right balance — the browser asks
+      // R2 "is this still current?" via If-None-Match, R2 returns 304 when
+      // unchanged (no body re-download), 200 with new content when changed.
+      headers.set('cache-control', 'public, max-age=0, must-revalidate');
 
       return new Response(upstream.body, { status: upstream.status, headers });
     }
