@@ -44,9 +44,17 @@
     style.id = STYLE_ID;
     // Use a headphone glyph as the icon via ::before — same sizing as the
     // sibling captions icon. Matches h5p-control sizing.
+    // Geometric centering via inline-flex on the button — emoji glyphs
+    // (U+1F3A7 🎧) have a font-metrics baseline that sits above the
+    // x-height of the sibling CSS-drawn "CC" / SVG icons, so plain
+    // `vertical-align: middle` leaves the icon visually high. Flex
+    // centering ignores the glyph's ascent and anchors to the button's
+    // geometric midline, matching the other controls.
     style.textContent =
-      '.h5p-control.h5p-audio-track{font-family:inherit}' +
-      '.h5p-control.h5p-audio-track::before{content:"\\1F3A7";font-size:.9em;line-height:1;display:inline-block;vertical-align:middle}' +
+      '.h5p-control.h5p-audio-track{font-family:inherit;' +
+        'display:inline-flex;align-items:center;justify-content:center}' +
+      '.h5p-control.h5p-audio-track::before{content:"\\1F3A7";font-size:1em;' +
+        'line-height:1;display:block}' +
       '.h5p-chooser.h5p-audio-track ol{list-style:none;padding:0;margin:0}' +
       '.h5p-chooser.h5p-audio-track li[role=menuitemradio]{cursor:pointer}';
     document.head.appendChild(style);
