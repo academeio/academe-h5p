@@ -3,8 +3,8 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/sdl-py-nerve-muscle-v2-1773640374469/v1/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/113e2344-0b22-4ae0-8064-2068704539e5/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
@@ -18,24 +18,56 @@
       "textTracks": {
         "videoTrack": [
           {
-            "label": "Subtitles",
+            "label": "English",
             "kind": "subtitles",
-            "srcLang": "en"
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-nerve-muscle-v2-1773640374469/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-nerve-muscle-v2-1773640374469/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-nerve-muscle-v2-1773640374469/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
           }
-        ]
+        ],
+        "defaultTrackLabel": "English"
       }
     },
     "assets": {
       "interactions": [
         {
           "duration": {
-            "from": 255.1,
-            "to": 265.1
+            "from": 142.9,
+            "to": 152.9
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which factor is the PRIMARY reason the resting membrane potential of a neuron is</p>",
+          "label": "<p>A neuron with a long axon requires a continuous supply of proteins and enzymes t</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -44,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which factor is the PRIMARY reason the resting membrane potential of a neuron is close to −70 mV?</p>",
+              "question": "<p>A neuron with a long axon requires a continuous supply of proteins and enzymes to maintain axonal function. Which component of the soma is primarily responsible for meeting this demand?</p>",
               "answers": [
                 {
-                  "text": "<div>High membrane permeability to potassium through leak channels, allowing K⁺ efflux</div>",
+                  "text": "<div>Axon hillock — the trigger zone for action potential initiation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The axon hillock is where action potentials are initiated, not where proteins are synthesised. It has a high density of voltage-gated sodium channels but no role in protein production.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Nissl bodies — aggregates of rough endoplasmic reticulum</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. At rest, the membrane is far more permeable to K⁺ than Na⁺. K⁺ leak channels let K⁺ exit down its concentration gradient, leaving the interior negative — close to the K⁺ Nernst potential.</div>",
+                    "chosenFeedback": "<div>Correct. Nissl bodies are the main site of protein synthesis in the neuron soma. They produce the structural and enzymatic proteins that are transported along the axon to maintain neuronal function.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The Na⁺/K⁺-ATPase directly generating most of the voltage across the membrane</div>",
+                  "text": "<div>Myelin sheath — the insulating layer formed by glial cells</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The pump is electrogenic but contributes only a few millivolts. Its main role is maintaining the ion gradients that the leak channels then use.</div>",
+                    "chosenFeedback": "<div>The myelin sheath insulates the axon to speed conduction. It is produced by Schwann cells (PNS) or oligodendrocytes (CNS), not by the neuron's own soma.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Continuous inward leak of chloride ions along its concentration gradient</div>",
+                  "text": "<div>Synaptic boutons — the terminals that release neurotransmitter</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Chloride plays a minor role in most neurons at rest. The dominant determinant is potassium permeability through leak channels.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Open voltage-gated sodium channels allowing a small steady Na⁺ influx</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Voltage-gated Na⁺ channels are closed at rest. A small Na⁺ leak exists, but it only offsets the K⁺-driven potential slightly.</div>",
+                    "chosenFeedback": "<div>Synaptic boutons are the axon terminals where neurotransmitter release occurs. They themselves depend on proteins manufactured in the soma and transported down the axon.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -87,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: the membrane at rest is mainly permeable to K⁺. K⁺ efflux through leak channels creates the negative interior; the pump maintains the gradient but does not directly set the voltage."
+                  "feedback": "The correct answer is Nissl bodies. These are aggregates of rough endoplasmic reticulum responsible for protein synthesis. The axon hillock initiates action potentials, myelin insulates the axon, and synaptic boutons release neurotransmitters — none of these produce the proteins the neuron needs."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The resting potential is essentially a potassium diffusion potential, shifted slightly by Na⁺ leak and maintained by the Na⁺/K⁺ pump."
+                  "feedback": "Correct. Nissl bodies (rough endoplasmic reticulum) are the main site of protein synthesis in the soma, producing the structural and enzymatic proteins transported along the axon to maintain neuronal function."
                 }
               ],
               "behaviour": {
@@ -119,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6090b91a-02d6-436c-95f4-071c02f0cba3",
+            "subContentId": "149ff331-782e-4412-9326-6940fc6a4a66",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which factor is the PRIMARY reason the r",
+              "title": "A neuron with a long axon requires a con",
               "authors": [],
               "changes": []
             }
@@ -139,13 +171,453 @@
         },
         {
           "duration": {
-            "from": 466.625,
-            "to": 476.625
+            "from": 325.35,
+            "to": 335.35
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In saltatory conduction, action potentials are regenerated only at the nodes of </p>",
+          "label": "<p>During the absolute refractory period following an action potential, no second a</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>During the absolute refractory period following an action potential, no second action potential can be generated regardless of stimulus strength. Which molecular event explains this?</p>",
+              "answers": [
+                {
+                  "text": "<div>All voltage-gated potassium channels are maximally open, preventing any depolarisation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While potassium channels are open during repolarisation, this alone does not make the cell absolutely refractory. It is the inactivation of sodium channels that prevents a new action potential entirely.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The sodium-potassium ATPase temporarily stops functioning</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The Na⁺/K⁺-ATPase maintains long-term ion gradients but works too slowly to account for the millisecond-duration refractory period. The pump restores gradients over many cycles, not within a single action potential.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Voltage-gated sodium channels are in an inactivated state and cannot reopen</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Voltage-gated sodium channels automatically enter an inactivated conformation about 0.5 ms after opening. This state cannot be reversed by depolarisation — only by returning to the resting potential, ensuring one-directional propagation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The membrane potential has exceeded the Nernst equilibrium potential for sodium</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The Nernst potential for sodium is approximately +60 mV. While the action potential peak approaches this, the refractory period is explained by channel inactivation — a conformational change — not by exceeding an equilibrium potential.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The correct answer is sodium channel inactivation. About 0.5 ms after opening, voltage-gated sodium channels automatically enter an inactivated conformation that cannot be reopened by any stimulus. This ensures the action potential propagates in only one direction along the axon."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. After opening, voltage-gated sodium channels enter an inactivated conformation that prevents reopening. Until they reset to the closed (but activatable) state, no stimulus can trigger another action potential — this is the molecular basis of the absolute refractory period."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "900f40ce-a014-4f09-9cc2-f72aeaf7780d",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "During the absolute refractory period fo",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 525.65,
+            "to": 535.65
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Both botulinum toxin and tetanus toxin disrupt synaptic function by cleaving SNA</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Both botulinum toxin and tetanus toxin disrupt synaptic function by cleaving SNARE proteins, yet they produce opposite clinical effects. Which statement best explains this difference?</p>",
+              "answers": [
+                {
+                  "text": "<div>Botulinum toxin blocks calcium channels at the NMJ, while tetanus toxin blocks sodium channels in spinal motor neurons</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Neither toxin acts on ion channels. Both specifically cleave SNARE proteins required for vesicle fusion and neurotransmitter release — they differ in which synapses they target, not which channels they block.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Botulinum toxin blocks acetylcholine release at the NMJ, while tetanus toxin blocks inhibitory neurotransmitter release in the spinal cord</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Botulinum toxin cleaves SNARE proteins at the neuromuscular junction, preventing acetylcholine release and causing flaccid paralysis. Tetanus toxin cleaves SNARE proteins at inhibitory interneurons, blocking GABA and glycine release, leaving excitation unopposed and causing spastic paralysis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Both toxins block acetylcholine, but at motor nerve terminals versus sensory nerve terminals</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Tetanus toxin does not block acetylcholine. It specifically targets inhibitory neurotransmitter release (GABA and glycine) in the spinal cord, which is why it causes spastic paralysis from unopposed excitatory drive.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Botulinum toxin destroys nicotinic receptors, while tetanus toxin destroys GABA receptors</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Neither toxin acts on postsynaptic receptors. Both act presynaptically by cleaving SNARE proteins essential for vesicle fusion. The difference lies in which synapses they reach — peripheral NMJ for botulinum, central inhibitory synapses for tetanus.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Both toxins target SNARE proteins but at different locations. Botulinum toxin cleaves SNAREs at the NMJ, preventing acetylcholine release — the muscle receives no signal and becomes flaccid. Tetanus toxin cleaves SNAREs at inhibitory interneurons in the spinal cord, blocking GABA and glycine release — excitation goes unopposed, causing spastic paralysis."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. Both toxins cleave SNARE proteins, but at different synapses. Botulinum toxin acts at the NMJ, blocking acetylcholine release (flaccid paralysis). Tetanus toxin acts at inhibitory synapses in the spinal cord, blocking GABA and glycine release (spastic paralysis from unopposed excitation)."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "42937eec-10b8-4e0b-9799-5cd6062690c0",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Both botulinum toxin and tetanus toxin d",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 707.8249999999999,
+            "to": 717.8249999999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>After death, skeletal muscles become rigid — a condition known as rigor mortis. </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>After death, skeletal muscles become rigid — a condition known as rigor mortis. Based on the cross-bridge cycle, which specific step fails when ATP is depleted?</p>",
+              "answers": [
+                {
+                  "text": "<div>Calcium cannot bind troponin C, so tropomyosin remains in the blocking position</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Calcium binding to troponin C does not require ATP directly. In fact, calcium levels rise after death because the SERCA pump (which does require ATP) can no longer remove calcium from the cytoplasm.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Myosin heads cannot detach from actin, locking all cross-bridges in place</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. In the normal cross-bridge cycle, a new ATP molecule must bind the myosin head to release it from actin. Without ATP, all myosin heads remain firmly attached, locking every cross-bridge and producing the rigidity of rigor mortis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The power stroke cannot occur because ATP is needed to drive the myosin head pivot</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The power stroke is driven by the release of inorganic phosphate and ADP that were already bound to the myosin head. ATP hydrolysis re-cocks the head for the next cycle, but the critical failure in rigor mortis is the inability to detach.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The sarcoplasmic reticulum cannot release calcium without ATP</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Calcium release from the sarcoplasmic reticulum occurs through ryanodine receptors triggered by the DHP receptor — this is a passive process. It is the SERCA pump that needs ATP, and its failure actually causes calcium to remain elevated, maintaining activation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The correct answer is that myosin heads cannot detach from actin. In the cross-bridge cycle, ATP must bind the myosin head to release it from actin. Without ATP, all cross-bridges remain locked in the attached state — this is rigor mortis, which resolves after about 48 hours as proteins degrade."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. ATP binding to the myosin head is essential for detaching it from actin. When ATP is depleted after death, myosin heads remain permanently bound, locking all cross-bridges. Rigor mortis resolves after about 48 hours as muscle proteins degrade."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "748b8ea5-44bd-4f70-8744-79d67729171d",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "After death, skeletal muscles become rig",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 879.025,
+            "to": 889.025
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Individual muscle fibres follow the all-or-none law, yet a whole muscle can prod</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Individual muscle fibres follow the all-or-none law, yet a whole muscle can produce smoothly graded force. Which pair of mechanisms allows the body to achieve this?</p>",
+              "answers": [
+                {
+                  "text": "<div>Varying action potential amplitude in each fibre, and altering the calcium sensitivity of troponin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Action potentials are all-or-none — their amplitude does not vary with stimulus strength. Force gradation depends on how many motor units are active and how frequently they are stimulated, not on modulating individual action potentials.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Motor unit recruitment following the size principle, and increasing stimulation frequency to produce wave summation</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Henneman's size principle recruits small motor units first for fine control, adding larger units for greater force. Simultaneously, increasing stimulation frequency summates twitches — progressing from unfused to complete tetanus at about four times single-twitch tension.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Switching between isometric and isotonic contraction modes, and adjusting the sarcomere resting length</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Isometric and isotonic describe the type of contraction, not a mechanism for grading force. While the length-tension relationship affects maximal force, the body grades force primarily through recruitment and frequency modulation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Increasing the number of cross-bridges per sarcomere, and prolonging the absolute refractory period</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The number of cross-bridges per sarcomere is fixed by filament overlap. The refractory period is an intrinsic property of the membrane and cannot be deliberately prolonged to increase force.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The two key mechanisms are motor unit recruitment (Henneman's size principle — small units activated first, larger units added progressively) and stimulation frequency (higher frequencies cause wave summation, eventually reaching complete tetanus at about four times single-twitch tension)."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. The body grades muscle force through two mechanisms: motor unit recruitment (small units first, then larger — Henneman's size principle) and stimulation frequency (wave summation progressing to tetanus). Together, these produce smooth, variable force from all-or-none fibres."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "ccf411f1-f46c-4b85-a1f4-e5a99db46cc1",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Individual muscle fibres follow the all-",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1143.3,
+            "to": 1153.3
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Anaerobic glycolysis produces 36 to 38 ATP molecules per glucose molecule, makin</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -154,8 +626,8 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>In saltatory conduction, action potentials are regenerated only at the nodes of Ranvier because voltage-gated sodium channels are concentrated there.</p>",
-              "correct": "true",
+              "question": "<p>Anaerobic glycolysis produces 36 to 38 ATP molecules per glucose molecule, making it the primary energy source during sustained exercise beyond two minutes.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
@@ -172,404 +644,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This is true. Myelin prevents current leak across internodes, and the nodes of Ranvier — rich in voltage-gated Na⁺ channels — are where each action potential is regenerated.",
-                "correctAnswerMessage": "Correct. Myelin insulates the internodes, and Na⁺ channels cluster at the nodes. The action potential 'jumps' from node to node, dramatically increasing conduction velocity.",
+                "wrongAnswerMessage": "This statement is false. Anaerobic glycolysis produces only 2 ATP per glucose — not 36–38. That higher yield belongs to aerobic oxidative phosphorylation in mitochondria, which requires oxygen and dominates beyond two minutes. Anaerobic glycolysis operates from about 10 seconds to 2 minutes, producing lactate as a by-product.",
+                "correctAnswerMessage": "Correct — this statement is false. Anaerobic glycolysis yields only 2 ATP per glucose molecule. The 36–38 ATP figure belongs to aerobic oxidative phosphorylation, which uses the TCA cycle and electron transport chain in mitochondria and dominates energy supply beyond two minutes of exercise.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "29379698-3fd9-444d-ba9f-973d5ff64365",
+            "subContentId": "92ebd10f-d057-4d7c-bb9d-1c8643e39360",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "In saltatory conduction, action potentia",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 684.6,
-            "to": 694.6
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>In myasthenia gravis, muscle weakness occurs because autoantibodies target which</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>In myasthenia gravis, muscle weakness occurs because autoantibodies target which structure at the neuromuscular junction?</p>",
-              "answers": [
-                {
-                  "text": "<div>Voltage-gated calcium channels on the presynaptic axon terminal</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>These are the target in Lambert-Eaton myasthenic syndrome, not myasthenia gravis. The effect there is reduced ACh release.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Nicotinic acetylcholine receptors on the motor end-plate</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Autoantibodies destroy postsynaptic nicotinic receptors, reducing the end-plate potential below the safety factor and causing fatiguable weakness.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Acetylcholinesterase in the synaptic cleft</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>AChE is inhibited by drugs like neostigmine and organophosphates, not by autoantibodies in myasthenia gravis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>SNARE proteins involved in vesicle fusion</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>SNAREs are cleaved by botulinum toxin, which blocks ACh release. Myasthenia gravis attacks the postsynaptic receptors.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Myasthenia gravis is a postsynaptic disorder — autoantibodies against nicotinic ACh receptors. Lambert-Eaton, botulinum, and AChE inhibitors affect different parts of the junction."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly. Loss of functional nicotinic receptors shrinks the end-plate potential. Neostigmine helps by letting ACh linger and find the remaining receptors."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "5d734fa5-f6b8-415c-92f3-9d2e83a49edd",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "In myasthenia gravis, muscle weakness oc",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 978.5000000000001,
-            "to": 988.5000000000001
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>During skeletal muscle excitation-contraction coupling, calcium released from th</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>During skeletal muscle excitation-contraction coupling, calcium released from the sarcoplasmic reticulum triggers contraction by binding to which molecule?</p>",
-              "answers": [
-                {
-                  "text": "<div>Myosin light chain, activating cross-bridge cycling directly</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>That is the mechanism in smooth muscle, via calmodulin and myosin light chain kinase. Skeletal muscle uses a different calcium sensor.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Tropomyosin, physically displacing it from actin</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Tropomyosin does move off the binding sites, but not because calcium binds it directly. Calcium binds troponin, which then shifts tropomyosin.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Troponin C, causing tropomyosin to shift and expose actin binding sites</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Ca²⁺ binds troponin C, the troponin complex shifts tropomyosin off actin, and myosin heads can then attach and pivot.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The ryanodine receptor, opening it to release more calcium</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The ryanodine receptor releases calcium; it is not the calcium-binding sensor that initiates cross-bridge cycling. That role belongs to troponin C.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "In skeletal muscle, calcium binds troponin C. This shifts the troponin-tropomyosin complex off actin, exposing binding sites for myosin heads."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Troponin C is the calcium switch in skeletal and cardiac muscle. Smooth muscle uses calmodulin instead."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "66348673-dd7a-4728-9931-4a2f671a2d79",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "During skeletal muscle excitation-contra",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 1271.2,
-            "to": 1281.2
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>In smooth muscle, calcium initiates contraction by binding to calmodulin, which </p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>In smooth muscle, calcium initiates contraction by binding to calmodulin, which then activates myosin light chain kinase.</p>",
-              "correct": "true",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This is actually true. Smooth muscle has no troponin. Calcium binds calmodulin, which activates MLCK — phosphorylation of the myosin light chain then permits cross-bridge cycling.",
-                "correctAnswerMessage": "Correct. Smooth muscle lacks troponin. Ca²⁺-calmodulin activates MLCK, which phosphorylates the myosin light chain and enables cross-bridge cycling.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "5be1f6b6-3c45-4859-a270-ff77b51b1f23",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "In smooth muscle, calcium initiates cont",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 1465.275,
-            "to": 1475.275
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>Why can cardiac muscle NOT be tetanised, unlike skeletal muscle?</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>Why can cardiac muscle NOT be tetanised, unlike skeletal muscle?</p>",
-              "answers": [
-                {
-                  "text": "<div>Cardiac muscle lacks sarcoplasmic reticulum, so calcium cannot be recycled quickly enough</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Cardiac muscle has a sarcoplasmic reticulum and uses calcium-induced calcium release. The barrier to tetanus is electrical, not a calcium recycling problem.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Cardiac action potentials have a prolonged plateau phase, producing an absolute refractory period that lasts almost the entire contraction</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The long plateau — driven by L-type Ca²⁺ channels — keeps the cell refractory throughout the contraction, so summation and therefore tetanus are impossible.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Cardiac cells are electrically isolated from each other, preventing the spread of repetitive stimuli</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The opposite is true. Gap junctions at intercalated discs electrically couple cardiac cells so that excitation spreads easily.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Cardiac muscle relies entirely on aerobic metabolism, which cannot sustain the rapid firing needed for tetanus</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Aerobic dependence matters for fatigue resistance, but the reason tetanus is impossible is the long absolute refractory period, not energy supply.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The key is the prolonged cardiac action potential. Its plateau (from L-type Ca²⁺ channels) gives an absolute refractory period nearly as long as the contraction itself, so a second contraction cannot summate."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly. The long plateau and matching refractory period are a protective mechanism — if the heart tetanised, it would stop pumping blood."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "8710b9c7-cf9b-4901-8126-07d63a79ba74",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "Why can cardiac muscle NOT be tetanised,",
+              "title": "Anaerobic glycolysis produces 36 to 38 A",
               "authors": [],
               "changes": []
             }
@@ -586,33 +670,65 @@
       ],
       "bookmarks": [
         {
-          "time": 255,
-          "label": "0: scene-3"
+          "time": 0,
+          "label": "Welcome to Nerve and Muscle Physiology."
         },
         {
-          "time": 467,
-          "label": "1: scene-5"
+          "time": 3,
+          "label": "Flex your hand right now."
         },
         {
-          "time": 685,
-          "label": "2: scene-7"
+          "time": 61,
+          "label": "The neuron is the functional unit of the nervous system,…"
         },
         {
-          "time": 979,
-          "label": "3: scene-10"
+          "time": 143,
+          "label": "Every living cell maintains a voltage difference across i…"
         },
         {
-          "time": 1271,
-          "label": "4: scene-13"
+          "time": 234,
+          "label": "The action potential is a rapid reversal of the membrane…"
         },
         {
-          "time": 1465,
-          "label": "5: scene-16"
+          "time": 325,
+          "label": "Once an action potential is generated, it travels along t…"
+        },
+        {
+          "time": 426,
+          "label": "Neurons communicate at specialized junctions called synap…"
+        },
+        {
+          "time": 526,
+          "label": "The neuromuscular junction is the specialised synapse whe…"
+        },
+        {
+          "time": 613,
+          "label": "When the action potential reaches the muscle fibre, short…"
+        },
+        {
+          "time": 708,
+          "label": "Not all skeletal muscle fibres are the same."
+        },
+        {
+          "time": 788,
+          "label": "Individual muscle fibres obey the all-or-none law, but a…"
+        },
+        {
+          "time": 879,
+          "label": "Smooth muscle lines blood vessels, the gastrointestinal t…"
+        },
+        {
+          "time": 962,
+          "label": "Cardiac muscle blends features from both skeletal and smo…"
+        },
+        {
+          "time": 1047,
+          "label": "Muscle contraction demands enormous amounts of adenosine…"
         }
       ],
       "endscreens": [
         {
-          "time": 1506,
+          "time": 1187,
           "label": "End"
         }
       ]
@@ -624,7 +740,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "3da221b0-f1f7-4c1a-a45a-ee1d1d7ea638",
+              "subContentId": "fbdd78de-07c4-41cd-b18a-6b09aecee662",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -647,7 +763,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "2e11c8ad-d107-4624-af72-240ccf2fc5a5",
+        "subContentId": "17b09241-5a21-44d7-be9c-e808ca1d63f9",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
@@ -656,7 +772,7 @@
           "changes": []
         }
       },
-      "displayAt": 3
+      "displayAt": 0
     }
   },
   "override": {

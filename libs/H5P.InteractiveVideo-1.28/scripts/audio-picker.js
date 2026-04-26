@@ -50,11 +50,21 @@
     // `vertical-align: middle` leaves the icon visually high. Flex
     // centering ignores the glyph's ascent and anchors to the button's
     // geometric midline, matching the other controls.
+    // In-bar button (wide viewport): flex-centered headphone glyph.
+    // In minimal/mobile mode, IV core already hides .h5p-captions/.h5p-playbackRate
+    // etc. from the main control strip — mirror that for our audio button so the
+    // picker is reached via the kebab/more overlay instead of a cramped icon.
+    // The minimal overlay button mirrors the sibling pattern (padding-top:4em,
+    // absolutely-positioned ::before icon, label as text content below).
     style.textContent =
       '.h5p-control.h5p-audio-track{font-family:inherit;' +
         'display:inline-flex;align-items:center;justify-content:center}' +
       '.h5p-control.h5p-audio-track::before{content:"\\1F3A7";font-size:1em;' +
         'line-height:1;display:block}' +
+      '.h5p-interactive-video.h5p-minimal .h5p-control.h5p-audio-track{display:none}' +
+      '.h5p-minimal-overlay .h5p-minimal-button.h5p-audio-track{font-family:inherit}' +
+      '.h5p-minimal-overlay .h5p-minimal-button.h5p-audio-track::before{' +
+        'content:"\\1F3A7";font-family:inherit}' +
       '.h5p-chooser.h5p-audio-track ol{list-style:none;padding:0;margin:0}' +
       '.h5p-chooser.h5p-audio-track li[role=menuitemradio]{cursor:pointer}';
     document.head.appendChild(style);
@@ -115,6 +125,10 @@
     var existingChooser = chooserContainer.querySelector('.h5p-chooser.h5p-audio-track');
     if (existingButton && existingChooser) {
       refreshTrackList(existingChooser, iv, tracks);
+      // Minimal-overlay DOM is often mounted AFTER our first render (IV core
+      // creates it lazily on first resize observation). Retry on each
+      // poll-driven re-entry until the minimal-wrap exists.
+      ensureMinimalButton(iv);
       return;
     }
 
@@ -175,12 +189,20 @@
     // ----- Wire open/close -----
     // IV library uses the `h5p-show` class to reveal choosers; aria-hidden
     // stays true even when visible (library convention).
+    // In minimal/mobile mode the chooser stretches full-container (see
+    // `.h5p-minimal .h5p-chooser` in IV core CSS), so the same DOM works for
+    // both desktop and mobile — only the launcher differs.
     function setOpen(isOpen) {
       if (isOpen) chooser.classList.add('h5p-show');
       else chooser.classList.remove('h5p-show');
       button.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
       if (isOpen) closeSiblingChoosers(controlsRight.parentNode);
     }
+    // Expose on iv so the minimal-overlay launcher (different DOM path) can
+    // drive the same chooser without a second DOM tree.
+    iv.__audioPickerSetOpen = setOpen;
+    iv.__audioPickerChooser = chooser;
+    iv.__audioPickerButton = button;
 
     button.addEventListener('click', function () {
       var currentlyOpen = chooser.classList.contains('h5p-show');
@@ -196,11 +218,24 @@
     // ----- Populate the track list -----
     refreshTrackList(chooser, iv, tracks);
 
+    // ----- Inject minimal-overlay button (mobile / narrow viewport) -----
+    // IV core hides .h5p-control.h5p-captions etc. in .h5p-minimal mode and
+    // replaces them with big-icon buttons inside .h5p-minimal-overlay
+    // .h5p-minimal-wrap. We mirror that for audio so the language picker is
+    // reachable from the same kebab menu on mobile.
+    ensureMinimalButton(iv);
+
     // Close on outside click — matches typical IV chooser UX.
+    // In minimal mode, we also un-hide the overlay's sibling buttons and
+    // collapse the .h5p-more toggle so the user isn't left staring at a
+    // dimmed overlay with nothing visible.
     document.addEventListener('click', function (e) {
       if (!chooser.classList.contains('h5p-show')) return;
       if (button.contains(e.target) || chooser.contains(e.target)) return;
+      var minimalBtn = iv.__audioPickerMinimalButton;
+      if (minimalBtn && minimalBtn.contains(e.target)) return;
       setOpen(false);
+      restoreMinimalOverlay(iv);
     });
 
     // Keep aria-checked in sync when the audio track changes from elsewhere
@@ -250,6 +285,9 @@
           chooser.classList.remove('h5p-show');
           var btn = chooser.parentNode && chooser.parentNode.querySelector('.h5p-control.h5p-audio-track');
           if (btn) btn.setAttribute('aria-expanded', 'false');
+          // On mobile, the chooser was launched from the minimal overlay —
+          // bring the overlay's other buttons back and close the kebab.
+          restoreMinimalOverlay(iv);
         });
         li.addEventListener('keydown', function (e) {
           if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); li.click(); }
@@ -268,6 +306,79 @@
       items[i].setAttribute('aria-checked', checked ? 'true' : 'false');
       if (checked) items[i].setAttribute('tabindex', '0');
       else items[i].removeAttribute('tabindex');
+    }
+  }
+
+  // -------------------------------------------------------------------------
+  // Mobile/minimal-overlay launcher. IV core collapses bookmarks, captions,
+  // playbackRate, and quality into .h5p-minimal-overlay .h5p-minimal-wrap on
+  // narrow viewports (the kebab menu behind the `.h5p-more` button). We mirror
+  // that pattern so the audio-language picker is reachable from the same
+  // menu on mobile instead of being squeezed into the shrunk control strip.
+  //
+  // The minimal-overlay DOM is created by IV core at init but may not exist
+  // yet when the first `audioTracks` event fires (race against MANIFEST_PARSED).
+  // We retry on each renderPicker call; creation is idempotent.
+  // -------------------------------------------------------------------------
+  function ensureMinimalButton(iv) {
+    if (!iv || !iv.$container) return;
+    var container = iv.$container[0] || iv.$container;
+    if (!container || !container.querySelector) return;
+    if (iv.__audioPickerMinimalButton &&
+        document.body.contains(iv.__audioPickerMinimalButton)) {
+      return;
+    }
+    var wrap = container.querySelector('.h5p-minimal-overlay .h5p-minimal-wrap');
+    if (!wrap) return;
+
+    var btn = document.createElement('div');
+    btn.className = 'h5p-minimal-button h5p-audio-track';
+    btn.setAttribute('role', 'menuitem');
+    btn.setAttribute('tabindex', '-1');
+    btn.setAttribute('aria-label', 'Audio language');
+    btn.textContent = 'Audio language';
+    btn.addEventListener('click', function () {
+      // Match sibling minimal-buttons' behaviour (see IV core's
+      // $bookmarkButtonMinimal handler): hide all overlay buttons, then
+      // open the chooser. The chooser itself stretches full-container via
+      // .h5p-minimal .h5p-chooser rules in IV core CSS.
+      var overlayButtons = container.querySelectorAll(
+        '.h5p-minimal-overlay .h5p-minimal-button'
+      );
+      for (var i = 0; i < overlayButtons.length; i++) {
+        overlayButtons[i].classList.add('h5p-hide');
+      }
+      if (typeof iv.__audioPickerSetOpen === 'function') {
+        iv.__audioPickerSetOpen(true);
+      }
+    });
+    btn.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); btn.click(); }
+    });
+
+    wrap.appendChild(btn);
+    iv.__audioPickerMinimalButton = btn;
+  }
+
+  // Sibling minimal-buttons (bookmarks/captions/etc) rely on IV core's
+  // internal 'close' handler to un-hide overlay buttons and collapse the
+  // .h5p-more toggle when the chooser closes. Our picker is a shim — we
+  // have to do that restore ourselves.
+  function restoreMinimalOverlay(iv) {
+    if (!iv || !iv.$container) return;
+    var container = iv.$container[0] || iv.$container;
+    if (!container || !container.querySelector) return;
+    var overlay = container.querySelector('.h5p-minimal-overlay');
+    if (!overlay || !overlay.classList.contains('h5p-show')) return;
+    var hiddenButtons = container.querySelectorAll(
+      '.h5p-minimal-overlay .h5p-minimal-button.h5p-hide'
+    );
+    for (var i = 0; i < hiddenButtons.length; i++) {
+      hiddenButtons[i].classList.remove('h5p-hide');
+    }
+    var more = container.querySelector('.h5p-control.h5p-more');
+    if (more && more.getAttribute('aria-expanded') === 'true') {
+      more.click();
     }
   }
 
