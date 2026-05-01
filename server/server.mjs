@@ -21,7 +21,9 @@ const PORT = process.env.PORT || 3200;
 
 // Paths
 const LIBS_PATH = path.resolve(__dirname, '../libs');
-const CONTENT_PATH = path.resolve(__dirname, '../activities');
+const CONTENT_PATH = process.env.ACTIVITIES_DIR_OVERRIDE
+  ? path.resolve(process.env.ACTIVITIES_DIR_OVERRIDE)
+  : path.resolve(__dirname, '../activities');
 const CORE_PATH = path.resolve(__dirname, 'h5p-core');
 const EDITOR_PATH = path.resolve(__dirname, 'h5p-editor');
 
