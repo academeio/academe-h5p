@@ -3,26 +3,58 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/an-pons-sdl/v1/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/eb83ad25-e524-472f-9295-d6de5de24079/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
         }
       ],
       "startScreenOptions": {
-        "title": "Pons — Interactive Lecture",
+        "title": "AN59.1-AN59.4 — Interactive Lecture (AN)",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for AN59.1-AN59.4."
+        "shortStartDescription": "Interactive lecture with 4 embedded questions for AN59.1-AN59.4."
       },
       "textTracks": {
         "videoTrack": [
           {
-            "label": "Subtitles",
+            "label": "English",
             "kind": "subtitles",
-            "srcLang": "en"
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/an-pons-sdl/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/an-pons-sdl/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/an-pons-sdl/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
           }
-        ]
+        ],
+        "defaultTrackLabel": "English"
       }
     },
     "assets": {
@@ -35,205 +67,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In locked-in syndrome caused by pontine haemorrhage, vertical eye movements are </p>",
+          "label": "<p>In locked-in syndrome, horizontal eye movements are lost because the corticospin</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>In locked-in syndrome caused by pontine haemorrhage, vertical eye movements are preserved while horizontal gaze is lost. Which anatomical explanation best accounts for this difference?</p>",
-              "answers": [
-                {
-                  "text": "<div>The abducens nucleus is inherently resistant to ischaemic damage</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The abducens nucleus is not selectively resistant. It is destroyed along with the basis pontis. The key is that vertical gaze centres are located above the lesion, not that horizontal gaze centres are more vulnerable.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Vertical gaze is controlled by midbrain structures located above the level of the pontine lesion</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The midbrain houses the rostral interstitial nucleus of the MLF and other structures governing vertical gaze. Since the midbrain sits above the pons, it escapes the haemorrhage and vertical eye movements survive.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Vertical gaze pathways descend through the spinal cord, bypassing the pons entirely</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Vertical gaze pathways do not travel through the spinal cord. They originate in the midbrain. The preservation of vertical gaze is due to the midbrain being above the pontine lesion, not because the pathways bypass the pons via a different route.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The paramedian pontine reticular formation controls both vertical and horizontal gaze, but vertical fibres recover faster</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The PPRF is the horizontal gaze centre only. Vertical gaze is controlled by separate midbrain structures. The distinction is anatomical location, not speed of recovery.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The key principle is anatomical localisation. Horizontal gaze depends on the PPRF in the pons, which is destroyed. Vertical gaze depends on midbrain structures above the lesion, which are spared. Location of the centre, not resilience of the fibres, determines what survives."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Locked-in syndrome spares vertical gaze because the midbrain, which controls it, lies above the pontine haemorrhage. This is a classic example of how anatomical localisation predicts which functions survive a lesion."
-                }
-              ],
+              "question": "<p>In locked-in syndrome, horizontal eye movements are lost because the corticospinal tracts controlling the eye muscles are destroyed.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is false. The corticospinal tracts control voluntary limb movement, not the eye muscles. Horizontal gaze is lost because the paramedian pontine reticular formation (PPRF), the centre for horizontal gaze coordination in the pontine tegmentum, is destroyed along with the abducens nucleus.",
+                "correctAnswerMessage": "Correct — this statement is false. The corticospinal tracts control limb movement, not eye muscles. Horizontal gaze is lost because the paramedian pontine reticular formation (PPRF) and the abducens nucleus, which coordinate horizontal eye movement, are destroyed by the pontine haemorrhage.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "9621b45a-443d-4d17-ae28-33a44acfe6f2",
+            "subContentId": "665e9723-3c38-4d3d-8df4-fde92c022736",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "In locked-in syndrome caused by pontine",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 166.675,
-            "to": 176.675
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>On the posterior surface of the pons, the sulcus limitans is a longitudinal groo</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>On the posterior surface of the pons, the sulcus limitans is a longitudinal groove on the floor of the fourth ventricle. What does it separate?</p>",
-              "answers": [
-                {
-                  "text": "<div>The basis pontis from the tegmentum</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The basis pontis and tegmentum are ventral and dorsal divisions seen on cross-section, not features visible on the posterior surface. The sulcus limitans is a surface landmark on the ventricular floor with a different organisational role.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The upper pons from the lower pons</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The upper and lower pons are distinguished by their internal contents (e.g. trigeminal nuclei above, abducens and facial nuclei below), not by a single longitudinal groove. The sulcus limitans runs along the length of the ventricular floor.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Medial efferent areas from lateral afferent areas</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The sulcus limitans is a key embryological and functional boundary. Motor (efferent) nuclei develop medially, while sensory (afferent) nuclei develop laterally. This groove preserves that organisation on the ventricular floor.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The fourth ventricle from the cerebral aqueduct</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The transition from the fourth ventricle to the cerebral aqueduct occurs at the junction of the pons and midbrain. The sulcus limitans is a groove within the ventricular floor itself, not a boundary between cavities.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The sulcus limitans separates medial efferent (motor) areas from lateral afferent (sensory) areas on the floor of the fourth ventricle. This reflects the embryological basal plate–alar plate organisation that persists in the adult brainstem."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. The sulcus limitans reflects the embryological separation of the basal plate (motor) medially from the alar plate (sensory) laterally — a principle that applies throughout the brainstem."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "59345fd0-3bbc-4935-9a4a-c7fb42ad4c45",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "On the posterior surface of the pons, th",
+              "title": "In locked-in syndrome, horizontal eye mo",
               "authors": [],
               "changes": []
             }
@@ -255,65 +125,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the lower pons, the pontine nuclei are located in the dorsal tegmentum alongs</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>In the lower pons, the pontine nuclei are located in the dorsal tegmentum alongside the cranial nerve nuclei.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "The pontine nuclei are actually in the ventral basis pontis, interspersed among the descending fibre bundles. Their job is to relay cortical motor commands to the cerebellum. The dorsal tegmentum houses the cranial nerve nuclei — the abducens nucleus (CN VI) near the midline and the facial motor nucleus (CN VII) ventrolateral to it. Keeping this ventral–dorsal separation clear is essential for reading pontine cross-sections.",
-                "correctAnswerMessage": "Correct — the pontine nuclei are in the ventral basis pontis, not the dorsal tegmentum. They are grey matter clusters scattered among the descending corticospinal and corticobulbar fibres, relaying cortical signals to the cerebellum via the transverse pontocerebellar fibres. The cranial nerve nuclei (CN VI and CN VII) occupy the dorsal tegmentum.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "f6dcb39c-f8fc-4d4e-944b-633dd304618c",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "In the lower pons, the pontine nuclei ar",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 354.175,
-            "to": 364.175
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>The facial nerve (CN VII) has multiple functional components in the pons. Which </p>",
+          "label": "<p>In a transverse section of the lower pons, which fibre bundle connects the abduc</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -322,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The facial nerve (CN VII) has multiple functional components in the pons. Which nucleus provides parasympathetic innervation to the submandibular, sublingual, and lacrimal glands?</p>",
+              "question": "<p>In a transverse section of the lower pons, which fibre bundle connects the abducens nucleus to the contralateral oculomotor nucleus for coordinated horizontal gaze?</p>",
               "answers": [
                 {
-                  "text": "<div>Facial motor nucleus</div>",
+                  "text": "<div>Medial lemniscus</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The facial motor nucleus supplies the muscles of facial expression — it is a somatic motor component. Parasympathetic secretomotor fibres to the glands arise from a different nucleus.</div>",
+                    "chosenFeedback": "<div>The medial lemniscus carries fine touch and proprioception from the body. It runs as a horizontal strip in the dorsal tegmentum but plays no role in gaze coordination.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Nucleus tractus solitarius</div>",
+                  "text": "<div>Transverse pontine fibres</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The nucleus tractus solitarius receives taste afferents from the anterior two-thirds of the tongue via the chorda tympani. It is a sensory relay, not a parasympathetic motor nucleus.</div>",
+                    "chosenFeedback": "<div>Transverse pontine fibres carry cortical relay signals from the pontine nuclei to the contralateral cerebellar hemisphere via the middle cerebellar peduncle — they are part of the corticopontocerebellar pathway.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Superior salivatory nucleus</div>",
+                  "text": "<div>Medial longitudinal fasciculus</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The superior salivatory nucleus provides parasympathetic preganglionic fibres that travel via the chorda tympani to the submandibular and sublingual glands, and via the greater petrosal nerve to the lacrimal gland.</div>",
+                    "chosenFeedback": "<div>Correct! The MLF links the abducens nucleus (CN VI) in the pons to the contralateral oculomotor nucleus (CN III) in the midbrain. This connection ensures that when one eye abducts, the other simultaneously adducts for conjugate horizontal gaze.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Spinal nucleus of the trigeminal nerve</div>",
+                  "text": "<div>Trapezoid body</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The spinal trigeminal nucleus processes pain and temperature from the face. It handles a small area of somatic sensation around the ear for CN VII, but has no parasympathetic function.</div>",
+                    "chosenFeedback": "<div>The trapezoid body carries auditory fibres crossing the midline from the cochlear nuclei. It is part of the ascending auditory pathway, not the oculomotor system.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -365,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The superior salivatory nucleus is the parasympathetic component of CN VII. The facial nerve has four components: the motor nucleus (facial expression), superior salivatory nucleus (glandular secretion), nucleus tractus solitarius (taste), and spinal trigeminal nucleus (ear sensation). Each component can be affected independently by lesions at different levels."
+                  "feedback": "The correct answer is the medial longitudinal fasciculus (MLF). It connects the abducens nucleus to the contralateral oculomotor nucleus, enabling coordinated horizontal eye movements."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Remembering the four functional components of CN VII — motor, parasympathetic (superior salivatory), taste (NTS), and somatic sensory (spinal trigeminal) — is essential for understanding facial nerve lesions at different levels."
+                  "feedback": "Well done! The MLF is the backbone of conjugate horizontal gaze, linking CN VI to the contralateral CN III."
                 }
               ],
               "behaviour": {
@@ -397,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e47b5355-0799-451a-9dc8-ec2677166352",
+            "subContentId": "c9ad3cbe-50ff-4c05-bd01-1b382f0fa1bf",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The facial nerve (CN VII) has multiple f",
+              "title": "In a transverse section of the lower pon",
               "authors": [],
               "changes": []
             }
@@ -423,7 +235,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>What clinical feature distinguishes Millard-Gubler syndrome from Raymond syndrom</p>",
+          "label": "<p>Which clinical feature distinguishes Millard-Gubler syndrome from Raymond syndro</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -432,32 +244,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>What clinical feature distinguishes Millard-Gubler syndrome from Raymond syndrome?</p>",
+              "question": "<p>Which clinical feature distinguishes Millard-Gubler syndrome from Raymond syndrome?</p>",
               "answers": [
                 {
                   "text": "<div>Contralateral hemiplegia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Both Millard-Gubler and Raymond syndrome include contralateral hemiplegia from corticospinal tract involvement. This feature is shared, not distinguishing.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Ipsilateral lateral rectus palsy</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Both syndromes produce ipsilateral lateral rectus palsy from involvement of the abducens nerve (CN VI). This is a common feature, not a differentiating one.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Contralateral loss of fine touch and proprioception</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Contralateral sensory loss from medial lemniscus involvement is a feature of Foville syndrome, not Millard-Gubler or Raymond syndrome. Neither of these two syndromes includes sensory loss.</div>",
+                    "chosenFeedback": "<div>Contralateral hemiplegia from corticospinal tract damage is present in both syndromes and therefore cannot distinguish between them.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -466,7 +260,25 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Both syndromes share CN VI palsy and contralateral hemiplegia. Millard-Gubler adds damage to CN VII fascicles, producing ipsilateral LMN facial palsy. Raymond syndrome spares CN VII entirely. This is the defining difference between the two.</div>",
+                    "chosenFeedback": "<div>Correct! Millard-Gubler syndrome involves damage to the seventh nerve fascicles, producing ipsilateral LMN facial palsy. Raymond syndrome spares CN VII entirely — this single difference is the key distinguishing feature.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Ipsilateral lateral rectus palsy</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Ipsilateral lateral rectus palsy from CN VI damage is common to both Raymond and Millard-Gubler syndromes. It does not help differentiate them.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Contralateral loss of fine touch and proprioception</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Contralateral sensory loss from medial lemniscus involvement is a feature of Foville syndrome, which is a more extensive lesion than either Raymond or Millard-Gubler.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -475,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Raymond syndrome has two features: ipsilateral CN VI palsy and contralateral hemiplegia. Millard-Gubler syndrome adds a third: ipsilateral lower motor neuron facial palsy from CN VII fascicle damage. That facial palsy is the key distinguishing feature. Foville syndrome goes further still, adding medial lemniscus involvement (contralateral sensory loss) and horizontal gaze palsy."
+                  "feedback": "The answer is ipsilateral lower motor neuron facial palsy. Both syndromes share lateral rectus palsy and contralateral hemiplegia; Millard-Gubler adds CN VII fascicle damage causing facial palsy, while Raymond does not."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. Raymond syndrome involves CN VI and the corticospinal tract only. Millard-Gubler adds CN VII fascicle damage, producing an ipsilateral LMN facial palsy. This makes Millard-Gubler the more common and more clinically apparent of the two presentations."
+                  "feedback": "Exactly right. The presence of ipsilateral LMN facial palsy is what separates Millard-Gubler from the simpler Raymond syndrome."
                 }
               ],
               "behaviour": {
@@ -507,11 +319,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "c6daabc1-ef37-4a27-ad48-0f852d808dcf",
+            "subContentId": "bfe58adf-8676-4134-9df7-9d18ed29f0f1",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "What clinical feature distinguishes Mill",
+              "title": "Which clinical feature distinguishes Mil",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 651.5250000000001,
+            "to": 661.5250000000001
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>What makes the mesencephalic nucleus of the trigeminal nerve unique among all cr</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>What makes the mesencephalic nucleus of the trigeminal nerve unique among all cranial nerve nuclei?</p>",
+              "answers": [
+                {
+                  "text": "<div>It carries taste sensation from the anterior two-thirds of the tongue</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Taste from the anterior two-thirds of the tongue is carried by the chorda tympani branch of CN VII and relayed to the nucleus tractus solitarius, not the mesencephalic nucleus.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It is the only cranial nerve nucleus found exclusively in the medulla</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The mesencephalic nucleus is located in the midbrain and upper pons, not the medulla. Several nuclei exist in the medulla (e.g., hypoglossal, dorsal vagal), but location alone is not what makes this nucleus unique.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It contains parasympathetic preganglionic neurons</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Parasympathetic preganglionic neurons are found in the Edinger-Westphal nucleus (CN III), superior salivatory nucleus (CN VII), and inferior salivatory nucleus (CN IX) — not the mesencephalic nucleus.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Its first-order sensory neurons are located within the central nervous system</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct! In every other sensory pathway, first-order neuron cell bodies reside in peripheral ganglia (e.g., dorsal root ganglia, trigeminal ganglion). The mesencephalic nucleus is the sole exception — its primary neurons carrying jaw proprioception sit within the brainstem itself.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The answer is that its first-order sensory neurons are located within the CNS. All other sensory nerves have their primary neuron cell bodies in peripheral ganglia — the mesencephalic nucleus is the sole exception, housing proprioceptive neurons for the jaw muscles."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done! The mesencephalic nucleus is the only place in the CNS where primary sensory neuron cell bodies reside, carrying proprioception from the muscles of mastication."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "00174202-9130-4a07-b8eb-ab33fb081604",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "What makes the mesencephalic nucleus of",
               "authors": [],
               "changes": []
             }
@@ -528,29 +450,33 @@
       ],
       "bookmarks": [
         {
+          "time": 0,
+          "label": "Welcome to Pons — SDL."
+        },
+        {
+          "time": 3,
+          "label": "A fifty-year-old man with high blood pressure collapses i…"
+        },
+        {
           "time": 78,
-          "label": "0: scene-1"
+          "label": "The pons has two main surfaces to examine."
         },
         {
           "time": 167,
-          "label": "1: scene-2"
+          "label": "The lower pons has two parts."
         },
         {
           "time": 252,
-          "label": "2: scene-3"
+          "label": "The pons contains nuclei for four cranial nerves: the tri…"
         },
         {
           "time": 354,
-          "label": "3: scene-4"
-        },
-        {
-          "time": 473,
-          "label": "4: scene-5"
+          "label": "Five syndromes arise from pontine damage, each reflecting…"
         }
       ],
       "endscreens": [
         {
-          "time": 677,
+          "time": 679,
           "label": "End"
         }
       ]
@@ -562,7 +488,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "7bca0349-b4d3-49c7-a53a-409d58e164a6",
+              "subContentId": "bb38f37e-f846-4cf5-ba97-145533ba0d0c",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -585,7 +511,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "1b9a1a88-4122-4dc6-85a2-dca8ab0926ec",
+        "subContentId": "7b05d6fb-4ed6-4dc5-9c95-36a9aba2a42a",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
@@ -594,7 +520,7 @@
           "changes": []
         }
       },
-      "displayAt": 3
+      "displayAt": 0
     }
   },
   "override": {
