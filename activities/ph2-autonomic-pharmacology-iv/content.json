@@ -1,0 +1,161 @@
+{
+  "interactiveVideo": {
+    "video": {
+      "files": [
+        {
+          "path": "https://cdn.cbme.in/videos/ph2.mp4",
+          "mime": "video/mp4",
+          "copyright": {
+            "license": "U"
+          }
+        }
+      ],
+      "startScreenOptions": {
+        "title": "PH2: Autonomic Pharmacology \u2014 Interactive Lecture",
+        "hideStartTitle": false,
+        "shortStartDescription": "Interactive lecture with 1 embedded questions."
+      }
+    },
+    "assets": {
+      "interactions": [
+        {
+          "duration": {
+            "from": 130,
+            "to": 140
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Which of the following is a depolarizing skeletal muscle relaxant?</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "visuals": {
+            "backgroundColor": "rgb(255,255,255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          },
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Which of the following is a depolarizing skeletal muscle relaxant?</p>",
+              "answers": [
+                {
+                  "text": "<p>Rocuronium</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "Rocuronium is a non-depolarizing agent, acting as a competitive antagonist at nicotinic receptors."
+                  }
+                },
+                {
+                  "text": "<p>Atracurium</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "Atracurium is also a non-depolarizing muscle relaxant, not a depolarizing agent."
+                  }
+                },
+                {
+                  "text": "<p>Succinylcholine</p>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "Succinylcholine is the prototype depolarizing agent, causing sustained depolarization of the motor end plate."
+                  }
+                },
+                {
+                  "text": "<p>Sugammadex</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "Sugammadex is a reversal agent that specifically encapsulates rocuronium and vecuronium, not a muscle relaxant."
+                  }
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableCheckButton": true,
+                "singlePoint": true
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "f7de5b5e-1977-45b6-8918-72c08a7ab8d3",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Which of the following is a depolarizing skeletal muscle rel"
+            }
+          }
+        }
+      ],
+      "bookmarks": [
+        {
+          "time": 0,
+          "label": "PH2.1: Cholinergic Pharmacology"
+        },
+        {
+          "time": 50,
+          "label": "PH2.2: Adrenergic Pharmacology"
+        },
+        {
+          "time": 100,
+          "label": "PH2.3: Skeletal Muscle Relaxants"
+        },
+        {
+          "time": 150,
+          "label": "PH2.4: Autacoids"
+        }
+      ],
+      "endscreens": [
+        {
+          "time": 180,
+          "label": "End"
+        }
+      ]
+    },
+    "summary": {
+      "task": {
+        "library": "H5P.Summary 1.10",
+        "params": {
+          "intro": "Review the key concepts from this lecture.",
+          "summaries": [
+            {
+              "subContentId": "6e907076-d409-4292-97d2-8b86fa3aeef2",
+              "summary": [
+                "Check your understanding of all concepts covered."
+              ]
+            }
+          ],
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "Complete!"
+            }
+          ]
+        },
+        "subContentId": "b9637706-1eaf-4954-a639-3ae204c43e6f",
+        "metadata": {
+          "contentType": "Summary",
+          "license": "U",
+          "title": "Summary"
+        }
+      },
+      "displayAt": 0
+    }
+  },
+  "override": {
+    "autoplay": false,
+    "loop": false,
+    "showBookmarksmenuOnLoad": false,
+    "showRewind10": true,
+    "preventSkippingMode": "none",
+    "deactivateSound": false
+  }
+}
