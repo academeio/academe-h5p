@@ -1,0 +1,557 @@
+{
+  "interactiveVideo": {
+    "video": {
+      "files": [
+        {
+          "path": "staging://hls/an-cranial-nuclei-cerebral-hemispheres-sdl/v1/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
+          "copyright": {
+            "license": "U"
+          }
+        }
+      ],
+      "startScreenOptions": {
+        "title": "AN62.1-AN62.6 — Interactive Lecture (AN)",
+        "hideStartTitle": false,
+        "shortStartDescription": "Interactive lecture with 4 embedded questions for AN62.1-AN62.6."
+      },
+      "textTracks": {
+        "videoTrack": [
+          {
+            "label": "English",
+            "kind": "subtitles",
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/an-cranial-nuclei-cerebral-hemispheres-sdl/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/an-cranial-nuclei-cerebral-hemispheres-sdl/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/an-cranial-nuclei-cerebral-hemispheres-sdl/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          }
+        ],
+        "defaultTrackLabel": "English"
+      }
+    },
+    "assets": {
+      "interactions": [
+        {
+          "duration": {
+            "from": 73.3,
+            "to": 83.3
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>The tremor in Parkinson's disease worsens during intentional voluntary movement </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>The tremor in Parkinson's disease worsens during intentional voluntary movement such as reaching for an object.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "The narration explicitly stated the tremor was 'worst at rest.' The Parkinsonian rest tremor is driven by basal ganglia dysfunction and characteristically diminishes during voluntary movement. A tremor that worsens during intentional movement (intention tremor) points to cerebellar pathology instead.",
+                "correctAnswerMessage": "Correct — this statement is false. The narration described the Parkinsonian tremor as 'worst at rest.' A resting tremor diminishes during voluntary movement, which distinguishes it from the intention tremor of cerebellar disease that worsens as the hand approaches its target.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "c05abce2-c538-4497-955f-f8d96534bbd3",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "The tremor in Parkinson's disease worsen",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 243.025,
+            "to": 253.025
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A patient with damage to Broca's area in the left inferior frontal gyrus would m</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient with damage to Broca's area in the left inferior frontal gyrus would most likely present with:</p>",
+              "answers": [
+                {
+                  "text": "<div>Fluent but meaningless speech with impaired comprehension</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This describes Wernicke's aphasia, caused by damage to area 22 in the left superior temporal gyrus. In Wernicke's aphasia, speech output is fluent but lacks meaning, and the patient cannot comprehend spoken language.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Non-fluent speech with preserved comprehension</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct! Broca's area (areas 44 and 45) is the motor speech region. Damage causes Broca's aphasia — the patient understands spoken language but cannot produce speech fluently, as the narration stated.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Complete loss of vision in the opposite visual field</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Contralateral visual field loss (homonymous hemianopia) results from damage to the primary visual cortex (area 17) along the calcarine sulcus in the occipital lobe, not the frontal lobe.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Loss of sensation on the opposite side of the body</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Contralateral sensory loss results from damage to the postcentral gyrus (primary somatosensory cortex, areas 1, 2, 3) in the parietal lobe, not the inferior frontal gyrus.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Broca's area (areas 44/45) in the left inferior frontal gyrus controls speech motor programming. Its damage causes non-fluent speech with preserved comprehension. Remember: Broca's = Broken speech; Wernicke's = Wrong words."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done! Broca's aphasia is a non-fluent aphasia — the patient knows what they want to say but struggles to produce it. This localises the lesion to areas 44 and 45 in the left inferior frontal gyrus."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "870bdb35-1345-4db0-851f-12cd481941ea",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A patient with damage to Broca's area in",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 429.25,
+            "to": 439.25
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In Parkinson's disease, loss of dopaminergic neurons in the substantia nigra cau</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In Parkinson's disease, loss of dopaminergic neurons in the substantia nigra causes the motor symptoms primarily by:</p>",
+              "answers": [
+                {
+                  "text": "<div>Overactivating the direct pathway, producing excessive involuntary movements</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Direct pathway overactivity produces excessive movement such as chorea, as seen in Huntington's disease. Parkinson's disease features the opposite — reduced movement (bradykinesia) due to indirect pathway dominance.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Disrupting the Papez circuit, causing emotional and memory disturbance</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The Papez circuit (hippocampus → fornix → mammillary bodies → anterior thalamus → cingulate gyrus) governs memory and emotion in the limbic system. It is not part of the basal ganglia motor circuit.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Shifting the balance toward the indirect pathway, suppressing thalamic drive to the motor cortex</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct! Dopamine normally facilitates the direct pathway and restrains the indirect pathway. When dopaminergic neurons in the substantia nigra degenerate, the inhibitory indirect pathway dominates, suppressing thalamic activation of the motor cortex and producing bradykinesia, rigidity, and resting tremor.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Directly damaging the corticospinal tract, causing upper motor neuron weakness</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The corticospinal tract is a cortical projection fibre system passing through the internal capsule. Its damage causes upper motor neuron signs (spasticity, hyperreflexia), which are distinct from the hypokinetic features of Parkinson's disease.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The basal ganglia operate through two opposing pathways: the direct (facilitatory) and indirect (inhibitory). Dopamine from the substantia nigra normally keeps these in balance. In Parkinson's disease, dopamine loss lets the indirect pathway dominate, suppressing thalamic output and reducing voluntary movement."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Excellent! The direct pathway facilitates movement and the indirect pathway inhibits it. Dopamine loss tips the balance toward inhibition, explaining why Parkinson's patients are slow, stiff, and tremulous."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "1cde7177-e42d-4fa4-9dbe-cb51bec30e0e",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In Parkinson's disease, loss of dopamine",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 600.825,
+            "to": 610.825
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Which artery in the Circle of Willis is the most common site for a berry aneurys</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Which artery in the Circle of Willis is the most common site for a berry aneurysm?</p>",
+              "answers": [
+                {
+                  "text": "<div>Anterior communicating artery</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct! The anterior communicating artery, which bridges the two anterior cerebral arteries across the midline, is the most common site for berry aneurysms. These congenital outpouchings form at arterial bifurcation points where the vessel wall is structurally weakest.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Middle cerebral artery</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The middle cerebral artery is the largest branch of the internal carotid and the most common territory for ischaemic stroke, but it is not the most common site for berry aneurysms.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Posterior communicating artery</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The posterior communicating artery is a notable aneurysm site — its rupture classically compresses cranial nerve III, causing a fixed dilated pupil and ptosis. However, it ranks behind the anterior communicating artery in frequency.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Posterior cerebral artery</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The posterior cerebral artery arises from the basilar artery and supplies the occipital lobe, thalamus, and medial temporal lobe. Aneurysms here are considerably less common than at the anterior communicating artery.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The narration explicitly identified the anterior communicating artery as the most common site for berry aneurysms. Berry aneurysms are congenital bulges at arterial bifurcation points — and the AComA, connecting the two anterior cerebral arteries, is the most vulnerable junction."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done! The anterior communicating artery is the single most common site for intracranial berry aneurysms. Rupture typically causes subarachnoid haemorrhage, presenting with sudden-onset severe headache."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "eb9e311e-181c-4f25-95de-3d7d6b20034f",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Which artery in the Circle of Willis is",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        }
+      ],
+      "bookmarks": [
+        {
+          "time": 0,
+          "label": "Welcome to Cranial nerve nuclei & Cerebral hemispheres."
+        },
+        {
+          "time": 4,
+          "label": "Three patients arrived at a neurology ward on the same day."
+        },
+        {
+          "time": 73,
+          "label": "Cranial nerve nuclei are organized into seven functional…"
+        },
+        {
+          "time": 158,
+          "label": "The cerebral hemisphere is divided into lobes by sulci, t…"
+        },
+        {
+          "time": 243,
+          "label": "White matter fibres fall into three groups: commissural,…"
+        },
+        {
+          "time": 333,
+          "label": "The basal ganglia are deep brain structures that regulate…"
+        },
+        {
+          "time": 429,
+          "label": "The thalamus consists of two egg-shaped masses sitting on…"
+        },
+        {
+          "time": 522,
+          "label": "The Circle of Willis forms at the base of the brain, in t…"
+        }
+      ],
+      "endscreens": [
+        {
+          "time": 626,
+          "label": "End"
+        }
+      ]
+    },
+    "summary": {
+      "task": {
+        "library": "H5P.Summary 1.10",
+        "params": {
+          "intro": "Course summary",
+          "summaries": [
+            {
+              "subContentId": "69667505-72f4-46dd-af7a-970d661c5a29",
+              "tip": "",
+              "summary": [
+                "Review the video interactions to check your understanding."
+              ]
+            }
+          ],
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You answered all the questions."
+            }
+          ],
+          "solvedLabel": "Progress:",
+          "scoreBarLabel": "You got :num out of :total points",
+          "resultLabel": "Your result",
+          "labelCorrect": "Correct:",
+          "labelIncorrect": "Incorrect!",
+          "labelShowSolution": "Show solution",
+          "tipButtonLabel": "Show tip",
+          "scoreLabel": "False statements:"
+        },
+        "subContentId": "0529bfb2-4bc6-455a-a02e-721736aeee37",
+        "metadata": {
+          "contentType": "Summary",
+          "license": "U",
+          "title": "Summary",
+          "authors": [],
+          "changes": []
+        }
+      },
+      "displayAt": 0
+    }
+  },
+  "override": {
+    "autoplay": false,
+    "loop": false,
+    "showBookmarksmenuOnLoad": false,
+    "showRewind10": true,
+    "preventSkippingMode": "none",
+    "deactivateSound": false
+  },
+  "l10n": {
+    "interaction": "Interaction",
+    "play": "Play",
+    "pause": "Pause",
+    "mute": "Mute",
+    "quality": "Video Quality",
+    "captions": "Captions",
+    "close": "Close",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "summary": "Summary",
+    "bookmarks": "Bookmarks",
+    "endscreen": "Submit screen",
+    "defaultAdaptivitySeekLabel": "Continue"
+  }
+}
