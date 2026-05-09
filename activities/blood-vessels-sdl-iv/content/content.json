@@ -3,8 +3,8 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/blood-vessels-sdl/v1/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/f2991fde-8125-4f72-9d01-ab3f6e96a7fb/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
@@ -28,6 +28,30 @@
                 "license": "U"
               }
             }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/blood-vessels-sdl/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/blood-vessels-sdl/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
           }
         ],
         "defaultTrackLabel": "English"
@@ -43,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why does chronic hypertension predispose the aorta to dissection?</p>",
+          "label": "<p>A patient with long-standing hypertension develops an aortic dissection. Which m</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -52,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Why does chronic hypertension predispose the aorta to dissection?</p>",
+              "question": "<p>A patient with long-standing hypertension develops an aortic dissection. Which mechanism best explains why the vessel wall failed?</p>",
               "answers": [
                 {
-                  "text": "<div>It causes progressive weakening of elastic fibres in the tunica media through repeated mechanical stress</div>",
+                  "text": "<div>Atherosclerotic plaque eroded through the tunica intima</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Atherosclerosis primarily targets the intima of muscular arteries, not the elastic fibres of the aortic media. Aortic dissection involves tearing between wall layers due to weakened elastic tissue, not plaque erosion.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Repeated mechanical stress weakened elastic fibres in the tunica media</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The aorta's tunica media is packed with elastic fibres that stretch with each heartbeat and recoil as pressure drops. Years of elevated pressure gradually weaken these fibres until the wall can no longer hold.</div>",
+                    "chosenFeedback": "<div>The tunica media of the aorta is packed with elastic fibres that stretch with every heartbeat and recoil as pressure drops. Chronic hypertension subjects these fibres to repeated mechanical stress, gradually weakening them until the wall can no longer hold.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It damages the endothelial lining of the tunica intima, exposing subendothelial collagen</div>",
+                  "text": "<div>Endothelial dysfunction reduced nitric oxide release</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While endothelial damage can occur in hypertension, aortic dissection results from mechanical weakening of elastic fibres in the tunica media, not from endothelial disruption.</div>",
+                    "chosenFeedback": "<div>While the endothelium releases nitric oxide and other vasoactive substances, the primary mechanism of aortic dissection is mechanical weakening of elastic fibres in the tunica media, not endothelial dysfunction.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It leads to fibrosis and thickening of the tunica adventitia, compressing the vasa vasorum</div>",
+                  "text": "<div>Collagen degradation in the tunica adventitia caused wall collapse</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The adventitia contains vasa vasorum, but hypertension primarily damages the elastic fibres in the tunica media — the layer responsible for withstanding pulsatile pressure.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It increases deposition of atherosclerotic plaque within the tunica media</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Atherosclerotic plaque accumulates in the tunica intima of muscular arteries. The aorta's dissection risk comes from mechanical weakening of elastic fibres in the media, not plaque deposition.</div>",
+                    "chosenFeedback": "<div>The adventitia contains collagen and fibroblasts and provides external support, but it is not the layer responsible for withstanding arterial blood pressure. Dissection occurs within the media.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -95,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key is the tunica media — its elastic fibres stretch and recoil with each heartbeat, and chronic hypertension gradually weakens them through repeated mechanical stress until the wall can no longer hold."
+                  "feedback": "The tunica media contains elastic fibres responsible for the aorta's tensile strength. Chronic hypertension weakens these fibres through repeated mechanical stress, predisposing to dissection."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done! The tunica media's elastic fibres bear the mechanical load of each heartbeat, and chronic hypertension progressively weakens them until the wall tears."
+                  "feedback": "Exactly right. The aorta's strength comes from elastic fibres in the tunica media. Years of hypertension weaken these fibres through repeated mechanical stress, eventually causing the wall to tear."
                 }
               ],
               "behaviour": {
@@ -127,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "d4a48910-33e6-483c-ad2f-fea041286622",
+            "subContentId": "33e36e93-97c1-48b5-aa1d-9c78c1285a8d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Why does chronic hypertension predispose",
+              "title": "A patient with long-standing hypertensio",
               "authors": [],
               "changes": []
             }
@@ -153,95 +177,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A histology slide shows an artery with approximately 50 concentric elastic sheet</p>",
+          "label": "<p>The internal elastic lamina is the key microscopic feature used to identify elas</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A histology slide shows an artery with approximately 50 concentric elastic sheets in its tunica media, appearing wavy on H&amp;E stain and giving a yellow colour on gross examination. Which type of artery is this?</p>",
-              "answers": [
-                {
-                  "text": "<div>Muscular artery</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Muscular arteries are identified by a prominent internal elastic lamina and 10 to 40 smooth muscle layers in the media, with sparse elastic fibres — not concentric elastic sheets.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Elastic artery</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Elastic arteries contain 40 to 70 concentric elastic lamellae in the tunica media. These sheets appear wavy on H&amp;E staining and give the vessel a yellow colour grossly.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Arteriole</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Arterioles are much smaller vessels (10–100 µm) with only 1 to 3 layers of smooth muscle and no concentric elastic sheets.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Distributing artery</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. 'Distributing artery' is another name for muscular arteries, which have far fewer elastic lamellae and are defined instead by a prominent internal elastic lamina sandwiching a thick smooth-muscle wall.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The key identifying feature is multiple concentric elastic sheets (40–70) in the tunica media. This distinguishes elastic arteries (aorta, common carotid) from muscular arteries, which have a prominent internal elastic lamina but far fewer elastic sheets."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct! Multiple concentric elastic lamellae in the media are the defining feature of elastic arteries like the aorta, enabling the Windkessel effect that smooths pulsatile blood flow."
-                }
-              ],
+              "question": "<p>The internal elastic lamina is the key microscopic feature used to identify elastic arteries.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is false. The internal elastic lamina is the defining feature of muscular arteries. Elastic arteries are characterised by 40 to 70 concentric elastic lamellae throughout the tunica media — it is these multiple sheets, not the IEL, that define them under the microscope.",
+                "correctAnswerMessage": "Correct — this statement is false. The internal elastic lamina is the defining microscopic feature of muscular arteries, not elastic arteries. Elastic arteries are identified by 40 to 70 concentric elastic lamellae throughout the tunica media, which appear wavy on H&E staining.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "ac7bc988-f0de-4dc9-b9ee-e659196bae91",
+            "subContentId": "d6d4bbb5-5a6b-4e68-8dc8-9949fd6ce506",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "A histology slide shows an artery with a",
+              "title": "The internal elastic lamina is the key m",
               "authors": [],
               "changes": []
             }
@@ -263,7 +235,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A pathologist examines a capillary with wide gaps between endothelial cells, all</p>",
+          "label": "<p>A histology slide shows a capillary with a wide, irregular lumen and large gaps </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -272,14 +244,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A pathologist examines a capillary with wide gaps between endothelial cells, allowing passage of whole blood cells and large proteins. In which organ is this capillary most likely found?</p>",
+              "question": "<p>A histology slide shows a capillary with a wide, irregular lumen and large gaps between endothelial cells. In which organ is this capillary type most likely found?</p>",
               "answers": [
                 {
                   "text": "<div>Skeletal muscle</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Skeletal muscle contains continuous capillaries with tight junctions between endothelial cells — the most restrictive capillary type, allowing only small molecules to pass.</div>",
+                    "chosenFeedback": "<div>Skeletal muscle contains continuous capillaries with tight junctions between endothelial cells. These are the most restrictive type and do not have gaps or wide lumens.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -288,7 +260,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The kidney glomerulus has fenestrated capillaries with small pores for rapid filtration, but these do not permit passage of whole blood cells.</div>",
+                    "chosenFeedback": "<div>The kidney glomerulus has fenestrated capillaries with small pores that allow rapid filtration. However, they do not have the large intercellular gaps or irregular lumen described here.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -297,7 +269,7 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The liver contains sinusoidal capillaries with wide lumens and gaps between endothelial cells, allowing whole blood cells and large proteins to pass through freely.</div>",
+                    "chosenFeedback": "<div>Sinusoidal capillaries have wide, irregular lumens and large gaps between endothelial cells, allowing whole blood cells and large proteins to pass through. They are found in the liver, spleen, and bone marrow.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -306,7 +278,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The lung has continuous capillaries that maintain a thin, tight barrier optimised for gas exchange, not for allowing cell passage.</div>",
+                    "chosenFeedback": "<div>Pulmonary alveolar capillaries are continuous capillaries with tight junctions. Their thin walls facilitate gas exchange, but they do not have large intercellular gaps.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -315,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "These are sinusoidal capillaries, found in the liver, spleen, and bone marrow. Their wide gaps between endothelial cells allow whole blood cells and large proteins to pass through — unlike the tighter continuous or fenestrated types."
+                  "feedback": "The description matches sinusoidal capillaries, found in the liver, spleen, and bone marrow. Remember the three types: continuous (tight junctions — muscle, skin, lung, CNS), fenestrated (small pores — kidney, intestine, endocrine glands), and sinusoidal (large gaps — liver, spleen, bone marrow)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done! Sinusoidal capillaries — found in the liver, spleen, and bone marrow — have the widest gaps, allowing passage of blood cells and large proteins."
+                  "feedback": "Well done. Sinusoidal capillaries in the liver, spleen, and bone marrow have wide lumens and intercellular gaps that allow passage of blood cells and large proteins, reflecting the phagocytic and haematopoietic functions of these organs."
                 }
               ],
               "behaviour": {
@@ -347,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f0b6b2e1-8b9b-4e64-b97d-9ba62e8d2343",
+            "subContentId": "1f0bdda7-a35a-429b-bc27-be90bc1ca923",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A pathologist examines a capillary with",
+              "title": "A histology slide shows a capillary with",
               "authors": [],
               "changes": []
             }
@@ -367,49 +339,101 @@
         },
         {
           "duration": {
-            "from": 484.8,
-            "to": 494.8
+            "from": 485.8,
+            "to": 495.8
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In diabetes, the basement membrane of blood vessels becomes thinner, leading to </p>",
+          "label": "<p>What do Weibel-Palade bodies in endothelial cells store?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In diabetes, the basement membrane of blood vessels becomes thinner, leading to increased permeability and microangiopathy.</p>",
-              "correct": "false",
+              "question": "<p>What do Weibel-Palade bodies in endothelial cells store?</p>",
+              "answers": [
+                {
+                  "text": "<div>Nitric oxide and endothelin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Nitric oxide is a gas synthesised and released on demand by endothelial cells — it cannot be stored in membrane-bound organelles. Endothelin is similarly produced as needed.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Type IV collagen and laminin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Type IV collagen and laminin are structural components of the basement membrane, produced by endothelial cells and pericytes. They are deposited extracellularly, not stored in Weibel-Palade bodies.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>von Willebrand factor and P-selectin</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Weibel-Palade bodies store von Willebrand factor, essential for platelet adhesion and coagulation, and P-selectin, which mediates the initial tethering of leukocytes to the endothelium during inflammation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Actin filaments and vimentin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Actin microfilaments and vimentin intermediate filaments are cytoskeletal components distributed throughout the endothelial cell cytoplasm. They are not stored in Weibel-Palade bodies.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Weibel-Palade bodies store von Willebrand factor and P-selectin. vWF is essential for platelet adhesion in coagulation, while P-selectin mediates leukocyte tethering during inflammation — both critical ultrastructural details of endothelial cells."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. Weibel-Palade bodies are distinctive endothelial organelles storing von Willebrand factor (for coagulation) and P-selectin (for leukocyte recruitment), released by exocytosis when the endothelium is activated."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Incorrect. The basement membrane thickens in diabetes, not thins. Despite this thickening, the altered structure impairs normal filtration and exchange, causing the microvascular complications known as diabetic microangiopathy.",
-                "correctAnswerMessage": "Correct — the statement is false. In diabetes, the basement membrane actually thickens, not thins. This thickening disrupts normal filtration and molecular exchange, driving the microvascular complications known as diabetic microangiopathy.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8a311377-e39a-42df-b687-45f5314644c1",
+            "subContentId": "ee5a25bc-28a7-4dda-a0b2-94ea27e5a4d3",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In diabetes, the basement membrane of bl",
+              "title": "What do Weibel-Palade bodies in endothel",
               "authors": [],
               "changes": []
             }
@@ -468,7 +492,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "ae7a591f-d5d2-474f-8f66-aa38d5782fdf",
+              "subContentId": "f94d612b-1515-47a3-8a14-49964f1d35bb",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -491,7 +515,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "d600b1d3-bafb-4d5b-9502-360924e948a1",
+        "subContentId": "e07bce81-dfe6-489b-a321-35c26fc00a88",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
