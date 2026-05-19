@@ -112,3 +112,61 @@ video::cue{font-size:80%;background:rgba(0,0,0,.72);line-height:1.3}
 </body>
 </html>`;
 }
+
+/**
+ * Generate a minimal embed page — just the H5P player, no navigation header.
+ * Served at /h5p/embed/<slug>/ for Canvas iframe embedding.
+ *
+ * --- HOST IFRAME SIZING CONTRACT ---
+ * The H5P interactive video has an intrinsic height ≈ (iframe-width * 0.5625) +
+ * ~35px (16:9 video + toolbar). Any host page that embeds this page in a
+ * sub-iframe MUST size that sub-iframe to match this aspect, or the bottom
+ * toolbar will be clipped on wide monitors.
+ *
+ * Recommended host wrapper (works inside Canvas's HTML sanitizer):
+ *   <div style="position:relative;width:100%;padding-bottom:60%;max-height:1400px;">
+ *     <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;..."></iframe>
+ *   </div>
+ *
+ * Do NOT use `aspect-ratio:`, `box-sizing:border-box`, or `height:80vh` in the
+ * wrapper — the first two are stripped by Canvas's sanitizer, and the third
+ * ties height to viewport instead of iframe width, causing clip on 16:9
+ * monitors. Do NOT add `min-height:` either — it adds onto padding-bottom.
+ * Reference: canvascbme docs/08-api-findings-and-solutions.md → "H5P iframe sizing".
+ *
+ * @param {object} opts
+ * @param {string} opts.activityPath — e.g. "/h5p/activities/sdl-an-axilla-...-iv"
+ * @param {string} opts.libsPath     — e.g. "/h5p/libs"
+ * @returns {string} Full HTML
+ */
+export function h5pEmbedPage({ activityPath, libsPath }) {
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;overflow:hidden;background:#fff}
+#h5p-container{width:100%;height:100vh}
+video::cue{font-size:80%;background:rgba(0,0,0,.72);line-height:1.3}
+/* Ensure H5P fullscreen button works inside iframe */
+.h5p-content{width:100%!important;height:100%!important}
+</style>
+</head>
+<body>
+<div id="h5p-container"></div>
+<script src="https://cdn.jsdelivr.net/npm/h5p-standalone@3.8.2/dist/main.bundle.js"><\/script>
+<script>
+  new H5PStandalone.H5P(document.getElementById('h5p-container'), {
+    h5pJsonPath:   '${esc(activityPath)}',
+    librariesPath: '${esc(libsPath)}',
+    frameJs:       'https://cdn.jsdelivr.net/npm/h5p-standalone@3.8.2/dist/frame.bundle.js',
+    frameCss:      'https://cdn.jsdelivr.net/npm/h5p-standalone@3.8.2/dist/styles/h5p.css',
+    fullScreen:    true,
+    frame:         false,
+  });
+<\/script>
+</body>
+</html>`;
+}
