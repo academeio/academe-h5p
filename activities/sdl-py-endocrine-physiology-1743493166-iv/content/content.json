@@ -3,8 +3,8 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/sdl-py-endocrine-physiology-1743493166/v1/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/7be578a9-aa12-48aa-8d58-e615ba7b4cb6/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
@@ -14,19 +14,60 @@
         "title": "PY8.1-PY8.7 — Interactive Lecture (PY)",
         "hideStartTitle": false,
         "shortStartDescription": "Interactive lecture with 6 embedded questions for PY8.1-PY8.7."
+      },
+      "textTracks": {
+        "videoTrack": [
+          {
+            "label": "English",
+            "kind": "subtitles",
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-endocrine-physiology-1743493166/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-endocrine-physiology-1743493166/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-endocrine-physiology-1743493166/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          }
+        ],
+        "defaultTrackLabel": "English"
       }
     },
     "assets": {
       "interactions": [
         {
           "duration": {
-            "from": 275.17499999999995,
-            "to": 285.17499999999995
+            "from": 175.95,
+            "to": 185.95
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which of the following INHIBITS the release of antidiuretic hormone (ADH) from t</p>",
+          "label": "<p>A pituitary stalk lesion disrupts the portal blood supply between the hypothalam</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -35,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which of the following INHIBITS the release of antidiuretic hormone (ADH) from the posterior pituitary?</p>",
+              "question": "<p>A pituitary stalk lesion disrupts the portal blood supply between the hypothalamus and the anterior pituitary. Most anterior pituitary hormone levels fall as a result. Which hormone would paradoxically rise?</p>",
               "answers": [
                 {
-                  "text": "<div>Rise in plasma osmolality</div>",
+                  "text": "<div>Growth hormone</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A rise in plasma osmolality is actually the strongest stimulus for ADH release. Osmoreceptors near the supraoptic nucleus detect increased osmolality and trigger secretion.</div>",
+                    "chosenFeedback": "<div>Growth hormone is stimulated by GHRH delivered through the portal system. A stalk lesion would reduce GHRH delivery and lower GH levels.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Fall in blood volume</div>",
+                  "text": "<div>Adrenocorticotropic hormone</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Hypovolaemia stimulates ADH release via baroreceptors in the atria and carotid sinus, helping the body retain water to restore volume.</div>",
+                    "chosenFeedback": "<div>ACTH depends on CRH stimulation from the hypothalamus. Interrupting portal blood flow would reduce CRH delivery and lower ACTH.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Alcohol consumption</div>",
+                  "text": "<div>Thyroid-stimulating hormone</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>TSH is stimulated by TRH from the hypothalamus. Without TRH delivery through portal blood, TSH secretion falls.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Prolactin</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Alcohol inhibits ADH secretion, which reduces water reabsorption in the collecting duct, leading to dilute urine and dehydration — the classic mechanism behind alcohol-induced diuresis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Stress and pain</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Stress and pain are both recognised stimuli for ADH release, not inhibitors. This is one reason surgical patients may retain water postoperatively.</div>",
+                    "chosenFeedback": "<div>Prolactin is the only anterior pituitary hormone under tonic inhibition — dopamine from the hypothalamus continuously suppresses it. A stalk lesion interrupts dopamine delivery, removing the inhibitory brake and causing prolactin to rise.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -78,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the stimuli and inhibitors of ADH. The key inhibitor discussed in this section is alcohol. All the other options — raised osmolality, low blood volume, and stress — are stimuli for ADH release."
+                  "feedback": "Recall that all anterior pituitary hormones except prolactin require stimulatory hypothalamic hormones delivered via portal blood. Prolactin is the exception — it is tonically inhibited by dopamine. Disrupting dopamine delivery removes the brake and allows prolactin to rise."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Alcohol inhibits ADH release, which is why it acts as a diuretic and causes dehydration despite fluid intake."
+                  "feedback": "Correct. Prolactin is unique among anterior pituitary hormones in being tonically suppressed by hypothalamic dopamine. All other anterior pituitary hormones require stimulatory hypothalamic factors (GnRH, TRH, CRH, GHRH), so they fall when the portal connection is lost."
                 }
               ],
               "behaviour": {
@@ -110,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6e638797-73a5-4e51-9389-6c6489a944ab",
+            "subContentId": "f647f4fd-df38-4280-801d-e297ad33049b",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which of the following INHIBITS the rele",
+              "title": "A pituitary stalk lesion disrupts the po",
               "authors": [],
               "changes": []
             }
@@ -130,49 +171,101 @@
         },
         {
           "duration": {
-            "from": 469.24999999999994,
-            "to": 479.24999999999994
+            "from": 368.49999999999994,
+            "to": 378.49999999999994
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>T4 is the predominant secretory product of the thyroid gland, but T3 is three to</p>",
+          "label": "<p>Thyroid follicular cells concentrate iodide from the blood using the sodium-iodi</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>T4 is the predominant secretory product of the thyroid gland, but T3 is three to four times more biologically potent.</p>",
-              "correct": "true",
+              "question": "<p>Thyroid follicular cells concentrate iodide from the blood using the sodium-iodide symporter, which is upregulated by TSH. What is the clinical significance of this concentrating mechanism?</p>",
+              "answers": [
+                {
+                  "text": "<div>It allows radioiodine to selectively accumulate in thyroid tissue for imaging and treatment</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The NIS does not distinguish between stable iodine and radioactive I-131. This selectivity allows radioiodine uptake scans to image the thyroid (as in Kavya's diffuse uptake scan) and radioiodine therapy to ablate overactive thyroid tissue in Graves' disease.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It enables thyroid hormone to be stored in the general circulation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Thyroid hormone is stored as iodinated thyroglobulin in the follicular colloid, not in the bloodstream. The NIS concentrates iodide for synthesis within the gland.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It prevents systemic iodine toxicity by sequestering all dietary iodide</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The thyroid does not sequester all dietary iodide. The kidneys excrete the majority of ingested iodide. The NIS concentrates enough for hormone synthesis, but excess is handled renally.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It blocks the action of antithyroid drugs on follicular cells</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Antithyroid drugs like propylthiouracil and carbimazole block thyroid peroxidase (TPO), a different enzyme downstream of iodide trapping. The NIS does not interfere with their mechanism.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The sodium-iodide symporter concentrates iodide (and radioiodine) selectively in thyroid tissue. This is why radioiodine uptake scans can image the thyroid and why I-131 therapy can ablate overactive tissue, as used in the treatment of Graves' disease."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. The sodium-iodide symporter concentrates all iodine isotopes, including I-131, making the thyroid uniquely accessible to radioiodine diagnostics and therapy — a direct clinical consequence of the synthesis pathway."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is actually true. The thyroid secretes mostly T4 (~90%), but T3 is three to four times more potent. T4 is converted to T3 in peripheral tissues by deiodinase enzymes — this is why propylthiouracil, which blocks peripheral conversion, is useful in thyrotoxic crisis.",
-                "correctAnswerMessage": "Correct. T4 accounts for about 90% of thyroid output and acts as a prohormone. Peripheral deiodinases convert T4 to T3, which is the biologically active form with three to four times greater potency.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5af6c0a3-5bc7-4345-8e43-35349ebbc005",
+            "subContentId": "e55e2f5b-ea59-4f48-924a-b56097ede808",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "T4 is the predominant secretory product",
+              "title": "Thyroid follicular cells concentrate iod",
               "authors": [],
               "changes": []
             }
@@ -194,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which zone of the adrenal cortex produces cortisol?</p>",
+          "label": "<p>A patient presents with resistant hypertension and a serum potassium of 2.8 mEq/</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -203,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which zone of the adrenal cortex produces cortisol?</p>",
+              "question": "<p>A patient presents with resistant hypertension and a serum potassium of 2.8 mEq/L. Which adrenal cortical zone and its hormone are most likely responsible for this presentation?</p>",
               "answers": [
                 {
-                  "text": "<div>Zona glomerulosa</div>",
+                  "text": "<div>Zona fasciculata — excess cortisol causing Cushing's syndrome</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The zona glomerulosa is the outermost zone and produces mineralocorticoids, primarily aldosterone, regulated by the renin-angiotensin-aldosterone system.</div>",
+                    "chosenFeedback": "<div>Cushing's syndrome from cortisol excess causes hypertension, but its hallmark features are central obesity, moon face, and proximal muscle wasting. Isolated hypertension with marked hypokalaemia points to aldosterone excess.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Zona fasciculata</div>",
+                  "text": "<div>Zona glomerulosa — excess aldosterone causing Conn's syndrome</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The zona fasciculata, the middle and largest zone, produces glucocorticoids — primarily cortisol. Remember the GFR mnemonic: Glomerulosa → mineralocorticoids, Fasciculata → glucocorticoids, Reticularis → androgens.</div>",
+                    "chosenFeedback": "<div>This is Conn's syndrome (primary hyperaldosteronism). The zona glomerulosa produces aldosterone, which acts on the collecting duct to retain sodium and excrete potassium. Overproduction causes hypertension from volume expansion and hypokalaemia from renal potassium wasting.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Zona reticularis</div>",
+                  "text": "<div>Zona reticularis — excess androgens</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The zona reticularis is the innermost zone and produces adrenal androgens such as dehydroepiandrosterone (DHEA), not cortisol.</div>",
+                    "chosenFeedback": "<div>The zona reticularis produces androgens like DHEA. Androgen excess causes virilisation, not the combination of hypertension with hypokalaemia.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Adrenal medulla</div>",
+                  "text": "<div>Adrenal medulla — excess catecholamines</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The adrenal medulla is not part of the cortex. It is of neural crest origin and secretes catecholamines (adrenaline and noradrenaline), not steroid hormones.</div>",
+                    "chosenFeedback": "<div>The adrenal medulla is not part of the cortex. Excess catecholamines (phaeochromocytoma) cause episodic hypertension with palpitations and headache, not persistent hypokalaemia.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -246,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the GFR mnemonic for adrenal cortical zones (outside to inside): Glomerulosa makes mineralocorticoids (aldosterone), Fasciculata makes glucocorticoids (cortisol), and Reticularis makes androgens (DHEA)."
+                  "feedback": "Remember the GFR mnemonic: Glomerulosa (aldosterone), Fasciculata (cortisol), Reticularis (androgens). Hypertension with prominent hypokalaemia is the hallmark of Conn's syndrome — excess aldosterone from the zona glomerulosa driving sodium retention and potassium excretion."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. The zona fasciculata produces cortisol, which follows a diurnal rhythm peaking at 8 a.m. and has wide-ranging metabolic and anti-inflammatory effects."
+                  "feedback": "Correct. The GFR mnemonic (Glomerulosa → Fasciculata → Reticularis) maps to mineralocorticoids → glucocorticoids → androgens. Conn's syndrome from the outermost glomerulosa is the classic cause of hypertension with hypokalaemia."
                 }
               ],
               "behaviour": {
@@ -278,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "34090bd5-734b-480b-bc96-71561033dc14",
+            "subContentId": "04dfeea0-d6ce-485e-958a-5ecc4a4739fd",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which zone of the adrenal cortex produce",
+              "title": "A patient presents with resistant hypert",
               "authors": [],
               "changes": []
             }
@@ -304,7 +397,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why does Type 2 diabetes mellitus typically NOT present with diabetic ketoacidos</p>",
+          "label": "<p>A patient with Type 2 diabetes presents with extreme hyperglycaemia (blood gluco</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -313,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Why does Type 2 diabetes mellitus typically NOT present with diabetic ketoacidosis (DKA)?</p>",
+              "question": "<p>A patient with Type 2 diabetes presents with extreme hyperglycaemia (blood glucose 650 mg/dL) and altered consciousness, but urine ketones are negative. Why does Type 2 diabetes typically cause hyperosmolar hyperglycaemic state rather than diabetic ketoacidosis?</p>",
               "answers": [
                 {
-                  "text": "<div>Type 2 patients have lower blood glucose levels than Type 1 patients</div>",
+                  "text": "<div>Type 2 diabetes never involves any defect in insulin secretion</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Type 2 patients can actually develop extreme hyperglycaemia (&gt;600 mg/dL in HHS). The degree of hyperglycaemia does not determine whether ketoacidosis occurs.</div>",
+                    "chosenFeedback": "<div>This is incorrect. In Type 2 diabetes, beta cells eventually exhaust and insulin secretion falls. However, enough residual insulin persists to suppress ketogenesis even when glucose control is lost.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Residual insulin secretion in Type 2 is sufficient to suppress lipolysis and ketogenesis</div>",
+                  "text": "<div>Oral hypoglycaemic drugs directly prevent ketone body formation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Oral hypoglycaemic drugs work by improving insulin sensitivity, stimulating secretion, or reducing glucose absorption — they do not directly block ketogenesis. Suppression of ketosis comes from residual endogenous insulin.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Residual insulin secretion in Type 2 diabetes is sufficient to suppress lipolysis and ketogenesis</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In Type 2 DM, beta cells still produce some insulin. This residual insulin is enough to suppress hormone-sensitive lipase in adipose tissue, preventing the massive lipolysis and ketone body formation that characterises DKA.</div>",
+                    "chosenFeedback": "<div>In Type 2 diabetes, beta cells still secrete some insulin — enough to suppress lipolysis and prevent the ketone body accumulation that drives DKA. However, this residual insulin is inadequate for full glucose control, leading to extreme hyperglycaemia and hyperosmolarity instead.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Glucagon secretion is absent in Type 2 diabetes</div>",
+                  "text": "<div>The liver loses its capacity for ketogenesis in insulin-resistant states</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Glucagon secretion is not absent in Type 2 DM. In fact, inappropriate glucagon secretion contributes to the hyperglycaemia. The key difference is that residual insulin suppresses ketogenesis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Type 2 patients are resistant to the effects of ketone bodies</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>There is no resistance to ketone bodies in Type 2 DM. The reason DKA is uncommon is that residual insulin prevents the excessive fat breakdown that generates ketones in the first place.</div>",
+                    "chosenFeedback": "<div>The liver retains full capacity for ketogenesis regardless of insulin resistance. In Type 1 diabetes, absent insulin allows unopposed glucagon to drive hepatic ketogenesis. In Type 2, residual insulin keeps this pathway suppressed.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -356,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key concept is residual insulin. In Type 1 DM, absolute insulin deficiency leaves lipolysis and ketogenesis unchecked, causing DKA. In Type 2 DM, even though insulin action is impaired, the remaining insulin is enough to suppress ketone production."
+                  "feedback": "The critical difference lies in residual insulin. Type 2 diabetes retains enough beta-cell function to suppress lipolysis and ketogenesis, even when glucose control is lost. This is why patients develop HHS (extreme hyperglycaemia without ketosis) rather than DKA."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The critical distinction is that Type 2 DM retains enough endogenous insulin to suppress ketogenesis, even though it is insufficient to control blood glucose. This is why Type 2 presents with HHS rather than DKA."
+                  "feedback": "Correct. The key distinction is residual insulin. In Type 1, absolute insulin deficiency allows unchecked lipolysis and ketogenesis, leading to DKA. In Type 2, enough insulin remains to suppress ketone production but not enough to prevent severe hyperglycaemia — hence HHS."
                 }
               ],
               "behaviour": {
@@ -388,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "0c9666d4-3826-4248-b9d5-b594936bb844",
+            "subContentId": "ec18c7cf-ce59-4502-8cea-62fcd7cc7b29",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Why does Type 2 diabetes mellitus typica",
+              "title": "A patient with Type 2 diabetes presents",
               "authors": [],
               "changes": []
             }
@@ -414,95 +507,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Trousseau's sign is elicited by inflating a blood pressure cuff above systolic p</p>",
+          "label": "<p>In hypercalcaemia, polyuria and polydipsia occur because excess calcium enhances</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Trousseau's sign is elicited by inflating a blood pressure cuff above systolic pressure. What physiological mechanism underlies the resulting carpal spasm?</p>",
-              "answers": [
-                {
-                  "text": "<div>Ischaemia-induced muscle contracture from arterial occlusion</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Although the cuff does occlude arterial flow, the spasm is not due to simple ischaemia. Healthy individuals do not develop carpal spasm with cuff inflation — it requires the pre-existing neuronal hyperexcitability of hypocalcaemia.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Increased neuronal excitability due to low ionised calcium</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Low ionised calcium lowers the threshold for neuronal depolarisation, making peripheral nerves hyperexcitable. The transient ischaemia from cuff inflation further lowers ionised calcium locally, tipping already-excitable nerves into sustained firing and producing tetanic carpal spasm.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Direct calcium depletion in skeletal muscle fibres</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Trousseau's sign reflects a neural phenomenon, not a primary muscle defect. The spasm results from increased peripheral nerve excitability causing involuntary motor discharge, not from calcium depletion within the muscle fibres themselves.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Reflex sympathetic activation from cuff compression</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Sympathetic activation does not explain the specific pattern of carpal spasm. The mechanism is increased neuronal excitability from hypocalcaemia, which is unmasked by the ischaemic stress of cuff inflation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "All clinical features of hypocalcaemia — tetany, Trousseau's sign, Chvostek's sign, perioral tingling, and seizures — trace back to one mechanism: increased neuronal excitability from reduced ionised calcium. The cuff-induced ischaemia unmasks this hyperexcitability."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Excellent. Low ionised calcium increases neuronal membrane excitability by lowering the depolarisation threshold. This is the unifying mechanism behind tetany, Trousseau's sign, Chvostek's sign, and the seizures seen in severe hypocalcaemia."
-                }
-              ],
+              "question": "<p>In hypercalcaemia, polyuria and polydipsia occur because excess calcium enhances antidiuretic hormone action on the collecting duct, causing excessive water reabsorption.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "The statement is false. Hypercalcaemia blunts (not enhances) ADH action on the collecting duct. This impairs the kidney's ability to concentrate urine, causing polyuria and dehydration. The resulting thirst drives polydipsia. This is the mechanism behind 'Groans' in the hypercalcaemia mnemonic.",
+                "correctAnswerMessage": "Correct — the statement is false. Hypercalcaemia actually blunts ADH action on the collecting duct, impairing water reabsorption and producing dilute urine (nephrogenic diabetes insipidus). The resulting water loss causes polyuria and compensatory polydipsia — the 'Groans' component of the Bones, Stones, Moans, Groans, Psychic Overtones mnemonic.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "1f8edbcb-5242-4c78-969e-80a4a743f7fa",
+            "subContentId": "399aa69f-a629-4d15-ab4a-13f37f84e671",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "Trousseau's sign is elicited by inflatin",
+              "title": "In hypercalcaemia, polyuria and polydips",
               "authors": [],
               "changes": []
             }
@@ -524,7 +565,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient presents with features suggestive of Cushing's syndrome. Which of the </p>",
+          "label": "<p>Endocrine function testing relies on the principle that stimulation tests detect</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -533,41 +574,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient presents with features suggestive of Cushing's syndrome. Which of the following is the appropriate initial screening test?</p>",
+              "question": "<p>Endocrine function testing relies on the principle that stimulation tests detect deficiency while suppression tests detect excess. Which of the following is a correct example of a suppression test?</p>",
               "answers": [
                 {
-                  "text": "<div>Short Synacthen (ACTH stimulation) test</div>",
+                  "text": "<div>Administering synthetic ACTH and measuring the cortisol response</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The Short Synacthen test is a stimulation test used to diagnose adrenal insufficiency, not excess. Remember the principle: stimulation tests detect deficiency; suppression tests detect excess.</div>",
+                    "chosenFeedback": "<div>This is the Short Synacthen test — a stimulation test. It stimulates the adrenal cortex with exogenous ACTH to check whether cortisol can rise above 18 µg/dL. Failure to rise detects adrenal insufficiency (deficiency), not excess.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Overnight dexamethasone suppression test</div>",
+                  "text": "<div>Measuring morning cortisol at 8 AM to screen for insufficiency</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Measuring a basal hormone level is a screening test, not a dynamic suppression test. A true suppression test requires administering a substance that should turn off hormone production in a normal individual.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Giving an oral glucose load and checking whether growth hormone is appropriately suppressed</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Dexamethasone is a synthetic glucocorticoid that should suppress ACTH and cortisol via negative feedback. In Cushing's syndrome, cortisol fails to suppress, confirming autonomous excess. This follows the principle that suppression tests detect hormone excess.</div>",
+                    "chosenFeedback": "<div>This is the gold-standard suppression test for acromegaly. In healthy individuals, oral glucose suppresses GH below 0.4 ng/mL. In acromegaly, GH fails to suppress or paradoxically rises, confirming autonomous excess from the pituitary.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Morning serum cortisol at 8 a.m.</div>",
+                  "text": "<div>Measuring glycated haemoglobin to assess average blood glucose over three months</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A single morning cortisol is useful for screening adrenal insufficiency (low value suggests deficiency), but it is unreliable for confirming Cushing's because cortisol naturally peaks in the morning and varies with stress.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Serum ACTH level alone</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>ACTH helps localise the cause of Cushing's (pituitary vs ectopic vs adrenal) once the diagnosis is confirmed, but it is not the initial screening test. The overnight dexamethasone suppression test or 24-hour urine free cortisol is used first.</div>",
+                    "chosenFeedback": "<div>HbA1c reflects average blood glucose over 2–3 months. It is a monitoring and diagnostic marker for diabetes, not a dynamic stimulation or suppression test.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -576,12 +617,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the golden rule of endocrine testing: stimulation tests reveal deficiency, suppression tests reveal excess. For suspected Cushing's (cortisol excess), you need a suppression test — the overnight dexamethasone suppression test or 24-hour urine free cortisol."
+                  "feedback": "Remember the principle: suppression tests administer a substance that should turn off normal hormone production. Oral glucose normally suppresses GH below 0.4 ng/mL. Failure to suppress confirms excess (acromegaly). Contrast with stimulation tests like the Synacthen test, which detect deficiency by checking whether a gland can respond to stimulation."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The overnight dexamethasone suppression test applies the core endocrine testing principle: suppression tests detect excess. If exogenous glucocorticoid fails to suppress cortisol, autonomous overproduction is confirmed."
+                  "feedback": "Correct. The oral glucose tolerance test for GH is a classic suppression test — you provide a physiological suppressor (glucose) and check whether the hormone (GH) is appropriately turned off. Failure to suppress confirms autonomous excess (acromegaly)."
                 }
               ],
               "behaviour": {
@@ -608,11 +649,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "d5840fa9-3191-40a7-91ea-ae59f783849c",
+            "subContentId": "6b928263-8e77-4f10-b589-1db1844da0a5",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient presents with features suggest",
+              "title": "Endocrine function testing relies on the",
               "authors": [],
               "changes": []
             }
@@ -629,28 +670,56 @@
       ],
       "bookmarks": [
         {
+          "time": 0,
+          "label": "Welcome to Endocrine Physiology."
+        },
+        {
+          "time": 3,
+          "label": "Kavya is a nineteen-year-old first-year medical student f…"
+        },
+        {
+          "time": 78,
+          "label": "The hypothalamus is the interface between the nervous sys…"
+        },
+        {
+          "time": 176,
+          "label": "The posterior pituitary stores and releases two hormones…"
+        },
+        {
           "time": 275,
-          "label": "0: scene-3"
+          "label": "Thyroid follicular cells produce thyroxine, called T4, an…"
+        },
+        {
+          "time": 368,
+          "label": "Once you understand what thyroid hormone does, every clin…"
         },
         {
           "time": 469,
-          "label": "1: scene-5"
+          "label": "The adrenal cortex is arranged in three concentric zones."
         },
         {
           "time": 556,
-          "label": "2: scene-6"
+          "label": "Insulin and glucagon are the two main hormones controllin…"
+        },
+        {
+          "time": 644,
+          "label": "Type 1 diabetes mellitus results from autoimmune destruct…"
         },
         {
           "time": 762,
-          "label": "3: scene-8"
+          "label": "Normal serum calcium sits between 8.5 and 10.5 milligrams…"
+        },
+        {
+          "time": 858,
+          "label": "Hypocalcaemia, meaning low blood calcium below 8.5 millig…"
         },
         {
           "time": 966,
-          "label": "4: scene-10"
+          "label": "Growth hormone is a protein of 191 amino acids, secreted…"
         },
         {
-          "time": 1181,
-          "label": "5: scene-12"
+          "time": 1066,
+          "label": "Behind all endocrine testing lies a single principle."
         }
       ],
       "endscreens": [
@@ -667,7 +736,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "bf817831-c7db-4005-8475-bd1809708619",
+              "subContentId": "85930857-8423-42d7-933d-55fe8d00102d",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -690,7 +759,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "8f0787e1-200e-4c84-8ed4-2f523433db94",
+        "subContentId": "fbb1b18a-d5b0-4f73-92c7-1b48b309b66f",
         "metadata": {
           "contentType": "Summary",
           "license": "U",

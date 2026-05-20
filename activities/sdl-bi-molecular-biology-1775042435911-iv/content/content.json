@@ -3,8 +3,8 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/sdl-bi-molecular-biology-1775042435911/v1/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/75905fc6-6ad3-446f-b38b-4ba158ff228e/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
@@ -13,87 +13,61 @@
       "startScreenOptions": {
         "title": "BI10.1-BI10.7 — Interactive Lecture (BI)",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for BI10.1-BI10.7."
+        "shortStartDescription": "Interactive lecture with 8 embedded questions for BI10.1-BI10.7."
       },
       "textTracks": {
         "videoTrack": [
           {
-            "label": "Subtitles",
+            "label": "English",
             "kind": "subtitles",
-            "srcLang": "en"
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-bi-molecular-biology-1775042435911/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-bi-molecular-biology-1775042435911/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-bi-molecular-biology-1775042435911/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
           }
-        ]
+        ],
+        "defaultTrackLabel": "English"
       }
     },
     "assets": {
       "interactions": [
         {
           "duration": {
-            "from": 230.225,
-            "to": 240.225
+            "from": 155.6,
+            "to": 165.6
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>RNA contains deoxyribose as its pentose sugar.</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>RNA contains deoxyribose as its pentose sugar.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "RNA actually contains ribose, not deoxyribose. The prefix 'deoxy' means one fewer oxygen — that sugar belongs to DNA. RNA's full name, ribonucleic acid, tells you its sugar is ribose.",
-                "correctAnswerMessage": "Correct! RNA contains ribose, not deoxyribose. The 'D' in DNA stands for deoxyribose — it has one fewer oxygen atom than the ribose found in RNA. This single oxygen difference is what distinguishes the two nucleic acid backbones.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "da845bc6-4594-4ed0-a494-cf886e84aa7f",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "RNA contains deoxyribose as its pentose",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 396.72499999999997,
-            "to": 406.72499999999997
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>Humans are prone to hyperuricaemia because they lack a specific enzyme that othe</p>",
+          "label": "<p>Which of the following correctly identifies the two purine bases found in DNA?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -102,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Humans are prone to hyperuricaemia because they lack a specific enzyme that other mammals possess. Which enzyme is absent in humans?</p>",
+              "question": "<p>Which of the following correctly identifies the two purine bases found in DNA?</p>",
               "answers": [
                 {
-                  "text": "<div>Xanthine oxidase</div>",
+                  "text": "<div>Cytosine and thymine</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Xanthine oxidase is present and active in humans — it is the enzyme that produces uric acid from xanthine. Inhibiting it with allopurinol is how we treat gout.</div>",
+                    "chosenFeedback": "<div>Cytosine and thymine are both pyrimidines — they have a single-ring structure. Remember: CUT the PY (C, U, T are pyrimidines).</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Uricase</div>",
+                  "text": "<div>Adenine and guanine</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! Most mammals have uricase, which converts uric acid to the highly soluble allantoin. Humans lack this enzyme, so uric acid is our final degradation product and accumulates in the blood.</div>",
+                    "chosenFeedback": "<div>Correct. Purines (A and G) have a double-ring structure. The mnemonic 'pure as gold' links purines to A and G.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Adenosine deaminase</div>",
+                  "text": "<div>Adenine and uracil</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Adenosine deaminase converts adenosine to inosine in the purine degradation pathway. Its deficiency causes severe combined immunodeficiency (SCID), not hyperuricaemia.</div>",
+                    "chosenFeedback": "<div>Uracil is a pyrimidine found only in RNA, not DNA. Adenine is a purine, but its complementary base in DNA is thymine.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>HGPRT</div>",
+                  "text": "<div>Guanine and cytosine</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>HGPRT is a salvage pathway enzyme. Its complete deficiency causes Lesch-Nyhan syndrome with hyperuricaemia, but the reason all humans accumulate uric acid is the absence of uricase.</div>",
+                    "chosenFeedback": "<div>Although G and C pair together in DNA, guanine is a purine (double ring) while cytosine is a pyrimidine (single ring). They belong to different families.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -145,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The correct answer is uricase. Unlike most mammals, humans cannot convert uric acid to allantoin because we lack uricase. This is the fundamental reason uric acid accumulates in our blood."
+                  "feedback": "Remember 'pure as gold' — purines are Adenine and Guanine. Pyrimidines (C, T in DNA; C, U in RNA) have a single ring. This classification is fundamental to understanding base-pairing rules."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The absence of uricase means uric acid is the end product of purine metabolism in humans, making us uniquely susceptible to gout."
+                  "feedback": "Purines (adenine and guanine) have a fused double-ring structure. This distinguishes them from pyrimidines (C, T, U), which have only a single ring."
                 }
               ],
               "behaviour": {
@@ -177,11 +151,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "610c73b8-0b24-4d45-ac28-2555f1edd551",
+            "subContentId": "f9aa843d-3fd7-4e82-b5c1-d66fdcf5924b",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Humans are prone to hyperuricaemia becau",
+              "title": "Which of the following correctly identif",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 321.275,
+            "to": 331.275
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>The purine salvage pathway recycles free purine bases back into nucleotides. Whi</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>The purine salvage pathway recycles free purine bases back into nucleotides. Which enzyme is responsible for converting hypoxanthine to IMP and guanine to GMP in this pathway?</p>",
+              "answers": [
+                {
+                  "text": "<div>Xanthine oxidase</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Xanthine oxidase is a degradation enzyme — it converts purines to uric acid. The salvage pathway does the opposite: it recaptures bases for reuse.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Adenine phosphoribosyltransferase</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>APRT salvages adenine specifically, converting it to AMP. It does not handle hypoxanthine or guanine — those are HGPRT's substrates.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Hypoxanthine-guanine phosphoribosyltransferase</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. HGPRT recycles both hypoxanthine (→ IMP) and guanine (→ GMP). Its deficiency causes Lesch-Nyhan syndrome due to massively increased uric acid production.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>DNA polymerase III</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>DNA polymerase III synthesises new DNA strands during replication. It plays no role in nucleotide salvage or recycling of free bases.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "HGPRT (hypoxanthine-guanine phosphoribosyltransferase) handles salvage of both hypoxanthine and guanine. The brain and bone marrow depend heavily on this pathway because their capacity for energy-expensive de novo synthesis is limited."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "HGPRT is the key salvage enzyme, especially critical in the brain and bone marrow where de novo synthesis capacity is limited. Its complete deficiency causes Lesch-Nyhan syndrome."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "bd90894e-6280-416d-9d83-6e9df929f82c",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "The purine salvage pathway recycles free",
               "authors": [],
               "changes": []
             }
@@ -203,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The Meselson-Stahl experiment confirmed that DNA replication is semi-conservativ</p>",
+          "label": "<p>DNA replication is described as semi-conservative. What does this mean?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -212,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The Meselson-Stahl experiment confirmed that DNA replication is semi-conservative. What does this mean?</p>",
+              "question": "<p>DNA replication is described as semi-conservative. What does this mean?</p>",
               "answers": [
                 {
-                  "text": "<div>Both strands of the parent DNA are preserved intact in one daughter molecule</div>",
+                  "text": "<div>Each new DNA molecule contains two entirely new strands</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This describes conservative replication, where one daughter molecule would have both old strands and the other would be entirely new. Meselson-Stahl's density gradient results ruled this out.</div>",
+                    "chosenFeedback": "<div>This describes conservative replication, which was disproved by the Meselson-Stahl experiment. In that model, the original molecule would remain intact.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Each daughter molecule contains one original strand and one newly synthesised strand</div>",
+                  "text": "<div>Only the leading strand is replicated while the lagging strand is degraded</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Both strands serve as templates. The lagging strand is synthesised in short Okazaki fragments, but it is fully replicated, not discarded.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Each new DNA molecule retains one original strand and gains one newly synthesised strand</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! In semi-conservative replication, the two parental strands separate and each serves as a template. Every daughter molecule inherits one old strand paired with one new strand.</div>",
+                    "chosenFeedback": "<div>Correct. Semi-conservative means each daughter molecule is a hybrid — one old parental strand paired with one new strand. The Meselson-Stahl experiment confirmed this model.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Short segments of old and new DNA alternate within each strand</div>",
+                  "text": "<div>Replication occurs in two phases: first in the nucleus, then completed in the cytoplasm</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This describes dispersive replication, where old and new DNA would be interspersed throughout both strands. The Meselson-Stahl experiment eliminated this model after two generations of replication.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Only the leading strand is copied from the parent template</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Both the leading and lagging strands are copied during replication. The leading strand is synthesised continuously, while the lagging strand is built in Okazaki fragments, but both use a parental template.</div>",
+                    "chosenFeedback": "<div>In eukaryotes, DNA replication occurs entirely within the nucleus during S phase. The term 'semi-conservative' refers to strand distribution, not cellular location.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -255,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Semi-conservative means each daughter DNA molecule keeps one parental strand and gains one new strand. The Meselson-Stahl experiment proved this using density-labelled DNA across generations."
+                  "feedback": "'Semi-conservative' means half is conserved in each daughter molecule — one parental strand is retained and one new strand is synthesised. This was confirmed by Meselson and Stahl's experiment using heavy nitrogen-labelled DNA."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Semi-conservative replication ensures each daughter cell receives one original template strand, maintaining genetic fidelity across cell divisions."
+                  "feedback": "Semi-conservative replication ensures each daughter cell receives one original template strand, maintaining fidelity across generations. This was elegantly demonstrated by Meselson and Stahl using density-labelled DNA."
                 }
               ],
               "behaviour": {
@@ -287,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "3a6c4f9f-6590-40ba-b980-c853661e4e27",
+            "subContentId": "e6128f86-087b-4db4-961b-1246a630a9fa",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The Meselson-Stahl experiment confirmed",
+              "title": "DNA replication is described as semi-con",
               "authors": [],
               "changes": []
             }
@@ -322,14 +406,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In sickle cell anaemia, the codon GAG changes to GTG in the beta-globin gene, replacing glutamate with valine. What type of mutation is this?</p>",
+              "question": "<p>In sickle cell anaemia, the codon GAG changes to GTG in the beta-globin gene, replacing glutamate with valine. This type of mutation is classified as a:</p>",
               "answers": [
                 {
                   "text": "<div>Silent mutation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A silent mutation changes the codon but produces the same amino acid due to codon degeneracy. In sickle cell anaemia, the amino acid does change — from glutamate to valine — so it is not silent.</div>",
+                    "chosenFeedback": "<div>A silent mutation changes the codon but produces the same amino acid due to codon degeneracy. Here, the amino acid itself changes (glutamate → valine), so it is not silent.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -338,16 +422,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A nonsense mutation creates a premature stop codon, truncating the protein. The GTG codon in sickle cell disease codes for valine, not a stop signal, so the full protein is still made — just with an altered amino acid.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Missense mutation</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct! A missense mutation substitutes one amino acid for another. Here, GAG (glutamate) becomes GTG (valine). This single amino acid change causes haemoglobin S to polymerise under low oxygen, deforming red blood cells into a sickle shape.</div>",
+                    "chosenFeedback": "<div>A nonsense mutation creates a premature stop codon, truncating the protein. The GTG codon codes for valine — it is a functional amino acid, not a stop signal.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -356,7 +431,16 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A frameshift mutation involves insertion or deletion of bases not in multiples of three, shifting the entire reading frame. Sickle cell anaemia involves a single base substitution (A→T) that does not alter the reading frame.</div>",
+                    "chosenFeedback": "<div>Frameshift mutations result from insertions or deletions that shift the reading frame. In sickle cell anaemia, there is a single base substitution with no shift in reading frame.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Missense mutation</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. A missense mutation substitutes one amino acid for another. The single nucleotide change (A→T) changes glutamate to valine, altering haemoglobin's properties and causing sickling.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -365,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "This is a missense mutation: the single nucleotide change (A→T) replaces glutamate with valine. The reading frame is intact and no stop codon is created — only the identity of one amino acid changes."
+                  "feedback": "This is a missense mutation: one base substitution leads to one amino acid change (glutamate → valine). Unlike nonsense mutations (which create stop codons) or frameshifts (which disrupt the entire downstream reading frame), missense mutations change a single amino acid."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. Sickle cell anaemia is the classic example of a missense mutation — one base change, one amino acid swap, and a profoundly altered protein."
+                  "feedback": "Sickle cell anaemia is the classic missense mutation — a single base change produces a different amino acid (Glu→Val), fundamentally altering protein function without truncating it."
                 }
               ],
               "behaviour": {
@@ -397,7 +481,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8bfcc689-8fd5-4254-bf6a-a7c3541d86ac",
+            "subContentId": "a2a86614-3110-41f7-81b3-df292ccabad7",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -417,13 +501,13 @@
         },
         {
           "duration": {
-            "from": 995.9249999999998,
-            "to": 1005.9249999999998
+            "from": 889.8999999999999,
+            "to": 899.8999999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>CRISPR-Cas9 achieves precise gene editing by using a guide RNA to direct the Cas</p>",
+          "label": "<p>In recombinant DNA technology, restriction enzymes serve which primary function?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -432,41 +516,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>CRISPR-Cas9 achieves precise gene editing by using a guide RNA to direct the Cas9 enzyme to a specific DNA target. What does Cas9 do once it reaches the target?</p>",
+              "question": "<p>In recombinant DNA technology, restriction enzymes serve which primary function?</p>",
               "answers": [
                 {
-                  "text": "<div>It adds a methyl group to silence the gene</div>",
+                  "text": "<div>Joining DNA fragments from different sources into a continuous strand</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>DNA methylation is an epigenetic silencing mechanism, not gene editing. It does not alter the DNA sequence. Cas9 physically cuts the DNA strand rather than chemically modifying it.</div>",
+                    "chosenFeedback": "<div>Joining fragments is the role of DNA ligase, the 'molecular glue.' Restriction enzymes perform the opposite function — they cut DNA.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It makes a double-strand cut in the DNA</div>",
+                  "text": "<div>Carrying foreign DNA into the host cell for replication</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This describes vectors (plasmids, bacteriophages, cosmids). Vectors transport DNA; restriction enzymes create the fragments that vectors carry.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Cutting DNA at specific palindromic recognition sequences</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! Cas9 is a nuclease that creates a double-strand break at the target site. The cell's own repair machinery then kicks in — either deleting the sequence, correcting it, or allowing insertion of new DNA at the cut site.</div>",
+                    "chosenFeedback": "<div>Correct. Restriction enzymes are 'molecular scissors' that recognise and cut specific palindromic sequences, producing either sticky ends or blunt ends for cloning.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It amplifies the target sequence like PCR</div>",
+                  "text": "<div>Synthesising complementary DNA strands during replication inside the host</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>PCR amplifies DNA using thermal cycling and Taq polymerase. CRISPR-Cas9 does not copy DNA — it cuts it at a precise location to enable editing.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It binds a fluorescent probe to the target for visualisation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Fluorescent probe binding describes FISH (fluorescence in situ hybridisation), used for detecting chromosomal abnormalities. CRISPR-Cas9 cuts DNA for editing, not for visualisation.</div>",
+                    "chosenFeedback": "<div>DNA synthesis inside the host is performed by the host's own DNA polymerase. Restriction enzymes only cut — they do not build new DNA strands.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -475,12 +559,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Cas9 is a nuclease — it makes a double-strand cut at the guide RNA's target site. The cell's repair machinery then processes the break, enabling gene deletion, correction, or insertion."
+                  "feedback": "Restriction enzymes are molecular scissors — they cut DNA at specific palindromic sequences. DNA ligase joins fragments, vectors carry them into host cells, and the host's own machinery replicates the recombinant molecule."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The double-strand break is the key event — it activates the cell's DNA repair pathways, which can then be harnessed to delete, correct, or insert genetic material."
+                  "feedback": "Restriction enzymes recognise specific palindromic sequences (e.g., EcoRI cuts at GAATTC) and cut both strands, producing fragments with sticky or blunt ends that can then be joined to other DNA using ligase."
                 }
               ],
               "behaviour": {
@@ -507,11 +591,289 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "a9228879-824f-4fe6-b228-dce24bd4e918",
+            "subContentId": "7e813933-517d-4220-a4b4-17211ef587c9",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "CRISPR-Cas9 achieves precise gene editin",
+              "title": "In recombinant DNA technology, restricti",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1189.8249999999998,
+            "to": 1199.8249999999998
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Allopurinol, the standard treatment for gout, reduces uric acid production by in</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Allopurinol, the standard treatment for gout, reduces uric acid production by inhibiting which enzyme?</p>",
+              "answers": [
+                {
+                  "text": "<div>Adenosine deaminase</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Adenosine deaminase converts adenosine to inosine in the degradation pathway. Its deficiency causes severe combined immunodeficiency (SCID), not gout.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Hypoxanthine-guanine phosphoribosyltransferase</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>HGPRT is a salvage pathway enzyme that recycles purines. Its deficiency causes Lesch-Nyhan syndrome. It is not a drug target for gout.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Xanthine oxidase</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Xanthine oxidase catalyses the final two steps: hypoxanthine → xanthine → uric acid. Blocking it reduces uric acid formation and prevents crystal deposition in joints.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Guanase</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Guanase converts guanine to xanthine, an earlier step in the degradation pathway. Allopurinol specifically targets xanthine oxidase, the enzyme responsible for the final conversion to uric acid.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Allopurinol inhibits xanthine oxidase, blocking the conversion of xanthine to uric acid. This is the standard mechanism-based treatment for gout — it reduces production rather than enhancing excretion."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Xanthine oxidase converts xanthine to uric acid — the final step in human purine catabolism. Allopurinol (and the newer febuxostat) inhibit this enzyme, reducing uric acid levels and preventing gouty arthritis."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "154dd4d2-6490-4b39-b031-a2911009acf3",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Allopurinol, the standard treatment for",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1402.85,
+            "to": 1412.85
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>DNA methylation silences gene expression by physically changing the nucleotide s</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>DNA methylation silences gene expression by physically changing the nucleotide sequence of the DNA.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is false. DNA methylation adds a methyl group to cytosine but does not change the base itself — the sequence A-T-C-G remains the same. This is the defining feature of epigenetic regulation: gene expression changes without sequence alteration. Mutations (point, frameshift, repeat expansions) alter the sequence; methylation does not.",
+                "correctAnswerMessage": "Correct — this statement is false. DNA methylation adds methyl groups to cytosine residues at CpG islands, which silences transcription. Crucially, the underlying nucleotide sequence remains completely unchanged. That is what makes it epigenetic rather than genetic.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "77ca580b-3cd0-413b-a756-2a910d691fd7",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "DNA methylation silences gene expression",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1550.2,
+            "to": 1560.2
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>The Philadelphia chromosome, routinely detected by FISH in clinical practice, re</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>The Philadelphia chromosome, routinely detected by FISH in clinical practice, results from a translocation between which pair of chromosomes?</p>",
+              "answers": [
+                {
+                  "text": "<div>Chromosomes 9 and 22</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The t(9;22) translocation fuses BCR and ABL genes, producing the BCR-ABL fusion protein that drives uncontrolled myeloid cell proliferation in chronic myeloid leukaemia.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Chromosomes 8 and 14</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The t(8;14) translocation involves the MYC oncogene and is characteristic of Burkitt lymphoma, not chronic myeloid leukaemia.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Chromosomes 14 and 18</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The t(14;18) translocation involves the BCL2 gene and is associated with follicular lymphoma. The Philadelphia chromosome specifically involves chromosomes 9 and 22.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Chromosomes 11 and 22</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The t(11;22) translocation is seen in Ewing sarcoma. The Philadelphia chromosome is t(9;22), creating the BCR-ABL fusion gene diagnostic of CML.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The Philadelphia chromosome is a t(9;22) translocation that fuses BCR (chromosome 22) with ABL (chromosome 9). The resulting BCR-ABL fusion protein is a constitutively active tyrosine kinase that drives CML. FISH is the standard diagnostic method."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "The Philadelphia chromosome — t(9;22) creating BCR-ABL — is the defining molecular marker of chronic myeloid leukaemia. FISH with fluorescent probes targeting BCR and ABL is the standard method for confirming diagnosis and monitoring treatment."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "0c0db903-51a4-4a45-935b-65df0e744469",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "The Philadelphia chromosome, routinely d",
               "authors": [],
               "changes": []
             }
@@ -528,29 +890,57 @@
       ],
       "bookmarks": [
         {
+          "time": 0,
+          "label": "Welcome to Molecular Biology — SDL Guide."
+        },
+        {
+          "time": 4,
+          "label": "A 22-year-old man walks into the clinic with intense pain…"
+        },
+        {
+          "time": 68,
+          "label": "Think of DNA as a long necklace, where each bead is a nuc…"
+        },
+        {
+          "time": 156,
+          "label": "Your cells contain two types of nucleic acids, and each o…"
+        },
+        {
           "time": 230,
-          "label": "0: scene-3"
+          "label": "Your body builds purine nucleotides through two distinct…"
+        },
+        {
+          "time": 321,
+          "label": "When purine nucleotides are no longer needed, they are br…"
         },
         {
           "time": 397,
-          "label": "1: scene-5"
+          "label": "The central dogma of molecular biology, proposed by Franc…"
         },
         {
           "time": 500,
-          "label": "2: scene-6"
+          "label": "Your DNA faces constant attack from ultraviolet radiation…"
+        },
+        {
+          "time": 595,
+          "label": "A mutation is any permanent change in the DNA sequence."
         },
         {
           "time": 688,
-          "label": "3: scene-8"
+          "label": "Not every gene is active in every cell at all times."
         },
         {
-          "time": 996,
-          "label": "4: scene-11"
+          "time": 786,
+          "label": "Recombinant DNA technology is the science of combining DN…"
+        },
+        {
+          "time": 890,
+          "label": "PCR, Polymerase Chain Reaction, was invented by Kary Mull…"
         }
       ],
       "endscreens": [
         {
-          "time": 1597,
+          "time": 1599,
           "label": "End"
         }
       ]
@@ -562,7 +952,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "5c50734e-d1a1-4c0e-b343-c01e77c1cfd3",
+              "subContentId": "4bfd51b6-047c-45f4-a604-f7cb88ab3321",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -585,7 +975,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "a3919e65-e2c2-4413-9525-11df17607298",
+        "subContentId": "eeebfba2-a120-46b9-bf51-ef39a82889a8",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
@@ -594,7 +984,7 @@
           "changes": []
         }
       },
-      "displayAt": 3
+      "displayAt": 0
     }
   },
   "override": {

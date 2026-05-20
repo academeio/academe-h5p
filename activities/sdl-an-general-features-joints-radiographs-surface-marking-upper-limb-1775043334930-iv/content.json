@@ -3,8 +3,8 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/sdl-an-general-features-joints-radiographs-surface-marking-upper-limb-1775043334930/v1/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/adacc453-67de-4313-93da-fc3d561cc444/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
@@ -13,29 +13,61 @@
       "startScreenOptions": {
         "title": "AN13.1-AN13.8 — Interactive Lecture (AN)",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 6 embedded questions for AN13.1-AN13.8."
+        "shortStartDescription": "Interactive lecture with 7 embedded questions for AN13.1-AN13.8."
       },
       "textTracks": {
         "videoTrack": [
           {
-            "label": "Subtitles",
+            "label": "English",
             "kind": "subtitles",
-            "srcLang": "en"
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-an-general-features-joints-radiographs-surface-marking-upper-limb-1775043334930/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-an-general-features-joints-radiographs-surface-marking-upper-limb-1775043334930/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-an-general-features-joints-radiographs-surface-marking-upper-limb-1775043334930/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
           }
-        ]
+        ],
+        "defaultTrackLabel": "English"
       }
     },
     "assets": {
       "interactions": [
         {
           "duration": {
-            "from": 241.52499999999998,
-            "to": 251.52499999999998
+            "from": 156.85,
+            "to": 166.85
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which superficial vein of the upper limb pierces the deep fascia at mid-arm and </p>",
+          "label": "<p>Why is compartment syndrome in the upper limb considered a surgical emergency?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -44,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which superficial vein of the upper limb pierces the deep fascia at mid-arm and joins the brachial veins to form the axillary vein?</p>",
+              "question": "<p>Why is compartment syndrome in the upper limb considered a surgical emergency?</p>",
               "answers": [
                 {
-                  "text": "<div>Cephalic vein</div>",
+                  "text": "<div>The superficial fascia degenerates, causing skin necrosis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The cephalic vein does not pierce the deep fascia at mid-arm. It travels superficially up the lateral arm and passes through the deltopectoral groove to drain into the axillary vein.</div>",
+                    "chosenFeedback": "<div>Superficial fascia is the fatty layer beneath the skin containing veins and cutaneous nerves. Compartment syndrome involves the deep fascia, which forms rigid inelastic boundaries around muscle groups.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Basilic vein</div>",
+                  "text": "<div>The deep fascia cannot stretch, so rising pressure compresses nerves and blood vessels</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The basilic vein runs up the medial forearm, pierces the deep fascia at mid-arm, and joins the brachial veins to form the axillary vein. This deeper course makes it less suitable for venepuncture than the cephalic or median cubital vein.</div>",
+                    "chosenFeedback": "<div>Correct. Deep fascial walls are inelastic. After a fracture or crush injury, swelling within a closed compartment raises pressure and compresses the nerves and blood vessels trapped inside. Emergency fasciotomy is required to release that pressure.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Median cubital vein</div>",
+                  "text": "<div>The interosseous membrane ruptures, allowing the forearm bones to separate</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The median cubital vein is a connecting vein between the cephalic and basilic veins at the cubital fossa. It does not travel up the arm or pierce the deep fascia.</div>",
+                    "chosenFeedback": "<div>The interosseous membrane connects the radius and ulna and helps form the forearm compartments. In compartment syndrome the problem is excessive pressure within intact compartments, not membrane rupture.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Median antebrachial vein</div>",
+                  "text": "<div>Blood drains too rapidly through the superficial veins, causing ischaemia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The median antebrachial vein runs superficially along the middle of the anterior forearm and usually drains into the median cubital vein. It does not pierce the deep fascia at mid-arm.</div>",
+                    "chosenFeedback": "<div>Superficial veins such as the cephalic and basilic drain blood normally. Compartment syndrome results from rising pressure within fascial compartments compressing deep structures, not from excessive venous drainage.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -87,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the two main superficial veins. The cephalic vein stays superficial and joins the axillary vein at the deltopectoral groove. The basilic vein pierces the deep fascia at mid-arm and joins the brachial veins to form the axillary vein."
+                  "feedback": "Compartment syndrome occurs because the deep fascia cannot expand. Swelling after fracture or crush injury raises compartment pressure, compressing nerves and blood vessels. Emergency fasciotomy is the treatment."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The basilic vein's course — piercing the deep fascia at mid-arm — distinguishes it from the cephalic vein, which remains superficial throughout and enters the axillary vein via the deltopectoral groove."
+                  "feedback": "Well done. The inelastic deep fascia creates closed compartments — when internal pressure rises after injury, nerves and blood vessels are compressed, making emergency fasciotomy necessary."
                 }
               ],
               "behaviour": {
@@ -119,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "44514d1b-9d70-4b3c-a923-4f597cd1e929",
+            "subContentId": "cd285832-b319-415d-ab3d-2919496486b8",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which superficial vein of the upper limb",
+              "title": "Why is compartment syndrome in the upper",
               "authors": [],
               "changes": []
             }
@@ -139,13 +171,123 @@
         },
         {
           "duration": {
-            "from": 421.19999999999993,
-            "to": 431.19999999999993
+            "from": 325.54999999999995,
+            "to": 335.54999999999995
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The annular ligament encircles the head of the ulna, allowing pronation and supi</p>",
+          "label": "<p>A patient with C7 nerve root compression reports altered sensation in the upper </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient with C7 nerve root compression reports altered sensation in the upper limb. Based on the dermatomal pattern, which area would you expect to be most reliably affected?</p>",
+              "answers": [
+                {
+                  "text": "<div>Tip of the thumb</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The thumb tip is the autonomous zone for C6, not C7. A useful reminder from the video: a thumbs-up gesture places you in C6 territory.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Lateral aspect of the upper arm over the deltoid</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The lateral upper arm and deltoid region are supplied by C5. As the root numbers increase from C5 to T1, the dermatomes move from the lateral to the medial side of the limb.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Tip of the middle finger</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The middle finger tip is the autonomous zone for C7 — the area with minimal overlap from adjacent dermatomes, making it the single most reliable spot to test C7 sensation clinically.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Medial forearm and little finger</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The medial forearm and little finger are supplied by C8. Each dermatome has an autonomous zone where overlap from neighbouring roots is minimal, making that zone the most reliable test site.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The autonomous zone for C7 is the tip of the middle finger. Autonomous zones have minimal overlap from neighbouring dermatomes, making them the most reliable sites for sensory testing in suspected nerve root compression."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. Each nerve root has an autonomous zone with minimal dermatomal overlap — for C7, this is the tip of the middle finger, the most reliable site for sensory testing."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "d1bcf0c0-164b-4240-b77d-4cfca0f7b9fc",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A patient with C7 nerve root compression",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 525.9749999999999,
+            "to": 535.9749999999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Pronation and supination of the forearm occur at the radiocarpal (wrist) joint.</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -154,7 +296,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>The annular ligament encircles the head of the ulna, allowing pronation and supination at the proximal radio-ulnar joint.</p>",
+              "question": "<p>Pronation and supination of the forearm occur at the radiocarpal (wrist) joint.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -172,16 +314,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "The statement is actually false. The annular ligament encircles the head of the radius, not the ulna. The radius is the bone that rotates during pronation and supination, and the annular ligament holds it in place within the radial notch of the ulna. This distinction is clinically important — in young children, a pulled elbow occurs when the radial head slips out of this ring.",
-                "correctAnswerMessage": "Correct — this statement is false. The annular ligament encircles the head of the radius, not the ulna. It holds the radial head in the radial notch of the ulna like a collar, permitting rotation during pronation and supination. In young children, a sudden pull on the arm can slip the radial head partially out of this ring, causing a pulled elbow (nursemaid's elbow).",
+                "wrongAnswerMessage": "This statement is false. What looks like wrist rotation is actually pronation and supination at the proximal and distal radio-ulnar joints. The radiocarpal (wrist) joint allows flexion, extension, radial deviation, and ulnar deviation — but no rotation occurs there.",
+                "correctAnswerMessage": "Correct — this is a common misconception. Pronation and supination occur at the proximal and distal radio-ulnar joints, where the radius rotates around the relatively fixed ulna. The wrist joint permits flexion, extension, radial deviation, and ulnar deviation, but no true rotation.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "1a7aad85-990a-4ccc-b332-7d40abd496fc",
+            "subContentId": "123bd19b-1bcc-4a2e-9db0-23e6b49876f6",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "The annular ligament encircles the head",
+              "title": "Pronation and supination of the forearm",
               "authors": [],
               "changes": []
             }
@@ -197,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 658.3249999999999,
-            "to": 668.3249999999999
+            "from": 751.8249999999999,
+            "to": 761.8249999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>When a hand must be immobilised, the metacarpophalangeal (MCP) joints should be </p>",
+          "label": "<p>On a wrist radiograph, you notice that Gilula's arcs through the carpal bones ar</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -212,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>When a hand must be immobilised, the metacarpophalangeal (MCP) joints should be splinted at 70–90 degrees of flexion. What is the anatomical reason for this 'position of safety'?</p>",
+              "question": "<p>On a wrist radiograph, you notice that Gilula's arcs through the carpal bones are disrupted. This finding most likely suggests which condition?</p>",
               "answers": [
                 {
-                  "text": "<div>It maximises blood flow to the digits by opening the palmar arterial arches</div>",
+                  "text": "<div>A fracture of the distal radius</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The palmar arterial arches supply the digits regardless of MCP joint position. The position of safety is determined by ligament mechanics, not vascular anatomy.</div>",
+                    "chosenFeedback": "<div>A distal radius fracture disrupts the radial cortex, not the carpal arcs. Gilula's arcs specifically trace three smooth curves formed by the proximal and distal margins of the carpal rows.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It keeps the collateral ligaments taut, preventing them from shortening into a permanent contracture</div>",
+                  "text": "<div>Carpal instability or a carpal bone fracture</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The collateral ligaments of the MCP joints are slack in extension but become taut in flexion. Splinting in flexion maintains their stretched length. If immobilised in extension, these ligaments shorten and form a contracture that permanently restricts flexion.</div>",
+                    "chosenFeedback": "<div>Correct. Gilula's three arcs trace smooth curves through the carpal rows. Any disruption of these arcs indicates a disturbed relationship between carpal bones, suggesting either a fracture or ligamentous instability requiring further investigation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It reduces swelling by placing the hand above heart level</div>",
+                  "text": "<div>Osteoarthritis of the radiocarpal joint</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Elevation does reduce swelling, but it refers to the position of the whole limb, not the angle of the MCP joints. The position of safety specifically addresses collateral ligament mechanics.</div>",
+                    "chosenFeedback": "<div>Osteoarthritis causes joint space narrowing, which is assessed under the 'C' (cartilage and joints) step of the ABCS method. Gilula's arcs assess carpal alignment, not degenerative changes.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It relaxes the long flexor tendons to prevent adhesion formation</div>",
+                  "text": "<div>An injury to the triangular fibrocartilage complex</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Tendon adhesion is a valid clinical concern after hand injury, but the position of safety is determined by the behaviour of the MCP collateral ligaments, which are taut in flexion and slack in extension.</div>",
+                    "chosenFeedback": "<div>The TFCC is a soft tissue structure at the distal radio-ulnar joint. It is not directly assessed by Gilula's arcs, which trace bony carpal alignment on plain radiographs.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -255,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key concept is that the MCP collateral ligaments become taut in flexion and are slack in extension. If the hand is immobilised in extension, these slack ligaments shorten and form a contracture. Splinting in 70–90 degrees of flexion keeps them stretched and prevents this complication."
+                  "feedback": "Gilula's three arcs trace smooth curves through the carpal rows on a PA wrist radiograph. Disruption of any arc suggests carpal instability or fracture, warranting further investigation."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. The MCP collateral ligaments are taut in flexion and slack in extension. Splinting at 70–90 degrees of flexion prevents these ligaments from shortening, preserving the patient's ability to make a full fist after recovery."
+                  "feedback": "Well done. Gilula's arcs are a reliable screening tool on the PA wrist radiograph — any disruption warrants further investigation for carpal fracture or instability."
                 }
               ],
               "behaviour": {
@@ -287,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5d510550-31d8-4059-a455-1f752dbb21ef",
+            "subContentId": "eebc636d-0f68-4a56-ac41-5df625bb4ff6",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "When a hand must be immobilised, the met",
+              "title": "On a wrist radiograph, you notice that G",
               "authors": [],
               "changes": []
             }
@@ -307,71 +449,13 @@
         },
         {
           "duration": {
-            "from": 848.9,
-            "to": 858.9
+            "from": 930.8,
+            "to": 940.8
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The medial end of the spine of the scapula lies at the level of the seventh thor</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>The medial end of the spine of the scapula lies at the level of the seventh thoracic vertebral spine (T7).</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. The medial end of the spine of the scapula lies at T3, not T7. You may be confusing it with the inferior angle of the scapula, which lies at T7. Remember the pair: scapular spine = T3, inferior angle = T7.",
-                "correctAnswerMessage": "Correct — this statement is false. The medial end of the spine of the scapula lies at the level of T3, not T7. It is the inferior angle of the scapula that lies at T7. A useful way to remember: the spine is higher (T3) and the tip is lower (T7).",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "50fa42f9-7f3b-43a1-9e92-b682e855253f",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "The medial end of the spine of the scapu",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 1072.825,
-            "to": 1082.825
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>During a clinical examination, you ask a patient to push against a wall with out</p>",
+          "label": "<p>Before radial artery cannulation, Allen's test is performed. What does rapid ret</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -380,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>During a clinical examination, you ask a patient to push against a wall with outstretched arms and observe that the medial border of the scapula lifts away from the chest wall. Which nerve is most likely damaged?</p>",
+              "question": "<p>Before radial artery cannulation, Allen's test is performed. What does rapid return of colour to the hand after releasing only the ulnar artery confirm?</p>",
               "answers": [
                 {
-                  "text": "<div>Axillary nerve</div>",
+                  "text": "<div>The radial artery is patent and not occluded</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The axillary nerve supplies the deltoid muscle. Damage causes loss of the rounded shoulder contour and weakness of abduction, not winging of the scapula.</div>",
+                    "chosenFeedback": "<div>During Allen's test, the radial artery remains compressed throughout. The test specifically assesses what happens when only the ulnar artery is released — it evaluates the ulnar supply, not the radial.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Long thoracic nerve</div>",
+                  "text": "<div>The ulnar artery provides adequate collateral supply to the hand</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The long thoracic nerve supplies the serratus anterior, which protracts the scapula and holds it flat against the chest wall. When this nerve is damaged, the scapula 'wings' — its medial border lifts away, especially during forward pushing movements.</div>",
+                    "chosenFeedback": "<div>Correct. If the hand flushes pink within 5–7 seconds after releasing only the ulnar artery (while the radial stays compressed), the ulnar collateral supply is adequate. This confirms that cannulating the radial artery will not compromise hand perfusion.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Thoracodorsal nerve</div>",
+                  "text": "<div>Both palmar arterial arches are anatomically complete</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The thoracodorsal nerve supplies the latissimus dorsi, which extends, adducts, and medially rotates the arm. Damage weakens these movements but does not cause winging of the scapula.</div>",
+                    "chosenFeedback": "<div>While the palmar arches connect the radial and ulnar arteries, Allen's test does not prove they are anatomically complete. It is a functional test of whether the ulnar artery alone can perfuse the hand adequately.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Spinal accessory nerve</div>",
+                  "text": "<div>The median nerve is not compressed at the carpal tunnel</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The spinal accessory nerve (cranial nerve XI) supplies the trapezius. Damage causes difficulty shrugging the shoulder and weakness of scapular retraction, but the characteristic sign is shoulder droop, not winging.</div>",
+                    "chosenFeedback": "<div>Allen's test evaluates arterial supply to the hand, not nerve function. Median nerve compression at the carpal tunnel is assessed by different tests such as Phalen's test or Tinel's sign.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -423,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Winging of the scapula — the medial border lifting off the chest wall — is caused by paralysis of the serratus anterior muscle, which is supplied by the long thoracic nerve. Each motor nerve to the shoulder region produces a distinct clinical sign when damaged."
+                  "feedback": "Allen's test checks whether the ulnar artery can perfuse the hand when the radial artery is occluded. Rapid return of colour (within 5–7 seconds) after releasing only the ulnar artery confirms adequate collateral supply and safe radial cannulation."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Winging of the scapula is the hallmark sign of long thoracic nerve injury. The serratus anterior normally anchors the scapula to the chest wall; without it, the medial border lifts away during forward pushing."
+                  "feedback": "Exactly right. Allen's test confirms the ulnar artery can supply the hand on its own, making radial artery cannulation safe."
                 }
               ],
               "behaviour": {
@@ -455,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f97bab88-a511-4752-9cdf-9891745e7a1c",
+            "subContentId": "93812652-e5ad-43cd-a2c0-31df615a82be",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "During a clinical examination, you ask a",
+              "title": "Before radial artery cannulation, Allen'",
               "authors": [],
               "changes": []
             }
@@ -481,7 +565,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which signalling molecule, produced by the zone of polarising activity (ZPA), de</p>",
+          "label": "<p>During embryonic limb development, which process is responsible for separating t</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -490,41 +574,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which signalling molecule, produced by the zone of polarising activity (ZPA), determines the identity and number of digits — and when produced in excess, causes polydactyly?</p>",
+              "question": "<p>During embryonic limb development, which process is responsible for separating the fused digital rays into individual fingers?</p>",
               "answers": [
                 {
-                  "text": "<div>Fibroblast growth factor (FGF)</div>",
+                  "text": "<div>Proliferation driven by fibroblast growth factor from the apical ectodermal ridge</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>FGF is released by the apical ectodermal ridge (AER) and drives proximal-to-distal limb outgrowth. It does not determine digit identity or number.</div>",
+                    "chosenFeedback": "<div>The apical ectodermal ridge drives proximal-to-distal limb outgrowth via FGF signalling. It lengthens the limb but does not separate the digits — that requires a different developmental mechanism.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Bone morphogenetic protein (BMP)</div>",
+                  "text": "<div>Sonic Hedgehog signalling from the zone of polarising activity</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>BMP is involved in dorsal-ventral patterning of the limb, working alongside Wnt signalling. It does not determine digit number or identity.</div>",
+                    "chosenFeedback": "<div>Sonic Hedgehog from the ZPA determines anterior-to-posterior patterning and digit identity. Excess Sonic Hedgehog causes polydactyly (extra digits), not fused digits.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Sonic Hedgehog (SHH)</div>",
+                  "text": "<div>Apoptosis (programmed cell death) between the digital rays</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Sonic Hedgehog protein is produced by the ZPA and controls anterior-to-posterior patterning — determining which digit is thumb, index, and so on. Excess SHH leads to extra digits (polydactyly).</div>",
+                    "chosenFeedback": "<div>Correct. In weeks 6–7 of development, programmed cell death removes the tissue between adjacent digital rays, sculpting individual fingers from the paddle-shaped hand plate. Failure of this process causes syndactyly (webbed fingers).</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Wnt protein</div>",
+                  "text": "<div>Lateral rotation of the limb bud during week eight</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Wnt signalling is involved in determining dorsal-ventral identity of the limb (e.g., distinguishing the back of the hand from the palm). It does not control digit number.</div>",
+                    "chosenFeedback": "<div>Lateral rotation positions the upper limb correctly in space (elbow posteriorly, palm anteriorly) but does not affect digit separation. That role belongs to apoptosis between the digital rays.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -533,12 +617,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Each signalling centre controls a different axis of limb development. The ZPA produces Sonic Hedgehog for anterior-posterior patterning (digit identity and number). The AER produces FGF for proximal-distal outgrowth. Wnt and BMP control dorsal-ventral identity."
+                  "feedback": "Apoptosis (programmed cell death) between the digital rays separates fused fingers during weeks 6–7 of development. When this process fails, the result is syndactyly — webbed or fused digits."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. Sonic Hedgehog from the ZPA controls the anterior-posterior axis — digit identity and number. Remember the three centres: AER (proximal-distal via FGF), ZPA (anterior-posterior via SHH), and Wnt/BMP (dorsal-ventral)."
+                  "feedback": "Well done. Apoptosis sculpts separate digits from the hand plate — its failure produces syndactyly, one of the commonest congenital hand anomalies."
                 }
               ],
               "behaviour": {
@@ -565,11 +649,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "7878a33d-be60-4d2d-8a0d-bbea4230d20b",
+            "subContentId": "d859d6aa-5493-4ea6-b3f0-5b17690fcdb8",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which signalling molecule, produced by t",
+              "title": "During embryonic limb development, which",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1488.1,
+            "to": 1498.1
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>On this child's lateral elbow radiograph, the anterior humeral line passes entir</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>On this child's lateral elbow radiograph, the anterior humeral line passes entirely in front of the capitulum instead of through its middle third. Which fracture should you suspect?</p>",
+              "answers": [
+                {
+                  "text": "<div>Lateral condyle fracture</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A lateral condyle fracture involves the outer part of the distal humerus but does not characteristically displace the capitulum posteriorly relative to the anterior humeral line.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Olecranon fracture</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>An olecranon fracture involves the proximal ulna at the back of the elbow. It would not shift the capitulum's position relative to the anterior humeral line drawn along the humeral shaft.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Supracondylar fracture</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. A supracondylar fracture displaces the distal fragment of the humerus posteriorly, moving the capitulum behind the expected line. This is the commonest elbow fracture in children and requires prompt neurovascular assessment.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Radial head fracture</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A radial head fracture affects the proximal radius, not the distal humerus. The anterior humeral line specifically assesses the relationship between the humeral shaft and the capitulum.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "A supracondylar fracture displaces the distal humerus posteriorly, causing the anterior humeral line to pass in front of the capitulum rather than through its middle third. This is the commonest paediatric elbow fracture."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well remembered. When the anterior humeral line misses the middle third of the capitulum on a child's lateral elbow radiograph, always suspect a supracondylar fracture."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "943775b0-b010-42c3-8a04-ec7ecea20daa",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "On this child's lateral elbow radiograph",
               "authors": [],
               "changes": []
             }
@@ -586,33 +780,61 @@
       ],
       "bookmarks": [
         {
+          "time": 0,
+          "label": "Welcome to General Features, Joints, radiographs & surfac…"
+        },
+        {
+          "time": 6,
+          "label": "A twenty-two-year-old cricket player arrives at a governm…"
+        },
+        {
+          "time": 69,
+          "label": "Think of the upper limb like a building divided into rooms."
+        },
+        {
+          "time": 157,
+          "label": "The upper limb drains blood through two systems."
+        },
+        {
           "time": 242,
-          "label": "0: scene-3"
+          "label": "A dermatome is an area of skin supplied by a single spina…"
+        },
+        {
+          "time": 326,
+          "label": "The elbow joint is a synovial hinge joint, allowing flexi…"
         },
         {
           "time": 421,
-          "label": "1: scene-5"
+          "label": "The proximal and distal radio-ulnar joints work as a pair."
+        },
+        {
+          "time": 526,
+          "label": "The first carpometacarpal joint, abbreviated C M C, is a…"
         },
         {
           "time": 658,
-          "label": "2: scene-7"
+          "label": "An X-ray uses electromagnetic radiation that passes throu…"
+        },
+        {
+          "time": 752,
+          "label": "Bony landmarks are points on bone you can feel through th…"
         },
         {
           "time": 849,
-          "label": "3: scene-9"
+          "label": "Surface anatomy is the art of identifying deep structures…"
+        },
+        {
+          "time": 931,
+          "label": "Testing muscles is a fundamental clinical skill."
         },
         {
           "time": 1073,
-          "label": "4: scene-11"
-        },
-        {
-          "time": 1169,
-          "label": "5: scene-12"
+          "label": "The upper limb develops from a small bud of tissue appear…"
         }
       ],
       "endscreens": [
         {
-          "time": 1728,
+          "time": 1730,
           "label": "End"
         }
       ]
@@ -624,7 +846,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "909ac813-7abe-4e39-99d7-a0f1289f517a",
+              "subContentId": "88dcdfd0-a626-486d-8cac-cdb2b8fd42c8",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -647,7 +869,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "fcfec3a9-0298-479c-bcf6-113b0d13f1f9",
+        "subContentId": "77c0b9e4-e330-4a44-9522-d6da5c2e673e",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
@@ -656,7 +878,7 @@
           "changes": []
         }
       },
-      "displayAt": 3
+      "displayAt": 0
     }
   },
   "override": {

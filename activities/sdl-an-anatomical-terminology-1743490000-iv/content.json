@@ -3,8 +3,8 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/sdl-an-anatomical-terminology-1743490000/v2/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/b92b0160-91ed-4339-b1b6-27639efff3de/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
@@ -18,11 +18,43 @@
       "textTracks": {
         "videoTrack": [
           {
-            "label": "Subtitles",
+            "label": "English",
             "kind": "subtitles",
-            "srcLang": "en"
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-an-anatomical-terminology-1743490000/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-an-anatomical-terminology-1743490000/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-an-anatomical-terminology-1743490000/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
           }
-        ]
+        ],
+        "defaultTrackLabel": "English"
       }
     },
     "assets": {
@@ -35,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the anatomical position, the palms face inward toward the thighs.</p>",
+          "label": "<p>In the anatomical position, the palms face toward the thighs.</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -44,7 +76,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>In the anatomical position, the palms face inward toward the thighs.</p>",
+              "question": "<p>In the anatomical position, the palms face toward the thighs.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -62,12 +94,12 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "In the anatomical position the palms face forward, not inward. The narration specifically flagged this as a common mistake. With palms forward, the radius and ulna are parallel, and directional terms like medial and lateral can be applied to the forearm without ambiguity.",
-                "correctAnswerMessage": "Correct. In the anatomical position the palms face forward (anteriorly), not inward. This detail distinguishes the anatomical position from a natural standing posture and ensures that terms like medial and lateral apply consistently to the forearm and hand.",
+                "wrongAnswerMessage": "In the anatomical position, the palms face forward — not toward the thighs. Although the natural resting stance has palms facing the body, the anatomical position deliberately turns them forward so that terms like medial and lateral remain consistent across the forearm and hand.",
+                "correctAnswerMessage": "Correct — that statement is false. In the anatomical position the palms face forward, not toward the thighs. The natural resting position has palms facing inward, which is why this detail is so commonly confused.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "1daf0a46-74a0-46d0-b5d1-6aeb2bbe74be",
+            "subContentId": "8f0a2ae1-4441-480c-8c8a-12fc7c9e334d",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
@@ -93,7 +125,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient's wound is described as being on the medial aspect of the left arm. Th</p>",
+          "label": "<p>Which of the following statements correctly uses anatomical directional terminol</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -102,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient's wound is described as being on the medial aspect of the left arm. This means the wound is located:</p>",
+              "question": "<p>Which of the following statements correctly uses anatomical directional terminology?</p>",
               "answers": [
                 {
-                  "text": "<div>On the side of the arm facing away from the body</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>That would be the lateral aspect. Lateral means away from the midline — the opposite of medial.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>On the side of the arm closest to the trunk midline</div>",
+                  "text": "<div>The knee is proximal to the ankle</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Medial means toward the midline of the body. On the left arm, the medial surface is the side that faces the trunk.</div>",
+                    "chosenFeedback": "<div>Correct. Proximal means closer to where the limb attaches to the trunk. The knee is closer to the hip than the ankle is, making it proximal to the ankle.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>On the front surface of the arm</div>",
+                  "text": "<div>The skin is deep to the muscles</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The front surface is the anterior (ventral) aspect, not the medial aspect. Medial refers to proximity to the midline, not front-to-back orientation.</div>",
+                    "chosenFeedback": "<div>Incorrect. Skin is superficial to the muscles — it lies closer to the body surface. Deep structures are farther from the surface, such as bones deep to the muscles.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>On the back surface of the arm</div>",
+                  "text": "<div>The little finger is lateral to the thumb</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The back surface is the posterior (dorsal) aspect. Medial and lateral describe the side-to-side axis relative to the midline, not the front-to-back axis.</div>",
+                    "chosenFeedback": "<div>Incorrect. In the anatomical position (palms forward), the thumb sits on the lateral side (farther from the midline) and the little finger on the medial side (closer to the midline).</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The sternum is posterior to the vertebral column</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. The sternum is anterior — toward the front of the body. The vertebral column is posterior to the sternum, not the other way around.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -145,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Medial means toward the midline of the body. On either arm, the medial surface is the side that faces the trunk. Review the directional pairs: medial/lateral describe the side-to-side axis, while anterior/posterior describe the front-to-back axis."
+                  "feedback": "Review the five directional pairs: superior/inferior, anterior/posterior, medial/lateral, proximal/distal, and superficial/deep. Each pair is defined relative to the anatomical position."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Medial always means toward the midline, regardless of which limb or side of the body is being described."
+                  "feedback": "Well done. You can apply directional terms to anatomical relationships beyond the examples given in the lecture."
                 }
               ],
               "behaviour": {
@@ -177,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e6ceefdb-7455-4a82-8b9b-a6409b744739",
+            "subContentId": "d3543a26-2a2a-4740-b253-edd3bb8ddebe",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient's wound is described as being",
+              "title": "Which of the following statements correc",
               "authors": [],
               "changes": []
             }
@@ -197,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 369.82499999999993,
-            "to": 379.82499999999993
+            "from": 453.69999999999993,
+            "to": 463.69999999999993
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A physiotherapist asks a patient to move their arm away from the body's midline </p>",
+          "label": "<p>In the reinforced concrete analogy of bone structure, which component plays the </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -212,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A physiotherapist asks a patient to move their arm away from the body's midline in the coronal plane. Which movement is being described?</p>",
+              "question": "<p>In the reinforced concrete analogy of bone structure, which component plays the role of steel rebar, providing flexibility and tensile strength?</p>",
               "answers": [
                 {
-                  "text": "<div>Flexion</div>",
+                  "text": "<div>Hydroxyapatite</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Flexion decreases the angle at a joint and occurs in the sagittal plane, not the coronal plane.</div>",
+                    "chosenFeedback": "<div>Incorrect. Hydroxyapatite is the inorganic crystalline mineral that provides hardness and compressive strength — it corresponds to the concrete in the analogy, not the rebar.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Adduction</div>",
+                  "text": "<div>Osteoclasts</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Adduction does occur in the coronal plane, but it moves the limb toward the midline, not away from it. You may be confusing it with abduction.</div>",
+                    "chosenFeedback": "<div>Incorrect. Osteoclasts are bone-resorbing cells involved in remodelling. They are not a structural component of the bone matrix itself.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Abduction</div>",
+                  "text": "<div>Collagen</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Abduction moves a limb away from the midline and occurs in the coronal (frontal) plane. The memory aid: abduction takes you absent from the midline.</div>",
+                    "chosenFeedback": "<div>Correct. Collagen is the organic protein matrix produced by osteoblasts. It constitutes about 35% of bone's dry weight and provides flexibility and tensile strength — like steel rebar preventing concrete from shattering on impact.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Medial rotation</div>",
+                  "text": "<div>Calcium carbonate</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Medial rotation turns the limb toward the midline around its long axis and occurs in the transverse plane, not the coronal plane.</div>",
+                    "chosenFeedback": "<div>Incorrect. The inorganic mineral in bone is primarily hydroxyapatite (a calcium phosphate compound), not calcium carbonate. Hydroxyapatite provides compressive hardness, corresponding to concrete in the analogy.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -255,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The movement away from the midline in the coronal plane is abduction. Remember: abduction = absent from midline, adduction = adding back. Flexion/extension occur in the sagittal plane, and rotation occurs in the transverse plane."
+                  "feedback": "Remember the reinforced concrete analogy: collagen (organic, 35%) is the rebar that provides flexibility, while hydroxyapatite (inorganic, 65%) is the concrete that provides hardness."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Abduction moves a limb away from the midline in the coronal plane. Its opposite, adduction, brings the limb back toward the midline in the same plane."
+                  "feedback": "Exactly right. Without collagen, bone would shatter like glass — the organic and inorganic components must work together."
                 }
               ],
               "behaviour": {
@@ -287,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "250f4559-1223-4aef-8b32-9fb58a7c5b31",
+            "subContentId": "aff1a98f-56a1-440b-99f7-3bbc7027baf7",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A physiotherapist asks a patient to move",
+              "title": "In the reinforced concrete analogy of bo",
               "authors": [],
               "changes": []
             }
@@ -307,71 +339,13 @@
         },
         {
           "duration": {
-            "from": 530.7249999999999,
-            "to": 540.7249999999999
+            "from": 631.2749999999999,
+            "to": 641.2749999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In adults, red bone marrow is found primarily in the medullary cavity of long bo</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>In adults, red bone marrow is found primarily in the medullary cavity of long bones.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This is false. The medullary cavity of long bones contains yellow marrow, not red. In adults, red marrow is located in the spongy bone of flat bones (sternum, ilium) and the epiphyses of long bones. Think of it this way: the medullary cavity is the fuel storage tank (yellow/fat), while the spongy regions are the production floor (red/blood cells).",
-                "correctAnswerMessage": "Correct — this statement is false. In adults, the medullary cavity of long bones contains yellow marrow (adipocytes). Red marrow is found in the spongy bone of flat bones such as the sternum and ilium, and in the epiphyses of long bones, where haematopoiesis actively occurs.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "e92936f6-cc34-431b-9cf0-de0087eb4fc9",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "In adults, red bone marrow is found prim",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 684.1749999999998,
-            "to": 694.1749999999998
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>Approximately what percentage of bone's dry weight is made up of the inorganic m</p>",
+          "label": "<p>The sagittal plane divides the body into which two portions?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -380,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Approximately what percentage of bone's dry weight is made up of the inorganic mineral component (hydroxyapatite)?</p>",
+              "question": "<p>The sagittal plane divides the body into which two portions?</p>",
               "answers": [
                 {
-                  "text": "<div>35%</div>",
+                  "text": "<div>Anterior and posterior</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>35% is the proportion of the organic component (mainly collagen), not the inorganic mineral. The two components add up to 100% of dry weight.</div>",
+                    "chosenFeedback": "<div>Incorrect. The coronal (frontal) plane divides the body into anterior (front) and posterior (back) portions. The name 'coronal' comes from the Latin word for crown.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>50%</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The split is not equal. The inorganic mineral component predominates, making bone hard and compression-resistant, while the smaller organic fraction provides flexibility.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>65%</div>",
+                  "text": "<div>Right and left</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Hydroxyapatite makes up approximately 65% of bone's dry weight, providing hardness and compressive strength — like the concrete in reinforced concrete.</div>",
+                    "chosenFeedback": "<div>Correct. The sagittal plane runs vertically from front to back, dividing the body into right and left portions. When it passes exactly down the midline, it is called the midsagittal or median plane.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>80%</div>",
+                  "text": "<div>Superior and inferior</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>80% would overestimate the mineral content. If bone were 80% mineral, it would lack sufficient collagen for flexibility and would fracture too easily under bending forces.</div>",
+                    "chosenFeedback": "<div>Incorrect. The transverse (axial) plane divides the body into superior (upper) and inferior (lower) portions — this is the plane used in CT scan slices.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Proximal and distal</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Proximal and distal are directional terms for limb structures, not portions created by a body plane. The sagittal plane produces right and left portions.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -423,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Bone's dry weight is approximately 65% inorganic (hydroxyapatite) and 35% organic (collagen). Remember the reinforced-concrete analogy: 65% concrete (mineral for hardness) and 35% steel rebar (collagen for flexibility)."
+                  "feedback": "Remember the three planes: sagittal divides right and left, coronal divides front and back, and transverse divides upper and lower."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The 65% inorganic (hydroxyapatite) to 35% organic (collagen) ratio gives bone its unique combination of hardness and flexibility."
+                  "feedback": "Well recalled. The three primary planes — sagittal (right/left), coronal (front/back), and transverse (upper/lower) — are fundamental to describing anatomical sections."
                 }
               ],
               "behaviour": {
@@ -455,11 +429,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5845aa02-68fa-42b2-842a-82ffb8f68e80",
+            "subContentId": "bee920dd-9677-4d10-b0f4-5a984c123561",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Approximately what percentage of bone's",
+              "title": "The sagittal plane divides the body into",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 756.8249999999998,
+            "to": 766.8249999999998
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A bone marrow biopsy is performed to investigate a suspected blood disorder. Fro</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A bone marrow biopsy is performed to investigate a suspected blood disorder. From which anatomical site is this biopsy most commonly obtained?</p>",
+              "answers": [
+                {
+                  "text": "<div>Medullary cavity of the femur</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. The medullary cavity of long bones contains yellow marrow (primarily adipocytes), which stores energy but is not the standard site for diagnostic biopsy of blood disorders.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Body of the sternum</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Although the sternum contains red marrow and sternal aspirates are occasionally performed, the standard diagnostic biopsy site is the posterior iliac crest, which provides a larger and safer area.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Anterior iliac crest</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. While the iliac crest is correct, the standard approach is from the posterior iliac crest — not the anterior — as it offers a thicker area of cancellous bone with abundant red marrow.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Posterior iliac crest</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The posterior iliac crest is the standard site for bone marrow biopsy. It contains abundant red (haematopoietic) marrow and allows safe access for both aspiration and trephine biopsy.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The posterior iliac crest is the standard bone marrow biopsy site. It is rich in red marrow, where haematopoiesis takes place, and provides safe access for both aspiration and core biopsy."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. The posterior iliac crest is the go-to site for diagnosing leukaemia, anaemia, and other haematological disorders."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "57986dcb-e03a-455a-a46d-67a5a749655a",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A bone marrow biopsy is performed to inv",
               "authors": [],
               "changes": []
             }
@@ -476,24 +560,36 @@
       ],
       "bookmarks": [
         {
+          "time": 0,
+          "label": "Welcome to Anatomical terminology."
+        },
+        {
+          "time": 3,
+          "label": "A twenty-two-year-old medical student walks into the emer…"
+        },
+        {
+          "time": 51,
+          "label": "Every directional term in anatomy is defined relative to…"
+        },
+        {
           "time": 127,
-          "label": "0: scene-2"
+          "label": "Imagine slicing a loaf of bread."
+        },
+        {
+          "time": 201,
+          "label": "Directional terms describe where one structure sits relat…"
         },
         {
           "time": 284,
-          "label": "1: scene-4"
+          "label": "Now that you know the body's planes, you can describe how…"
         },
         {
           "time": 370,
-          "label": "2: scene-5"
+          "label": "Bone is remarkable because it is both hard and flexible a…"
         },
         {
-          "time": 531,
-          "label": "3: scene-7"
-        },
-        {
-          "time": 684,
-          "label": "4: scene-10"
+          "time": 454,
+          "label": "Inside the hollow spaces of bone lives a specialised tiss…"
         }
       ],
       "endscreens": [
@@ -510,7 +606,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "4a01b0fa-6242-425c-9b52-3d69cc0ed1fb",
+              "subContentId": "415a2320-2e36-4d3d-98f0-bff5d413796e",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -533,7 +629,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "2780dc1f-048b-4ca0-83ae-6850d15ed65b",
+        "subContentId": "1fb01556-3b69-486b-946f-17931c2b32aa",
         "metadata": {
           "contentType": "Summary",
           "license": "U",

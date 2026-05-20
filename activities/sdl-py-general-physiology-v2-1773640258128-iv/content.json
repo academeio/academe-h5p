@@ -3,8 +3,8 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/sdl-py-general-physiology-v2-1773640258128/v1/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/64329362-ed62-454b-b12e-e77b44627074/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
@@ -14,19 +14,60 @@
         "title": "PY1.1-PY1.7 — Interactive Lecture (PY)",
         "hideStartTitle": false,
         "shortStartDescription": "Interactive lecture with 5 embedded questions for PY1.1-PY1.7."
+      },
+      "textTracks": {
+        "videoTrack": [
+          {
+            "label": "English",
+            "kind": "subtitles",
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-general-physiology-v2-1773640258128/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-general-physiology-v2-1773640258128/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-general-physiology-v2-1773640258128/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          }
+        ],
+        "defaultTrackLabel": "English"
       }
     },
     "assets": {
       "interactions": [
         {
           "duration": {
-            "from": 261.775,
-            "to": 271.775
+            "from": 160.65,
+            "to": 170.65
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which component of the cell membrane acts as a fluidity thermostat — reducing ex</p>",
+          "label": "<p>Which organelle contains acid hydrolases that break down worn-out organelles and</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -35,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which component of the cell membrane acts as a fluidity thermostat — reducing excess movement at body temperature while preventing solidification at lower temperatures?</p>",
+              "question": "<p>Which organelle contains acid hydrolases that break down worn-out organelles and engulfed bacteria?</p>",
               "answers": [
                 {
-                  "text": "<div>Phospholipids</div>",
+                  "text": "<div>Peroxisomes</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Phospholipids form the structural bilayer itself, but they do not regulate its fluidity. Their spontaneous arrangement creates the barrier; cholesterol modulates how fluid that barrier is.</div>",
+                    "chosenFeedback": "<div>Peroxisomes neutralise reactive oxygen species using catalase. They handle oxidative threats, not digestive breakdown of cellular debris or pathogens.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Cholesterol</div>",
+                  "text": "<div>Lysosomes</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Cholesterol inserts between phospholipid tails. At 37 °C it restricts excess movement, and at lower temperatures it prevents the bilayer from becoming rigid.</div>",
+                    "chosenFeedback": "<div>Correct! Lysosomes carry acid hydrolases that digest worn-out organelles, cellular debris, and bacteria — functioning as the cell's recycling and defence centre.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Integral proteins</div>",
+                  "text": "<div>Smooth endoplasmic reticulum</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Integral proteins span the bilayer and serve as channels, carriers, receptors, and enzymes. They do not regulate membrane fluidity.</div>",
+                    "chosenFeedback": "<div>The smooth ER synthesises lipids and steroids. In muscle cells it is called the sarcoplasmic reticulum and stores calcium — it has no digestive function.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Glycocalyx</div>",
+                  "text": "<div>Golgi apparatus</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The glycocalyx is the carbohydrate coat on the outer surface. It mediates cell recognition and adhesion but has no role in regulating bilayer fluidity.</div>",
+                    "chosenFeedback": "<div>The Golgi apparatus modifies, packages, and sorts proteins received from the rough ER for secretion — a post office, not a recycling centre.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -78,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the Fluid Mosaic Model. Cholesterol sits between phospholipid tails and has a dual effect: it stiffens the membrane when it is too fluid and loosens it when it is too rigid."
+                  "feedback": "Lysosomes are the correct answer. Remember them as the cell's recycling centre — they carry acid hydrolases that break down both worn-out organelles and bacteria engulfed by phagocytosis."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Cholesterol is the membrane's fluidity buffer — it keeps the bilayer in a functional intermediate state across a range of temperatures, which is essential for proper channel and receptor function."
+                  "feedback": "Well done! Lysosomes are the cell's digestive organelles. Their acid hydrolases operate at low pH to recycle intracellular debris and destroy engulfed pathogens."
                 }
               ],
               "behaviour": {
@@ -110,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "80a535be-7920-4b13-8091-6e4b9206f0d9",
+            "subContentId": "7055354a-920a-4727-8d62-60064add00ad",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which component of the cell membrane act",
+              "title": "Which organelle contains acid hydrolases",
               "authors": [],
               "changes": []
             }
@@ -136,65 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Sodium is the dominant cation in intracellular fluid, while potassium dominates </p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>Sodium is the dominant cation in intracellular fluid, while potassium dominates extracellular fluid.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "The statement has the ions reversed. Potassium is the dominant intracellular cation, and sodium is the dominant extracellular cation. Remember the memory anchor from the video: K⁺ stays inside, Na⁺ stays outside. The Na⁺/K⁺ pump actively maintains this gradient.",
-                "correctAnswerMessage": "Correct — the statement is false. Potassium (K⁺) is the dominant intracellular cation (~140 mEq/L inside cells), while sodium (Na⁺) dominates the extracellular compartment (~140 mEq/L outside). This asymmetry, maintained by the Na⁺/K⁺-ATPase, underpins the resting membrane potential and all electrical signalling.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "c1b08d17-f02d-4352-97c6-f93f5f9b2189",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "Sodium is the dominant cation in intrace",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 539.625,
-            "to": 549.625
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>The Na⁺/K⁺-ATPase moves three Na⁺ out and two K⁺ in per cycle. What is the prima</p>",
+          "label": "<p>Why does one litre of 5% dextrose provide far less intravascular volume expansio</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -203,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The Na⁺/K⁺-ATPase moves three Na⁺ out and two K⁺ in per cycle. What is the primary physiological consequence of this unequal ion exchange?</p>",
+              "question": "<p>Why does one litre of 5% dextrose provide far less intravascular volume expansion than one litre of normal saline?</p>",
               "answers": [
                 {
-                  "text": "<div>It makes the cell interior more positive relative to the exterior</div>",
+                  "text": "<div>Dextrose is metabolised and excreted before it can expand plasma volume</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The pump moves more positive charges out (3 Na⁺) than it brings in (2 K⁺). This creates a net loss of positive charge from inside the cell, making the interior more negative, not more positive.</div>",
+                    "chosenFeedback": "<div>While glucose is metabolised, the water remains in the body. The issue is distribution: as free water it equilibrates across all 42 litres of total body water rather than staying extracellular.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It generates a net negative charge inside the cell, contributing to the resting membrane potential</div>",
+                  "text": "<div>Dextrose distributes across all body water compartments, leaving only approximately 80 mL in the vascular space</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Each cycle removes one more positive charge than it imports, making the pump electrogenic. This contributes directly to the resting membrane potential of approximately −70 mV.</div>",
+                    "chosenFeedback": "<div>Correct! Once glucose is metabolised, the remaining water behaves as free water. It distributes across all 42 L of body water — only about 1/42 of each litre (≈80 mL) remains intravascular, compared with ~250 mL from normal saline.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It equalises sodium and potassium concentrations across the membrane</div>",
+                  "text": "<div>Dextrose shifts water preferentially into the intracellular compartment by osmosis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The pump does the opposite — it actively maintains the concentration difference by pushing Na⁺ out and pulling K⁺ in, sustaining the gradients that drive secondary active transport and electrical signalling.</div>",
+                    "chosenFeedback": "<div>Dextrose does not selectively move water into cells. It distributes as free water across ALL compartments (both ICF and ECF) in proportion to their volumes — roughly two-thirds intracellular and one-third extracellular.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It reduces ATP consumption by recycling energy from the potassium gradient</div>",
+                  "text": "<div>Dextrose binds to plasma albumin and is rapidly cleared from the circulation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The pump consumes ATP — roughly 30% of the body's total ATP at rest. It does not recycle energy; it spends energy to maintain the ionic gradients that other transport processes then exploit.</div>",
+                    "chosenFeedback": "<div>Glucose does not bind albumin for clearance. It is metabolised by cells for energy, leaving behind free water that distributes evenly across all body fluid compartments.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -246,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: 3 Na⁺ out, 2 K⁺ in — that is one extra positive charge leaving the cell per cycle. This makes the pump electrogenic, contributing a small but important negative component to the resting membrane potential."
+                  "feedback": "The key concept: once glucose is metabolised, D5W becomes free water. It distributes across all 42 L of body water, leaving only ~80 mL intravascular. Normal saline stays within the 14 L ECF, giving ~250 mL of vascular volume per litre."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "The electrogenic nature of the Na⁺/K⁺-ATPase is fundamental. The net outward movement of positive charge contributes about −4 mV to the resting membrane potential and maintains the gradients that power secondary active transport (e.g., SGLT1 in ORS therapy)."
+                  "feedback": "Exactly right. This principle underlies fluid resuscitation: normal saline stays within the 14 L extracellular space (~250 mL intravascular per litre), while D5W becomes free water distributed across all 42 L."
                 }
               ],
               "behaviour": {
@@ -278,11 +261,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "69469e87-a795-460f-8ad3-d77bfbef7f85",
+            "subContentId": "20aba8f9-436b-4a09-b63a-94737f94c2b0",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The Na⁺/K⁺-ATPase moves three Na⁺ out an",
+              "title": "Why does one litre of 5% dextrose provid",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 539.625,
+            "to": 549.625
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>The Na⁺/K⁺-ATPase moves three sodium ions out and two potassium ions in per cycl</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>The Na⁺/K⁺-ATPase moves three sodium ions out and two potassium ions in per cycle. What is the primary physiological consequence of this unequal exchange?</p>",
+              "answers": [
+                {
+                  "text": "<div>It generates a net negative charge inside the cell, contributing to the resting membrane potential</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct! Ejecting 3 positive charges while returning only 2 makes the pump electrogenic — it contributes approximately −6 mV to the resting membrane potential and maintains the ionic gradients essential for nerve and muscle function.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It causes the cell to swell because more solute particles are pumped inward than outward</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The pump moves MORE ions out (3 Na⁺) than in (2 K⁺). The resulting gradients actually help maintain cell volume by preventing excessive water entry, not by causing swelling.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It directly generates action potentials by depolarising the membrane</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The pump maintains the ionic gradients that ALLOW action potentials, but does not directly generate them. Action potentials arise from voltage-gated Na⁺ and K⁺ channels opening in sequence.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It creates an inward sodium gradient that drives mitochondrial ATP synthesis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Mitochondrial ATP synthesis is powered by the proton (H⁺) gradient across the inner mitochondrial membrane from the electron transport chain, not by the Na⁺ gradient across the plasma membrane.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The pump's 3-out/2-in ratio means a net positive charge leaves the cell each cycle, making the interior more negative. This electrogenic effect contributes to the resting membrane potential. The gradients it maintains cost ~30% of all ATP the body produces."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done! The 3:2 stoichiometry makes the Na⁺/K⁺-ATPase electrogenic. This net outward positive current contributes to the resting membrane potential and costs the body roughly 30% of its total ATP — a measure of how critical these gradients are."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "7d7105ca-334d-44e6-b3fe-0266839fad53",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "The Na⁺/K⁺-ATPase moves three sodium ion",
               "authors": [],
               "changes": []
             }
@@ -313,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient in diabetic ketoacidosis develops deep, rapid breathing (Kussmaul breathing). Which compensatory mechanism does this represent?</p>",
+              "question": "<p>A patient in diabetic ketoacidosis develops deep, rapid breathing (Kussmaul breathing). What is the physiological purpose of this respiratory response?</p>",
               "answers": [
                 {
-                  "text": "<div>Chemical buffering by the bicarbonate system</div>",
+                  "text": "<div>To increase oxygen delivery to acidotic peripheral tissues</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The bicarbonate buffer acts within seconds to mop up excess H⁺, but Kussmaul breathing is a respiratory response. The lungs blow off CO₂ to shift the bicarbonate equation and raise blood pH.</div>",
+                    "chosenFeedback": "<div>While rapid breathing does increase oxygen intake, the respiratory centre is responding to falling pH, not to hypoxia. The primary goal is CO₂ removal to correct the acidosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Renal excretion of hydrogen ions</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The kidneys are the most powerful pH regulators, but they take hours to days to respond. Kussmaul breathing begins within minutes of rising acidity — far too fast for renal compensation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Respiratory compensation by increasing CO₂ elimination</div>",
+                  "text": "<div>To expel excess carbon dioxide and thereby raise blood pH toward normal</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The respiratory centre detects falling pH and drives hyperventilation. Exhaling more CO₂ shifts the equilibrium: fewer H⁺ ions remain, and blood pH rises. This compensates within minutes.</div>",
+                    "chosenFeedback": "<div>Correct! Excess H⁺ combines with bicarbonate to form CO₂ and water. Kussmaul breathing blows off this CO₂, shifting the equilibrium away from H⁺ accumulation and raising pH back toward 7.4.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Protein buffering by haemoglobin inside red blood cells</div>",
+                  "text": "<div>To stimulate the kidneys to excrete more hydrogen ions</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Haemoglobin is an important intravascular buffer, but it acts chemically within seconds. Kussmaul breathing is a respiratory motor response, not a chemical buffering reaction.</div>",
+                    "chosenFeedback": "<div>Respiratory compensation and renal compensation are independent mechanisms operating at different speeds — minutes versus hours to days. Breathing does not directly stimulate renal H⁺ excretion.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>To increase carbon dioxide production and activate the bicarbonate buffer</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Kussmaul breathing REMOVES CO₂ rather than increasing it. By lowering CO₂, the bicarbonate equilibrium shifts to consume H⁺, which is the corrective mechanism — the opposite of what this option suggests.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -356,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Kussmaul breathing is the body's respiratory compensation for metabolic acidosis. By breathing deeply and rapidly, the lungs blow off CO₂, reducing the acid load within minutes. The kidneys are slower but more powerful, taking hours to days to fully correct the pH."
+                  "feedback": "In metabolic acidosis, excess H⁺ reacts with HCO₃⁻ to produce CO₂ and water. Kussmaul breathing rapidly expels this CO₂, pulling the equilibrium away from H⁺ production. This respiratory compensation acts within minutes — much faster than the kidneys (hours to days)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Kussmaul breathing is a classic example of respiratory compensation: the lungs expel CO₂ to counteract metabolic acidosis. Remember the three-tier speed hierarchy — chemical buffers (seconds), lungs (minutes), kidneys (hours to days)."
+                  "feedback": "Exactly right. Respiratory compensation acts within minutes: hyperventilation expels CO₂, shifts the bicarbonate equilibrium to consume H⁺, and raises blood pH. Kussmaul breathing is the body's fastest defence against metabolic acidosis."
                 }
               ],
               "behaviour": {
@@ -388,7 +481,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "37852d65-f393-4993-ae31-98b1d60aec6a",
+            "subContentId": "5448b837-96d7-43d2-af48-2d9b707af83d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -408,101 +501,49 @@
         },
         {
           "duration": {
-            "from": 945.525,
-            "to": 955.525
+            "from": 948.5,
+            "to": 958.5
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>When blood calcium falls below normal, which hormone is released first to restor</p>",
+          "label": "<p>Calcitonin raises blood calcium levels by stimulating osteoclast activity.</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>When blood calcium falls below normal, which hormone is released first to restore calcium levels?</p>",
-              "answers": [
-                {
-                  "text": "<div>Calcitonin</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Calcitonin does the opposite — it is released when calcium is too high. It inhibits osteoclasts and promotes renal calcium excretion, lowering blood calcium levels.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Parathyroid hormone (PTH)</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. PTH is the first responder to hypocalcaemia. It stimulates osteoclast-mediated bone resorption, increases renal calcium reabsorption, and activates vitamin D production in the kidney to boost intestinal calcium absorption.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Calcitriol (active vitamin D)</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Calcitriol does increase intestinal calcium absorption, but it is not released first. PTH must first stimulate the kidney to convert 25-hydroxyvitamin D into active calcitriol. PTH is the primary signal; calcitriol is a downstream effector.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Insulin</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Insulin regulates blood glucose, not calcium. The calcium-regulating hormones are PTH (raises calcium), calcitonin (lowers calcium), and calcitriol (increases intestinal absorption).</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "When calcium drops, the parathyroid glands release PTH. PTH then raises calcium through three actions: stimulating bone resorption by osteoclasts, retaining calcium in the kidneys, and triggering active vitamin D production, which increases gut absorption."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "PTH is the body's primary defence against hypocalcaemia. It acts on three targets — bone (resorption), kidney (calcium retention + vitamin D activation), and indirectly on the gut (via calcitriol). This is a textbook example of negative feedback homeostasis."
-                }
-              ],
+              "question": "<p>Calcitonin raises blood calcium levels by stimulating osteoclast activity.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Calcitonin actually LOWERS blood calcium by inhibiting osteoclasts and promoting renal calcium excretion. You may be confusing it with parathyroid hormone (PTH), which raises blood calcium by driving osteoclast-mediated bone resorption.",
+                "correctAnswerMessage": "Correct! Calcitonin does the opposite — it INHIBITS osteoclasts and increases renal calcium excretion, thereby LOWERING blood calcium. It is parathyroid hormone that raises calcium by stimulating bone resorption.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "946f962b-77c6-488b-8825-8ccbd3ee950d",
+            "subContentId": "52974a5f-f967-4b85-a292-6138ae8f8ffd",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "When blood calcium falls below normal, w",
+              "title": "Calcitonin raises blood calcium levels b",
               "authors": [],
               "changes": []
             }
@@ -519,24 +560,48 @@
       ],
       "bookmarks": [
         {
+          "time": 0,
+          "label": "Welcome to General Physiology."
+        },
+        {
+          "time": 3,
+          "label": "Every drug you will ever prescribe has to cross a cell me…"
+        },
+        {
+          "time": 59,
+          "label": "The human body contains approximately 37 trillion cells."
+        },
+        {
+          "time": 161,
+          "label": "The cell membrane is not a simple wall."
+        },
+        {
           "time": 262,
-          "label": "0: scene-3"
+          "label": "Your body is about sixty percent water by weight."
         },
         {
           "time": 355,
-          "label": "1: scene-4"
+          "label": "Passive transport moves molecules across cell membranes w…"
+        },
+        {
+          "time": 436,
+          "label": "Sometimes the body must push molecules against their conc…"
         },
         {
           "time": 540,
-          "label": "2: scene-6"
+          "label": "Homeostasis is the body's ability to maintain a stable in…"
+        },
+        {
+          "time": 625,
+          "label": "Blood is a specialised connective tissue that stays fluid…"
+        },
+        {
+          "time": 731,
+          "label": "pH measures the concentration of hydrogen ions in the blood."
         },
         {
           "time": 827,
-          "label": "3: scene-9"
-        },
-        {
-          "time": 946,
-          "label": "4: scene-10"
+          "label": "Bone is not dead tissue."
         }
       ],
       "endscreens": [
@@ -553,7 +618,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "68b7fc08-ad87-4ed3-83ce-3dc2c6576ff2",
+              "subContentId": "722b9954-b6b0-4d6b-bac4-9299f8971a9e",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -576,7 +641,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "85ddc69f-b4df-46cd-9777-50e7ec848fd9",
+        "subContentId": "f495eae3-e2d1-4cbd-8a22-d4441b0cc099",
         "metadata": {
           "contentType": "Summary",
           "license": "U",

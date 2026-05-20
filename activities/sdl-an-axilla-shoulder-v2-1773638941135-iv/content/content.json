@@ -3,8 +3,8 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/sdl-an-axilla-shoulder-v2-1773638941135/v1/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/6128915f-76cd-4a00-a415-4fffdef6ce91/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
@@ -13,29 +13,61 @@
       "startScreenOptions": {
         "title": "AN10.1-AN10.9 — Interactive Lecture (AN)",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 6 embedded questions for AN10.1-AN10.9."
+        "shortStartDescription": "Interactive lecture with 7 embedded questions for AN10.1-AN10.9."
       },
       "textTracks": {
         "videoTrack": [
           {
-            "label": "Subtitles",
+            "label": "English",
             "kind": "subtitles",
-            "srcLang": "en"
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-an-axilla-shoulder-v2-1773638941135/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-an-axilla-shoulder-v2-1773638941135/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-an-axilla-shoulder-v2-1773638941135/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
           }
-        ]
+        ],
+        "defaultTrackLabel": "English"
       }
     },
     "assets": {
       "interactions": [
         {
           "duration": {
-            "from": 141.825,
-            "to": 151.825
+            "from": 131.65,
+            "to": 141.65
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which of the following muscles forms the posterior wall of the axilla?</p>",
+          "label": "<p>Which of the following correctly identifies a boundary of the axilla?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -44,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which of the following muscles forms the posterior wall of the axilla?</p>",
+              "question": "<p>Which of the following correctly identifies a boundary of the axilla?</p>",
               "answers": [
                 {
-                  "text": "<div>Pectoralis major</div>",
+                  "text": "<div>The anterior wall is formed by subscapularis and teres major</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Pectoralis major forms the anterior wall of the axilla, not the posterior wall. It is one of the chest muscles on the front of the thorax.</div>",
+                    "chosenFeedback": "<div>Subscapularis and teres major form the posterior wall. The anterior wall is formed by pectoralis major and pectoralis minor.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Serratus anterior</div>",
+                  "text": "<div>The base is formed by the clavicle and first rib</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Serratus anterior forms the medial wall of the axilla, running along the side of the chest over the upper ribs.</div>",
+                    "chosenFeedback": "<div>The clavicle and first rib form the apex (cervicoaxillary canal), not the base. The base is the skin and axillary fascia.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Subscapularis</div>",
+                  "text": "<div>The medial wall is formed by the upper ribs and serratus anterior</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The posterior wall is formed by subscapularis, latissimus dorsi, and teres major — muscles originating from the scapula and lower back.</div>",
+                    "chosenFeedback": "<div>Correct. The serratus anterior lies over the upper ribs, together forming the medial wall of the axillary pyramid.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Deltoid</div>",
+                  "text": "<div>The lateral wall is formed by pectoralis minor</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The deltoid covers the shoulder joint superiorly but does not form any wall of the axilla.</div>",
+                    "chosenFeedback": "<div>Pectoralis minor is part of the anterior wall. The lateral wall is the narrowest side, formed by the intertubercular sulcus of the humerus.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -87,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The posterior wall is formed by subscapularis, latissimus dorsi, and teres major. A useful way to remember: the anterior wall has the pectorals (chest muscles), and the posterior wall has the scapular muscles."
+                  "feedback": "Review the four walls: anterior (pectoralis major and minor), posterior (subscapularis, latissimus dorsi, teres major), medial (upper ribs + serratus anterior), lateral (intertubercular sulcus of humerus)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The posterior wall comprises subscapularis, latissimus dorsi, and teres major. Remembering which muscles form each wall helps you predict which structures are at risk during surgical approaches."
+                  "feedback": "Well done. The medial wall is ribs plus serratus anterior. Remember: anterior = pectorals, posterior = subscapularis/latissimus/teres major, lateral = humerus."
                 }
               ],
               "behaviour": {
@@ -119,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e50c9d78-a659-4c76-92dc-eebe103dc366",
+            "subContentId": "b3fb0dd8-47d3-412b-809c-340d3f608ef5",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which of the following muscles forms the",
+              "title": "Which of the following correctly identif",
               "authors": [],
               "changes": []
             }
@@ -139,13 +171,453 @@
         },
         {
           "duration": {
-            "from": 300.05,
-            "to": 310.05
+            "from": 271.575,
+            "to": 281.575
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The anterior (pectoral) group of axillary lymph nodes is typically the first to </p>",
+          "label": "<p>Which group of axillary lymph nodes is typically the first to receive metastatic</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Which group of axillary lymph nodes is typically the first to receive metastatic cells from a breast carcinoma?</p>",
+              "answers": [
+                {
+                  "text": "<div>Lateral group</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The lateral group drains the upper limb along the axillary vein, not the breast.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Anterior (pectoral) group</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The anterior (pectoral) group drains the breast and anterior chest wall, making it the first station for breast cancer metastasis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Posterior (subscapular) group</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The posterior group drains the back and posterior shoulder, not the breast.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Apical group</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The apical group sits at the apex and receives lymph from the central group. It is a later station in the drainage hierarchy, not the first.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The anterior (pectoral) group drains the breast and anterior chest wall. It is the first group to receive metastatic cells, which is why sentinel node biopsy targets this region."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly. The anterior (pectoral) group is the sentinel station for breast cancer spread. This is why sentinel node biopsy targets this area."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "883c070c-9ef8-4578-b63f-e9623165a7a5",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Which group of axillary lymph nodes is t",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 409.1,
+            "to": 419.1
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>The three cords of the brachial plexus are named lateral, posterior, and medial </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>The three cords of the brachial plexus are named lateral, posterior, and medial based on their relationship to which structure?</p>",
+              "answers": [
+                {
+                  "text": "<div>Subclavian artery</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The subclavian artery is proximal to the cords. It becomes the axillary artery at the first rib, and it is around this renamed vessel that the cords are positioned.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>First rib</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The first rib marks where the subclavian becomes the axillary artery, but the cords are named for their position around the artery, not the rib.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Pectoralis minor muscle</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Pectoralis minor divides the axillary artery into three parts but is not the reference structure for naming the cords.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Axillary artery</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The lateral cord lies lateral to the axillary artery, the medial cord lies medial, and the posterior cord lies posterior to it.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The three cords are named for their position around the axillary artery: lateral cord lies lateral, medial cord lies medial, and posterior cord lies posterior to it."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Right. The cords wrap around the axillary artery and take their names from their position relative to it — lateral, posterior, and medial."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "6bb54ad0-fb7e-451a-aefc-1715b38c2283",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "The three cords of the brachial plexus a",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 568.65,
+            "to": 578.65
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A newborn delivered by breech extraction presents with a claw hand and absent gr</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A newborn delivered by breech extraction presents with a claw hand and absent grip strength. Horner's syndrome is also noted. Which nerve roots are most likely damaged?</p>",
+              "answers": [
+                {
+                  "text": "<div>C5 and C6</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>C5-C6 injury (upper trunk) causes Erb's palsy — waiter's tip position with preserved hand grip. It does not produce claw hand or Horner's syndrome.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>C8 and T1</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. C8-T1 (lower trunk) injury causes Klumpke's paralysis. C8 supplies long flexors, T1 supplies intrinsic hand muscles (producing the claw), and T1 carries sympathetic fibres to the eye (causing Horner's syndrome).</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>C7 alone</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>C7 forms the middle trunk. Its isolated injury would affect wrist and finger extension, not produce a claw hand with Horner's syndrome.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>C5, C6, C7, C8, and T1</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Complete brachial plexus injury would paralyse the entire upper limb. The preserved shoulder function here points to a selective lower trunk lesion.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Klumpke's paralysis involves C8 and T1 (lower trunk). C8 supplies long finger flexors; T1 supplies intrinsic hand muscles — their loss produces the claw. T1 also carries sympathetic fibres, so its disruption causes Horner's syndrome (ptosis, miosis, anhidrosis)."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. Klumpke's paralysis (C8, T1) presents with claw hand, lost grip, and Horner's syndrome when T1 sympathetic fibres are disrupted. Contrast with Erb's (C5, C6): shoulder and elbow affected, hand spared."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "f74c2698-77c3-4ea3-a8f8-a44a79aad4bb",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A newborn delivered by breech extraction",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 718.9,
+            "to": 728.9
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A patient cannot initiate arm abduction but can complete the movement once the a</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient cannot initiate arm abduction but can complete the movement once the arm is passively lifted past 15 degrees. Which rotator cuff muscle is most likely torn?</p>",
+              "answers": [
+                {
+                  "text": "<div>Infraspinatus</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Infraspinatus is the primary lateral (external) rotator of the arm. Its injury weakens lateral rotation but does not impair initiation of abduction.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Subscapularis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Subscapularis is the medial (internal) rotator covering the anterior scapula. Its injury does not affect the initiation of abduction.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Supraspinatus</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Supraspinatus initiates the first 15 degrees of abduction before the deltoid takes over. It is the most commonly torn rotator cuff muscle, producing the classic painful arc.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Teres minor</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Teres minor assists infraspinatus in lateral rotation. It plays no role in initiating abduction.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Supraspinatus initiates the first 15 degrees of abduction. Once torn, the patient cannot begin the movement but can complete it if assisted past that range, since deltoid takes over beyond 15°."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Right. Supraspinatus initiates abduction (0–15°), then deltoid continues to 90°. Its tear produces a painful arc and inability to begin the movement — a classic clinical sign."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "cbdd7b8a-1217-4c1b-8b11-446cd7a95488",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A patient cannot initiate arm abduction",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 875.325,
+            "to": 885.325
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>The glenohumeral joint achieves its stability primarily through a tight fibrous </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -154,8 +626,8 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>The anterior (pectoral) group of axillary lymph nodes is typically the first to receive metastatic cells from a breast tumour.</p>",
-              "correct": "true",
+              "question": "<p>The glenohumeral joint achieves its stability primarily through a tight fibrous capsule and strong ligaments rather than muscular support.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
@@ -172,16 +644,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is true. The anterior (pectoral) group runs along the lateral thoracic artery and is the primary drainage site for the breast. Sentinel node biopsy exploits this anatomy — a tracer injected near the tumour travels to this group first.",
-                "correctAnswerMessage": "Correct. The anterior (pectoral) group lies along the lateral thoracic artery and directly drains the breast and anterior chest wall, making it the first station for breast cancer spread. This is why sentinel node biopsy targets this drainage pathway.",
+                "wrongAnswerMessage": "This statement is false. The capsule is deliberately loose to permit the shoulder's full range of motion. The glenoid covers only one-third of the humeral head. Stability depends almost entirely on the rotator cuff muscles — not on bony architecture or passive ligaments. This is why the shoulder is the most commonly dislocated joint.",
+                "correctAnswerMessage": "Correct — this statement is false. The joint capsule is deliberately loose with folds to allow full range of motion, and the glenoid is shallow (covers only one-third of the humeral head). Stability depends almost entirely on the rotator cuff muscles, which is why the shoulder dislocates more than any other joint.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "77e41255-8dd6-4b1b-92df-4fa4f77b4e50",
+            "subContentId": "2066f523-2cf3-4d51-ae01-4942107c51ea",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "The anterior (pectoral) group of axillar",
+              "title": "The glenohumeral joint achieves its stab",
               "authors": [],
               "changes": []
             }
@@ -197,13 +669,13 @@
         },
         {
           "duration": {
-            "from": 455.07500000000005,
-            "to": 465.07500000000005
+            "from": 1026.1,
+            "to": 1036.1
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which mnemonic correctly represents the five levels of the brachial plexus in or</p>",
+          "label": "<p>Which anatomical relationship explains why the axillary nerve is at risk during </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -212,41 +684,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which mnemonic correctly represents the five levels of the brachial plexus in order from proximal to distal?</p>",
+              "question": "<p>Which anatomical relationship explains why the axillary nerve is at risk during fractures of the surgical neck of the humerus?</p>",
               "answers": [
                 {
-                  "text": "<div>Roots, Trunks, Cords, Divisions, Branches</div>",
+                  "text": "<div>It runs in the spiral (radial) groove of the humeral shaft</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This reverses the order of divisions and cords. Divisions come before cords — the trunks split into divisions, which then regroup into cords.</div>",
+                    "chosenFeedback": "<div>The spiral groove houses the radial nerve, not the axillary nerve. Radial nerve injury occurs with mid-shaft humeral fractures, not surgical neck fractures.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Roots, Trunks, Divisions, Cords, Branches</div>",
+                  "text": "<div>It wraps directly around the surgical neck of the humerus</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Robert Taylor Drinks Cold Beer — Roots, Trunks, Divisions, Cords, Branches. The cords are named for their position around the axillary artery: lateral, posterior, and medial.</div>",
+                    "chosenFeedback": "<div>Correct. The axillary nerve (from the posterior cord, C5-C6) courses around the surgical neck just below the humeral head, placing it in direct contact with the bone at this fracture-prone site.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Roots, Divisions, Trunks, Cords, Branches</div>",
+                  "text": "<div>It passes between the two heads of the biceps muscle</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Divisions do not come before trunks. The five roots first merge into three trunks, and only then does each trunk split into anterior and posterior divisions.</div>",
+                    "chosenFeedback": "<div>The musculocutaneous nerve pierces the coracobrachialis. The axillary nerve takes a different course, wrapping posteriorly around the surgical neck of the humerus.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Roots, Trunks, Divisions, Branches, Cords</div>",
+                  "text": "<div>It is tethered at the cervicoaxillary canal by the axillary sheath</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Branches are the final output of the plexus, not an intermediate stage. The cords must form before terminal branches emerge.</div>",
+                    "chosenFeedback": "<div>The axillary sheath wraps the neurovascular bundle at the apex of the axilla. The axillary nerve is vulnerable more distally, where it wraps around the surgical neck of the humerus.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -255,12 +727,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The correct order is Roots, Trunks, Divisions, Cords, Branches — remembered as Robert Taylor Drinks Cold Beer. Getting this sequence right is essential for localising brachial plexus injuries."
+                  "feedback": "The axillary nerve wraps around the surgical neck of the humerus in close contact with bone. This explains its vulnerability in surgical neck fractures, anterior shoulder dislocations, and improperly placed deltoid injections. Safe injection site: upper third of the deltoid."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. Roots → Trunks → Divisions → Cords → Branches. Each level reorganises the nerve fibres so that functionally related fibres end up in the same terminal nerve."
+                  "feedback": "Exactly. The axillary nerve wraps around the surgical neck, explaining its vulnerability in fractures, anterior dislocations, and low deltoid injections. Always inject in the upper third of the deltoid — 2 to 3 finger-breadths below the acromion."
                 }
               ],
               "behaviour": {
@@ -287,341 +759,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9136a834-7854-48f2-bd43-5b30fd5c7cf7",
+            "subContentId": "0ff93143-0789-4fd6-8939-a90323b90ef9",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which mnemonic correctly represents the",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 620.8000000000001,
-            "to": 630.8000000000001
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A patient with Klumpke's paralysis of the right hand would most likely present w</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A patient with Klumpke's paralysis of the right hand would most likely present with which finding?</p>",
-              "answers": [
-                {
-                  "text": "<div>Arm held in the waiter's tip position</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The waiter's tip position is characteristic of Erb's palsy (upper trunk, C5–C6), not Klumpke's paralysis. In Erb's palsy the shoulder and elbow are affected while the hand is spared.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Inability to abduct the arm beyond 15 degrees</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Loss of abduction suggests deltoid paralysis from axillary nerve injury, not Klumpke's paralysis. In Klumpke's, the shoulder is spared because the upper trunk is intact.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Claw hand with hyperextended metacarpophalangeal joints</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Klumpke's paralysis (C8–T1) destroys the intrinsic hand muscles. Without lumbricals and interossei, the long extensors are unopposed at the MCP joints, producing the claw deformity.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Wrist drop with inability to extend the fingers</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Wrist drop results from radial nerve injury, not lower trunk damage. The radial nerve primarily carries fibres from C5–C8 via the posterior cord.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Klumpke's paralysis injures the lower trunk (C8–T1), paralysing the intrinsic muscles of the hand. This produces a claw hand — hyperextended MCP joints and flexed IP joints. Remember: Erb's spares the hand, Klumpke's spares the shoulder."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Klumpke's paralysis affects C8 and T1, paralysing intrinsic hand muscles and producing a claw hand. If T1 is involved, Horner's syndrome (ptosis, miosis, anhidrosis) may also appear due to disrupted sympathetic fibres."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "5f590553-6d41-42cd-96f4-a22767494d78",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A patient with Klumpke's paralysis of th",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 814.0000000000001,
-            "to": 824.0000000000001
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>Which rotator cuff muscle initiates abduction of the arm and is most commonly to</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>Which rotator cuff muscle initiates abduction of the arm and is most commonly torn?</p>",
-              "answers": [
-                {
-                  "text": "<div>Infraspinatus</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Infraspinatus produces lateral rotation of the arm, not abduction. It lies below the spine of the scapula and shares the suprascapular nerve supply with supraspinatus.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Subscapularis</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Subscapularis is the only rotator cuff muscle that produces medial rotation. It occupies the anterior surface of the scapula and does not contribute to abduction.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Teres minor</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Teres minor assists with lateral rotation alongside infraspinatus. It is supplied by the axillary nerve, not the suprascapular nerve, and is not the primary abductor.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Supraspinatus</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Supraspinatus initiates the first 0–15 degrees of abduction before the deltoid takes over. Its tendon passes under the acromion, making it vulnerable to impingement and the most frequently torn rotator cuff muscle.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Supraspinatus initiates abduction (0–15°) and is the most commonly torn rotator cuff muscle. Use the mnemonic SITS to remember the four muscles and note that three produce lateral rotation while only subscapularis produces medial rotation."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. Remember SITS: Supraspinatus (abduction initiation), Infraspinatus (lateral rotation), Teres minor (lateral rotation), Subscapularis (medial rotation). When supraspinatus tears, the patient cannot smoothly initiate abduction — producing the painful arc sign."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "070995c6-8acd-4cf1-bac6-2e0cdd36eb86",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "Which rotator cuff muscle initiates abdu",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 1125.3000000000002,
-            "to": 1135.3000000000002
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A nurse asks you to mark the correct site for an intramuscular deltoid injection</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A nurse asks you to mark the correct site for an intramuscular deltoid injection. Which landmark ensures the axillary nerve is not injured?</p>",
-              "answers": [
-                {
-                  "text": "<div>The midpoint of the deltoid muscle belly</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The midpoint is too low. The axillary nerve wraps around the surgical neck of the humerus at approximately this level, placing it directly in the path of the needle.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Two to three finger-breadths below the acromion</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Injecting in the upper third of the deltoid, 2–3 finger-breadths below the acromion, keeps the needle safely above the axillary nerve, which runs at the level of the surgical neck of the humerus.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>At the deltoid tuberosity on the lateral humerus</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The deltoid tuberosity is in the lower third of the muscle, far too low. At this level, the needle would be near or beyond the axillary nerve's path around the surgical neck.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Just above the insertion of the deltoid</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The insertion of the deltoid is at the deltoid tuberosity, in the lower portion of the muscle. Injecting here places the needle dangerously close to the axillary nerve.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The safe zone is the upper third of the deltoid, identified by measuring 2–3 finger-breadths below the acromion. The axillary nerve runs at the level of the surgical neck of the humerus, which lies in the lower deltoid. Injecting too low risks permanent nerve damage and loss of arm abduction."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Perfect. The axillary nerve curves around the surgical neck of the humerus in the lower deltoid region. Targeting 2–3 finger-breadths below the acromion keeps the injection in the upper third, well above the nerve. This is a preventable cause of deltoid paralysis."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "50ae5f55-9d10-4ed2-8c65-5cdf8c36161b",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A nurse asks you to mark the correct sit",
+              "title": "Which anatomical relationship explains w",
               "authors": [],
               "changes": []
             }
@@ -638,33 +780,69 @@
       ],
       "bookmarks": [
         {
-          "time": 142,
-          "label": "0: scene-2"
+          "time": 0,
+          "label": "Welcome to Axilla, Shoulder and Scapular region."
         },
         {
-          "time": 300,
-          "label": "1: scene-4"
+          "time": 4,
+          "label": "Raise your arm and look at your armpit."
         },
         {
-          "time": 455,
-          "label": "2: scene-6"
+          "time": 51,
+          "label": "The axilla is not just the surface armpit."
         },
         {
-          "time": 621,
-          "label": "3: scene-8"
+          "time": 132,
+          "label": "The axillary artery is the main blood supply to the upper…"
         },
         {
-          "time": 814,
-          "label": "4: scene-10"
+          "time": 201,
+          "label": "The axilla contains around twenty to thirty lymph nodes,…"
         },
         {
-          "time": 1125,
-          "label": "5: scene-14"
+          "time": 272,
+          "label": "Now that you know the walls and lymph nodes, here is what…"
+        },
+        {
+          "time": 332,
+          "label": "Every movement of your arm is controlled by nerves from y…"
+        },
+        {
+          "time": 409,
+          "label": "Erb's palsy, also called Erb-Duchenne palsy, results from…"
+        },
+        {
+          "time": 494,
+          "label": "Klumpke's paralysis injures the lower trunk of the brachi…"
+        },
+        {
+          "time": 570,
+          "label": "Two large, flat muscles dominate the back."
+        },
+        {
+          "time": 640,
+          "label": "The shoulder is the most mobile joint in the body, but th…"
+        },
+        {
+          "time": 719,
+          "label": "Place your hand flat against the side of your chest, just…"
+        },
+        {
+          "time": 792,
+          "label": "The glenohumeral joint, commonly called the shoulder join…"
+        },
+        {
+          "time": 875,
+          "label": "What happens when the axillary artery is blocked?"
+        },
+        {
+          "time": 944,
+          "label": "The axillary nerve arises from the posterior cord of the…"
         }
       ],
       "endscreens": [
         {
-          "time": 1334,
+          "time": 1059,
           "label": "End"
         }
       ]
@@ -676,7 +854,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "20ce6a48-ea9a-48ee-aaf3-3cb1e0fe1823",
+              "subContentId": "38e2498d-7619-434b-8b66-6e9a3e1bfa96",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -699,7 +877,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "b4731e8f-850d-477b-99e7-e9356b08ba30",
+        "subContentId": "08de309e-a975-47d1-b252-37e905f8a1d6",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
@@ -708,7 +886,7 @@
           "changes": []
         }
       },
-      "displayAt": 3
+      "displayAt": 0
     }
   },
   "override": {

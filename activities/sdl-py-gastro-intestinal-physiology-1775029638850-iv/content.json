@@ -3,8 +3,8 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/sdl-py-gastro-intestinal-physiology-1775029638850/v1/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/3d23c303-feb6-4735-80b0-5901d10485e4/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
@@ -18,24 +18,56 @@
       "textTracks": {
         "videoTrack": [
           {
-            "label": "Subtitles",
+            "label": "English",
             "kind": "subtitles",
-            "srcLang": "en"
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-gastro-intestinal-physiology-1775029638850/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-gastro-intestinal-physiology-1775029638850/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-gastro-intestinal-physiology-1775029638850/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
           }
-        ]
+        ],
+        "defaultTrackLabel": "English"
       }
     },
     "assets": {
       "interactions": [
         {
           "duration": {
-            "from": 247.65,
-            "to": 257.65
+            "from": 146.8,
+            "to": 156.8
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Gastrin stimulates acid secretion from parietal cells. Which hormone provides th</p>",
+          "label": "<p>Which observation best demonstrates that the enteric nervous system can function</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -44,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Gastrin stimulates acid secretion from parietal cells. Which hormone provides the negative feedback that switches gastrin off when gastric acidity rises?</p>",
+              "question": "<p>Which observation best demonstrates that the enteric nervous system can function independently of the central nervous system?</p>",
               "answers": [
                 {
-                  "text": "<div>Secretin</div>",
+                  "text": "<div>Salivation occurs in response to the smell of food</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Secretin is released by S cells in the duodenum in response to acid entering from the stomach. It stimulates pancreatic bicarbonate secretion to neutralise that acid, but it does not directly inhibit gastrin release from G cells.</div>",
+                    "chosenFeedback": "<div>This is a conditioned reflex mediated by salivatory nuclei in the brainstem — it demonstrates CNS function, not enteric nervous system independence.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Cholecystokinin</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>CCK is released by I cells in response to fat and protein in the duodenum. It triggers pancreatic enzyme secretion and gallbladder contraction but does not form a feedback loop with gastrin.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Somatostatin</div>",
+                  "text": "<div>Peristalsis continues during general anaesthesia</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. When gastric pH drops below 2, D cells in the antral mucosa release somatostatin, which directly inhibits gastrin release from neighbouring G cells. This is a classic paracrine negative feedback loop.</div>",
+                    "chosenFeedback": "<div>General anaesthesia suppresses CNS activity, yet gut movements persist. This proves the enteric nervous system — with its 500 million neurons in Auerbach's and Meissner's plexuses — generates and coordinates motility without central input.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Gastric inhibitory peptide</div>",
+                  "text": "<div>Vagal stimulation increases gastric acid secretion</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>GIP is released by K cells in the duodenum in response to fat and carbohydrate. It suppresses gastric acid secretion and stimulates insulin release, but it does not directly inhibit gastrin at the G-cell level.</div>",
+                    "chosenFeedback": "<div>The vagus nerve is an extrinsic CNS pathway TO the gut. Its effect demonstrates central influence on the gut, not the gut's ability to function alone.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Sympathetic activation reduces intestinal motility</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Sympathetic inhibition of motility shows that the CNS can modulate gut function — but it does not demonstrate that the ENS can operate independently.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -87,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the gastrin–somatostatin feedback loop. When gastric pH falls below 2, D cells release somatostatin, which acts locally on G cells to shut down gastrin secretion."
+                  "feedback": "The key evidence is that peristalsis continues under general anaesthesia — when CNS output is abolished. This proves the enteric nervous system generates coordinated movements independently, earning it the name 'second brain'."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The gastrin–somatostatin axis is a textbook example of paracrine negative feedback in the gut. Rising acidity activates D cells, which suppress G cells locally."
+                  "feedback": "Correct. The enteric nervous system contains approximately 500 million neurons across two plexuses (Auerbach's for motility, Meissner's for secretion), enabling autonomous gut function even when the brain is pharmacologically silenced."
                 }
               ],
               "behaviour": {
@@ -119,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "77b5e792-c06d-4d69-968d-14f076605c3e",
+            "subContentId": "6e876531-381d-432c-8aed-43bc4ac32355",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Gastrin stimulates acid secretion from p",
+              "title": "Which observation best demonstrates that",
               "authors": [],
               "changes": []
             }
@@ -139,123 +171,13 @@
         },
         {
           "duration": {
-            "from": 425,
-            "to": 435
+            "from": 333.525,
+            "to": 343.525
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which phase of gastric acid secretion contributes the largest share of total aci</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>Which phase of gastric acid secretion contributes the largest share of total acid output, and what is its primary stimulus?</p>",
-              "answers": [
-                {
-                  "text": "<div>Cephalic phase — vagal stimulation from sight and smell of food</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The cephalic phase does involve vagal stimulation triggered by the sight or thought of food, but it accounts for only about 30% of total acid output, not the largest share.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Gastric phase — gastrin release triggered by stomach distension</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The gastric phase contributes approximately 60% of total acid output. When food distends the stomach wall, G cells release gastrin, which is the dominant driver of acid secretion.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Intestinal phase — secretin release when chyme enters the duodenum</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The intestinal phase contributes only about 10% and is primarily inhibitory. Secretin released here actually suppresses further acid secretion rather than stimulating it.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Gastric phase — parasympathetic stimulation from Meissner's plexus</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While the gastric phase is indeed the largest contributor, its primary stimulus is gastrin from G cells, not Meissner's plexus. Meissner's plexus regulates mucosal secretion and blood flow but is not the main driver of acid output in this phase.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The three phases contribute roughly 30% (cephalic), 60% (gastric), and 10% (intestinal). The gastric phase is dominant because food in the stomach directly stimulates G cells to release gastrin."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Excellent. The gastric phase dominates acid secretion (60%), driven by gastrin from antral G cells. Remember the 30-60-10 rule for cephalic, gastric, and intestinal phases."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "2b141e6a-3594-4748-8c9c-e28b94021e14",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "Which phase of gastric acid secretion co",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 626.5,
-            "to": 636.5
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>Under chronic stress, sympathetic stimulation suppresses Brunner's gland secreti</p>",
+          "label": "<p>Final saliva is hypertonic because salivary duct cells actively concentrate elec</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -264,175 +186,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Under chronic stress, sympathetic stimulation suppresses Brunner's gland secretion, reducing the alkaline mucus barrier in the duodenum and increasing the risk of duodenal ulcers.</p>",
-              "correct": "true",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is true. Brunner's glands are activated by parasympathetic (vagal) input and suppressed by sympathetic stimulation. During chronic stress, sympathetic tone dominates, reducing the protective alkaline mucus layer in the duodenum and predisposing to ulcer formation.",
-                "correctAnswerMessage": "Correct. Brunner's glands in the duodenal submucosa secrete alkaline mucus that shields the duodenal wall from gastric acid. Vagal stimulation activates them, but sympathetic dominance during stress suppresses them, leaving the mucosa vulnerable to acid injury.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "0abdf8ef-4138-4e89-869f-125d2ed2b9cc",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "Under chronic stress, sympathetic stimul",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 897.825,
-            "to": 907.825
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>During fasting, the small intestine undergoes cyclical contractions every 90 min</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>During fasting, the small intestine undergoes cyclical contractions every 90 minutes to sweep residual contents forward. Which hormone drives this migrating myoelectric complex?</p>",
-              "answers": [
-                {
-                  "text": "<div>Gastrin</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Gastrin stimulates gastric acid secretion and motility in the fed state. It does not drive the fasting housekeeping contractions of the migrating myoelectric complex.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Cholecystokinin</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>CCK is released postprandially in response to fat and protein. It actually interrupts the MMC pattern when feeding begins, rather than driving it.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Motilin</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Motilin is released cyclically during fasting and drives the migrating myoelectric complex. Erythromycin, a motilin receptor agonist, is used clinically as a prokinetic drug precisely because of this mechanism.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Secretin</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Secretin is released when acid enters the duodenum and drives pancreatic bicarbonate secretion. It plays no role in the cyclical fasting contractions of the MMC.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Motilin is the hormone that drives the migrating myoelectric complex every 90 minutes during fasting. A useful clinical link: erythromycin acts as a motilin agonist and is used as a prokinetic."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Motilin drives the MMC during fasting. When these contractions are disrupted, bacteria accumulate in the small intestine, causing small intestinal bacterial overgrowth (SIBO)."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "e342e64b-fe29-47d8-83b6-5a99075a5b58",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "During fasting, the small intestine unde",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 1094.375,
-            "to": 1104.375
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>The majority of the body's serotonin is produced in the brain, where it regulate</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>The majority of the body's serotonin is produced in the brain, where it regulates mood and behaviour.</p>",
+              "question": "<p>Final saliva is hypertonic because salivary duct cells actively concentrate electrolytes during secretion.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -450,16 +204,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. While serotonin does regulate mood in the brain, 95% of the body's total serotonin is actually produced in the gut by enterochromaffin cells. It regulates gut motility and signals satiety to the brain. This gut-brain serotonin connection explains why SSRIs frequently cause GI side effects like nausea and diarrhoea.",
-                "correctAnswerMessage": "Correct — this statement is false. Approximately 95% of the body's serotonin is produced in the gut by enterochromaffin cells, not in the brain. Gut serotonin regulates motility and sends satiety signals to the brain via the vagus nerve. This is why SSRIs commonly cause gastrointestinal side effects.",
+                "wrongAnswerMessage": "The statement is false. Striated ducts reabsorb sodium and secrete potassium, but because they are relatively impermeable to water, water stays behind in the lumen. The result is a dilute, hypotonic final product — unique among all gastrointestinal secretions.",
+                "correctAnswerMessage": "Correct — the statement is false. Acini produce isotonic fluid, but striated ducts reabsorb Na⁺ while remaining relatively impermeable to water. Water cannot follow the sodium out, so the final saliva becomes hypotonic — the only hypotonic secretion in the entire GI tract.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "bdef62ca-8f53-426e-ab33-970e89b598a5",
+            "subContentId": "c01d0bbb-6dba-4352-a0dc-2d30ecfe7c4a",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "The majority of the body's serotonin is",
+              "title": "Final saliva is hypertonic because saliv",
               "authors": [],
               "changes": []
             }
@@ -475,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 1314.15,
-            "to": 1324.15
+            "from": 519.425,
+            "to": 529.425
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>During abdominal examination, you suspect splenomegaly. From which region should</p>",
+          "label": "<p>Pancreatic proteases are secreted as inactive zymogens that are activated only i</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -490,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>During abdominal examination, you suspect splenomegaly. From which region should you begin palpation to avoid missing a grossly enlarged spleen?</p>",
+              "question": "<p>Pancreatic proteases are secreted as inactive zymogens that are activated only in the duodenum. What is the primary physiological advantage of this arrangement?</p>",
               "answers": [
                 {
-                  "text": "<div>Left hypochondrium, moving downward</div>",
+                  "text": "<div>It allows proteases to function optimally at alkaline duodenal pH</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Starting at the left hypochondrium risks pressing directly onto a massively enlarged spleen without detecting its lower edge. You may miss the extent of enlargement entirely.</div>",
+                    "chosenFeedback": "<div>Alkaline pH is maintained by pancreatic bicarbonate secretion, not by the zymogen mechanism. Zymogens exist for safety, not for pH optimisation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Epigastrium, moving laterally</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The epigastrium is the starting point for liver palpation. The spleen enlarges diagonally toward the right iliac fossa, so a lateral approach from the epigastrium would not follow the correct axis of splenic enlargement.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Right iliac fossa, sweeping toward the left hypochondrium</div>",
+                  "text": "<div>It prevents the pancreas from digesting its own tissue</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The spleen enlarges downward and to the right. Starting from the right iliac fossa and sweeping diagonally upward toward the left hypochondrium on inspiration ensures you detect even a massively enlarged spleen.</div>",
+                    "chosenFeedback": "<div>If proteases were active inside the pancreas, they would destroy pancreatic cells. Activation occurs only in the duodenum, where enterokinase from the duodenal mucosa initiates the trypsin cascade safely outside the gland.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Umbilical region, moving in all directions</div>",
+                  "text": "<div>It reduces the metabolic energy required for enzyme synthesis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A non-directed approach from the umbilicus lacks the systematic diagonal sweep needed to follow the spleen's axis of enlargement. You risk missing the splenic edge altogether.</div>",
+                    "chosenFeedback": "<div>Zymogens are full-length proteins requiring the same synthetic energy as active enzymes. They carry an additional peptide that must be cleaved — adding rather than saving a step.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It enables prolonged storage of enzymes within zymogen granules</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While zymogens are stored in granules, storage is not the primary reason for inactivation. When this mechanism fails — as in acute pancreatitis — premature intrapancreatic activation causes severe autodigestion.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -533,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: the spleen enlarges diagonally toward the right iliac fossa. Begin palpation there and sweep upward toward the left hypochondrium, asking the patient to breathe deeply so the diaphragm pushes the spleen into your examining hand."
+                  "feedback": "The primary purpose is preventing autodigestion. Active trypsin inside the pancreas would destroy pancreatic tissue. Zymogens remain inert until enterokinase (produced by duodenal mucosa, not the pancreas) cleaves trypsinogen to trypsin, which then activates all remaining zymogens."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Starting from the right iliac fossa and sweeping toward the left hypochondrium on inspiration is the correct technique. The spleen must enlarge to three times its normal size before it becomes palpable."
+                  "feedback": "Correct. This protective mechanism is clinically vital — premature intrapancreatic trypsin activation causes acute pancreatitis, where the gland literally digests itself. Enterokinase from the duodenal mucosa is the safety gate that confines activation to the intestinal lumen."
                 }
               ],
               "behaviour": {
@@ -565,11 +319,341 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "d29141b2-9a83-489e-bf7f-eefd9ca05986",
+            "subContentId": "aaa3c573-ad7f-480c-bd1e-54cbce99fd28",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "During abdominal examination, you suspec",
+              "title": "Pancreatic proteases are secreted as ina",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 713.0999999999999,
+            "to": 723.0999999999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>After absorption, dietary fat enters the lymphatic system via lacteals rather th</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>After absorption, dietary fat enters the lymphatic system via lacteals rather than portal blood. The primary reason for this route is:</p>",
+              "answers": [
+                {
+                  "text": "<div>Fatty acids are toxic to hepatocytes when delivered in high concentrations</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The liver readily metabolises fatty acids. Hepatotoxicity is not the reason fat takes the lymphatic route.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Chylomicrons are too large to pass through blood capillary walls</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Chylomicrons are large lipoprotein particles that cannot cross blood capillary fenestrations. Lacteals — lymphatic capillaries within each villus — have wider openings that accommodate these particles.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Bile salts coat chylomicrons and direct them toward lymphatic vessels</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Bile salts form micelles that deliver lipids to the brush border, but they are released before chylomicron assembly inside the enterocyte. They play no role in routing chylomicrons to lacteals.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The portal vein lacks the transport proteins required for triglyceride carriage</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The portal vein is a passive conduit — it does not require specific receptors or transport proteins. The issue is purely physical: chylomicrons are too large to cross capillary walls.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Chylomicrons are physically too large to cross blood capillary walls. They must enter lacteals — the wider lymphatic capillaries within each intestinal villus — and travel via the thoracic duct to reach systemic blood at the left subclavian vein. This is why dietary fat bypasses the liver on first pass."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. Dietary fat bypasses the portal circulation entirely. Chylomicrons travel from lacteals through lymphatic vessels to the thoracic duct, entering the bloodstream at the left subclavian vein."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "62a544a1-8311-4e24-80f9-dd7296176c71",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "After absorption, dietary fat enters the",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1010.5,
+            "to": 1020.5
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Bile acid sequestrant drugs reduce serum LDL cholesterol. Based on enterohepatic</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Bile acid sequestrant drugs reduce serum LDL cholesterol. Based on enterohepatic circulation, the mechanism is:</p>",
+              "answers": [
+                {
+                  "text": "<div>They directly inhibit cholesterol synthesis enzymes within hepatocytes</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Direct inhibition of HMG-CoA reductase is the mechanism of statins, not bile acid sequestrants. Sequestrants act in the intestinal lumen, not inside liver cells.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>They bind bile salts in the gut lumen, preventing ileal reabsorption and forcing the liver to use cholesterol to synthesise replacement bile salts</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Normally 95% of bile salts are reabsorbed in the terminal ileum and recycled 6–10 times daily. Sequestrants break this cycle, depleting the bile salt pool and forcing the liver to divert blood cholesterol toward new bile salt synthesis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>They block the sphincter of Oddi, preventing bile entry into the duodenum</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Blocking bile release would impair fat digestion and distend the gallbladder. Sequestrants act by binding bile salts that have already been released into the intestinal lumen.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>They stimulate hepatic Kupffer cells to clear circulating LDL particles</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Kupffer cells are resident macrophages that phagocytose bacteria and debris arriving via portal blood. They do not participate in LDL cholesterol clearance.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Enterohepatic circulation normally recycles 95% of bile salts via the terminal ileum, with the pool cycling 6–10 times daily. Sequestrants bind bile salts in the gut lumen, preventing this reabsorption. The liver must then convert blood cholesterol into new bile salts, reducing circulating LDL."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. By interrupting the enterohepatic cycle that normally recycles 95% of bile salts, sequestrants force the liver to upregulate LDL receptors and pull cholesterol from the blood to synthesise replacement bile salts — thereby lowering circulating LDL."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "13189bdc-1e65-4cff-8dca-12237ccae218",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Bile acid sequestrant drugs reduce serum",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1221.8999999999999,
+            "to": 1231.8999999999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A patient with profuse watery diarrhoea is asked to fast for 24 hours. The diarr</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient with profuse watery diarrhoea is asked to fast for 24 hours. The diarrhoea persists unchanged despite complete fasting. This pattern is most consistent with:</p>",
+              "answers": [
+                {
+                  "text": "<div>Osmotic diarrhoea</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Osmotic diarrhoea stops with fasting because the unabsorbed solute (e.g., lactose in lactase deficiency) is no longer being ingested. No osmotic load means no water retention in the lumen.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Secretory diarrhoea</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>In secretory diarrhoea (e.g., cholera), enterocytes actively pump chloride and water into the lumen via a cAMP-driven mechanism. This secretion is independent of oral intake, so fasting provides no relief.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Malabsorptive diarrhoea</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Malabsorptive diarrhoea depends on undigested nutrients in the lumen — particularly fat (steatorrhoea). It improves with fasting since there is nothing left to malabsorb.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Diarrhoea due to lactase deficiency</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Lactase deficiency causes osmotic diarrhoea specifically after dairy intake. With fasting, no lactose enters the gut and symptoms resolve completely.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Secretory diarrhoea persists during fasting because the pathology is active chloride and water secretion by enterocytes — as in cholera, where the toxin permanently activates cAMP. Osmotic diarrhoea, by contrast, requires an unabsorbed solute in the lumen and stops when oral intake ceases."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. The fasting test is a key clinical tool: secretory diarrhoea persists because active epithelial secretion (driven by toxins or hormones like VIP) is independent of luminal food; osmotic diarrhoea resolves because the osmotic agent is removed."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "998593a7-71b2-49d8-a30a-a6f23f793e98",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A patient with profuse watery diarrhoea",
               "authors": [],
               "changes": []
             }
@@ -586,33 +670,65 @@
       ],
       "bookmarks": [
         {
-          "time": 248,
-          "label": "0: scene-3"
+          "time": 0,
+          "label": "Welcome to Gastro-intestinal Physiology — SDL Guide."
         },
         {
-          "time": 425,
-          "label": "1: scene-5"
+          "time": 4,
+          "label": "A 45-year-old auto-rickshaw driver walks into an outpatie…"
         },
         {
-          "time": 627,
-          "label": "2: scene-7"
+          "time": 63,
+          "label": "The digestive system divides into two categories of organs."
         },
         {
-          "time": 898,
-          "label": "3: scene-9"
+          "time": 147,
+          "label": "The gut is the largest endocrine organ in the body."
         },
         {
-          "time": 1094,
-          "label": "4: scene-11"
+          "time": 237,
+          "label": "Saliva comes from three pairs of glands."
         },
         {
-          "time": 1314,
-          "label": "5: scene-13"
+          "time": 334,
+          "label": "The stomach produces gastric juice at a rate of two to th…"
+        },
+        {
+          "time": 427,
+          "label": "The exocrine pancreas produces up to two and a half litre…"
+        },
+        {
+          "time": 519,
+          "label": "The small intestinal mucosa produces succus entericus, me…"
+        },
+        {
+          "time": 616,
+          "label": "The writing-skills skill is about creating new documentat…"
+        },
+        {
+          "time": 713,
+          "label": "The gut wall contains smooth muscle that generates severa…"
+        },
+        {
+          "time": 802,
+          "label": "The liver is the largest gland in the body, weighing abou…"
+        },
+        {
+          "time": 1011,
+          "label": "The gut and the brain are in constant two-way conversatio…"
+        },
+        {
+          "time": 1095,
+          "label": "Peptic ulcer disease arises when aggressive factors overc…"
+        },
+        {
+          "time": 1222,
+          "label": "Before examining the abdomen, take a focused history."
         }
       ],
       "endscreens": [
         {
-          "time": 2166,
+          "time": 2175,
           "label": "End"
         }
       ]
@@ -624,7 +740,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "3ce2e9aa-609b-4178-a26c-9175c03703b2",
+              "subContentId": "a37f0178-2e74-4e89-b7d6-6eecde0250fb",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -647,7 +763,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "9eb5db29-df73-407c-a1f6-ba8aede81a8a",
+        "subContentId": "5f9d2e61-6b3e-4af7-bff2-50bacaa43420",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
@@ -656,7 +772,7 @@
           "changes": []
         }
       },
-      "displayAt": 3
+      "displayAt": 0
     }
   },
   "override": {

@@ -3,8 +3,8 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/sdl-bi-carbohydrates-v2-1773640518906/v1/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/c0dace11-ae37-4068-853e-d964f9be31b8/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
@@ -13,29 +13,61 @@
       "startScreenOptions": {
         "title": "BI3.1-BI3.6 — Interactive Lecture (BI)",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for BI3.1-BI3.6."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for BI3.1-BI3.6."
       },
       "textTracks": {
         "videoTrack": [
           {
-            "label": "Subtitles",
+            "label": "English",
             "kind": "subtitles",
-            "srcLang": "en"
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-bi-carbohydrates-v2-1773640518906/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-bi-carbohydrates-v2-1773640518906/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-bi-carbohydrates-v2-1773640518906/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
           }
-        ]
+        ],
+        "defaultTrackLabel": "English"
       }
     },
     "assets": {
       "interactions": [
         {
           "duration": {
-            "from": 262.125,
-            "to": 272.125
+            "from": 143.775,
+            "to": 153.775
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which transporter mediates the absorption of dietary fructose across the intesti</p>",
+          "label": "<p>Why is glycogen more heavily branched than starch?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -44,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which transporter mediates the absorption of dietary fructose across the intestinal brush border?</p>",
+              "question": "<p>Why is glycogen more heavily branched than starch?</p>",
               "answers": [
                 {
-                  "text": "<div>SGLT-1, using secondary active transport with sodium</div>",
+                  "text": "<div>To increase its solubility in the blood for transport between organs</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>SGLT-1 co-transports glucose and galactose with sodium, not fructose. This is also why oral rehydration salts work.</div>",
+                    "chosenFeedback": "<div>Glycogen is stored intracellularly in liver and muscle, not transported dissolved in blood. Its branching relates to speed of glucose release, not solubility.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>GLUT-2, using facilitated diffusion</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>GLUT-2 transports monosaccharides out of the enterocyte into the blood on the basolateral side, not across the brush border.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>GLUT-4, an insulin-dependent transporter</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>GLUT-4 is insulin-dependent and operates in skeletal muscle and adipose tissue, not in intestinal absorption.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>GLUT-5, using facilitated diffusion</div>",
+                  "text": "<div>To provide more chain ends for rapid glucose mobilisation when energy is needed</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Fructose enters enterocytes via GLUT-5 by facilitated diffusion, independent of sodium or ATP, and exits basolaterally via GLUT-2.</div>",
+                    "chosenFeedback": "<div>Correct. Each branch tip is a site where glycogen phosphorylase can cleave glucose units simultaneously, enabling the body to mobilise glucose far more quickly than from a linear chain.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>To resist digestion by human amylase enzymes</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Both starch and glycogen can be digested by amylase. The branching serves speed of mobilisation, not resistance to digestion.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>To increase molecular weight for long-term energy storage</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Glycogen is a short-term reserve, not designed for long-term storage. Fat serves that role. The branching enables speed of release, not increased storage capacity.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -87,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the three absorption routes: SGLT-1 (glucose/galactose, active), GLUT-5 (fructose, passive), and GLUT-2 (basolateral exit)."
+                  "feedback": "Each branch point creates an additional chain end. Glycogen phosphorylase cleaves glucose from multiple chain ends simultaneously, enabling far faster glucose release than from a linear polymer like amylose."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Fructose uses GLUT-5 at the brush border — a passive route that distinguishes it from glucose and galactose."
+                  "feedback": "Well done. Glycogen's heavy branching provides multiple simultaneous sites for glucose release, enabling rapid mobilisation during fasting or exercise."
                 }
               ],
               "behaviour": {
@@ -119,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e290f4f4-2630-42b5-bc6d-577dab9eb60d",
+            "subContentId": "69d128b1-eff6-4ce0-bac3-789e6ff98217",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which transporter mediates the absorptio",
+              "title": "Why is glycogen more heavily branched th",
               "authors": [],
               "changes": []
             }
@@ -139,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 458.025,
-            "to": 468.025
+            "from": 359.075,
+            "to": 369.075
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>What is the net yield from one molecule of glucose passing through glycolysis al</p>",
+          "label": "<p>Why is glycolysis the sole source of ATP for mature red blood cells?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -154,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>What is the net yield from one molecule of glucose passing through glycolysis alone?</p>",
+              "question": "<p>Why is glycolysis the sole source of ATP for mature red blood cells?</p>",
               "answers": [
                 {
-                  "text": "<div>2 ATP, 2 NADH, and 2 pyruvate</div>",
+                  "text": "<div>Red blood cells lack glucose transporters required for oxidative pathways</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Red blood cells actually express GLUT-1 for continuous glucose uptake. The limitation is not glucose transport but the complete absence of mitochondria.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The oxygen carried by haemoglobin is unavailable for cellular respiration within the red blood cell</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While red blood cells do not consume the oxygen they carry, the actual reason they cannot perform oxidative phosphorylation is structural — they have no mitochondria at all.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Red blood cells have no mitochondria and therefore cannot perform oxidative phosphorylation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Phase one invests 2 ATP; phase two generates 4 ATP and 2 NADH, giving a net of 2 ATP and 2 NADH per glucose.</div>",
+                    "chosenFeedback": "<div>Correct. Mature red blood cells lose their mitochondria during development. Without mitochondria, the TCA cycle and electron transport chain are impossible, leaving cytoplasmic glycolysis as their only ATP-generating pathway.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>4 ATP, 2 NADH, and 2 pyruvate</div>",
+                  "text": "<div>Haemoglobin competitively inhibits all mitochondrial enzymes</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>4 ATP is the gross yield. You must subtract the 2 ATP spent in the energy investment phase to get the net.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>2 ATP, 2 FADH2, and 2 lactate</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Glycolysis produces NADH, not FADH2. Lactate forms only under anaerobic conditions to regenerate NAD+.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>30–32 ATP per glucose</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>That figure reflects complete aerobic oxidation through the TCA cycle and oxidative phosphorylation, not glycolysis alone.</div>",
+                    "chosenFeedback": "<div>Haemoglobin does not inhibit mitochondrial enzymes. The explanation is simpler: mature red blood cells expel their mitochondria during differentiation, eliminating oxidative metabolism entirely.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -197,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Glycolysis spends 2 ATP and generates 4, leaving a net of 2 ATP, plus 2 NADH and 2 pyruvate."
+                  "feedback": "Mature red blood cells lose all organelles, including mitochondria, during development. Without mitochondria, neither the TCA cycle nor oxidative phosphorylation can occur — glycolysis in the cytoplasm is their only option for generating ATP."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Remember PFK-1 is the rate-limiting enzyme, and this yield is the sole ATP source for red blood cells."
+                  "feedback": "Correct. Without mitochondria, red blood cells cannot run the TCA cycle or electron transport chain, making cytoplasmic glycolysis their only source of ATP."
                 }
               ],
               "behaviour": {
@@ -229,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "54f452dd-cefd-4d9b-9aeb-1db303be5435",
+            "subContentId": "3df8d6ec-3df8-4fa9-8043-391cd38389ec",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "What is the net yield from one molecule",
+              "title": "Why is glycolysis the sole source of ATP",
               "authors": [],
               "changes": []
             }
@@ -249,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 674.925,
-            "to": 684.925
+            "from": 569.175,
+            "to": 579.175
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Skeletal muscle glycogen can be broken down to release free glucose directly int</p>",
+          "label": "<p>During prolonged starvation, the body converts stored fatty acids into glucose t</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -264,7 +296,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Skeletal muscle glycogen can be broken down to release free glucose directly into the bloodstream during fasting.</p>",
+              "question": "<p>During prolonged starvation, the body converts stored fatty acids into glucose through gluconeogenesis to maintain blood glucose levels.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -282,16 +314,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "False. Muscle lacks glucose-6-phosphatase, so it cannot release free glucose. Only the liver (and kidney) possess this enzyme, which is why muscle glycogen serves local contraction, not blood glucose maintenance.",
-                "correctAnswerMessage": "Correct — muscle lacks glucose-6-phosphatase, so it cannot release free glucose. Muscle glycogen is used locally for contraction; only the liver and kidney can release free glucose into the blood.",
+                "wrongAnswerMessage": "This is a common misconception. The pyruvate dehydrogenase reaction is irreversible, so acetyl-CoA from fatty acid beta-oxidation cannot be converted back to pyruvate or glucose. During starvation, gluconeogenesis relies on lactate, glycerol, and amino acids from muscle — which is why prolonged fasting causes muscle wasting.",
+                "correctAnswerMessage": "Correct. Fatty acids cannot be converted to glucose because the pyruvate dehydrogenase reaction is irreversible — acetyl-CoA from fat oxidation cannot re-enter gluconeogenesis. The body instead breaks down muscle protein for glucogenic amino acids, explaining why starvation causes muscle wasting, not just fat loss.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "e7896f34-7a1f-4221-8d1f-e86a199f3321",
+            "subContentId": "7ec6000d-5c8e-4097-9ee2-d795ca3653fb",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Skeletal muscle glycogen can be broken d",
+              "title": "During prolonged starvation, the body co",
               "authors": [],
               "changes": []
             }
@@ -313,7 +345,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A young man develops haemolytic anaemia after being prescribed primaquine for ma</p>",
+          "label": "<p>In G6PD deficiency, what is the biochemical mechanism that causes haemolytic ana</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -322,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A young man develops haemolytic anaemia after being prescribed primaquine for malaria. Which biochemical defect best explains his red cell fragility?</p>",
+              "question": "<p>In G6PD deficiency, what is the biochemical mechanism that causes haemolytic anaemia upon exposure to oxidative stress?</p>",
               "answers": [
                 {
-                  "text": "<div>Deficient NADPH production, leading to reduced glutathione depletion</div>",
+                  "text": "<div>Excess ribose-5-phosphate destabilises the red blood cell membrane</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Ribose-5-phosphate is used for nucleotide synthesis and does not destabilise membranes. The critical product for red blood cell protection is NADPH, not ribose-5-phosphate.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Reduced NADPH generation fails to maintain glutathione, leaving red blood cells vulnerable to oxidative damage</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. G6PD deficiency impairs the oxidative phase of the HMP shunt, lowering NADPH and therefore reduced glutathione, leaving red cells defenceless against oxidative stress from primaquine.</div>",
+                    "chosenFeedback": "<div>Correct. G6PD generates NADPH, which keeps glutathione in its reduced form. Reduced glutathione neutralises reactive oxygen species. Without this shield, haemoglobin denatures into Heinz bodies and membranes are damaged, causing haemolysis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Deficient aldolase B activity causing fructose-1-phosphate accumulation</div>",
+                  "text": "<div>Accumulation of glucose-6-phosphate causes osmotic swelling and lysis of red blood cells</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Aldolase B deficiency causes hereditary fructose intolerance with liver damage and hypoglycaemia, not drug-triggered haemolysis.</div>",
+                    "chosenFeedback": "<div>Glucose-6-phosphate does not accumulate to osmotically significant levels. The problem is downstream: insufficient NADPH leaves cells defenceless against oxidative stress.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Deficient galactose-1-phosphate uridylyl transferase</div>",
+                  "text": "<div>Deficient ATP production from the blocked pathway impairs the sodium-potassium pump</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This enzyme deficiency causes classic galactosaemia (cataracts, liver damage, intellectual disability), not haemolysis after primaquine.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Excessive sorbitol accumulation via aldose reductase</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The polyol pathway causes osmotic injury in diabetic cataracts, retinopathy, and neuropathy — not primaquine-induced haemolysis.</div>",
+                    "chosenFeedback": "<div>The HMP shunt generates NADPH, not ATP. G6PD deficiency does not directly affect ATP production or the sodium-potassium pump. The vulnerability is specifically to oxidative damage.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -365,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Trace the logic: primaquine is an oxidant → red cells need reduced glutathione → glutathione needs NADPH → NADPH comes from the HMP shunt via G6PD."
+                  "feedback": "G6PD catalyses the first step of the HMP shunt, producing NADPH. Without adequate NADPH, glutathione cannot be kept in its reduced (protective) form. Under oxidative stress from drugs like primaquine or infections, unprotected haemoglobin denatures and membranes rupture."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. The HMP shunt supplies NADPH, which keeps glutathione reduced and protects red cells from oxidants like primaquine, dapsone, and fava beans."
+                  "feedback": "Well done. The HMP shunt generates NADPH essential for maintaining reduced glutathione — the red blood cell's primary defence against reactive oxygen species."
                 }
               ],
               "behaviour": {
@@ -397,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "11a5e5e6-e4af-4342-93c1-200a9f925a41",
+            "subContentId": "544f3a95-25e9-4152-a64f-0f011b6f38ac",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A young man develops haemolytic anaemia",
+              "title": "In G6PD deficiency, what is the biochemi",
               "authors": [],
               "changes": []
             }
@@ -423,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In which of the following patients would HbA1c give a misleadingly low result an</p>",
+          "label": "<p>Why does HbA1c become unreliable as a marker of glycaemic control in patients wi</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -432,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In which of the following patients would HbA1c give a misleadingly low result and therefore be unreliable for monitoring diabetes?</p>",
+              "question": "<p>Why does HbA1c become unreliable as a marker of glycaemic control in patients with haemolytic anaemia?</p>",
               "answers": [
                 {
-                  "text": "<div>A patient who ate a heavy breakfast two hours before the test</div>",
+                  "text": "<div>Haemolysis releases free haemoglobin that cannot undergo glycation in plasma</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>HbA1c reflects glucose bound over the red cell lifespan and is unaffected by recent meals — no fasting is required.</div>",
+                    "chosenFeedback": "<div>Glycation occurs on haemoglobin within intact circulating red blood cells over their lifespan. The issue is not whether free haemoglobin can be glycated, but how long cells survive to accumulate glycation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A patient with haemolytic anaemia</div>",
+                  "text": "<div>The shortened red blood cell lifespan reduces the time available for glycation, producing a falsely low reading</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Haemolysis shortens red cell lifespan, so haemoglobin spends less time exposed to glucose, producing a falsely low HbA1c.</div>",
+                    "chosenFeedback": "<div>Correct. HbA1c reflects cumulative glycation over the normal 120-day red blood cell lifespan. Haemolysis destroys cells prematurely, so less glycation accumulates — the result underestimates the patient's true average blood glucose.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A patient with well-controlled hypertension</div>",
+                  "text": "<div>Reticulocytes produced in compensation bind glucose more avidly, raising HbA1c falsely</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Hypertension itself does not alter red cell lifespan or haemoglobin glycation and has no effect on HbA1c.</div>",
+                    "chosenFeedback": "<div>Reticulocytes are younger cells with less accumulated glycation. The net effect of increased reticulocytes and shortened cell survival is a falsely low HbA1c, not a falsely high one.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A patient with mild hypothyroidism</div>",
+                  "text": "<div>Haemolytic anaemia causes renal glucose loss that lowers circulating blood glucose</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Thyroid status does not meaningfully affect red cell turnover enough to invalidate HbA1c.</div>",
+                    "chosenFeedback": "<div>Haemolytic anaemia does not cause significant glycosuria. The unreliability of HbA1c is entirely due to shortened red blood cell lifespan reducing cumulative glycation time.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -475,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "HbA1c depends on glucose binding over the full red cell lifespan (~120 days). Conditions that shorten that lifespan give a falsely low reading."
+                  "feedback": "HbA1c measures glucose permanently bound to haemoglobin over the red blood cell's entire ~120-day lifespan. In haemolytic anaemia, cells are destroyed prematurely, leaving less time for glycation. The result is a falsely low HbA1c that underestimates actual average blood glucose."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Right. Anything that shortens red cell lifespan — haemolytic anaemia, sickle cell disease, recent transfusion — makes HbA1c unreliable."
+                  "feedback": "Correct. HbA1c depends on red blood cells surviving their full 120-day lifespan to accumulate glycation. Any condition that shortens this — haemolysis, sickle cell disease, recent transfusion — produces a falsely reassuring low value."
                 }
               ],
               "behaviour": {
@@ -507,11 +539,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9e3523fb-64ff-47cd-8f10-b3e7a79caa96",
+            "subContentId": "0e153dc6-615a-47b7-8dfd-f7cfb3d1d095",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In which of the following patients would",
+              "title": "Why does HbA1c become unreliable as a ma",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1162.1999999999998,
+            "to": 1172.1999999999998
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Which metabolic pathway does metformin primarily inhibit to lower blood glucose?</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Which metabolic pathway does metformin primarily inhibit to lower blood glucose?</p>",
+              "answers": [
+                {
+                  "text": "<div>Glycolysis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Inhibiting glycolysis would impair cellular energy production and reduce glucose utilisation — it would not lower blood glucose levels.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Glycogenolysis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While reducing glycogen breakdown could modestly lower hepatic glucose output, metformin's primary target is gluconeogenesis — the synthesis of new glucose from non-carbohydrate precursors.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Gluconeogenesis</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Metformin inhibits hepatic gluconeogenesis, reducing the liver's output of newly synthesised glucose. This explains both its glucose-lowering effect and the risk of lactic acidosis when lactate cannot be cleared through this pathway.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The pentose phosphate pathway</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The pentose phosphate pathway produces NADPH and ribose-5-phosphate. Inhibiting it would impair biosynthesis and antioxidant defence, not lower blood glucose.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Metformin primarily inhibits hepatic gluconeogenesis. By blocking the liver's synthesis of new glucose from non-carbohydrate precursors, it reduces fasting hyperglycaemia. This also explains why lactate accumulates when the pathway is excessively suppressed."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. Metformin's primary mechanism is inhibition of hepatic gluconeogenesis — reducing the liver's production of new glucose from lactate, amino acids, and glycerol."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "d4bccc76-2c50-4cd5-aca6-821f40d570fd",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Which metabolic pathway does metformin p",
               "authors": [],
               "changes": []
             }
@@ -528,29 +670,53 @@
       ],
       "bookmarks": [
         {
+          "time": 0,
+          "label": "Welcome to Chemistry and Metabolism of Carbohydrates — SD…"
+        },
+        {
+          "time": 6,
+          "label": "You eat a plate of rice."
+        },
+        {
+          "time": 62,
+          "label": "Carbohydrates are molecules built around sugar units."
+        },
+        {
+          "time": 144,
+          "label": "Your body can only absorb monosaccharides."
+        },
+        {
           "time": 262,
-          "label": "0: scene-3"
+          "label": "Glycolysis converts one glucose molecule into two pyruvat…"
+        },
+        {
+          "time": 359,
+          "label": "The tricarboxylic acid cycle, also called the Krebs cycle…"
         },
         {
           "time": 458,
-          "label": "1: scene-5"
+          "label": "Gluconeogenesis means making new glucose from non-carbohy…"
+        },
+        {
+          "time": 569,
+          "label": "Glycogen is your body's short-term glucose reserve."
         },
         {
           "time": 675,
-          "label": "2: scene-7"
+          "label": "The hexose monophosphate shunt, also called the pentose p…"
         },
         {
           "time": 821,
-          "label": "3: scene-8"
+          "label": "Your body keeps blood glucose between 70 and 100 milligra…"
         },
         {
-          "time": 1023,
-          "label": "4: scene-10"
+          "time": 908,
+          "label": "As a clinician, you will order these tests frequently."
         }
       ],
       "endscreens": [
         {
-          "time": 1209,
+          "time": 1211,
           "label": "End"
         }
       ]
@@ -562,7 +728,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "9296b138-b7ca-480f-b4f2-621593264155",
+              "subContentId": "0b116414-6b10-42d2-9f34-89af3eadd741",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -585,7 +751,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "be35b65d-cb47-4be5-b9bc-f85921dfba08",
+        "subContentId": "4d1db572-4e3c-4bd6-a6e1-755d163bbaa4",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
@@ -594,7 +760,7 @@
           "changes": []
         }
       },
-      "displayAt": 3
+      "displayAt": 0
     }
   },
   "override": {

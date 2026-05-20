@@ -3,8 +3,8 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/sdl-py-haematology-v2-1773640410710/v1/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/a1338981-f57f-4ba3-88da-a903764c31ed/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
@@ -13,7 +13,48 @@
       "startScreenOptions": {
         "title": "PY2.1-PY2.9 — Interactive Lecture (PY)",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 6 embedded questions for PY2.1-PY2.9."
+        "shortStartDescription": "Interactive lecture with 7 embedded questions for PY2.1-PY2.9."
+      },
+      "textTracks": {
+        "videoTrack": [
+          {
+            "label": "English",
+            "kind": "subtitles",
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-haematology-v2-1773640410710/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-haematology-v2-1773640410710/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-haematology-v2-1773640410710/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          }
+        ],
+        "defaultTrackLabel": "English"
       }
     },
     "assets": {
@@ -26,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A blood sample is allowed to clot and the liquid portion is collected. What is t</p>",
+          "label": "<p>A blood sample is allowed to clot in a test tube and then centrifuged. The liqui</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -35,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A blood sample is allowed to clot and the liquid portion is collected. What is this fluid called, and why?</p>",
+              "question": "<p>A blood sample is allowed to clot in a test tube and then centrifuged. The liquid obtained differs from plasma because it lacks which component?</p>",
               "answers": [
                 {
-                  "text": "<div>Plasma — it is the cell-free portion of anticoagulated blood</div>",
+                  "text": "<div>Albumin</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Plasma is obtained when clotting is prevented by an anticoagulant. It still contains fibrinogen.</div>",
+                    "chosenFeedback": "<div>Albumin remains in serum. It is not consumed during the clotting process and continues to maintain oncotic pressure in the fluid that remains after clot formation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Serum — it is plasma minus fibrinogen, the fluid remaining after clot formation</div>",
+                  "text": "<div>Fibrinogen</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. When blood clots, fibrinogen is consumed to form the fibrin mesh, leaving serum behind.</div>",
+                    "chosenFeedback": "<div>Correct. During clotting, fibrinogen is converted to fibrin, which forms the structural mesh of the clot. The remaining liquid — serum — therefore lacks fibrinogen, making this the key difference between plasma and serum.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Buffy coat — it is the pale layer that separates after centrifugation</div>",
+                  "text": "<div>Immunoglobulins</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The buffy coat is a thin layer of white blood cells and platelets sitting between red cells and plasma after centrifugation. It is not a fluid.</div>",
+                    "chosenFeedback": "<div>Immunoglobulins (gamma globulins) remain in serum. They serve as antibodies and are not part of the coagulation cascade.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Transudate — it is the protein-poor filtrate that seeps from clotted blood</div>",
+                  "text": "<div>Electrolytes</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Transudate refers to fluid filtered across capillary walls due to hydrostatic or oncotic pressure imbalances, not to a product of clotted blood.</div>",
+                    "chosenFeedback": "<div>Electrolytes such as sodium, potassium, and calcium remain dissolved in serum. They are not consumed or trapped during clot formation.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -78,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: when blood clots, fibrinogen is used up to form fibrin. The remaining fluid is serum. Plasma retains fibrinogen because clotting is prevented."
+                  "feedback": "Review the difference: when blood clots, fibrinogen converts to fibrin and gets trapped in the clot. The liquid left behind is serum — plasma without fibrinogen."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Serum = plasma − fibrinogen. This distinction matters in the lab: serum tubes have no anticoagulant, while plasma tubes do."
+                  "feedback": "Well done. Serum is plasma minus fibrinogen — the clot traps the fibrinogen as fibrin."
                 }
               ],
               "behaviour": {
@@ -110,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "1c31c585-e646-4c78-a8b8-57c74fdbcf3f",
+            "subContentId": "03c526a2-8956-4c5b-9f52-2dd1b96891cf",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A blood sample is allowed to clot and th",
+              "title": "A blood sample is allowed to clot in a t",
               "authors": [],
               "changes": []
             }
@@ -130,71 +171,13 @@
         },
         {
           "duration": {
-            "from": 270.97499999999997,
-            "to": 280.97499999999997
+            "from": 354.59999999999997,
+            "to": 364.59999999999997
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In a healthy adult, the liver and spleen are the primary sites of red blood cell</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>In a healthy adult, the liver and spleen are the primary sites of red blood cell production.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This is false. The liver and spleen produce blood cells during fetal development, but after birth, the bone marrow takes over. In healthy adults, haematopoiesis occurs in the red marrow of flat bones (sternum, ribs, iliac crest, vertebrae).",
-                "correctAnswerMessage": "Correct — the liver and spleen are major haematopoietic organs only during fetal life (second trimester). In adults, red blood cell production occurs in red bone marrow of flat bones such as the sternum, ribs, iliac crest, and vertebrae.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "d955f00b-356f-4aaf-ba38-62603fed5659",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "In a healthy adult, the liver and spleen",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 504.19999999999993,
-            "to": 514.1999999999999
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>During vigorous exercise, skeletal muscle becomes hot, acidic, and rich in CO₂. </p>",
+          "label": "<p>How does haemoglobin itself directly assist in carbon dioxide transport from tis</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -203,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>During vigorous exercise, skeletal muscle becomes hot, acidic, and rich in CO₂. What effect does this have on the oxygen-haemoglobin dissociation curve?</p>",
+              "question": "<p>How does haemoglobin itself directly assist in carbon dioxide transport from tissues to the lungs?</p>",
               "answers": [
                 {
-                  "text": "<div>Left shift — haemoglobin binds oxygen more tightly, increasing delivery to muscle</div>",
+                  "text": "<div>It converts carbon dioxide into bicarbonate ions using carbonic anhydrase</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A left shift means tighter oxygen binding, which would reduce delivery to tissues — the opposite of what exercising muscle needs.</div>",
+                    "chosenFeedback": "<div>Carbonic anhydrase is a separate enzyme within the red blood cell, not part of the haemoglobin molecule. Although this reaction does occur inside the RBC, it is not haemoglobin performing the conversion.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Right shift — haemoglobin releases oxygen more readily, increasing delivery to muscle</div>",
+                  "text": "<div>It binds carbon dioxide to its globin chains, forming carbaminohaemoglobin</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Rising temperature, falling pH, and rising CO₂ all shift the curve right (the Bohr effect), enhancing oxygen unloading precisely where demand is highest.</div>",
+                    "chosenFeedback": "<div>Correct. Carbon dioxide binds directly to the amino groups on haemoglobin's globin chains, forming carbaminohaemoglobin. This is one of the two main CO₂ transport mechanisms inside red blood cells.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>No shift — the curve is fixed and does not respond to local tissue conditions</div>",
+                  "text": "<div>It dissolves carbon dioxide in its central haem groups alongside oxygen</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The curve is not fixed. Multiple physiological factors shift it left or right, allowing haemoglobin to fine-tune oxygen delivery to changing tissue demands.</div>",
+                    "chosenFeedback": "<div>The haem group's iron atom specifically binds oxygen, not carbon dioxide. CO₂ transport by haemoglobin occurs at the globin protein chains, not at the haem groups.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Right shift — haemoglobin binds oxygen more tightly, reducing delivery to muscle</div>",
+                  "text": "<div>It releases carbon dioxide from plasma by lowering blood pH at tissue level</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A right shift does occur, but it reduces oxygen affinity, meaning haemoglobin releases oxygen more readily — not more tightly.</div>",
+                    "chosenFeedback": "<div>While haemoglobin does buffer blood pH by absorbing hydrogen ions, this is a separate function. Haemoglobin's direct role in CO₂ transport is through carbaminohaemoglobin formation on its globin chains.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -246,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The Bohr effect: rising CO₂ and falling pH shift the curve right, making haemoglobin release oxygen more easily. This is why exercising muscles get preferential oxygen delivery."
+                  "feedback": "Remember: haemoglobin transports CO₂ by binding it to its globin chains as carbaminohaemoglobin. This is distinct from the bicarbonate pathway, which uses the enzyme carbonic anhydrase."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The Bohr effect ensures that active tissues with high CO₂ and low pH receive more oxygen — an elegant match between supply and demand."
+                  "feedback": "Correct. Haemoglobin carries CO₂ as carbaminohaemoglobin — bound to its globin chains, not its haem groups."
                 }
               ],
               "behaviour": {
@@ -278,11 +261,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "b57c2208-cc09-41fc-8cfc-e3071324d55f",
+            "subContentId": "cb568fba-6802-43e4-a9c9-a2d545739485",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "During vigorous exercise, skeletal muscl",
+              "title": "How does haemoglobin itself directly ass",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 606.8,
+            "to": 616.8
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In post-hepatic (obstructive) jaundice, stools appear pale because:</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In post-hepatic (obstructive) jaundice, stools appear pale because:</p>",
+              "answers": [
+                {
+                  "text": "<div>Excessive red blood cell destruction depletes bilirubin before it reaches the liver</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Excess haemolysis actually increases bilirubin production and characterises pre-hepatic jaundice, not post-hepatic. Stools typically remain brown or darker in haemolytic conditions.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The liver fails to conjugate bilirubin, so none enters bile</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Impaired conjugation describes hepatic jaundice. In post-hepatic jaundice, the liver conjugates bilirubin normally, but the conjugated bilirubin cannot reach the intestine because bile flow is physically obstructed.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Blocked bile flow prevents conjugated bilirubin from entering the intestine, so stercobilin cannot form</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Conjugated bilirubin normally enters the intestine via bile, where bacteria convert it to stercobilin — the pigment responsible for the brown colour of faeces. When bile flow is obstructed, this pathway is interrupted.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Increased urobilinogen reabsorption diverts all bilirubin away from the intestinal lumen</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Urobilinogen reabsorption is a normal part of enterohepatic circulation. In post-hepatic jaundice, the fundamental problem is that conjugated bilirubin never reaches the intestine at all, not that urobilinogen is excessively reabsorbed.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Trace the pathway: conjugated bilirubin → bile → intestine → stercobilin (brown). When bile flow is blocked, stercobilin cannot form, and stools lose their colour."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly. No bile in the gut means no stercobilin — hence the pale stools. The backed-up conjugated bilirubin appears in urine instead, causing dark urine."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "fb9d02e7-9732-4246-bf7a-c9472328a7cc",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In post-hepatic (obstructive) jaundice,",
               "authors": [],
               "changes": []
             }
@@ -304,7 +397,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient's complete blood count shows a mean corpuscular volume (MCV) of 110 fL</p>",
+          "label": "<p>A complete blood count reveals a mean corpuscular volume (MCV) of 110 femtolitre</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -313,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient's complete blood count shows a mean corpuscular volume (MCV) of 110 fL. Which type of anaemia does this indicate, and which is the most likely cause?</p>",
+              "question": "<p>A complete blood count reveals a mean corpuscular volume (MCV) of 110 femtolitres. Which underlying cause is most consistent with this finding?</p>",
               "answers": [
                 {
-                  "text": "<div>Microcytic anaemia — most likely iron deficiency</div>",
+                  "text": "<div>Iron deficiency</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Iron deficiency causes microcytic anaemia (MCV &lt; 80 fL), not a raised MCV of 110 fL.</div>",
+                    "chosenFeedback": "<div>Iron deficiency produces microcytic anaemia with an MCV below 80 fL — small, pale (hypochromic) red cells. The elevated value of 110 fL points in the opposite direction.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Normocytic anaemia — most likely chronic kidney disease</div>",
+                  "text": "<div>Acute blood loss</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Chronic kidney disease typically causes normocytic anaemia (MCV 80–100 fL). An MCV of 110 fL is well above the normal range.</div>",
+                    "chosenFeedback": "<div>Acute blood loss typically causes normocytic anaemia, with an MCV in the normal range of 80–100 fL. The red cells are normal in size; the problem is reduced total numbers.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Macrocytic anaemia — most likely vitamin B₁₂ or folate deficiency</div>",
+                  "text": "<div>Vitamin B₁₂ or folate deficiency</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. An MCV above 100 fL defines macrocytic anaemia. Megaloblastic anaemia from B₁₂ or folate deficiency is the most important cause, as impaired DNA synthesis leads to abnormally large red cells.</div>",
+                    "chosenFeedback": "<div>Correct. An MCV above 100 fL indicates macrocytic anaemia. Vitamin B₁₂ or folate deficiency impairs DNA synthesis, producing megaloblastic anaemia with characteristically enlarged red cells.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Macrocytic anaemia — most likely iron deficiency</div>",
+                  "text": "<div>Thalassaemia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Iron deficiency produces small (microcytic) red cells, not large ones. An MCV of 110 fL points to macrocytic causes such as B₁₂ or folate deficiency.</div>",
+                    "chosenFeedback": "<div>Thalassaemia results from defective globin chain synthesis and produces microcytic anaemia (MCV &lt; 80 fL). It is one of the key microcytic causes, particularly prevalent in India.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -356,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "An MCV of 110 fL is macrocytic (>100 fL). The most important cause is megaloblastic anaemia from vitamin B₁₂ or folate deficiency. Iron deficiency causes microcytic anaemia (<80 fL), and CKD causes normocytic anaemia (80–100 fL)."
+                  "feedback": "Apply the MCV classification: < 80 fL = microcytic (iron deficiency, thalassaemia), 80–100 fL = normocytic (blood loss, CKD), > 100 fL = macrocytic (B₁₂ or folate deficiency)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. MCV > 100 fL = macrocytic. Think megaloblastic anaemia from B₁₂/folate deficiency first — impaired DNA replication prevents normal cell division, producing oversized red cells."
+                  "feedback": "Right. MCV > 100 fL = macrocytic. The most important cause is megaloblastic anaemia from B₁₂ or folate deficiency."
                 }
               ],
               "behaviour": {
@@ -388,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9acf8820-fb49-4479-a624-ca0cd408d6ec",
+            "subContentId": "29ea12ce-31ba-4136-b56b-f2c27b6400cb",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient's complete blood count shows a",
+              "title": "A complete blood count reveals a mean co",
               "authors": [],
               "changes": []
             }
@@ -414,65 +507,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Low-dose aspirin prevents heart attacks by irreversibly inhibiting cyclooxygenas</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>Low-dose aspirin prevents heart attacks by irreversibly inhibiting cyclooxygenase-2 (COX-2) in platelets, blocking thromboxane A₂ production for the platelet's entire lifespan.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Close, but the enzyme is wrong. Aspirin irreversibly blocks COX-1, not COX-2, in platelets. COX-1 is the constitutive isoform responsible for thromboxane A₂ synthesis. Since platelets have no nucleus, they cannot make new COX-1, so the effect lasts the platelet's entire 8–12 day lifespan.",
-                "correctAnswerMessage": "Correct — aspirin's antiplatelet effect works through COX-1, not COX-2. COX-1 is the constitutive enzyme in platelets that produces thromboxane A₂. Because platelets lack a nucleus and cannot synthesise new enzyme, the inhibition lasts for the platelet's full 8–12 day lifespan.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "3035d98e-4c8c-476a-bc64-ab5ced1b6e3f",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "Low-dose aspirin prevents heart attacks",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 1337.95,
-            "to": 1347.95
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>An Rh-negative mother delivers her first Rh-positive baby without receiving anti</p>",
+          "label": "<p>Why does a single low dose of aspirin suppress thromboxane A₂ production for the</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -481,41 +516,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>An Rh-negative mother delivers her first Rh-positive baby without receiving anti-D immunoglobulin. In which pregnancy is haemolytic disease of the newborn most likely to occur, and why?</p>",
+              "question": "<p>Why does a single low dose of aspirin suppress thromboxane A₂ production for the entire 8-to-12-day lifespan of the affected platelet?</p>",
               "answers": [
                 {
-                  "text": "<div>The first pregnancy — maternal IgM antibodies cross the placenta immediately</div>",
+                  "text": "<div>Aspirin is stored in platelet granules and slowly released over the cell's lifetime</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>IgM antibodies are too large to cross the placenta. Moreover, significant anti-D antibodies typically develop after delivery of the first Rh-positive baby, not during the first pregnancy itself.</div>",
+                    "chosenFeedback": "<div>Aspirin is not stored in platelet granules. It acts in a single encounter by irreversibly acetylating cyclooxygenase-1 at the time of exposure.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The second Rh-positive pregnancy — maternal IgG anti-D antibodies from the first sensitisation cross the placenta and attack fetal red cells</div>",
+                  "text": "<div>Aspirin permanently inactivates cyclooxygenase-1, and platelets cannot synthesise replacement enzyme because they lack a nucleus</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Sensitisation occurs when fetal Rh-positive cells enter the mother's circulation at first delivery. In a subsequent Rh-positive pregnancy, memory B cells mount a rapid IgG response that crosses the placenta and haemolyses fetal red cells.</div>",
+                    "chosenFeedback": "<div>Correct. Aspirin irreversibly acetylates cyclooxygenase-1. Since platelets have no nucleus, they cannot transcribe mRNA to produce new enzyme. The inhibition therefore persists for the platelet's entire 8-to-12-day lifespan.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The second Rh-positive pregnancy — maternal IgM anti-D antibodies accumulate and cross the placenta</div>",
+                  "text": "<div>Aspirin binds irreversibly to thromboxane A₂ receptors on the platelet surface membrane</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The antibody class matters. IgG, not IgM, crosses the placenta. The secondary immune response produces IgG anti-D, which is small enough to cross the placental barrier.</div>",
+                    "chosenFeedback": "<div>Aspirin targets cyclooxygenase-1, the enzyme that produces thromboxane A₂, not the thromboxane receptors. By blocking the enzyme, aspirin prevents TXA₂ from being made in the first place.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Any pregnancy — Rh antibodies are naturally occurring like ABO antibodies</div>",
+                  "text": "<div>Aspirin suppresses megakaryocyte function, preventing new platelets from producing the enzyme</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Unlike ABO antibodies, Rh antibodies are not naturally occurring. They develop only after exposure to Rh-positive red cells through transfusion or pregnancy. This is why the first pregnancy usually goes unaffected.</div>",
+                    "chosenFeedback": "<div>Aspirin does not significantly affect megakaryocytes or new platelet production. It acts on already-circulating platelets by permanently blocking their cyclooxygenase-1 enzyme.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -524,12 +559,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Sensitisation happens at first delivery when fetal Rh-positive cells enter the mother's blood. Her immune system makes anti-D IgG antibodies. In the next Rh-positive pregnancy, these IgG antibodies cross the placenta and destroy fetal red cells. Prevention: anti-D immunoglobulin at 28 weeks and within 72 hours postpartum."
+                  "feedback": "Two facts combine here: aspirin permanently inactivates COX-1, and platelets (having no nucleus) cannot synthesise new COX-1. One dose therefore silences TXA₂ for 8–12 days."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. This is why anti-D immunoglobulin (RhoGAM) is given at 28 weeks and within 72 hours of delivery — it destroys fetal Rh-positive cells before the mother's immune system can mount a response."
+                  "feedback": "Exactly. Permanent enzyme block + no nucleus for enzyme replacement = effect lasts the platelet's full lifespan."
                 }
               ],
               "behaviour": {
@@ -556,11 +591,179 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "1b72f022-433f-4c10-bcfe-d90edede0571",
+            "subContentId": "b1965c05-d637-4b7e-beaf-73aa95dd8614",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "An Rh-negative mother delivers her first",
+              "title": "Why does a single low dose of aspirin su",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1224.675,
+            "to": 1234.675
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Why is a raised D-dimer level used clinically to screen for deep vein thrombosis</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Why is a raised D-dimer level used clinically to screen for deep vein thrombosis and pulmonary embolism?</p>",
+              "answers": [
+                {
+                  "text": "<div>D-dimer is released when platelets degranulate during primary haemostasis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Platelet degranulation releases ADP, thromboxane A₂, and fibrinogen — not D-dimer. D-dimer originates from the fibrin mesh, not from platelet granules.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>D-dimer is a specific fragment produced when plasmin breaks down cross-linked fibrin, indicating recent clot formation and lysis</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. D-dimer can only appear when cross-linked fibrin has been formed (clotting) and then digested by plasmin (fibrinolysis). A raised level therefore signals that a thrombus has recently formed and is being broken down.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>D-dimer is released when antithrombin III inactivates thrombin in the circulation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Antithrombin III neutralises thrombin and other serine protease clotting factors, but this reaction does not generate D-dimer. D-dimer arises solely from fibrin degradation by plasmin.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>D-dimer is produced by endothelial cells when prostacyclin levels fall below normal</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Endothelial cells release prostacyclin and nitric oxide to inhibit platelet activation, but they do not produce D-dimer. D-dimer is a breakdown product of cross-linked fibrin, generated by the enzyme plasmin.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Remember: D-dimer comes from cross-linked fibrin that plasmin has digested. It can only exist if a clot formed first — making it a marker for recent thrombosis."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Right. D-dimer = cross-linked fibrin breakdown product. Its presence means a clot formed AND is being dissolved — hence its value as a screening test."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "e62f1eeb-88a5-443c-abe5-d33b425979ca",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Why is a raised D-dimer level used clini",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1340.775,
+            "to": 1350.775
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Rh (anti-D) antibodies are naturally occurring and present by six months of age,</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>Rh (anti-D) antibodies are naturally occurring and present by six months of age, similar to ABO antibodies.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is false. ABO antibodies are indeed naturally occurring, but Rh (anti-D) antibodies are not. They develop only after exposure to Rh-positive red blood cells — through transfusion or pregnancy — which is exactly why haemolytic disease of the newborn requires a prior sensitising event.",
+                "correctAnswerMessage": "Correct — this statement is false. ABO antibodies are naturally occurring IgM antibodies present by six months of age. Rh (anti-D) antibodies, by contrast, develop only after sensitisation through an incompatible transfusion or an Rh-positive pregnancy.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "feefc5a2-6b9d-4621-b1cd-1cca8fbff8fa",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "Rh (anti-D) antibodies are naturally occ",
               "authors": [],
               "changes": []
             }
@@ -577,28 +780,60 @@
       ],
       "bookmarks": [
         {
+          "time": 0,
+          "label": "Welcome to Haematology."
+        },
+        {
+          "time": 2,
+          "label": "A single drop of your blood holds roughly 5 million red b…"
+        },
+        {
+          "time": 61,
+          "label": "Blood is a specialised connective tissue, not just a simp…"
+        },
+        {
           "time": 150,
-          "label": "0: scene-2"
+          "label": "All blood cells come from a single source, the pluripoten…"
         },
         {
           "time": 271,
-          "label": "1: scene-3"
+          "label": "The red blood cell, or erythrocyte, is the most abundant…"
+        },
+        {
+          "time": 355,
+          "label": "Haemoglobin is the oxygen-carrying protein inside red blo…"
         },
         {
           "time": 504,
-          "label": "2: scene-5"
+          "label": "Haemoglobin is built in developing erythroblasts from two…"
+        },
+        {
+          "time": 607,
+          "label": "Iron is essential for haemoglobin synthesis."
+        },
+        {
+          "time": 704,
+          "label": "Anaemia is defined as a reduction in haemoglobin concentr…"
         },
         {
           "time": 814,
-          "label": "3: scene-8"
+          "label": "White blood cells, also called leucocytes, are the body's…"
+        },
+        {
+          "time": 914,
+          "label": "Platelets, also called thrombocytes, are not complete cells."
         },
         {
           "time": 1011,
-          "label": "4: scene-10"
+          "label": "Haemostasis is the process that stops bleeding when a ves…"
         },
         {
-          "time": 1338,
-          "label": "5: scene-13"
+          "time": 1128,
+          "label": "The body must balance clot formation with clot dissolution."
+        },
+        {
+          "time": 1225,
+          "label": "Blood groups depend on antigens on the red blood cell sur…"
         }
       ],
       "endscreens": [
@@ -615,7 +850,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "98ec1a68-2e7b-43c9-bf2b-9fd3a29c9697",
+              "subContentId": "1d4cf57a-ae3d-40e3-9db9-7600f8836fe1",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -638,7 +873,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "74d39a12-008b-4a90-9c92-568156d7931b",
+        "subContentId": "b1096092-b305-400f-953b-d4fc6f13260a",
         "metadata": {
           "contentType": "Summary",
           "license": "U",

@@ -3,8 +3,8 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/sdl-py-cardiovascular-v2-1773642056649/v4/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/5f2af186-eae9-4b4b-bd43-7e87e5e801d8/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
@@ -13,16 +13,48 @@
       "startScreenOptions": {
         "title": "PY5.1-PY5.9 — Interactive Lecture (PY)",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for PY5.1-PY5.9."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for PY5.1-PY5.9."
       },
       "textTracks": {
         "videoTrack": [
           {
-            "label": "Subtitles",
+            "label": "English",
             "kind": "subtitles",
-            "srcLang": "en"
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-cardiovascular-v2-1773642056649/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-cardiovascular-v2-1773642056649/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-cardiovascular-v2-1773642056649/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
           }
-        ]
+        ],
+        "defaultTrackLabel": "English"
       }
     },
     "assets": {
@@ -35,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why does cardiac muscle NOT undergo tetanus, unlike skeletal muscle?</p>",
+          "label": "<p>Which property of cardiac muscle is specifically attributed to the prolonged Pha</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -44,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Why does cardiac muscle NOT undergo tetanus, unlike skeletal muscle?</p>",
+              "question": "<p>Which property of cardiac muscle is specifically attributed to the prolonged Phase 2 (plateau) of the cardiac action potential?</p>",
               "answers": [
                 {
-                  "text": "<div>The funny current in Phase 4 limits firing frequency</div>",
+                  "text": "<div>Automaticity — spontaneous generation of action potentials</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The funny current (If) drives pacemaker depolarisation in the SA node. It sets heart rate but does not determine the refractory period of working cardiac myocytes.</div>",
+                    "chosenFeedback": "<div>Automaticity arises from Phase 4 depolarisation in pacemaker cells (the funny current), not from the plateau phase.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Gap junctions at intercalated discs slow impulse propagation</div>",
+                  "text": "<div>Conductivity — cell-to-cell spread through gap junctions</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Gap junctions actually speed conduction, allowing the myocardium to act as a functional syncytium. They do not influence the duration of the refractory period.</div>",
+                    "chosenFeedback": "<div>Conductivity depends on gap junctions at intercalated discs, which are structural features unrelated to the duration of Phase 2.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The prolonged Phase 2 plateau sustains a long refractory period of ~250 ms</div>",
+                  "text": "<div>Prevention of tetanus through a long refractory period</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Sustained Ca²⁺ influx through L-type channels during the plateau keeps the membrane depolarised for 200–300 ms, preventing re-excitation before relaxation is complete.</div>",
+                    "chosenFeedback": "<div>Correct. The 200–300 ms calcium influx through L-type channels during Phase 2 keeps cardiac cells refractory, making sustained tetanic contraction impossible — a lethal event if it occurred.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Sympathetic stimulation provides a negative inotropic effect that limits contraction</div>",
+                  "text": "<div>Positive inotropic response to sympathetic stimulation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Sympathetic stimulation is positively inotropic — it increases contraction force. Prevention of tetanus depends on the intrinsic refractory period, not on neural input.</div>",
+                    "chosenFeedback": "<div>Inotropism is modulated by beta-1 adrenergic receptors and intracellular calcium handling — an extrinsic regulatory mechanism, not a direct consequence of the plateau duration.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -87,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the cardiac action potential phases. The Phase 2 plateau, driven by L-type Ca²⁺ channel influx lasting 200–300 ms, is what keeps the refractory period long enough to prevent tetanus."
+                  "feedback": "Review the five phases of the cardiac action potential. Phase 2 (plateau) sustains calcium entry for 200–300 ms, keeping the cell refractory and preventing tetanus."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The ~250 ms refractory period, sustained by the Phase 2 calcium plateau, ensures each contraction is followed by full relaxation before the next impulse can arrive."
+                  "feedback": "The plateau phase is the critical adaptation that distinguishes cardiac from skeletal muscle — it ensures the heart relaxes fully between beats."
                 }
               ],
               "behaviour": {
@@ -119,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6653f962-502a-4c20-958e-23cb9b818ab9",
+            "subContentId": "a3869a32-28eb-41c1-8afc-f2ba854e0621",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Why does cardiac muscle NOT undergo teta",
+              "title": "Which property of cardiac muscle is spec",
               "authors": [],
               "changes": []
             }
@@ -145,43 +177,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A third heart sound (S3) heard during rapid ventricular filling is always pathol</p>",
+          "label": "<p>The Frank-Starling mechanism is described as the most important intrinsic regula</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A third heart sound (S3) heard during rapid ventricular filling is always pathological, regardless of the patient's age.</p>",
-              "correct": "false",
+              "question": "<p>The Frank-Starling mechanism is described as the most important intrinsic regulator of cardiac output. What does it state?</p>",
+              "answers": [
+                {
+                  "text": "<div>Greater ventricular filling stretches myocardial fibres, producing a more forceful contraction</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Increased preload optimises sarcomere length and cross-bridge overlap, raising stroke volume without requiring neural or hormonal input.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Increased sympathetic stimulation raises stroke volume proportionally</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Sympathetic stimulation increases contractility (positive inotropy), but this is an extrinsic mechanism, not the intrinsic Frank-Starling response.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Higher afterload increases the force needed to open semilunar valves, boosting ejection</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Higher afterload actually opposes ejection and reduces stroke volume — the ventricle must generate more pressure just to open the valves.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Heart rate is the primary determinant of stroke volume at rest</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Heart rate is controlled by the autonomic nervous system (an extrinsic factor) and determines how often the heart beats, not how much it ejects per beat.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Recall that Frank-Starling is an intrinsic mechanism: the more the ventricle fills (preload), the more forcefully it contracts, increasing stroke volume."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "The Frank-Starling mechanism is the heart's built-in volume sensor — more filling automatically means more output, no nerves required."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "S3 is normal in children and young adults — their compliant ventricles produce a brief low-pitched sound during rapid filling. It becomes pathological in older adults, where it indicates heart failure or volume overload.",
-                "correctAnswerMessage": "Well done. S3 is physiological in children and young adults due to compliant ventricular walls. In older adults, however, it signals volume overload or heart failure because a stiff ventricle vibrates abnormally during rapid filling.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "7de0d4cf-a0a9-41ed-b460-3ea0ea51025e",
+            "subContentId": "917401b1-f4f7-4252-aa1e-401e632b29a4",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A third heart sound (S3) heard during ra",
+              "title": "The Frank-Starling mechanism is describe",
               "authors": [],
               "changes": []
             }
@@ -203,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the jugular venous pressure waveform, the 'a' wave corresponds to which event</p>",
+          "label": "<p>Which mechanism is primarily responsible for returning venous blood from the low</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -212,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In the jugular venous pressure waveform, the 'a' wave corresponds to which event?</p>",
+              "question": "<p>Which mechanism is primarily responsible for returning venous blood from the lower limbs to the heart during walking?</p>",
               "answers": [
                 {
-                  "text": "<div>Tricuspid valve bulging into the right atrium during ventricular systole</div>",
+                  "text": "<div>Vis a tergo (residual arterial push through capillaries)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>That describes the 'c' wave. The 'c' wave occurs when rising ventricular pressure pushes the closed tricuspid valve leaflets back toward the atrium.</div>",
+                    "chosenFeedback": "<div>Vis a tergo contributes only a small residual pressure. It alone cannot overcome the hydrostatic column in an upright person.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Passive filling of the right atrium while the tricuspid valve is closed</div>",
+                  "text": "<div>Respiratory pump drawing blood into the thorax</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>That describes the 'v' wave. The 'v' wave builds as venous blood fills the right atrium against a closed tricuspid valve during ventricular systole.</div>",
+                    "chosenFeedback": "<div>The respiratory pump aids venous return by lowering intrathoracic pressure during inspiration, but it primarily acts on blood already in the great veins, not in the lower limbs.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Right atrial contraction just before ventricular systole</div>",
+                  "text": "<div>Sympathetic venoconstriction mobilising stored blood</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Venoconstriction reduces venous capacitance and shifts blood centrally, but it is not the primary mechanism for moving blood upward from dependent limbs during movement.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Skeletal muscle pump compressing veins through one-way valves</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The 'a' wave is produced by atrial contraction (atrial systole). Giant 'a' waves occur when the atrium contracts against increased resistance, as in tricuspid stenosis or pulmonary hypertension.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Rapid emptying of the right atrium after the tricuspid valve opens</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>That describes the 'y' descent. The 'y' descent occurs when the tricuspid valve opens and blood flows passively from the atrium into the ventricle.</div>",
+                    "chosenFeedback": "<div>Correct. Contraction of calf and thigh muscles squeezes deep veins, and competent venous valves ensure blood moves only toward the heart, effectively pumping against gravity.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -255,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the JVP sequence: a wave (atrial contraction) → c wave (tricuspid bulging) → x descent (atrial relaxation) → v wave (passive atrial filling) → y descent (tricuspid opening). The 'a' stands for atrial contraction."
+                  "feedback": "Six mechanisms return venous blood to the heart, but in the lower limbs during movement, the skeletal muscle pump working with one-way venous valves is the dominant force."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The 'a' wave = atrial contraction. Remember: a = atrial. Cannon 'a' waves occur in complete heart block when the atrium contracts against a closed tricuspid valve."
+                  "feedback": "The skeletal muscle pump is why prolonged immobility increases venous stasis risk — without muscle contractions, blood pools in the lower limbs."
                 }
               ],
               "behaviour": {
@@ -287,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "fa4edd09-46a4-4d27-ba94-45962b42d6e3",
+            "subContentId": "ccf6a13b-15c6-47dd-868c-9f1347dfdf3c",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In the jugular venous pressure waveform,",
+              "title": "Which mechanism is primarily responsible",
               "authors": [],
               "changes": []
             }
@@ -313,7 +397,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>What is the physiological significance of the 0.1-second conduction delay at the</p>",
+          "label": "<p>What is the physiological purpose of the 0.1-second conduction delay at the atri</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -322,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>What is the physiological significance of the 0.1-second conduction delay at the atrioventricular (AV) node?</p>",
+              "question": "<p>What is the physiological purpose of the 0.1-second conduction delay at the atrioventricular node?</p>",
               "answers": [
                 {
-                  "text": "<div>It allows the ventricles to repolarise before the next atrial contraction</div>",
+                  "text": "<div>It allows the sinoatrial node to repolarise before the next impulse fires</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Ventricular repolarisation occurs after ventricular contraction and is represented by the T wave. The AV delay occurs before ventricular activation, not after it.</div>",
+                    "chosenFeedback": "<div>SA node repolarisation is independent of AV conduction and occurs well before the next pacemaker cycle.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It ensures the atria complete their contraction and empty into the ventricles before ventricular systole begins</div>",
+                  "text": "<div>It permits the atria to finish emptying into the ventricles before ventricular systole begins</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Without this delay, atria and ventricles would contract nearly simultaneously, and the atrial kick (the final 20–30% of ventricular filling) would be lost.</div>",
+                    "chosenFeedback": "<div>Correct. Without this delay, atria and ventricles would contract simultaneously, losing the 20–30% atrial kick contribution to ventricular filling.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It protects the Purkinje fibres from conducting impulses too rapidly</div>",
+                  "text": "<div>It synchronises depolarisation of the right and left bundle branches</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Purkinje fibres are the fastest conductors in the heart (4 m/s) and are designed for rapid conduction. The AV delay serves atrial–ventricular timing, not Purkinje protection.</div>",
+                    "chosenFeedback": "<div>Bundle branch synchronisation depends on the His-Purkinje system downstream of the AV node, not on the nodal delay itself.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It generates the QRS complex on the electrocardiogram</div>",
+                  "text": "<div>It reduces the ventricular rate to below 60 beats per minute</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The QRS complex is produced by ventricular depolarisation spreading through the His–Purkinje system. The AV node delay corresponds to the PR interval, not the QRS.</div>",
+                    "chosenFeedback": "<div>The AV node delay does not reduce ventricular rate under normal conditions — it delays each impulse by 0.1 s but still conducts every beat through.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -365,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The AV node is the only electrical bridge between atria and ventricles, and its deliberate 0.1 s delay allows the atria to finish emptying (atrial kick) before ventricular contraction begins. This delay appears as the PR interval on the ECG."
+                  "feedback": "The AV node deliberately holds the impulse for 0.1 seconds so the atria can empty fully (the atrial kick) before the ventricles contract. This delay corresponds to the PR interval."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. The 0.1 s AV delay ensures sequential atrial-then-ventricular contraction, preserving the atrial kick. On the ECG, this delay is represented by the PR interval (0.12–0.20 s)."
+                  "feedback": "This delay is why the PR interval exists on the ECG — it represents atrial contraction completing before ventricular activation begins."
                 }
               ],
               "behaviour": {
@@ -397,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8ef52c4b-a8d1-479a-822c-36b7ae08bfea",
+            "subContentId": "b18fc04d-d3c6-4262-9822-4edb340db31d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "What is the physiological significance o",
+              "title": "What is the physiological purpose of the",
               "authors": [],
               "changes": []
             }
@@ -423,7 +507,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient in the emergency department has symptomatic bradycardia with a heart r</p>",
+          "label": "<p>The sinoatrial node has an intrinsic firing rate of approximately 100 beats per </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -432,41 +516,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient in the emergency department has symptomatic bradycardia with a heart rate of 38 beats per minute. Atropine is administered intravenously. By which mechanism does atropine increase heart rate?</p>",
+              "question": "<p>The sinoatrial node has an intrinsic firing rate of approximately 100 beats per minute, yet the resting heart rate is about 70. What primarily accounts for this difference?</p>",
               "answers": [
                 {
-                  "text": "<div>It stimulates beta-1 adrenergic receptors on the SA node, mimicking sympathetic activation</div>",
+                  "text": "<div>Circulating adrenaline suppresses the SA node at rest</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Beta-1 receptor stimulation is the mechanism of adrenaline and dobutamine, not atropine. Atropine is a muscarinic antagonist, not an adrenergic agonist.</div>",
+                    "chosenFeedback": "<div>Adrenaline acts on beta-1 receptors to increase the firing rate. It would raise, not lower, the heart rate.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It blocks M2 muscarinic receptors, removing tonic vagal inhibition of the SA node</div>",
+                  "text": "<div>The Bainbridge reflex reduces heart rate when venous return is low</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The Bainbridge reflex causes tachycardia in response to increased venous return stretching the right atrium — it does not slow the heart.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Tonic vagal activity releases acetylcholine, slowing Phase 4 depolarisation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The vagus nerve tonically slows the SA node via acetylcholine acting on M2 receptors. Atropine blocks these receptors, releasing the SA node from vagal restraint and allowing its intrinsic rate (~100 bpm) to emerge.</div>",
+                    "chosenFeedback": "<div>Correct. The vagus nerve is continuously active at rest, releasing acetylcholine onto M2 muscarinic receptors. This slows the pacemaker current and holds heart rate ~30 bpm below the intrinsic rate.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It directly accelerates the funny current (If) in SA node pacemaker cells</div>",
+                  "text": "<div>Beta-1 receptor downregulation during sleep reduces the node's intrinsic rate</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The funny current is modulated by cyclic AMP levels, influenced by sympathetic (increase) and parasympathetic (decrease) tone. Atropine acts at the receptor level, not directly on ion channels.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It increases circulating thyroid hormone levels, which raises the intrinsic pacemaker rate</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Thyroid hormones do raise heart rate chronically, but atropine has no effect on thyroid hormone levels. Atropine works within seconds by blocking vagal muscarinic receptors.</div>",
+                    "chosenFeedback": "<div>The intrinsic rate of the SA node does not change with receptor density. The difference is due to active vagal inhibition, not a change in the node's inherent properties.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -475,12 +559,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Atropine is a muscarinic (M2) receptor blocker. At rest, the vagus nerve tonically suppresses the SA node from its intrinsic rate of ~100 bpm down to ~70 bpm. Blocking this vagal tone with atropine lets the heart rate rise rapidly."
+                  "feedback": "At rest, the vagus nerve is tonically active, continuously releasing acetylcholine to slow the SA node from its intrinsic 100 bpm down to approximately 70 bpm."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Atropine is a competitive antagonist at M2 muscarinic receptors. By blocking vagal tone, it unmasks the SA node's intrinsic firing rate of ~100 bpm — a rapid and reliable response in bradycardia emergencies."
+                  "feedback": "Vagal dominance at rest is why atropine (which blocks muscarinic receptors) causes immediate tachycardia — it removes the brake."
                 }
               ],
               "behaviour": {
@@ -507,11 +591,69 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "a6def4b1-46c0-4fd6-adf6-e853e6856e7a",
+            "subContentId": "c92239a8-b533-48b2-8cff-56bfe299fa96",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient in the emergency department ha",
+              "title": "The sinoatrial node has an intrinsic fir",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1147,
+            "to": 1157
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>The baroreceptor reflex is the body's primary long-term mechanism for blood pres</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>The baroreceptor reflex is the body's primary long-term mechanism for blood pressure regulation.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is false. The baroreceptor reflex acts within seconds (short-term), correcting acute pressure changes via the autonomic nervous system. Long-term regulation is handled by the kidneys through pressure natriuresis and the RAAS, which adjust blood volume over hours to days.",
+                "correctAnswerMessage": "Correct — it is false. The baroreceptor reflex is the primary short-term mechanism, acting within seconds to adjust heart rate and vascular tone. Long-term blood pressure control depends on renal mechanisms, particularly pressure natriuresis and the renin-angiotensin-aldosterone system, which take hours to days.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "112b7580-15c1-41f6-a63a-cc50e89b4da7",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "The baroreceptor reflex is the body's pr",
               "authors": [],
               "changes": []
             }
@@ -528,24 +670,48 @@
       ],
       "bookmarks": [
         {
+          "time": 0,
+          "label": "Welcome to Cardiovascular Physiology."
+        },
+        {
+          "time": 3,
+          "label": "Your heart pumps around 7,000 litres of blood every singl…"
+        },
+        {
+          "time": 50,
+          "label": "Cardiac muscle is unique."
+        },
+        {
           "time": 157,
-          "label": "0: scene-2"
+          "label": "The cardiac cycle is one complete sequence of contraction…"
+        },
+        {
+          "time": 273,
+          "label": "The heart produces four sounds."
         },
         {
           "time": 394,
-          "label": "1: scene-4"
+          "label": "Arterial blood pressure is the force blood exerts against…"
+        },
+        {
+          "time": 494,
+          "label": "Venous blood pressure is far lower than arterial."
         },
         {
           "time": 597,
-          "label": "2: scene-6"
+          "label": "Blood pressure must stay within a narrow range."
+        },
+        {
+          "time": 703,
+          "label": "The heart has its own electrical wiring, called the condu…"
         },
         {
           "time": 798,
-          "label": "3: scene-8"
+          "label": "The electrocardiogram, or E C G, records the heart's elec…"
         },
         {
-          "time": 1018,
-          "label": "4: scene-10"
+          "time": 918,
+          "label": "Heart rate is controlled by the firing rate of the sinoat…"
         }
       ],
       "endscreens": [
@@ -562,7 +728,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "de4a2473-4b6b-420a-8648-33c508118d70",
+              "subContentId": "605225b4-c3cc-4731-92f4-3aa8b5586c49",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -585,7 +751,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "03766ab5-de81-49a5-90e7-82f7248604c9",
+        "subContentId": "6cddc084-5f7a-4ffa-9a90-4b3fe8eaf7b1",
         "metadata": {
           "contentType": "Summary",
           "license": "U",

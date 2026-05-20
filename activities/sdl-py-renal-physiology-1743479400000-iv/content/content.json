@@ -3,8 +3,8 @@
     "video": {
       "files": [
         {
-          "path": "https://cdn.cbme.in/videos/sdl-py-renal-physiology-1743479400000/v1/video.mp4",
-          "mime": "video/mp4",
+          "path": "https://vdo.cbme.in/be2a4af9-b2ec-48d7-b0cb-1d0b78d0176c/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
           }
@@ -14,6 +14,47 @@
         "title": "PY7.1-PY7.9 — Interactive Lecture (PY)",
         "hideStartTitle": false,
         "shortStartDescription": "Interactive lecture with 6 embedded questions for PY7.1-PY7.9."
+      },
+      "textTracks": {
+        "videoTrack": [
+          {
+            "label": "English",
+            "kind": "subtitles",
+            "srcLang": "en",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-renal-physiology-1743479400000/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-renal-physiology-1743479400000/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://academe-learn.pages.dev/cc/videos/sdl-py-renal-physiology-1743479400000/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          }
+        ],
+        "defaultTrackLabel": "English"
       }
     },
     "assets": {
@@ -26,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which protein spans the slit diaphragm between podocyte foot processes and acts </p>",
+          "label": "<p>Which layer of the glomerular filtration barrier is primarily responsible for pr</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -35,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which protein spans the slit diaphragm between podocyte foot processes and acts as the final barrier to albumin filtration?</p>",
+              "question": "<p>Which layer of the glomerular filtration barrier is primarily responsible for preventing albumin from crossing into the filtrate through charge repulsion?</p>",
               "answers": [
                 {
-                  "text": "<div>Nephrin</div>",
+                  "text": "<div>Fenestrated endothelium</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The fenestrated endothelium has pores of 70–100 nm that restrict blood cells and large proteins mainly by size. It does not provide a significant charge barrier.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Glomerular basement membrane</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Nephrin bridges adjacent podocyte foot processes to form the slit diaphragm, the third and final layer of the glomerular filtration barrier.</div>",
+                    "chosenFeedback": "<div>Correct. The GBM carries a strong negative charge. Since albumin is also negatively charged, the two repel each other — this is the primary charge-selective barrier of the glomerulus.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Podocalyxin</div>",
+                  "text": "<div>Slit diaphragm formed by podocytes</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Podocalyxin is a surface glycoprotein on podocytes that contributes to their negative charge, but it does not form the slit diaphragm itself.</div>",
+                    "chosenFeedback": "<div>The slit diaphragm, bridged by nephrin protein, acts as the final size-selective barrier. Its role is structural rather than charge-based.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Collagen type IV</div>",
+                  "text": "<div>Parietal epithelium of Bowman's capsule</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Collagen type IV is a major structural component of the glomerular basement membrane (second layer), not the slit diaphragm.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Aquaporin-1</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Aquaporin-1 is a water channel found in the proximal tubule and descending limb of the loop of Henle, not in the glomerular filtration barrier.</div>",
+                    "chosenFeedback": "<div>The parietal epithelium lines the outer wall of Bowman's capsule. It is not part of the three-layer filtration barrier between capillary blood and the capsular space.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -78,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The glomerular filtration barrier has three layers: fenestrated endothelium, basement membrane, and the slit diaphragm formed by nephrin between podocyte foot processes."
+                  "feedback": "The glomerular basement membrane is the charge-selective layer. Its negative charge repels albumin, which is also negatively charged. When diabetes damages the GBM, albumin leaks through and proteinuria results."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Nephrin mutations cause congenital nephrotic syndrome, confirming its essential role in preventing protein leak across the slit diaphragm."
+                  "feedback": "Well done! The GBM's negative charge repels negatively charged albumin — explaining why glycation damage in diabetic nephropathy leads to proteinuria."
                 }
               ],
               "behaviour": {
@@ -110,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "fef066c8-bb69-4aba-916e-2aee12b0b38a",
+            "subContentId": "b0d53079-0880-4130-aab4-655e9709e9f8",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which protein spans the slit diaphragm b",
+              "title": "Which layer of the glomerular filtration",
               "authors": [],
               "changes": []
             }
@@ -136,43 +177,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In tubuloglomerular feedback, when sodium chloride delivery to the macula densa </p>",
+          "label": "<p>In tubuloglomerular feedback, when GFR rises and sodium chloride delivery to the</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In tubuloglomerular feedback, when sodium chloride delivery to the macula densa increases, the macula densa releases adenosine to constrict the afferent arteriole and reduce GFR.</p>",
-              "correct": "true",
+              "question": "<p>In tubuloglomerular feedback, when GFR rises and sodium chloride delivery to the macula densa increases, which substance is released to constrict the afferent arteriole?</p>",
+              "answers": [
+                {
+                  "text": "<div>Renin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Renin is released when GFR falls and NaCl delivery to the macula densa decreases. It activates the renin-angiotensin-aldosterone system to restore filtration — the opposite scenario.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Nitric oxide</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Nitric oxide is a vasodilator that would increase, not decrease, blood flow to the glomerulus. It does not mediate the constrictive response of tubuloglomerular feedback.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Adenosine</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. When NaCl rises at the macula densa, adenosine is released. In the kidney (unlike most tissues), adenosine constricts the afferent arteriole, reducing GFR back towards normal.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Angiotensin II</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Angiotensin II is generated downstream of renin release and primarily constricts the efferent arteriole. It is not directly released by the macula densa in response to high NaCl.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "When GFR is too high, elevated NaCl at the macula densa triggers adenosine release. Adenosine constricts the afferent arteriole, reducing glomerular blood flow and bringing GFR back to normal — a classic negative-feedback loop."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Excellent! Adenosine uniquely constricts the afferent arteriole in the kidney, forming a negative-feedback loop that stabilises GFR despite blood pressure changes."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is true. The macula densa senses increased NaCl delivery (indicating high GFR) and releases adenosine, which constricts the afferent arteriole via A1 receptors, reducing GFR back to normal.",
-                "correctAnswerMessage": "Correct. Adenosine acts on A1 receptors on the afferent arteriole, causing vasoconstriction. This is unique to the kidney — in most other vascular beds, adenosine is a vasodilator.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5ff9208f-9f4d-4822-9280-f501c3ef709e",
+            "subContentId": "006227df-641c-40b0-bcb5-a8bd58c25eed",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In tubuloglomerular feedback, when sodiu",
+              "title": "In tubuloglomerular feedback, when GFR r",
               "authors": [],
               "changes": []
             }
@@ -194,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with uncontrolled diabetes has a plasma glucose of 350 mg/dL and produ</p>",
+          "label": "<p>In a patient with uncontrolled diabetes and plasma glucose of 300 mg/dL, what is</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -203,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with uncontrolled diabetes has a plasma glucose of 350 mg/dL and produces large volumes of dilute urine. What is the primary mechanism driving this polyuria?</p>",
+              "question": "<p>In a patient with uncontrolled diabetes and plasma glucose of 300 mg/dL, what is the primary mechanism by which glucosuria leads to increased urine output?</p>",
               "answers": [
                 {
-                  "text": "<div>Excess filtered glucose beyond the transport maximum draws water into the tubular lumen by osmosis</div>",
+                  "text": "<div>Unabsorbed glucose in the tubular lumen acts as an osmotic solute, retaining water and preventing its reabsorption</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. When plasma glucose exceeds the renal threshold (~180 mg/dL), filtered glucose surpasses the Tm (375 mg/min). The unreabsorbed glucose acts as an osmotic solute, preventing water reabsorption and causing osmotic diuresis.</div>",
+                    "chosenFeedback": "<div>Correct. Once SGLT2 transporters are saturated (above the Tm of 375 mg/min), glucose remaining in the lumen holds water by osmosis, causing the osmotic diuresis and polyuria characteristic of uncontrolled diabetes.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Glycosylation of aquaporin-2 channels prevents ADH-mediated water reabsorption</div>",
+                  "text": "<div>Glucose directly stimulates the NKCC2 co-transporter in the thick ascending limb, increasing solute excretion</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Aquaporin-2 dysfunction occurs in nephrogenic diabetes insipidus, not in diabetic hyperglycaemia. The polyuria here is due to osmotic diuresis from glucosuria.</div>",
+                    "chosenFeedback": "<div>NKCC2 handles sodium, potassium, and chloride reabsorption in the loop of Henle. Glucose does not interact with this transporter. The diuresis is osmotic, not transporter-mediated at this site.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Hyperglycaemia directly inhibits aldosterone secretion, reducing sodium and water reabsorption</div>",
+                  "text": "<div>High plasma glucose inhibits ADH release from the posterior pituitary, reducing water reabsorption</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Aldosterone secretion is regulated by the renin-angiotensin system and serum potassium, not directly by blood glucose levels.</div>",
+                    "chosenFeedback": "<div>ADH deficiency causes diabetes insipidus, a separate condition. In diabetes mellitus, osmotic diuresis occurs because glucose itself draws water into the tubular lumen, not because ADH secretion is impaired.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>High glucose concentration in the peritubular capillaries creates an osmotic gradient that opposes water reabsorption</div>",
+                  "text": "<div>Excess glucose damages aquaporin-2 channels in the collecting duct wall</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Glucose is freely filtered and not concentrated in peritubular capillaries. The osmotic effect occurs within the tubular lumen, where unreabsorbed glucose retains water.</div>",
+                    "chosenFeedback": "<div>Aquaporin-2 channels are regulated by ADH, not directly damaged by glucose. The polyuria in diabetes mellitus results from the osmotic effect of unabsorbed glucose in the proximal tubule and loop.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -246,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "When filtered glucose exceeds the Tm of 375 mg/min, unreabsorbed glucose in the tubule acts as an osmotic agent, drawing water into the lumen and causing osmotic diuresis."
+                  "feedback": "When plasma glucose exceeds the renal threshold (180 mg/dL), SGLT2 transporters saturate. The unabsorbed glucose holds water in the tubule by osmosis, producing the polyuria, dehydration, and thirst of uncontrolled diabetes."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Osmotic diuresis from glucosuria explains the classic diabetic triad: polyuria (excess urine), polydipsia (thirst from dehydration), and weight loss."
+                  "feedback": "Well done! Osmotic diuresis is the hallmark of hyperglycaemia — once the Tm is exceeded, glucose acts as an osmotic particle that retains water in the tubular lumen."
                 }
               ],
               "behaviour": {
@@ -278,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "80a8cf69-96bb-48f9-88a8-87408e6937ce",
+            "subContentId": "973fc565-a162-4858-9f73-ba4f962c14b8",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with uncontrolled diabetes has",
+              "title": "In a patient with uncontrolled diabetes",
               "authors": [],
               "changes": []
             }
@@ -304,95 +397,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In a patient with chronic metabolic acidosis, which renal mechanism provides the</p>",
+          "label": "<p>Bicarbonate reabsorption in the proximal convoluted tubule directly excretes aci</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>In a patient with chronic metabolic acidosis, which renal mechanism provides the greatest increase in acid excretion?</p>",
-              "answers": [
-                {
-                  "text": "<div>Increased ammonium excretion via glutamine metabolism</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The ammonium pathway can increase up to tenfold in chronic acidosis, making it the most important adaptive response for excreting large acid loads.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Increased titratable acidity via phosphate buffering</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Titratable acidity (phosphate buffering) contributes to acid excretion but is limited by the amount of filtered phosphate and cannot scale significantly in chronic acidosis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Increased bicarbonate reabsorption in the proximal convoluted tubule</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Bicarbonate reabsorption recovers filtered bicarbonate but does not generate new bicarbonate or excrete additional acid. It prevents bicarbonate loss rather than eliminating acid loads.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Increased hydrogen ion secretion by the H⁺-K⁺ ATPase in the collecting duct</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The H⁺-K⁺ ATPase in the collecting duct contributes to acid secretion, but its capacity is far smaller than the ammonium pathway, which can scale tenfold.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "While all three mechanisms contribute, ammonium excretion via glutamine metabolism is the only one that can increase dramatically (up to tenfold) in chronic acidosis."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Glutamine is metabolised in tubular cells to produce ammonium (NH₄⁺), which is excreted in the urine. This pathway is the kidney's main adaptive response to sustained acid loads."
-                }
-              ],
+              "question": "<p>Bicarbonate reabsorption in the proximal convoluted tubule directly excretes acid from the body.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Bicarbonate reabsorption recovers filtered bicarbonate from the tubular lumen — it prevents bicarbonate loss but does not remove acid from the body. The actual acid excretion mechanisms are titratable acidity (via phosphate) and ammonium excretion (from glutamine), the latter of which can increase tenfold in chronic acidosis.",
+                "correctAnswerMessage": "Well recognised. Proximal tubule bicarbonate reabsorption recovers filtered bicarbonate and returns it to the blood, but it does not generate new bicarbonate or excrete hydrogen ions from the body. True acid excretion occurs through titratable acidity (phosphate buffering) and ammonium excretion (glutamine pathway), which can scale up tenfold in chronic acidosis.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "736ff864-25aa-466c-9637-25364e91883a",
+            "subContentId": "6963cdc7-9f75-4139-86b4-6396955c98a9",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "In a patient with chronic metabolic acid",
+              "title": "Bicarbonate reabsorption in the proximal",
               "authors": [],
               "changes": []
             }
@@ -414,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A researcher needs to measure the effective renal plasma flow in a patient. Whic</p>",
+          "label": "<p>Why does creatinine clearance slightly overestimate the true glomerular filtrati</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -423,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A researcher needs to measure the effective renal plasma flow in a patient. Which substance should be infused, and why?</p>",
+              "question": "<p>Why does creatinine clearance slightly overestimate the true glomerular filtration rate?</p>",
               "answers": [
                 {
-                  "text": "<div>Para-aminohippuric acid (PAH), because it is filtered and almost completely secreted, so nearly all is cleared in one pass</div>",
+                  "text": "<div>Creatinine is partially reabsorbed in the proximal convoluted tubule</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Creatinine is not significantly reabsorbed. If it were, less creatinine would appear in the urine and clearance would underestimate GFR, not overestimate it.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Creatinine is not freely filtered at the glomerulus due to its molecular size</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Creatinine (molecular weight ~113 Da) is freely filtered at the glomerulus. If filtration were restricted, clearance would be lower than GFR, not higher.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Plasma creatinine levels fluctuate too rapidly for accurate measurement</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Serum creatinine is relatively stable in steady state. The overestimation is a physiological phenomenon related to tubular handling, not a measurement artefact.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Creatinine is secreted by the tubules in addition to being filtered</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. PAH is freely filtered and maximally secreted by the proximal tubule, so nearly 100% is removed from plasma in a single pass. Its clearance (~625 mL/min) equals the effective renal plasma flow.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Inulin, because it is freely filtered and neither reabsorbed nor secreted</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Inulin clearance measures the glomerular filtration rate (GFR), not renal plasma flow. Since inulin is only filtered (not secreted), it measures only the filtered fraction of plasma.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Creatinine, because it is an endogenous marker that approximates GFR</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Creatinine clearance approximates GFR, not renal plasma flow. It slightly overestimates GFR because creatinine is also secreted by the tubules.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Glucose, because it is freely filtered and completely reabsorbed below the transport maximum</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Glucose clearance is zero under normal conditions (all filtered glucose is reabsorbed), making it useless for measuring either GFR or renal plasma flow.</div>",
+                    "chosenFeedback": "<div>Correct. The proximal tubule actively secretes creatinine into the lumen. Since total urinary creatinine equals filtered plus secreted, the calculated clearance exceeds the true GFR by about 10–15%.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -466,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "PAH is the marker for renal plasma flow because it is both filtered and maximally secreted, achieving near-complete plasma clearance. Inulin and creatinine measure GFR, not plasma flow."
+                  "feedback": "Creatinine is both freely filtered and actively secreted by the proximal tubule. Because secretion adds extra creatinine to the urine, the clearance formula yields a value slightly higher than the true GFR measured by inulin."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "PAH clearance equals effective renal plasma flow because nearly all PAH is removed from plasma in a single pass through the kidney. Renal blood flow can then be calculated as RPF ÷ (1 − haematocrit)."
+                  "feedback": "Excellent! Tubular secretion adds extra creatinine to the urine beyond what filtration alone would produce. That is why inulin clearance (no secretion, no reabsorption) remains the gold standard for measuring GFR."
                 }
               ],
               "behaviour": {
@@ -498,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "25064124-3b11-4c38-8b9d-7a2790b83d09",
+            "subContentId": "0c0ca460-fefc-421b-a867-1b6f511daeef",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A researcher needs to measure the effect",
+              "title": "Why does creatinine clearance slightly o",
               "authors": [],
               "changes": []
             }
@@ -524,7 +565,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Furosemide exerts its diuretic effect by blocking which transporter, and at whic</p>",
+          "label": "<p>A patient with syndrome of inappropriate ADH secretion (SIADH) presents with sev</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -533,41 +574,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Furosemide exerts its diuretic effect by blocking which transporter, and at which nephron segment?</p>",
+              "question": "<p>A patient with syndrome of inappropriate ADH secretion (SIADH) presents with severe hyponatraemia. Which class of diuretic specifically addresses this condition by blocking the vasopressin receptor?</p>",
               "answers": [
                 {
-                  "text": "<div>Na⁺-K⁺-2Cl⁻ (NKCC2) co-transporter in the thick ascending limb of the loop of Henle</div>",
+                  "text": "<div>Loop diuretics such as furosemide</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Loop diuretics block NKCC2 in the thick ascending limb and increase water excretion indirectly. They do not target the ADH pathway specifically and are not the first-line treatment for SIADH.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Thiazide diuretics such as hydrochlorothiazide</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Thiazides block the NaCl co-transporter in the distal convoluted tubule. They can actually worsen hyponatraemia by impairing the kidney's diluting ability — the opposite of what this patient needs.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Vaptans such as tolvaptan</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Furosemide blocks the NKCC2 co-transporter in the thick ascending limb, preventing sodium, potassium, and chloride reabsorption. This makes loop diuretics the most potent class.</div>",
+                    "chosenFeedback": "<div>Correct. Tolvaptan blocks the V2 vasopressin receptor in the collecting duct, preventing aquaporin-2 insertion. This promotes free water excretion, directly counteracting the excess ADH activity in SIADH.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Na⁺-Cl⁻ co-transporter (NCC) in the distal convoluted tubule</div>",
+                  "text": "<div>Potassium-sparing diuretics such as spironolactone</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The NCC co-transporter in the DCT is the target of thiazide diuretics (e.g., hydrochlorothiazide), not loop diuretics like furosemide.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Epithelial sodium channel (ENaC) in the collecting duct</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>ENaC in the collecting duct is blocked by amiloride, a potassium-sparing diuretic, not by furosemide.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Na⁺-glucose co-transporter 2 (SGLT2) in the proximal convoluted tubule</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>SGLT2 in the PCT is blocked by gliflozins (e.g., dapagliflozin, empagliflozin), which are used in type 2 diabetes, not by furosemide.</div>",
+                    "chosenFeedback": "<div>Spironolactone blocks the aldosterone receptor in the collecting duct, affecting sodium and potassium handling. It does not target ADH-mediated water reabsorption.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -576,12 +617,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Furosemide is a loop diuretic that blocks the NKCC2 co-transporter in the thick ascending limb of the loop of Henle. Each diuretic class targets a specific transporter at a specific nephron segment."
+                  "feedback": "Vaptans (e.g., tolvaptan) block the V2 vasopressin receptor in the collecting duct, preventing aquaporin-2 channel insertion. By promoting free water excretion without sodium loss, they directly treat the water retention and hyponatraemia of SIADH."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Loop diuretics are the most potent diuretics because the thick ascending limb normally reabsorbs about 25% of filtered sodium. Blocking NKCC2 here produces massive natriuresis."
+                  "feedback": "Well done! Vaptans directly antagonise ADH at the V2 receptor, preventing aquaporin-2 insertion and promoting selective free water excretion — the targeted treatment for dilutional hyponatraemia in SIADH."
                 }
               ],
               "behaviour": {
@@ -608,11 +649,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "d6a2a469-fa2b-4b08-99a7-b4d2bf6b10e5",
+            "subContentId": "815abdfe-1208-4611-a469-79dfb61d1376",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Furosemide exerts its diuretic effect by",
+              "title": "A patient with syndrome of inappropriate",
               "authors": [],
               "changes": []
             }
@@ -629,28 +670,56 @@
       ],
       "bookmarks": [
         {
+          "time": 0,
+          "label": "Welcome to Renal Physiology."
+        },
+        {
+          "time": 3,
+          "label": "A 52-year-old farmer from Vellore district is brought to…"
+        },
+        {
+          "time": 76,
+          "label": "The glomerulus is a tight knot of capillaries tucked insi…"
+        },
+        {
           "time": 168,
-          "label": "0: scene-2"
+          "label": "The glomerular filtration rate, also called G F R, is the…"
+        },
+        {
+          "time": 274,
+          "label": "Even when blood pressure rises or falls considerably, the…"
         },
         {
           "time": 376,
-          "label": "1: scene-4"
+          "label": "Of the 180 litres filtered by your kidneys every day, onl…"
+        },
+        {
+          "time": 469,
+          "label": "Many transporters in the proximal convoluted tubule are c…"
         },
         {
           "time": 569,
-          "label": "2: scene-6"
+          "label": "The kidney can produce urine ranging from 50 to 1200 mill…"
+        },
+        {
+          "time": 649,
+          "label": "Normal blood pH sits between 7.35 and 7.45."
         },
         {
           "time": 743,
-          "label": "3: scene-8"
+          "label": "The bladder has two jobs: storing urine at low pressure,…"
+        },
+        {
+          "time": 840,
+          "label": "Clearance is the volume of plasma cleared of a substance…"
         },
         {
           "time": 969,
-          "label": "4: scene-10"
+          "label": "End-stage renal disease is defined by a glomerular filtra…"
         },
         {
-          "time": 1173,
-          "label": "5: scene-12"
+          "time": 1065,
+          "label": "Diuretics increase urine output by reducing tubular reabs…"
         }
       ],
       "endscreens": [
@@ -667,7 +736,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "5250eb8c-1c6b-4e3d-af41-88d57bce635a",
+              "subContentId": "38d33d26-803b-4753-85e9-22a3d218aca1",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -690,7 +759,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "40ab4824-c506-4901-aaae-2f98a48a5e7d",
+        "subContentId": "1da606cf-df86-4670-bdfb-b84b4bee53f0",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
