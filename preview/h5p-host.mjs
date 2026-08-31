@@ -1,8 +1,17 @@
 /**
  * preview/h5p-host.mjs
  *
- * Generates H5P host pages that load h5p-standalone from CDN
- * and point to the shared libs + per-activity content folders.
+ * Generates H5P host pages. The h5p-standalone runtime is SELF-HOSTED at
+ * /h5p/standalone/ — deliberately not a CDN.
+ *
+ * It used to load from cdn.jsdelivr.net. That made every interactive in every
+ * course depend on a third party at view time: if a student's network, ad
+ * blocker or college firewall blocked jsdelivr, the page shell rendered and the
+ * activity silently showed an EMPTY WHITE BOX with no error. Reported from a
+ * live Santosh course on 31-08-2026 and reproduced exactly.
+ *
+ * Keep these paths local. build-preview.mjs copies preview/standalone/ to
+ * <out>/h5p/standalone/ in both per-subject and monolith modes.
  */
 
 function esc(str) {
@@ -97,13 +106,13 @@ video::cue{font-size:80%;background:rgba(0,0,0,.72);line-height:1.3}
   <div id="h5p-container" class="h5p-box"></div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/h5p-standalone@3.8.2/dist/main.bundle.js"><\/script>
+<script src="/h5p/standalone/main.bundle.js"><\/script>
 <script>
   new H5PStandalone.H5P(document.getElementById('h5p-container'), {
     h5pJsonPath:   '${esc(activityPath)}',
     librariesPath: '${esc(libsPath)}',
-    frameJs:       'https://cdn.jsdelivr.net/npm/h5p-standalone@3.8.2/dist/frame.bundle.js',
-    frameCss:      'https://cdn.jsdelivr.net/npm/h5p-standalone@3.8.2/dist/styles/h5p.css',
+    frameJs:       '/h5p/standalone/frame.bundle.js',
+    frameCss:      '/h5p/standalone/styles/h5p.css',
     fullScreen:    true,
     frame:         false,
   });
@@ -156,13 +165,13 @@ video::cue{font-size:80%;background:rgba(0,0,0,.72);line-height:1.3}
 </head>
 <body>
 <div id="h5p-container"></div>
-<script src="https://cdn.jsdelivr.net/npm/h5p-standalone@3.8.2/dist/main.bundle.js"><\/script>
+<script src="/h5p/standalone/main.bundle.js"><\/script>
 <script>
   new H5PStandalone.H5P(document.getElementById('h5p-container'), {
     h5pJsonPath:   '${esc(activityPath)}',
     librariesPath: '${esc(libsPath)}',
-    frameJs:       'https://cdn.jsdelivr.net/npm/h5p-standalone@3.8.2/dist/frame.bundle.js',
-    frameCss:      'https://cdn.jsdelivr.net/npm/h5p-standalone@3.8.2/dist/styles/h5p.css',
+    frameJs:       '/h5p/standalone/frame.bundle.js',
+    frameCss:      '/h5p/standalone/styles/h5p.css',
     fullScreen:    true,
     frame:         false,
   });
