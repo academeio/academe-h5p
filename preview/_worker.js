@@ -41,6 +41,18 @@ export default {
       // unchanged (no body re-download), 200 with new content when changed.
       headers.set('cache-control', 'public, max-age=0, must-revalidate');
 
+      // CORS is REQUIRED, not optional. A <track> element is always fetched in
+      // CORS mode, so a cross-origin caption file without this header is blocked
+      // by the browser and the video simply shows no subtitles — with no visible
+      // error on the page.
+      //
+      // It became cross-origin on 02-09-2026: Interactive Videos now play inside
+      // the gated <slug>.cbme.in sites, while their caption tracks are absolute
+      // URLs under academe-learn.pages.dev/cc/. Same-origin before, cross-origin
+      // now. These are public caption files on an open host, so "*" is correct.
+      headers.set('access-control-allow-origin', '*');
+      headers.set('timing-allow-origin', '*');
+
       return new Response(upstream.body, { status: upstream.status, headers });
     }
 
