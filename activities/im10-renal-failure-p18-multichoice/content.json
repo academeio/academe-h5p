@@ -1,0 +1,76 @@
+{
+  "question": "<p>Using the AEIOU mnemonic for emergency dialysis indications, which of the following patients with AKI has an ABSOLUTE indication for immediate renal replacement therapy?</p>",
+  "answers": [
+    {
+      "text": "<div>Serum potassium 5.8 mEq/L with peaked T-waves on ECG, despite medical management</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Hyperkalaemia refractory to medical management with ECG changes (peaked T-waves, PR prolongation, QRS widening) is an absolute AEIOU indication (E = Electrolytes). ECG changes signal imminent life-threatening arrhythmia — emergency dialysis is mandatory.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Oliguria for 18 hours with creatinine rising from 1.0 to 2.5 mg/dL</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Rising creatinine and oliguria in early AKI are not by themselves AEIOU indications for emergency RRT. The AEIOU criteria require specific thresholds: Acidosis (pH &lt;7.1), Electrolytes (dangerous K+ with ECG changes), Intoxication, Oedema (refractory pulmonary), Uraemia (encephalopathy/pericarditis).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>pH 7.28, bicarbonate 18 mEq/L, partially responding to IV bicarbonate</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A pH of 7.28 that is partially responding to treatment is not an absolute indication. The AEIOU threshold for acidosis requiring emergency RRT is typically pH &lt;7.1 refractory to medical management.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Urine output 30 mL/hour with serum creatinine plateau at 4.5 mg/dL for 48 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A creatinine plateau at 4.5 mg/dL with reasonable urine output and no AEIOU criteria does not mandate emergency RRT. Dialysis initiation requires clinical indication, not creatinine level alone.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the AEIOU criteria: Acidosis pH <7.1 refractory, Electrolytes (K+ with ECG changes), Intoxication, Oedema (refractory pulmonary), Uraemia (encephalopathy/pericarditis). Potassium with ECG changes = absolute emergency indication."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. AEIOU = Acidosis (pH <7.1 refractory), Electrolytes (hyperkalaemia + ECG changes), Intoxication (dialysable toxins), Oedema (refractory pulmonary oedema), Uraemia (encephalopathy or pericarditis). Hyperkalaemia with ECG changes is the clearest emergency."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

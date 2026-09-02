@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 3-day-old baby with ambiguous genitalia has the following results: karyotype 46,XX; markedly elevated serum 17-OHP; sodium 128 mEq/L; potassium 6.8 mEq/L; pelvic USG shows a uterus. What is the MOST likely diagnosis?</p>",
+  "answers": [
+    {
+      "text": "<div>Mixed gonadal dysgenesis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Mixed gonadal dysgenesis typically shows a 45,X/46,XY karyotype and does not produce salt-wasting or elevated 17-OHP. This karyotype is 46,XX.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Congenital adrenal hyperplasia (21-hydroxylase deficiency), salt-wasting form</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. 46,XX + markedly elevated 17-OHP (the substrate that accumulates when 21-hydroxylase is blocked) + hyponatraemia/hyperkalaemia (salt-wasting) + uterus present = classic CAH due to 21-hydroxylase deficiency. This is the COMMONEST cause of ambiguous genitalia in India.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Complete androgen insensitivity syndrome (CAIS)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>CAIS presents as 46,XY with female external genitalia, absent uterus and absent Mullerian structures. This baby has 46,XX karyotype and a uterus — CAIS does not fit.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Ovotesticular DSD</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Ovotesticular DSD (true hermaphroditism) is rare and typically has a 46,XX or 46,XX/46,XY karyotype but does not characteristically present with the biochemical triad of elevated 17-OHP and salt-wasting.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The key discriminator is the 17-OHP result. Markedly elevated 17-OHP in a 46,XX infant with salt-wasting and a uterus = CAH (21-hydroxylase deficiency) — the commonest DSD cause in India."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The diagnostic triad for 21-hydroxylase deficiency (classic salt-wasting CAH): 46,XX karyotype + markedly elevated 17-OHP + electrolyte pattern of salt-wasting (low Na, high K). Urgent glucocorticoid + mineralocorticoid replacement is life-saving."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

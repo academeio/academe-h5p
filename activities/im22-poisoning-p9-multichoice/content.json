@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 25-year-old consumes 2 tablets of aluminium phosphide (Celphos). Within 4 hours he develops intractable hypotension, metabolic acidosis, and ST changes on ECG. Which best explains the PRIMARY mechanism of toxicity?</p>",
+  "answers": [
+    {
+      "text": "<div>Inhibition of acetylcholinesterase causing cholinergic storm</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Acetylcholinesterase inhibition is the mechanism of organophosphate (OP) poisoning, not aluminium phosphide. AlP produces phosphine gas — a completely different mechanism.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Phosphine gas (PH₃) inhibiting cytochrome-c oxidase in the mitochondrial electron transport chain</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. AlP + gastric acid (H₂O) → PH₃ (phosphine gas), which is absorbed into the circulation and inhibits cytochrome-c oxidase (Complex IV of the electron transport chain), causing cellular energy failure. The myocardium is particularly vulnerable, resulting in cardiogenic shock and fatal arrhythmias.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Formation of reactive hepatic metabolite (NAPQI) causing hepatocyte necrosis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>NAPQI is the toxic metabolite responsible for paracetamol hepatotoxicity, not phosphide poisoning. AlP targets the mitochondria via phosphine gas.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Direct corrosive injury to the gastric mucosa causing haemorrhagic shock</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>While AlP causes local gastric irritation and vomiting on contact with gastric acid, the primary lethal mechanism is systemic mitochondrial toxicity via absorbed phosphine — not local haemorrhage.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "AlP → PH₃ (phosphine gas) via reaction with gastric acid → cytochrome-c oxidase inhibition → mitochondrial failure → cardiogenic shock. This distinguishes it from OP (AChE inhibition) and paracetamol (NAPQI hepatotoxicity)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. AlP releases phosphine gas in the stomach, which inhibits Complex IV (cytochrome-c oxidase) — the final step of mitochondrial ATP synthesis. This causes catastrophic cardiomyocyte energy failure."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

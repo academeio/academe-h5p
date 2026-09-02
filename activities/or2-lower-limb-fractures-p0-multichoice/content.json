@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient with a tibial plateau fracture develops increasing leg pain unresponsive to analgesia. Measured compartment pressure is 42 mmHg; diastolic BP is 68 mmHg. What is the correct action?</p>",
+  "answers": [
+    {
+      "text": "<div>Observe for 6 hours and remeasure compartment pressure</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Observation is dangerous when compartment pressure already exceeds the critical threshold — delay risks irreversible muscle necrosis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Perform emergency four-compartment fasciotomy</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. ΔP = diastolic BP − compartment pressure = 68 − 42 = 26 mmHg, which is below the critical threshold of 30 mmHg. Emergency fasciotomy is indicated regardless of whether the distal pulse is present.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Elevate the limb and apply ice packs</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Elevation reduces arterial perfusion pressure and can worsen compartment syndrome — it is contraindicated once the syndrome is established.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Administer IV mannitol and monitor urine output</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Mannitol has no proven role in established compartment syndrome; the definitive treatment is surgical fasciotomy.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Remember: compartment syndrome is a clinical-pressure emergency. ΔP = diastolic BP − compartment pressure; if < 30 mmHg, fasciotomy is mandatory regardless of pulse status."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The ΔP (delta-P) criterion — diastolic BP minus compartment pressure < 30 mmHg — is the operative threshold. A palpable pulse does NOT exclude compartment syndrome."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

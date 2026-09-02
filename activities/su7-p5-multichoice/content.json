@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which patient is LEAST suitable for day-case surgery?</p>",
+  "answers": [
+    {
+      "text": "<div>A 35-year-old ASA I patient scheduled for laparoscopic cholecystectomy who lives 40 minutes from the hospital</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This patient meets the typical criteria for day surgery: ASA I, suitable procedure, and reasonable distance from the hospital with an adult escort.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>A 28-year-old ASA II patient with well-controlled asthma scheduled for excision of a skin cyst under local anaesthesia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Controlled asthma (ASA II) and a minor local anaesthetic procedure are fully compatible with day-case surgery.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>A 60-year-old ASA III patient with severe COPD and poor home support who lives alone</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Severe systemic disease (ASA III/IV), inadequate home support, and living alone are standard contraindications to day-case surgery. This patient requires inpatient admission.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>A 42-year-old ASA I patient undergoing inguinal hernia repair who has a responsible adult to escort them home</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Inguinal hernia repair is one of the most common day-case procedures; with an adult escort and ASA I status, this patient is an ideal candidate.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review day-case selection criteria. Medical fitness (ASA I-II preferred, controlled ASA III acceptable), adequate home support, adult escort, and proximity to hospital are all required. A patient with severe systemic disease and no home support fails multiple criteria."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Day-case contraindications include: ASA III–IV, poor home support, living alone, inability to travel, and procedures requiring prolonged monitoring. The patient's home environment is as important as their medical status."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

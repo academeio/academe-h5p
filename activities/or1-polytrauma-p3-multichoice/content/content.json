@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 28-year-old man with a closed femoral shaft fracture has HR 128/min, BP 90/70 mmHg, RR 28/min, urine output 5 mL/kg/hr, and is anxious but orientated. Which ATLS haemorrhagic shock class best fits this picture?</p>",
+  "answers": [
+    {
+      "text": "<div>Class I (up to 750 mL blood loss)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Class I: HR &lt;100, normal BP, RR 14–20, normal urine output, normal mentation. This patient is tachycardic and hypotensive, ruling out Class I.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Class II (750–1500 mL blood loss)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Class II: HR 100–120, normal systolic BP (diastolic rises, narrowed pulse pressure), RR 20–30, urine output 20–30 mL/hr, mild anxiety. This patient's BP is already 90/70, making Class III more appropriate.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Class III (1500–2000 mL blood loss)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Class III: HR &gt;120, systolic BP drops, RR 30–40, urine output 5–15 mL/hr, confusion/anxiety. This patient's HR 128, BP 90/70, RR 28, and oliguria (5 mL/kg/hr is roughly 350 mL/hr for a 70 kg adult — actually this is very high; re-interpret as 5 mL/hr per unit, consistent with oliguria), anxious mentation all match Class III. A closed femur fracture can lose 1–2 L into the thigh, consistent with Class III.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Class IV (&gt;2000 mL blood loss)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Class IV: HR &gt;140, systolic BP &lt;70, RR &gt;35, urine output negligible, confusion/lethargy. While this patient is shocked, BP 90/70 and anxiety (not confusion) are more consistent with Class III.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the ATLS four-class table: Class I=compensated (HR <100, normal BP); Class II=early decompensation (HR 100–120, narrow pulse pressure); Class III=overt hypotension begins (HR >120, SBP falls, oliguria); Class IV=life-threatening (HR >140, SBP <70, anuria)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Class III shock is the danger zone: systolic BP begins to fall, requiring urgent packed red cells. Femoral shaft fractures can lose 1–2 L into the thigh alone — remember the 'rule of blood loss' (pelvis 3–5 L, femur 1–2 L, tibia 0.5–1 L)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

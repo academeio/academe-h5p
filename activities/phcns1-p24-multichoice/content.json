@@ -1,0 +1,76 @@
+{
+  "question": "<p>What is cocaine's primary mechanism of action in producing euphoria and reward?</p>",
+  "answers": [
+    {
+      "text": "<div>Blocking the dopamine transporter (DAT), noradrenaline transporter (NET), and serotonin transporter (SERT) — preventing monoamine reuptake and increasing synaptic concentrations</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Cocaine is a reuptake inhibitor — it blocks DAT, NET, and SERT simultaneously, preventing clearance of released monoamines from the synapse. Dopamine accumulation in the nucleus accumbens produces the intense but short-lived euphoria. This is mechanistically distinct from amphetamines, which reverse the transporter to actively release stored catecholamines.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Reversing the dopamine transporter to actively pump dopamine out of nerve terminals into the synapse</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>That describes the amphetamine mechanism, not cocaine. Amphetamines enter the nerve terminal via DAT and reverse the transporter direction, actively releasing stored dopamine and noradrenaline. Cocaine simply blocks the transporter — it prevents reuptake but does not cause active release.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Directly activating D2 receptors in the nucleus accumbens as a dopamine receptor agonist</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Cocaine does not directly activate dopamine receptors. It increases dopamine in the synapse by blocking its reuptake — the excess dopamine then activates D1 and D2 receptors. The distinction matters: receptor agonists (like apomorphine) have predictable dose-response; reuptake inhibitors depend on ongoing neurotransmitter release.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Stimulating tyrosine hydroxylase to increase dopamine synthesis in mesolimbic neurons</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Cocaine does not increase dopamine synthesis. It increases synaptic dopamine by blocking its clearance (reuptake inhibition). If anything, the excess synaptic dopamine eventually downregulates synthesis through feedback mechanisms — contributing to the anhedonia and craving of cocaine withdrawal.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The key distinction among stimulants: cocaine BLOCKS reuptake (DAT/NET/SERT); amphetamines REVERSE the transporter and RELEASE stored catecholamines. Both converge on increasing dopamine in the reward pathway, but the mechanisms differ in onset, duration, and toxicity."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Cocaine = reuptake inhibitor (blocks DAT/NET/SERT). Amphetamine = releaser (reverses DAT/NET to actively pump catecholamines out). Both increase synaptic dopamine in the nucleus accumbens but by fundamentally different mechanisms — this distinction affects duration, intensity, and clinical toxicity profiles."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

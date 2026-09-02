@@ -1,0 +1,76 @@
+{
+  "question": "<p>A lumbar puncture is performed in a patient with thunderclap headache. The CSF from tube 1 is blood-stained; tube 4 shows clearing of the blood. Spectrophotometry on the CSF is performed and shows xanthochromia. What is the CORRECT interpretation?</p>",
+  "answers": [
+    {
+      "text": "<div>This is a traumatic tap — the clearing of blood from tube 1 to tube 4 confirms the diagnosis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. While clearing of blood from tube 1 to tube 4 supports a traumatic tap, it is not diagnostic when xanthochromia is present. Clearing occurs in traumatic tap because the needle is exiting a blood vessel. Xanthochromia (yellow discolouration from oxyhaemoglobin and bilirubin) forms only after red blood cells have lysed in vivo — i.e., it indicates true haemorrhage.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>This is a true subarachnoid haemorrhage — xanthochromia confirms in vivo bleeding</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Xanthochromia (detected by spectrophotometry ≥12 hours after headache onset) is the definitive marker of true SAH. It results from lysis of red blood cells within the CSF and the formation of oxyhaemoglobin (peaks at 12–24 hours) and bilirubin (appears at 12 hours, persists ≥2 weeks). A traumatic tap does NOT produce xanthochromia because insufficient time elapses for in vivo haemolysis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The result is inconclusive — repeat LP at 24 hours to detect xanthochromia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Xanthochromia is already present in this sample, detected by spectrophotometry. There is no need to repeat the LP. The result is conclusive for true SAH — not a traumatic tap.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>This is a traumatic tap — the quantity of blood in tube 1 is the most important factor</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The quantity of blood alone does not distinguish traumatic tap from SAH. The presence of xanthochromia on spectrophotometry is the gold standard differentiator, indicating true in vivo haemorrhage.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key rule: xanthochromia (spectrophotometry) = definitive SAH marker. Clearing of blood from early to later tubes supports (but does not confirm) traumatic tap. If xanthochromia is present, the diagnosis is true SAH regardless of clearing."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Xanthochromia on spectrophotometry = true SAH. Clearing from tube 1 to tube 4 alone cannot exclude SAH when xanthochromia is present."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

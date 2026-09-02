@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 4-year-old boy from a family with known Mediterranean ancestry develops acute haemolysis after eating fava beans. His peripheral smear shows 'bite cells' and Heinz bodies. Which condition does this pattern most strongly suggest?</p>",
+  "answers": [
+    {
+      "text": "<div>Hereditary spherocytosis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Hereditary spherocytosis produces spherocytes (small, round, no central pallor) on smear, not bite cells or Heinz bodies. It is caused by a membrane protein defect, not an enzyme deficiency.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>G6PD deficiency</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Bite cells (semi-circular membrane bites where Heinz bodies were pitted out by the spleen) and Heinz bodies (denatured Hb inclusions, seen on supravital staining) are pathognomonic of G6PD deficiency. Oxidative stress from fava beans triggers haemolysis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Beta-thalassaemia major</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Beta-thalassaemia major shows target cells, nucleated RBCs, and hypochromia — not bite cells or Heinz bodies. It presents from 6 months of age with chronic haemolysis, not acute oxidative-stress episodes.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Autoimmune haemolytic anaemia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>AIHA shows spherocytes and a positive direct Coombs test, not bite cells. The trigger is autoantibodies, not oxidative stress from dietary exposure.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Bite cells and Heinz bodies after fava bean exposure are characteristic of G6PD deficiency. G6PD is X-linked recessive; oxidative stress denatures Hb → Heinz bodies → spleen pits them out leaving bite cells."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct! Bite cells + Heinz bodies after oxidative trigger = G6PD deficiency. Remember: G6PD assay must be done AFTER the acute crisis, as young RBCs (high G6PD) may give a falsely normal result during haemolysis."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient on basal insulin glargine at bedtime has consistent fasting glucose readings of 160-180 mg/dL, but postprandial readings are 130-150 mg/dL. Which adjustment is most appropriate based on SMBG data?</p>",
+  "answers": [
+    {
+      "text": "<div>Add a rapid-acting insulin before each meal to correct postprandial hyperglycaemia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Postprandial readings of 130-150 mg/dL are near-target. The problem is fasting hyperglycaemia (160-180 mg/dL), which indicates the basal insulin dose needs upward titration, not the addition of mealtime insulin.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Increase the bedtime glargine dose to reduce fasting hyperglycaemia</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Consistently elevated fasting glucose with near-normal postprandial readings indicates inadequate basal insulin coverage overnight. The standard approach is to increase glargine by 2 units every 3 days until fasting target (80-130 mg/dL) is achieved.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Switch glargine to twice-daily NPH insulin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Switching to NPH is a step backwards — NPH has unpredictable peak and higher hypoglycaemia risk. The issue is dose inadequacy, not the wrong insulin type.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The SMBG pattern is acceptable — no adjustment needed</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Fasting glucose of 160-180 mg/dL is above the ADA target of 80-130 mg/dL. This pattern clearly indicates the need for basal insulin titration.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "SMBG pattern interpretation: high fasting = basal insulin inadequate; high postprandial = mealtime insulin needed. Here, fasting 160-180 with near-normal postprandial = increase basal glargine."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done — isolated fasting hyperglycaemia with good postprandial control indicates basal insulin underdosing. Titrate glargine upward."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

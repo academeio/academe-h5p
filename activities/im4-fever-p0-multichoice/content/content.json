@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which of the following best distinguishes fever (pyrexia) from hyperthermia?</p>",
+  "answers": [
+    {
+      "text": "<div>Fever is always higher in magnitude than hyperthermia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Magnitude does not distinguish the two. Both can reach dangerous levels above 41°C.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>In fever the hypothalamic set-point is elevated, whereas in hyperthermia core temperature rises above a normal set-point</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Fever is a controlled thermostat reset by endogenous pyrogens; hyperthermia results from failure of heat dissipation with a normal set-point.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Hyperthermia responds to antipyretics such as paracetamol, but fever does not</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The opposite is true. Antipyretics lower the hypothalamic set-point, so they work in fever but NOT in hyperthermia, which is why this distinction has direct therapeutic importance.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Fever is caused exclusively by bacterial infections, while hyperthermia has non-infectious causes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Fever has many non-infectious causes (autoimmune, malignant, drug-induced). Aetiology does not define the distinction.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Revisit the pathophysiology: fever = elevated set-point driven by IL-1β/IL-6/TNF-α → PGE₂; hyperthermia = set-point normal but heat balance overwhelmed."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Recognising that antipyretics work in fever but not hyperthermia is the single most clinically important consequence of this distinction."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

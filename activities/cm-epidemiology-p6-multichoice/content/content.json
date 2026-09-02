@@ -1,0 +1,76 @@
+{
+  "question": "<p>A researcher studying whether smoking causes bladder cancer selects 200 bladder cancer patients and 200 cancer-free controls, then interviews all about their past smoking history. The appropriate measure of association for this design is:</p>",
+  "answers": [
+    {
+      "text": "<div>Relative Risk (RR)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>RR requires knowing the incidence in exposed and unexposed groups. Because this case-control design starts from disease status (not exposure), true incidence cannot be directly calculated.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Odds Ratio (OR)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Case-control studies calculate the OR — the ratio of odds of exposure among cases to odds of exposure among controls. When disease is rare, OR approximates RR.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Attributable Risk (AR)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>AR (risk difference) requires incidence data from cohort or experimental studies — not obtainable directly from a case-control design.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Prevalence Ratio</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Prevalence ratio comes from cross-sectional studies. This is a case-control study, which yields an Odds Ratio.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Recall: Case-control studies work backwards from disease status, so incidence (needed for RR) is unknown. The OR is the correct measure here. OR ≈ RR only when disease prevalence is low."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Case-control → OR; Cohort → RR. When the disease is rare (< 10%), OR closely approximates RR — a key Park teaching point."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

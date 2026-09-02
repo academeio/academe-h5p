@@ -1,0 +1,76 @@
+{
+  "question": "<p>A newly diagnosed smear-positive pulmonary TB patient has CBNAAT confirming drug-sensitive TB (DS-TB). Under the current NTEP regimen, what is the correct treatment?</p>",
+  "answers": [
+    {
+      "text": "<div>2HRZE (daily) / 4HR (daily) using weight-based fixed-dose combination (FDC) tablets.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The current NTEP DS-TB regimen is 2 months of HRZE (intensive phase) followed by 4 months of HRE (continuation phase), all given as daily weight-based FDC tablets. The old intermittent (thrice-weekly) regimen has been retired.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>2HRZE (thrice weekly) / 4HR (thrice weekly) intermittent DOTS.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The thrice-weekly intermittent regimen has been retired by NTEP and replaced with daily FDC therapy. Citing the intermittent regimen is a major clinical error in current practice.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>2HRZ / 4HR (continuation phase without ethambutol).</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Ethambutol (E) is part of both the intensive phase regimen. The standard NTEP intensive phase is 2HRZE, not 2HRZ.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>6HRE (six months of isoniazid, rifampicin, and ethambutol throughout).</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The standard DS-TB regimen is 2HRZE + 4HRE, not a flat 6-month three-drug regimen. Pyrazinamide is essential in the intensive phase for sterilising activity.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Revisit the NTEP DS-TB regimen section. The current regimen is 2HRZE (intensive) + 4HRE (continuation) — all daily FDC. The intermittent thrice-weekly regimen has been officially retired."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. 2HRZE + 4HRE as daily weight-based FDC is the NTEP DS-TB standard. Never cite the retired intermittent regimen."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

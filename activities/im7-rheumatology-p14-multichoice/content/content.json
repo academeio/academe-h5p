@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 42-year-old woman has 3 swollen MCPs and 2 swollen PIPs (&gt;10 joints if counted bilaterally symmetrically, totalling 6 small joints), morning stiffness of 90 minutes, anti-CCP antibody high positive, and CRP elevated for 6 weeks. What is her 2010 ACR/EULAR RA classification criteria score?</p>",
+  "answers": [
+    {
+      "text": "<div>3 points — does not meet the threshold for RA classification</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect scoring. Review the four domains: joint involvement, serology, acute-phase reactants, and symptom duration, each contributing points toward the ≥6/10 threshold.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>6 points — just meets the threshold for RA classification</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Close, but the serology and joint categories in this case score higher. Recalculate: &gt;10 small joints = 5 points (joint domain); high-positive anti-CCP = 3 points (serology); abnormal CRP = 1 point; ≥6 weeks duration = 1 point.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>10 points — maximum possible score, clearly meeting RA classification</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Joint involvement: &gt;10 joints (at least one small joint) = 5 points. Serology: high-positive anti-CCP = 3 points. Acute-phase reactant: abnormal CRP = 1 point. Duration: ≥6 weeks = 1 point. Total = 10/10. A score ≥6 classifies RA.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>7 points — meets the threshold with moderate certainty</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Re-examine the scoring. The joint domain alone awards 5 points for &gt;10 joints (with at least 1 small joint). Adding high-positive serology (3), abnormal CRP (1), and ≥6 weeks (1) reaches 10/10, not 7.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "2010 ACR/EULAR RA criteria: (1) Joint involvement: 1 large=0, 2-10 large=1, 1-3 small=2, 4-10 small=3, >10 joints (≥1 small)=5. (2) Serology: negative=0, low-positive RF or anti-CCP=2, high-positive=3. (3) Acute-phase: normal CRP+ESR=0, abnormal=1. (4) Duration: <6w=0, ≥6w=1. ≥6 points classifies as RA."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. This is a maximal-score case (10/10): joint domain 5 + serology 3 + APR 1 + duration 1. The threshold for RA classification is ≥6/10."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

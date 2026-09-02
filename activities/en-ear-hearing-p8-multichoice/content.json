@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 48-year-old woman presents with recurrent episodes of severe spinning vertigo. To distinguish BPPV from Meniere's disease, which single feature from the history is most diagnostically discriminating?</p>",
+  "answers": [
+    {
+      "text": "<div>Whether nausea and vomiting accompany the vertigo</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Both BPPV and Meniere's disease can cause nausea and vomiting during acute attacks. This feature does not distinguish the two conditions. Nausea accompanies severe vertigo regardless of cause.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The duration of each individual vertigo episode</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Episode duration is the most discriminating single feature: BPPV episodes last seconds to less than 1 minute (triggered by head position change and self-terminating). Meniere's disease episodes last 20 minutes to several hours. Additionally, Meniere's disease is associated with ipsilateral fluctuating hearing loss, tinnitus, and aural fullness — features absent in BPPV.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Whether the patient is over 50 years of age</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Age alone does not differentiate the two. BPPV is the commonest cause of vertigo in the elderly, while Meniere's disease typically begins in the 30-50 age group. Age is not a reliable discriminating feature.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Whether the vertigo is severe enough to require bed rest</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Both BPPV and Meniere's disease can cause vertigo severe enough to require lying still. Severity of vertigo does not discriminate between the two. The duration and associated audiological symptoms are the key distinguishing features.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The most important discriminator is episode duration. BPPV lasts seconds (triggered by head movement, self-terminating). Meniere's lasts 20 minutes to hours (spontaneous, with hearing loss and tinnitus). If you do not ask about duration AND associated hearing symptoms, you cannot distinguish the two."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Duration is the master key: BPPV = seconds to under 1 minute, purely positional, no hearing loss. Meniere's = 20 minutes to several hours, with ipsilateral fluctuating SNHL, tinnitus, and aural fullness."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

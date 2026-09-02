@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 4-year-old boy weighing 16 kg arrives in the emergency department actively convulsing. IV access is obtained. What is the CORRECT first-line pharmacological treatment and dose?</p>",
+  "answers": [
+    {
+      "text": "<div>Diazepam 0.3 mg/kg IV (max 10 mg)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Diazepam IV (0.3 mg/kg) is a valid alternative but has a shorter duration of action than lorazepam, carries more respiratory depression risk in some settings, and requires more repeat dosing. Lorazepam IV is the preferred first-line benzodiazepine in current guidelines.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Lorazepam 0.1 mg/kg IV (max 4 mg)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Lorazepam IV at 0.1 mg/kg (max 4 mg) is the first-line treatment for status epilepticus when IV access is available. For this 16 kg child: 0.1 × 16 = 1.6 mg IV. Lorazepam has a longer duration of anticonvulsant effect than diazepam (due to slower redistribution) and is the preferred first benzodiazepine in most current paediatric emergency protocols.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Phenobarbitone 20 mg/kg IV over 30 minutes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Phenobarbitone 20 mg/kg IV is a second-line agent (or third-line in some protocols) given AFTER failed benzodiazepines. It is not the first drug used when IV access is available, as it requires infusion over 20–30 minutes to avoid cardiovascular depression.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Midazolam 0.5 mg/kg intranasal</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Intranasal (or buccal) midazolam is the correct route and drug when IV access is NOT available. The correct dose for buccal/intranasal midazolam is 0.2 mg/kg. However, when IV access is obtained, IV lorazepam is preferred as the first-line agent over intranasal midazolam.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Lorazepam 0.1 mg/kg IV is the correct answer. For this 16 kg child: 1.6 mg IV. Lorazepam is preferred over diazepam IV because its anticonvulsant action lasts longer (less redistribution to adipose tissue). Without IV access, buccal/intranasal midazolam 0.2 mg/kg or rectal diazepam 0.5 mg/kg are the alternatives."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. The first-line drug for status epilepticus with IV access is lorazepam 0.1 mg/kg IV (max 4 mg). Without IV access, the alternative is buccal/intranasal midazolam 0.2 mg/kg or rectal diazepam 0.5 mg/kg. The key principle: benzodiazepines are the first-line drug class; the route determines which benzodiazepine."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

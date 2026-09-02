@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which combination represents the minimum standard monitoring required during general anaesthesia?</p>",
+  "answers": [
+    {
+      "text": "<div>Pulse oximetry and non-invasive blood pressure only</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>These two alone are insufficient. End-tidal CO₂ monitoring (capnography) is mandatory during any general anaesthetic with an endotracheal tube or LMA to confirm correct airway placement and detect hypo- or hyperventilation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Pulse oximetry, non-invasive blood pressure, ECG, and end-tidal CO₂</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The minimum standard anaesthetic monitoring includes: SpO₂ (pulse oximetry), NIBP, ECG, and EtCO₂ (capnography). Temperature monitoring is added for procedures &gt;30 minutes.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>ECG and arterial line only</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>An arterial line is invasive and not part of minimum routine monitoring; pulse oximetry is essential but missing here.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Pulse oximetry, EtCO₂, BIS (bispectral index), and arterial line</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>BIS and arterial lines are useful in specific contexts but are not minimum standard for all GA cases; ECG and NIBP are essential and missing here.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The minimum standard monitoring for GA is: SpO₂ (pulse oximetry), NIBP, ECG, and end-tidal CO₂. Capnography is mandatory — it is the most sensitive early indicator of oesophageal intubation."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. SpO₂ + NIBP + ECG + EtCO₂ are the four cornerstones of intraoperative monitoring for every general anaesthetic."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

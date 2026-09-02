@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which statement correctly distinguishes the DIPSI protocol from the IADPSG protocol for GDM screening?</p>",
+  "answers": [
+    {
+      "text": "<div>DIPSI uses a fasting 75 g glucose load; IADPSG uses a non-fasting 75 g glucose load</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This is reversed. It is the DIPSI protocol that is non-fasting, making it more practical for low-resource settings.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>DIPSI uses a non-fasting 75 g glucose load with a 2-hour cut-off of ≥140 mg/dL; IADPSG uses a fasting 75 g load with three time-point values</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. DIPSI: single non-fasting 75 g OGTT, 2-hr plasma glucose ≥140 mg/dL = GDM (recommended by MoHFW India). IADPSG: fasting 75 g OGTT with fasting ≥92, 1-hr ≥180, 2-hr ≥153 mg/dL (one abnormal value suffices).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Both protocols use the same fasting 75 g OGTT but differ only in the diagnostic cut-off values</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The protocols differ in the fasting requirement, not just cut-off values. DIPSI is non-fasting; IADPSG requires fasting.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IADPSG requires all three time-point values to be abnormal to diagnose GDM; DIPSI requires only one</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>For IADPSG, ONE abnormal value among the three is sufficient to diagnose GDM; this choice overstates the diagnostic threshold.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key distinction: DIPSI is non-fasting (practical for India); IADPSG is fasting with three time-points. One abnormal IADPSG value suffices for GDM diagnosis."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. DIPSI = non-fasting 75 g 2-hr test (≥140 mg/dL). IADPSG = fasting 75 g with three cut-offs (fasting 92 / 1-hr 180 / 2-hr 153). Do not mix them up in examinations."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

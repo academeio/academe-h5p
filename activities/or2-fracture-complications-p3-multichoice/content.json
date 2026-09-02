@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 25-year-old woman sustains a high-energy open tibial fracture after a road traffic accident. There is a large, contaminated wound &gt;10 cm, exposed bone, and absent popliteal pulse requiring vascular surgery. What is the correct Gustilo-Anderson grade?</p>",
+  "answers": [
+    {
+      "text": "<div>Grade IIIA</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>IIIA has adequate soft-tissue coverage despite the large wound. The absent pulse requiring vascular repair immediately upgrades this to IIIC.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Grade IIIB</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>IIIB has extensive soft-tissue loss requiring flap coverage but an intact vascular supply. Absent pulse needing repair = IIIC.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Grade IIIC</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. IIIC is defined by an arterial injury requiring vascular repair, regardless of the wound size or contamination level. This carries the highest amputation risk (up to 50% at 6 months).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Grade II</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Grade II wounds are &gt;1 cm but with minimal contamination and adequate soft-tissue coverage. A vascular injury alone mandates Grade III classification.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The key differentiator: if there is an arterial injury requiring vascular repair, it is Grade IIIC regardless of wound size or contamination."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. IIIC = arterial injury requiring repair. Memorise: IIIA = coverage adequate, IIIB = flap required, IIIC = artery cut."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

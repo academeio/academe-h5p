@@ -1,0 +1,76 @@
+{
+  "question": "<p>An anaesthesiologist is called to provide sedation for a patient undergoing an MRI scan. Which of the following represents the most significant additional hazard specific to this non-operating room anaesthesia (NORA) setting?</p>",
+  "answers": [
+    {
+      "text": "<div>The patient is likely to be more anxious than in the operating theatre</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Patient anxiety is not specific to NORA; it is a universal consideration in all anaesthetic settings.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The strong magnetic field precludes use of standard ferromagnetic anaesthetic equipment, monitoring leads, and infusion pumps unless MRI-compatible</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The powerful magnetic field of the MRI scanner can cause ferromagnetic objects to become projectiles, interfere with electronic equipment, and disable non-MRI-compatible monitoring — all life-threatening hazards unique to this NORA setting.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Oxygen is unavailable outside the operating theatre</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Oxygen must be available in all NORA settings — providing oxygen supply is a NORA prerequisite, not an inherent unavailability.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Neuromuscular blocking drugs cannot be used outside the operating theatre</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Neuromuscular blocking drugs can be used in NORA settings when indicated, provided appropriate monitoring and reversal are available.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The defining hazard of MRI-based NORA is the powerful magnetic field that renders all standard ferromagnetic anaesthetic equipment (laryngoscopes, pumps, monitors) potentially dangerous or non-functional."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Exactly right. MRI is the most hazard-dense NORA environment due to the magnetic field — only MRI-compatible (MR-conditional) equipment can be used; standard ferromagnetic devices become dangerous projectiles."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

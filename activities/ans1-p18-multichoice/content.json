@@ -1,0 +1,76 @@
+{
+  "question": "<p>A surgeon requests bupivacaine 0.5% for IV regional anaesthesia (Bier's block) for a 45-minute carpal tunnel release. What is the correct response?</p>",
+  "answers": [
+    {
+      "text": "<div>Bupivacaine must never be used for Bier's block — premature tourniquet deflation would release systemically cardiotoxic drug causing refractory cardiac arrest; use lignocaine 0.5% instead</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Bupivacaine is absolutely contraindicated for Bier's block. Its high lipid solubility causes avid cardiac tissue uptake — tourniquet failure releases systemically cardiotoxic drug causing ventricular arrhythmias and cardiac arrest that is refractory to standard resuscitation. Multiple fatalities are documented. Lignocaine 0.5% plain (3 mg/kg max) is the only approved LA.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Bupivacaine 0.5% is acceptable if the tourniquet is kept inflated for at least 30 minutes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. No tourniquet duration makes bupivacaine safe for Bier's block. Tourniquet failure or accidental early deflation is always possible — the consequences with bupivacaine are fatal and refractory. This is an absolute, non-negotiable contraindication.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Bupivacaine is preferred — its longer duration better matches the 45-minute procedure</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Duration matching is irrelevant when the safety risk is refractory cardiac arrest. The tourniquet maintains the anaesthetic field regardless of drug duration — lignocaine's shorter action is adequate.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Bupivacaine is safe at 0.25% but not 0.5% concentration</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. No concentration of bupivacaine is safe for Bier's block. The contraindication is based on bupivacaine's inherent cardiac toxicity — even dilute bupivacaine in the volumes needed delivers a potentially lethal systemic dose on tourniquet release.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Absolute rule: NEVER use bupivacaine for Bier's block. Tourniquet failure + systemic bupivacaine = refractory cardiac arrest. Only lignocaine 0.5% plain (max 3 mg/kg) is approved."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Perfect. Bupivacaine for Bier's block is one of the most emphatic contraindications in anaesthetic pharmacology — a non-negotiable safety rule."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

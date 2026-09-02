@@ -1,0 +1,76 @@
+{
+  "question": "<p>A farmer with organophosphate poisoning is being treated with atropine. You have already given 6 mg IV. He still has profuse bronchorrhoea, wheezing, and HR 55/min. Pupils are still miotic. What is the CORRECT atropine titration endpoint that indicates adequate dosing?</p>",
+  "answers": [
+    {
+      "text": "<div>Pupil dilation (mydriasis) and HR &gt;100/min</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Mydriasis and tachycardia are NOT the endpoints. Atropine is titrated to dry secretions (bronchorrhoea resolution), not to pupil size. Chasing mydriasis risks dangerous over-atropinisation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Drying of bronchial secretions (dry chest on auscultation) and HR ≥80/min</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The atropine titration endpoint is SECRETION CONTROL — dry skin, dry mouth, and most critically, clear lung fields on auscultation with no bronchospasm or bronchorrhoea. Heart rate ≥80/min is a secondary indicator. Persistent miosis alone is NOT a reason to continue increasing atropine.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Normal acetylcholinesterase level on blood testing</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Waiting for acetylcholinesterase normalisation is impractical in emergency management. Atropine is titrated clinically to secretion control, not to lab values.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Resolution of all SLUDGE features including urinary incontinence</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Not all SLUDGE features need to resolve before declaring atropine adequate. The CRITICAL endpoint is drying of bronchial secretions and clear lung fields — these cause death from hypoxia. Other features are secondary.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The atropine titration endpoint in organophosphate poisoning is bronchorrhoea resolution (dry chest). Pupils are NOT the endpoint. Patients have died because doctors under-dosed atropine while waiting for mydriasis."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. The paramount endpoint of atropine titration in OP poisoning is drying of bronchial secretions — clear chest on auscultation. This is the feature that kills; chasing pupil dilation leads to lethal under-dosing of the target organ (lungs)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

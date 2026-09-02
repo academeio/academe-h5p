@@ -1,0 +1,76 @@
+{
+  "question": "<p>At which point in the intra-operative sequence is the WHO Surgical Safety Checklist 'Sign Out' section completed?</p>",
+  "answers": [
+    {
+      "text": "<div>Before the patient is anaesthetised, to confirm the correct site and procedure</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This describes 'Sign In' — the first check completed before induction of anaesthesia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>After anaesthesia but before the skin incision, to confirm the team and equipment are ready</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This describes 'Time Out' — the second check, performed with all team members present before the incision is made.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Before the patient leaves the operating room, to confirm specimen labelling, equipment counts, and key concerns for recovery</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. 'Sign Out' is the third check, completed before the patient leaves theatre. It confirms instrument/swab counts, specimen labelling, and any concerns for the recovery team.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>On the ward the following morning, during the surgical team's post-operative round</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The WHO checklist is completed intra-operatively. Post-operative review on the ward is a separate clinical process.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the WHO Surgical Safety Checklist structure: Sign In (pre-anaesthesia), Time Out (pre-incision, all team present), Sign Out (before leaving theatre — counts, specimens, recovery handover)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. The three WHO checklist stages are: Sign In (before anaesthesia) → Time Out (before incision) → Sign Out (before leaving theatre). Each targets a different set of preventable errors."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>An 80-year-old man with mild hepatic impairment needs a sedative-hypnotic for acute insomnia. Which agent is MOST appropriate?</p>",
+  "answers": [
+    {
+      "text": "<div>Lorazepam — no active metabolites, undergoes glucuronidation only (Phase II), which is preserved in hepatic impairment and ageing</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Lorazepam bypasses Phase I oxidative metabolism (impaired in elderly and liver disease) and undergoes only Phase II conjugation (glucuronidation), which is relatively preserved. It produces no active metabolites, preventing accumulation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Diazepam — the gold standard anxiolytic-hypnotic with the most clinical evidence</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Diazepam undergoes extensive Phase I oxidative metabolism producing the active metabolite desmethyldiazepam (half-life 36-200 hours), which accumulates dramatically in elderly patients with hepatic impairment. This causes prolonged sedation and increased fall risk.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Flurazepam — long duration ensures uninterrupted sleep throughout the night</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Flurazepam produces active metabolites with half-lives exceeding 100 hours. In an elderly patient with hepatic impairment, these accumulate over days, causing excessive daytime sedation, confusion, and falls.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Zolpidem — Z-drug with α₁ selectivity avoids all BZD-related problems in the elderly</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>While zolpidem has relative α₁ selectivity, it still undergoes hepatic Phase I metabolism (CYP3A4/CYP1A2) and can accumulate in hepatic impairment. The FDA recommends lower doses in elderly. Z-drugs also carry risks of parasomnias (sleep-walking, sleep-driving) in older adults.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The key principle: Phase I oxidative metabolism declines with age and liver disease; Phase II conjugation is relatively preserved. BZDs with active metabolites (diazepam, flurazepam) accumulate dangerously in elderly patients."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "In elderly patients with hepatic impairment, choose BZDs that undergo Phase II conjugation only (lorazepam, oxazepam, temazepam — the 'LOT' drugs) to avoid accumulation of active metabolites."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient on clozapine develops fever, sore throat, and a WBC of 2,100/mm³ with neutrophils 800/mm³. What is the appropriate action?</p>",
+  "answers": [
+    {
+      "text": "<div>Stop clozapine immediately — this is agranulocytosis; the patient must never be rechallenged with clozapine</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Agranulocytosis (WBC &lt;3,000 or neutrophils &lt;1,500) is a life-threatening adverse effect of clozapine (~1–2% incidence). The drug must be stopped permanently — rechallenge carries extreme risk of fatal recurrence. Supportive care includes G-CSF, infection management, and switching to an alternative antipsychotic.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Reduce clozapine dose by 50% and add prophylactic antibiotics — dose-dependent neutropaenia will resolve</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Clozapine-induced agranulocytosis is not reliably dose-dependent and cannot be managed by dose reduction. Once neutrophils fall below 1,500/mm³, the drug must be stopped completely. Continuing at any dose risks fatal sepsis from severe neutropaenia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Continue clozapine but increase WBC monitoring to weekly — transient leucopaenia is common and self-limiting</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Mild leucopaenia (WBC 3,000–3,500) may warrant increased monitoring and continuation. But this patient has agranulocytosis (WBC 2,100, neutrophils 800) — this is a medical emergency, not a transient finding. Continuation risks fatal infection.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Switch to haloperidol and add G-CSF — haloperidol never causes blood dyscrasias</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Stopping clozapine is correct, but haloperidol is not the ideal substitute for a patient who was on clozapine (which is reserved for treatment-resistant schizophrenia). The error in this option is the claim that haloperidol never causes dyscrasias — while rare, it can. More importantly, the patient needs an alternative atypical with efficacy in resistant disease.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Clozapine's unique efficacy in treatment-resistant schizophrenia comes with the unique risk of agranulocytosis (~1–2%). The absolute rule: WBC <3,000 or neutrophils <1,500 → stop clozapine immediately, never rechallenge."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Clozapine-induced agranulocytosis requires immediate permanent discontinuation. This is why all clozapine patients must be registered for mandatory haematological monitoring (weekly WBC for 18 weeks, then fortnightly). The risk makes clozapine a last-resort drug for treatment-resistant schizophrenia only."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

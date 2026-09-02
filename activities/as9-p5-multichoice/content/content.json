@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient develops acute hypoxia with bilateral pulmonary infiltrates 90 minutes after receiving 2 units of FFP. Blood pressure is 80/50 mmHg and CVP is low. Which transfusion complication is MOST likely?</p>",
+  "answers": [
+    {
+      "text": "<div>Transfusion-Associated Circulatory Overload (TACO)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>TACO presents with hypertension, elevated CVP, and pulmonary oedema from fluid overload. This patient is hypotensive with low CVP, making TACO unlikely.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Transfusion-Related Acute Lung Injury (TRALI)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. TRALI is characterised by acute hypoxia and bilateral pulmonary infiltrates within 6 hours of transfusion, with hypotension and low CVP (non-cardiogenic pulmonary oedema). It is caused by donor antibodies (anti-HLA or anti-HNA) activating recipient neutrophils.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Acute haemolytic transfusion reaction</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Acute haemolytic reactions typically present with fever, chills, haemoglobinuria, and flank pain (ABO incompatibility). Bilateral pulmonary infiltrates are not the primary feature.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Transfusion-associated graft-versus-host disease (TA-GvHD)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>TA-GvHD is a delayed reaction (typically 1–6 weeks post-transfusion) causing pancytopenia, skin rash, and diarrhoea. It does not present acutely with pulmonary infiltrates.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the TRALI vs TACO distinction. TRALI = hypotension + low CVP + bilateral infiltrates (non-cardiogenic); TACO = hypertension + elevated CVP + bilateral infiltrates (cardiogenic fluid overload)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. TRALI is a leading cause of transfusion-related mortality. Key distinguishing features from TACO: hypotension (not hypertension), low CVP (not elevated), and onset within 6 hours of transfusion."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

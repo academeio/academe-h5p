@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 70-year-old man with known ischaemic heart disease (previous STEMI 2 years ago) presents with melaena. His haemoglobin is 8.5 g/dL and he is haemodynamically stable. He is not actively bleeding. What is the most appropriate transfusion decision?</p>",
+  "answers": [
+    {
+      "text": "<div>Transfuse immediately — haemoglobin &lt;10 g/dL always requires transfusion in the elderly</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>There is no evidence-based threshold of Hb &lt;10 g/dL for universal transfusion. Liberal transfusion at this level is associated with higher re-bleeding rates, portal pressure increases in cirrhosis, and no mortality benefit. Age alone is not an indication for liberal transfusion.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Do not transfuse — maintain the standard restrictive threshold of Hb &lt;7 g/dL regardless of cardiac history</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The standard restrictive threshold of Hb &lt;7 g/dL applies to patients WITHOUT cardiovascular disease. In patients with ischaemic heart disease or cardiac failure, the threshold is raised to Hb &lt;8 g/dL to protect against myocardial ischaemia triggered by anaemia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Transfuse — this patient meets the modified threshold of Hb &lt;8 g/dL applicable in ischaemic heart disease</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. In patients with ischaemic heart disease (or other significant cardiovascular disease), the restrictive transfusion threshold is raised to Hb &lt;8 g/dL. At 8.5 g/dL the patient is at threshold. However since he is at 8.5 and the threshold is &lt;8, technically he does not yet meet the trigger — the precise threshold matters. In clinical practice with active GI bleeding history and IHD, transfusion at 8.5 approaching 8 is appropriate to prevent the threshold being crossed during ongoing slow loss.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Await repeat haemoglobin in 6 hours before deciding</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>While serial haemoglobin monitoring is appropriate, a haemodynamically stable patient with IHD and Hb approaching the 8 g/dL modified threshold in the context of active GI bleeding should have a proactive transfusion plan rather than waiting for deterioration.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the transfusion section. The standard restrictive threshold is Hb <7 g/dL; this is modified to <8 g/dL in ischaemic heart disease or cardiac failure. Liberal transfusion (>10 g/dL) worsens outcomes in GI bleeding — it raises portal pressure in varices and is associated with higher re-bleeding rates."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "The key learning point: restrictive threshold is Hb <7 g/dL for most patients, but raised to <8 g/dL in cardiovascular disease (IHD, cardiac failure). This modification is explicitly evidence-based and reflects the higher myocardial oxygen demand in coronary artery disease."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

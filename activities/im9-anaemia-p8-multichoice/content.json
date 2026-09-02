@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 35-year-old woman has Hb 9.8 g/dL, MCV 71 fL. Her iron studies show: serum iron LOW, TIBC HIGH, serum ferritin LOW, transferrin saturation &lt;12%. Which diagnosis do these findings BEST support?</p>",
+  "answers": [
+    {
+      "text": "<div>Anaemia of chronic disease (ACD)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>ACD shows low serum iron BUT also LOW TIBC (the body does not increase iron-binding capacity when iron is trapped by hepcidin), and ferritin is NORMAL or ELEVATED (acute-phase reactant). This pattern rules out ACD.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Iron deficiency anaemia (IDA)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The classic IDA pattern: low serum iron + HIGH TIBC (marrow increases uptake capacity) + LOW ferritin (iron stores depleted) + low transferrin saturation (&lt;20%, often &lt;12% in IDA). This is the diagnostic gold standard pattern.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Beta-thalassaemia trait</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Thalassaemia trait causes microcytic anaemia but with NORMAL iron studies (serum iron, ferritin, TIBC are all normal or even elevated). RBC count is often HIGH (not low) and basophilic stippling may be present. Confirm with Hb HPLC.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Sideroblastic anaemia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Sideroblastic anaemia typically shows ELEVATED serum iron and transferrin saturation (iron-loaded mitochondria), with ringed sideroblasts on bone marrow exam. The pattern here (low ferritin, high TIBC) is the opposite.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Memorise the three microcytic patterns: IDA = low iron/LOW ferritin/HIGH TIBC; ACD = low iron/NORMAL-HIGH ferritin/LOW TIBC; Thalassaemia trait = NORMAL iron studies (but abnormal Hb HPLC). The TIBC and ferritin together distinguish them."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Low serum iron + high TIBC + low ferritin + low transferrin saturation = textbook IDA. This pattern must be distinguished from ACD (low iron, low TIBC, normal/high ferritin) and thalassaemia trait (normal iron studies)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

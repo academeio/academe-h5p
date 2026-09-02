@@ -1,0 +1,76 @@
+{
+  "question": "<p>You are about to transfer a ventilated ICU patient (FiO₂ 0.5, flow 8 L/min) for a 30-minute CT trip (15 min transport each way + 5 min scan = ~35 min). The portable oxygen cylinder reads 1,500 L at the gauge. Is it safe to proceed?</p>",
+  "answers": [
+    {
+      "text": "<div>Yes — 1,500 L will last well over an hour at any flow rate.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This is unsafe reasoning. You must calculate: 35 min × 8 L/min = 280 L needed. However, gauges can read high and you need a reserve for unexpected delays. 1,500 L minus 280 L = 1,220 L reserve — on this calculation it is sufficient, but always apply the 25% safety reserve rule and confirm the gauge reading is reliable.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Yes — calculated consumption is ~280 L; with 1,500 L available the reserve exceeds the standard 25% safety margin, so it is safe to proceed after confirming cylinder integrity.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. 35 min × 8 L/min = 280 L; safety reserve = 280 × 1.25 = 350 L needed minimum. 1,500 L &gt;&gt; 350 L, so the transfer is safe. The key habit is always to calculate, never guess, and verify cylinder integrity before leaving the ICU.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>No — you should only transfer if the cylinder reads above 2,000 L regardless of flow rate.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A fixed threshold is incorrect. Minimum cylinder volume depends on flow rate × time + 25% reserve, not an arbitrary litre count. A low-flow patient may need far less than 2,000 L; a high-flow patient may need more.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>No — ventilated patients should never be transported for imaging; arrange portable X-ray instead.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This is not correct. Ventilated patients can and are safely transported for CT when properly prepared. The pre-transport checklist (oxygen, monitoring, drugs, personnel) exists precisely for this population.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Remember: oxygen reserve for transport = flow rate × total duration × 1.25 safety factor. Always calculate from the gauge reading before leaving the ICU. A fixed litre threshold or a blanket ban on transporting ventilated patients are both incorrect approaches."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The key formula: O₂ needed (L) = flow rate (L/min) × estimated duration (min), then add 25% reserve. Calculate every time; never rely on a rule of thumb."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 38-year-old chronic alcohol user is brought to casualty confused and tremulous. His last drink was 18 hours ago. Blood glucose is 48 mg/dL. What is the MOST appropriate immediate action?</p>",
+  "answers": [
+    {
+      "text": "<div>Administer 25 mL of 50% dextrose intravenously immediately.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Giving glucose first without thiamine in a chronic alcohol user risks precipitating Wernicke encephalopathy by exhausting residual thiamine reserves. Always give thiamine BEFORE glucose.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Administer IV thiamine 100 mg first, then correct hypoglycaemia with dextrose.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Chronic alcohol use depletes thiamine. Glucose administration before thiamine can precipitate Wernicke encephalopathy. The sequence thiamine → then glucose is mandatory.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Start chlordiazepoxide 25 mg orally and monitor the Clinical Institute Withdrawal Assessment score.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Benzodiazepines are the correct treatment for alcohol withdrawal seizure prevention, but the immediate clinical emergency here is hypoglycaemia. The metabolic threat must be corrected first — with thiamine preceding glucose.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Obtain a urine drug screen before initiating any treatment.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Investigations should not delay treatment in an acute emergency. Symptomatic hypoglycaemia requires immediate correction; wait for lab results only after stabilisation.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the alcohol withdrawal emergency timeline. In chronic alcohol users with hypoglycaemia, IV thiamine must precede glucose to prevent Wernicke encephalopathy."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The thiamine-before-glucose rule is a life-saving sequence in alcohol-dependent patients. Memorise it: T → G."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>During an outbreak, an Rt (effective reproduction number) of 0.7 on Day 10 compared to 1.4 on Day 1 most reliably indicates which of the following?</p>",
+  "answers": [
+    {
+      "text": "<div>Control measures are reducing transmission below the epidemic threshold</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Rt &lt; 1 means each case generates fewer than one secondary case; the decline from 1.4 to 0.7 confirms that interventions are working.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The outbreak has ended and surveillance can be wound down</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Not yet — Rt &lt; 1 shows the outbreak is declining but does not mean it is over. Surveillance must continue until zero cases are recorded for two incubation periods.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Herd immunity has been achieved in the population</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Herd immunity is one reason Rt can fall, but control measures, behaviour change, and movement restrictions are equally common causes — more data are needed to differentiate.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The pathogen has mutated to a less virulent strain</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Rt measures transmission, not virulence. A falling Rt does not imply genetic change in the pathogen.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the Rt concept in the evaluation section. Rt < 1 signals declining transmission but requires sustained monitoring before any scale-down of response."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Good analytical reasoning! The Rt trajectory is your most actionable real-time metric during an outbreak response."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>According to the ACC/AHA 2017 guideline, a patient with a blood pressure of 134/84 mmHg on two separate readings is classified as:</p>",
+  "answers": [
+    {
+      "text": "<div>Normal blood pressure</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Normal is defined as &lt;120/80 mmHg by ACC/AHA 2017. This reading exceeds that threshold.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Elevated blood pressure</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Elevated BP is systolic 120–129 mmHg with diastolic &lt;80 mmHg. This patient's diastolic is 84 mmHg, so they do not fit the 'Elevated' category.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Stage 1 hypertension</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. ACC/AHA 2017 Stage 1 HTN = systolic 130–139 mmHg OR diastolic 80–89 mmHg. This patient meets both criteria.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Stage 2 hypertension</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Stage 2 HTN requires systolic ≥140 mmHg OR diastolic ≥90 mmHg by ACC/AHA 2017. This reading of 134/84 falls short of that threshold.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the ACC/AHA 2017 classification: Normal <120/80; Elevated 120–129/<80; Stage 1 130–139/80–89; Stage 2 ≥140/≥90."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The ACC/AHA 2017 guideline lowered the Stage 1 threshold to 130/80 mmHg — a critical distinction from JNC 7's 140/90 mmHg."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

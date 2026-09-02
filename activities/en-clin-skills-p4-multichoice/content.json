@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 35-year-old patient with right ear discharge and decreased hearing undergoes tuning fork testing: Rinne test is negative on the right (BC &gt; AC), Weber lateralises to the right, and ABC test shows reduced bone conduction on the right compared to the examiner. Which interpretation is correct?</p>",
+  "answers": [
+    {
+      "text": "<div>Right-sided sensorineural hearing loss, because Rinne negative always indicates nerve damage</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This is the classic Rinne trap. Rinne negative (BC &gt; AC) indicates conductive hearing loss on that side, NOT sensorineural. In SNHL, AC is worse but still better than BC, so Rinne remains positive (AC &gt; BC). Rinne negative in a patient with discharge and a history like this points to CHL (likely CSOM with perforation or ossicular damage).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Right-sided conductive hearing loss, because Rinne negative indicates AC &lt; BC on the affected side, Weber lateralises to the worse-hearing (conductive loss) ear, and ABC is reduced only when cochlear reserve is lost</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Rinne negative (BC &gt; AC) = conductive hearing loss on the tested side. Weber in CHL lateralises toward the affected ear (the blocked ear hears bone conduction better because background noise is excluded). ABC tests cochlear reserve: if BC is equal to the examiner, cochlear function is intact, confirming pure CHL; reduced ABC indicates superimposed SNHL. This pattern — Rinne negative right, Weber right, ABC equal — = pure right CHL.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Bilateral hearing loss, because Weber lateralisation to one side means the other side must also be affected</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Weber lateralisation to one ear does not imply the other ear is affected. Lateralisation to the right in this context confirms right-sided conductive loss. If both ears had equal CHL, Weber would not lateralise. Only unequal loss (either CHL on one side or SNHL on the other) causes lateralisation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Right-sided mixed hearing loss, because discharge always indicates combined conductive and sensorineural damage</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Discharge does not automatically mean mixed loss. CSOM causes primarily CHL. Mixed loss would require both Rinne negative (CHL component) AND reduced ABC test (reduced cochlear reserve / SNHL component). The ABC test result must be interpreted before labelling a loss as mixed.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key rules: Rinne POSITIVE = AC > BC = normal OR sensorineural loss. Rinne NEGATIVE = BC > AC = conductive loss. Weber lateralises TOWARD the CHL ear and AWAY from the SNHL ear. ABC: equal to examiner = intact cochlea; reduced = SNHL component present."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. This is the most commonly examined tuning fork scenario: Rinne negative = CHL (not SNHL), Weber goes to the conductive-loss side, ABC tests cochlear reserve. Master this set."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A nurse performs the 20-minute whole blood clotting test (20WBCT) by placing 2 mL of freshly drawn venous blood in a clean, dry glass tube. At 20 minutes, she tilts the tube and the blood does not clot. What does this result indicate, and what is the correct interpretation?</p>",
+  "answers": [
+    {
+      "text": "<div>The test is invalid because plastic tubes must be used for the 20WBCT</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The 20WBCT requires a clean, dry GLASS tube — not plastic. Glass activates the contact pathway of coagulation (Factor XII). Plastic tubes do not activate this pathway and will give false non-clotting results even in the absence of venom.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The blood has not clotted, indicating venom-induced consumption coagulopathy (VICC) — a positive 20WBCT and an indication for antivenom</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Blood that does not clot at 20 minutes in a clean, dry glass tube indicates venom-induced consumption coagulopathy (VICC) — fibrinogen and clotting factors have been consumed by venom. This is a positive 20WBCT and constitutes a systemic indication for antivenom therapy.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The result is indeterminate; repeat at 30 minutes before drawing conclusions</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The test endpoint is 20 minutes in a GLASS tube. There is no standard practice of extending to 30 minutes. A non-clotting result at 20 minutes in the correct tube is diagnostic of VICC and is an antivenom indication.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The result suggests haemophilia rather than envenomation and requires a detailed clotting factor assay</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect in this clinical context. In a patient with known or suspected snakebite, a positive 20WBCT should be interpreted as VICC until proven otherwise. Baseline haemophilia is possible but is far less likely than envenomation in this setting.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key 20WBCT rules: glass tube ONLY (plastic gives false positives), 2 mL fresh venous blood, 20 minutes. Non-clotting result = positive = VICC = systemic indication for antivenom."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. Remember: GLASS tube (not plastic), 2 mL fresh venous blood, 20 minutes — non-clotting = VICC = antivenom indication."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

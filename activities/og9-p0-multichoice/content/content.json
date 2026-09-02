@@ -1,0 +1,76 @@
+{
+  "question": "<p>According to current WHO/FIGO definitions, PRIMARY postpartum haemorrhage is defined as blood loss of:</p>",
+  "answers": [
+    {
+      "text": "<div>≥250 mL following any mode of delivery within 24 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. 250 mL is below the accepted threshold; this would not constitute a PPH by any standard definition.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>≥500 mL following vaginal delivery OR ≥1000 mL following caesarean section within 24 hours</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Primary PPH is defined as ≥500 mL after vaginal delivery or ≥1000 mL after caesarean section (or any blood loss causing haemodynamic compromise) within 24 hours of delivery.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>≥750 mL following vaginal delivery OR ≥1500 mL following caesarean section within 24 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. These thresholds are too high; waiting for 750 mL / 1500 mL before acting would represent dangerous under-recognition of PPH.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Any visible bleeding persisting more than 30 minutes after placental delivery</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. PPH is defined by volume (and haemodynamic effect), not by duration of bleeding alone.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the WHO/FIGO PPH definitions. The thresholds differ by mode of delivery: ≥500 mL for vaginal and ≥1000 mL for caesarean delivery."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Primary PPH = ≥500 mL (vaginal) or ≥1000 mL (caesarean) within 24 hours; severe PPH = ≥1000 mL with haemodynamic compromise."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

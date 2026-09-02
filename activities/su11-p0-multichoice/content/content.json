@@ -1,0 +1,76 @@
+{
+  "question": "<p>A flexible fibreoptic bronchoscope that enters the trachea but does not breach mucosal integrity is best classified as which Spaulding category, and therefore requires which level of processing?</p>",
+  "answers": [
+    {
+      "text": "<div>Critical — requires sterilization</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Critical items penetrate sterile tissue or the vascular system and require sterilization. A bronchoscope entering the trachea via a natural orifice without breaching mucosa is semi-critical, not critical.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Semi-critical — requires high-level disinfection</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Semi-critical items contact intact mucous membranes or non-intact skin. A bronchoscope in the trachea contacts intact mucosa, so high-level disinfection (e.g. glutaraldehyde, OPA) is the minimum required.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Non-critical — requires low-level disinfection</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Non-critical items contact only intact skin. The bronchoscope contacts airway mucosa, placing it firmly in the semi-critical category.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Critical — requires high-level disinfection only</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Critical items require sterilization, not just high-level disinfection. This option conflates the classification level with the processing requirement.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Apply the Spaulding principle: critical (penetrates sterile tissue) → sterilization; semi-critical (contacts mucosa) → high-level disinfection; non-critical (contacts intact skin) → low/intermediate disinfection. A bronchoscope in the trachea touches mucosa = semi-critical."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Semi-critical items that contact mucosa require high-level disinfection — sterilization is ideal but high-level disinfection is the accepted minimum."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

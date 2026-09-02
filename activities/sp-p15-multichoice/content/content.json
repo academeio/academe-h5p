@@ -1,0 +1,76 @@
+{
+  "question": "<p>At autopsy of a suspected insulin homicide, post-mortem blood glucose is normal. Which investigation would BEST confirm exogenous insulin administration?</p>",
+  "answers": [
+    {
+      "text": "<div>Post-mortem C-peptide measurement (high insulin:C-peptide ratio confirms exogenous source)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Endogenous insulin is always secreted with C-peptide (proinsulin cleavage product) in equimolar amounts. Commercial insulin contains NO C-peptide. A high insulin:C-peptide ratio (high insulin, absent/low C-peptide) is forensic proof of exogenous insulin administration.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Post-mortem blood insulin level alone</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Insufficient alone. Post-mortem insulin levels cannot distinguish endogenous from exogenous sources by concentration alone. The insulin:C-peptide ratio is required. Additionally, post-mortem insulin release from decomposing pancreatic cells can elevate insulin levels artificially.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Post-mortem urine glucose</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Post-mortem glucose levels normalise rapidly due to glycogenolysis and are unreliable. Urine glucose would reflect ante-mortem metabolism, not a specific indicator of exogenous insulin. C-peptide is the forensic anchor.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Histology of the pancreatic islet cells</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Pancreatic histology would be normal in exogenous insulin injection — the injected insulin comes from outside, not from islet cell disease. Histology cannot identify exogenous insulin administration.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "C-peptide is the correct answer. Post-mortem glucose is unreliable (normalises quickly). Total insulin alone is non-specific. Only the insulin:C-peptide ratio distinguishes endogenous secretion (both present) from exogenous injection (insulin high, C-peptide absent/low)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. The insulin:C-peptide ratio is the definitive forensic test for insulin homicide. Normal: insulin and C-peptide rise proportionally (both from proinsulin). Exogenous insulin injection: high insulin, absent C-peptide. This is also used in factitious hypoglycaemia investigation."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

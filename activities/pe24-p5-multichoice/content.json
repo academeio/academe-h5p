@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 2-year-old child is a household contact of a smear-positive pulmonary TB patient. Mantoux test shows 4 mm induration. Chest X-ray is normal. There are no symptoms. What is the most appropriate next step under NTEP guidelines?</p>",
+  "answers": [
+    {
+      "text": "<div>Initiate full anti-TB treatment (2HRZE + 4HRE) as household contact of smear-positive case</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Full ATT is indicated only if the child has active TB disease. This child has no symptoms, normal CXR, and negative TST — criteria for IPT, not full treatment.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Reassure the family, observe for 3 months, and repeat Mantoux</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. In a child under 5 years who is a household contact of a smear-positive case, waiting and watching without chemoprophylaxis is not appropriate even if the Mantoux is negative.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Initiate Isoniazid Preventive Therapy (IPT) with 6 months of isoniazid</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Under NTEP, all children under 5 years who are household contacts of smear-positive TB patients should receive IPT (isoniazid chemoprophylaxis for 6 months), regardless of Mantoux result, provided active TB has been excluded. The Mantoux threshold for IPT eligibility is ≥5 mm in immunocompromised children; however, under-5 contacts get IPT irrespective of TST.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Administer BCG vaccination as post-exposure prophylaxis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. BCG is given at birth for primary prevention. It is not used as post-exposure prophylaxis after TB contact. IPT with isoniazid is the correct chemoprophylaxis for under-5 contacts.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the IPT section. Key rule: ALL children under 5 years who are household contacts of smear-positive TB patients → exclude active TB → start IPT (6 months isoniazid), regardless of Mantoux result."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Under NTEP, children under 5 years who are household contacts of smear-positive TB receive IPT (6 months isoniazid) once active TB is excluded, regardless of Mantoux result."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

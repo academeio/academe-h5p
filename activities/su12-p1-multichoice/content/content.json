@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 70 kg adult sustains 30% TBSA burns. Using the Parkland formula (4 mL × kg × %TBSA of Ringer's lactate), how much fluid should be given in the FIRST 8 hours — counted from the TIME OF BURN, not arrival?</p>",
+  "answers": [
+    {
+      "text": "<div>4,200 mL</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Total Parkland volume = 4 × 70 × 30 = 8,400 mL over 24 hours. Half (4,200 mL) is given in the first 8 hours from the time of the burn; the remaining 4,200 mL over the next 16 hours.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>8,400 mL</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>8,400 mL is the total 24-hour volume, not the first-8-hour volume. The Parkland formula gives half the total in the first 8 hours.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>2,100 mL</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>2,100 mL would be one quarter of the total volume. The correct first-8-hour amount is half the total: 4,200 mL.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>1,050 mL</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>1,050 mL is far too low and does not correspond to any standard burns formula. Calculate: 4 × 70 × 30 = 8,400 mL total; half = 4,200 mL in the first 8 hours.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Parkland formula: 4 mL × weight (kg) × %TBSA = total 24-hour volume. Give HALF in the first 8 hours (from time of BURN), the other half over the next 16 hours. Here: 4 × 70 × 30 = 8,400 mL → first 8 hours = 4,200 mL."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. 4 × 70 × 30 = 8,400 mL total; 4,200 mL in the first 8 hours from the time of burn."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

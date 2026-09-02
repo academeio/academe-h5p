@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient on haloperidol for schizophrenia develops resting tremor, cogwheel rigidity, and shuffling gait. What is the correct pharmacological management?</p>",
+  "answers": [
+    {
+      "text": "<div>Add trihexyphenidyl (anticholinergic) to restore the dopamine-acetylcholine balance in the striatum</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Haloperidol blocks D2 receptors in the nigrostriatal pathway, creating a relative dopaminergic deficit and cholinergic excess — mimicking Parkinson's disease. Trihexyphenidyl (an anticholinergic) restores the balance by reducing the cholinergic excess, without needing to increase dopaminergic tone.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Add levodopa/carbidopa to restore dopamine levels and overcome the D2 receptor blockade</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Levodopa is NOT used in drug-induced parkinsonism because: (1) the D2 receptors are already blocked by haloperidol — more dopamine cannot displace the antipsychotic; (2) increasing dopaminergic tone in the mesolimbic pathway would worsen psychosis — the very condition being treated. This is a common clinical error.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Add bromocriptine (D2 agonist) to directly activate the blocked dopamine receptors</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>D2 agonists cannot effectively compete with haloperidol (which has high D2 affinity and is present at therapeutic concentrations). Even if they could, activating D2 in the mesolimbic pathway would worsen psychotic symptoms. Anticholinergics avoid this problem by targeting the cholinergic limb instead.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Stop haloperidol immediately and leave without any antiparkinsonian treatment — symptoms will resolve on their own</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Stopping the antipsychotic may be appropriate if the psychosis is controlled and a lower-EPS alternative exists (quetiapine, clozapine), but abruptly stopping an antipsychotic in an actively psychotic patient risks relapse. Adding an anticholinergic allows continued antipsychotic therapy while managing the EPS.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The logic: in DIP, the problem is not dopamine deficiency (neurons are intact) but D2 receptor blockade. You cannot restore dopaminergic signalling through blocked receptors. Instead, reduce the other side of the balance — cholinergic tone — with anticholinergics."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Drug-induced parkinsonism = D2 blockade → relative cholinergic excess. Treatment: anticholinergics (trihexyphenidyl, benztropine) to reduce the cholinergic side. Never levodopa — it cannot overcome pharmacological D2 blockade and would worsen psychosis."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

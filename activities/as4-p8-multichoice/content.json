@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient at the end of a 90-minute laparoscopic cholecystectomy opens eyes to command, squeezes your hand, and lifts her head for &gt;5 seconds. Neuromuscular blockade was reversed 10 minutes ago. SpO₂ is 99% on 40% O₂. What is the most appropriate next action?</p>",
+  "answers": [
+    {
+      "text": "<div>Extubate immediately in the supine position</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Extubation in the supine position risks aspiration; head-up or lateral position is preferred, and coughing/swallowing should be confirmed.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Extubate when the patient is breathing regularly, following commands, with protective reflexes intact, in a semi-recumbent or lateral position</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Safe extubation criteria are met: consciousness (follows commands), adequate muscle power (head lift &gt;5s), intact reflexes (coughing/swallowing), and adequate oxygenation. Lateral or head-up position reduces aspiration risk.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Wait for train-of-four ratio &gt;0.9 before extubating despite clinical signs of recovery</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Clinical criteria for extubation are already met; waiting indefinitely for TOF &gt;0.9 when full reversal signs are present delays care unnecessarily — though TOF monitoring is a useful adjunct.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Administer a further dose of neostigmine before extubation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The patient already shows full clinical reversal (head lift, command following). Repeat neostigmine is unnecessary and risks cholinergic excess (bradycardia, bronchospasm).</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Extubate when the patient follows commands, holds head lift >5 seconds, has protective reflexes, and is in a head-up or lateral position — all these criteria are satisfied in this case."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. Safe extubation = consciousness + adequate ventilation + protective reflexes + muscle power (head lift >5s) + optimal positioning. All criteria are met here."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

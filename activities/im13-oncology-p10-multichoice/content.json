@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 62-year-old woman with advanced cervical cancer reports severe pain (NRS 8/10) despite being on regular tramadol for 2 weeks. She has no renal impairment. According to the WHO analgesic ladder, what is the MOST appropriate next step?</p>",
+  "answers": [
+    {
+      "text": "<div>Add paracetamol to the tramadol regimen and reassess in 2 weeks</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Paracetamol can be continued as an adjuvant but simply adding it does not address the failure of a Step 2 weak opioid for severe pain (NRS 8/10). The patient has progressed beyond Step 2.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Switch to oral morphine (strong opioid) at an appropriate starting dose, with breakthrough provision</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. NRS 8/10 pain uncontrolled on a weak opioid = WHO ladder Step 3 indication. Start oral morphine 5–10 mg every 4 hours (regular dosing) with 1/6th of the daily dose available as a breakthrough dose every hour as needed. Titrate upward by 30–50% every 24–48 hours.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Refer directly to radiotherapy for pain control before prescribing opioids</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Radiotherapy can be an excellent analgesic for bone pain but it takes weeks to work and requires planning. Pharmacological pain control (WHO ladder Step 3) must be initiated immediately — do not delay opioids pending radiotherapy.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Prescribe fentanyl transdermal patch as first strong opioid</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Fentanyl patches are not appropriate for opioid-naive patients or for rapidly titrating acute severe pain — the patch has a 12–24 hour lag to steady state and cannot be titrated daily. Oral morphine is the preferred first strong opioid for WHO Step 3 initiation.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "WHO analgesic ladder Step 3: severe or Step-2-uncontrolled pain = strong opioid. Oral morphine is the gold standard starting agent — regular 4-hourly dosing with 1/6th daily dose breakthrough."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Severe pain (NRS ≥7) uncontrolled on Step 2 = WHO ladder Step 3: strong opioid (oral morphine), regular dosing + breakthrough provision. Fentanyl patch is not for de novo initiation."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

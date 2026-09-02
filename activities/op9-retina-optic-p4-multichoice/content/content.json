@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 68-year-old man with known atrial fibrillation presents with sudden, complete, painless loss of vision in his right eye that occurred 2 hours ago. Fundoscopy reveals a milky-white oedematous retina with a cherry-red spot at the fovea, and markedly attenuated arterioles. The veins appear normal in calibre. What is the MOST likely diagnosis?</p>",
+  "answers": [
+    {
+      "text": "<div>Central retinal vein occlusion (CRVO)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. CRVO produces the 'blood-and-thunder' fundus with massively dilated and tortuous veins, flame haemorrhages in all quadrants, disc swelling, and cotton wool spots. The veins here are normal, ruling out CRVO.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Central retinal artery occlusion (CRAO)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. CRAO produces: (1) milky-white retinal oedema (ischaemic swelling of inner retinal layers), (2) cherry-red spot at the fovea (choroidal circulation still visible through the thin foveal retina), (3) markedly attenuated arterioles, and (4) normal veins. AF is a risk factor for embolic CRAO.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Branch retinal artery occlusion (BRAO)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. BRAO causes a segmental, wedge-shaped area of retinal whitening corresponding to the territory of the occluded branch artery. Complete visual loss with diffuse retinal whitening and a cherry-red spot indicates central (not branch) arterial occlusion.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Anterior ischaemic optic neuropathy (AION)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. AION produces disc swelling (pale or hyperaemic), an altitudinal visual field defect (not complete loss), and no cherry-red spot. The retina itself appears normal in AION as the occlusion is at the level of the optic nerve head.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key: CRAO = cherry-red spot, white retina, thin arterioles, normal veins. CRVO = blood-and-thunder (haemorrhages everywhere, dilated tortuous veins, disc swelling). Mechanism: CRAO = embolic/thrombotic arterial; CRVO = venous thrombosis."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Perfect. Cherry-red spot + milky retina + attenuated arterioles + normal veins = CRAO. The cherry-red spot occurs because the fovea has no overlying ganglion cell layer and shows the red choroid through the thinned retina."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

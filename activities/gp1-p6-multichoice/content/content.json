@@ -1,0 +1,76 @@
+{
+  "question": "<p>A drug binds to a receptor with high affinity but produces a SUBMAXIMAL response even at saturating concentrations compared to a full agonist. This drug is best classified as a:</p>",
+  "answers": [
+    {
+      "text": "<div>Partial agonist</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. A partial agonist has intermediate intrinsic activity (0 &lt; α &lt; 1). It binds the receptor and produces a response, but the maximum response it can achieve is less than that of a full agonist even at full receptor occupancy.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Competitive antagonist</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A competitive antagonist has zero intrinsic activity (α = 0). It binds the receptor but produces no response — it simply blocks access for agonists.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Full agonist</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A full agonist has intrinsic activity of 1 — it produces the maximum possible response. The drug described cannot achieve this maximum, ruling out full agonist classification.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Inverse agonist</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>An inverse agonist produces an effect OPPOSITE to the agonist by stabilising the receptor in an inactive conformation. It has negative intrinsic activity, not submaximal positive activity.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Classify drugs by intrinsic activity (α): full agonist (α=1), partial agonist (0<α<1), antagonist (α=0), inverse agonist (α<0)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct! Partial agonist = binds receptor + positive intrinsic activity, but Emax < full agonist. Example: buprenorphine at opioid receptors."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

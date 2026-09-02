@@ -1,0 +1,76 @@
+{
+  "question": "<p>The efficacy of oral rehydration solution (ORS) in secretory diarrhoea depends critically on which intestinal transporter?</p>",
+  "answers": [
+    {
+      "text": "<div>The sodium-glucose co-transporter (SGLT1) in the small intestinal enterocyte, which couples glucose absorption to sodium — and therefore water — uptake</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. SGLT1 couples sodium and glucose absorption and remains functional even during cholera toxin-induced chloride hypersecretion. ORS exploits this transporter: glucose drives sodium absorption, water follows osmotically, and net fluid absorption is restored.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The CFTR chloride channel, which is inhibited by glucose to reduce fluid secretion</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. CFTR is a chloride channel stimulated (not inhibited) by cAMP — cholera toxin acts by locking CFTR open via cAMP. Glucose has no direct inhibitory effect on CFTR. ORS works around CFTR dysfunction, not through it.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The H⁺/K⁺-ATPase proton pump in the large intestine, which absorbs potassium while excreting acid</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The H⁺/K⁺-ATPase is the gastric acid pump; it is not the mechanism by which ORS promotes intestinal water absorption. Its role in colonic potassium conservation is also unrelated to the SGLT1-based ORS mechanism.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Aquaporin-3 channels, which are directly upregulated by the glucose in ORS to increase water reabsorption</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. While aquaporins facilitate transcellular water movement, ORS efficacy is governed by the sodium-glucose co-transporter that creates the osmotic gradient — aquaporin upregulation by glucose in ORS is not the pharmacological basis.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Revisit the ORS section. The key insight is that cholera toxin selectively disables one sodium transporter but leaves SGLT1 (the sodium-glucose co-transporter) intact — and ORS is specifically designed to exploit this residual transporter."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. The SGLT1 mechanism is why ORS works even in cholera: the toxin blocks NaCl co-transport but cannot block sodium-glucose co-transport — glucose in ORS 'rescues' sodium and water absorption through a different channel."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

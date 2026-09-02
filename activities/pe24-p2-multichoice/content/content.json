@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 5-year-old HIV-positive child on ART is being evaluated for possible TB after exposure to a smear-positive household contact. His Mantoux (TST) shows 6 mm of induration at 72 hours. How should this result be interpreted?</p>",
+  "answers": [
+    {
+      "text": "<div>Negative — the cut-off for all children is ≥10 mm regardless of immune status</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The 10 mm cut-off applies to immunocompetent children (including those with BCG). A lower threshold applies to immunocompromised children.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Positive — the cut-off for immunocompromised children (including HIV-positive) is ≥5 mm</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. For immunocompromised children (HIV-positive, on immunosuppressants, severely malnourished), a Mantoux of ≥5 mm is considered positive. The standard threshold of ≥10 mm applies to immunocompetent children. This child's 6 mm reading is positive and warrants further workup.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Indeterminate — readings of 5–9 mm require a repeat TST in 4 weeks</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. There is no 'indeterminate' zone requiring repeat testing in standard guidelines. The threshold drops to ≥5 mm in immunocompromised children; this reading is positive.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Positive only if the child has no BCG scar — BCG vaccination makes 6 mm a false positive in all children</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. BCG is factored into interpretation for immunocompetent children (threshold ≥10 mm). For HIV-positive children, the threshold is ≥5 mm regardless of BCG status.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the Mantoux interpretation section. Key thresholds: ≥10 mm for immunocompetent children; ≥5 mm for immunocompromised children (HIV, malnutrition, immunosuppressants)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. The Mantoux threshold for immunocompromised children (including HIV-positive) is ≥5 mm. The standard threshold of ≥10 mm applies to immunocompetent children with or without BCG."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

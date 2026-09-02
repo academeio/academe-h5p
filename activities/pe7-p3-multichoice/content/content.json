@@ -1,0 +1,76 @@
+{
+  "question": "<p>An 18-month-old girl weighs 8 kg (expected weight 11 kg for age). Her 24-hour dietary recall shows an estimated intake of 600 kcal/day. The recommended intake for her weight is 850 kcal/day. What is the correct approach to calculating the caloric gap?</p>",
+  "answers": [
+    {
+      "text": "<div>Subtract actual intake from recommended intake for actual weight: the gap is 250 kcal/day.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The caloric gap is the difference between recommended intake (for actual weight) and estimated actual intake: 850 − 600 = 250 kcal/day. This gap guides dietary counselling and supplementation planning.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Subtract actual intake from recommended intake for expected weight; any gap below 100 kcal/day is clinically insignificant.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The gap is calculated against the requirement for actual weight (not expected weight), and a 250 kcal/day deficit is clinically significant in a malnourished 18-month-old.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The caloric gap is calculated only from laboratory indices such as serum albumin and is not derivable from dietary recall.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The caloric gap is calculated directly from the dietary recall (estimated intake) minus the recommended intake for actual weight. Laboratory indices assess nutritional status but do not quantify the caloric gap.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The caloric gap equals the difference between the child's actual weight and expected weight multiplied by 100.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Caloric gap is an energy unit (kcal/day) derived from intake versus requirement, not a simple weight-difference calculation.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Recall the caloric gap calculation: compare estimated intake (from dietary recall) against recommended intake for actual weight. The difference in kcal/day is the gap to address."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Caloric gap = recommended intake for actual weight − estimated actual intake. This drives targeted dietary counselling."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

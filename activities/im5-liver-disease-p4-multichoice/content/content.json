@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 52-year-old man with a history of heavy alcohol use has AST 280 IU/L and ALT 90 IU/L. Which diagnosis does the AST:ALT ratio of &gt;2 most strongly support?</p>",
+  "answers": [
+    {
+      "text": "<div>Acute viral hepatitis A</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Acute viral hepatitis produces a hepatocellular pattern with ALT typically exceeding AST (ratio &lt;1). An AST:ALT &gt;2 argues strongly against acute viral hepatitis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Alcoholic hepatitis</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. An AST:ALT ratio &gt;2 (here ≈3.1) in a patient with heavy alcohol use is the classic pattern of alcoholic hepatitis. Alcohol preferentially depletes hepatic pyridoxal-5-phosphate, an ALT cofactor, suppressing ALT synthesis relative to AST. A ratio &gt;3 is nearly diagnostic.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Non-alcoholic steatohepatitis (NASH)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. NASH typically produces an ALT-predominant or near-equal pattern (AST:ALT ratio ≤1). The high AST:ALT ratio here is more consistent with alcoholic hepatitis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Autoimmune hepatitis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Autoimmune hepatitis raises aminotransferases in a hepatocellular pattern with ALT usually ≥ AST. An AST:ALT &gt;2 in the context of alcohol use points to alcoholic aetiology.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The AST:ALT ratio is a key bedside diagnostic tool: >2 in alcohol users → alcoholic hepatitis; <1 with elevated aminotransferases → viral, NASH, or autoimmune hepatitis. Review the clinical pearl on this ratio."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. AST:ALT >2 in an alcohol user = alcoholic hepatitis until proven otherwise. The mechanism (pyridoxal-5-phosphate depletion suppressing ALT) explains why ALT is disproportionately low."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

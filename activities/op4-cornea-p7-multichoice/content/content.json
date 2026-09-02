@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 35-year-old patient has a central corneal leucoma confined to the anterior two-thirds of the stroma with a healthy endothelium (specular count 2,800 cells/mm²). Which surgical option is MOST appropriate?</p>",
+  "answers": [
+    {
+      "text": "<div>Penetrating keratoplasty (full-thickness graft)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Penetrating keratoplasty replaces all layers including the healthy endothelium. Since this patient has a healthy endothelium, replacing it unnecessarily increases the risk of endothelial rejection.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Deep Anterior Lamellar Keratoplasty (DALK)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. DALK replaces the anterior stroma down to Descemet's membrane, preserving the patient's healthy endothelium. This avoids endothelial rejection (the most feared complication of PK) and is ideal when the opacity is anterior stromal with an intact endothelium.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Descemet's Stripping Automated Endothelial Keratoplasty (DSAEK)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>DSAEK replaces the diseased endothelium and Descemet's membrane — used for endothelial failure (Fuchs' dystrophy, bullous keratopathy). This patient has anterior stromal opacity with a normal endothelium; DSAEK is not indicated.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Phototherapeutic Keratectomy (PTK) with excimer laser</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>PTK is used for superficial anterior stromal opacities and corneal dystrophies within the first 100–150 μm. A leucoma confined to the anterior two-thirds of stroma (~250–300 μm) is too deep for PTK; DALK is preferred.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Anterior stromal opacity with healthy endothelium → DALK (not PK, not DSAEK). DSAEK = endothelial disease; PTK = very superficial; PK = full replacement when all layers diseased."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct! Anterior stromal scar + healthy endothelium = DALK (preserves endothelium, avoids rejection). Think: 'Keep the good endothelium — use DALK instead of PK'."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

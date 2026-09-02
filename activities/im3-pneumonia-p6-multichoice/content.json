@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 65-year-old diabetic man is admitted to the general ward with CAP. His CURB-65 score is 3 (confusion, urea 9 mmol/L, RR 26/min). He has no recent hospitalisation. Which empirical antibiotic regimen is most appropriate?</p>",
+  "answers": [
+    {
+      "text": "<div>Oral amoxicillin 500 mg three times daily alone</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Oral amoxicillin monotherapy is for low-severity outpatient CAP (CURB-65 0–1); CURB-65 3 indicates moderate-to-severe disease requiring hospitalisation and IV therapy with atypical cover.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV co-amoxiclav (amoxicillin-clavulanate) PLUS a macrolide (e.g., azithromycin)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. CURB-65 ≥3 (moderate-severe CAP) warrants IV beta-lactam cover (co-amoxiclav or ampicillin-sulbactam) combined with a macrolide to cover atypical pathogens — this dual-coverage approach reduces mortality compared to monotherapy.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV piperacillin-tazobactam plus vancomycin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Pip-tazo + vancomycin is the regimen for severe HAP/VAP with MRSA risk, not community-acquired pneumonia in a previously well patient; this constitutes escalation beyond what is warranted.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Oral doxycycline 100 mg twice daily alone</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Doxycycline monotherapy covers atypical organisms but provides inadequate cover for moderate-severe CAP (CURB-65 3); this severity requires IV therapy and dual-agent regimens.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Use CURB-65 to guide antibiotic intensity: 0–1 = oral amoxicillin (outpatient); 2 = consider hospitalisation; 3–5 = IV beta-lactam + macrolide for CAP. MRSA/Pseudomonas cover (pip-tazo/vancomycin) is reserved for HAP/VAP or specific risk factors, not standard CAP."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. For moderate-severe CAP (CURB-65 ≥3): IV beta-lactam (co-amoxiclav, ampicillin-sulbactam, or cefuroxime) PLUS macrolide (azithromycin or clarithromycin). Atypical cover is mandatory at this severity because Legionella and Mycoplasma carry higher mortality if missed."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

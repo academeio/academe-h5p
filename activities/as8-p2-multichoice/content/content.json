@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 78-year-old patient with advanced dementia cannot self-report pain. Which validated tool is most appropriate to assess pain in this patient?</p>",
+  "answers": [
+    {
+      "text": "<div>Numerical Rating Scale (NRS) 0–10</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The NRS requires numerical comprehension and verbal self-report — not reliable in patients with advanced dementia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Visual Analogue Scale (VAS)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The VAS requires the patient to mark a 10 cm line — this abstract task is not feasible in advanced dementia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Abbey Pain Scale or PAINAD</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Observational tools such as the Abbey Pain Scale and PAINAD assess behavioural indicators (facial grimacing, vocalisation, body language, breathing pattern) without requiring self-report — validated specifically for dementia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>McGill Pain Questionnaire</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The McGill Pain Questionnaire requires verbal description of pain quality — not applicable in patients who cannot communicate reliably.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "In cognitively impaired or non-verbal patients, use behavioural observational tools (Abbey Pain Scale, PAINAD) rather than self-report scales (NRS, VAS, McGill)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Always match the pain assessment tool to the patient's communication capacity. Observational tools are mandatory for non-verbal and cognitively impaired patients."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

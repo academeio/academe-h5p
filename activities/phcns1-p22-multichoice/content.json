@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient presents with severe metabolic acidosis, visual blurring, and a history of drinking illicit liquor. Methanol poisoning is suspected. What is the MOST IMPORTANT immediate pharmacological intervention?</p>",
+  "answers": [
+    {
+      "text": "<div>IV fomepizole (or oral ethanol if unavailable) — competitively inhibit ADH to prevent further conversion of methanol to formic acid</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The critical priority is stopping new toxic metabolite formation. Fomepizole competitively inhibits alcohol dehydrogenase, halting the methanol → formaldehyde → formate pathway. Every minute of delay produces more formate → more optic nerve damage and acidosis. If fomepizole is unavailable, ethanol serves as a competitive ADH substrate (target blood ethanol 100–150 mg/dL).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV sodium bicarbonate first — correct the metabolic acidosis before any other intervention</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Sodium bicarbonate corrects existing acidosis (important supportive care) but does not prevent formation of new formate. Without ADH inhibition, methanol continues to be converted to formate even as you correct the pH — you are treating the effect, not the cause. ADH inhibition must come first.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Immediate haemodialysis — the only intervention that removes methanol from the body</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Haemodialysis removes both methanol and formate and is indicated in severe cases (pH &lt;7.2, visual impairment, very high methanol level). However, it takes time to arrange and is not universally available. ADH inhibition can be given immediately at the bedside and halts toxin production while dialysis is being arranged.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV diazepam — prevent seizures from methanol-induced CNS excitation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Methanol poisoning causes CNS depression (not excitation) — seizures may occur terminally from severe acidosis but are not the primary concern. The immediate priority is stopping formate production (ADH inhibition), not seizure prophylaxis.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The toxic metabolite in methanol poisoning is formic acid (not methanol itself). Management priority: block ADH (fomepizole/ethanol) to stop making formate → correct existing acidosis (NaHCO₃) → remove toxin (haemodialysis in severe cases) → enhance formate metabolism (folinic acid)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "In methanol poisoning, the urgency is to STOP formate formation by inhibiting ADH — this preserves vision and prevents further acidosis. Fomepizole is first-line; ethanol is the field substitute. Supportive measures (NaHCO₃, haemodialysis) complement but do not replace ADH inhibition."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

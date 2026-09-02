@@ -1,0 +1,24 @@
+{
+  "question": "<p>A study with a very large sample size (n = 50,000) finds that a new health intervention reduces mean systolic blood pressure by 1 mmHg with p = 0.001. This result is both statistically significant and clinically significant.</p>",
+  "correct": "false",
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false
+  },
+  "l10n": {
+    "trueText": "True",
+    "falseText": "False",
+    "score": "You got @score of @total points",
+    "checkAnswer": "Check",
+    "submitAnswer": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgain": "Retry",
+    "wrongAnswerMessage": "Correct — the statement is false. Large sample sizes give enormous statistical power, meaning even tiny, clinically irrelevant differences can achieve p < 0.001. A 1 mmHg blood pressure reduction is statistically detectable in n = 50,000 but is not clinically meaningful. Always consider effect size and clinical context alongside p-values.",
+    "correctAnswerMessage": "This statement is actually false. A 1 mmHg reduction in blood pressure is below the threshold of clinical significance in most guidelines (typically ≥5 mmHg for meaningful cardiovascular benefit). With n = 50,000, even trivially small differences become statistically significant because the standard error of the mean is very small. Statistical significance (p < 0.05) does NOT imply clinical significance.",
+    "scoreBarLabel": "You got :num out of :total points"
+  }
+}

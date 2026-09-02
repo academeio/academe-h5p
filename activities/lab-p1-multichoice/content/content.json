@@ -1,0 +1,76 @@
+{
+  "question": "<p>At autopsy of a suspected poisoning, you need to collect blood for DNA profiling and viscera for toxicological analysis. Which combination of preservation tubes/containers is CORRECT?</p>",
+  "answers": [
+    {
+      "text": "<div>Blood for DNA → sodium fluoride (NaF/oxalate) tube; viscera → 10% formalin.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect on both counts. NaF/oxalate is used for alcohol and glucose estimation — fluoride inhibits the enzymes used in these assays. For DNA, EDTA prevents coagulation and degradation. Formalin cross-links proteins and destroys most toxicological analytes — viscera must go into a clean, sealed, airtight container without preservative (or saturated NaCl for specific analyses).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Blood for DNA → EDTA tube; viscera → clean airtight container without chemical preservative (for toxicology).</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. EDTA chelates calcium, preventing coagulation and preserving DNA integrity. Viscera for toxicological analysis must NOT be placed in formalin — formalin cross-links proteins and destroys volatile and non-volatile poisons. Viscera are placed in a clean, sealed container and kept refrigerated.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Blood for DNA → plain (no additive) vacutainer; viscera → 10% formalin.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A plain vacutainer allows clotting and partial DNA degradation. For DNA, EDTA is mandatory. Formalin destroys toxicological analytes — it is used only for histopathology, not forensic toxicology.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Blood for DNA → heparin tube; viscera → saturated sodium chloride solution.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Heparin is acceptable for some DNA applications but EDTA is the gold-standard forensic choice because it is compatible with PCR and STR profiling. Saturated NaCl has limited specific indications; airtight sterile containers without chemical preservative are standard for viscera sent for general toxicology.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review 'Collection, Preservation and Labelling Methods'. Key rules: EDTA tube for DNA blood; plain airtight container (no formalin) for viscera for toxicology. Formalin is histology-only — it irreversibly destroys toxicological analytes."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. EDTA for DNA, no formalin for toxicology viscera. The formalin trap is the single most dangerous error in forensic specimen handling — it permanently destroys toxicological evidence."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 22-year-old college student presents with fever, severe headache, neck stiffness, and a non-blanching petechial rash. CT head is normal. CSF shows: opening pressure 300 mm H₂O, WBC 1400 cells/μL (95% neutrophils), protein 280 mg/dL, glucose 18 mg/dL (serum glucose 95 mg/dL). What is the CORRECT empirical antibiotic regimen BEFORE culture results?</p>",
+  "answers": [
+    {
+      "text": "<div>Oral amoxicillin 500 mg TDS</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Oral amoxicillin has inadequate CNS penetration and is inappropriate for bacterial meningitis, which requires IV antibiotics. Additionally, cephalosporins are preferred over amoxicillin empirically due to broader coverage.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV ceftriaxone 2 g BD + IV dexamethasone 0.15 mg/kg QDS</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The empirical regimen for community-acquired bacterial meningitis in an adult (age 18–50) is IV ceftriaxone 2 g every 12 hours (BD) to cover Streptococcus pneumoniae and Neisseria meningitidis. IV dexamethasone 0.15 mg/kg every 6 hours (QDS) for 4 days, given with or just before the first antibiotic dose, reduces mortality and neurological sequelae in pneumococcal meningitis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV aciclovir 10 mg/kg TDS</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. IV aciclovir is the treatment for herpes simplex encephalitis/meningitis (viral). The CSF here shows pyogenic (neutrophilic) pleocytosis with very low glucose and very high protein — diagnostic of bacterial, not viral, meningitis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV vancomycin 15 mg/kg BD alone</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. While vancomycin may be added to cover penicillin-resistant pneumococcus in areas of high resistance, it is not used as sole empirical therapy. IV ceftriaxone is the backbone of empirical treatment for community-acquired bacterial meningitis.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Community-acquired bacterial meningitis in adults: IV ceftriaxone 2 g BD (backbone) + IV dexamethasone 0.15 mg/kg QDS for 4 days. Dexamethasone reduces neurological sequelae in pneumococcal meningitis and must be given with or BEFORE the first antibiotic dose."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. IV ceftriaxone 2 g BD + IV dexamethasone (with/before first antibiotic dose) is the standard empirical regimen for community-acquired bacterial meningitis in adults aged 18–50."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A group of pilgrims develops profuse watery diarrhoea 12 hours after eating reheated meat curry at a community kitchen. There is no fever. Which mechanism of food poisoning best fits this presentation?</p>",
+  "answers": [
+    {
+      "text": "<div>Toxico-infection — organism multiplied in the gut and produced toxin in vivo</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. An 8–16 hour incubation with watery diarrhoea but no fever fits toxico-infection (e.g. Clostridium perfringens type A enterotoxin produced during sporulation in gut). The organism must multiply in vivo before releasing toxin, explaining the longer incubation than preformed-toxin poisoning.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Intoxication — preformed toxin ingested directly from the contaminated food</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Preformed toxin (intoxication) causes illness within 1–6 hours because the toxin is already active in the food at ingestion. A 12-hour incubation is too long for S. aureus or B. cereus emetic-type poisoning.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Infection — invasive organism penetrating the intestinal mucosa causing inflammation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Invasive infection (e.g. Salmonella, Campylobacter) typically has incubation &gt;24 hours, causes fever, and often produces bloody stools — none of which are present here.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Allergic food hypersensitivity — IgE-mediated mucosal response</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Food allergy presents within minutes to hours with urticaria, angioedema, or GI symptoms. Isolated watery diarrhoea at 12 hours affecting a group points to an infective aetiology, not individual allergy.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Classify by incubation and fever: 1–6 h without fever = intoxication; 8–16 h without fever = toxico-infection; >24 h with fever = infection/invasion."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "The three types differ by incubation: intoxication (1–6 h, preformed toxin), toxico-infection (8–16 h, in vivo toxin), infection (>24 h, invasion + fever)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

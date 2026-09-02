@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient with 18 days of fever has a Widal test showing: O antigen 1:80, H antigen 1:320. In an Indian endemic setting, which interpretation is MOST appropriate?</p>",
+  "answers": [
+    {
+      "text": "<div>Likely past infection or prior TAB vaccination — H titre is elevated but O titre is borderline</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. A high H titre with a low or borderline O titre indicates past infection or prior TAB vaccination. H antibodies (anti-flagellar) persist for months to years. In endemic India, O ≥ 1:160 is needed for significance; O 1:80 is borderline and non-diagnostic of active infection.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Active acute typhoid fever — the O titre of 1:80 confirms current infection</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. In Indian endemic areas, O ≥ 1:160 (some references ≥ 1:320) is required for significance due to high baseline titres from widespread exposure. O 1:80 is below this threshold and cannot confirm active typhoid.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Definitive diagnosis of typhoid — the H titre of 1:320 exceeds the diagnostic threshold</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A high H titre alone does not confirm active typhoid. H antibodies persist after past infection and are stimulated by the TAB vaccine. Diagnostic Widal interpretation requires a rising O titre — ideally a 4-fold rise in paired sera.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>False positive result due to cross-reaction with Proteus OX antigens in concurrent rickettsial infection</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Proteus OX cross-reactions occur in the Weil-Felix test (for rickettsial diseases), not in the Widal test. The pattern here (high H, low O) is characteristic of past exposure or vaccination, not a cross-reaction artefact.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "In endemic India, single Widal titres are unreliable. High H with low O = past exposure or vaccination. Active typhoid shows rising O titres. The gold standard requires paired sera showing a ≥4-fold rise."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Key Widal patterns: High O + rising titre → active infection. High H with low O → past infection or vaccination. In endemic areas, always prefer a 4-fold rise in paired sera (acute + convalescent) over a single titre for diagnosis."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which insulin preparation has the fastest onset of action and is best suited for dosing immediately before or after a meal?</p>",
+  "answers": [
+    {
+      "text": "<div>NPH (Isophane) insulin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>NPH is an intermediate-acting insulin with onset of 1–2 hours; it is not suitable for immediate prandial coverage.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Glargine (U-100)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Glargine is a long-acting basal insulin with a flat, peakless profile lasting ~24 hours — not for prandial use.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Lispro (rapid-acting analogue)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct! Rapid-acting analogues such as lispro, aspart, and glulisine have an onset of 10–15 minutes, making them ideal for peri-prandial administration.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Regular (soluble) insulin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Regular insulin has an onset of 30–60 minutes and must be given 30 min before meals — slower than rapid-acting analogues.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the insulin pharmacokinetics table: rapid-acting analogues (lispro/aspart/glulisine) have the shortest onset (~15 min) of all insulin types."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done! Rapid-acting analogues mimic the first-phase insulin spike of a healthy pancreas."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

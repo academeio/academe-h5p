@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 24-year-old woman requests a copper IUCD for contraception. She is currently being treated for pelvic inflammatory disease (PID) diagnosed 5 days ago. According to WHO Medical Eligibility Criteria (MEC), insertion of a copper IUCD now would be classified as:</p>",
+  "answers": [
+    {
+      "text": "<div>WHO MEC Category 1 — no restriction; IUCD can be inserted to provide contraception during PID treatment</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>MEC Category 1 means a condition for which there are no restrictions. Active PID is not in this category — insertion into an infected uterus risks ascending infection, failure of PID treatment, and increased risk of tubo-ovarian abscess.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>WHO MEC Category 2 — the advantages generally outweigh the risks; proceed with counselling</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>MEC Category 2 indicates advantages outweigh risks. Active PID does not fall here — it is an absolute contraindication because inserting a foreign body into an actively infected uterus worsens the infection.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>WHO MEC Category 4 — absolute contraindication; IUCD must NOT be inserted</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Active PID (current or within the last 3 months) is a WHO MEC Category 4 absolute contraindication for IUCD insertion. The device must not be inserted until the infection has been fully treated and resolved.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>WHO MEC Category 3 — the risks generally outweigh the advantages; avoid if possible but can be used if necessary</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>MEC Category 3 means the risks generally outweigh the advantages. Active PID is stricter — it is Category 4 (absolute contraindication), not Category 3.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Active PID is a WHO MEC Category 4 absolute contraindication for IUCD insertion. Inserting an IUCD into an infected uterus risks spreading infection, causing tubo-ovarian abscess, and failure of antibiotic treatment."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Active PID is WHO MEC Category 4 for IUCD insertion. The device must not be inserted until the infection has been fully treated."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

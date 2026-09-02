@@ -1,0 +1,76 @@
+{
+  "question": "<p>According to the Vaughan-Williams classification, amiodarone is primarily classified as a Class III antiarrhythmic. What is the primary mechanism of Class III agents?</p>",
+  "answers": [
+    {
+      "text": "<div>Potassium channel blockade, prolonging the action potential duration and effective refractory period</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Class III agents (amiodarone, sotalol, ibutilide, dofetilide) block cardiac K+ channels (especially IKr), prolonging repolarisation and the effective refractory period. This terminates re-entry circuits that depend on differential refractoriness.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Sodium channel blockade, slowing phase 0 depolarisation and conduction velocity</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Sodium channel blockade is the mechanism of Class I agents (quinidine, lidocaine, flecainide). Class III agents act on potassium channels.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Calcium channel blockade, slowing AV nodal conduction</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. AV nodal calcium channel blockade is the mechanism of Class IV agents (verapamil, diltiazem). Amiodarone does have some calcium channel blocking properties, but its primary class III mechanism is K+ channel blockade.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Beta-adrenergic receptor blockade, reducing sympathetic drive to the SA node</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Beta-adrenergic receptor blockade is the mechanism of Class II agents (metoprolol, atenolol). Amiodarone has some beta-blocking activity as well, but it is classified Class III based on its dominant K+ channel blockade.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Class III antiarrhythmics block potassium channels (particularly IKr), prolonging action potential duration and effective refractory period. This is the primary mechanism of amiodarone, sotalol, ibutilide, and dofetilide."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Class III = K+ channel blockade → prolonged APD and ERP → anti-re-entry. Amiodarone is the most clinically used Class III agent but also possesses Class I, II, and IV properties ('broad-spectrum' antiarrhythmic)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

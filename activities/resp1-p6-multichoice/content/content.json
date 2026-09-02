@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 45-year-old patient taking phenelzine (a monoamine oxidase inhibitor) for depression develops a dry, irritating cough. She asks whether she can take an over-the-counter cough syrup containing dextromethorphan. What is the most appropriate response?</p>",
+  "answers": [
+    {
+      "text": "<div>Dextromethorphan is safe with MAOIs because it is a non-opioid antitussive with no serotonergic activity</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Although classified as non-opioid, dextromethorphan weakly inhibits serotonin reuptake. Combined with a MAOI (which prevents serotonin breakdown), this creates excess serotonergic activity causing potentially fatal serotonin syndrome — hyperthermia, agitation, hyperreflexia, clonus, and autonomic instability.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Dextromethorphan is absolutely contraindicated with MAOIs due to the risk of serotonin syndrome</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Dextromethorphan's weak serotonin reuptake inhibition is dramatically amplified by MAOI-induced blockade of serotonin metabolism. Even a single dose can precipitate life-threatening serotonin syndrome. The safest antitussive for this patient is benzonatate — a peripheral agent acting on pulmonary stretch receptors with no serotonergic activity.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Dextromethorphan can be used safely if limited to one dose per day</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>There is no safe dose of dextromethorphan with a MAOI. The interaction is pharmacodynamic — the MAOI dramatically amplifies serotonin accumulation from any degree of reuptake inhibition. Even a single standard dose can precipitate serotonin syndrome.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Dextromethorphan is contraindicated, but codeine is a safe alternative in MAOI-treated patients</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Codeine is also dangerous with MAOIs. As an opioid metabolised to morphine, codeine combined with MAOIs risks excitation, hyperpyrexia, and coma via enhanced serotonergic CNS activity. Safe alternatives are peripheral antitussives — benzonatate or levodropropizine — which lack serotonergic activity.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the antitussive section on drug interactions. Dextromethorphan + MAOI = serotonin syndrome (absolute contraindication). Codeine + MAOI is also dangerous. The safe options are peripheral antitussives like benzonatate."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. The DXM–MAOI interaction is a must-know absolute contraindication. Always screen for MAOI use before recommending any OTC cough remedy. Benzonatate (peripheral, no serotonergic activity) is the safe alternative."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

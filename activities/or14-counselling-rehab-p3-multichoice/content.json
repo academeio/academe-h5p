@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 10-year-old boy presents to your PHC with 4 days of spiking fever, right thigh pain, reluctance to bear weight, and a CRP of 120 mg/L. Radiograph shows periosteal elevation. Which orthopaedic warning signal does this represent, and what is the MINIMUM acceptable referral timeline?</p>",
+  "answers": [
+    {
+      "text": "<div>Septic arthritis — refer within 72 hours for joint aspiration</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The periosteal elevation and metaphyseal location point to acute haematogenous osteomyelitis rather than septic arthritis. However, both are limb-threatening emergencies requiring same-day referral, not 72 hours.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Acute haematogenous osteomyelitis — refer within 24 hours for IV antibiotics and surgical drainage</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The diagnosis is correct but the timeline is dangerously slow. Four days of established infection with periosteal changes means subperiosteal abscess may have already formed; same-day/emergency referral is required.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Acute haematogenous osteomyelitis — same-day emergency referral for IV antibiotics ± surgical drainage</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Periosteal elevation indicates subperiosteal pus. Delay beyond hours risks cortical sequestrum, chronic osteomyelitis, and septicaemia. Same-day referral to a centre with orthopaedic surgery and paediatric anaesthesia is mandatory.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Cellulitis with secondary bone involvement — oral antibiotics and review in 48 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Periosteal elevation on radiograph is pathognomonic of bone involvement (osteomyelitis) and excludes a simple soft-tissue diagnosis. Starting oral antibiotics without drainage in established osteomyelitis risks chronic infection.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Periosteal elevation on X-ray in a febrile child with bone pain = subperiosteal abscess of acute haematogenous osteomyelitis. This mandates same-day emergency referral — every hour of delay increases the risk of cortical necrosis, septicaemia, and growth disturbance."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Periosteal elevation = subperiosteal abscess → same-day emergency referral. The 24-hour window quoted in many guidelines refers to early osteomyelitis without radiographic change."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

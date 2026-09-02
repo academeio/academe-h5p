@@ -1,0 +1,76 @@
+{
+  "question": "<p>At autopsy, shotgun pellets recovered from a victim show a tight cluster with a spread of approximately 4 cm. The shotgun barrel has a full choke. Which forensic inference is most appropriate?</p>",
+  "answers": [
+    {
+      "text": "<div>The muzzle was pressed against the skin at time of discharge.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A contact discharge would show a stellate laceration, extensive blackening, gas inflation of the wound, and typically no pellet spread pattern — full choke constriction is irrelevant at contact range.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The shot was fired from a close range of approximately 1–2 metres.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Full choke concentrates pellets over a longer distance. A 4 cm spread at full choke is consistent with a range of approximately 1–2 metres. The tighter the choke, the smaller the spread at any given distance, which directly informs range estimation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The shot was fired from a range exceeding 10 metres.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>At distances beyond 10 metres, even full choke would produce a spread well exceeding 4 cm. The tight cluster indicates a shorter range.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The choke degree has no bearing on range estimation.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Choke degree is a critical variable in range estimation for shotgun wounds. Full choke produces the tightest spread; cylinder bore produces the widest. Ignoring choke would render pellet-spread-based range estimation unreliable.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Reconsider: choke narrows the pellet spread. A full-choke tight cluster at 4 cm diameter indicates short-range (1–2 m) firing rather than contact or distant fire."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well analysed. Choke constriction directly modifies pellet dispersion at any given range — full choke at close range gives a deceptively tight pattern that mimics distant but unChooked fire. Always note the choke degree in your medicolegal report."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

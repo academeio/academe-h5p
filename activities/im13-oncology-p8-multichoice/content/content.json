@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 70-year-old man with Stage II colorectal cancer is assessed before treatment planning. He is confined to bed more than 50% of the day, requires assistance with self-care, and cannot perform work activities. What is his ECOG Performance Status score?</p>",
+  "answers": [
+    {
+      "text": "<div>ECOG PS 1</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>ECOG PS 1 = restricted in physically strenuous activity but able to carry out light work and ambulatory. This patient is far more limited.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>ECOG PS 2</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>ECOG PS 2 = ambulatory and capable of all self-care but unable to carry out any work activities; up and about more than 50% of waking hours. This patient is confined to bed &gt;50% of the day.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>ECOG PS 3</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. ECOG PS 3 = limited self-care ability; confined to bed or chair more than 50% of waking hours. This markedly impairs eligibility for curative-intent chemotherapy regimens and influences the risk-benefit discussion.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>ECOG PS 4</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>ECOG PS 4 = completely disabled; cannot carry out any self-care; totally confined to bed or chair. This patient retains some self-care ability.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the ECOG scale. Confined to bed or chair more than 50% of waking hours with limited but not absent self-care = ECOG PS 3. This is a critical threshold affecting both curative eligibility and chemotherapy dosing."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. ECOG PS 3 = confined to bed >50% of waking hours with limited self-care. Performance status is a critical determinant of treatment intent and regimen tolerability."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

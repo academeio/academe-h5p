@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient inhaled fumes in an enclosed fire and collapses with rapid cardiovascular deterioration, bright-red mucosae, and a bitter-almond smell. Which antidote regimen is correct?</p>",
+  "answers": [
+    {
+      "text": "<div>Sodium nitrite followed by sodium thiosulphate (or hydroxocobalamin)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. This is cyanide poisoning. Sodium nitrite converts Hb to metHb (which avidly binds CN⁻, liberating cytochrome c oxidase). Sodium thiosulphate then donates sulphur to convert CN⁻ to harmless thiocyanate. Hydroxocobalamin directly scavenges cyanide ions.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>High-flow 100% oxygen alone</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect as sole treatment. While oxygen is beneficial in cyanide poisoning (unlike in CO+CN combined exposure), it is not the specific antidote. The cyanide–cytochrome c oxidase block requires the nitrite–thiosulphate or hydroxocobalamin antidote for reversal.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Atropine and pralidoxime (PAM)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Atropine + PAM is the antidote for organophosphate poisoning (cholinergic toxidrome: miosis, bradycardia, secretions). Cyanide causes histotoxic hypoxia with a cytotoxic mechanism — cholinesterase is not involved.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>N-acetylcysteine (NAC) infusion</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. NAC is the antidote for paracetamol overdose — it replenishes glutathione to conjugate the toxic NAPQI metabolite. It has no role in acute cyanide poisoning.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The correct answer is sodium nitrite + sodium thiosulphate (or hydroxocobalamin). The bitter-almond smell + bright venous blood + cellular hypoxia pattern = cyanide. Remember: in combined fire smoke (CO+CN), use hydroxocobalamin rather than nitrite to avoid worsening methaemoglobinaemia."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Cyanide antidote: sodium nitrite (forms metHb) + sodium thiosulphate (forms thiocyanate) OR hydroxocobalamin (direct CN scavenger). In fire smoke inhalation (combined CO+CN), prefer hydroxocobalamin since nitrite would worsen CO toxicity by forming more metHb."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

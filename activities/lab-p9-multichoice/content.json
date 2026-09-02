@@ -1,0 +1,76 @@
+{
+  "question": "<p>You are performing ABO blood grouping on a fresh blood specimen using the tile method. You add anti-A serum to one drop and anti-B serum to another. After two minutes, you observe: agglutination with anti-A only, no agglutination with anti-B. According to Landsteiner's Law, what are the blood group AND the expected serum antibodies in this person?</p>",
+  "answers": [
+    {
+      "text": "<div>Blood group A; serum contains anti-A and anti-B antibodies.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Landsteiner's Law states that if an antigen is absent from the red cell surface, the corresponding antibody will be present in the serum — but never against the antigen you possess. Group A has anti-B in serum, not anti-A.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Blood group A; serum contains anti-B antibody only.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Agglutination with anti-A only = A antigen on red cells = Group A. Landsteiner's Law: Group A persons have anti-B (not anti-A) in their serum. This is consistent — you never form antibodies against your own antigens.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Blood group B; serum contains anti-A antibody only.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Agglutination with anti-A serum means the red cells carry A antigen, which defines Group A, not Group B. Group B agglutinates with anti-B serum.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Blood group AB; serum contains no ABO antibodies.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Group AB would agglutinate with BOTH anti-A and anti-B sera. Agglutination with anti-A only, and not anti-B, is the defining reaction for Group A.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review 'Governing Principles: ABO and Rh Blood Group Systems'. Landsteiner's Law: Group A → anti-B in serum; Group B → anti-A; Group AB → no ABO antibodies; Group O → both anti-A and anti-B. The serum antibody is always against the absent antigen."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Agglutination with anti-A only = Group A; serum has anti-B per Landsteiner's Law. You never produce antibodies against antigens on your own cells."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

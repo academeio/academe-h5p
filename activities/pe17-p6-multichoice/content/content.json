@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 4-year-old child has been seizing for 8 minutes and IV access is now established. Blood glucose is 5.2 mmol/L. Which of the following is the CORRECT next immediate step?</p>",
+  "answers": [
+    {
+      "text": "<div>IV phenytoin 20 mg/kg in dextrose-containing solution, infused over 20 minutes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Phenytoin is a second-line agent for status epilepticus, not the immediate first step after IV access. Critically, phenytoin must NEVER be infused in a dextrose-containing solution — it precipitates. It should be given in normal saline. Lorazepam is the first-line agent when IV access is available.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV lorazepam 0.1 mg/kg (maximum 4 mg), given over 2 minutes</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. With IV access available after 5–10 minutes of seizure, IV lorazepam 0.1 mg/kg (max 4 mg) is the first-line benzodiazepine. Blood glucose has been checked and is normal. Phenytoin (20 mg/kg in normal saline — NOT dextrose) is reserved for seizures that persist despite two benzodiazepine doses. Lorazepam has a longer duration of action than diazepam for sustained seizure control.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV midazolam 0.2 mg/kg, then prepare for immediate intubation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Midazolam (IV or buccal) is an alternative benzodiazepine when lorazepam is unavailable, but immediate intubation is not indicated at this stage — pharmacological seizure control should be attempted first through the stepwise protocol before progressing to anaesthetic agents for refractory SE.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>PR diazepam 0.5 mg/kg, as it provides faster onset than IV lorazepam</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Rectal diazepam is used when no IV access is available (community or pre-hospital setting). Since IV access is now established, IV lorazepam is preferred — it has more predictable pharmacokinetics and a longer duration of seizure suppression than rectal diazepam. PR diazepam does NOT have faster onset than IV lorazepam when IV access is available.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "With established IV access: lorazepam 0.1 mg/kg IV is the first-line agent. Key trap: phenytoin must NEVER be mixed in dextrose — it precipitates. PR diazepam is reserved for when IV access is unavailable. Always check blood glucose before anticonvulsants."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. With IV access: lorazepam 0.1 mg/kg IV (max 4 mg) is first-line. Always check glucose first. Phenytoin (second-line, in normal saline NOT dextrose) is for persistent SE after two benzodiazepine doses."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

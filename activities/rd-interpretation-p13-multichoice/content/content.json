@@ -1,0 +1,76 @@
+{
+  "question": "<p>A post-intubation portable AP chest radiograph shows the ET tube tip at 2 cm above the carina with the patient's neck in neutral position, and there is dense opacification of the left hemithorax with rightward tracheal shift and mediastinal deviation. What is the most likely diagnosis and immediate action?</p>",
+  "answers": [
+    {
+      "text": "<div>Left-sided pleural effusion — insert a left intercostal drain.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A pleural effusion produces a homogenous opacity but does NOT cause rightward tracheal shift; it may cause contralateral shift only if large. Tracheal shift toward the opacified side indicates volume LOSS, not fluid accumulation. This presentation is left lung collapse.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Right main bronchus intubation causing left lung collapse — withdraw the ET tube 2–3 cm under direct laryngoscopy and re-check position.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Despite the tube appearing 2 cm above the carina on a neutral-neck film, the left lung is collapsed with rightward mediastinal shift — indicating the tube has entered the RIGHT main bronchus (or the left lung is otherwise not being ventilated). The ET tube must be withdrawn 2–3 cm under direct laryngoscopy, then a repeat radiograph obtained to confirm bilateral lung ventilation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Left tension pneumothorax — insert a needle in the 2nd left intercostal space immediately.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Tension pneumothorax causes contralateral mediastinal shift (AWAY from the affected side) with hyperinflation and absent lung markings on the affected side. Here, there is dense opacification (not hyperinflation/hyperlucency) of the left hemithorax with rightward shift — this is collapse, not tension pneumothorax.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Consolidation — start empirical antibiotics and reassess in 24 hours.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Post-intubation dense unilateral opacification with contralateral mediastinal shift is not consolidation awaiting antibiotics — this is an acute device malposition causing lung collapse requiring IMMEDIATE correction of the ET tube position.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review ICU device-related complications. Unilateral collapse with mediastinal shift toward the collapsed lung after intubation means the ET tube is in the right main bronchus. The tube must be withdrawn and repositioned immediately."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Unilateral opacification with contralateral mediastinal shift on an ICU film signals right main bronchus intubation with left lung collapse — withdraw and recheck immediately."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

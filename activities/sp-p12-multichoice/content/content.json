@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 22-year-old woman took 30 paracetamol tablets 6 hours ago and currently feels completely well with normal vital signs. What is the most appropriate next step?</p>",
+  "answers": [
+    {
+      "text": "<div>Measure serum paracetamol, plot on Rumack-Matthew nomogram, and start N-acetylcysteine if above the treatment line</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Asymptomatic presentation at 6 hours is characteristic of paracetamol overdose — NAPQI accumulation precedes hepatocellular necrosis by hours. The Rumack-Matthew nomogram at 4–12h post-ingestion guides NAC therapy. Early NAC (within 8–10 hours) is highly hepatoprotective.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Reassure and discharge — no liver damage is possible since she is asymptomatic at 6 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Dangerous error. Asymptomatic presentation at 6 hours is the RULE for paracetamol overdose, not a sign of safety. Hepatic necrosis develops at 24–72 hours. Discharging without measuring serum paracetamol could result in preventable liver failure.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Give activated charcoal and observe for 4 hours before any further intervention</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. At 6 hours, activated charcoal has minimal benefit (most paracetamol already absorbed). Delaying the nomogram-guided decision by a further 4 hours risks missing the optimal NAC window (best within 8–10 hours of ingestion).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Perform immediate liver transplant assessment</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect at this stage. Transplant assessment is appropriate if established liver failure develops (24–72h). At 6 hours, the priority is nomogram-guided NAC therapy to PREVENT hepatotoxicity, not to manage established failure.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The correct answer is measuring paracetamol level and using the Rumack-Matthew nomogram. Paracetamol overdose is deceptive — asymptomatic at 6h is expected, not reassuring. Liver failure develops at 24–72h. NAC is most effective within 8–10 hours of ingestion; never delay based on absence of symptoms."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Paracetamol overdose management: (1) Measure serum level at 4–12h post-ingestion; (2) Plot on Rumack-Matthew nomogram; (3) If above treatment line, start NAC immediately. Early NAC prevents NAPQI-mediated hepatocellular necrosis."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

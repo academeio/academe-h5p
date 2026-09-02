@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 72-year-old patient with known COPD has an SpO2 of 86% on room air and a PaCO2 of 58 mmHg on recent ABG. Which oxygen delivery device is most appropriate to initiate?</p>",
+  "answers": [
+    {
+      "text": "<div>Non-rebreather mask at 15 L/min</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A non-rebreather mask delivers FiO2 0.8–1.0, far exceeding the safe target for a hypercapnic COPD patient and risking CO2 narcosis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Nasal cannula at 6 L/min</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Nasal cannula at 6 L/min delivers approximately FiO2 0.44, which is unpredictable and potentially too high for this patient with chronic hypercapnia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>28% Venturi mask at the manufacturer-specified flow rate</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. A 28% Venturi mask delivers a precise, controlled FiO2 targeting SpO2 88–92% — the recommended range in hypercapnic COPD. This minimises the risk of worsening CO2 retention.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Simple face mask at 8 L/min</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A simple face mask is a variable-performance device that delivers FiO2 0.35–0.60, which is uncontrolled and inappropriate for a patient requiring precise FiO2 titration.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "In hypercapnic COPD, you need precise FiO2 control. Only a fixed-performance device (Venturi mask) can guarantee this. Review the clinical applications section."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. The Venturi mask is the device of choice when precise, controlled FiO2 delivery is essential — particularly in hypercapnic COPD."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>Using the WHO IMNCI classification for pneumonia, which of the following correctly matches age group to the fast-breathing threshold requiring classification as 'pneumonia' (non-severe)?</p>",
+  "answers": [
+    {
+      "text": "<div>2–12 months: ≥40 breaths/min; 12 months–5 years: ≥50 breaths/min</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>These thresholds are REVERSED. Infants aged 2–12 months have a higher normal respiratory rate, so the IMNCI fast-breathing threshold is HIGHER (≥50/min). Older children aged 12 months–5 years have a lower threshold of ≥40/min. Getting this reversed leads to under-triage of sick infants and over-triage of older toddlers.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>2–12 months: ≥50 breaths/min; 12 months–5 years: ≥40 breaths/min</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. WHO IMNCI thresholds for fast breathing: 0–2 months ≥60/min (neonates), 2–12 months ≥50/min (infants), 12 months–5 years ≥40/min (young children). These age-specific cut-offs account for normally higher respiratory rates in younger infants. Any child meeting these thresholds with cough or difficulty breathing is classified as 'pneumonia' and requires oral amoxicillin.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>0–5 years: ≥40 breaths/min regardless of age</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A single threshold for all ages under 5 years is incorrect and dangerous. A rate of 40/min in a 3-month-old is normal (and would miss pneumonia), while in a 2-year-old it indicates fast breathing. IMNCI uses three age-specific thresholds: ≥60/min (0–2 months), ≥50/min (2–12 months), ≥40/min (12 months–5 years).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>2–12 months: ≥60 breaths/min; 12 months–5 years: ≥50 breaths/min</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>≥60/min is the IMNCI fast-breathing threshold for the youngest age group (0–2 months/neonates), not for infants 2–12 months. For 2–12 months the threshold is ≥50/min; for 12 months–5 years it is ≥40/min. Applying the neonatal threshold to infants would significantly under-diagnose pneumonia in this vulnerable age group.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "WHO IMNCI fast-breathing thresholds (must memorise): 0–2 months ≥60/min; 2–12 months ≥50/min; 12 months–5 years ≥40/min. Higher threshold for younger infants because their normal respiratory rates are higher."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Memorise these three IMNCI thresholds: 0–2 months ≥60/min, 2–12 months ≥50/min, 12 months–5 years ≥40/min. They define fast breathing and trigger the 'pneumonia' classification requiring treatment."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

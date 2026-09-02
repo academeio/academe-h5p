@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 6-year-old girl's peripheral blood smear shows hypochromic microcytic red cells, occasional target cells, pencil cells, and a markedly elevated RDW. Her serum ferritin is 4 µg/L (low). Which diagnosis does this smear-ferritin combination most strongly support?</p>",
+  "answers": [
+    {
+      "text": "<div>Beta-thalassaemia trait — microcytic with target cells, low-normal ferritin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Beta-thalassaemia trait also shows microcytosis and target cells, but ferritin is typically normal and RDW is usually normal or only mildly elevated. A very low ferritin with high RDW is characteristic of IDA, not thalassaemia trait.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Iron deficiency anaemia — hypochromic microcytic with high RDW and very low ferritin</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. IDA smear: hypochromia, microcytosis, pencil cells (elliptocytes), target cells, high RDW (anisocytosis). Very low ferritin (&lt;12 µg/L in children) confirms depleted iron stores. The combination of high RDW + low ferritin distinguishes IDA from thalassaemia trait (which has normal RDW and ferritin).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>G6PD deficiency — bite cells and Heinz bodies with normal ferritin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>G6PD deficiency shows bite cells and Heinz bodies (on supravital stain) during haemolytic episodes. There are no pencil cells, and ferritin may be elevated (acute-phase reaction). This smear picture does not match G6PD.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Anaemia of chronic disease — normocytic or mildly microcytic with elevated ferritin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Anaemia of chronic disease typically shows normocytic-normochromic or mildly microcytic anaemia with a NORMAL or elevated ferritin (iron is sequestered, not depleted). The very low ferritin here excludes this diagnosis.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Very low ferritin + hypochromic microcytic smear + high RDW = IDA. Thalassaemia trait has normal RDW and ferritin. ACD has normal or elevated ferritin. G6PD shows bite cells."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct! IDA smear: hypochromia + microcytosis + pencil cells + high RDW. Very low ferritin confirms. Key distinctions: IDA = high RDW + low ferritin; thalassaemia trait = normal RDW + normal ferritin; ACD = normal/high ferritin."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 55-year-old hypermetropic woman presents with a 3-hour history of severe right eye pain, headache, nausea, IOP 58 mmHg, mid-dilated non-reactive pupil, and corneal oedema. What is the correct immediate management sequence?</p>",
+  "answers": [
+    {
+      "text": "<div>Topical latanoprost once nightly + topical timolol twice daily + referral to glaucoma clinic within one month</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This is the chronic POAG regimen — completely inappropriate here. This is an acute angle-closure crisis requiring emergency intervention within hours, not a chronic condition managed with outpatient drops. Prostaglandin analogues are too slow-acting and do not address mechanical angle closure.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Pilocarpine 2% topical every 15 minutes × 2 doses + IV acetazolamide 500 mg + IV mannitol 20%, followed by laser peripheral iridotomy once IOP controlled</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. This is the emergency protocol for acute PACG: (1) pilocarpine 2% to constrict the pupil and break pupil block; (2) IV acetazolamide to rapidly reduce aqueous production; (3) IV mannitol as an osmotic agent to draw fluid from the vitreous and reduce IOP; (4) once IOP is controlled and cornea clears, definitive laser peripheral iridotomy to prevent recurrence.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Urgent trabeculectomy under general anaesthesia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Trabeculectomy (filtering surgery) is not the immediate emergency treatment. Medical therapy first — pilocarpine, acetazolamide, mannitol — to bring IOP down acutely. Laser PI is then the definitive procedure. Trabeculectomy may be considered later if medical and laser treatment fail.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Topical steroids and cycloplegic drops to reduce inflammation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Cycloplegics (e.g. atropine) would DILATE the pupil — catastrophic in PACG as it would worsen pupil block and further elevate IOP. Steroids alone address inflammation but not the underlying mechanism. The pupil must be constricted with pilocarpine, not dilated.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Acute PACG emergency protocol: pilocarpine 2% (breaks pupil block by constricting pupil) + IV acetazolamide 500 mg (reduces aqueous production) + IV mannitol 20% (osmotic — pulls fluid from vitreous) → then laser peripheral iridotomy once IOP controlled. NEVER use cycloplegics (they dilate the pupil and worsen angle closure)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Critical distinction reinforced: Acute PACG = emergency pilocarpine + IV acetazolamide + IV mannitol → laser PI. Chronic POAG = prostaglandin analogue first-line. Never swap these regimens."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A lumbar puncture yields: opening pressure 340 mmH₂O, turbid CSF, WBC 2,800 cells/µL (90% neutrophils), protein 280 mg/dL, glucose 18 mg/dL (blood glucose 90 mg/dL). Which diagnosis is most consistent with this CSF profile?</p>",
+  "answers": [
+    {
+      "text": "<div>Viral (aseptic) meningitis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Viral meningitis typically shows lymphocytic pleocytosis (&lt;500 WBC), mildly elevated protein (50–150 mg/dL), and normal glucose. This CSF is far too inflammatory for viral meningitis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Bacterial meningitis</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. This CSF profile is classic for bacterial meningitis: high neutrophilic pleocytosis (&gt;1,000), markedly elevated protein (&gt;100 mg/dL), and low CSF:blood glucose ratio (&lt;0.3 — here 18/90 = 0.20). Turbidity and raised opening pressure further confirm bacterial aetiology.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Tuberculous meningitis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>TBM shows lymphocytic pleocytosis (100–500), elevated protein (100–500 mg/dL), low glucose, and characteristically forms a cobweb clot. This acute high-neutrophil picture is more consistent with bacterial meningitis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Cryptococcal meningitis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Cryptococcal meningitis typically shows minimal pleocytosis, high opening pressure, and India ink positivity. A neutrophilic count of 2,800 cells points to bacterial meningitis.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the CSF profiles: bacterial meningitis = neutrophilic pleocytosis + protein >100 mg/dL + glucose <45 mg/dL (CSF:serum ratio <0.4). This profile — 2,800 neutrophils, protein 280, glucose 18 — is unambiguously bacterial."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Key CSF discriminators: bacterial (neutrophils, protein >100, glucose <45 or CSF:serum <0.4); viral (lymphocytes, protein mildly raised, normal glucose); TBM (lymphocytes, low glucose, fibrin clot); cryptococcal (India ink +, minimal cells, high pressure)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

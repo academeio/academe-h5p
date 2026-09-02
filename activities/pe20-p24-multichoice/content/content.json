@@ -1,0 +1,76 @@
+{
+  "question": "<p>You receive a CSF report: appearance = clear; WBC 220/mm³ (98% lymphocytes); protein 55 mg/dL; glucose 62 mg/dL (concurrent blood glucose 85 mg/dL); Gram stain = no organisms. The CSF:serum glucose ratio is 0.73. Which interpretation is MOST CORRECT?</p>",
+  "answers": [
+    {
+      "text": "<div>Bacterial meningitis — treat empirically with ceftriaxone + vancomycin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Bacterial meningitis typically shows neutrophilic pleocytosis, very high protein, and low glucose (ratio &lt;0.4). This CSF has lymphocytic cells and a NORMAL glucose ratio (0.73), making bacterial meningitis very unlikely. Empiric antibiotics here would be incorrect.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Viral (aseptic) meningitis — consistent with normal glucose and lymphocytic pleocytosis</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This profile is classic for viral (aseptic) meningitis: clear CSF, lymphocytic pleocytosis, mildly elevated or normal protein, and NORMAL CSF glucose (ratio 0.73, well above 0.6). The normal glucose ratio is the key feature distinguishing viral from TBM (where glucose is low). Management is supportive; most viral meningitis resolves without specific antiviral therapy (exception: herpes encephalitis, which requires aciclovir).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Tuberculous meningitis — start ATT immediately</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>TBM produces a similar lymphocytic picture but with LOW CSF glucose (ratio typically &lt;0.5) and markedly elevated protein (often &gt;100–200 mg/dL). This CSF has a normal glucose ratio of 0.73 and only mildly elevated protein, making TBM unlikely.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Normal CSF — no further action required</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Normal CSF typically has &lt;5 WBC/mm³ (lymphocytes), protein 15–45 mg/dL, and normal glucose. A WBC count of 220/mm³ is clearly abnormal (pleocytosis) and indicates meningitis — the pattern indicates viral aetiology, not a normal result.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Interpret CSF step by step: (1) cell type = lymphocytes → viral or TBM, not bacterial; (2) glucose ratio = 0.73 = NORMAL → viral, NOT TBM (TBM = low glucose ratio <0.5); (3) protein = mildly elevated → fits viral. Conclusion: viral (aseptic) meningitis. The normal glucose is the critical differentiator from TBM."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. The key distinguishing features are: (1) lymphocytic pleocytosis; (2) normal or mildly elevated protein; (3) NORMAL CSF glucose ratio (0.73 > 0.6). This is the viral meningitis pattern. The normal glucose ratio is the single most important parameter distinguishing viral meningitis (normal glucose) from TBM and bacterial meningitis (low glucose)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

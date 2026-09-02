@@ -1,0 +1,76 @@
+{
+  "question": "<p>Why is aciclovir selectively toxic to herpes-infected cells and largely harmless to uninfected human cells?</p>",
+  "answers": [
+    {
+      "text": "<div>Aciclovir is phosphorylated to its active triphosphate form exclusively by viral thymidine kinase (TK), which is present only in virus-infected cells.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Viral TK phosphorylates aciclovir ~3000 times more efficiently than human TK. Only in HSV/VZV-infected cells does the drug reach concentrations sufficient to inhibit viral DNA polymerase — an elegant example of selective toxicity.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Aciclovir enters only virus-infected cells because its receptor is a viral surface protein.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Aciclovir is a small nucleoside analogue taken up passively by all cells. Selectivity is conferred by differential phosphorylation inside the cell, not by receptor-mediated entry.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Aciclovir inhibits human DNA polymerase, but viral DNA polymerase is 100× more sensitive to this inhibition.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>While viral DNA polymerase IS more sensitive to aciclovir triphosphate than host polymerase, the primary selectivity mechanism is the viral TK-dependent activation step, not differential polymerase sensitivity alone.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Aciclovir is degraded rapidly by human cell enzymes before it can exert any effect in uninfected cells.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Aciclovir is not rapidly degraded in human cells. Its selectivity is based on the activation step (viral TK phosphorylation), not on differential degradation.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the Anti-Herpetic Drugs block. Aciclovir selectivity: activated only in herpes-infected cells by viral TK → active triphosphate inhibits viral DNA polymerase."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Viral TK-dependent activation is the textbook example of pro-drug selective toxicity — it is also why TK-deficient viral mutants are aciclovir-resistant."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A baby is born at term by normal vaginal delivery. At 1 minute, the baby is pink body with blue extremities, has a heart rate of 110 bpm, cries loudly, moves all limbs actively, and sneezes when a catheter is passed near the nostril. What is this baby's 1-minute APGAR score?</p>",
+  "answers": [
+    {
+      "text": "<div>7</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Review each APGAR parameter: colour (acrocyanosis = 1), heart rate &gt;100 = 2, grimace (sneeze = 2), activity (active = 2), respiration (strong cry = 2). Total = 9, not 7.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>8</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Colour with acrocyanosis scores 1 (not 0 or 2). HR &gt;100 scores 2; sneeze to suction scores 2; active limb movement scores 2; strong cry scores 2. Total = 9.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>9</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct! Colour: pink body + blue extremities = acrocyanosis = 1. HR &gt;100 = 2. Grimace: sneeze = 2. Activity: active movement = 2. Respiration: strong cry = 2. Total = 9/10.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>10</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A perfect APGAR of 10 requires completely pink extremities too. Acrocyanosis (blue hands and feet) is common at 1 minute and scores 1 for colour, not 2.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the APGAR scoring: Colour 0=blue all over, 1=acrocyanosis (pink body/blue periphery), 2=completely pink. HR 0=absent, 1=<100, 2=>100. Grimace 0=none, 1=grimace, 2=sneeze/cough/cry. Activity 0=limp, 1=some flexion, 2=active. Respiration 0=absent, 1=slow/irregular, 2=strong cry."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done! Remember: APGAR assesses Appearance (colour), Pulse (HR), Grimace (reflex), Activity (tone), Respiration. Each is 0–2; total is 0–10. Acrocyanosis is the most common cause of a score of 9 rather than 10 at 1 minute."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

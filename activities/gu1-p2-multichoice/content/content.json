@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 60-year-old man with an indwelling urinary catheter develops fever and rigors. Urine from the catheter drainage bag grows <em>Candida albicans</em> ≥10⁴ CFU/mL. What is the most appropriate next step?</p>",
+  "answers": [
+    {
+      "text": "<div>Obtain a fresh specimen aspirated from the catheter sampling port and re-culture</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The catheter sampling port provides fresh urine directly from the bladder. Urine pooled in the drainage bag is colonised by organisms growing in the drainage system and is not a valid specimen for culture. Always aspirate from the disinfected sampling port in catheterised patients.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Start systemic fluconazole immediately — the colony count confirms invasive candidiasis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A drainage bag specimen is unreliable — organisms multiply in pooled urine, giving falsely elevated colony counts. Initiating antifungals based on bag culture risks treating colonisation rather than true infection. A valid specimen must be obtained first.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Perform suprapubic aspiration before making any treatment decision</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Suprapubic aspiration is the gold standard for avoiding contamination but is invasive and not the routine first step in catheterised patients. Aspirating from the catheter sampling port is standard practice; suprapubic aspiration is reserved for neonates or repeatedly equivocal results.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Irrigate the bladder with amphotericin B and repeat culture after 48 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Bladder irrigation with amphotericin B is occasionally used for persistent candiduria but is not appropriate before confirming infection with a properly collected specimen. The priority is obtaining a valid sample from the catheter port.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The catheter drainage bag is not a valid specimen source — organisms proliferate in pooled urine, overestimating true infection. Review the three specimen collection methods and their thresholds: MSU (≥10⁵), catheter port (≥10³), suprapubic aspiration (any growth)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "In catheterised patients, the drainage bag is colonised and yields unreliable cultures. Always aspirate from the catheter sampling port for valid microbiological interpretation. The significant bacteriuria threshold for catheter port specimens is ≥10³ CFU/mL."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

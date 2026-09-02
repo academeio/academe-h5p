@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which virulence factor of Helicobacter pylori is injected into gastric epithelial cells via a type IV secretion system and is most directly linked to gastric adenocarcinoma?</p>",
+  "answers": [
+    {
+      "text": "<div>CagA protein</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>CagA (cytotoxin-associated gene A) is injected into gastric epithelial cells via the type IV secretion system. Inside the cell, CagA is phosphorylated and activates SHP-2 phosphatase, producing the 'hummingbird phenotype' — cell elongation, increased motility and uncontrolled proliferation. CagA-positive strains carry significantly higher gastric cancer risk.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>VacA toxin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>VacA (vacuolating cytotoxin A) causes vacuolation of epithelial cells and induces apoptosis, but it is secreted extracellularly — not delivered via the type IV secretion system. VacA contributes to mucosal damage but is not the primary oncogenic factor.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Urease</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Urease hydrolyses urea to ammonia, buffering gastric acid and enabling H. pylori colonisation in the acidic gastric environment. It is a colonisation factor essential for survival, not an oncogenic virulence protein delivered via T4SS.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Flagellin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Flagellin provides motility, allowing H. pylori to swim through the mucus layer and reach the gastric epithelium. Like urease, it is a colonisation factor required for establishing infection, not an oncogenic effector protein.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review H. pylori virulence factors by function: urease (acid buffering, colonisation), flagellin (motility, colonisation), VacA (vacuolation, secreted extracellularly), CagA (oncogenesis, injected intracellularly via type IV secretion system). Only CagA uses T4SS delivery."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct! CagA is the key oncogenic virulence factor of H. pylori. Its delivery via the type IV secretion system directly into host cells, followed by phosphorylation-dependent signalling disruption, explains why CagA-positive strains are far more carcinogenic."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

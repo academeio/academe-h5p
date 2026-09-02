@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which SI unit is used to express the effective dose of ionising radiation, accounting for tissue sensitivity?</p>",
+  "answers": [
+    {
+      "text": "<div>Gray (Gy)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The Gray measures absorbed dose (energy deposited per unit mass) but does not account for tissue radiosensitivity — that is the role of the Sievert.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Sievert (Sv)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The Sievert (Sv) is the unit of effective dose; it weights absorbed dose by radiation type and tissue sensitivity, making it the appropriate unit for radiation protection and occupational limits.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Becquerel (Bq)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The Becquerel measures radioactivity (disintegrations per second), not dose received by tissue.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Roentgen (R)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The Roentgen is an older unit of radiation exposure in air, superseded by SI units in clinical and regulatory use.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Not quite. The Sievert (Sv) measures effective dose (absorbed dose × tissue weighting factors), used for occupational exposure limits and patient dose comparisons. Gray (Gy) measures raw absorbed dose."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct! Sievert (Sv) = effective dose; Gray (Gy) = absorbed dose. Both are important — remember which is which for dose-limit discussions."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>The OT manager needs to sterilise arthroscopic instruments with delicate lenses that will be damaged by autoclaving. Which method is most appropriate?</p>",
+  "answers": [
+    {
+      "text": "<div>Low-temperature hydrogen peroxide gas plasma</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. H₂O₂ gas plasma (e.g., STERRAD) achieves sterilisation at 50–55°C through reactive free radicals, making it safe for heat-sensitive optical instruments. It leaves no toxic residue, unlike ethylene oxide.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Hot air oven at 180°C for 30 minutes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Hot air oven uses even higher temperatures than the autoclave (160–180°C). This would certainly destroy delicate optical components. It is suited for glassware, metal instruments, and powders — not lenses.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Glutaraldehyde 2% immersion for 10 minutes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Glutaraldehyde at 10 minutes achieves high-level disinfection, not sterilisation. Sterilisation with glutaraldehyde requires 10 hours of immersion. For instruments entering sterile body cavities, HLD alone is insufficient.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>UV radiation in a closed cabinet</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>UV radiation only decontaminates surfaces in its direct line of sight. It has poor penetration and cannot reach shadowed surfaces of complex instruments. It is used for air and surface decontamination, not instrument sterilisation.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "When heat will damage the item, choose a low-temperature sterilisation method. H₂O₂ gas plasma (50–55°C) or ethylene oxide (50–60°C) are the main options; EtO requires lengthy aeration to remove toxic residues, making H₂O₂ plasma preferred."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Hydrogen peroxide gas plasma is the method of choice for heat-labile instruments requiring sterilisation. It operates at low temperature (50–55°C), has a short cycle time, and leaves no toxic residues."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

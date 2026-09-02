@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 3-year-old presents with 2 weeks of fever, irritability, and neck stiffness. CSF analysis shows: WBC 180/mm³ (90% lymphocytes), protein 280 mg/dL, glucose 28 mg/dL (concurrent blood glucose 90 mg/dL), and xanthochromic appearance. Which type of meningitis does this CSF profile MOST strongly suggest?</p>",
+  "answers": [
+    {
+      "text": "<div>Acute bacterial meningitis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Bacterial meningitis typically shows neutrophilic pleocytosis (&gt;80% neutrophils), very high protein, and very low glucose. A predominantly lymphocytic CSF with subacute onset makes bacterial meningitis much less likely.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Viral (aseptic) meningitis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Viral meningitis shows lymphocytic pleocytosis and mildly elevated protein, but the glucose is NORMAL (CSF:serum ratio &gt;0.6). The very low CSF glucose (28/90 = 0.31 ratio) and high protein (280 mg/dL) make viral meningitis incorrect.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Tuberculous meningitis (TBM)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This profile is classic for TBM: subacute onset (weeks), lymphocytic pleocytosis, markedly elevated protein (&gt;200 mg/dL), and low CSF glucose (CSF:serum ratio 28/90 = 0.31, i.e. &lt;0.5). The glucose is the key differentiator from viral meningitis — TBM and bacterial meningitis both lower CSF glucose, but TBM has lymphocytes, not neutrophils.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Fungal meningitis (cryptococcal)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Cryptococcal meningitis can produce a similar lymphocytic picture with low glucose. However, in a 3-year-old in India, TBM is far more common than cryptococcal meningitis (the latter occurs mainly in immunocompromised hosts). Ink preparation for cryptococcal capsules would distinguish them.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Apply the five-step CSF interpretation framework: (1) cell type — lymphocytes; (2) protein — very high; (3) glucose — very low (ratio 0.31); (4) tempo — subacute weeks; (5) other features — high protein xanthochromia. Low glucose + lymphocytes = TBM or fungal, not viral. TBM is the correct answer in this clinical context."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. The combination of subacute onset (weeks), lymphocytic pleocytosis, very high protein, and very low glucose (ratio <0.5) is the hallmark CSF profile for TBM. Glucose <0.5 of blood glucose with lymphocytic cells distinguishes TBM from viral meningitis (normal glucose) and from bacterial meningitis (neutrophilic cells)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

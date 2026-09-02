@@ -1,0 +1,76 @@
+{
+  "question": "<p>The Malnutrition Universal Screening Tool (MUST) scores which three parameters to calculate overall nutritional risk?</p>",
+  "answers": [
+    {
+      "text": "<div>Serum albumin, serum pre-albumin, and total lymphocyte count</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>These are laboratory markers — MUST does not use blood tests. It is a clinical tool designed to be used at the bedside without laboratory results.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>BMI, unintentional weight loss over 3–6 months, and acute disease effect (nil-by-mouth or likely to be for &gt;5 days)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. MUST = BMI score + weight loss score + acute disease effect score. Each domain is scored 0, 1, or 2; total score ≥2 = high risk requiring nutritional support.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Grip strength, mid-arm circumference, and triceps skin-fold thickness</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>These are anthropometric measurements used in detailed nutritional assessment, not the MUST screening tool.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Age, sex, and surgical diagnosis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Age and sex are not scored in MUST. The tool captures current nutritional state and acute risk — not demographics.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Remember MUST as a bedside clinical tool — no blood tests needed. Three domains: (1) current BMI, (2) unintentional weight loss over 3–6 months, (3) acute disease effect (starvation ≥5 days). Score each 0-2; total ≥2 = high risk."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. MUST is a three-domain bedside screen: BMI + recent weight loss + acute disease effect. It is validated for use across all clinical settings and takes less than 5 minutes."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

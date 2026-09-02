@@ -1,0 +1,76 @@
+{
+  "question": "<p>A contact lens wearer presents with severe eye pain disproportionate to the clinical signs, a ring-shaped stromal infiltrate, and a history of swimming in contact lenses. Which drug is the cornerstone of treatment?</p>",
+  "answers": [
+    {
+      "text": "<div>Topical natamycin 5%</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Natamycin is antifungal and has no amoebicidal activity. Acanthamoeba is a free-living amoeba — it requires specific antiseptic/cysticidal agents, not antifungals.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Polyhexamethylene biguanide (PHMB) 0.02%</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. PHMB (polyhexamethylene biguanide) is the cornerstone of Acanthamoeba keratitis treatment — it is cysticidal. It is combined with propamidine isethionate (Brolene). Early diagnosis is critical as the cyst form is drug-resistant.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Topical ganciclovir 0.15% gel</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Ganciclovir is an antiviral (CMV, HSV). Acanthamoeba is a protozoan amoeba — antivirals have no effect. The ring infiltrate and contact lens + swimming exposure should point to Acanthamoeba.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Oral doxycycline 100 mg twice daily</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Oral doxycycline has limited amoebicidal effect and is not the primary treatment for Acanthamoeba keratitis. Topical PHMB + propamidine are the cornerstones; systemic treatment is rarely needed.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Acanthamoeba keratitis treatment = PHMB 0.02% + propamidine isethionate (Brolene). Not antifungal, not antiviral. Ring infiltrate + contact lens use is the classic presentation."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent! Acanthamoeba = contact lens + water + ring infiltrate + severe pain → PHMB (polyhexamethylene biguanide). The cyst stage makes treatment prolonged (6–12 months)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

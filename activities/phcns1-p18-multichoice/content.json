@@ -1,0 +1,76 @@
+{
+  "question": "<p>Why is levodopa always combined with carbidopa (a peripheral DOPA-decarboxylase inhibitor) in clinical use?</p>",
+  "answers": [
+    {
+      "text": "<div>Carbidopa blocks peripheral conversion of levodopa to dopamine, reducing nausea and vomiting while increasing the amount of levodopa reaching the brain</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Without carbidopa, &gt;95% of oral levodopa is converted to dopamine in the peripheral circulation by DOPA-decarboxylase (DDC) before reaching the brain. Peripheral dopamine causes nausea, vomiting, and hypotension but cannot cross the BBB. Carbidopa (which does NOT cross the BBB) blocks this peripheral conversion, dramatically increasing CNS bioavailability of levodopa.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Carbidopa stimulates BBB transport proteins, actively pumping levodopa across the blood-brain barrier</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Levodopa crosses the BBB via the large neutral amino acid transporter (LAT1) — this is an intrinsic property of levodopa's structure, not dependent on carbidopa. Carbidopa works peripherally only, blocking DDC outside the brain.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Carbidopa is an MAO-B inhibitor that prevents dopamine breakdown in the striatum after levodopa is converted</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>MAO-B inhibitors (selegiline, rasagiline) prevent dopamine breakdown in the CNS. Carbidopa is a peripheral DDC inhibitor — it prevents the peripheral conversion of levodopa to dopamine before it reaches the brain. These are different drugs with different mechanisms.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Carbidopa blocks COMT in the gut wall, preventing first-pass metabolism of levodopa in the intestine</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>COMT inhibitors (entacapone, tolcapone) block catechol-O-methyltransferase, which methylates levodopa to 3-O-methyldopa. Carbidopa specifically inhibits DOPA-decarboxylase (DDC), not COMT. Both strategies increase levodopa bioavailability but through different enzymes.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key concept: levodopa must be converted to dopamine (by DDC) to be active. Without carbidopa, most conversion happens peripherally (causing ADRs but no therapeutic benefit, since dopamine cannot cross the BBB). Carbidopa confines the conversion to the brain."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "The levodopa/carbidopa combination is rational pharmacokinetics: carbidopa cannot enter the brain (quaternary structure) so it only blocks peripheral DDC, directing levodopa to the one place it needs to go — the CNS — while eliminating peripheral dopaminergic side-effects."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

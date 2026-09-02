@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which mechanism correctly distinguishes benzodiazepines from barbiturates at the GABA-A receptor?</p>",
+  "answers": [
+    {
+      "text": "<div>Benzodiazepines increase the frequency of Cl⁻ channel opening; barbiturates increase the duration — and can open the channel directly without GABA at high doses</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. BZDs require GABA to be present (allosteric modulation only) and increase how often the channel opens — this ceiling effect explains their wider therapeutic index. Barbiturates increase how long each opening lasts and at supra-therapeutic doses bypass GABA entirely, explaining their dose-dependent respiratory depression.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Benzodiazepines increase the duration of Cl⁻ channel opening; barbiturates increase the frequency</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This is the reverse of the correct answer. A useful mnemonic: Ben(zodiazepines) = Frequency; Bar(biturates) = duRation. BZDs bind at the α-γ interface; barbiturates bind at the β-subunit.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Both agents act identically on GABA-A — only their pharmacokinetic half-lives differ</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Their mechanisms are fundamentally different. This difference has critical clinical implications: barbiturates can cause fatal respiratory depression without a ceiling (direct channel opening), while BZDs have a ceiling effect and a specific reversal agent (flumazenil).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Benzodiazepines block GABA-A while barbiturates activate it — they have opposite mechanisms</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Both BZDs and barbiturates are GABA-A potentiators (positive allosteric modulators) — they enhance GABAergic inhibition. Neither blocks the receptor. Their distinction lies in how they modulate channel kinetics.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Remember: BZDs = frequency increase (require GABA = ceiling effect = safer); barbiturates = duration increase (can open without GABA = no ceiling = narrow therapeutic index). This distinction determines clinical safety profiles."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "This mechanistic difference (frequency vs duration; ceiling vs no ceiling) is the pharmacological basis for the safety advantage of BZDs over barbiturates and explains why flumazenil reverses BZDs but no reversal agent exists for barbiturates."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>In which patient population is HbA1c UNRELIABLE for diagnosing or monitoring diabetes?</p>",
+  "answers": [
+    {
+      "text": "<div>Elderly patients over 70 years</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Age alone does not render HbA1c unreliable. It can be used in elderly patients in the absence of confounding conditions.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Patients with haemolytic anaemia</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. HbA1c reflects average glucose over the red cell lifespan (~120 days). In haemolytic anaemia (also iron-deficiency anaemia, thalassaemia, G6PD deficiency), shortened RBC lifespan falsely lowers HbA1c. Use FPG or OGTT instead.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Patients with hypertension on ACE inhibitors</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>ACE inhibitors do not affect haemoglobin glycation or RBC lifespan. HbA1c remains reliable in hypertensive patients.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Patients with chronic kidney disease stage 3</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>While CKD can cause anaemia, it is haemolysis (not simply CKD stage 3) that specifically undermines HbA1c reliability. Use clinical judgement — severe CKD with haemolytic uraemic changes warrants caution.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "HbA1c is unreliable when red cell lifespan is shortened or abnormal haemoglobin variants are present: haemolytic anaemia, iron-deficiency anaemia, thalassaemia, G6PD deficiency, pregnancy (second/third trimester)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done — haemolytic conditions shorten RBC lifespan and produce a falsely low HbA1c. Always use FPG or OGTT in these patients."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

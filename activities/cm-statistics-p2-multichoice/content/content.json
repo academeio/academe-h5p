@@ -1,0 +1,76 @@
+{
+  "question": "<p>A researcher wants to compare the mean haemoglobin levels among three groups of children receiving different dietary supplements. The data are normally distributed with equal variances. Which statistical test is most appropriate?</p>",
+  "answers": [
+    {
+      "text": "<div>One-way ANOVA</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. One-way ANOVA is the appropriate parametric test to compare means across three or more independent groups when data are normally distributed and variances are approximately equal.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Independent samples t-test</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The independent samples t-test compares means between exactly two groups. With three groups, using multiple t-tests inflates the Type I error rate — ANOVA is required.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Chi-square test</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The chi-square test is used for categorical (count/frequency) data. Haemoglobin is a continuous measurement; parametric tests apply here.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Mann-Whitney U test</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The Mann-Whitney U test is the non-parametric alternative to the independent t-test for two groups. The scenario specifies normally distributed data and three groups — ANOVA applies.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Focus on two key criteria: (1) you are comparing means of a continuous variable, and (2) there are three groups. Which parametric test is designed for comparing means across more than two groups?"
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent application! Remembering the key decision nodes — number of groups, data type, and normality — will guide test selection correctly in both exams and community health research."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

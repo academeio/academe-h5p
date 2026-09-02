@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 40-year-old PLHIV presents with severe headache, neck stiffness, and photophobia. His CD4 count is 45 cells/μL. Which opportunistic infection is MOST likely and which investigation should be prioritised?</p>",
+  "answers": [
+    {
+      "text": "<div>Cerebral toxoplasmosis — order CT brain with contrast</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Toxoplasmosis typically presents with focal neurological deficits and ring-enhancing lesions. Meningism (neck stiffness, photophobia) without focal deficits points more towards cryptococcal meningitis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Cryptococcal meningitis — order India ink staining and cryptococcal antigen (CrAg) on CSF</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Cryptococcal meningitis classically presents with sub-acute meningism at CD4 &lt; 100 cells/μL. The diagnostic tests of choice are India ink staining (rapid, inexpensive) and CSF/serum cryptococcal antigen (high sensitivity and specificity).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>TB meningitis — order CSF AFB smear and culture</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>TB meningitis is a possibility but the presentation (severe meningism, very low CD4) with no focal signs makes cryptococcal meningitis more likely at this CD4 level. CrAg testing should not be deferred.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Viral encephalitis — order CSF PCR for HSV</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>HSV encephalitis is less strongly associated with low CD4 counts and typically presents with focal neurological signs and fever. The clinical picture here is more consistent with cryptococcal meningitis.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Apply symptom-CD4 reasoning: at CD4 < 100 cells/μL, fungal OIs (Cryptococcus, PCP) dominate. Meningism without focal deficits strongly favours cryptococcal meningitis over toxoplasmosis or TB meningitis."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent clinical reasoning. At CD4 < 100 cells/μL, meningism without focal deficits = cryptococcal meningitis until proven otherwise. CrAg has >90% sensitivity and is the priority test."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

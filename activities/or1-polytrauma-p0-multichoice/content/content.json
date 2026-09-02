@@ -1,0 +1,76 @@
+{
+  "question": "<p>Using the START triage system, a patient at a mass-casualty incident is breathing at 28 breaths/min, has a radial pulse present, and is confused but follows simple commands. Which triage colour is correct?</p>",
+  "answers": [
+    {
+      "text": "<div>Red (Immediate)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Respiratory rate &gt;30/min OR altered mental status with breathing present = Red (Immediate) in START. This patient meets the mental-status criterion even though RR is 28 — confused/not following commands = Immediate; however, 28 breaths/min alone (20–30 zone) combined with confusion also places this patient in Red.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Yellow (Delayed)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Yellow requires: breathing present, RR ≤30, radial pulse present, and able to follow commands. This patient is confused and not fully following commands, so Yellow is incorrect.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Green (Minor)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Green (walking wounded) applies to ambulatory patients with minor injuries. This patient has an altered level of consciousness and is not ambulatory in the scenario.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Black (Expectant/Deceased)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Black applies to patients not breathing after airway repositioning (deceased) or clearly non-survivable injuries with overwhelming demand on resources. This patient is breathing and has a pulse.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the START algorithm: first check breathing (open airway if needed), then RR >30 = Red, then radial pulse absent = Red, then unable to follow simple commands = Red. Any other breathing patient = Yellow."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. In START, any altered mental status (unable to follow commands) with breathing present = Red. Memorise the algorithm: breathe? → rate >30? → no radial pulse? → no commands? → each 'yes' = Immediate."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>During an inspection of a PHC immunization facility, you check the vaccine storage equipment. Which of the following correctly matches the equipment to its required temperature range under India's cold chain guidelines?</p>",
+  "answers": [
+    {
+      "text": "<div>Ice-Lined Refrigerator (ILR): −15°C to −25°C; Deep Freezer: +2°C to +8°C</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This is reversed. The ILR is maintained at +2°C to +8°C; the deep freezer at −15°C to −25°C.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Ice-Lined Refrigerator (ILR): +2°C to +8°C; Deep Freezer: −15°C to −25°C</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The ILR stores most vaccines at +2°C to +8°C. The deep freezer (−15°C to −25°C) is used primarily for OPV, which requires frozen storage.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Ice-Lined Refrigerator (ILR): 0°C to +4°C; Deep Freezer: −20°C to −30°C</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>These temperatures are incorrect. The ILR range is +2°C to +8°C; deep freezer is −15°C to −25°C per NIS cold chain specifications.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Ice-Lined Refrigerator (ILR): +2°C to +8°C; Deep Freezer: −5°C to −10°C</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The ILR temperature is correct (+2°C to +8°C), but the deep freezer must be −15°C to −25°C, not −5°C to −10°C.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "ILR is +2°C to +8°C; deep freezer is −15°C to −25°C. OPV is the only NIS vaccine requiring deep-freeze storage — all others are stored in the ILR."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "ILR: +2 to +8°C for most vaccines; Deep Freezer: −15 to −25°C for OPV. Memorise these as they appear in AEFI investigation and cold-chain audit questions."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

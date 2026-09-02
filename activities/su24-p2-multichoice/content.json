@@ -1,0 +1,67 @@
+{
+  "question": "<p>A 30-year-old woman with previous caesarean section presents with two days of colicky central abdominal pain, vomiting, and absolute constipation. Abdominal X-ray shows multiple distended small bowel loops. She is now tachycardic with localised tenderness. Which feature changes management from conservative to emergency surgery?</p>",
+  "answers": [
+    {
+      "text": "<div>The presence of vomiting — indicating high small bowel obstruction requiring nasogastric decompression only</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Vomiting is expected in small bowel obstruction and is not itself an indication for emergency surgery. The key is whether bowel viability is threatened (signs of strangulation), not the presence of vomiting.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Localised tenderness and tachycardia — signs suggesting strangulation with vascular compromise requiring emergency surgery</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Localised peritonism (distinct from generalised guarding) + tachycardia in the context of SBO signals strangulation — ischaemia of the obstructed loop. This mandates emergency laparotomy; conservative management risks bowel infarction and perforation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Absolute constipation — indicating complete obstruction that always requires immediate surgery</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Absolute constipation (no flatus or stool) confirms complete obstruction but alone is not an indication for immediate surgery. Simple complete SBO may still be managed with resuscitation + NG tube initially, provided there are no signs of strangulation.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The key escalation sign is localised peritonism + tachycardia = strangulation. Without these features, a trial of non-operative management (NG, IV fluids, monitoring) is reasonable in adhesional SBO."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Localised tenderness + tachycardia = strangulation = emergency surgery. Simple SBO (no peritonism, normal vitals) can be given a conservative trial first."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

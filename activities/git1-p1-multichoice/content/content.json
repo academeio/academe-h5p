@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient presents with profuse rice-water stools but no blood or pus cells. Which molecular mechanism is directly responsible for the massive intestinal water secretion in cholera?</p>",
+  "answers": [
+    {
+      "text": "<div>ADP-ribosylation of Gsα by cholera toxin A subunit → permanently activated adenylate cyclase → ↑cAMP → CFTR-mediated Cl⁻ secretion</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Cholera toxin B subunits bind GM1 ganglioside on enterocytes; the A subunit ADP-ribosylates Gsα, locking adenylate cyclase ON → massive cAMP accumulation → CFTR opens → Cl⁻ and water pour into the lumen. No invasion occurs, hence no blood or pus.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Direct cytotoxic destruction of intestinal epithelium by invading Vibrio cholerae organisms</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>V. cholerae is non-invasive — it does not destroy the mucosa. The toxin acts from the luminal surface without tissue penetration, which is why cholera stool contains no blood or inflammatory cells.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Shiga-like toxin inhibiting protein synthesis at the 28S ribosomal subunit</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This describes Shiga toxin of Shigella dysenteriae type 1, which causes dysentery through mucosal destruction — not the purely secretory mechanism of cholera.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>NSP4 enterotoxin activating Ca²⁺-mediated chloride channels in villous enterocytes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>NSP4 is the enterotoxin of Rotavirus, not V. cholerae. It activates Ca²⁺-dependent Cl⁻ secretion. Cholera toxin works through the cAMP pathway, not calcium signalling.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the cholera toxin mechanism: B subunit binds GM1 → A subunit ADP-ribosylates Gsα → adenylate cyclase locked ON → ↑cAMP → CFTR-mediated Cl⁻ and H₂O secretion."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Cholera toxin's irreversible ADP-ribosylation of Gsα is the classic example of a permanently-ON signalling cascade causing secretory diarrhoea."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

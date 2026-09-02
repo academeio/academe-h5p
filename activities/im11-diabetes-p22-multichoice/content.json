@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 24-year-old known T1DM patient presents with vomiting and abdominal pain. Blood glucose is 310 mg/dL, venous pH 7.24, bicarbonate 14 mEq/L, ketones 3+ on urine dipstick. Which set of criteria confirms a diagnosis of DKA?</p>",
+  "answers": [
+    {
+      "text": "<div>Glucose &gt;250 mg/dL + pH &lt;7.30 + bicarbonate &lt;15 mEq/L + ketonaemia/ketonuria</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The standard DKA diagnostic triad is: (1) hyperglycaemia (usually &gt;250 mg/dL, rarely may be &lt;250 in euglycaemic DKA), (2) metabolic acidosis (pH &lt;7.30, bicarbonate &lt;15 mEq/L), and (3) significant ketonaemia or ketonuria. This patient meets all three.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Glucose &gt;400 mg/dL + pH &lt;7.20 + coma</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>DKA does not require glucose &gt;400 mg/dL or coma. Severe DKA is defined by pH &lt;7.0, but DKA can be mild (pH 7.25-7.30) or moderate (pH 7.00-7.24). Altered consciousness is a feature of severe DKA, not a diagnostic requirement.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Glucose &gt;250 mg/dL + osmolality &gt;320 mOsm/kg + absent ketones</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Absent ketones with high osmolality describes HHS (hyperosmolar hyperglycaemic state), not DKA. DKA is defined by ketonaemia/ketonuria and metabolic acidosis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Any degree of hyperglycaemia + tachycardia + vomiting</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Tachycardia and vomiting are clinical features of DKA but not diagnostic criteria. The diagnosis requires specific biochemical thresholds: hyperglycaemia, acidosis, and ketosis.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "DKA criteria: glucose >250 mg/dL (usually) + pH <7.30 + bicarbonate <15 mEq/L + ketonaemia/ketonuria. Do not confuse with HHS (glucose >600, hyperosmolality, minimal ketones, no acidosis)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct — the DKA triad is hyperglycaemia + metabolic acidosis + ketosis. Severity is graded by pH: mild 7.25-7.30, moderate 7.00-7.24, severe <7.0."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

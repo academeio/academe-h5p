@@ -1,0 +1,24 @@
+{
+  "question": "<p>A randomised controlled trial with 50,000 participants reports a statistically significant reduction in systolic blood pressure of 1 mmHg with a new drug (p = 0.001). This result is definitely clinically meaningful.</p>",
+  "correct": "false",
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false
+  },
+  "l10n": {
+    "trueText": "True",
+    "falseText": "False",
+    "score": "You got @score of @total points",
+    "checkAnswer": "Check",
+    "submitAnswer": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgain": "Retry",
+    "wrongAnswerMessage": "Large sample sizes can make tiny differences statistically significant. The p-value here (0.001) is driven by the sample size of 50,000, not by a large effect. Critical appraisal distinguishes statistical significance from clinical relevance — a 1 mmHg BP reduction is below any threshold of practical importance.",
+    "correctAnswerMessage": "Correct. Statistical significance depends on sample size — with 50,000 participants, trivially small differences become statistically significant. A 1 mmHg reduction has no established clinical benefit. Clinical significance requires assessment of effect size and real-world impact, not just p-values.",
+    "scoreBarLabel": "You got :num out of :total points"
+  }
+}

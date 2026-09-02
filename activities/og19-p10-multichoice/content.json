@@ -1,0 +1,76 @@
+{
+  "question": "<p>You are observing a diagnostic laparoscopy. After inserting the Veress needle at the umbilicus, the surgeon performs a saline drop test and aspirates the needle. The aspirate contains blood. What should the surgeon do IMMEDIATELY?</p>",
+  "answers": [
+    {
+      "text": "<div>Proceed with CO₂ insufflation cautiously at low flow to confirm correct placement</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Blood in the aspirate indicates possible vascular puncture. Proceeding with insufflation before clarifying the needle position risks CO₂ embolism if the needle tip is intravascular. Immediate withdrawal and reassessment are required.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Withdraw the Veress needle, apply pressure, and reassess before re-entry</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Blood in the aspirate signals possible intra-vascular placement (great vessel injury) or solid organ puncture. The needle is immediately withdrawn, haemostasis assessed, and the abdomen observed for signs of ongoing haemorrhage before re-entry or laparotomy.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Inject 10 mL of saline to confirm it is blood from the needle's cutting edge only</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Injecting saline into a potentially intravascular needle can introduce air and fluid into the bloodstream. The correct action is withdrawal and clinical reassessment, not injection.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Rotate the Veress needle 90° and re-aspirate to confirm the finding</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Rotating an already-inserted Veress needle in a potentially injured vessel increases the risk of extending the vascular laceration. Immediate withdrawal is the safe response.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Blood in the Veress needle aspirate is an emergency sign of possible vascular injury. The correct immediate response is needle withdrawal and haemostasis assessment — never proceed with insufflation until vessel injury is excluded."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Blood on Veress needle aspiration = immediate withdrawal + assessment for vascular injury. This is a non-negotiable safety rule in laparoscopic entry technique."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

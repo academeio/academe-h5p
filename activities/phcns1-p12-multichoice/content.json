@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient on phenelzine (irreversible MAOI) develops a severe hypertensive crisis after eating aged cheese. What is the pharmacological mechanism of this reaction?</p>",
+  "answers": [
+    {
+      "text": "<div>Dietary tyramine, normally metabolised by intestinal MAO-A, is absorbed intact and releases noradrenaline from sympathetic nerve terminals — causing a hypertensive crisis</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Tyramine is an indirect sympathomimetic amine found in fermented/aged foods. Normally, MAO-A in the gut wall metabolises tyramine before it reaches the systemic circulation (first-pass). With MAO-A irreversibly inhibited by phenelzine, tyramine escapes first-pass metabolism, enters the circulation, and triggers massive noradrenaline release from sympathetic nerves → severe hypertension.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Phenelzine directly stimulates α₁-adrenergic receptors in blood vessel walls, and cheese amplifies this effect</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Phenelzine does not directly stimulate adrenergic receptors. MAOIs work by inhibiting monoamine oxidase — they prevent the breakdown of monoamines. The hypertensive crisis is caused by tyramine (from cheese) releasing noradrenaline, not by direct receptor stimulation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Phenelzine inhibits CYP2D6, preventing hepatic tyramine metabolism and causing accumulation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The tyramine reaction involves MAO-A (in the gut wall and liver), not CYP2D6. Tyramine is a monoamine substrate for MAO — when MAO-A is inhibited, tyramine escapes first-pass metabolism and acts as an indirect sympathomimetic, releasing stored noradrenaline.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Phenelzine blocks COMT, preventing adrenaline breakdown and causing a catecholamine surge when combined with dietary amines</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Phenelzine inhibits MAO (monoamine oxidase), not COMT. COMT inhibitors (entacapone, tolcapone) are used in Parkinson's disease. The tyramine reaction is specifically due to MAO-A inhibition in the gut wall allowing tyramine absorption intact.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Remember the pathway: dietary tyramine → normally destroyed by gut MAO-A → with MAOI, tyramine reaches systemic circulation → enters sympathetic nerve terminals → displaces stored noradrenaline → massive NA release → hypertensive crisis."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "The tyramine ('cheese') reaction occurs because MAO-A normally provides a first-pass metabolic barrier against dietary tyramine. Irreversible MAOIs remove this barrier — tyramine enters the circulation and triggers massive NA release. Moclobemide (reversible MAO-A inhibitor) is safer because tyramine can displace it from MAO-A."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

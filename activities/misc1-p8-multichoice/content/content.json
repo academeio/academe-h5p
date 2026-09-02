@@ -1,0 +1,76 @@
+{
+  "question": "<p>According to the Spaulding classification, which level of disinfection is required for a flexible endoscope used for upper GI endoscopy (a semi-critical device)?</p>",
+  "answers": [
+    {
+      "text": "<div>High-level disinfection (e.g., glutaraldehyde 2% for 20–30 minutes), which kills all organisms except high numbers of bacterial spores</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Semi-critical items (those contacting intact mucous membranes but not sterile tissue) require high-level disinfection. Glutaraldehyde 2% (Cidex) for 20–30 min achieves this; it kills vegetative bacteria, mycobacteria, most fungi, and viruses but not necessarily all spores.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Sterilisation (e.g., autoclaving at 121°C), which destroys all microbial life including spores</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Sterilisation is required for critical devices (those entering sterile tissues, e.g., surgical instruments). Flexible endoscopes cannot withstand autoclaving — they require high-level disinfection.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Low-level disinfection (e.g., quaternary ammonium compounds), which kills most vegetative bacteria and some viruses</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Low-level disinfection is for non-critical items (environmental surfaces, blood pressure cuffs). It is insufficient for semi-critical devices like endoscopes.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Antiseptic application (e.g., povidone-iodine) on the endoscope surface before insertion</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Antiseptics are formulated for use on living tissue, not for reprocessing reusable medical devices. Using povidone-iodine on an endoscope instead of high-level disinfection would be a serious infection control failure.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the Classification and Principles blocks. The Spaulding classification: critical items → sterilisation; semi-critical (contact with mucous membranes) → high-level disinfection; non-critical (contact with intact skin) → low-level disinfection."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The Spaulding framework (critical → sterilisation; semi-critical → high-level disinfection; non-critical → low/intermediate-level disinfection) is the foundation of infection control decision-making."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

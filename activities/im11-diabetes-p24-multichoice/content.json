@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 72-year-old T2DM patient presents with confusion and lethargy over 3 days. Blood glucose is 720 mg/dL, serum osmolality 345 mOsm/kg, pH 7.38, bicarbonate 22 mEq/L, urine ketones trace. Which diagnosis and immediate priority best describes this presentation?</p>",
+  "answers": [
+    {
+      "text": "<div>Severe DKA — start insulin infusion and IV normal saline immediately</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>DKA requires significant acidosis (pH &lt;7.30, bicarb &lt;15) and ketonaemia — neither is present here. pH 7.38 and bicarb 22 are normal. This is not DKA.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Hyperosmolar hyperglycaemic state (HHS) — priority is gradual rehydration with careful monitoring</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Glucose &gt;600 mg/dL + serum osmolality &gt;320 mOsm/kg + absent acidosis + minimal ketones = HHS. The key management principle is gradual rehydration (to correct fluid deficit over 24-48h), because rapid rehydration risks cerebral oedema. Insulin is added only after adequate fluid replacement is underway.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Euglycaemic DKA — the normal pH may be falsely reassuring</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Euglycaemic DKA has normal or near-normal glucose (typically &lt;250 mg/dL) but significant acidosis and ketonaemia. This patient has extreme hyperglycaemia with no acidosis — the opposite pattern.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Lactic acidosis — check serum lactate urgently</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Lactic acidosis presents with metabolic acidosis (low pH, low bicarbonate, elevated anion gap). pH 7.38 and bicarb 22 are normal, making lactic acidosis very unlikely.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "HHS vs DKA: In HHS, glucose is typically >600 mg/dL, osmolality >320 mOsm/kg, pH is normal (>7.30), and ketones are absent/trace. DKA has lower glucose (250-500), pH <7.30, significant ketonaemia. Management differs: HHS = rehydration first; DKA = fluids + insulin + electrolyte correction simultaneously."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct — HHS = extreme hyperglycaemia (>600) + hyperosmolality (>320) + no significant acidosis + minimal ketones. Gradual rehydration is the priority."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

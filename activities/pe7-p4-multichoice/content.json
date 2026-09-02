@@ -1,0 +1,76 @@
+{
+  "question": "<p>A community health worker screens a 20-month-old child. She finds his MUAC is 11.2 cm, his weight-for-height z-score is −2.5 SD, and there is no bilateral pedal oedema. Which of the following correctly classifies this child according to WHO criteria?</p>",
+  "answers": [
+    {
+      "text": "<div>Moderate Acute Malnutrition (MAM) only, because weight-for-height z-score is above −3 SD.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. WHO SAM criteria require ANY ONE of: WHZ &lt; −3 SD, MUAC &lt;11.5 cm (in children 6–59 months), or bilateral pedal oedema. This child's MUAC of 11.2 cm is below the 11.5 cm threshold — he meets SAM criteria on MUAC alone.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Severe Acute Malnutrition (SAM), because MUAC &lt;11.5 cm is sufficient to diagnose SAM regardless of other criteria.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. WHO SAM diagnosis requires ANY ONE criterion: WHZ &lt; −3 SD, MUAC &lt;11.5 cm (6–59 months), or bilateral pedal oedema. MUAC of 11.2 cm alone establishes SAM. This child needs immediate inpatient or CMAM referral.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Normal nutritional status, because the child has no oedema and only borderline MUAC.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. MUAC &lt;11.5 cm meets the WHO SAM threshold. The absence of oedema is relevant (oedema indicates kwashiorkor) but does not override the MUAC criterion.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>SAM can only be diagnosed if all three criteria — WHZ &lt; −3 SD, MUAC &lt;11.5 cm, and bilateral oedema — are simultaneously present.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. WHO diagnostic criteria require ANY ONE of the three indicators, not all three simultaneously. Meeting a single criterion is sufficient for SAM diagnosis.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key rule: SAM = ANY ONE of WHZ < −3 SD, MUAC <11.5 cm (6–59 mo), or bilateral pedal oedema. ANY ONE criterion is sufficient — not all three needed simultaneously."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. MUAC <11.5 cm alone is sufficient for SAM diagnosis — a critical field-applicable criterion, especially when scales and height boards are unavailable."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

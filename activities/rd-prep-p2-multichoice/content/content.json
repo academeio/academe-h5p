@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 58-year-old man with type 2 diabetes on metformin 1000 mg twice daily is scheduled for a contrast-enhanced CT of the abdomen. His creatinine is 1.1 mg/dL (eGFR 68 mL/min). What is the most appropriate instruction regarding his metformin?</p>",
+  "answers": [
+    {
+      "text": "<div>Continue metformin as usual; no modification is needed for eGFR above 60.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. While some protocols differ, the standard safe practice is to withhold metformin from the time of contrast administration and for 48 hours after, to prevent lactic acidosis if contrast causes acute kidney injury.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Withhold metformin from the time of contrast administration and restart only after 48 hours, confirming renal function has not deteriorated.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Iodinated contrast can cause contrast-induced nephropathy. If renal function subsequently deteriorates, metformin accumulates and risks lactic acidosis — a potentially fatal complication. Standard protocol is to withhold at the time of contrast and restart after 48 hours with confirmed stable renal function.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Withhold metformin for 7 days before the scan.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Withholding for 7 days before is excessive and may destabilise blood glucose unnecessarily. The recommended window is to omit the dose at the time of contrast and hold for 48 hours after.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Switch metformin to insulin for 1 month after the scan.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A prolonged switch to insulin is not the standard recommendation. The approach is to withhold metformin at the time of contrast and restart after 48 hours when renal function is confirmed stable.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the contrast safety section. Metformin must be withheld at the time of iodinated contrast and restarted only after 48 hours with confirmed stable renal function, due to the risk of lactic acidosis from contrast-induced nephropathy."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Withhold metformin at the time of contrast and for 48 hours after — this is the standard safety protocol."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

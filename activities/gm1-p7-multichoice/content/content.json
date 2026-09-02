@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient with <em>Clostridioides difficile</em> diarrhoea is being discharged. Which agent should be used to decontaminate the room's environmental surfaces?</p>",
+  "answers": [
+    {
+      "text": "<div>Sodium hypochlorite 1% (10,000 ppm available chlorine)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. <em>C. difficile</em> produces highly resistant endospores. Sodium hypochlorite at 1% (10,000 ppm) is sporicidal and is the recommended agent for terminal cleaning of C. difficile rooms.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>70% isopropyl alcohol wipes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Alcohol is not sporicidal — it acts by protein denaturation and lipid dissolution, neither of which penetrates the spore coat. <em>C. difficile</em> spores survive alcohol disinfection; this is also why alcohol hand rubs are inadequate (soap-and-water handwashing is required).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Quaternary ammonium compound spray</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Quaternary ammonium compounds (e.g., benzalkonium chloride) are low-level disinfectants effective against vegetative bacteria but not against spores. They are unsuitable for <em>C. difficile</em> environmental decontamination.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Sodium hypochlorite 0.1% (1,000 ppm)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>While 0.1% (1,000 ppm) sodium hypochlorite is adequate for routine surface disinfection, this concentration is insufficient for spore elimination. <em>C. difficile</em> decontamination requires the higher sporicidal concentration of 1% (10,000 ppm).</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The key principle: <em>C. difficile</em> forms endospores, so you need a sporicidal agent. Most common disinfectants (alcohol, quaternary ammonium compounds) are not sporicidal. Sodium hypochlorite at 1% (10,000 ppm) is the standard sporicidal agent for environmental decontamination."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "<em>C. difficile</em> spores resist alcohol and quaternary ammonium compounds. High-concentration sodium hypochlorite (1% = 10,000 ppm) is sporicidal and is the standard for terminal cleaning. Also remember: handwashing with soap and water (not alcohol rub) for C. difficile."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

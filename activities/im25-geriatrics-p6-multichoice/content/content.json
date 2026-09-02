@@ -1,0 +1,76 @@
+{
+  "question": "<p>According to the WHO definition, at what T-score on DEXA scanning is osteoporosis diagnosed?</p>",
+  "answers": [
+    {
+      "text": "<div>T-score ≤ −1.0</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A T-score of −1.0 to −2.5 defines osteopenia, not osteoporosis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>T-score ≤ −2.0</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The threshold for osteoporosis is −2.5, not −2.0. −2.0 would fall in the osteopenia range.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>T-score ≤ −2.5</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. WHO defines osteoporosis as T-score ≤ −2.5 on DEXA. T-score −1.0 to −2.5 = osteopenia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>T-score ≤ −3.0</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Osteoporosis is diagnosed at T-score ≤ −2.5. T-score ≤ −3.0 would indicate severe osteoporosis.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Remember the WHO thresholds: normal > −1.0; osteopenia −1.0 to −2.5; osteoporosis ≤ −2.5."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. WHO: T-score ≤ −2.5 = osteoporosis; −1.0 to −2.5 = osteopenia; > −1.0 = normal."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

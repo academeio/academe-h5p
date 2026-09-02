@@ -1,0 +1,76 @@
+{
+  "question": "<p>In certifying the cause of death in a case of smothering, which entry is most appropriate for Part I of the death certificate?</p>",
+  "answers": [
+    {
+      "text": "<div>Ia: Asphyxia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Partially correct but incomplete. 'Asphyxia' alone is the mechanism, not the cause. The death certificate should specify the mode of asphyxia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Ia: Asphyxia due to smothering</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Part I should state the mode and mechanism: 'Asphyxia due to smothering.' This gives the immediate cause (asphyxia) and the underlying mechanism (smothering). Adding 'homicidal' or 'manner' is a matter of the inquest — it is not entered on the death certificate by the forensic physician.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Ia: Homicide by smothering</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The manner of death (homicide) is a legal determination and is NOT entered on the medical cause of death certificate by the physician. Only the medical cause is entered.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Ia: Respiratory failure; Ib: Unknown cause</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. 'Respiratory failure' is too non-specific and 'unknown cause' is incorrect when the mechanism is identifiable. A well-conducted PM establishes the cause.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "On the death certificate, certify the medical cause — 'Asphyxia due to smothering.' Do not enter manner of death (homicide/suicide). That determination belongs to the inquest and court."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Death certificate: medical cause (asphyxia due to smothering), not legal manner (homicide). Manner is for the court."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

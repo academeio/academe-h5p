@@ -1,0 +1,76 @@
+{
+  "question": "<p>A chronic alcoholic is found comatose with blood glucose of 2.1 mmol/L. A colleague wants to immediately push IV dextrose. What must you do FIRST?</p>",
+  "answers": [
+    {
+      "text": "<div>Give IV thiamine first, then IV dextrose — glucose administration in a thiamine-depleted patient precipitates Wernicke's encephalopathy</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Thiamine is an essential cofactor for pyruvate dehydrogenase and α-ketoglutarate dehydrogenase in cerebral glucose metabolism. In a thiamine-depleted patient, giving glucose increases metabolic demand for thiamine, consuming the last remaining stores and precipitating acute Wernicke's encephalopathy (ophthalmoplegia, ataxia, confusion → irreversible Korsakoff's psychosis).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Push IV dextrose immediately — hypoglycaemia causes irreversible brain damage within minutes and must be corrected first</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>While hypoglycaemia is dangerous and must be corrected promptly, the delay to administer IV thiamine (which takes seconds to minutes) is negligible compared to the devastating consequence of precipitating Wernicke's encephalopathy. The rule 'thiamine before glucose' has no clinical exceptions in chronic alcoholics.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Give IV naloxone first — opioid co-ingestion is the most likely cause of coma in an alcoholic patient</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>While naloxone should be considered in any comatose patient (to exclude opioid co-ingestion), the documented hypoglycaemia (2.1 mmol/L) is the immediate treatable cause of coma. The question is not whether to give glucose, but whether to give thiamine first — and the answer is always yes in a chronic alcoholic.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Obtain a CT brain first to exclude intracranial haemorrhage before administering any treatment</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Hypoglycaemia with documented low blood glucose is a medical emergency requiring immediate correction. Delaying treatment for imaging in the presence of a known reversible cause of coma (hypoglycaemia) would be negligent. Imaging is appropriate after stabilisation if the patient does not improve.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The mechanism: glucose metabolism in the brain requires thiamine as a cofactor. In borderline thiamine deficiency (chronic alcoholism), the metabolic demand created by glucose infusion depletes remaining thiamine → acute Wernicke's encephalopathy. Give thiamine BEFORE or simultaneously with glucose."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "'Thiamine before glucose — always, in every confused or comatose alcoholic.' This rule is absolute. IV thiamine (200–500 mg) is extremely safe and takes seconds to administer. The consequence of omitting it — irreversible Korsakoff's psychosis — is devastating and preventable."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

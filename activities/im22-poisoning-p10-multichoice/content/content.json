@@ -1,0 +1,76 @@
+{
+  "question": "<p>During a hooch tragedy, a 35-year-old man presents with sudden visual blurring, headache, and vomiting 18 hours after consuming illicit liquor. Arterial blood gas shows pH 7.12, HCO₃ 8 mmol/L, high anion gap. Osmolar gap is markedly elevated. Methanol poisoning is suspected. Which is the MOST APPROPRIATE specific antidote?</p>",
+  "answers": [
+    {
+      "text": "<div>N-acetylcysteine (NAC) to replenish hepatic glutathione</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>NAC is the antidote for paracetamol overdose, not methanol. NAC does not inhibit alcohol dehydrogenase and has no role in toxic alcohol poisoning.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Fomepizole (4-methylpyrazole) to block alcohol dehydrogenase</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Fomepizole is the preferred antidote for methanol (and ethylene glycol) poisoning. It competitively inhibits alcohol dehydrogenase (ADH), blocking conversion of methanol to its toxic metabolite formic acid. Where fomepizole is unavailable (as in most Indian settings), IV ethanol (loading dose to achieve serum ethanol ~100 mg/dL) achieves the same ADH inhibition by competitive substrate saturation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Desferrioxamine to chelate the toxic metabolite</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Desferrioxamine is the chelating agent for iron poisoning. Formic acid (the toxic methanol metabolite) is not chelated by desferrioxamine — this is the wrong mechanism entirely.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Naloxone to reverse CNS depression</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Naloxone reverses opioid-mediated CNS depression. Methanol toxicity is caused by formic acid accumulation causing metabolic acidosis and optic nerve injury — not opioid receptor activation.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "In methanol/ethylene glycol poisoning, the antidote strategy is ADH INHIBITION: fomepizole (preferred) or ethanol (alternative). This prevents formation of the toxic metabolites (formic acid → optic nerve; oxalic acid → renal tubules). Haemodialysis removes the alcohol and the metabolite."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Fomepizole (or IV ethanol where fomepizole is unavailable) is the antidote for methanol/ethylene glycol — both work by blocking ADH to prevent formation of the toxic metabolite (formic acid from methanol; oxalic acid from ethylene glycol)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>Before cataract surgery, IOL power is calculated using the SRK/T formula. Which TWO measurements are ESSENTIAL inputs for this calculation?</p>",
+  "answers": [
+    {
+      "text": "<div>Axial length (A-scan) and average corneal curvature (keratometry)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The SRK/T formula requires: (1) axial length measured by A-scan ultrasonography or optical biometry (IOLMaster), and (2) average corneal power (K) measured by keratometry. These two values are the mandatory inputs.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Intraocular pressure and anterior chamber depth only</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>IOP measurement is important for surgical safety but is NOT an input to the SRK/T IOL power formula. Anterior chamber depth is used in some third-generation formulas but is not the primary pair.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Visual acuity and B-scan ultrasound dimensions</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Visual acuity determines surgical indication but is not a biometric input to IOL formulas. B-scan is used when the posterior segment cannot be visualised, not routinely for IOL calculation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Corneal endothelial cell count and pupil diameter</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Endothelial cell count assesses corneal reserve (relevant for surgical risk) but is not an input to the SRK/T formula. Pupil diameter affects surgical technique, not IOL power.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "SRK/T formula inputs = axial length (A-scan) + corneal power (keratometry). These biometric measurements, not functional tests, drive the calculation."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. SRK/T needs axial length + K (keratometry). All third-generation formulas share these two primary inputs."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 3-year-old child is assessed at the bedside. He opens his eyes only in response to pain, makes incomprehensible sounds, and withdraws his arm from a painful stimulus. Which of the following BEST describes his neurological status?</p>",
+  "answers": [
+    {
+      "text": "<div>AVPU = Alert; GCS = 9</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This child does NOT respond to voice — he requires a painful stimulus. He is therefore NOT Alert (A) on AVPU. A GCS of 9 would require higher scores in each domain than described.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>AVPU = Pain (responds to pain only); GCS = 8</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. He responds only to pain — AVPU = P. GCS: Eyes open to pain = 2, Incomprehensible sounds = 2, Withdrawal to pain = 4; total = 8. A GCS ≤8 conventionally indicates severe impairment of consciousness and warrants airway protection. P on AVPU broadly correlates with GCS ≤8.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>AVPU = Unresponsive; GCS = 6</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>He does respond to pain (eye opening, withdrawal), so he is NOT Unresponsive on the AVPU scale. GCS 6 would require lower scores than his actual responses (eye 2, verbal 2, motor 4 = 8).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>AVPU = Voice (responds to voice); GCS = 10</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>He requires a painful stimulus to elicit any response, which categorises him as P (Pain) on AVPU, not V (Voice). A GCS of 10 would require at least one domain to score higher than shown.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Calculate GCS systematically: Eyes to pain = 2; Incomprehensible sounds = 2; Withdrawal = 4; total = 8. He responds only to pain → AVPU = P. GCS ≤8 / AVPU P or U = severe impairment, requires airway protection and urgent blood glucose check."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. AVPU = P; GCS = 2+2+4 = 8. GCS ≤8 or AVPU = P/U signals severe consciousness impairment. Immediate action: secure airway, check blood glucose (ALWAYS in any unconscious/convulsing child), and position safely."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,569 @@
+{
+  "interactiveVideo": {
+    "video": {
+      "files": [
+        {
+          "path": "https://vdo.cbme.in/965bf1b8-cb42-4bd5-bd57-0f5e66dc53c2/playlist.m3u8",
+          "mime": "application/vnd.apple.mpegurl",
+          "copyright": {
+            "license": "U"
+          }
+        }
+      ],
+      "startScreenOptions": {
+        "title": "PE9.1-PE9.7 — Interactive Lecture (PE)",
+        "hideStartTitle": false,
+        "shortStartDescription": "Interactive lecture with 4 embedded questions for PE9.1-PE9.7."
+      },
+      "textTracks": {
+        "videoTrack": [
+          {
+            "label": "English",
+            "kind": "subtitles",
+            "srcLang": "en",
+            "track": {
+              "path": "https://paediatrics.cbme.in/cc/videos/nutrition-assessment-and-support-iv-nutrition-assessment-support/v1/cc-en.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Hindi",
+            "kind": "subtitles",
+            "srcLang": "hi",
+            "track": {
+              "path": "https://paediatrics.cbme.in/cc/videos/nutrition-assessment-and-support-iv-nutrition-assessment-support/v1/cc-hi.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          {
+            "label": "Tamil",
+            "kind": "subtitles",
+            "srcLang": "ta",
+            "track": {
+              "path": "https://paediatrics.cbme.in/cc/videos/nutrition-assessment-and-support-iv-nutrition-assessment-support/v1/cc-ta.vtt",
+              "mime": "text/vtt",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          }
+        ],
+        "defaultTrackLabel": "English"
+      }
+    },
+    "assets": {
+      "interactions": [
+        {
+          "duration": {
+            "from": 167.875,
+            "to": 177.875
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>An intern prescribes '100 g rice' to provide approximately 350 kcal in a child's</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>An intern prescribes '100 g rice' to provide approximately 350 kcal in a child's meal plan. The mother serves 100 g of cooked rice. Which statement best explains the resulting caloric shortfall?</p>",
+              "answers": [
+                {
+                  "text": "<div>There is no shortfall — 100 g of cooked rice provides approximately 350 kcal</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. 100 g of cooked rice provides only about 130–145 kcal, not 350 kcal. The raw-vs-cooked distinction matters greatly in dietary prescriptions.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Rice loses most of its caloric value during cooking because starch is broken down by heat</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Starch is not destroyed by cooking — the calories per gram of rice solids remain similar. The reduction in caloric density per 100 g of cooked rice is due to water absorption, which roughly triples the weight.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>100 g of raw rice provides 345–360 kcal, but cooking triples the weight with water, so 100 g of cooked rice yields only ~130–145 kcal</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Cooking rice absorbs water and approximately triples its weight, reducing the caloric density per 100 g from 345–360 kcal (raw) to about 130–145 kcal (cooked).</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The shortfall exists because the mother should have used parboiled rice, which retains its full caloric value after cooking</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. All varieties of rice absorb water during cooking and show a similar reduction in caloric density per unit cooked weight. The issue is specifying raw vs cooked weight, not the rice variety.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The key point: cooking rice adds water and triples its weight. 100 g of raw rice (345–360 kcal) becomes ~300 g of cooked rice. So 100 g of cooked rice provides only ~130–145 kcal — less than half the intended 350 kcal. This raw-vs-cooked distinction is a common source of error in dietary prescriptions."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. Always specify 'raw weight' or 'cooked weight' when prescribing cereal quantities in a diet plan. Raw rice (345–360 kcal/100g) yields about three times its weight when cooked, reducing caloric density to ~130–145 kcal/100g."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "2c22942c-893f-4d45-9b5c-6184e5b57437",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "An intern prescribes '100 g rice' to pro",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 313.25,
+            "to": 323.25
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In marasmus, the child shows severe wasting with loss of subcutaneous fat, while</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In marasmus, the child shows severe wasting with loss of subcutaneous fat, while in kwashiorkor, subcutaneous fat is relatively preserved despite severe malnutrition. Which of the following best explains this clinical difference?</p>",
+              "answers": [
+                {
+                  "text": "<div>Kwashiorkor is a milder form of malnutrition with less overall nutrient deficit than marasmus</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Kwashiorkor is NOT milder — it is a form of SAM with its own life-threatening complications including hepatic steatosis, severe infections, and electrolyte disturbances.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>In marasmus, total energy-protein deficit drives catabolism of fat and muscle; in kwashiorkor, predominant protein deficit impairs albumin synthesis, causing oedema while fat stores are relatively spared</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Marasmus results from chronic total energy-protein deficiency — the body catabolises both fat and muscle to fuel vital organs. In kwashiorkor, predominantly protein-deficient diets impair albumin synthesis, reducing plasma oncotic pressure and causing oedema, while partial energy intake may preserve some fat stores.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Children with kwashiorkor have a genetic resistance to lipolysis that prevents fat breakdown</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. There is no genetic fat-catabolism resistance in kwashiorkor. The difference lies in the type of nutritional deficit — total energy-protein deprivation (marasmus) vs predominant protein deficiency (kwashiorkor).</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Marasmus affects older children with higher metabolic rates, leading to more rapid fat depletion</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Marasmus can affect any age group. The clinical difference relates to the nature of the dietary deficit (total vs predominantly protein), not the child's age or metabolic rate.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The key concept: marasmus results from total energy-protein deficit — the body catabolises its own fat and muscle stores, producing severe wasting ('old-man face', 'baggy trousers'). Kwashiorkor results from predominant protein deficit — impaired albumin synthesis reduces plasma oncotic pressure, causing oedema, while some fat stores are preserved because energy intake is partially maintained."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. The clinical distinction reflects the underlying nutritional deficit: marasmus (total energy-protein deprivation) causes catabolism of both fat and muscle, producing visible wasting. Kwashiorkor (predominant protein deficit) impairs albumin synthesis — the resulting hypoalbuminaemia reduces oncotic pressure, causing bilateral pitting oedema while some subcutaneous fat is preserved."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "5f1b7a8b-0e12-4fd1-9c4a-017441c03f26",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In marasmus, the child shows severe wast",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 423.34999999999997,
+            "to": 433.34999999999997
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>After puberty, sex-based differences in daily energy requirements narrow because</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>After puberty, sex-based differences in daily energy requirements narrow because both boys and girls reach similar lean body mass.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "The statement is false. After puberty, energy requirement differences between boys and girls WIDEN, not narrow. Testosterone drives greater lean body mass accrual in boys — muscle is more metabolically active than adipose tissue — so boys require substantially more energy (ICMR-NIN 2020: 16–18 years — boys ~2640 kcal/day vs girls ~2060 kcal/day).",
+                "correctAnswerMessage": "Correct — the statement is false. After puberty, sex-based energy requirement differences actually WIDEN. Boys accumulate substantially more lean body mass (muscle) under androgenic influence, which is more metabolically active than adipose tissue, driving higher energy needs (ICMR-NIN 2020: 16–18 years — boys ~2640 kcal/day vs girls ~2060 kcal/day).",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "01477c32-2b8b-4108-9218-453fdde965f8",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "After puberty, sex-based differences in",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 524.4,
+            "to": 534.4
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>During the examination of a 12-year-old obese boy, an intern records only the we</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>During the examination of a 12-year-old obese boy, an intern records only the weight, height, and BMI, then plans to order blood investigations. Which critical assessment has the intern most likely omitted?</p>",
+              "answers": [
+                {
+                  "text": "<div>Mid-upper arm circumference measurement for malnutrition screening</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>MUAC is a screening tool for undernutrition (SAM/MAM), not a key component of the obesity examination. The obesity exam has its own specific assessment priorities.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Plotting height on a growth velocity chart to detect growth hormone deficiency</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While height velocity may be relevant when suspecting secondary (endocrine) obesity, the most commonly omitted steps in a primary obesity examination are waist circumference, blood pressure, and skin marker assessments.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Measuring blood pressure, waist circumference, and identifying cutaneous markers such as acanthosis nigricans</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. These are the most commonly omitted yet clinically significant steps. Acanthosis nigricans indicates insulin resistance, raised blood pressure signals early cardiovascular risk, and waist circumference quantifies central adiposity — all carry immediate clinical implications.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Performing a full neurological examination to exclude hypothalamic obesity</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A full neurological exam is indicated when secondary obesity is suspected (e.g. headache, visual changes, short stature), but secondary causes account for less than 5% of childhood obesity. The commonly omitted assessments are blood pressure, waist circumference, and cutaneous markers.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Stopping at weight, height, and BMI is a common clinical error highlighted in this segment. The obesity examination must also include: blood pressure measurement (often elevated), waist circumference or waist-hip ratio (central adiposity marker), and a structured search for cutaneous markers — acanthosis nigricans (insulin resistance), striae, and pseudogynaecomastia — each with direct clinical implications."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. The physical examination of an obese child must go beyond weight, height, and BMI. Blood pressure (early cardiovascular risk), waist circumference or waist-hip ratio (central adiposity), and cutaneous markers — acanthosis nigricans (insulin resistance), striae, pseudogynaecomastia — are the assessments most commonly omitted by trainees yet carry the most immediate clinical significance."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "084f7322-a41e-4a2f-85a3-2074fcf366ee",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "During the examination of a 12-year-old",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        }
+      ],
+      "bookmarks": [
+        {
+          "time": 0,
+          "label": "Welcome to Nutrition Assessment and Support."
+        },
+        {
+          "time": 3,
+          "label": "A 9-month-old boy is brought to the OPD with his anxious…"
+        },
+        {
+          "time": 51,
+          "label": "Age-Specific Energy and Macronutrient Requirements Energy…"
+        },
+        {
+          "time": 115,
+          "label": "Caloric Value of Common Indian Foods Nutritional counsell…"
+        },
+        {
+          "time": 171,
+          "label": "Anthropometric Measurements and Growth Chart Interpretati…"
+        },
+        {
+          "time": 216,
+          "label": "Nutritional History and Dietary Recall A comprehensive nu…"
+        },
+        {
+          "time": 265,
+          "label": "Clinical Presentation of SAM and MAM The clinical present…"
+        },
+        {
+          "time": 313,
+          "label": "WHO 10-Step Management Protocol The WHO 10-step managemen…"
+        },
+        {
+          "time": 365,
+          "label": "Normal Adolescent Nutritional Requirements and the Pubert…"
+        },
+        {
+          "time": 423,
+          "label": "Pathophysiology and Aetiology Understanding the aetiology…"
+        },
+        {
+          "time": 477,
+          "label": "Physical Examination: BMI, Waist-Hip Ratio, and External…"
+        }
+      ],
+      "endscreens": [
+        {
+          "time": 560,
+          "label": "End"
+        }
+      ]
+    },
+    "summary": {
+      "task": {
+        "library": "H5P.Summary 1.10",
+        "params": {
+          "intro": "Course summary",
+          "summaries": [
+            {
+              "subContentId": "95a3241e-4797-4cb6-9383-dade4a8c9ff2",
+              "tip": "",
+              "summary": [
+                "Review the video interactions to check your understanding."
+              ]
+            }
+          ],
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You answered all the questions."
+            }
+          ],
+          "solvedLabel": "Progress:",
+          "scoreBarLabel": "You got :num out of :total points",
+          "resultLabel": "Your result",
+          "labelCorrect": "Correct:",
+          "labelIncorrect": "Incorrect!",
+          "labelShowSolution": "Show solution",
+          "tipButtonLabel": "Show tip",
+          "scoreLabel": "False statements:"
+        },
+        "subContentId": "04c8d1a4-626f-4e85-99bc-32a9f08a732f",
+        "metadata": {
+          "contentType": "Summary",
+          "license": "U",
+          "title": "Summary",
+          "authors": [],
+          "changes": []
+        }
+      },
+      "displayAt": 0
+    }
+  },
+  "override": {
+    "autoplay": false,
+    "loop": false,
+    "showBookmarksmenuOnLoad": false,
+    "showRewind10": true,
+    "preventSkippingMode": "none",
+    "deactivateSound": false
+  },
+  "l10n": {
+    "interaction": "Interaction",
+    "play": "Play",
+    "pause": "Pause",
+    "mute": "Mute",
+    "quality": "Video Quality",
+    "captions": "Captions",
+    "close": "Close",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "summary": "Summary",
+    "bookmarks": "Bookmarks",
+    "endscreen": "Submit screen",
+    "defaultAdaptivitySeekLabel": "Continue"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 32-year-old presents with a fracture of the distal third of the radius. The emergency physician asks whether this can be managed in a cast. The correct management decision is:</p>",
+  "answers": [
+    {
+      "text": "<div>Above-elbow cast for 6 weeks — acceptable non-operative treatment for an isolated distal radius fracture</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>An isolated distal radius fracture could be managed non-operatively, but a distal radial fracture must be assessed for DRUJ disruption. If there is DRUJ involvement, this is a Galeazzi injury and cast treatment has unacceptably high failure rates.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Check for DRUJ instability; if present (Galeazzi fracture-dislocation), operative fixation with ORIF of the radius and DRUJ reduction is required — non-operative treatment is unreliable</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The Galeazzi fracture-dislocation is called a 'fracture of necessity' because cast immobilisation consistently fails to maintain DRUJ reduction. ORIF of the radial shaft restores length, and DRUJ stability is then assessed; if unstable, above-elbow cast in supination (or temporary K-wire) is added.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Check for PRUJ dislocation — if the radial head is dislocated, this is a Galeazzi injury requiring surgery</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A distal radial fracture with radial head dislocation would be unusual; radial head dislocation with proximal ulna fracture is a Monteggia injury. Galeazzi involves DRUJ (distal radioulnar joint), not PRUJ.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Closed reduction under anaesthesia; if the DRUJ reduces, immobilise in a below-elbow cast</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Closed reduction alone is not reliable for Galeazzi injuries. The DRUJ re-dislocates because the soft-tissue constraints are disrupted. ORIF of the radius is mandatory.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The distal radius fracture must be assessed for DRUJ disruption. A Galeazzi fracture-dislocation cannot be reliably managed non-operatively — ORIF is required."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Galeazzi fracture-dislocation is the 'fracture of necessity' — ORIF is mandatory because conservative treatment invariably fails to hold DRUJ reduction."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

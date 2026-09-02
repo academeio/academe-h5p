@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 68-year-old man with known type 2 diabetes mellitus and hypertension dies from lobar pneumonia after a 5-day admission. How should the MCCD Part I causal chain be completed?</p>",
+  "answers": [
+    {
+      "text": "<div>I(a): Cardiac arrest; I(b): Pneumonia; I(c): Diabetes mellitus</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. 'Cardiac arrest' is a mode of dying, NOT a cause of death, and must never appear on the MCCD as a cause. Line I(a) must contain the immediate cause — in this case, pneumonia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>I(a): Lobar pneumonia; I(b): Type 2 diabetes mellitus; Part II: Hypertension</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. I(a) is the immediate cause (lobar pneumonia — the condition directly causing death). I(b) is the antecedent cause contributing to susceptibility (type 2 diabetes mellitus predisposing to pneumonia). Hypertension is a contributory condition not in the causal chain and belongs in Part II.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>I(a): Respiratory failure; I(b): Lobar pneumonia; I(c): Diabetes mellitus</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. 'Respiratory failure' — like 'cardiac arrest' — is a mode of dying, not a cause. It should not appear as an MCCD cause. Start with the actual disease process: lobar pneumonia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>I(a): Lobar pneumonia; Part II: Diabetes mellitus and hypertension</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Partially correct but incomplete. While the immediate cause (lobar pneumonia) is correct, diabetes mellitus belongs in Part I(b) as an antecedent cause that contributed to the development of pneumonia, not merely as a contributory condition in Part II.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Correct MCCD: I(a) Lobar pneumonia → I(b) Type 2 diabetes mellitus; Part II: Hypertension. Remember: 'cardiac arrest' and 'respiratory failure' are modes, never causes. The causal chain in Part I runs from immediate to underlying."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Part I documents the causal chain from immediate to underlying cause. Part II documents contributory conditions not in the causal sequence. Never use modes of dying (cardiac arrest, respiratory failure) as causes."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

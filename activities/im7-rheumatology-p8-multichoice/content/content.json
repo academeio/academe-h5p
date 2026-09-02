@@ -1,0 +1,76 @@
+{
+  "question": "<p>In a patient with early symmetric polyarthritis of the hands, which autoantibody has the HIGHEST specificity for rheumatoid arthritis?</p>",
+  "answers": [
+    {
+      "text": "<div>Antinuclear antibody (ANA)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>ANA is a sensitive but non-specific screening test for systemic autoimmune disease generally — it is positive in SLE, Sjögren's, and many other conditions, including up to 5% of healthy individuals. It is not specific for RA.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Rheumatoid factor (RF)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>RF (IgM anti-IgG antibody) has a sensitivity of ~70% and specificity of ~80% for RA. However, RF is also positive in Sjögren's syndrome, hepatitis C, subacute bacterial endocarditis, and healthy elderly individuals — limiting its specificity.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Anti-cyclic citrullinated peptide antibody (anti-CCP)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Anti-CCP has a specificity of ~95% for RA (higher than RF's ~80%) with comparable sensitivity (~70%). Crucially, anti-CCP can be detected years before clinical arthritis develops and predicts erosive disease — making it the most specific available serological marker for RA.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Anti-double-stranded DNA (anti-dsDNA)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Anti-dsDNA is highly specific for SLE, not RA. Its titre also correlates with lupus nephritis activity.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Anti-CCP is the most specific serological test for RA (~95% specificity vs RF's ~80%). High-titre positivity of both RF and anti-CCP scores points in the 2010 ACR/EULAR criteria and predicts aggressive, erosive disease."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Anti-CCP (~95% specific) is more specific than RF (~80%) for RA and may be positive years before clinical onset. Together, anti-CCP + RF positivity meets two of the 2010 ACR/EULAR RA classification criteria points."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

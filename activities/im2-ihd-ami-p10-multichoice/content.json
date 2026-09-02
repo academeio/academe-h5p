@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 55-year-old man with established IHD (previous STEMI, on statin therapy) has a fasting LDL-C of 1.9 mmol/L (73 mg/dL). According to current ESC/ACC guidelines, what is the appropriate LDL-C target for this very high-risk patient?</p>",
+  "answers": [
+    {
+      "text": "<div>LDL-C &lt; 2.6 mmol/L (100 mg/dL)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This target applies to high-risk patients (e.g., multiple risk factors, diabetes without organ damage). For very high-risk patients with established ASCVD, the target is more stringent.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>LDL-C &lt; 1.8 mmol/L (70 mg/dL) and ≥50% reduction from baseline</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. For very high cardiovascular risk (established ASCVD, including prior MI, stroke, or peripheral artery disease), the target is LDL-C &lt;1.8 mmol/L (70 mg/dL) AND at least a 50% reduction from untreated baseline. This patient at 1.9 mmol/L is above target.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>LDL-C &lt; 1.4 mmol/L (55 mg/dL) and ≥50% reduction</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This ultra-low target (1.4 mmol/L) applies to extreme risk patients — those with a second cardiovascular event within 2 years despite maximally tolerated statin therapy. This patient had a single STEMI.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Any LDL-C reduction is acceptable as long as the patient is on statin therapy</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Statin initiation alone is insufficient — guideline-directed targets must be met. Intensification (higher-dose statin, ezetimibe, or PCSK9 inhibitor) is required if targets are not achieved.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "LDL targets by risk tier: High risk (<2.6 mmol/L) → Very high risk/established ASCVD (<1.8 mmol/L + ≥50% reduction) → Extreme risk/recurrent events (<1.4 mmol/L + ≥50% reduction)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. Very high-risk (established ASCVD): LDL-C <1.8 mmol/L AND ≥50% reduction. Extreme risk (recurrent event on max statin): LDL-C <1.4 mmol/L AND ≥50% reduction."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

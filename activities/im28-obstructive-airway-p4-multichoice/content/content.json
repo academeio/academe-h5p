@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 62-year-old male smoker has a post-bronchodilator FEV1/FVC of 0.58 and FEV1 of 52% predicted. Which GOLD severity grade applies, and what does the FEV1/FVC confirm?</p>",
+  "answers": [
+    {
+      "text": "<div>GOLD Grade 2 (Moderate); FEV1/FVC &lt; 0.70 confirms airflow obstruction</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. FEV1/FVC &lt; 0.70 confirms obstructive pattern (COPD diagnosis). FEV1 50–79% predicted = GOLD Grade 2 (Moderate).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>GOLD Grade 1 (Mild); FEV1/FVC confirms borderline obstruction</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. GOLD Grade 1 requires FEV1 ≥ 80% predicted. This patient's FEV1 is 52% predicted, placing them in Grade 2.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>GOLD Grade 3 (Severe); FEV1/FVC &lt; 0.60 is required for diagnosis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. GOLD Grade 3 requires FEV1 30–49% predicted. The diagnostic threshold is FEV1/FVC &lt; 0.70, not &lt; 0.60.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>GOLD Grade 2 (Moderate); FEV1/FVC &lt; 0.70 confirms a restrictive defect</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. FEV1/FVC &lt; 0.70 post-bronchodilator confirms an obstructive (not restrictive) defect. Restriction is characterised by reduced FVC with a normal or elevated FEV1/FVC ratio.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "GOLD staging: Grade 1 ≥ 80%, Grade 2 = 50–79%, Grade 3 = 30–49%, Grade 4 < 30% predicted FEV1. Diagnosis requires FEV1/FVC < 0.70 post-bronchodilator."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. FEV1/FVC < 0.70 = obstruction confirmed; FEV1 50–79% predicted = GOLD 2 (Moderate)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

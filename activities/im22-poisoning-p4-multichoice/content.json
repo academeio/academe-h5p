@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 22-year-old woman took 15 g of paracetamol 8 hours ago. She is currently asymptomatic with normal vitals. Her 8-hour serum paracetamol level plots ABOVE the treatment line on the Rumack-Matthew nomogram. What is the CORRECT next step?</p>",
+  "answers": [
+    {
+      "text": "<div>Observe for 24 hours; initiate N-acetylcysteine (NAC) only if LFTs rise</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Waiting for LFT rise is too late — the silent phase of paracetamol toxicity means hepatocellular injury is already occurring before LFTs become abnormal. NAC must be started immediately based on the nomogram.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Initiate IV N-acetylcysteine (NAC) immediately</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. When the paracetamol level at 4–24 hours post-ingestion plots on or above the treatment line (150 μg/mL at 4h), IV NAC must be started immediately. NAC is the specific antidote — it replenishes hepatic glutathione, conjugating the toxic NAPQI metabolite.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Administer activated charcoal and discharge if asymptomatic at 12 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>At 8 hours post-ingestion, activated charcoal provides little benefit (absorption nearly complete). The asymptomatic state in the first 24 hours is MISLEADING — hepatotoxicity peaks at 72–96 hours.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Perform emergency haemodialysis to remove paracetamol</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Haemodialysis is NOT the treatment for paracetamol overdose. NAC is the specific antidote. Dialysis may be considered for established fulminant hepatic failure but is not the primary intervention.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The Rumack-Matthew nomogram is the cornerstone of paracetamol overdose management. A level on or above the treatment line at any time between 4–24 hours mandates immediate IV NAC regardless of symptoms."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Exactly right. The Rumack-Matthew nomogram at ≥4 hours post-ingestion guides NAC initiation. An asymptomatic patient with a level above the treatment line MUST receive IV NAC immediately — do not wait for symptoms."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 30-year-old HIV-positive patient (CD4 count 180 cells/µL) undergoes a Mantoux (PPD) test. The induration measured at 72 hours is 8 mm. How should this result be interpreted?</p>",
+  "answers": [
+    {
+      "text": "<div>Negative — induration must be ≥10 mm to be considered positive.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A ≥10 mm threshold applies to intermediate-risk individuals (healthcare workers, immigrants from high-prevalence countries). HIV-positive patients use a lower threshold.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Positive — in HIV-infected individuals, induration ≥5 mm is considered positive.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. In immunocompromised individuals including HIV-positive patients, the Mantoux threshold is ≥5 mm. An 8 mm result in this patient is clearly positive and indicates TB infection (latent or active).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Indeterminate — the result must be repeated after 2 weeks.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Mantoux results are not categorised as 'indeterminate' in clinical practice. The result is interpreted against the patient's risk category. In an HIV-positive patient, ≥5 mm = positive.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Negative — HIV-positive patients are anergic and Mantoux is unreliable in them.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. While severe immunosuppression can cause anergy and false negatives, a positive result (≥5 mm) in an HIV-positive patient is still clinically meaningful and should be acted upon.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Revisit the Mantoux interpretation section. In HIV-positive and other immunocompromised patients, ≥5 mm induration is the positive threshold — lower than the standard ≥10 mm used in average-risk individuals."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well applied. The ≥5 mm threshold in HIV-positive patients is a key Mantoux interpretation trap in examinations."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

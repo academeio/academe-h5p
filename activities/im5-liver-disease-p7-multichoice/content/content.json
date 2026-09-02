@@ -1,0 +1,76 @@
+{
+  "question": "<p>A cirrhotic patient with ascites has diagnostic paracentesis showing ascitic fluid PMN count of 320 cells/mm³ with no localising source of infection. What is the correct management?</p>",
+  "answers": [
+    {
+      "text": "<div>Await ascitic fluid culture results before starting antibiotics</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Spontaneous bacterial peritonitis (SBP) is diagnosed when ascitic PMN ≥250 cells/mm³, regardless of culture result (cultures are negative in up to 60% of SBP). Treatment must not be delayed pending culture.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Start intravenous cefotaxime 2g every 8 hours and intravenous albumin (1.5 g/kg on day 1, 1 g/kg on day 3)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. PMN ≥250 cells/mm³ without a localised source confirms SBP. First-line treatment is IV cefotaxime. Albumin infusion (1.5 g/kg day 1, 1 g/kg day 3) significantly reduces the risk of hepatorenal syndrome and mortality — this is the evidence-based standard.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Perform large-volume paracentesis and start oral ciprofloxacin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Large-volume paracentesis is for tense ascites but does not treat SBP. Oral ciprofloxacin is used for secondary prophylaxis after an SBP episode, not for acute treatment of established SBP requiring IV antibiotics.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Start antifungals empirically given the high PMN count</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. High PMN counts in ascites indicate bacterial SBP, not fungal peritonitis. Empirical antifungals are not first-line. Cefotaxime (or a third-generation cephalosporin) is the established first-line antibiotic for SBP.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key SBP facts: diagnostic threshold PMN ≥250/mm³ (not 500); treatment = IV cefotaxime + IV albumin (prevents HRS); do not delay antibiotics for culture results. Review the cirrhosis complications management section."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. SBP diagnosis: PMN ≥250/mm³. Management: IV cefotaxime + albumin (1.5 g/kg day 1, 1 g/kg day 3). Do not wait for cultures; albumin prevents HRS."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

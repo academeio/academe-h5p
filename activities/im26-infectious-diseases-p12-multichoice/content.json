@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 60-year-old ICU patient on broad-spectrum antibiotics, total parenteral nutrition, and with a central venous catheter (CVC) develops candidaemia (blood culture: Candida albicans). What is the most appropriate management?</p>",
+  "answers": [
+    {
+      "text": "<div>Oral fluconazole 200 mg daily and retain the CVC</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Two errors: (1) CVC retention in candidaemia significantly increases mortality and must be removed as early as feasible; (2) fluconazole is acceptable for Candida albicans candidaemia but the initial preferred agent in critically ill patients is an echinocandin (micafungin or caspofungin) for superior bioavailability and lower resistance rates.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV echinocandin (e.g., caspofungin or micafungin) plus prompt CVC removal</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. IDSA guidelines recommend an IV echinocandin as first-line for candidaemia in critically ill patients. CVC removal is a critical adjunct — blood cultures clear significantly faster after CVC removal and mortality decreases. Step down to fluconazole is appropriate once the patient is clinically stable and the isolate is fluconazole-susceptible.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV amphotericin B deoxycholate as the first-line agent</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Conventional amphotericin B is reserved for resistant Candida species or when echinocandins are unavailable. Its nephrotoxicity profile makes it a second-line choice in critically ill patients who already have organ dysfunction.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV fluconazole alone, no need to remove CVC if fever settles</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>CVC removal is mandatory regardless of clinical response, as biofilm on the catheter can continuously seed the bloodstream. Persistence of a CVC with documented candidaemia is associated with increased mortality.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Candidaemia = echinocandin (first-line in ICU) + CVC removal. Fluconazole is an acceptable step-down for susceptible isolates in stable patients. CVC removal is non-negotiable — it is as important as the antifungal."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. The twin pillars of candidaemia management: echinocandin IV + CVC removal. Treatment duration is at least 14 days from the first negative blood culture. Fundoscopic examination for Candida endophthalmitis is recommended in all cases."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

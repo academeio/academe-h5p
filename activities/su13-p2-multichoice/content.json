@@ -1,0 +1,76 @@
+{
+  "question": "<p>At a mass-casualty incident, a victim is breathing at 24 breaths per minute, has a radial pulse, and obeys commands. Which START triage colour should be assigned?</p>",
+  "answers": [
+    {
+      "text": "<div>Red (immediate)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Red is assigned when respirations are &gt;30/min OR there is no radial pulse OR the victim cannot obey commands. This victim meets none of those criteria.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Yellow (delayed)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Respirations 10–29/min + radial pulse present + obeys commands = Yellow (delayed). The victim is stable enough to wait once higher-priority casualties are treated.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Green (minor)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Green is the 'walking wounded' — victims able to walk to a collection point. This victim's respiratory rate of 24/min and possible inability to walk make Yellow the appropriate category.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Black (expectant/deceased)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Black is assigned to victims who are not breathing after airway repositioning, or to expectant casualties with unsurvivable injuries when resources are overwhelmed.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "In START triage, check respirations first (>30 = Red), then radial pulse (absent = Red), then ability to obey commands (cannot = Red). If all three are within limits, assign Yellow."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. START triage: respirations, radial pulse, and ability to obey commands — all within normal limits here — assign Yellow (delayed)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which of the following is an ABSOLUTE contraindication to performing a lumbar puncture?</p>",
+  "answers": [
+    {
+      "text": "<div>Platelet count of 60 × 10⁹/L</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. While thrombocytopenia increases bleeding risk and requires caution, a platelet count of 60 × 10⁹/L is not the absolute contraindication to LP. The usual threshold varies (often &lt;50 × 10⁹/L is relative contraindication), but clinical urgency can override this.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Presence of papilloedema on fundoscopy suggesting raised ICP</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Papilloedema indicating raised intracranial pressure is an absolute contraindication to LP without prior neuroimaging. Performing LP in the presence of raised ICP risks tonsillar herniation ('coning') — a fatal complication. Urgent CT must precede LP in this scenario.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Patient receiving therapeutic anticoagulation with warfarin (INR 2.1)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Anticoagulation at therapeutic levels is a relative contraindication requiring warfarin reversal before LP, but it is not absolute. Clinical urgency (e.g., suspected bacterial meningitis) may mandate proceeding after risk-benefit assessment.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Skin infection at an alternative (L4–5) interspace</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Local skin infection at the intended puncture site is a contraindication at that site, but LP can proceed at a different uninfected interspace. It is not an absolute contraindication to LP altogether.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The absolute contraindication to LP is clinical or fundoscopic evidence of raised intracranial pressure (papilloedema, midline shift on CT). LP without prior imaging in raised ICP risks fatal herniation."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Papilloedema indicating raised ICP is an absolute contraindication to LP without prior CT imaging — due to the risk of fatal brainstem herniation."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

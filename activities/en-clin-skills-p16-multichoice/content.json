@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 28-year-old male arrives in the emergency department after a road traffic accident with severe neck trauma. He has stridor, increasing respiratory distress, and cannot be intubated due to laryngeal disruption. Which airway intervention is most appropriate?</p>",
+  "answers": [
+    {
+      "text": "<div>Perform a formal tracheostomy in the emergency department immediately</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Formal tracheostomy is a planned surgical procedure that takes significantly longer and requires a fully prepared surgical team and instruments. In a 'cannot intubate, cannot oxygenate' scenario with laryngeal disruption, the time required for formal tracheostomy is unacceptably long. Cricothyroidotomy is faster and the correct immediate life-saving procedure.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Perform an emergency cricothyroidotomy to secure the airway immediately</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Cricothyroidotomy is the procedure of choice in a cannot-intubate-cannot-oxygenate scenario. The cricothyroid membrane is the most accessible airway landmark — it is large, subcutaneous, and avascular relative to the trachea. A vertical midline incision through skin and the cricothyroid membrane, followed by insertion of a cuffed tube, secures the airway within seconds to minutes. Convert to formal tracheostomy within 24-72 hours once the patient is stabilised.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Repeat intubation attempts with a smaller tube and maximum sedation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Repeated failed intubation attempts with laryngeal disruption risk worsening the injury, causing oesophageal intubation, or losing the airway entirely. The ABCDE approach mandates that after failed intubation with ongoing desaturation, the team immediately declares a 'cannot intubate, cannot oxygenate' emergency and moves to surgical airway.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Administer nebulised adrenaline and observe for 15 minutes before any airway intervention</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Nebulised adrenaline is appropriate for mild-to-moderate croup or allergic laryngospasm — not for traumatic laryngeal disruption with stridor and increasing distress. Observation in this context risks complete airway loss. The priority is immediate surgical airway.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Laryngeal trauma with failed intubation = cricothyroidotomy (not tracheostomy, not observation). The cricothyroid membrane is the fastest surgical airway. Tracheostomy is planned; cricothyroidotomy is the rescue."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Cannot intubate, cannot oxygenate = emergency cricothyroidotomy. Speed is the determining factor. Tracheostomy follows electively once the patient is stable."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

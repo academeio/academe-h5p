@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient in the active dying phase (last 24–48 hours) is no longer able to swallow oral medication. Their background morphine is 60 mg oral/day. What is the most appropriate next step regarding their opioid analgesia?</p>",
+  "answers": [
+    {
+      "text": "<div>Discontinue all opioids as the patient is now unconscious and cannot report pain</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Discontinuing opioids risks undertreated pain and distress during dying. Unconscious patients may still exhibit signs of pain (grimacing, agitation). Opioids should be continued via an alternative route.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Convert to subcutaneous morphine infusion using the oral:SC conversion ratio of 2:1 (i.e., 30 mg SC/24 hours)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The standard oral morphine to subcutaneous morphine conversion is 2:1 (oral dose halved). For 60 mg oral/day, the SC equivalent is 30 mg/24h via continuous subcutaneous infusion (CSCI/syringe driver), with SC breakthrough doses of 5 mg PRN.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Convert to intravenous fentanyl using a 1:1 dose ratio with oral morphine</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The fentanyl conversion is not 1:1 — fentanyl is approximately 100× more potent than morphine by weight. The subcutaneous route is preferred in palliative care; IV fentanyl requires specialist dose calculation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Prescribe rectal morphine suppositories at the same dose as the oral dose</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Rectal morphine is an option but not standard first-line in palliative dying care. Bioavailability is variable, and the rectal route is often uncomfortable or unavailable. Subcutaneous infusion is the preferred route.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "When oral opioids are no longer feasible, convert to subcutaneous infusion using the 2:1 oral:SC morphine ratio. For 60 mg oral/day → 30 mg SC/24h via syringe driver, with 5 mg SC breakthrough doses PRN."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. The oral:SC morphine conversion ratio is 2:1. A patient on 60 mg oral/day requires 30 mg SC/24h via CSCI — a standard palliative prescribing calculation (AS8.5)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 5-year-old with spastic diplegic CP has an equinus gait. Examination reveals 15° of passive dorsiflexion at the ankle (beyond neutral) when the knee is extended, but the child habitually walks on tiptoe. Which treatment is most appropriate at this stage?</p>",
+  "answers": [
+    {
+      "text": "<div>Surgical Achilles tendon lengthening (TAL)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>TAL is indicated for FIXED equinus (passive dorsiflexion cannot reach neutral). This child has passive dorsiflexion well beyond neutral — the equinus gait is DYNAMIC (spastic), not structural. Surgery on a dynamic deformity will overcorrect to calcaneus.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Botulinum toxin A injection to gastrocnemius-soleus</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Dynamic equinus (spastic but passively correctable beyond neutral) in a child under 6 years is the ideal indication for botulinum toxin A. It temporarily reduces spasticity, facilitates physiotherapy, and defers the need for surgery during active growth.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Triple arthrodesis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Triple arthrodesis is a salvage procedure for severe, FIXED hindfoot deformity in skeletally mature patients. It is completely contraindicated in a 5-year-old with dynamic equinus — it would eliminate normal foot growth and produce a stiff foot in a developing child.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Serial casting alone without any pharmacological intervention</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Serial casting can be used but is most effective when combined with botulinum toxin A, which reduces spastic resistance to stretching. Casting alone in this dynamic spastic equinus is less effective and is not the single best choice.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The pivotal assessment: can you passively correct the deformity fully? Yes → dynamic → botulinum toxin ± casting. No → fixed → surgery. Botulinum toxin on a fixed contracture has no effect; surgery on a purely dynamic deformity causes overcorrection."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The key discriminator is dynamic vs fixed: passive dorsiflexion beyond neutral = no structural contracture = botulinum toxin is the first-line intervention. Surgery is reserved for fixed deformity."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

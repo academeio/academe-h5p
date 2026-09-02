@@ -1,0 +1,76 @@
+{
+  "question": "<p>A journalist telephones the hospital and asks you — the treating junior doctor — for an update on a high-profile medico-legal case. The most appropriate response is:</p>",
+  "answers": [
+    {
+      "text": "<div>Provide factual, non-identifying clinical information to maintain transparency with the public</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Even 'factual' clinical information about an individual patient violates confidentiality. Junior doctors are not authorised spokespersons and should not speak to media about patient cases.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Decline to confirm or deny any patient-specific information and direct the journalist to the authorised hospital spokesperson</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Junior doctors must not speak to media about patient cases. The correct response is to redirect to the hospital spokesperson without confirming or denying any patient-specific information.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Confirm that the patient is admitted but decline to provide clinical details</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Even confirming that a person is a patient violates their confidentiality. No patient-specific information — including admission status — should be shared without authorisation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Provide an update if the patient's relative has already spoken publicly about the case</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A relative's public statement does not authorise the treating doctor to disclose patient information. Confidentiality obligations apply regardless of what others have disclosed.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Never speak to media about patient cases. Redirect to the hospital spokesperson. Do not confirm or deny even basic admission details — these are confidential."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. The correct response is complete redirection to the authorised spokesperson — no confirmation, no denial, no clinical details. Junior doctors are not media spokespersons."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

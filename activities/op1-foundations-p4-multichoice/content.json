@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient's unaided visual acuity is 6/24. When a pinhole is placed in front of the eye, acuity improves to 6/6. What does this finding indicate?</p>",
+  "answers": [
+    {
+      "text": "<div>The patient has cataract causing light scatter, which is reduced by the pinhole</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Cataract causes media opacity and light scatter. The pinhole does not correct this — significant improvement through a pinhole points to a refractive cause, not media opacity.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The visual acuity loss is due to a refractive error that is fully correctable with appropriate spectacles</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The pinhole admits only a narrow central beam of light, bypassing peripheral refractive aberrations. Marked improvement through a pinhole means the reduced VA is due to an uncorrected refractive error, not structural/neural disease.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The patient has amblyopia, which is improved by reducing light scatter</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>In amblyopia, best-corrected VA is reduced, and the pinhole test does NOT improve VA to normal. Pinhole improvement to 6/6 excludes amblyopia as the sole explanation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The optic nerve is functioning normally because the patient can read 6/6 through the pinhole</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The pinhole tests the refractive component, not optic nerve function. Optic nerve assessment requires pupil reactions, colour vision and VEPs — not the pinhole test alone.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Remember: the pinhole eliminates peripheral refracting rays, so only central paraxial light reaches the retina. If this improves VA significantly, the blur is due to refractive error — correctable with lenses."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Pinhole improvement = refractive cause. No improvement through pinhole = structural or neural cause (cataract, retinal disease, optic nerve pathology, or amblyopia)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

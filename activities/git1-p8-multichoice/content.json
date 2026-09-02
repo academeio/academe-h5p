@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which virulence factor of Helicobacter pylori directly enables its survival in the acidic gastric lumen by creating a protective alkaline microenvironment?</p>",
+  "answers": [
+    {
+      "text": "<div>Urease — hydrolyses urea into ammonia and CO₂, raising local pH around the bacterium</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. H. pylori produces powerful urease that splits urea → NH₃ + CO₂. The ammonia creates an alkaline cloud neutralising gastric acid locally. This enzyme is so characteristic that nearly every diagnostic test (CLO test, urea breath test, stool antigen) exploits its activity.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>CagA — injected into epithelial cells via a type IV secretion system</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>CagA is an oncoprotein injected into host cells that activates Ras–ERK signalling and increases cancer risk. It does not protect the bacterium from gastric acid — that role belongs to urease.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>VacA — induces vacuolation and apoptosis in gastric epithelial cells</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>VacA damages epithelial cells contributing to ulceration, but does not neutralise acid. The bacterium needs urease-mediated alkalinisation to survive before it can colonise and deploy VacA.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Sheathed flagella — enable motility through the viscous gastric mucus layer</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Flagella enable H. pylori to burrow through the mucus layer to reach the epithelial surface, but they do not protect against acid. Urease provides the critical acid-neutralising mechanism that permits colonisation.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "H. pylori survival: urease → urea → NH₃ + CO₂ → alkaline microenvironment → acid neutralisation. This is why CLO test and urea breath test detect urease activity."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Urease is the signature enzyme of H. pylori — both a survival mechanism and the basis of most diagnostic tests."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

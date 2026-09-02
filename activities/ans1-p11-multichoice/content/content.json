@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 40-year-old with crush injuries from a road accident requires emergency intubation 36 hours post-injury. Serum K⁺ is 5.2 mEq/L. Which neuromuscular blocking drug is appropriate for rapid sequence induction?</p>",
+  "answers": [
+    {
+      "text": "<div>Rocuronium 1.2 mg/kg IV — avoids succinylcholine's K⁺ release risk in crush injury; reversible with sugammadex if the airway fails</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Succinylcholine is contraindicated in crush injuries &gt;24 hours because upregulated extrajunctional nicotinic receptors release massive K⁺ on depolarisation (can rise 2–5 mEq/L — fatal from a baseline of 5.2). Rocuronium 1.2 mg/kg gives RSI-equivalent onset (~60 seconds) and is reversible with sugammadex 16 mg/kg.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Succinylcholine 1.5 mg/kg — fastest onset and best RSI conditions</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Succinylcholine is contraindicated here. After crush injury (&gt;24 hours), denervation upregulates extrajunctional ACh receptors across the entire muscle membrane. Succinylcholine depolarises all of these, releasing K⁺ sufficient to cause fatal hyperkalaemic cardiac arrest.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Atracurium 0.5 mg/kg — Hofmann elimination is safest in trauma patients</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Atracurium has a slower onset (2–3 minutes) and is unsuitable for RSI where rapid airway control within 60 seconds is needed. Hofmann elimination is advantageous in organ failure but onset speed is the critical RSI parameter.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Pancuronium 0.1 mg/kg — long duration ensures no awareness during emergency surgery</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Pancuronium has the slowest onset of common NMBDs and is entirely unsuitable for RSI. Its long duration (60–90 minutes) and vagolytic properties make it a poor emergency intubation choice.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Critical: succinylcholine is contraindicated in crush injuries >24 hours old (upregulated receptors → massive K⁺ release). Rocuronium 1.2 mg/kg is the RSI alternative, reversible with sugammadex 16 mg/kg."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. Succinylcholine contraindication in crush/burn/denervation injuries (>24 hours) is one of the most life-saving pieces of pharmacological knowledge in emergency anaesthesia."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

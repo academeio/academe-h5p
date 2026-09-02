@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient with suspected raised intracranial pressure requires emergency induction of anaesthesia. Which IV induction agent should be AVOIDED?</p>",
+  "answers": [
+    {
+      "text": "<div>Ketamine — increases cerebral blood flow and ICP through sympathetic stimulation and increased cerebral metabolic rate</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Ketamine's dissociative mechanism (NMDA antagonism + sympathomimetic activity) increases cerebral blood flow and metabolic rate, raising ICP. It is contraindicated in patients with raised ICP, penetrating eye injuries, and uncontrolled hypertension.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Propofol — causes severe hypotension that critically reduces cerebral perfusion pressure</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Propofol does reduce blood pressure, but it also reduces ICP (by decreasing cerebral blood flow and metabolic rate). It is actually frequently used in neurosurgery. Hypotension is managed with fluids and vasopressors.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Etomidate — its cortisol suppression worsens neurological outcome in head injury</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Etomidate does suppress cortisol (11β-hydroxylase inhibition), but this is a concern in prolonged critical care, not a contraindication for single-dose induction. Etomidate is haemodynamically stable and reduces ICP — it is often used in neurotrauma.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Thiopental — causes seizures that worsen intracranial hypertension</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Thiopental actually reduces ICP by decreasing cerebral blood flow and metabolic rate. It has been used specifically for refractory intracranial hypertension (barbiturate coma). It does not cause seizures — it is an anticonvulsant.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Among IV induction agents, propofol, thiopental, and etomidate all reduce cerebral blood flow and ICP. Ketamine is unique in increasing ICP through sympathetic stimulation — making it the one agent to avoid in raised ICP."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Ketamine is the only commonly used IV induction agent that raises ICP. Its sympathomimetic properties and increase in cerebral metabolic rate make it contraindicated when ICP is elevated."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

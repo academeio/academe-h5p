@@ -1,0 +1,76 @@
+{
+  "question": "<p>HIV-1 reverse transcriptase has an error rate of approximately one mutation per replication cycle. What is the MOST important clinical consequence of this high error rate?</p>",
+  "answers": [
+    {
+      "text": "<div>Rapid emergence of drug-resistant viral variants under antiretroviral selection pressure</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The high error rate of reverse transcriptase generates enormous genetic diversity (quasispecies). Under antiretroviral selection pressure, resistant mutants are rapidly selected. This is why HAART uses combination therapy (≥3 drugs from ≥2 classes) — to make it statistically improbable that a single virion carries resistance mutations to all drugs simultaneously.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>HIV cannot replicate efficiently, so viral load remains permanently low</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Despite the high error rate, most mutations are neutral — HIV replicates very efficiently (10⁹–10¹⁰ virions/day at peak). The high error rate actually benefits the virus by generating immense genetic diversity, enabling both immune evasion and drug resistance.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The virus cannot integrate into the host chromosome due to corrupted proviral DNA</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Integration is carried out by integrase, not reverse transcriptase. RT errors introduce mutations into the proviral DNA but do not prevent integration. These mutations produce diverse viral progeny — driving drug resistance and immune evasion, not preventing replication.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The immune system easily recognises and destroys all mutant virions</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The opposite is true — the high mutation rate helps HIV evade immune responses. Antigenic variation in envelope glycoproteins (especially the gp120 V3 loop) means antibodies directed against one variant may not recognise mutant variants, making vaccine development extremely challenging.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The high error rate of reverse transcriptase generates enormous viral diversity (quasispecies). Clinically, this drives rapid emergence of drug-resistant variants — which is why combination antiretroviral therapy (≥3 drugs from ≥2 classes) is essential to suppress HIV effectively."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Exactly. RT's error-prone nature is HIV's survival strategy: it generates diverse quasispecies that evade both immune responses and single-drug therapy. This is the fundamental rationale for combination ART (HAART)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

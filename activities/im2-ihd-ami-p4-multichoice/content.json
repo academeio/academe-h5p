@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which ECG finding meets the diagnostic threshold for STEMI in leads V2–V3 in a 45-year-old male?</p>",
+  "answers": [
+    {
+      "text": "<div>New ST elevation ≥1 mm in V2 and V3</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The threshold for V2–V3 is higher than limb leads. ≥1 mm meets criteria in limb leads and V4–V6, but not V2–V3 in men under 40.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>New ST elevation ≥2 mm in V2 and V3</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. STEMI criteria in V2–V3 require ≥2 mm (0.2 mV) ST elevation in men ≥40 years; ≥2.5 mm in men &lt;40. This threshold is higher than the ≥1 mm criterion used for other leads.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>New ST elevation ≥0.5 mm in V2 and V3</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>0.5 mm ST elevation does not meet STEMI criteria in any lead. This threshold is used for posterior leads in some guidelines.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>New T-wave inversion in V2 and V3</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>New T-wave inversion in V2–V3 may suggest posterior MI or anterior ischaemia but does not constitute a STEMI pattern.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "STEMI ECG criteria: ≥1 mm ST elevation in ≥2 contiguous limb leads or V4–V6; ≥2 mm in V2–V3 (men ≥40); ≥2.5 mm in V2–V3 (men <40); ≥1.5 mm in V2–V3 (women)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The ≥2 mm threshold in V2–V3 for men ≥40 is a standard STEMI criterion that must be memorised — this is the lead pair with the highest threshold."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

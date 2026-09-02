@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which of the following most reliably distinguishes acute kidney injury (AKI) from chronic kidney disease (CKD) on clinical evaluation?</p>",
+  "answers": [
+    {
+      "text": "<div>Bilateral small kidneys on ultrasound</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Partially correct but not the MOST reliable single discriminator. Small kidneys strongly suggest chronicity (CKD), but ultrasound alone does not confirm AKI vs CKD — both history and labs are also essential.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Anaemia with raised PTH</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Anaemia and raised PTH are features of CKD (EPO deficiency, secondary hyperparathyroidism), but can also occur in prolonged AKI or AKI-on-CKD. These are supportive, not definitive.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Prior baseline creatinine documented as normal within the past 3 months</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. A documented normal creatinine within the past 3 months is the most reliable single piece of evidence for acute onset. Combined with the current rise, it confirms AKI rather than pre-existing CKD. Ultrasound (kidney size), anaemia, and PTH are supportive but less definitive.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Absence of nocturia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Nocturia (loss of concentrating ability) is a CKD feature, but its presence or absence has limited specificity for distinguishing AKI from CKD.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The best discriminator is a documented recent normal creatinine — it directly proves the acute nature. Other features (small kidneys, anaemia, raised PTH) support chronicity but are less specific."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Prior documented normal creatinine is the most direct evidence of acute onset. Combined with ultrasound (normal kidney size argues against chronicity) and haematological markers, you can reliably distinguish AKI from CKD."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

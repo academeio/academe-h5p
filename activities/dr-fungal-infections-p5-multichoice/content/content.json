@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which mechanism is responsible for the terbinafine resistance observed in the current Indian epidemic of chronic dermatophytosis?</p>",
+  "answers": [
+    {
+      "text": "<div>Point mutations in the squalene epoxidase (SQLE) gene that reduce terbinafine binding to its target enzyme</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Terbinafine inhibits squalene epoxidase in the ergosterol synthesis pathway. Mutations in the SQLE gene — well documented in the Trichophyton mentagrophytes/indotineae complex prevalent in India — reduce drug-target binding, producing clinical resistance and driving the switch to itraconazole for recalcitrant disease.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Mutations in the lanosterol 14-α-demethylase (CYP51) gene that reduce drug binding</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. CYP51 mutations affect azole antifungals (itraconazole, fluconazole), not terbinafine. Terbinafine acts upstream in the ergosterol pathway at squalene epoxidase, and it is mutations at this enzyme that drive terbinafine resistance.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Acquired loss of the fungal chitin cell wall, preventing drug entry</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Fungi do not lose their chitin cell wall — it is essential for structural integrity and survival. Terbinafine resistance is a target-enzyme mutation (squalene epoxidase), not a cell wall alteration.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Overproduction of ergosterol stimulated by topical antibacterial agents</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. While topical steroid misuse contributes to treatment failure through immunosuppression and spread, the specific drug resistance is due to genetic mutations in the squalene epoxidase enzyme, not antibacterial-driven ergosterol overproduction.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The key mechanism is a point mutation in the squalene epoxidase gene — terbinafine's molecular target — not a change in cell wall or a different enzyme."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "SQLE mutations explain why itraconazole — which acts on a different enzyme (CYP51) — has become the rescue agent for terbinafine-resistant tinea."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

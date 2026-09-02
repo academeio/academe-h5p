@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 65-year-old patient on mechanical ventilation develops ventilator-associated pneumonia (VAP). Tracheal aspirate Gram stain shows Gram-negative bacilli. Which empirical antibiotic regimen is most appropriate pending culture results?</p>",
+  "answers": [
+    {
+      "text": "<div>Amoxicillin-clavulanate alone</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Amoxicillin-clavulanate has poor anti-pseudomonal activity and inadequate penetration into lungs for VAP. It is not appropriate empirical coverage for suspected Pseudomonas VAP.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Piperacillin-tazobactam or cefepime (anti-pseudomonal beta-lactam) ± aminoglycoside</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. For VAP with suspected Pseudomonas aeruginosa, anti-pseudomonal beta-lactams (piperacillin-tazobactam, cefepime, meropenem, or imipenem) are the backbone. Combination with an aminoglycoside or ciprofloxacin is used in critically ill patients to provide synergy and broaden coverage pending sensitivity results.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Vancomycin plus metronidazole</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Vancomycin covers MRSA but not Gram-negative pathogens; metronidazole covers anaerobes. This combination misses the suspected Pseudomonas entirely.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Oral ciprofloxacin alone</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Oral bioavailability of ciprofloxacin is reasonable, but monotherapy with fluoroquinolones for Pseudomonas VAP is discouraged due to high resistance rates and the severity of VAP warranting IV combination therapy.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "For suspected Pseudomonas VAP, empirical therapy must include an anti-pseudomonal agent (pip-taz, cefepime, or carbapenem). Single agents with narrow spectrum (amoxicillin-clavulanate, vancomycin alone) will not cover this Gram-negative pathogen."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Pseudomonas VAP requires anti-pseudomonal beta-lactam coverage. De-escalate once sensitivities are back — double coverage is an empirical strategy, not definitive therapy."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

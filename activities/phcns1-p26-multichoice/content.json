@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient with opioid use disorder is being started on buprenorphine/naloxone. His last heroin use was 6 hours ago and he has no withdrawal symptoms yet. A colleague suggests giving the first dose now. Why is this INCORRECT?</p>",
+  "answers": [
+    {
+      "text": "<div>Buprenorphine must be started only when the patient is already in mild-to-moderate withdrawal (COWS ≥8) — giving it before withdrawal onset will displace the full agonist and precipitate severe acute withdrawal</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Buprenorphine has extremely high µ-receptor affinity but is only a partial agonist. If given while full agonist (heroin/morphine) still occupies receptors, buprenorphine displaces the full agonist and replaces full µ activation with partial activation — precipitating acute withdrawal (cramps, diarrhoea, agitation, severe distress). Wait until COWS score ≥8 before the first dose.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Buprenorphine must be given 72 hours after last opioid use to allow full hepatic clearance of heroin metabolites</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>72 hours is far too long — patients would experience unbearable withdrawal (which peaks at 36–72 hours for heroin). Buprenorphine should be given when mild-moderate withdrawal develops (typically 12–24 hours after last heroin use, COWS ≥8). The key is waiting for withdrawal to begin, not for complete clearance.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The naloxone component in the tablet will cause immediate overdose reversal and precipitate cardiac arrest</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The naloxone in buprenorphine/naloxone (Suboxone) is poorly absorbed sublingually (minimal systemic effect when taken as directed). It is included as an abuse deterrent — if the tablet is crushed and injected, naloxone becomes fully bioavailable and precipitates withdrawal. When taken sublingually as intended, it is the buprenorphine component that risks precipitated withdrawal if given too early.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Buprenorphine is only effective if the patient has been opioid-free for 14 days — it cannot bind to receptors that have recently been occupied</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Buprenorphine has very HIGH receptor affinity — it readily displaces other opioids from µ-receptors. That is precisely the problem: if given too early, it displaces the full agonist and provides only partial activation (precipitated withdrawal). The 14-day rule applies to naltrexone (pure antagonist), not buprenorphine.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Buprenorphine's high receptor affinity + partial agonism = precipitated withdrawal risk. The clinical rule: never give buprenorphine while a full agonist is still active. Wait for withdrawal signs (COWS ≥8), then initiate. This distinguishes buprenorphine induction from methadone (which can be started earlier as a full agonist)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "The timing rule for buprenorphine induction: wait until COWS ≥8 (mild-moderate withdrawal has begun). Buprenorphine's high affinity displaces full agonists; its partial agonism then provides less µ-activation than the full agonist did — precipitating withdrawal if given too early."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

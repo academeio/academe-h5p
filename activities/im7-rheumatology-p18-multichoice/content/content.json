@@ -1,0 +1,76 @@
+{
+  "question": "<p>During a supervised clinical encounter, a patient with controlled RA (DAS28 1.8) scores HAQ-DI 1.8 and PHQ-9 score 14 (moderate depression). As the treating doctor, which is the MOST appropriate next management step?</p>",
+  "answers": [
+    {
+      "text": "<div>Escalate DMARD therapy because the high HAQ-DI indicates uncontrolled disease activity</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>DAS28 1.8 is in remission (target met); escalating DMARDs would be inappropriate. The high HAQ-DI despite DAS28 remission reflects the psychosocial (depression) and functional impact of chronic disease, not active synovitis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Address the depression with referral to psychology/psychiatry and ensure multidisciplinary support including occupational therapy</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. When disease activity is controlled (DAS28 in remission) but HAQ-DI remains elevated with moderate depression (PHQ-9=14), the primary intervention is addressing the psychological domain — psychology/psychiatry referral, occupational therapy for functional adaptation, and social support review. DMARD escalation is not indicated.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Reassure the patient that their RA is controlled and no further action is needed</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This represents a failure of the biopsychosocial approach. Biological remission (DAS28 &lt;2.6) does not equate to patient-perceived quality-of-life remission. Moderate depression (PHQ-9=14) and HAQ-DI 1.8 require active management.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Switch methotrexate to a biologic agent to improve physical function</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Switching to a biologic is not indicated when DAS28 is already in remission. The functional limitation (HAQ-DI 1.8) here is driven by depression and chronic pain sensitisation, not synovial inflammation — a biological switch will not address the psychosocial impairment.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The key principle of IM7.21: when DAS28 is in remission but the patient is functionally impaired and depressed, address the psychological and social domains — not the biological (DMARD) domain. Refer to psychology/psychiatry and occupational therapy; involve the full multidisciplinary team."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Disease remission + high HAQ-DI + moderate depression = psychosocial domain impairment, not inadequate DMARDs. The biopsychosocial management requires psychology referral + OT + social support review."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

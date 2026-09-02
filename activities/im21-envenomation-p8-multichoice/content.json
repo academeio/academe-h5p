@@ -1,0 +1,76 @@
+{
+  "question": "<p>A child with Grade II scorpion envenomation (hypertension 160/100, sweating, cold extremities) is admitted to a district hospital. The attending doctor considers starting a beta-blocker for the hypertension. What is the correct management?</p>",
+  "answers": [
+    {
+      "text": "<div>Give an IV beta-blocker (atenolol or metoprolol) to control the hypertension and reduce cardiac workload</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>DANGEROUS. Beta-blockers are CONTRAINDICATED in scorpion envenomation. The hypertension is driven by massive catecholamine surge (alpha + beta stimulation). Blocking only the beta component leaves unopposed alpha-adrenergic vasoconstriction, dramatically worsening hypertension and precipitating hypertensive crisis with pulmonary oedema.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Give oral prazosin (selective alpha-1 blocker) with careful monitoring; this is the specific treatment for autonomic toxicity from Mesobuthus tamulus</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Prazosin is the specific treatment for Indian red scorpion (Mesobuthus tamulus) autonomic toxicity. As a selective alpha-1 blocker, it counters the catecholamine-driven vasoconstriction and hypertension without causing the unopposed alpha-stimulation seen with beta-blockers. Beta-blockers are absolutely contraindicated.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Give IV calcium gluconate, as the scorpion toxin acts by opening calcium channels</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Calcium gluconate is used for specific toxins (e.g., black widow spider, certain cardiac drug overdoses). It is not the primary treatment for Indian red scorpion envenomation. The autonomic storm from Mesobuthus tamulus is treated with prazosin (alpha-blocker).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Observe without specific treatment; the hypertension in scorpion envenomation is transient and self-limiting</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Grade II envenomation with hypertension and cold extremities indicates significant autonomic toxicity and should be treated with prazosin. Untreated, the autonomic storm can progress to acute pulmonary oedema, myocarditis, and cardiovascular collapse.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Critical rule: in scorpion envenomation, treat with PRAZOSIN (alpha-1 blocker). NEVER beta-blockers — blocking beta without alpha leaves unopposed vasoconstriction and precipitates hypertensive crisis with pulmonary oedema."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Prazosin = specific treatment for Mesobuthus tamulus autonomic toxicity. Beta-blockers = ABSOLUTELY CONTRAINDICATED (unopposed alpha effect worsens crisis)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

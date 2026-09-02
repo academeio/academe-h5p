@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 32-year-old woman gives a two-year history of dysphagia to both solids and liquids equally, along with regurgitation of undigested food and no weight loss. Barium swallow shows a smooth tapering 'bird-beak' narrowing at the gastro-oesophageal junction with proximal dilatation. The most likely diagnosis is:</p>",
+  "answers": [
+    {
+      "text": "<div>Carcinoma of the oesophagus — progressive dysphagia beginning with solids then liquids in a middle-aged patient</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Oesophageal carcinoma typically affects patients over 40, causes progressive solid-before-liquid dysphagia with significant weight loss, and shows irregular mucosal filling defects — not a smooth bird-beak on barium swallow.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Achalasia — failure of the lower oesophageal sphincter to relax, causing simultaneous dysphagia to solids and liquids with a bird-beak narrowing</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Achalasia is a primary motility disorder: both solids AND liquids dysphagia from the outset (contrasting with mechanical obstruction), regurgitation of undigested food, and the smooth bird-beak/rat-tail narrowing on barium swallow are classic.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>GERD with benign stricture — progressive dysphagia to solids with heartburn as the dominant symptom</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A GERD-related benign stricture causes solid-first dysphagia (mechanical), often with a history of heartburn, and shows a smooth narrowing but not the bird-beak appearance or proximal megaoesophagus of achalasia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Pharyngeal pouch (Zenker's diverticulum) — dysphagia with regurgitation of undigested food into the pharynx</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Zenker's diverticulum causes regurgitation of recently eaten food, gurgling in the neck, and aspiration — but the barium swallow would show a posterior pharyngeal pouch, not an oesophageal bird-beak.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key discriminator: solid-AND-liquid dysphagia together from the start = motility disorder (achalasia). Solid-then-liquid dysphagia = mechanical obstruction (carcinoma/stricture)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Simultaneous solid+liquid dysphagia + bird-beak on barium + young woman = achalasia. The absence of weight loss and the smooth narrowing distinguish it from carcinoma."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

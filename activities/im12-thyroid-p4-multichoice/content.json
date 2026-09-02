@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 45-year-old woman presents with fatigue, cold intolerance, and constipation. Her TFTs show: TSH 0.3 mIU/L (normal 0.4–4.0), FT4 6 pmol/L (low), FT3 3 pmol/L (low). Which TFT pattern does this represent and what is its most likely cause?</p>",
+  "answers": [
+    {
+      "text": "<div>Primary hypothyroidism — the thyroid gland is underproducing T4, causing compensatory TSH elevation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. In primary hypothyroidism, TSH is ELEVATED (compensatory), not low-normal. Here TSH is 0.3 — inappropriately low or low-normal — with low FT4 and FT3, pointing to a pituitary or hypothalamic problem.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Central (secondary or tertiary) hypothyroidism — low TSH with low FT4 indicates pituitary or hypothalamic failure to drive thyroid hormone production</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Low TSH + low FT4 = central hypothyroidism (secondary = pituitary; tertiary = hypothalamic). The thyroid gland is normal but unstimulated. Causes include pituitary adenoma, post-partum hypophysitis, or Sheehan syndrome. This pattern distinguishes central from primary hypothyroidism.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Subclinical hypothyroidism — mild TSH elevation with normal FT4 is characteristic</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Subclinical hypothyroidism is defined by elevated TSH with NORMAL FT4 and FT3. This case has low TSH and low FT4, which does not fit the subclinical pattern.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>T3 thyrotoxicosis — suppressed TSH with normal FT4 and low FT3 is the classic pattern</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. T3 thyrotoxicosis shows suppressed TSH + normal FT4 + elevated FT3. Here FT3 is low (not elevated) and the clinical picture is hypothyroid, not hyperthyroid.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key TFT patterns: Primary hypothyroidism = high TSH + low FT4. Central hypothyroidism = low/normal TSH + low FT4. Subclinical hypothyroidism = high TSH + normal FT4. The TSH direction relative to thyroid hormone levels is the diagnostic key."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Low TSH + low FT4 = central hypothyroidism. This is the key distinction from primary hypothyroidism (high TSH + low FT4). Always check whether TSH is appropriately elevated or inappropriately low."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

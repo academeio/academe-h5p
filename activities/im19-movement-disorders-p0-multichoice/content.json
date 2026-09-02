@@ -1,0 +1,76 @@
+{
+  "question": "<p>In Parkinson's disease, loss of dopamine from the substantia nigra pars compacta predominantly leads to which net effect on the thalamo-cortical output?</p>",
+  "answers": [
+    {
+      "text": "<div>Increased excitatory drive to the motor cortex via the direct pathway</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Dopamine normally facilitates the direct pathway (D1 receptors). Loss of dopamine reduces, not increases, direct pathway activity.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Disinhibition of the subthalamic nucleus leading to excessive inhibition of the thalamus</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Loss of dopamine disinhibits the indirect pathway: GPe is inhibited → STN is disinhibited → STN overdrives GPi/SNr → excessive inhibition of the thalamus → reduced cortical motor output (bradykinesia, rigidity).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Direct excitation of striatal cholinergic interneurons causing tremor</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. While cholinergic interneurons become relatively overactive when dopamine is lost, the primary mechanism of bradykinesia/rigidity is through indirect pathway disinhibition, not direct cholinergic excitation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Reduced output from the globus pallidus interna, releasing the thalamus from inhibition</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. This is the opposite of what happens. In PD, overactive STN drives excessive GPi output, increasing thalamic inhibition.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the direct vs indirect basal ganglia pathways. In PD, loss of dopamine particularly impairs D2-mediated suppression of the indirect pathway, resulting in STN overactivity and excessive thalamic inhibition."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. This indirect-pathway over-activity is the mechanistic basis for bradykinesia and rigidity in PD, and explains why dopaminergic replacement improves motor function."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

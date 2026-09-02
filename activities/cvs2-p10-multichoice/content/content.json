@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 6-week-old infant born to an HIV-positive mother (who received PMTCT) tests POSITIVE on standard antibody ELISA. What is the CORRECT interpretation?</p>",
+  "answers": [
+    {
+      "text": "<div>The positive ELISA reflects maternal IgG antibodies transferred across the placenta; HIV DNA PCR is needed to determine the infant's true infection status</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Maternal IgG antibodies cross the placenta and persist in the infant's blood for up to 18 months. Any antibody-based test (ELISA, rapid test, Western blot) in infants &lt;18 months detects these maternal antibodies — not the infant's own immune response. HIV DNA PCR (qualitative) is the test of choice for Early Infant Diagnosis (EID), recommended at 6 weeks of age.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The infant is confirmed HIV-positive — start ART immediately based on ELISA alone</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Standard antibody ELISA cannot confirm HIV infection in infants &lt;18 months because maternal IgG crosses the placenta and produces a positive result regardless of whether the infant is truly infected. HIV DNA PCR is required for Early Infant Diagnosis before initiating ART.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The ELISA is a false positive — repeat the same test at 12 months</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The ELISA is detecting real antibodies — but they are the mother's IgG, not the infant's. Repeating an antibody test at 12 months is still unreliable (maternal antibodies can persist up to 18 months). The correct step is HIV DNA PCR at 6 weeks for Early Infant Diagnosis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Western blot is the only valid confirmatory test and should be performed next</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Western blot is also antibody-based and suffers the same limitation in infants &lt;18 months — it will detect maternal antibodies. Only nucleic acid tests (HIV DNA PCR or HIV RNA viral load) can distinguish true infant infection from passive maternal antibody transfer.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key principle: ALL antibody-based HIV tests (ELISA, rapid tests, Western blot) are unreliable in infants <18 months because maternal IgG crosses the placenta. HIV DNA PCR at 6 weeks is the WHO-recommended Early Infant Diagnosis test."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done! Antibody-based tests are unreliable in infants <18 months due to transplacentally transferred maternal IgG. HIV DNA PCR (EID) at 6 weeks is the standard for confirming or excluding infant HIV infection."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

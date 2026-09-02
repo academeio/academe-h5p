@@ -1,0 +1,76 @@
+{
+  "question": "<p>A nurse is caring for a patient with confirmed pulmonary tuberculosis in a general medical ward. Which is the MOST important additional measure above standard precautions?</p>",
+  "answers": [
+    {
+      "text": "<div>N95/FFP2 respirator for the nurse and transfer to a negative-pressure isolation room</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Pulmonary TB spreads via airborne droplet nuclei (&lt;5 µm) that remain suspended in room air. Airborne precautions require an N95/FFP2 respirator (filters particles ≥0.3 µm) and placement in an Airborne Infection Isolation Room (AIIR) with negative pressure and ≥12 air changes per hour.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Surgical face mask for the nurse and transferring the patient to a single room</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A surgical mask filters large respiratory droplets (&gt;5 µm) but does not filter airborne droplet nuclei (&lt;5 µm) that transmit TB. A single room without negative pressure allows recirculated air to spread the organism to adjacent areas.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Double gloving and a plastic apron only</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Gloving and aprons are contact precautions, used for organisms transmitted by direct or indirect contact (e.g., MRSA, C. difficile). TB is transmitted by the airborne route — respiratory protection and environmental controls are the critical interventions.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Droplet precautions with 1-metre patient separation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Droplet precautions (surgical mask, 1-metre separation) are for organisms transmitted via large droplets (&gt;5 µm), such as influenza or Neisseria meningitidis. TB droplet nuclei are &lt;5 µm and remain suspended in air indefinitely — droplet precautions are insufficient.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the distinction between droplet (>5 µm, falls within 1 metre) and airborne (<5 µm, stays suspended) transmission. TB requires airborne precautions: N95/FFP2 + AIIR with negative pressure."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Airborne precautions — N95 respirator + negative-pressure isolation room — are the standard for pulmonary TB, measles, and varicella (the three classic airborne infections)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

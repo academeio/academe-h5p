@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 50-year-old man completed triple therapy for H. pylori eradication 4 weeks ago. Which test is most appropriate to confirm successful eradication?</p>",
+  "answers": [
+    {
+      "text": "<div>Urea breath test (UBT) performed after stopping PPI for at least 2 weeks</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The UBT detects active urease from live organisms and is the preferred non-invasive eradication test. It must be done ≥4 weeks after antibiotics and ≥2 weeks after stopping PPIs, as PPIs suppress bacterial urease activity causing false negatives.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Serum IgG ELISA for H. pylori antibodies</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>IgG serology remains positive for months to years after successful eradication due to immunological memory. It cannot distinguish active from past infection and is useless for confirming cure.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Rapid urease test (CLO test) on endoscopic antral biopsy</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The CLO test requires invasive endoscopy — not indicated as first-line when a non-invasive test (UBT) is available. Reserve for patients needing repeat endoscopy for other clinical indications.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Serum pepsinogen I/II ratio</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Pepsinogen ratios reflect gastric mucosal atrophy and are used for gastric cancer screening. They do not directly detect H. pylori or its metabolic activity and cannot confirm eradication.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "For eradication confirmation: UBT (or stool antigen test) — both detect active infection. Never use serology (stays positive after cure). Stop PPI ≥2 weeks before testing to avoid false negatives."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "UBT is the gold-standard non-invasive eradication test. Timing matters: ≥4 weeks post-antibiotics, ≥2 weeks off PPI."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 55-year-old man presents with haematemesis and haemodynamic instability (BP 85/50, HR 118). He has been resuscitated with IV fluids and 2 units of packed red cells over 90 minutes. His Glasgow-Blatchford Score is 14. What is the appropriate timing for upper GI endoscopy?</p>",
+  "answers": [
+    {
+      "text": "<div>Immediate endoscopy within 30 minutes of presentation, before full resuscitation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Endoscopy before adequate resuscitation is dangerous — it risks cardiac arrest during the procedure. The patient must be haemodynamically stabilised (adequate IV access, blood products, airway protection if needed) BEFORE endoscopy.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Urgent endoscopy within 24 hours once haemodynamically stable</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Current NICE and BSG guidelines recommend endoscopy within 24 hours for all patients with acute UGIB after haemodynamic stabilisation. For patients with suspected variceal bleeding or continued haemodynamic instability despite resuscitation, endoscopy should be performed within 12 hours. Immediate pre-resuscitation endoscopy is not recommended.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Elective endoscopy within 72 hours during daytime hours only</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A Glasgow-Blatchford Score of 14 indicates very high risk (&gt;90% probability of needing intervention). Deferring to 72 hours in such a patient risks re-bleeding and death. The 24-hour threshold applies; 72 hours is only appropriate for very low-risk patients (GBS 0).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Endoscopy is not indicated; proceed directly to CT mesenteric angiography</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>CT mesenteric angiography is a second-line investigation for GI bleeding when endoscopy fails to identify the source or when bleeding is too rapid for safe endoscopy. With a GBS of 14 and upper GI features (haematemesis), OGD is the first-line investigation and treatment tool.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review endoscopy timing. The key principle is resuscitate first, then scope within 24 hours for all UGIB. Earlier (within 12 hours) is appropriate for suspected varices or failure to stabilise, but immediate pre-resuscitation endoscopy is not recommended."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Endoscopy within 24 hours after haemodynamic stabilisation is the standard of care. Resuscitation is always the first priority — never proceed to endoscopy in an unstable patient."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

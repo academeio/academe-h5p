@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 60-year-old woman presents with recurrent renal calculi, diffuse bone pain, constipation, and depression. Blood results show: Ca²⁺ 2.9 mmol/L (raised), PO₄ low, PTH inappropriately raised. What is the diagnosis?</p>",
+  "answers": [
+    {
+      "text": "<div>Primary hyperparathyroidism</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The tetrad 'bones, stones, groans and psychic moans' — bone pain, renal calculi, constipation (groans), and depression (psychic moans) — is the classic presentation of primary hyperparathyroidism. Raised Ca²⁺ with inappropriately raised PTH (not suppressed) confirms primary gland autonomous overactivity, most commonly from a solitary parathyroid adenoma.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Secondary hyperparathyroidism from chronic kidney disease</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>In secondary hyperparathyroidism, Ca²⁺ is LOW or normal (the PTH rise is compensatory), not elevated. This patient has hypercalcaemia — indicating autonomous PTH overproduction, i.e., primary hyperparathyroidism.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Malignant hypercalcaemia from a PTH-related peptide-secreting tumour</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Malignant hypercalcaemia (PTHrP) causes suppressed PTH (not raised), because the autonomous calcium rise inhibits normal parathyroid secretion. This patient has RAISED PTH — pointing to primary hyperparathyroidism.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Vitamin D toxicity</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Vitamin D toxicity raises calcium but suppresses PTH (normal negative feedback). This patient's PTH is inappropriately elevated — a feature that specifically points to autonomous parathyroid overactivity.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The key biochemical marker is an INAPPROPRIATELY raised PTH in the context of hypercalcaemia. If PTH were suppressed, malignant hypercalcaemia or vitamin D toxicity would be more likely."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. 'Bones, stones, groans and psychic moans' + raised Ca²⁺ + inappropriately raised PTH = primary hyperparathyroidism, most commonly from a solitary adenoma."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which of the following imaging modalities does NOT use ionising radiation?</p>",
+  "answers": [
+    {
+      "text": "<div>Fluoroscopy</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Fluoroscopy uses continuous X-ray beams — an ionising modality — to produce real-time images.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>CT (Computed Tomography)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>CT uses multiple X-ray projections reconstructed into cross-sectional images and is an ionising modality, typically with higher doses than plain radiography.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Nuclear Medicine (scintigraphy / PET)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Nuclear medicine uses radionuclides that emit ionising gamma or positron radiation detected externally.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Diagnostic Ultrasound</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Ultrasound uses high-frequency sound waves — a non-ionising modality — making it safe in pregnancy and paediatric patients without radiation risk.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Not quite. Ultrasound and MRI are the non-ionising modalities; X-ray, fluoroscopy, CT, and nuclear medicine all use ionising radiation."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct! Diagnostic ultrasound and MRI are the two non-ionising modalities in the standard imaging toolkit."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 68-year-old woman presents 2 hours after stroke onset. NCCT brain shows no haemorrhage, NIHSS is 12, and she has no contraindications other than a blood pressure of 190/112 mmHg. What is the correct next step regarding thrombolysis?</p>",
+  "answers": [
+    {
+      "text": "<div>Administer IV alteplase immediately — hypertension does not affect eligibility within 4.5 hours.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. BP ≥ 185/110 mmHg is an absolute contraindication to IV thrombolysis. Giving alteplase with uncontrolled hypertension significantly increases the risk of haemorrhagic transformation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Withhold thrombolysis and give antiplatelet therapy instead.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Antiplatelet is the right choice if the patient is NOT eligible for thrombolysis, but it should not be given if blood pressure can be controlled to bring her into the eligible range within the time window.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Cautiously lower BP to &lt; 185/110 mmHg with IV labetalol or nicardipine, then reassess for thrombolysis.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The protocol: if BP is 185–220/110–120, a single carefully titrated antihypertensive dose (IV labetalol or nicardipine) can bring it below the 185/110 threshold, after which thrombolysis can proceed if the window is maintained.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Withhold thrombolysis and proceed directly to mechanical thrombectomy.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Thrombectomy requires evidence of large vessel occlusion (on CTA/MRA) and has its own time criteria. It is not a substitute for thrombolysis in a patient who is otherwise eligible once BP is controlled.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the IV Thrombolysis block carefully. The 185/110 threshold is the single most tested BP value in stroke management. Uncontrolled hypertension above this level is a contraindication — but it may be treated to bring the patient into the eligible range."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Key rule: BP must be < 185/110 mmHg BEFORE giving IV tPA. Hypertension can be treated to achieve eligibility — do not simply exclude the patient without attempting BP control."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

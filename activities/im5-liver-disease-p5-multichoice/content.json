@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient's hepatitis B serology shows: HBsAg positive, HBeAg positive, anti-HBs negative, anti-HBc IgM positive, HBV DNA 2 × 10⁸ IU/mL. What is the correct interpretation?</p>",
+  "answers": [
+    {
+      "text": "<div>Resolved HBV infection with natural immunity</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Resolved infection is characterised by HBsAg negative, anti-HBs positive, and anti-HBc positive. This patient is HBsAg positive — indicating active infection, not resolution.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Acute HBV infection in the immune-tolerant phase</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. HBsAg positive + HBeAg positive + anti-HBc IgM positive + very high HBV DNA (&gt;10⁷ IU/mL) with normal or mildly elevated ALT defines the immune-tolerant phase of acute or early chronic HBV. Anti-HBc IgM confirms recent/acute infection; IgG anti-HBc would suggest chronic infection.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Chronic HBV in immune-active (HBeAg-positive) phase</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Partially correct pattern, but anti-HBc IgM positivity distinguishes acute from chronic infection. In established chronic HBV, anti-HBc is predominantly IgG, not IgM.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>HBV vaccination with adequate immunity</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Successful HBV vaccination produces isolated anti-HBs (≥10 mIU/mL) with all other markers negative. This patient is HBsAg positive — vaccination does not produce HBsAg positivity.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the HBV serology roadmap: HBsAg = active infection; anti-HBs = immunity (vaccination or recovery); anti-HBc IgM = acute/recent; IgG = past/chronic; HBeAg + high HBV DNA = active viral replication."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Anti-HBc IgM is the marker that distinguishes acute from chronic HBV. Its presence alongside HBsAg, HBeAg, and very high viral load indicates acute/early infection in the immune-tolerant phase."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

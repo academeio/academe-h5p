@@ -1,0 +1,76 @@
+{
+  "question": "<p>A district health officer compares fertility across three districts that have very different age structures. Which fertility index is MOST appropriate to use for this comparison?</p>",
+  "answers": [
+    {
+      "text": "<div>Crude Birth Rate (CBR), because it uses total mid-year population as the denominator.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. CBR uses the total mid-year population as its denominator, so it is heavily influenced by differences in the age-sex structure of populations. It is not suitable for comparing districts with different age compositions.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Total Fertility Rate (TFR), because it is age-standardised and represents the average number of children a woman would have over her reproductive lifespan.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. TFR sums age-specific fertility rates across the reproductive age span (15–49 years) and is independent of the age structure of the total population, making it the most valid index for cross-district comparison.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>General Fertility Rate (GFR), because it restricts the denominator to women of reproductive age (15–49).</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Partially right — GFR does restrict the denominator to women aged 15–49, correcting for the proportion of reproductive-age women. However, it does not adjust for differences in the age distribution within the 15–49 age group. TFR provides this additional standardisation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Infant Mortality Rate (IMR), because it is a sensitive index of overall health conditions.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. IMR is a mortality index, not a fertility index. It measures the probability of death in the first year of life, not childbearing patterns.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Remember the hierarchy: CBR (total population denominator) → GFR (women 15–49 denominator) → ASFR → TFR (sum of ASFRs; fully age-standardised). TFR is the most valid for cross-population comparisons."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. TFR is the age-standardised fertility measure that controls for differences in age structure across populations — the correct choice for inter-district comparison."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

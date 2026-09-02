@@ -1,0 +1,76 @@
+{
+  "question": "<p>An 8-year-old (25 kg) with T1DM is in moderate DKA: pH 7.18, glucose 380 mg/dL, ketones 3+. Adequate IV fluids have been started. What is the correct initial insulin infusion rate, and over how many hours should total fluid deficit be corrected?</p>",
+  "answers": [
+    {
+      "text": "<div>0.5 U/kg/hr insulin; correct fluid deficit over 24 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>0.5 U/kg/hr is too high and risks precipitating cerebral oedema from rapid osmotic shifts. Adult DKA protocols are NOT used in children — fluid must be spread over 48 hours.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>0.1 U/kg/hr insulin; correct fluid deficit over 24 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The insulin rate is correct (0.05–0.1 U/kg/hr), but the 24-hour fluid correction is the ADULT protocol. In children, fluid deficit must be corrected over 48 hours to minimise cerebral oedema risk.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>0.05–0.1 U/kg/hr insulin; correct fluid deficit over 48 hours</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Paediatric DKA protocol: insulin 0.05–0.1 U/kg/hr IV; total fluid (maintenance + deficit) spread over 48 hours (not 24 h as in adults) to reduce the risk of cerebral oedema, the leading cause of DKA mortality in children.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>0.05 U/kg/hr insulin; bolus the entire deficit in the first 2 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Rapid bolus of the full deficit in 2 hours is dangerous and contradicts paediatric DKA guidelines. Use 10 mL/kg isotonic saline over 1 hour for resuscitation only if shocked, then spread the rest over 48 hours.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The key paediatric difference from adult DKA: fluid deficit is corrected over 48 hours to prevent cerebral oedema, and insulin is 0.05–0.1 U/kg/hr — not the higher adult rates."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. The paediatric DKA triple rule: insulin 0.05–0.1 U/kg/hr; fluids over 48 h (not 24 h); watch neurological status closely for cerebral oedema signs (headache, bradycardia, abnormal posturing)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

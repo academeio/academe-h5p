@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 25-year-old with myopia of −4.00 D requests LASIK. Corneal topography reveals an inferior steepening pattern consistent with early keratoconus. What is the most appropriate course of action?</p>",
+  "answers": [
+    {
+      "text": "<div>Proceed with LASIK but ablate a smaller zone to preserve central corneal thickness</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This is dangerous. LASIK ablation further thins an already structurally weak cornea, risking post-LASIK ectasia — a devastating, irreversible complication.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Decline LASIK and all corneal laser procedures; refer for corneal collagen cross-linking (CXL) assessment and consider phakic IOL if correction is needed</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Keratoconus is an absolute contraindication to all corneal laser refractive surgery. CXL can halt progression; if refractive correction is still needed, a phakic IOL avoids further corneal ablation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Perform PRK instead of LASIK, as PRK does not create a flap and is safer in keratoconus</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>PRK also ablates corneal stroma. Any surface laser ablation in keratoconus risks ectasia. PRK is not a safe alternative — the contraindication applies to all corneal laser procedures.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Repeat topography in 6 months; proceed with LASIK if the pattern is stable</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Stability does not make keratoconus a safe indication for LASIK. Even stable early keratoconus is a contraindication because the post-ablation cornea may decompensate under normal intraocular pressure.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Keratoconus is the most critical contraindication in refractive surgery. Any form of corneal ablation in a keratoconic eye risks post-operative ectasia. Always screen with topography before LASIK/PRK/SMILE."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Key principle: keratoconus = absolute contraindication to ALL corneal laser surgery. Screen every patient with topography before refractive surgery — post-LASIK ectasia is preventable only by pre-operative detection."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

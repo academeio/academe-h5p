@@ -1,0 +1,76 @@
+{
+  "question": "<p>According to the Enneking (MSTS) staging system, which combination CORRECTLY characterises a Stage IIB bone sarcoma?</p>",
+  "answers": [
+    {
+      "text": "<div>Low-grade, intracompartmental, no metastases</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This describes Enneking Stage IA: low-grade (G1), intracompartmental (T1), no metastases (M0). Stage II denotes high-grade tumours.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>High-grade, intracompartmental, no metastases</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This is Enneking Stage IIA: high-grade (G2), intracompartmental (T1), no metastases (M0). Stage IIB requires extracompartmental extension.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>High-grade, extracompartmental, no metastases</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Enneking Stage IIB = high-grade (G2) + extracompartmental (T2) + no distant metastases (M0). This is the most common stage at which osteosarcoma and Ewing's sarcoma present, and it mandates neoadjuvant chemotherapy followed by wide resection.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Any grade, any compartment, with metastases</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The presence of distant metastases defines Enneking Stage III regardless of grade or compartment status. Stage III carries the worst prognosis.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the Enneking grid: Grade (G1 low/G2 high) × Compartment (T1 intra/T2 extra) × Metastases (M0/M1). Stage IIB = G2 + T2 + M0."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. Stage IIB = high-grade + extracompartmental + no metastases — the stage that most commonly requires neoadjuvant chemotherapy + wide resection for limb salvage."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

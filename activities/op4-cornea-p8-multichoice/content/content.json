@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 52-year-old post-menopausal woman complains of burning and grittiness, worse in air-conditioned offices. Schirmer's I test (without anaesthesia, 5 minutes) shows 6 mm wetting bilaterally. Tear breakup time (TBUT) is 7 seconds. What is the CORRECT interpretation?</p>",
+  "answers": [
+    {
+      "text": "<div>Normal tear production; the diagnosis is evaporative dry eye only</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Schirmer's I of 6 mm is below the normal cutoff of ≥10 mm — this indicates reduced tear production (aqueous deficient component). Both aqueous deficiency AND evaporative disease are likely present.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Aqueous deficient dry eye (Schirmer I &lt;10 mm) combined with evaporative component (TBUT &lt;10 seconds)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Schirmer I &lt;10 mm = aqueous deficiency (lacrimal insufficiency). TBUT &lt;10 seconds = evaporative dry eye (lipid layer deficiency, meibomian gland dysfunction). This patient has mixed dry eye — the most common presentation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Normal findings — Schirmer I of 6 mm is within accepted variation and TBUT of 7 s is normal</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Both values are abnormal. Normal Schirmer I ≥10 mm; this patient has 6 mm (reduced). Normal TBUT ≥10 seconds; 7 seconds is below the threshold. Both indicate dry eye disease.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Evaporative dry eye only — Schirmer's test is unreliable without anaesthesia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Schirmer I (without anaesthesia) measures reflex + basal secretion and is a standard clinical test. A result of 6 mm reliably indicates aqueous deficiency regardless of the reflex component. The interpretation does not dismiss this test.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Normal: Schirmer I ≥10 mm, TBUT ≥10 s. This patient fails both → mixed (aqueous deficient + evaporative) dry eye disease."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent! Schirmer I <10 mm = aqueous deficient DED; TBUT <10 s = evaporative DED. Mixed DED is the commonest phenotype in clinical practice."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient requires an immediately effective, precisely dosed drug with 100% bioavailability. Which route of administration BEST achieves this?</p>",
+  "answers": [
+    {
+      "text": "<div>Intravenous (IV)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The IV route delivers drug directly into systemic circulation, achieving 100% bioavailability with immediate onset — the reference standard for bioavailability comparisons.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Oral</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Oral bioavailability is always &lt;100% due to first-pass metabolism and incomplete absorption. Onset is slower and variable.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Intramuscular (IM)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>IM absorption is generally good but not 100% and is slower than IV; it also depends on muscle blood flow and drug properties.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Sublingual</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Sublingual avoids first-pass metabolism and has rapid onset, but bioavailability is still &lt;100% and varies by drug (e.g., GTN ~38%).</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Only the IV route bypasses all absorption barriers, delivering drug directly into the bloodstream for 100% bioavailability."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct! IV administration = 100% bioavailability, immediate onset. All other routes involve some absorption step with inherent variability."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

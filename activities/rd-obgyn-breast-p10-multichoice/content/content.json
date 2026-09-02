@@ -1,0 +1,76 @@
+{
+  "question": "<p>Mammography of a 48-year-old woman with a palpable right breast lump shows a 15 mm irregular mass with spiculate margins and pleomorphic microcalcifications. The radiologist reports BI-RADS 5. What does this classification mandate?</p>",
+  "answers": [
+    {
+      "text": "<div>Short-interval follow-up mammography in 6 months to assess for interval change</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Short-interval follow-up is appropriate for BI-RADS 3 (probably benign). BI-RADS 5 carries ≥95% likelihood of malignancy and requires immediate tissue diagnosis, not watchful waiting.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Tissue biopsy (core needle biopsy or vacuum-assisted biopsy) with pre-surgical staging</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. BI-RADS 5 (highly suspicious, ≥95% probability of malignancy) mandates tissue diagnosis. Core needle biopsy confirms histology, guides receptor testing, and feeds directly into staging workup (axillary ultrasound, staging CT/bone scan if indicated).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Repeat mammography with breast MRI to better characterise the lesion before any decision</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>MRI may be added for preoperative extent evaluation, but it should not delay tissue diagnosis. A BI-RADS 5 lesion requires biopsy, not further imaging characterisation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Discharge with reassurance — spiculate margins with calcifications may represent fat necrosis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Spiculate margins with pleomorphic microcalcifications are highly suspicious features. BI-RADS 5 (≥95% malignancy probability) never warrants reassurance and discharge.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Recall the BI-RADS action mapping: 1–2 = routine screening; 3 = 6-month follow-up; 4 = biopsy; 5 = biopsy with pre-surgical staging; 6 = known biopsy-proven malignancy."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. BI-RADS 5 means highly suspicious — tissue biopsy is mandatory, and the result feeds directly into staging and surgical planning."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>An 80-year-old hospitalised woman scores 18 on the Mini Nutritional Assessment (MNA-full). How should this score be interpreted?</p>",
+  "answers": [
+    {
+      "text": "<div>Normal nutritional status — no action required</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. MNA score 18 falls in the 'at risk of malnutrition' range (17–23.5). Normal is ≥24.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>At risk of malnutrition — nutritional intervention and monitoring indicated</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. MNA-full: ≥24 = normal; 17–23.5 = at risk of malnutrition; &lt;17 = malnourished. A score of 18 requires nutritional intervention and monitoring.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Malnourished — immediate nasogastric tube feeding required</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A score of 18 is 'at risk', not 'malnourished' (&lt;17). Furthermore, nasogastric feeding is not the automatic first step even in malnutrition — oral nutritional supplementation is preferred where possible.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Score is not interpretable without serum albumin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The MNA is a validated clinical tool that is interpretable on its own. Albumin is a supplementary biochemical marker, not required to interpret the MNA score.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "MNA thresholds: ≥24 normal, 17–23.5 at risk of malnutrition (intervention needed), <17 malnourished (intensive support). Score of 18 = at risk."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. MNA ≥24 = normal; 17–23.5 = at risk; <17 = malnourished. Score 18 = at risk, requiring nutritional support."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

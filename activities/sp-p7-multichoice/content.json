@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient presents with blindness and severe metabolic acidosis after drinking illicit hooch. The blindness in methanol poisoning is primarily caused by which toxic metabolite?</p>",
+  "answers": [
+    {
+      "text": "<div>Formic acid</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The pathway is: methanol → formaldehyde (brief intermediate, rapidly converted) → formic acid. It is FORMIC ACID that accumulates and causes the severe anion-gap metabolic acidosis and selective optic nerve toxicity (demyelination leading to blindness).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Formaldehyde</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Although formaldehyde is an intermediate in methanol metabolism, it is rapidly converted to formic acid by folate-dependent enzymes. Formaldehyde does not accumulate significantly. Formic acid is the toxic endpoint responsible for acidosis and optic nerve damage.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Acetaldehyde</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Acetaldehyde is the toxic intermediate in ETHANOL metabolism (ethanol → acetaldehyde → acetate). It is responsible for the flushing, nausea, and disulfiram-like reactions in ethanol metabolism disorders — not methanol toxicity.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Methanol itself</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Methanol itself is relatively non-toxic — its danger lies entirely in its metabolic products. This is why ethanol (which competes for alcohol dehydrogenase, slowing methanol metabolism) is used as an antidote for methanol poisoning.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The correct answer is formic acid. A common error is answering 'formaldehyde' — but formaldehyde is rapidly converted to formic acid. It is formic acid that causes both the metabolic acidosis and the optic nerve toxicity that leads to blindness in methanol poisoning."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Methanol → (alcohol dehydrogenase) → formaldehyde → (aldehyde dehydrogenase) → formic acid → anion-gap acidosis + optic nerve demyelination. Ethanol or fomepizole block alcohol dehydrogenase to prevent formic acid accumulation."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

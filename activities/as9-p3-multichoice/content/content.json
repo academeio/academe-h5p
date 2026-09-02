@@ -1,0 +1,76 @@
+{
+  "question": "<p>Approximately what fraction of an infused isotonic crystalloid (e.g., 0.9% saline or Hartmann's solution) remains in the intravascular compartment after 30 minutes?</p>",
+  "answers": [
+    {
+      "text": "<div>Three-quarters (75%)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This would be true for colloids, not crystalloids. Crystalloids distribute freely across the extracellular space.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>One-quarter (25%)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Because isotonic crystalloids distribute across the entire extracellular fluid compartment (approximately 14 litres in a 70 kg adult), only about 25% of an infused volume remains intravascular after equilibration.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>One-half (50%)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Half would overestimate intravascular retention of crystalloids. Only about 25% remains intravascular.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>All of it (100%) because isotonic solutions do not enter cells</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>While isotonic crystalloids do not enter cells (no osmotic gradient), they freely distribute between the intravascular and interstitial compartments, leaving only ~25% intravascular.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Remember Starling forces and fluid compartment distribution: crystalloids equilibrate across the whole extracellular space, leaving roughly 25% intravascular. Colloids (containing large molecules) retain ~75–80%."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. The '1 in 4' rule: only ~25% of crystalloid stays intravascular — this explains why large crystalloid volumes are needed to replace blood loss and why they can cause oedema."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

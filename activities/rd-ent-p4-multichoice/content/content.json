@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 52-year-old man presents with progressive right-sided sensorineural hearing loss and right-sided tinnitus over 18 months. Pure tone audiometry confirms unilateral SNHL. Otoscopy is normal. Which imaging modality is most appropriate?</p>",
+  "answers": [
+    {
+      "text": "<div>HRCT temporal bone — it provides the best detail of the cochlea and osseous labyrinth</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>HRCT is the first choice for conductive hearing loss and bony abnormalities. For asymmetric SNHL, MRI is preferred because the primary concern is a retrocochlear lesion (especially vestibular schwannoma) which requires soft-tissue imaging.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>MRI of the internal auditory meati (IAM) with gadolinium — to exclude a retrocochlear lesion such as vestibular schwannoma</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Unilateral/asymmetric SNHL is an indication for MRI IAM with gadolinium. Vestibular schwannoma (acoustic neuroma) enhances on post-contrast T1 and is characteristically seen as an intracanalicular mass expanding the IAM. HRCT alone cannot reliably detect this lesion.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Plain X-ray skull — it gives an overview of the petrous bone anatomy</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Plain skull X-rays are obsolete for temporal bone and hearing loss evaluation. They have been entirely replaced by CT and MRI in modern practice.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>No imaging — unilateral SNHL in a 52-year-old is most likely presbyacusis and does not require imaging</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Presbyacusis is bilateral by definition. Unilateral or asymmetric SNHL — especially progressive and associated with unilateral tinnitus — requires MRI to exclude a retrocochlear lesion. This asymmetric pattern should never be attributed to presbyacusis without imaging.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The key rule: unilateral or asymmetric SNHL requires MRI IAM. HRCT is for bony/conductive pathology. Presbyacusis is always bilateral — never label asymmetric SNHL as presbyacusis without imaging."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Asymmetric SNHL = scan the nerve. MRI IAM with gadolinium is the investigation of choice to exclude vestibular schwannoma and other retrocochlear lesions."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

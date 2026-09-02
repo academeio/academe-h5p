@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 65-year-old man on warfarin for atrial fibrillation requires emergency laparotomy. His INR is 5.2. Which blood product most rapidly reverses warfarin anticoagulation before surgery?</p>",
+  "answers": [
+    {
+      "text": "<div>Fresh frozen plasma (FFP) alone</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>FFP does reverse warfarin but is slow (large volume required) and is second-line to prothrombin complex concentrate for emergency reversal.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Prothrombin complex concentrate (PCC) combined with intravenous vitamin K</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. PCC rapidly replenishes factors II, VII, IX and X (the warfarin-sensitive factors) and provides near-immediate reversal. Concurrent IV vitamin K provides sustained effect over the following 24 hours.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Platelet concentrate transfusion</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Warfarin affects coagulation factors, not platelet count; platelets will not correct an elevated INR.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Cryoprecipitate transfusion</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Cryoprecipitate is used for fibrinogen replacement and haemophilia A; it does not address the factor II/VII/IX/X deficiency from warfarin.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the indications for each blood component: FFP (multiple factor deficiencies), PCC (warfarin reversal), cryoprecipitate (fibrinogen/FVIII), and platelets (thrombocytopaenia/dysfunction)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. PCC + IV vitamin K is the standard of care for emergency warfarin reversal."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient is brought to the emergency department unresponsive with a respiratory rate of 4/min and bilateral pinpoint pupils. What is the immediate pharmacological treatment?</p>",
+  "answers": [
+    {
+      "text": "<div>IV naloxone 0.4–2 mg — competitive antagonist at opioid receptors that reverses respiratory depression and coma</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The triad of coma + miosis (pinpoint pupils) + respiratory depression is pathognomonic for opioid overdose. Naloxone competitively displaces opioids from µ, κ, and δ receptors, rapidly reversing respiratory depression (onset 1–2 min IV). Its short half-life (30–90 min) means re-narcotisation can occur with long-acting opioids — repeat dosing or infusion may be needed.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV flumazenil — reverses all forms of CNS depression including opioid sedation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Flumazenil is specific for benzodiazepine reversal (GABA-A BZD-site antagonist). It has no activity at opioid receptors. BZD overdose causes coma and respiratory depression but does NOT cause miosis — pupil size is normal or slightly dilated.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV dextrose 50% — hypoglycaemia is the most common cause of pinpoint pupils with coma</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Hypoglycaemia causes coma but does NOT cause miosis. Blood glucose should always be checked (it is a reversible cause of coma), but pinpoint pupils point specifically to opioid toxicity or pontine haemorrhage. The clinical context (syringe, track marks, respiratory depression) confirms opioid overdose.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV physostigmine — reverses the anticholinergic crisis causing miosis and respiratory depression</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Anticholinergic toxicity causes mydriasis (dilated pupils), not miosis. Physostigmine reverses anticholinergic toxicity (tachycardia, dry skin, dilated pupils, urinary retention). Pinpoint pupils indicate cholinergic excess or opioid toxicity — the opposite of anticholinergic.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Always match the antidote to the toxidrome: opioid overdose (coma, miosis, bradypnoea) → naloxone; BZD overdose (coma, normal pupils) → flumazenil; anticholinergic toxicity (mydriasis, tachycardia, dry) → physostigmine."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "The opioid overdose triad (coma + miosis + respiratory depression) demands immediate naloxone. Remember: naloxone's half-life is shorter than most opioids — monitor for re-narcotisation and be prepared to repeat doses."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

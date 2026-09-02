@@ -1,0 +1,76 @@
+{
+  "question": "<p>During a laparotomy under halothane anaesthesia, the patient develops rapidly rising end-tidal CO₂, HR 140 bpm, and generalised rigidity despite deepening anaesthesia. Which drug is immediately indicated?</p>",
+  "answers": [
+    {
+      "text": "<div>Dantrolene 2.5 mg/kg IV — blocks RyR1 to halt the uncontrolled Ca²⁺ release causing malignant hyperthermia</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. This triad — hypercarbia, tachycardia, and rigidity under volatile anaesthesia — is malignant hyperthermia. Dantrolene 2.5 mg/kg IV (repeat up to 10 mg/kg) blocks RyR1 on the sarcoplasmic reticulum, halting the pathological Ca²⁺ cascade. Simultaneously discontinue halothane and hyperventilate with 100% O₂.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Atropine 1 mg IV to treat the tachycardia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The tachycardia is secondary to the hypermetabolic state, not the primary problem. Treating tachycardia alone ignores the catastrophic underlying pathology — uncontrolled Ca²⁺ release from skeletal muscle sarcoplasmic reticulum.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Succinylcholine 1.5 mg/kg IV to overcome the rigidity with complete paralysis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Succinylcholine is itself a known trigger of malignant hyperthermia and is absolutely contraindicated. Administering it would catastrophically worsen the crisis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Neostigmine IV to reverse any residual neuromuscular blockade causing the rigidity</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. This is not residual neuromuscular blockade — it is MH-induced rigidity from sustained Ca²⁺ release via mutant RyR1 channels. Neostigmine has no effect on this peripheral pathology.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "MH triad: hypercarbia + tachycardia + rigidity under volatile anaesthesia. Treatment: discontinue the trigger agent, give dantrolene 2.5 mg/kg IV, hyperventilate with 100% O₂. Succinylcholine is absolutely contraindicated."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Dantrolene is the specific antidote for MH — it targets the exact pathological mechanism. Early recognition (hypercarbia + rigidity + tachycardia) and immediate treatment are life-saving."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

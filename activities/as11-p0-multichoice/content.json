@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which property makes the Venturi mask a fixed-performance oxygen delivery device?</p>",
+  "answers": [
+    {
+      "text": "<div>It delivers oxygen at a fixed flow rate set by the flowmeter</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Flow rate is set by the clinician, but this alone does not make FiO2 fixed — variable-performance devices also use set flow rates.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>It entrains a fixed ratio of room air relative to oxygen flow, maintaining a constant FiO2 regardless of the patient's inspiratory flow</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The Venturi jet creates a fixed air-entrainment ratio via the Bernoulli/Venturi principle, so the delivered FiO2 is predictable and constant.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>It has a reservoir bag that stores pre-mixed gas before each inspiration</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A reservoir bag is a feature of the non-rebreather mask, not the Venturi mask.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>It seals tightly against the face, preventing any room-air entrainment</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The Venturi mask does NOT form an airtight seal — it deliberately allows controlled air entrainment through the jet ports.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the Venturi mask section. The key principle is controlled air-entrainment through the jet, yielding a fixed FiO2 independent of patient effort."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The fixed air-entrainment ratio is the defining feature of Venturi (fixed-performance) devices — this is why they are preferred in COPD where a precise FiO2 is required."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

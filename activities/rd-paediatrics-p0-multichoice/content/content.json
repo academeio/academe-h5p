@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 2-year-old presents with 3 days of fever and cough. Examination reveals tachypnoea, subcostal retractions, and decreased breath sounds on the right. She is feeding poorly. Which imaging decision best applies ALARA principles?</p>",
+  "answers": [
+    {
+      "text": "<div>Order a CXR immediately; imaging is always required to confirm pneumonia before starting antibiotics</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Routine CXR is NOT indicated for uncomplicated clinical pneumonia. Clinical diagnosis alone guides antibiotic choice in a well child.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Order a CXR now, as this child has signs suggesting complicated pneumonia (poor feeding, decreased breath sounds)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Signs of possible complications — decreased air entry, feeding difficulty — are indications for CXR. ALARA means imaging when it will change management, not never imaging.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Order a CT chest immediately to exclude parapneumonic effusion</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>CT is not the first-line investigation. CXR ± ultrasound can detect effusion with far lower radiation dose.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Withhold all imaging and reassess in 48 hours regardless of clinical features</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Watchful waiting is appropriate for mild uncomplicated illness, but this child's signs of decreased air entry and poor feeding warrant imaging now.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Recall ALARA: radiation exposure must be justified. For uncomplicated clinical pneumonia, no imaging is needed; for signs of complication, CXR is indicated and appropriate."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. ALARA is not 'never image' — it is 'image only when the result will change management'. Signs of complication justify CXR."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

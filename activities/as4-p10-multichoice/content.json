@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which combination of anaesthetic techniques most effectively reduces the risk of postoperative nausea and vomiting (PONV) in a high-risk day-surgery patient?</p>",
+  "answers": [
+    {
+      "text": "<div>Volatile induction and maintenance with sevoflurane + opioid analgesia + routine antiemetic at end of surgery</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Volatile agents and opioids are both independent risk factors for PONV; this strategy is the opposite of best practice in high-risk patients.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>TIVA with propofol + regional analgesia (avoiding opioids) + two prophylactic antiemetics (multimodal)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The Apfel risk-reduction strategy for high-risk PONV patients combines: propofol TIVA (intrinsic anti-emetic), opioid-sparing analgesia (regional/NSAIDs), and multimodal antiemetics (e.g., ondansetron + dexamethasone).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Propofol induction then isoflurane maintenance + dexamethasone 8mg IV</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Switching to a volatile agent for maintenance reintroduces a major PONV trigger; a single antiemetic alone is insufficient for high-risk patients.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Ketamine infusion + high-dose opioids to reduce volatile agent requirement</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Ketamine can contribute to postoperative nausea; high-dose opioids are a strong independent PONV risk factor — this approach worsens risk.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "For high-risk PONV: use propofol TIVA (not volatile agents), minimise opioids with regional/NSAID analgesia, and give at least two prophylactic antiemetics from different classes."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. PONV prophylaxis in high-risk patients requires a multimodal strategy: TIVA (propofol), opioid-sparing analgesia, and combination antiemetics (at least two agents from different classes)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

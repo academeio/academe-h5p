@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which type of thyroid cancer has the worst prognosis and why?</p>",
+  "answers": [
+    {
+      "text": "<div>Papillary carcinoma — because it is the most common type</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Papillary carcinoma is the most common but has an excellent prognosis (&gt;95% 10-year survival) because it is well-differentiated and radioiodine-responsive.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Anaplastic (undifferentiated) carcinoma — because it is rapidly invasive, radioiodine-resistant, and carries a median survival of months</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Anaplastic thyroid carcinoma is one of the most lethal solid tumours. It invades local structures rapidly, does not take up radioiodine, is poorly responsive to chemotherapy or radiotherapy, and the median survival is 3–6 months from diagnosis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Medullary carcinoma — because it is the only type that secretes calcitonin and is therefore always metastatic at presentation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Medullary carcinoma has intermediate prognosis and is not always metastatic at diagnosis. Calcitonin is a useful tumour marker for follow-up but does not itself indicate metastasis. Anaplastic carcinoma has the worst prognosis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Follicular carcinoma — because it spreads via lymphatics before the primary is detectable</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Follicular carcinoma characteristically spreads haematogenously (not via lymphatics — that is papillary carcinoma) to lung and bone. Its prognosis is worse than papillary but far better than anaplastic carcinoma.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Remember the spectrum: Papillary (best, >95% survival) → Follicular → Medullary → Anaplastic (worst, median survival months). Anaplastic carcinoma is resistant to all standard therapies."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Anaplastic thyroid carcinoma is the most lethal — rapidly invasive, radioiodine-resistant, and median survival is only 3–6 months."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

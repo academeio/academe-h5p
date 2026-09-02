@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient on phenytoin for tonic-clonic seizures has a serum level of 25 µg/mL (therapeutic range: 10–20 µg/mL) after a small dose increase. She reports nystagmus and ataxia. What explains the disproportionate rise in plasma level?</p>",
+  "answers": [
+    {
+      "text": "<div>Phenytoin exhibits zero-order (saturation) kinetics at therapeutic concentrations — the metabolising enzyme is saturated, so small dose increases produce disproportionately large rises in plasma level</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Phenytoin's hepatic hydroxylating enzyme (CYP2C9/CYP2C19) becomes saturated within the therapeutic range. Once saturated, the enzyme operates at maximum velocity (Vmax) — additional drug cannot be cleared faster, so even a 10% dose increase can double the plasma level. This is why therapeutic drug monitoring is mandatory.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Phenytoin has first-order kinetics — the rise is proportional to the dose increase and is expected</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>If phenytoin had first-order kinetics, a 10% dose increase would produce a ~10% rise in plasma level. The clinical scenario shows a disproportionate rise (from therapeutic to toxic), which is characteristic of zero-order (saturation) kinetics — not first-order.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Phenytoin undergoes auto-induction, which paradoxically reduces its own metabolism at higher doses</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Phenytoin is actually a CYP enzyme inducer (it induces the metabolism of other drugs), but it does not undergo auto-induction. Its non-linear kinetics result from enzyme saturation, not induction effects.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Phenytoin is 100% renally excreted — any dose above the renal threshold accumulates linearly</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Phenytoin is almost entirely hepatically metabolised (&gt;95%) by CYP2C9/CYP2C19, with negligible renal excretion of unchanged drug. The non-linearity is due to hepatic enzyme saturation, not renal handling.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Zero-order kinetics means the rate of drug elimination is constant (at Vmax) regardless of drug concentration. Once saturated, the enzyme cannot eliminate additional drug any faster — plasma levels rise steeply with small dose increases. This is unique to phenytoin among common antiseizure drugs."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Phenytoin's zero-order kinetics at therapeutic doses makes it one of the most dangerous drugs to titrate. Always monitor serum levels (target 10–20 µg/mL) and make dose adjustments in small increments (25–50 mg)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 25 kg child needs maintenance IV fluids. Using the Holliday-Segar method, what is the correct 24-hour maintenance fluid volume?</p>",
+  "answers": [
+    {
+      "text": "<div>1500 mL/day</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>1500 mL/day is the volume for a 20 kg child (100×10 + 50×10 = 1500). A 25 kg child requires an additional 20 mL for each kg above 20 kg.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>1600 mL/day</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Holliday-Segar: 100 mL/kg for first 10 kg (1000 mL) + 50 mL/kg for next 10 kg (500 mL) + 20 mL/kg for each kg above 20 kg (5 × 20 = 100 mL) = 1600 mL/day.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>1750 mL/day</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This does not correspond to the Holliday-Segar formula for 25 kg. Check: 100×10 + 50×10 + 20×5 = 1000 + 500 + 100 = 1600 mL/day.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>2500 mL/day</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>2500 mL/day incorrectly applies a flat 100 mL/kg to the total body weight. The Holliday-Segar method uses a stepped rate: 100/50/20 mL/kg/day, not a uniform rate across all weight.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the Holliday-Segar method: 100 mL/kg/day for the first 10 kg, 50 mL/kg/day for the next 10 kg, and 20 mL/kg/day for every kilogram above 20 kg."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The Holliday-Segar 100/50/20 rule is the standard method for estimating daily maintenance fluid requirements in children. For 25 kg: 1000 + 500 + 100 = 1600 mL/day."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

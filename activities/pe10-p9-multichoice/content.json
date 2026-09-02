@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 10-week-old infant develops a 3 cm indurated, painful abscess at the BCG injection site 3 weeks after vaccination. The vaccine was given at the correct intradermal site in the left deltoid region. Which AEFI category does this most likely represent?</p>",
+  "answers": [
+    {
+      "text": "<div>Vaccine product-related reaction</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A vaccine product-related reaction is caused by inherent properties of the vaccine (e.g., fever from DTP). A localised abscess 3 weeks post-BCG with a history of correct technique is more consistent with a programme error.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Vaccine quality defect</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A vaccine quality defect (e.g., contamination at manufacture) would typically affect multiple recipients from the same batch. A single case with correct administration technique points to a different cause.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Programme error (immunization error-related reaction)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. An indurated abscess developing at the BCG site, despite apparently correct deltoid placement, suggests a subcutaneous rather than true intradermal injection — a programme (technique) error. BCG given subcutaneously causes a cold abscess. This is classified as an immunization error-related AEFI and is reportable.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Coincidental event</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A coincidental event has no causal link to vaccination (e.g., a febrile illness from an unrelated infection occurring post-vaccination). A localised abscess at the injection site has a direct anatomical link to the vaccination procedure.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "AEFI classification: product-related (inherent vaccine properties), quality defect (manufacturing), programme error (administration technique/cold chain), coincidental (unrelated event), unknown. Localised BCG abscess = programme error."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "BCG abscess at the injection site after apparently correct technique = programme error (subcutaneous rather than intradermal injection). Report as immunization error-related AEFI."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

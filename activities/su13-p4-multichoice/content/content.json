@@ -1,0 +1,76 @@
+{
+  "question": "<p>A head-injured patient opens eyes to pain (E2), makes incomprehensible sounds (V2), and withdraws from pain (M4). What is the GCS score and what airway decision does this mandate?</p>",
+  "answers": [
+    {
+      "text": "<div>GCS 8 — the airway must be secured with a definitive airway (endotracheal tube)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. E2+V2+M4 = GCS 8. A GCS ≤8 is the threshold at which the patient cannot protect their own airway and requires intubation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>GCS 10 — supplemental oxygen only is required</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The correct score is E2+V2+M4 = 8, not 10. At GCS ≤8, a definitive airway is required, not merely supplemental oxygen.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>GCS 8 — no airway intervention is needed unless there is apnoea</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A GCS of 8 is correctly calculated but the management decision is wrong. GCS ≤8 mandates a definitive airway regardless of whether the patient is currently apnoeic.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>GCS 6 — emergent needle cricothyrotomy is required</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The GCS calculation is wrong (it is 8 not 6) and needle cricothyrotomy is a last-resort surgical airway, not the first intervention for GCS ≤8.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Add each component: Eye (E2) + Verbal (V2) + Motor (M4) = GCS 8. At GCS ≤8 the patient cannot protect their airway — a definitive airway is required."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. GCS 8 (E2V2M4) is the internationally accepted threshold below which the airway cannot be self-protected and intubation is mandatory."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

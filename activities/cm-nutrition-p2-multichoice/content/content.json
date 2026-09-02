@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 32-year-old woman weighs 62 kg and is 158 cm tall. Using the India-specific BMI cut-offs, how would you classify her nutritional status?</p>",
+  "answers": [
+    {
+      "text": "<div>Normal weight (BMI 18.5–22.9 kg/m²)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Her BMI is approximately 24.8 kg/m², which exceeds the Indian normal upper limit of 22.9 kg/m². Using standard WHO cut-offs she would be classified as normal, but India uses lower thresholds due to higher cardiometabolic risk at lower BMI.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Overweight (BMI 23–24.9 kg/m²)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Her BMI is ~24.8 kg/m². India-specific cut-offs (endorsed by ICMR) classify ≥23 kg/m² as overweight and ≥25 kg/m² as obese, reflecting increased cardiometabolic risk at lower BMI in South Asians.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Obese Class I (BMI 25–29.9 kg/m²)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Obesity Class I by Indian cut-offs begins at ≥25 kg/m². Her BMI of ~24.8 kg/m² falls just below this threshold, placing her in the overweight category.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Underweight (BMI &lt;18.5 kg/m²)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Her BMI of ~24.8 kg/m² is well above the underweight threshold of &lt;18.5 kg/m².</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Calculate BMI as weight (kg) ÷ height² (m²) = 62 ÷ (1.58)² ≈ 24.8 kg/m². Using Indian cut-offs, ≥23 kg/m² = overweight and ≥25 kg/m² = obese."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. Applying India-specific BMI cut-offs is essential — South Asians develop metabolic complications at lower BMI than Western populations."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

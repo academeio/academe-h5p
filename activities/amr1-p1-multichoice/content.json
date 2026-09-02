@@ -1,0 +1,76 @@
+{
+  "question": "<p>A urine culture grows <em>E. coli</em> with the AST report: Cefotaxime MIC 32 µg/mL (R), Meropenem MIC 0.25 µg/mL (S), ESBL detected. The treating clinician wants to continue cefotaxime because 'the patient was responding clinically.' What is the correct microbiological advice?</p>",
+  "answers": [
+    {
+      "text": "<div>Advise against cefotaxime — CLSI mandates all cephalosporins be reported Resistant for ESBL producers regardless of in vitro MIC, as clinical failure is documented</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. ESBL-producing Enterobacterales exhibit an inoculum effect: in vitro MICs may appear low, but in vivo drug concentrations at the infection site are insufficient, leading to clinical failure. CLSI/EUCAST interpretive rules override raw MIC values for ESBL producers.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Agree with the clinician — MIC 32 µg/mL is achievable with high-dose cefotaxime in urine</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Even though urinary drug concentrations can be high, the inoculum effect in ESBL producers means cephalosporin MICs underestimate true resistance. CLSI rules explicitly override in vitro MIC for ESBL-positive isolates.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Request repeat culture — the ESBL result may be a laboratory error</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. ESBL detection uses validated phenotypic confirmatory tests (e.g. clavulanate synergy). Requesting a repeat solely to challenge a confirmed ESBL result delays appropriate therapy.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Suggest adding clavulanate to the cefotaxime to overcome the ESBL</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Cefotaxime–clavulanate is not a licensed or validated combination. While beta-lactamase inhibitors can overcome some ESBLs in vitro, this strategy is clinically unreliable and not recommended by any guideline.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the CLSI/EUCAST interpretive rules for ESBL producers: all penicillins, cephalosporins, and aztreonam must be reported as Resistant regardless of in vitro MIC."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Interpreting AST reports for ESBL producers requires applying CLSI interpretive rules, not just reading raw MIC values."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "question": "<p>A 3-week-old male infant presents with projectile, non-bilious vomiting after every feed. He is mildly dehydrated. Blood gas shows pH 7.52, pCO2 48 mmHg, HCO3 38 mEq/L, Cl⁻ 88 mEq/L. Which metabolic derangement does this describe, and what is the surgical timing?</p>",
+  "answers": [
+    {
+      "text": "<div>Metabolic acidosis with hyponatraemia — emergency surgery required within 2 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>IHPS causes metabolic ALKALOSIS (from loss of HCl in vomit), not acidosis. Emergency surgery before correction is dangerous — the alkalosis must be corrected first to avoid post-operative apnoea.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Hypochloraemic, hypokalaemic metabolic alkalosis — surgery after correction of electrolytes and dehydration</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Loss of HCl in vomit → hypochloraemic metabolic alkalosis. The kidneys conserve Na+ at the expense of K+ and H+ → hypokalaemia and paradoxical aciduria. Ramstedt's pyloromyotomy is done AFTER electrolyte correction — never as an emergency.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Respiratory alkalosis — hyperventilation from pain; conservative management with NG feeding</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Respiratory alkalosis would show low pCO2. Here pCO2 is 48 (elevated, a compensatory response to metabolic alkalosis). IHPS requires surgical correction (pyloromyotomy), not NG feeding alone.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Projectile non-bilious vomiting + 3-week-old + palpable 'olive' mass = IHPS. The metabolic consequence is hypochloraemic hypokalaemic metabolic alkalosis from HCl loss. Correct fluids and electrolytes before surgery."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. IHPS = hypochloraemic hypokalaemic metabolic alkalosis. Always correct electrolytes before Ramstedt's pyloromyotomy — this is not a surgical emergency until the biochemistry is normal."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

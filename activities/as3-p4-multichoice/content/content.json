@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient scheduled for elective laparoscopic cholecystectomy is taking metformin for Type 2 diabetes. Which of the following is the most appropriate preoperative management of metformin?</p>",
+  "answers": [
+    {
+      "text": "<div>Continue metformin up to and including the morning of surgery with a full breakfast</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Metformin should be withheld before surgery; food should also be withheld per standard fasting guidelines.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Withhold metformin from the morning of surgery (or 24–48 hours before in high-risk cases) to reduce lactic acidosis risk with contrast or haemodynamic instability</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Metformin accumulates when renal perfusion is compromised (e.g., hypovolaemia, contrast-induced nephropathy) → lactic acidosis. Standard practice is to withhold from day of surgery (or 48 h before if renal impairment or IV contrast is anticipated).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Double the metformin dose preoperatively to prevent intraoperative hyperglycaemia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Doubling metformin is dangerous and incorrect. Dose escalation is not a perioperative strategy; glucose management uses insulin sliding scales or infusions if needed.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Switch metformin to a sulphonylurea on the day of surgery to maintain glucose control</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Sulphonylureas carry a significant risk of intraoperative hypoglycaemia. Withholding metformin and monitoring glucose intraoperatively is the appropriate approach.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Metformin must be withheld — not continued or doubled — because haemodynamic instability during surgery can impair renal clearance and allow metformin to accumulate, causing lactic acidosis."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Metformin is withheld perioperatively to prevent lactic acidosis — the key risk is renal hypoperfusion during or after surgery causing metformin accumulation."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

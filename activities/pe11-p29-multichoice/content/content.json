@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 28-week preterm neonate is receiving supplemental oxygen in the NICU. To minimise the risk of ROP and BPD while avoiding hypoxia, which oxygen saturation (SpO2) target range is recommended for this neonate?</p>",
+  "answers": [
+    {
+      "text": "<div>92–98% SpO2 to ensure adequate oxygen delivery to all developing organs</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A target of 92–98% is the standard for older children and adults but is too HIGH for extremely preterm neonates. Targeting SpO2 above 95% in preterm infants increases free radical production → worsens ROP and BPD. Multiple landmark trials (SUPPORT, BOOST II, COT, NEOPROM) found that higher saturation targets (95–98%) increase BPD and ROP without mortality benefit.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>85–90% SpO2 to minimise oxygen toxicity in the premature lung and retina</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A target of 85–90% is too LOW and increases the risk of hypoxia, necrotising enterocolitis (NEC), brain injury, and mortality. The SUPPORT and BOOST II trials found higher mortality in the 85–89% target group. Hypoxia is just as dangerous as hyperoxia in preterm neonates.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>91–95% SpO2, balancing the risk of hypoxia against the risk of hyperoxia-induced ROP and BPD</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct! The current IAP/WHO recommended SpO2 target for preterm neonates receiving supplemental oxygen is 91–95%. This range balances: risk of hyperoxia (ROP, BPD) at &gt;95% versus risk of hypoxia (NEC, brain injury, death) at &lt;90%. Alarm limits should be set at 89% (lower) and 95% (upper) to alert staff promptly when the target range is breached.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>100% SpO2 to maximally saturate haemoglobin and prevent ischaemia in the developing brain</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. 100% SpO2 in a preterm neonate means significant hyperoxia — the PaO2 may be dangerously elevated while SpO2 appears normal. Hyperoxia accelerates free-radical generation in the retina and lung → ROP and BPD. Additionally, SpO2 ≥98% in preterm neonates is associated with increased mortality in clinical trials. Normoxia targeting (91–95%) is the evidence-based standard.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "SpO2 target for preterm neonates on O2 = 91–95%. Too LOW (<90%) = hypoxia, NEC, death. Too HIGH (>95%) = hyperoxia, ROP, BPD. The competing risks of hypoxia and hyperoxia explain the narrow target window. Clinical practice: set alarms at 89% (low) and 95% (high); FiO2 adjustments should maintain saturation in this range."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "The evidence-based SpO2 target for preterm neonates on supplemental oxygen is 91–95%. Below 90% = hypoxia risk (NEC, death). Above 95% = hyperoxia risk (ROP, BPD). Set alarm limits at 89% (low) and 95% (high) and avoid oxygen saturation of 100% in preterm neonates."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 35-year-old Indian man has a BMI of 24 kg/m² and a waist circumference of 92 cm. How would you classify him using Asian-Indian cut-offs?</p>",
+  "answers": [
+    {
+      "text": "<div>Normal weight with normal waist circumference</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. BMI 24 kg/m² is in the overweight range for Asian-Indians (≥23 kg/m²), not normal weight (≤22.9 kg/m²).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Overweight with abdominal obesity</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct! Asian-Indian cut-offs: overweight ≥23 kg/m² (his BMI = 24), and abdominal obesity in men ≥90 cm (his waist = 92 cm). Both criteria are met.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Obese with normal waist circumference</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Asian-Indian obesity threshold is ≥25 kg/m², so BMI 24 is overweight, not obese. The waist circumference of 92 cm exceeds the male cut-off of 90 cm.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Normal weight with abdominal obesity</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. BMI 24 kg/m² exceeds the Asian-Indian overweight threshold of ≥23 kg/m², so weight classification is overweight, not normal.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review Asian-Indian BMI cut-offs: overweight ≥23 kg/m², obese ≥25 kg/m²; abdominal obesity: men ≥90 cm, women ≥80 cm waist circumference."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Remember: Asian-Indian overweight ≥23, obese ≥25; waist cut-offs men ≥90 cm, women ≥80 cm — all lower than Western WHO thresholds."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

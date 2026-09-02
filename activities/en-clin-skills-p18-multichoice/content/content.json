@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient with CSOM and a central tympanic membrane perforation is prescribed neomycin-containing ear drops by a colleague. As the treating doctor reviewing this patient, what is the most appropriate action?</p>",
+  "answers": [
+    {
+      "text": "<div>Proceed with the neomycin drops as prescribed — CSOM requires broad-spectrum antibiotic coverage</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This is incorrect and potentially harmful. Aminoglycoside-containing ear drops (neomycin, gentamicin, framycetin) are ototoxic when applied to a perforated tympanic membrane because they access the middle ear directly and can damage the cochlear hair cells and vestibule. Using them in a patient with a confirmed perforation risks permanent sensorineural hearing loss.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Switch to ciprofloxacin (quinolone) ear drops, which are safe with tympanic membrane perforation and are the preferred antibiotic ear drop for CSOM</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Quinolone ear drops (ciprofloxacin, ofloxacin) are the safe choice for CSOM with perforation because they are not ototoxic when they reach the middle ear. Aminoglycosides (neomycin, gentamicin, tobramycin) are categorically contraindicated in the presence of TM perforation. This is a high-yield prescribing safety rule in ENT.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Increase the dose of neomycin drops to ensure adequate penetration through the perforation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Increasing the dose of an ototoxic drug is the wrong direction entirely. Aminoglycoside ototoxicity is concentration-dependent and cumulative. Increasing the dose of neomycin in a perforated ear magnifies the risk of irreversible cochlear damage.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Stop all ear drops and use only systemic antibiotics, as topical treatment is contraindicated in CSOM</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Topical antibiotics are NOT contraindicated in CSOM — they are actually preferred because they achieve high local concentrations at the site of infection. The contraindication is specific to aminoglycoside-containing drops with a perforated TM, not to topical treatment in general. Safe topical options (ciprofloxacin ear drops, saline irrigation) should be continued.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Aminoglycoside ear drops (neomycin, gentamicin) are OTOTOXIC via the middle ear and must NEVER be used when the tympanic membrane is perforated. Safe alternative = ciprofloxacin (quinolone) drops."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. The rule is absolute: aminoglycoside ear drops (neomycin, gentamicin) + TM perforation = contraindicated. Use quinolone drops (ciprofloxacin) instead."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

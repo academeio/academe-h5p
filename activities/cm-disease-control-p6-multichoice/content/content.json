@@ -1,0 +1,76 @@
+{
+  "question": "<p>An epidemic curve shows a single sharp peak with all cases clustered within one incubation period. This pattern is most consistent with which type of epidemic?</p>",
+  "answers": [
+    {
+      "text": "<div>Propagated (person-to-person) epidemic</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A propagated epidemic shows successive waves of cases over multiple incubation periods, not a single sharp peak.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Point-source common-source epidemic</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. A single sharp peak within one incubation period is the hallmark of a point-source common-source epidemic — all cases were exposed to the same source at approximately the same time.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Mixed epidemic with both common and propagated spread</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A mixed epidemic shows an initial sharp peak followed by secondary waves. A single sharp peak indicates point-source exposure only.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Slow endemic elevation with periodic spikes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Endemic patterns show baseline prevalence with seasonal variation, not the sharp single-peak pattern of a point-source epidemic.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "A single sharp peak within one incubation period indicates point-source common-source exposure — the hallmark of a common-source epidemic."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct! A single sharp peak within one incubation period is the classic pattern of a point-source common-source epidemic."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

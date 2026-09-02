@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which fasting plasma glucose value meets the WHO diagnostic threshold for diabetes mellitus?</p>",
+  "answers": [
+    {
+      "text": "<div>≥110 mg/dL on two occasions</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>110 mg/dL defines impaired fasting glucose (pre-diabetes), not diabetes.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>≥126 mg/dL on two occasions (or once with symptoms)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Fasting plasma glucose ≥126 mg/dL (7.0 mmol/L) is the diagnostic threshold for diabetes.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>≥140 mg/dL at any time</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A random glucose ≥200 mg/dL (not 140) with symptoms is diagnostic. 140 mg/dL is the 2-hour OGTT impaired glucose tolerance cut-off.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>≥100 mg/dL on two occasions</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>≥100 mg/dL defines impaired fasting glucose on the ADA scale; the diagnostic cut-off for diabetes is higher.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the four diagnostic criteria: FPG ≥126, 2-h OGTT ≥200, HbA1c ≥6.5%, or random glucose ≥200 mg/dL with symptoms."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done — fasting plasma glucose ≥126 mg/dL is a core diagnostic criterion you must memorise."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

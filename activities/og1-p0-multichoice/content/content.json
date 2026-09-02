@@ -1,0 +1,76 @@
+{
+  "question": "<p>The Maternal Mortality Ratio (MMR) is calculated as maternal deaths per how many live births, and what is India's current MMR (2018-20)?</p>",
+  "answers": [
+    {
+      "text": "<div>Per 1,000 live births; MMR = 9.7</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. MMR is expressed per 100,000 live births, not per 1,000. Dividing by 1,000 gives a figure 100 times smaller than the true MMR.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Per 100,000 live births; MMR = 97</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The WHO standard is maternal deaths per 100,000 live births. India's MMR (2018-20) is 97, down from 556 in 1990. The SDG target is below 70 by 2030.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Per 100,000 total births; MMR = 97</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The denominator is live births, not total births. Including stillbirths in the denominator would underestimate the true risk faced by women who deliver live babies.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Per 100,000 live births; MMR = 113</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. India's MMR for 2018-20 is 97. The value of 113 was the estimate for an earlier reporting period.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the MMR formula: maternal deaths divided by live births, multiplied by 100,000. India's current value is 97."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. MMR = maternal deaths per 100,000 live births. India's 2018-20 MMR is 97 — on track but still above the SDG target of 70."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

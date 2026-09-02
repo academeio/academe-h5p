@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 55-year-old patient with chronic kidney disease (eGFR 25 mL/min) requires opioid analgesia for moderate post-operative pain. Which opioid is specifically CONTRAINDICATED?</p>",
+  "answers": [
+    {
+      "text": "<div>Pethidine — its active metabolite norpethidine accumulates in renal failure, causing tremors, myoclonus, and seizures</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Norpethidine (half-life 14–21 hours, prolonged further in renal failure) is a CNS excitant. Accumulation causes neuroexcitatory toxicity: tremors → myoclonus → generalised seizures. This is not reversed by naloxone (norpethidine toxicity is not opioid-receptor-mediated). Pethidine should never be used in renal impairment.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Fentanyl — it is excreted unchanged by the kidneys and accumulates in renal failure</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Fentanyl is primarily hepatically metabolised to inactive metabolites (norfentanyl). It is actually one of the safer opioids in renal failure precisely because it does not produce active renally-excreted metabolites. It is often preferred in CKD patients.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Morphine — it causes acute kidney injury by directly reducing renal blood flow</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Morphine does require dose reduction in renal failure (its active metabolite morphine-6-glucuronide accumulates, causing prolonged sedation and respiratory depression), but it does not cause AKI. The specific seizure risk from metabolite accumulation is uniquely dangerous with pethidine.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Codeine — CYP2D6 is inhibited in renal failure, preventing any analgesic conversion to morphine</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>CYP2D6 activity is genetically determined, not renal-function-dependent. Codeine is actually problematic in renal failure because its active metabolites (morphine, morphine-6-glucuronide) accumulate — but the specific neuroexcitatory risk of norpethidine makes pethidine the more dangerous choice.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "In renal failure, avoid opioids with active renally-excreted metabolites: pethidine (norpethidine → seizures) is the most dangerous. Morphine requires dose reduction (M6G accumulates). Fentanyl is relatively safe (inactive metabolites)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Pethidine is absolutely contraindicated in renal failure due to norpethidine accumulation → neuroexcitatory toxicity → seizures. This is a common clinical scenario and a frequently examined safe-use principle."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

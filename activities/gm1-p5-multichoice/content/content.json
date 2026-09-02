@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which set of conditions represents the <strong>standard</strong> autoclave (moist heat) sterilisation cycle used in hospital central sterile supply departments?</p>",
+  "answers": [
+    {
+      "text": "<div>121°C at 15 psi for 15 minutes</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The standard autoclave cycle uses saturated steam at 121°C and 15 psi for 15 minutes. Moist heat kills by denaturing proteins and is the most reliable and widely used method for heat-stable items.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>160°C at atmospheric pressure for 60 minutes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>These are the conditions for a hot air oven (dry heat sterilisation), not an autoclave. Dry heat kills by oxidation and requires higher temperatures and longer exposure because air conducts heat less efficiently than steam.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>100°C at atmospheric pressure for 30 minutes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Boiling at 100°C achieves disinfection, not sterilisation — it does not reliably kill bacterial endospores. Boiled instruments are therefore unsuitable for surgical use.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>134°C at 30 psi for 3 minutes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>While 134°C / 30 psi / 3 minutes is a valid prevacuum (flash) cycle used for unwrapped instruments in emergencies, the standard cycle for wrapped instrument packs in CSSD remains 121°C / 15 psi / 15 minutes.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The autoclave uses saturated steam under pressure: 121°C, 15 psi, 15 minutes. Distinguish this from dry heat (160°C / 60 min in a hot air oven) and boiling (100°C — only disinfects, does not sterilise)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "121°C / 15 psi / 15 minutes is the gold standard. Biological indicators using <em>Geobacillus stearothermophilus</em> spores verify cycle efficacy. Remember: cleaning must always precede autoclaving to remove organic matter."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

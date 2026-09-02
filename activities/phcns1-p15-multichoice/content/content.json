@@ -1,0 +1,76 @@
+{
+  "question": "<p>What is the recommended first-line pharmacological treatment for generalised anxiety disorder (GAD) requiring long-term management?</p>",
+  "answers": [
+    {
+      "text": "<div>SSRI or SNRI (e.g., escitalopram, venlafaxine) — effective for chronic anxiety, no dependence liability, concurrent antidepressant effect</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. SSRIs and SNRIs address the underlying serotonergic dysregulation in the amygdala-prefrontal fear circuit. They are effective long-term without tolerance or dependence, and treat comorbid depression (present in ~60% of GAD patients). Their delayed onset (4–6 weeks) means short-term BZD bridging may be needed initially.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Long-term diazepam — most effective anxiolytic with decades of evidence for GAD</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Benzodiazepines are highly effective short-term (≤4 weeks) but cause tolerance, physical dependence, cognitive impairment, and fall risk with long-term use. After 4–6 weeks, the patient often needs escalating doses and experiences inter-dose rebound anxiety — creating iatrogenic dependence.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Alprazolam — high-potency BZD proven most effective in GAD long-term trials</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Alprazolam is a short-acting, high-potency BZD with particularly high dependence liability and severe inter-dose rebound anxiety. It is one of the most difficult BZDs to discontinue. International guidelines explicitly recommend against long-term alprazolam for GAD.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Hydroxyzine — safest anxiolytic with no dependence risk and immediate onset</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Hydroxyzine (H₁ antihistamine) has mild anxiolytic properties and no dependence risk, but its efficacy for chronic GAD is limited compared to SSRIs/SNRIs. It is suitable for situational/pre-operative anxiety, not as first-line maintenance for GAD.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key principle: benzodiazepines are effective but cause tolerance and dependence with chronic use (>4 weeks). SSRIs/SNRIs are first-line for all chronic anxiety disorders because they address underlying pathophysiology without dependence risk."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "The general goal of anxiety pharmacotherapy: BZDs for short-term relief (≤4 weeks) or as a bridge during SSRI initiation; SSRIs/SNRIs for long-term management. This distinction prevents the common clinical error of prescribing indefinite BZDs."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

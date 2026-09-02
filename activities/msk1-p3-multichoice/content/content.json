@@ -1,0 +1,76 @@
+{
+  "question": "<p>Tetanospasmin produced by *Clostridium tetani* causes spastic paralysis. Which molecular mechanism best explains its action?</p>",
+  "answers": [
+    {
+      "text": "<div>Cleaves synaptobrevin (VAMP) in inhibitory interneurones, blocking release of GABA and glycine</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct! Tetanospasmin travels retrograde along motor neurones to the spinal cord, where it cleaves synaptobrevin (a SNARE protein) in inhibitory interneurones. This prevents GABA and glycine release → loss of inhibitory tone → unopposed excitatory activity → spastic paralysis, trismus, and opisthotonus.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Blocks acetylcholine release at the neuromuscular junction, causing flaccid paralysis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. This describes BOTULINUM toxin, which blocks ACh release at the NMJ causing descending FLACCID paralysis. Tetanospasmin acts on inhibitory interneurones centrally, causing SPASTIC paralysis — the clinical opposite.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>ADP-ribosylates stimulatory G-protein alpha subunit, increasing intracellular cAMP</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. This is the mechanism of cholera toxin (ADP-ribosylates Gsα → persistent cAMP → secretory diarrhoea). Tetanospasmin is a zinc-dependent metalloprotease that cleaves SNARE proteins, not an ADP-ribosyltransferase.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Inhibits elongation factor 2 by ADP-ribosylation, stopping protein synthesis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Inhibition of EF-2 by ADP-ribosylation is the mechanism of diphtheria toxin and *Pseudomonas* exotoxin A. These cause cell death by halting translation — a completely different pathogenesis from the neurotoxic action of tetanospasmin.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Remember: tetanospasmin targets INHIBITORY neurotransmission centrally. It cleaves synaptobrevin (VAMP) in spinal inhibitory interneurones → no GABA/glycine release → loss of inhibition → spasticity. The key distinction: tetanus = spastic (central); botulism = flaccid (peripheral)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Tetanospasmin is a zinc metalloprotease that cleaves synaptobrevin (VAMP) → blocks GABA/glycine release from Renshaw cells → spastic paralysis. Contrast with botulinum toxin which cleaves SNAP-25/synaptobrevin at the NMJ → flaccid paralysis."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>At a PHC, three children with cough are assessed. Child A is 5 weeks old with RR 62/min. Child B is 9 months old with RR 52/min. Child C is 3 years old with RR 42/min. Based solely on fast-breathing thresholds in the IMNCI algorithm, which child (or children) meet the fast-breathing criterion for their age group?</p>",
+  "answers": [
+    {
+      "text": "<div>Child A only (RR 62/min at 5 weeks).</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Child A does meet the fast-breathing threshold for &lt;2 months (≥60/min). However, Child B also meets the threshold — at 2–12 months, fast breathing is defined as ≥50/min (RR 52/min qualifies). Child C at 3 years has a threshold of ≥40/min, and RR 42/min also qualifies.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Child A and Child B only.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Child A (5 weeks, RR 62/min, threshold ≥60/min) and Child B (9 months, RR 52/min, threshold ≥50/min) both qualify. But Child C (3 years, RR 42/min) also meets the threshold for the 12 months–5 years group, which is ≥40/min.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>All three children (Child A, Child B, and Child C).</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. IMNCI fast-breathing thresholds: &lt;2 months = ≥60/min (Child A: 62/min — YES); 2–12 months = ≥50/min (Child B: 52/min — YES); 12 months–5 years = ≥40/min (Child C: 42/min — YES). All three meet the criterion for their age band.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Child B and Child C only.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Child A at 5 weeks has a fast-breathing threshold of ≥60/min, and RR 62/min exceeds this. All three children meet the IMNCI fast-breathing criterion for their respective age groups.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The three IMNCI fast-breathing thresholds are: <2 months ≥60/min; 2–12 months ≥50/min; 12 months–5 years ≥40/min. Apply each threshold to the correct age group — all three children in this question exceed their respective thresholds."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Memorise the three IMNCI fast-breathing thresholds: < 2 months ≥ 60/min; 2–12 months ≥ 50/min; 12 months–5 years ≥ 40/min. These age-specific cut-offs reflect developmental changes in basal respiratory rate and are essential for correct pneumonia classification."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

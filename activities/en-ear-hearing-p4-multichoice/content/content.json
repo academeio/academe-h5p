@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient with sudden right-sided hearing loss undergoes tuning-fork tests. The Rinne test is negative (bone conduction better than air conduction) in the right ear, and the Weber test lateralises to the right ear. What type of hearing loss does this pattern indicate in the right ear?</p>",
+  "answers": [
+    {
+      "text": "<div>Right-sided sensorineural hearing loss</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. In sensorineural hearing loss, the Rinne test is positive (AC &gt; BC) because both pathways are reduced but air conduction remains better. Weber lateralises to the better (contralateral) ear in SNHL, not the affected side.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Right-sided conductive hearing loss</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. A negative Rinne (BC &gt; AC) on the right indicates a conductive hearing loss on that side. Weber lateralises to the worse ear in conductive hearing loss because the affected ear, shielded from ambient noise, perceives bone-conducted sound more readily. Both findings confirm right-sided CHL.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Left-sided sensorineural hearing loss with a false-negative Rinne</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. While a false-negative Rinne can occur in severe SNHL due to crossover (the healthy ear hears the bone conduction), Weber would then lateralise to the right (the better ear). Here Weber lateralises to the right, which is consistent with right-sided CHL, not left-sided SNHL.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Bilateral mixed hearing loss</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The clinical signs described are unilateral — right-sided negative Rinne with Weber to the right. This unilateral pattern is consistent with right-sided conductive hearing loss, not bilateral mixed loss.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the tuning-fork interpretation rule carefully: CHL = negative Rinne + Weber to the WORSE ear. SNHL = positive Rinne + Weber to the BETTER ear. Getting this right or wrong in an exam — and at the bedside — has direct consequences for patient management."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. In conductive hearing loss: Rinne is negative (BC > AC) on the affected side; Weber lateralises to the worse ear. In sensorineural hearing loss: Rinne is positive (AC > BC); Weber lateralises to the better ear. This distinction is one of the most tested clinical facts in ENT."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

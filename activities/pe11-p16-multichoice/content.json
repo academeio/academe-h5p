@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 2.4 kg, 36-week baby (IDM) has a blood glucose of 28 mg/dL at 2 hours of age. The baby is jittery but otherwise alert, tolerating feeds poorly. What is the most appropriate immediate management?</p>",
+  "answers": [
+    {
+      "text": "<div>Administer 50% dextrose (D50W) 2 mL/kg as an IV bolus immediately</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect — this is a dangerous error. 50% dextrose MUST NEVER be used in neonates. It is hyperosmolar and can cause osmotic injury, intraventricular haemorrhage, and severe rebound hypoglycaemia. The adult reflex to use D50W is absolutely contraindicated in neonates.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Give a bolus of 10% dextrose at 2 mL/kg IV over 5 minutes, then continue maintenance 10% dextrose at 80 mL/kg/day</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct! For symptomatic or severe hypoglycaemia (&lt;40–45 mg/dL in a symptomatic neonate), the standard treatment is: 10% dextrose 2 mL/kg IV bolus over 5 minutes (provides ~200 mg/kg glucose), followed by a maintenance glucose infusion (GIR 4–6 mg/kg/min = approximately 80 mL/kg/day of 10% dextrose). Recheck glucose after 30 minutes. NEVER use 50% dextrose in neonates.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Reassure and observe, as blood glucose of 28 mg/dL is physiologically normal in the first 72 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Blood glucose &lt;45 mg/dL in a neonate requires intervention, especially with symptoms (jitteriness). The physiological nadir occurs in the first 1–2 hours, but glucose should stabilise to &gt;45 mg/dL by 2–3 hours. A symptomatic neonate with glucose 28 mg/dL at 2 hours is clearly hypoglycaemic and needs treatment, not observation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Give 5% dextrose at 4 mL/kg IV bolus as it is safer than 10% in neonates</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. 5% dextrose is inadequate for treating neonatal hypoglycaemia — it does not deliver enough glucose per kilogram to reliably raise blood glucose. The standard for acute correction is 10% dextrose at 2 mL/kg. Higher concentrations (beyond 12.5%) should not be given via peripheral IV; central access is needed for concentrations &gt;12.5%.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The key trap: NEVER use 50% (or 25%) dextrose in neonates — it is hyperosmolar and dangerous. The standard acute treatment for symptomatic neonatal hypoglycaemia is 10% dextrose 2 mL/kg IV bolus followed by maintenance dextrose infusion. The treatment threshold for symptomatic neonates is glucose <45 mg/dL."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done! Neonatal hypoglycaemia management: 10% dextrose 2 mL/kg IV bolus (NEVER 50% dextrose) → maintenance GIR 4–6 mg/kg/min → recheck in 30 min → feed as soon as possible. Threshold: <45 mg/dL in symptomatic baby (some centres <40 mg/dL asymptomatic). Hypoglycaemia threshold = <45 mg/dL."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

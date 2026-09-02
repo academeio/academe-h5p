@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 4-year-old girl has Hb 7.2 g/dL, MCV 58 fL, and RBC count 5.8 × 10¹²/L. What does her Mentzer index suggest?</p>",
+  "answers": [
+    {
+      "text": "<div>Mentzer index of 10.0 — consistent with thalassaemia trait</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Mentzer index = MCV ÷ RBC = 58 ÷ 5.8 = 10.0. A value &lt;13 is consistent with thalassaemia trait, not IDA — recalculate.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Mentzer index of 10.0 — consistent with iron deficiency anaemia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The calculation is correct (58 ÷ 5.8 = 10.0), but Mentzer &lt;13 suggests thalassaemia trait, not IDA. IDA usually gives a Mentzer index &gt;13.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Mentzer index of 13.6 — consistent with thalassaemia trait</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The index is 58 ÷ 5.8 = 10.0, not 13.6. A value &lt;13 points toward thalassaemia trait rather than IDA.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Mentzer index of 10.0 — requires further evaluation for thalassaemia</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Mentzer index = MCV ÷ RBC = 58 ÷ 5.8 = 10.0. A value &lt;13 raises suspicion for thalassaemia trait and warrants haemoglobin electrophoresis for confirmation.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the Mentzer index: MCV ÷ RBC count. Below 13 suggests thalassaemia trait; above 13 suggests IDA. This child's index is 10.0."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done! Mentzer <13 = thalassaemia trait likely; >13 = IDA likely. Always confirm with Hb electrophoresis when Mentzer is <13."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

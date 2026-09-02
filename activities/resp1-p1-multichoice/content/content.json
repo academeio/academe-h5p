@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 45-year-old man with COPD is prescribed formoterol monotherapy as a long-acting bronchodilator. A junior doctor objects, citing the boxed warning against LABA monotherapy. Which statement best resolves this disagreement?</p>",
+  "answers": [
+    {
+      "text": "<div>The junior doctor is correct — LABA monotherapy is contraindicated in all obstructive airway diseases</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The LABA monotherapy boxed warning applies specifically to asthma, not COPD. In COPD, the inflammatory phenotype is neutrophilic/macrophage-driven, not eosinophilic — the mechanism that makes LABA monotherapy dangerous in asthma (masking progressive eosinophilic inflammation) does not apply.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>The prescriber is correct — the LABA monotherapy boxed warning applies to asthma specifically; in COPD, LABA monotherapy is standard maintenance therapy</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The SMART trial demonstrated increased asthma-related deaths with LABA monotherapy because bronchodilation without ICS masks worsening eosinophilic inflammation. In COPD, LABA monotherapy is an accepted maintenance option because the neutrophilic inflammatory phenotype does not carry this risk.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Neither is correct — formoterol is classified as a short-acting agent, so the LABA monotherapy warning is irrelevant</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Formoterol is a LABA with a uniquely rapid onset (1–3 minutes), giving it SABA-like onset characteristics. However, its 12-hour duration classifies it as a long-acting beta-2 agonist. The LABA monotherapy consideration is relevant — but only in asthma, not in COPD.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Both are partially correct — LABA-LAMA combination is always required in any COPD patient, so monotherapy of either agent alone is inadequate</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>LABA-LAMA combination is preferred in moderate-to-severe COPD, but LABA monotherapy is appropriate in milder disease (e.g., GOLD Group A patients with persistent symptoms). Not every COPD patient requires dual bronchodilator therapy from the outset.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Revisit the SABA/LABA section. The critical safety rule: LABA + ICS is mandatory in asthma (never LABA alone — SMART trial evidence); LABA monotherapy is standard in COPD. The difference stems from the eosinophilic vs neutrophilic inflammatory phenotypes."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The LABA safety rule is conditional on the disease: in asthma, LABA must always be combined with ICS; in COPD, LABA monotherapy is acceptable. This distinction is one of the highest-yield pharmacology facts for clinical practice."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

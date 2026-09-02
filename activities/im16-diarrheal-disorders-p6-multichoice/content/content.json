@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 4-year-old child (weight 16 kg) is assessed as having SOME dehydration (WHO Plan B). What is the correct ORS volume to administer over the first 4 hours?</p>",
+  "answers": [
+    {
+      "text": "<div>400 mL over 4 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>400 mL equates to 25 mL/kg — this is insufficient. Plan B requires 75 mL/kg over 4 hours.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>800 mL over 4 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>800 mL equates to 50 mL/kg — still insufficient. The correct Plan B dose is 75 mL/kg, which for a 16 kg child is 1,200 mL.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>1,200 mL over 4 hours</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. WHO Plan B = 75 mL/kg over 4 hours. For a 16 kg child: 75 × 16 = 1,200 mL of low-osmolarity ORS (245 mOsm/L), given slowly by mouth or nasogastric tube under supervision.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>1,600 mL over 4 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>1,600 mL equates to 100 mL/kg — this is the approximate volume for severe dehydration (Ringer's lactate IV, Plan C), not Plan B.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Memorise the WHO rehydration plans: Plan A = ORS at home after each loose stool; Plan B = 75 mL/kg ORS over 4 hours supervised (some dehydration); Plan C = IV Ringer's lactate 100 mL/kg (severe dehydration)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. WHO Plan B for some dehydration: 75 mL/kg low-osmolarity ORS over 4 hours under supervision. For 16 kg: 1,200 mL."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

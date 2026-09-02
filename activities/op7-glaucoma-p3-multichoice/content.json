@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient with confirmed primary open-angle glaucoma (POAG) and no contraindications requires pharmacological IOP lowering. Which drug class is the preferred first-line topical agent, and why is it NOT used as first-line in acute angle-closure crisis?</p>",
+  "answers": [
+    {
+      "text": "<div>Topical beta-blockers (e.g. timolol), because they reduce aqueous production; avoided in angle-closure because they cause miosis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Beta-blockers do reduce aqueous production and are commonly used in POAG, but they are NOT avoided in PACG because of miosis. Also, beta-blockers are NOT the recommended first-line class in POAG — prostaglandin analogues are preferred for their 24-hour IOP profile and once-daily dosing.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Prostaglandin analogues (e.g. latanoprost), because they enhance uveoscleral outflow; not used acutely in angle-closure because they require weeks to act and do not immediately break pupil block</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Prostaglandin analogues (latanoprost, bimatoprost, travoprost) are the preferred first-line agents in POAG — they increase uveoscleral outflow by 35-50%, are dosed once nightly, and have excellent 24-hour IOP control. In acute PACG, the priority is immediate IOP crisis control (acetazolamide IV, mannitol IV, pilocarpine to break pupil block) then definitive laser PI — PGAs are too slow and do not address the mechanical angle closure.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Pilocarpine (miotic), because it opens the trabecular meshwork; first-line in both POAG and PACG</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Pilocarpine constricts the pupil and pulls the peripheral iris away from the trabecular meshwork — it IS used in acute PACG to break pupil block. However, it is NOT first-line in POAG (side effects: miosis, dim vision, headache) and is not used in POAG as a preferred agent. It is emphatically NOT first-line in POAG by current guidelines.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Systemic acetazolamide, because it rapidly reduces aqueous production; contraindicated in PACG due to renal toxicity</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Acetazolamide is actually used in BOTH POAG and PACG. In acute PACG crisis, IV/oral acetazolamide is part of the emergency protocol. It is not first-line in chronic POAG management. And its contraindication in PACG is not renal toxicity — it is used in the acute attack.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Remember: POAG is treated long-term with prostaglandin analogues first-line. Acute PACG is an emergency requiring pilocarpine (pupil constriction to break pupil block) + IV acetazolamide + IV mannitol, then definitive laser peripheral iridotomy — not prostaglandins."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Key distinction secured: POAG → prostaglandin analogues first-line (uveoscleral outflow enhancement). Acute PACG → pilocarpine + acetazolamide + mannitol (emergency break of pupil block) then laser PI."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 58-year-old man is admitted with AKI Stage 2 (creatinine 3.1 mg/dL, baseline 1.0). He is on lisinopril for hypertension, ibuprofen for arthritis, and metformin for diabetes. Which of the following immediate drug management steps is MOST critical in AKI?</p>",
+  "answers": [
+    {
+      "text": "<div>Stop ibuprofen (NSAID), hold lisinopril (ACE inhibitor), and hold metformin</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. All three must be addressed urgently: NSAIDs reduce prostaglandin-mediated afferent arteriolar dilation → worsen renal ischaemia. ACE inhibitors reduce efferent arteriolar tone → drop GFR further in setting of hypoperfusion. Metformin must be held (eGFR has dropped markedly; lactic acidosis risk). This is the nephroprotective drug review.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Stop metformin only; continue the others as blood pressure control is important</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. NSAIDs and ACE inhibitors are both nephrotoxic in AKI settings and must also be held. Continuing ibuprofen in AKI is a serious prescribing error — NSAIDs worsen AKI by inhibiting prostaglandin-mediated renal vasodilation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Double the lisinopril dose to achieve better blood pressure control and protect the kidneys</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. In AKI, ACE inhibitors (and ARBs) should be held, not increased. They reduce efferent arteriolar resistance and can precipitously worsen GFR when renal perfusion is already compromised.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Continue all medications and add a loop diuretic to increase urine output</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Continuing NSAIDs and ACE inhibitors in AKI is harmful. Diuretics may be used cautiously for fluid overload management but do not address nephrotoxic drug exposure, which must be the first step.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "In AKI, three drug classes require immediate review: NSAIDs (worsen renal ischaemia), ACE inhibitors/ARBs (worsen GFR in hypoperfusion), and metformin (lactic acidosis risk with falling eGFR). All three must be addressed — not just metformin."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. In AKI, the drug review is immediate: stop NSAIDs, hold ACE inhibitors/ARBs, hold metformin (eGFR <30 or rapidly declining), review/hold other nephrotoxins (aminoglycosides, contrast, etc.)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

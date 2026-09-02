@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 40-year-old man with chronic osteomyelitis has haemoglobin 8.5 g/dL and serum iron is low. Which single laboratory finding BEST distinguishes anaemia of chronic infection from iron deficiency anaemia?</p>",
+  "answers": [
+    {
+      "text": "<div>Serum ferritin — elevated (&gt;100 μg/L) in ACI, low (&lt;12 μg/L) in iron deficiency</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Ferritin is the single most discriminating test. In ACI, iron is sequestered in macrophages (hepcidin-driven), so ferritin is elevated despite functional iron deficiency. In true iron deficiency, total body iron stores are depleted, so ferritin is low.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Mean corpuscular volume — always microcytic in ACI but normocytic in iron deficiency</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect — this is the opposite pattern. Iron deficiency characteristically produces microcytic hypochromic anaemia. ACI is typically normocytic normochromic (though it can become mildly microcytic in prolonged cases). MCV alone cannot reliably distinguish the two.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Reticulocyte count — elevated in ACI but suppressed in iron deficiency</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Both ACI and iron deficiency typically show an inappropriately low reticulocyte response relative to the degree of anaemia. Reticulocyte count does not reliably distinguish between them.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Peripheral smear showing target cells — specific for ACI</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Target cells are not specific for ACI. They are seen in liver disease, thalassaemia, haemoglobin C disease, and post-splenectomy states. They are not a discriminating feature for ACI versus iron deficiency.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the iron studies table: in ACI, the hepcidin-ferroportin axis sequesters iron in macrophages — serum iron is low, but ferritin (reflecting macrophage iron stores) is high. In IDA, total body iron is depleted — both serum iron and ferritin are low."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "The key discriminator: IDA → low iron, HIGH TIBC, LOW ferritin, absent marrow iron. ACI → low iron, LOW TIBC, HIGH ferritin (>100 μg/L), present marrow iron (trapped in macrophages). Remember that ferritin is also an acute-phase reactant, so interpret cautiously when both conditions coexist."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

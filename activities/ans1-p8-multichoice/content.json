@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient with severe organophosphate poisoning has received 8 mg atropine IV over 20 minutes. Heart rate is now 120 bpm, but copious bronchial secretions and audible wheeze persist. What is the correct next step?</p>",
+  "answers": [
+    {
+      "text": "<div>Continue atropine — the endpoint is drying of secretions and resolution of bronchospasm, not heart rate normalisation</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. In OPC poisoning, the titration endpoint for atropine is drying of bronchial secretions and resolution of bronchospasm — NOT normalisation of heart rate. Tachycardia may be partly nicotinic in origin and does not indicate atropine excess while secretions persist.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Stop atropine — tachycardia at 120 bpm indicates atropine toxicity</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Stopping atropine because of tachycardia while secretions persist is the most dangerous mistake in OPC management. Persistent bronchorrhoea causes hypoxia and death — tachycardia is not a reason to withhold life-saving muscarinic blockade.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Switch to glycopyrrolate for less cardiac stimulation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Glycopyrrolate is not the standard agent for OPC poisoning management. The established protocol uses atropine, which has well-characterised dose-response and CNS penetration. Switching agents mid-resuscitation is not recommended.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Give physostigmine IV to reverse the excess atropine</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Physostigmine is an AChE inhibitor — giving it would massively worsen cholinergic excess and is absolutely contraindicated in OPC poisoning.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Critical rule: atropine in OPC poisoning is titrated to drying of bronchial secretions, not heart rate. Stopping for tachycardia while secretions persist is a lethal error."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Titrate atropine to secretions, not to heart rate — this principle saves lives in OPC management."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

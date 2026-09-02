@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which of the following correctly pairs a first-line anti-tuberculosis drug with its primary mechanism of action?</p>",
+  "answers": [
+    {
+      "text": "<div>Isoniazid — inhibits mycolic acid synthesis by blocking InhA (enoyl-ACP reductase)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Isoniazid is a prodrug activated by mycobacterial KatG (catalase-peroxidase). The active metabolite forms an adduct with NAD that inhibits InhA, blocking mycolic acid synthesis — essential for the mycobacterial cell wall.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Rifampicin — inhibits bacterial cell wall synthesis by binding PBPs</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>PBP binding is the mechanism of beta-lactams. Rifampicin inhibits bacterial RNA polymerase (the beta subunit), blocking mRNA synthesis.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Ethambutol — inhibits DNA gyrase, preventing DNA supercoiling</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>DNA gyrase inhibition is the mechanism of fluoroquinolones. Ethambutol inhibits arabinosyl transferase, disrupting arabinogalactan synthesis in the mycobacterial cell wall.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Pyrazinamide — inhibits 50S ribosomal subunit, halting protein synthesis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>50S inhibition is the mechanism of macrolides. Pyrazinamide (as pyrazinoic acid) disrupts the mycobacterial membrane potential and inhibits fatty acid synthase I, active specifically in acidic/hypoxic environments.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the First-Line ATT Drugs block. Each of HRZE targets a distinct mycobacterial structure: INH→mycolic acid, RIF→RNA pol, EMB→arabinogalactan, PZA→membrane/FAS-I."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. Knowing HRZE mechanisms helps explain their complementary coverage of different bacterial populations and their distinct toxicity profiles."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

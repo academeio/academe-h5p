@@ -1,0 +1,76 @@
+{
+  "question": "<p>A rural community health worker phones you about a neonate born 4 hours ago at home. She measures the rectal temperature at 34.8°C. The baby has cold skin, is not suckling well, and appears lethargic. How would you classify this neonate's temperature according to WHO grading, and what is your immediate instruction?</p>",
+  "answers": [
+    {
+      "text": "<div>Mild hypothermia (36–36.4°C) — rewarm slowly over 2–4 hours using a warm room and swaddling</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. WHO classifies mild hypothermia as 36.0–36.4°C. This baby's temperature is 34.8°C, which falls in the moderate hypothermia range (32–35.9°C). Mild hypothermia instructions would be insufficient for this degree of coldness.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Moderate hypothermia (32–35.9°C) — initiate skin-to-skin KMC immediately and feed if able; refer to facility if not improving</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct! WHO classifies 32–35.9°C as moderate hypothermia. Immediate management: skin-to-skin contact (KMC) is the most effective rewarming method at community level, combined with warm environment, swaddling after rewarming begins, and breastfeeding (or expressed milk) if the baby can suckle. The baby should be referred if there is no improvement within 1–2 hours or if clinical deterioration occurs. Check for hypoglycaemia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Severe hypothermia (&lt;32°C) — emergency transport with IVF and incubator warming</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Severe hypothermia is &lt;32°C. This baby's temperature of 34.8°C is above that threshold. While the baby is unwell and should be monitored closely, classifying this as severe hypothermia would be inaccurate. WHO moderate hypothermia criteria = 32.0–35.9°C.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Normal temperature — the axillary route is unreliable and rectal temperatures are falsely low</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Rectal temperature is the most accurate method for measuring neonatal temperature. 34.8°C is genuinely abnormal by any route. Normal neonatal temperature = 36.5–37.5°C (axillary or rectal). This baby has moderate hypothermia and requires immediate intervention.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "WHO neonatal temperature grading: Normal 36.5–37.5°C; Mild (cold stress) 36.0–36.4°C; Moderate hypothermia 32.0–35.9°C; Severe <32°C. At 34.8°C, this baby has moderate hypothermia. Management = KMC + warm environment + feeding + hypoglycaemia monitoring + referral if not improving."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done! WHO neonatal temperature classification: Normal = 36.5–37.5°C; Mild hypothermia = 36.0–36.4°C (cold stress); Moderate = 32.0–35.9°C; Severe = <32°C. At 34.8°C = moderate. First response: skin-to-skin KMC + feed + warm environment + monitor glucose."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

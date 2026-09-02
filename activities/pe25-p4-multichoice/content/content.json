@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 12-year-old girl (weight 40 kg) is brought to the emergency department after ingesting 30 tablets of paracetamol 500 mg (total 15,000 mg = 375 mg/kg) approximately 5 hours ago. She appears well and denies abdominal pain. Which of the following is the MOST appropriate next step?</p>",
+  "answers": [
+    {
+      "text": "<div>Reassure and discharge as she is clinically asymptomatic with no abdominal pain at 5 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Clinical well-being in the first 24 hours is characteristic of paracetamol poisoning — it does NOT indicate safety. The toxic dose (&gt;150 mg/kg) has been exceeded, and hepatocellular necrosis from NAPQI accumulation peaks at 72–96 hours after ingestion. Discharging this patient is dangerous.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Send a serum paracetamol level now (at least 4 hours post-ingestion), plot on the Rumack-Matthew nomogram, and initiate N-acetylcysteine (NAC) if the level falls above the treatment line</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The Rumack-Matthew nomogram is valid only for levels taken ≥4 hours after ingestion (levels before 4 hours do not reflect peak absorption). At 5 hours, a serum level is valid and should be plotted. Since the ingested dose exceeds the toxic threshold of 150 mg/kg, there is a high probability NAC will be required. Early NAC initiation before hepatotoxicity is highly protective.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Measure a serum paracetamol level immediately and plot it on the nomogram at the 1-hour time point</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The Rumack-Matthew nomogram is not valid for levels taken before 4 hours post-ingestion, as absorption may be incomplete and levels do not yet reflect peak concentration. A level at the current time (5 hours) should be plotted at the correct time point on the nomogram.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Administer activated charcoal 1 g/kg as she presents within 24 hours of ingestion</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Activated charcoal is most effective within 1–2 hours of ingestion. At 5 hours post-ingestion, absorption is largely complete and charcoal has minimal benefit. The priority at this stage is serum paracetamol level measurement and assessment against the Rumack-Matthew nomogram to decide on NAC.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key rules: Rumack-Matthew nomogram valid only ≥4 hours post-ingestion. Clinical well-being in early hours does NOT mean safety — hepatic injury peaks at 72–96 hours. NAC is the antidote and is most protective when started early."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. The Rumack-Matthew nomogram is the decision tool: serum paracetamol level ≥4 hours post-ingestion plotted against the treatment line. Clinical appearance in the first 24 hours is deceptive — the toxic dose (>150 mg/kg) mandates urgent evaluation and likely NAC."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

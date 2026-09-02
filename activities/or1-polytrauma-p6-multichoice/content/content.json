@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient sustains an open tibial fracture from a road traffic accident. The wound is 6 cm with extensive periosteal stripping and a contaminated wound bed; the bone is adequately covered by soft tissue and there is no vascular injury. Which Gustilo-Anderson grade applies?</p>",
+  "answers": [
+    {
+      "text": "<div>Type I</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Type I: wound &lt;1 cm, clean puncture from inside-out, minimal contamination, simple fracture pattern. This wound is 6 cm and heavily contaminated, ruling out Type I.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Type II</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Type II: wound 1–10 cm, moderate contamination, adequate soft tissue coverage, no periosteal stripping. This wound has extensive periosteal stripping, which upgrades it beyond Type II.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Type IIIA</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Type IIIA: wound &gt;10 cm or extensive soft-tissue damage with periosteal stripping, but adequate bone coverage remains after debridement; any high-energy mechanism with adequate coverage falls here. The 6 cm wound with periosteal stripping and contamination, but adequate bone coverage and no vascular injury, fits IIIA.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Type IIIC</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Type IIIC: any open fracture with arterial injury requiring repair regardless of wound size. There is no vascular injury in this patient, so IIIC does not apply. Remember: IIIC = vascular injury; limb salvage vs amputation decision is made here.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review Gustilo-Anderson: I (<1 cm, clean), II (1–10 cm, moderate), IIIA (periosteal stripping but bone covered), IIIB (bone exposed, needs flap), IIIC (arterial injury). Periosteal stripping is the key feature distinguishing II from IIIA."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Gustilo IIIA = extensive soft-tissue damage + periosteal stripping + bone coverage adequate. The key upgrade from II→III is periosteal stripping OR high-energy mechanism. IIIB = inadequate bone coverage needing flap; IIIC = arterial injury."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

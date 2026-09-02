@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 45-year-old diabetic has: pH 7.24, PaCO₂ 28 mmHg, HCO₃⁻ 12 mmol/L, Na⁺ 138, Cl⁻ 100, albumin 40 g/L. Anion gap = 26 mmol/L. Applying Winter's formula (expected PaCO₂ = 1.5 × HCO₃⁻ + 8 ± 2), what does the measured PaCO₂ of 28 mmHg indicate?</p>",
+  "answers": [
+    {
+      "text": "<div>Adequate respiratory compensation for the metabolic acidosis</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Winter's formula: expected PaCO₂ = 1.5 × 12 + 8 = 26 ± 2, i.e. 24–28 mmHg. The measured PaCO₂ of 28 mmHg falls within this range, confirming appropriate respiratory compensation — no superimposed respiratory disorder.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Superimposed respiratory alkalosis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Respiratory alkalosis would require a PaCO₂ below the expected range (below 24 mmHg). At 28 mmHg, compensation is appropriate per Winter's formula.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Superimposed respiratory acidosis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Respiratory acidosis would require PaCO₂ above the expected range (above 28 mmHg). At 28 mmHg, the value is at the upper boundary of adequate compensation, not above it.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>A mixed high-anion gap and normal-anion gap acidosis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Mixed acidosis is assessed using the delta-delta ratio, not Winter's formula. Winter's formula specifically tests whether the respiratory response to metabolic acidosis is appropriate.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Winter's formula gives expected PaCO₂ = 1.5 × HCO₃⁻ + 8 ± 2. Compare the measured PaCO₂ to this range: within range = appropriate compensation; below = concurrent respiratory alkalosis; above = concurrent respiratory acidosis."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. Always apply Winter's formula to every metabolic acidosis: expected PaCO₂ = 1.5 × HCO₃⁻ + 8 ± 2. This single formula detects hidden respiratory disorders."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

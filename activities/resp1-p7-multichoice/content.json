@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 68-year-old patient with COPD presents with increased cough and purulent yellow sputum. Which is the most appropriate pharmacological intervention?</p>",
+  "answers": [
+    {
+      "text": "<div>Codeine linctus 10 mg three times daily</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Codeine is a central opioid antitussive that suppresses the cough reflex. In productive cough with purulent sputum, suppressing the cough impairs secretion clearance and risks mucus retention, potentially worsening the underlying infection. Antitussives are contraindicated in productive cough.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Dextromethorphan 15 mg three times daily</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Dextromethorphan is a central non-opioid antitussive. Like all antitussives, it suppresses the cough reflex and is contraindicated in productive cough — suppressing secretion clearance in a patient with purulent sputum risks mucus plugging and worsening infection.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Bromhexine 8 mg three times daily with adequate hydration</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Bromhexine is a mucokinetic mucolytic that depolymerises mucopolysaccharides, reducing sputum viscosity and facilitating expectoration. In productive cough, the goal is to aid clearance — not suppress the reflex. Adequate hydration is essential to optimise mucociliary transport alongside mucolytic therapy.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Benzonatate 100 mg three times daily</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Benzonatate is a peripheral antitussive that anaesthetises stretch receptors in the lung. It suppresses the cough reflex and is indicated only for dry, non-productive cough. Using it in productive cough would impair the clearance of purulent secretions.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the core principle: dry cough → antitussives; productive cough → mucolytics/expectorants. This patient has purulent sputum (productive cough), so the goal is to facilitate clearance with a mucolytic like bromhexine — never to suppress the reflex with an antitussive."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The fundamental rule: cough type determines drug class. Productive cough → mucolytics/expectorants to facilitate clearance. Dry cough → antitussives to suppress the reflex. Antitussives in productive cough = harm."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

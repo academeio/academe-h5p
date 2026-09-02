@@ -1,0 +1,24 @@
+{
+  "question": "<p>In a patient who is found with stroke symptoms after waking from sleep, the onset time for thrombolysis eligibility calculations should be taken as the time the patient woke up and was found symptomatic.</p>",
+  "correct": "false",
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false
+  },
+  "l10n": {
+    "trueText": "True",
+    "falseText": "False",
+    "score": "You got @score of @total points",
+    "checkAnswer": "Check",
+    "submitAnswer": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgain": "Retry",
+    "wrongAnswerMessage": "Correct — the statement is false. Last-known-well time is always used; in a wake-up stroke the patient went to sleep neurologically intact, so LKW is the time of sleep onset. This distinction directly affects thrombolysis eligibility.",
+    "correctAnswerMessage": "That is actually false. The last-known-well (LKW) time — not the time of discovery — is the anchor for onset calculations. When a patient wakes with symptoms, LKW is the time they were last seen neurologically intact (i.e., when they went to sleep). Using wake-up time underestimates the true onset-to-door interval.",
+    "scoreBarLabel": "You got :num out of :total points"
+  }
+}

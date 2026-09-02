@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 70-year-old man (weight 60 kg, serum creatinine 1.8 mg/dL) requires gentamicin for serious gram-negative sepsis. His calculated creatinine clearance using Cockcroft-Gault is approximately 32 mL/min. What is the MOST appropriate dose adjustment strategy?</p>",
+  "answers": [
+    {
+      "text": "<div>Use the standard dose (5 mg/kg) and standard 8-hourly interval — gentamicin dose is weight-based so no renal adjustment is needed</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Gentamicin is renally cleared (&gt;95% unchanged). With a CrCl of 32 mL/min (moderate renal impairment), standard dosing causes drug accumulation and nephrotoxicity/ototoxicity. Renal adjustment is mandatory.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Reduce the dose (e.g., 3 mg/kg) and extend the dosing interval (e.g., 24-hourly or by nomogram), guided by TDM trough levels</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Aminoglycosides with renal impairment require either dose reduction or interval extension (or both). Extended-interval dosing (once daily) guided by TDM trough levels is the preferred approach — it maintains peak efficacy while minimising accumulation-related toxicity.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Switch to amikacin at standard dose — amikacin does not require renal adjustment unlike gentamicin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Amikacin is also an aminoglycoside with the same renal elimination pathway and requires identical dose adjustment. Switching does not circumvent the need for renal dosing.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Prescribe the standard dose but add furosemide to improve creatinine clearance before gentamicin is given</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Furosemide does not improve glomerular filtration in this context and is itself nephrotoxic in combination with aminoglycosides. This combination should be avoided.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Gentamicin is eliminated almost entirely by glomerular filtration. CrCl of 32 mL/min requires dose and interval adjustment. Untreated, accumulation causes dose-dependent nephrotoxicity and permanent ototoxicity."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. For aminoglycosides in renal impairment: reduce dose, extend interval, and monitor trough levels via TDM. CrCl guides the degree of adjustment — nomograms (e.g., Hartford) are standard clinical tools."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

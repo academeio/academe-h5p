@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 38-year-old construction worker falls 4 metres and sustains a burst fracture of L1. CT shows &gt;50% loss of vertebral body height with posterior cortex retropulsion into the canal. MRI demonstrates complete disruption of the posterior ligamentous complex (PLC). Neurologically, he has intact motor function but reports perianal paraesthesiae. What is his TLICS score, and what does it indicate?</p>",
+  "answers": [
+    {
+      "text": "<div>TLICS 4 — non-operative management with bracing</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>TLICS 4 sits in the equivocal zone (can go either way). A burst fracture scores 2 (morphology), complete PLC disruption scores 3 (posterior ligamentous complex), and incomplete neurological deficit scores 1 — that totals 6, not 4.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>TLICS 6 — surgical stabilisation indicated</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>TLICS = morphology + PLC integrity + neurological status. Burst fracture = 2 points; complete PLC disruption = 3 points; incomplete SCI (perianal paraesthesiae = sacral sensory deficit but intact motor = ASIA C/D incomplete) = 1 point → total = 6. TLICS ≥5 is an indication for surgical stabilisation. The combined instability (burst + complete PLC disruption) leaves no safe non-operative option.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>TLICS 3 — non-operative management indicated</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>TLICS ≤3 supports non-operative care. Burst fractures with intact PLC (TLICS = 2 morphology + 0 PLC + 0 neuro = 2) qualify. In this case, complete PLC disruption adds 3 points, making surgery mandatory.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>TLICS 5 — equivocal; decision based on surgeon preference</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>TLICS 5 is indeed the equivocal zone, but the correct calculation here yields 6 (2 + 3 + 1). A TLICS of 6 is unequivocally surgical — no equivocation applies.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Calculate TLICS systematically: (1) Fracture morphology — compression=1, burst=2, translation/rotation=3, distraction=4. (2) PLC integrity — intact=0, suspected/indeterminate=2, disrupted=3. (3) Neurological status — intact=0, nerve root=2, complete SCI=2, incomplete SCI=3 (but note: the weighting can vary by source — Maheshwari uses incomplete=1 in some editions; verify from your institution's reference). Anything ≥5 is surgical."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. TLICS = Morphology (2 = burst) + PLC (3 = complete disruption) + Neurology (1 = incomplete deficit) = 6. Score ≥5 = surgery. This case illustrates why the PLC component is the single most influential factor in the TLICS system."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

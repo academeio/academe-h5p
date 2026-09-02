@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 30-year-old IV drug user has fever for 2 weeks, new tricuspid regurgitation murmur, three separate blood culture sets positive for Staphylococcus aureus, and a vegetation on echocardiography. How many major Duke criteria does this patient satisfy?</p>",
+  "answers": [
+    {
+      "text": "<div>One major criterion (vegetation on echo)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Positive blood cultures with a typical organism (S. aureus) from ≥2 separately drawn sets is itself a major criterion. Do not undercount.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Two major criteria (positive blood cultures with a typical organism + evidence of endocardial involvement on echo)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The modified Duke major criteria are: (1) Positive blood cultures with a typical IE organism (S. aureus, viridans streptococci, HACEK organisms) from ≥2 separate blood cultures — satisfied here; and (2) Echocardiographic evidence of endocardial involvement (vegetation, abscess, or new valvular regurgitation/dehiscence) — satisfied here. Two major criteria = definite IE.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Two major criteria and one minor criterion (IV drug use)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>IV drug use is a predisposing factor and counts as a minor Duke criterion — however, the question asks specifically how many MAJOR criteria are satisfied, not the total classification. The patient does meet 2 major criteria (definite IE), but IV drug use adds a minor criterion and is not a major one.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Three major criteria (blood cultures + echo + murmur)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A new murmur is NOT a major Duke criterion by itself; it is a minor criterion. The only two major criteria are positive blood cultures (typical organism, ≥2 sets) and echocardiographic endocardial involvement.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the modified Duke criteria: Major = (1) positive blood cultures with typical organisms ≥2 sets, (2) echocardiographic endocardial involvement. Minor = predisposing condition, fever, vascular phenomena, immunological phenomena, microbiological criteria not meeting major. A new murmur is a minor criterion, not major."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Two major Duke criteria alone constitute definite IE. S. aureus from ≥2 blood cultures + vegetation on echo = 2 major criteria = definite diagnosis."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

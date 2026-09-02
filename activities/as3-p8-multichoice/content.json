@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 55-year-old obese patient (BMI 38) with obstructive sleep apnoea is scheduled for elective laparotomy. Which premedication decision is MOST appropriate?</p>",
+  "answers": [
+    {
+      "text": "<div>Prescribe oral midazolam 7.5 mg to reliably reduce anxiety and facilitate smooth induction</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Benzodiazepines and opioid premedication should be used with extreme caution or avoided in OSA patients — sedation before induction may cause upper airway obstruction and hypoventilation without monitoring or airway support.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Avoid sedative premedication; consider ranitidine or sodium citrate for aspiration prophylaxis given the obesity risk</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. In OSA with obesity, sedative premedication risks unmonitored airway obstruction. These patients need aspiration prophylaxis (H2 antagonist or antacid) given elevated aspiration risk, and should arrive in theatre awake with airway equipment immediately available.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Prescribe intramuscular morphine 10 mg for preemptive analgesia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Opioid premedication in OSA significantly worsens the risk of respiratory depression and airway obstruction in the preoperative ward without monitoring. Opioids are contraindicated as premedication in this context.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>No premedication is needed as the patient is not anxious</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Aspiration prophylaxis should still be addressed regardless of anxiety level. Obesity and OSA increase aspiration risk; gastric aspiration prophylaxis is indicated perioperatively even in calm patients.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "In OSA, the upper airway already collapses during sleep. Adding sedatives or opioids preoperatively without monitoring risks complete obstruction. The safe choice is aspiration prophylaxis only, with the patient arriving awake."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct reasoning. OSA + obesity = sedative premedication is hazardous. Prioritise aspiration prophylaxis and keep the patient awake and protected until controlled induction in theatre."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient has psoriatic plaques covering approximately 15% of body surface area and a DLQI score of 12, with no pustular or erythrodermic features. Which treatment tier is most appropriate?</p>",
+  "answers": [
+    {
+      "text": "<div>Topical therapy alone, as the disease is mild</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A BSA of 15% places the disease in the moderate range (10–20%), and a DLQI of 12 indicates significant quality-of-life impairment (≥10). Topical therapy alone is usually insufficient at this extent and impact level.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Narrowband UVB phototherapy, with consideration of systemic agents if needed, as this is moderate disease with significant quality-of-life impairment</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. BSA of 10–20% defines moderate psoriasis, and DLQI ≥10 indicates significant impairment. Together these place the patient in the moderate tier, for which narrowband UVB phototherapy is appropriate, with escalation to systemic agents if the response is inadequate.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Immediate systemic corticosteroids for rapid clearance</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Systemic corticosteroids are contraindicated in psoriasis because their withdrawal can precipitate a rebound pustular or erythrodermic flare — regardless of disease severity.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>No treatment is needed below 20% body surface area</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Treatment decisions depend on BSA, PASI, and DLQI together. A DLQI of 12 alone warrants active treatment, and 15% BSA is moderate disease, not mild or negligible.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "BSA of 10–20% = moderate psoriasis; DLQI ≥10 = significant impairment. Together these indicate phototherapy (narrowband UVB) with systemic agents held in reserve. Systemic corticosteroids are always contraindicated in psoriasis."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Severity stratification uses BSA, PASI, and DLQI together — moderate disease (BSA 10–20% or DLQI ≥10) warrants phototherapy as first-line, not topicals alone."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

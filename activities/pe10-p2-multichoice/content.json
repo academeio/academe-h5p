@@ -1,0 +1,76 @@
+{
+  "question": "<p>A paediatric intern is counselling parents about vaccines given at 9 months. She explains that one of the vaccines given at this visit is a live-attenuated virus vaccine and must be given at least 4 weeks apart from other live vaccines. Which vaccine is she referring to?</p>",
+  "answers": [
+    {
+      "text": "<div>Pneumococcal conjugate vaccine (PCV)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>PCV is a conjugate (non-live) vaccine. It does not carry live-vaccine interval restrictions.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Hepatitis A vaccine (inactivated)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The inactivated Hepatitis A vaccine is non-live and does not require a minimum interval from other live vaccines.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Measles-Rubella (MR) vaccine</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. MR vaccine is a live-attenuated viral vaccine given at 9–12 months (first dose) under NIS. Live vaccines require a minimum 4-week interval from other live vaccines to avoid immune interference.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Fractional IPV (fIPV)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>fIPV is an inactivated (killed) poliovirus vaccine. As a non-live vaccine, it has no minimum interval restriction from other live vaccines.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Classify vaccines by antigen type: live-attenuated (BCG, OPV, MR, Rotavirus, JE-live) carry unique handling and interval requirements that non-live vaccines do not."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "MR is live-attenuated; PCV and fIPV are non-live. Live vaccines must be separated by ≥4 weeks if not given simultaneously."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

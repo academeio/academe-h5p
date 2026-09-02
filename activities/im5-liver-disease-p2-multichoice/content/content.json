@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient has ALT 920 IU/L, AST 480 IU/L, ALP 95 IU/L (normal), and bilirubin 5.1 mg/dL. Which pattern of liver injury does this represent?</p>",
+  "answers": [
+    {
+      "text": "<div>Cholestatic pattern</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Cholestatic injury shows disproportionate ALP and GGT elevation relative to aminotransferases. This patient's ALP is normal while ALT/AST are markedly elevated — the opposite pattern.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Hepatocellular pattern</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Markedly elevated aminotransferases (ALT &gt; AST, both &gt;10× normal) with normal or minimally raised ALP defines the hepatocellular pattern, pointing to causes such as viral hepatitis or drug-induced hepatocellular injury.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Mixed hepatocellular-cholestatic pattern</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. A mixed pattern requires proportionate elevation of both aminotransferases and ALP/GGT. Here, ALP is normal, making this a pure hepatocellular pattern.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Pre-hepatic hyperbilirubinaemia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Pre-hepatic hyperbilirubinaemia (e.g., haemolysis) presents with elevated unconjugated bilirubin but normal liver enzymes. This patient's markedly elevated ALT and AST confirm intrinsic hepatocellular injury.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "In hepatocellular injury, ALT and AST rise markedly (often >10× ULN) while ALP is normal or minimally elevated. In cholestatic injury, ALP and GGT predominate. Practice classifying LFTs before reaching for a diagnosis."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. Recognising LFT patterns guides aetiological investigation: hepatocellular → viral, alcoholic, drug, autoimmune; cholestatic → biliary obstruction, primary biliary cholangitis."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient has an eGFR of 38 mL/min/1.73 m² confirmed on two measurements 4 months apart. According to the KDIGO 2012 CKD staging system, what is their eGFR category?</p>",
+  "answers": [
+    {
+      "text": "<div>G2 (mildly decreased)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. G2 is eGFR 60–89 mL/min/1.73 m².</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>G3a (mildly to moderately decreased)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. G3a is eGFR 45–59 mL/min/1.73 m².</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>G3b (moderately to severely decreased)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. G3b is eGFR 30–44 mL/min/1.73 m². The KDIGO G categories are: G1 ≥90, G2 60–89, G3a 45–59, G3b 30–44, G4 15–29, G5 &lt;15.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>G4 (severely decreased)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. G4 is eGFR 15–29 mL/min/1.73 m².</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review KDIGO CKD G-staging. eGFR 38 is in G3b (30–44). The stages are G1 ≥90, G2 60–89, G3a 45–59, G3b 30–44, G4 15–29, G5 <15."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. eGFR 38 falls in G3b (30–44). Remember the full KDIGO G-staging: G1 ≥90, G2 60–89, G3a 45–59, G3b 30–44, G4 15–29, G5 <15 (kidney failure)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

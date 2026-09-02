@@ -1,0 +1,76 @@
+{
+  "question": "<p>An anaesthetist draws up propofol correctly but accidentally injects it into a drip line that is not running, so the patient receives none. Which type of error is this?</p>",
+  "answers": [
+    {
+      "text": "<div>Mistake — an error of planning</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A mistake occurs when the plan itself is wrong. Here the plan (propofol IV induction) was correct; the execution failed.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Slip — an error of execution with a correct plan</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. A slip is an error of execution where the intended action is correct but is performed incorrectly. The plan (propofol induction) was sound; the technical action (injecting into a running line) failed.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Violation — a deliberate deviation from a safe practice</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A violation is intentional non-compliance with a known rule. This was an unintentional technical error, not a deliberate deviation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Near miss — an event that caused no harm and requires no further analysis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A near miss is a valid safety concept, but it describes the outcome (harm avoided), not the type of error. The error type here is a slip.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Recall the error taxonomy: slips = right plan, wrong execution; mistakes = wrong plan. This scenario had a correct plan executed incorrectly, so it is a slip."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Slips are errors of execution — the right plan, wrong action. Recognising the error type guides the appropriate prevention strategy."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

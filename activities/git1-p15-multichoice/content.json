@@ -1,0 +1,76 @@
+{
+  "question": "<p>A medical student receives three doses of hepatitis B vaccine. Post-vaccination serology shows: anti-HBs 85 mIU/mL, HBsAg negative, anti-HBc negative. What is the correct interpretation?</p>",
+  "answers": [
+    {
+      "text": "<div>Successful vaccination with protective immunity — anti-HBs ≥10 mIU/mL without anti-HBc confirms vaccine-induced immunity</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Vaccination generates ONLY anti-HBs (from recombinant HBsAg). Absence of anti-HBc confirms no natural infection occurred (anti-HBc requires exposure to core antigen, absent in the vaccine). Anti-HBs ≥10 mIU/mL is the defined protective threshold.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Acute hepatitis B in the window period</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Window period is defined by anti-HBc IgM as the sole detectable marker (HBsAg cleared, anti-HBs not yet appeared). This student has anti-HBs present and no anti-HBc — completely inconsistent with window period.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Chronic hepatitis B carrier state with low-level replication</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A chronic carrier must be HBsAg positive. This student is HBsAg negative with protective anti-HBs — the exact opposite serological pattern.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Natural infection followed by recovery and immunity</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Natural infection produces BOTH anti-HBs AND anti-HBc (because the immune system encounters surface and core antigens during infection). The absence of anti-HBc here confirms vaccine-induced immunity without prior natural exposure.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key distinction: vaccine → anti-HBs only (no core antigen in vaccine); natural infection → anti-HBs + anti-HBc (both antigens encountered). Anti-HBc is the differentiator."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Vaccine-induced immunity: anti-HBs positive (≥10 mIU/mL), all other markers negative. Natural immunity: anti-HBs AND anti-HBc both positive."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

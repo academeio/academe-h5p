@@ -1,0 +1,76 @@
+{
+  "question": "<p>A healthcare worker sustains a needlestick injury from an HIV-positive patient. What is the MAXIMUM time window within which post-exposure prophylaxis (PEP) must be started to be effective?</p>",
+  "answers": [
+    {
+      "text": "<div>72 hours after exposure</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. PEP must be initiated within 72 hours of exposure — the sooner the better (ideally within 2 hours). The standard regimen is TDF + 3TC (or FTC) + dolutegravir for 28 days. PEP started after 72 hours is considered ineffective. Needlestick HIV transmission risk is approximately 0.3% per exposure.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>24 hours after exposure</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. While earlier initiation is better (ideally within 2 hours), the maximum effective window for PEP is 72 hours, not 24 hours. Starting within 24 hours is optimal but not the outer limit. The standard regimen is TDF + 3TC + dolutegravir for 28 days.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>1 week after exposure</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. PEP initiated after 72 hours is considered too late to be effective. By 1 week, the virus has likely established a stable proviral reservoir through integration into host cell chromosomes — antiretrovirals cannot reverse this.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>There is no time limit — PEP can be started at any point after exposure</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. PEP has a strict 72-hour window. The antiretroviral drugs work by blocking viral replication before a stable proviral reservoir is established. After 72 hours, integration into host DNA is likely complete and PEP cannot reverse established infection.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "PEP must be started within 72 hours of HIV exposure. Standard regimen: TDF + 3TC (or FTC) + dolutegravir for 28 days. Ideally start within 2 hours. Needlestick transmission risk ≈ 0.3%. After 72 hours, PEP is not considered effective."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct! PEP must begin within 72 hours (sooner is better). Regimen: TDF + 3TC + dolutegravir × 28 days. Follow-up testing at 6 weeks, 3 months, and 6 months post-exposure."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>At a mass casualty incident from an industrial gas leak, a casualty is found unconscious with agonal respirations at a rate of 6/min and no radial pulse. Using the START triage system, what colour tag should this casualty receive?</p>",
+  "answers": [
+    {
+      "text": "<div>Red (Immediate)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Red tags are for casualties who are critical but salvageable with immediate intervention — such as airway obstruction correctable by repositioning or severe haemorrhage controllable with pressure. This casualty's agonal breathing and absent pulse suggest they are beyond immediate life-saving intervention.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Yellow (Delayed)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Yellow is for serious but stable casualties who can wait for treatment. This casualty is critically compromised with agonal respirations and no pulse — not a delayed case.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Black (Expectant/Deceased)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. In START triage, a casualty with absent or agonal respirations (&lt;6/min after airway repositioning) AND absent radial pulse is tagged BLACK (Expectant/Deceased). With mass casualty resource constraints, these patients are not prioritised for immediate intervention.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Green (Minor)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Green tags are for the 'walking wounded' — ambulatory casualties with minor injuries who can self-care or wait for delayed treatment. This is clearly not appropriate for a pulseless casualty.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "In START triage, breathe → perfusion → mental status guides tagging. Agonal or absent respirations with absent radial pulse = Black (Expectant). Review the START algorithm in the ICS and Triage content section."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. In START triage: Green = minor (walking wounded), Yellow = delayed (serious but stable), Red = immediate (critical but salvageable), Black = expectant or deceased (agonal/absent vitals). The principle is maximum lives saved with limited resources."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

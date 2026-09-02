@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient with well-controlled hypertension on amlodipine, no other comorbidities, presents for an elective inguinal hernia repair. What is the most appropriate fitness decision?</p>",
+  "answers": [
+    {
+      "text": "<div>Postpone until hypertension is treated — any antihypertensive use is a contraindication to elective surgery</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Well-controlled hypertension on medication is not a contraindication. The drug history must be reviewed for perioperative interactions, but control is what matters.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Proceed — well-controlled hypertension with a single antihypertensive poses low added anaesthetic risk for elective low-risk surgery</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. The patient is likely ASA II. Well-controlled hypertension, no organ damage, and low-risk surgery together support proceeding with appropriate monitoring.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Request cardiology clearance — all patients on antihypertensives require specialist sign-off before anaesthesia</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Routine cardiology referral is not indicated for well-controlled hypertension without additional cardiac risk factors.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Classify as ASA IV and escalate to ICU-level perioperative care</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>ASA IV denotes severe systemic disease that is a constant threat to life. Well-controlled hypertension alone is ASA II.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Consider the actual risk: controlled hypertension alone does not escalate to ASA IV or mandate cardiology clearance. Fitness decisions match the real risk level."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well reasoned. Well-controlled single-drug hypertension without end-organ damage is ASA II, and elective hernia repair is low risk — proceed with standard monitoring."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

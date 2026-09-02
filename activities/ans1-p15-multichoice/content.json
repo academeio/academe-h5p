@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient with an infected finger abscess (tissue pH ~6.0) receives lignocaine infiltration but achieves minimal pain relief. What is the pharmacokinetic explanation?</p>",
+  "answers": [
+    {
+      "text": "<div>At pH 6.0, the ionised (BH⁺) form predominates — less unionised drug penetrates the axonal membrane, reducing block efficacy</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Local anaesthetics exist in pH-dependent equilibrium between ionised (BH⁺, hydrophilic) and unionised (B, lipophilic) forms. The unionised form penetrates the nerve membrane. At pH 6.0, the Henderson-Hasselbalch equation shifts equilibrium heavily toward BH⁺, dramatically reducing the effective intracellular drug concentration.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Bacterial toxins in infected tissue directly inactivate lignocaine molecules</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Bacterial toxins do not directly inactivate LA molecules. The failure is physicochemical — the acidic pH of infected tissue traps LA in its ionised, membrane-impermeable form, preventing adequate nerve penetration.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Infected tissue has increased Na⁺ channel density requiring more drug to achieve blockade</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Na⁺ channel density does not significantly increase in infected tissue. The problem is inadequate drug delivery to existing channels because the acidic environment traps LA in its ionised form.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Inflammation upregulates local esterase activity, rapidly metabolising lignocaine</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Lignocaine is an amide LA metabolised by hepatic CYP enzymes, not local esterases. Even ester LAs are hydrolysed by plasma cholinesterases, not tissue-level enzymes upregulated by inflammation.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key principle: LA efficacy depends on the unionised form penetrating the nerve membrane. At low tissue pH (infection), more LA exists as ionised BH⁺ → less membrane penetration → reduced block."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The pH–ionisation relationship is the key to understanding LA failure in acidic tissue — consider nerve block proximal to the infection when infiltration fails."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "<p>A sputum ZN smear report reads '1+ AFB' in a daily wage labourer with 3-week cough and weight loss. Under current NI-KSHAY guidelines, what is the most appropriate next step?</p>",
+  "answers": [
+    {
+      "text": "<div>Request GeneXpert MTB/RIF test</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Under current NI-KSHAY (RNTCP 2.0) guidelines, all AFB smear-positive cases must undergo GeneXpert MTB/RIF testing. This simultaneously confirms Mycobacterium tuberculosis and detects rifampicin resistance — determining whether the patient needs the drug-sensitive or drug-resistant treatment regimen.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Start Category I DOTS directly</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Starting anti-TB treatment without GeneXpert is no longer recommended under current guidelines. Without rifampicin resistance testing, MDR-TB may be missed, leading to treatment failure and continued community transmission.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Perform Mantoux test and wait 48–72 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>The Mantoux (tuberculin skin) test measures delayed-type hypersensitivity to tuberculin protein. In a patient already smear-positive for AFB, the diagnosis of TB is established — the priority is molecular confirmation and drug-susceptibility testing, not a skin test.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Start empirical broad-spectrum antibiotics and repeat sputum at 1 month</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Delaying TB-specific investigation with empirical antibiotics risks disease progression, transmission to household contacts, and unnecessary antibiotic exposure. AFB positivity mandates immediate molecular confirmation.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Current NI-KSHAY guidelines mandate GeneXpert MTB/RIF for every AFB-positive sputum sample. This test confirms M. tuberculosis molecularly and detects rifampicin resistance before initiating treatment."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "GeneXpert MTB/RIF is mandatory for all smear-positive cases under NI-KSHAY. It provides same-day molecular confirmation of M. tuberculosis and simultaneous rifampicin resistance detection — guiding the correct treatment regimen from day one."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

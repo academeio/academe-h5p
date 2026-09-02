@@ -1,0 +1,76 @@
+{
+  "question": "<p>A screening test for tuberculosis has sensitivity 80% and specificity 95%. When applied to a high-prevalence urban slum population (prevalence 5%) versus a low-prevalence rural population (prevalence 0.5%), what happens to the Positive Predictive Value (PPV)?</p>",
+  "answers": [
+    {
+      "text": "<div>PPV increases as prevalence decreases because fewer false positives occur</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>In fact, as prevalence falls, the number of true positives drops sharply while false positives persist, so PPV falls — not rises.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>PPV remains unchanged because sensitivity and specificity are fixed properties of the test</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Sensitivity and specificity are test properties, but PPV also depends on prevalence. The same test in a low-prevalence population yields a much lower PPV.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>PPV is higher in the high-prevalence population because there are more true positives relative to false positives</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. PPV = TP / (TP + FP). As prevalence rises, TP increases while FP (driven by specificity) stays proportional to true negatives. Hence PPV improves with higher prevalence — a key Wilson-Jungner point.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>PPV depends only on specificity, not on prevalence</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>PPV depends on both specificity AND prevalence. High specificity reduces false positives, but low prevalence still dilutes PPV by swamping true positives with false ones.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key principle: PPV rises with disease prevalence. In a low-prevalence population, even an excellent test generates many false positives relative to true positives, making PPV poor."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. This is why population-wide screening is only recommended when prevalence is high enough that PPV is acceptable — a core Wilson-Jungner criterion."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

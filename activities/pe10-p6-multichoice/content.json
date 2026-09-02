@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 6-week-old infant born to an HIV-positive mother presents to the immunization clinic. HIV status of the infant is not yet known (DNA PCR result pending). The infant appears clinically well. Which of the following is the correct immunization approach at this visit?</p>",
+  "answers": [
+    {
+      "text": "<div>Withhold all vaccines until HIV status is confirmed</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Withholding all vaccines is incorrect and harmful. Non-live vaccines (Pentavalent, fIPV) are safe regardless of HIV status. Deferring the entire schedule increases the child's VPD risk.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Give BCG, Pentavalent, OPV, Rotavirus, and fIPV — all NIS 6-week vaccines</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>BCG should be withheld until HIV status is confirmed. BCG is a live mycobacterial vaccine that can cause disseminated BCG disease (BCGosis) in HIV-infected infants with severe immunosuppression.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Give Pentavalent, OPV, Rotavirus, and fIPV; withhold BCG until HIV status is known</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. In HIV-exposed infants with unknown status, BCG is deferred until HIV infection is excluded. All non-live vaccines (Pentavalent, fIPV) and OPV are given as scheduled. Once HIV-negative status is confirmed, BCG is given.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Give only fIPV and Pentavalent; withhold all live vaccines including OPV and Rotavirus</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>OPV and Rotavirus can be given to HIV-exposed infants of unknown status. Only BCG requires deferral. Withholding OPV and Rotavirus unnecessarily increases polio and rotavirus disease risk.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The BCG-in-HIV rule: defer BCG in HIV-exposed infants until HIV status is known (DNA PCR confirmed negative). Non-live vaccines and OPV proceed as scheduled regardless of HIV exposure status."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "HIV-exposed infant with unknown status: give all NIS 6-week vaccines EXCEPT BCG, which is deferred until HIV-negative status is confirmed."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

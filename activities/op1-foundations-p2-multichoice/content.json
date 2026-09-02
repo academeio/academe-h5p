@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 22-year-old student has difficulty reading the blackboard but sees near objects clearly. Retinoscopy confirms myopia. Which type of corrective lens is prescribed and why?</p>",
+  "answers": [
+    {
+      "text": "<div>Convex (plus) lens, to increase convergence of light rays onto the retina</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A convex lens would move the focus further back, worsening myopia. Plus lenses are used for hypermetropia and presbyopia.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Concave (minus) lens, to diverge light rays so that the focal point falls on the retina rather than in front of it</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. In myopia the eye has excess refracting power — light focuses in front of the retina. A concave lens diverges incoming light, effectively moving the focal point back onto the retina.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Cylindrical lens, to correct the unequal meridional refracting power</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Cylindrical lenses correct astigmatism. Simple myopia is corrected with spherical concave lenses.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Prism, to redirect the visual axis toward the fixation target</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Prisms correct deviation of the visual axis (e.g., in strabismus), not refractive errors.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Myopia means the eye's focal point falls in front of the retina. A concave (minus/diverging) lens corrects this by reducing the effective refracting power."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Myopia = excessive power → concave (minus) lens to reduce convergence. Hypermetropia = insufficient power → convex (plus) lens to increase convergence."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

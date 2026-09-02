@@ -1,0 +1,76 @@
+{
+  "question": "<p>Cyclosporine, tacrolimus, and sirolimus are classified as immunosuppressants. Which of the following correctly describes their primary mechanism?</p>",
+  "answers": [
+    {
+      "text": "<div>Cyclosporine and tacrolimus inhibit calcineurin; sirolimus inhibits mTOR</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Cyclosporine (CsA) and tacrolimus (FK506) bind their respective immunophilins (cyclophilin and FKBP12) and inhibit calcineurin, preventing IL-2 transcription. Sirolimus also binds FKBP12 but inhibits mTOR instead.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>All three inhibit calcineurin via different immunophilin complexes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Sirolimus forms the FKBP12 complex but targets mTOR, not calcineurin. Only cyclosporine and tacrolimus are calcineurin inhibitors.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Cyclosporine inhibits mTOR; tacrolimus and sirolimus inhibit calcineurin</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. It is cyclosporine and tacrolimus that inhibit calcineurin. Sirolimus is the mTOR inhibitor.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>All three prevent allograft rejection by directly depleting circulating T-lymphocytes</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. These agents do not deplete T-cells; they block T-cell activation signalling pathways (calcineurin or mTOR).</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the Classification block. The key distinction is that cyclosporine and tacrolimus both inhibit calcineurin (via different immunophilins), whereas sirolimus inhibits mTOR."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done! Understanding the mechanistic distinction between calcineurin inhibitors and mTOR inhibitors is essential for choosing between these agents and predicting their toxicity profiles."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

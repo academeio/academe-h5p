@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 9-year-old child has typical absence seizures (3 Hz spike-and-wave on EEG). Which drug is first-line, and which commonly prescribed anticonvulsant is contraindicated?</p>",
+  "answers": [
+    {
+      "text": "<div>First-line: ethosuximide; contraindicated: carbamazepine — Na⁺ channel blockers paradoxically worsen absence seizures</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Ethosuximide selectively blocks T-type Ca²⁺ channels in thalamic relay neurons, interrupting the thalamocortical oscillation that generates absence seizures. Carbamazepine (and phenytoin) are Na⁺ channel blockers that worsen absence seizures by disrupting cortical-thalamic circuits — they are explicitly contraindicated.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>First-line: phenytoin; contraindicated: valproate — valproate causes hepatotoxicity in children</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Phenytoin is a Na⁺ channel blocker that worsens absence seizures — it is contraindicated, not first-line. Valproate is actually a valid alternative for absence seizures (especially when mixed with generalised tonic-clonic), though ethosuximide is preferred for pure absence.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>First-line: carbamazepine; contraindicated: ethosuximide — ethosuximide has no effect on generalised discharges</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This is dangerously incorrect. Carbamazepine worsens absence seizures (it is a Na⁺ channel blocker, ineffective against T-type Ca²⁺ current). Ethosuximide is specifically designed for absence seizures — it targets the T-type Ca²⁺ channel responsible for the 3 Hz thalamocortical oscillation.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>First-line: levetiracetam; contraindicated: lamotrigine — lamotrigine causes fatal rash in children</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Levetiracetam is broad-spectrum but is not the established first-line for childhood absence epilepsy (ethosuximide and valproate have stronger evidence). Lamotrigine is actually a second-line option for absence seizures, not contraindicated — though it requires slow dose titration to avoid SJS.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The most dangerous prescribing error in epilepsy is giving a Na⁺ channel blocker (phenytoin, carbamazepine) for absence seizures — these drugs worsen absence frequency. Always confirm seizure type before selecting an antiseizure drug."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "The drug-seizure type matrix is a critical clinical tool: ethosuximide (T-type Ca²⁺ blocker) is first-line for pure absence; valproate for mixed absence + tonic-clonic. Na⁺ channel blockers (phenytoin, carbamazepine) are explicitly contraindicated in absence seizures."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

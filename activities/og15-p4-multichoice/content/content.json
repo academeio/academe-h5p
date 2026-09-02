@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 51-year-old woman with vasomotor symptoms and a history of deep vein thrombosis seeks advice on HRT. She has no contraindication to oestrogen itself. Which formulation is SAFEST for her?</p>",
+  "answers": [
+    {
+      "text": "<div>Oral combined oestrogen-progestogen (COC-type regimen)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Oral oestrogen undergoes first-pass hepatic metabolism, increasing clotting factor synthesis and substantially elevating VTE risk — contraindicated in a patient with prior DVT.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Transdermal oestrogen patch with a progestogen (if uterus intact)</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Transdermal oestrogen bypasses first-pass hepatic metabolism, does not increase hepatic clotting factor synthesis, and carries minimal VTE risk. This is the preferred route when VTE risk is a concern.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Tibolone (synthetic steroid)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Tibolone has oestrogenic, progestogenic, and weak androgenic activity. While it has a lower VTE risk than oral HRT, it is not the first-choice option for a woman with prior DVT; transdermal oestrogen is preferred.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Systemic oral oestrogen alone (no progestogen, uterus intact)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Unopposed systemic oestrogen in a woman with an intact uterus significantly increases endometrial carcinoma risk and is contraindicated.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The key principle: oral oestrogen → hepatic first pass → increased clotting factors → elevated VTE risk. Transdermal oestrogen avoids this pathway entirely and is preferred in women with thrombotic risk factors."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Transdermal oestrogen is the safest route for women with prior VTE because it avoids hepatic first-pass effects and does not elevate VTE risk."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

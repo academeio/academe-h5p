@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient with treatment-resistant schizophrenia has been started on clozapine. Three weeks later he presents with fever (39.2°C), sore throat, and lethargy. His total WBC count is 1,800/mm³. What is the most appropriate immediate action?</p>",
+  "answers": [
+    {
+      "text": "<div>Continue clozapine and add a broad-spectrum antibiotic to cover the infection.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Continuing clozapine in the setting of agranulocytosis (ANC &lt;500 or WBC &lt;2,000) is dangerous and contraindicated. Clozapine must be stopped immediately — adding an antibiotic alone does not address the underlying drug-induced marrow suppression.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Stop clozapine immediately, admit the patient, and arrange urgent haematology review with repeat CBC.</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. A WBC &lt;2,000/mm³ with fever and sore throat is highly suspicious for clozapine-induced agranulocytosis. Immediate cessation of clozapine, urgent hospitalisation, haematology consultation, and isolation precautions are mandatory. This is a potentially fatal adverse effect requiring prompt action.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Reduce the clozapine dose by 50% and recheck the WBC in one week.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. Dose reduction is not sufficient when agranulocytosis is suspected. Clozapine must be stopped entirely; dose reduction does not halt or reverse marrow suppression. Delay in stopping the drug increases mortality risk.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Switch from clozapine to haloperidol and monitor the WBC weekly for four weeks.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Partially correct in that clozapine should be discontinued, but the immediate priority is emergency management of agranulocytosis — hospitalization, haematology review, supportive care — not just switching the antipsychotic. The haematological emergency takes precedence.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Clozapine carries a 0.5–1% risk of agranulocytosis. The mandatory haematological monitoring schedule exists precisely to catch this early. WBC <2,000/mm³ mandates immediate cessation — no dose adjustment, no antibiotics alone. This is a life-threatening adverse effect."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent. Clozapine-induced agranulocytosis is a medical emergency. The absolute rule is to stop clozapine immediately when WBC falls below 2,000/mm³ or ANC below 500/mm³, followed by emergency haematological management."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

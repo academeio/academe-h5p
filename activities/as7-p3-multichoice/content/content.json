@@ -1,0 +1,76 @@
+{
+  "question": "<p>In Volume-Controlled Ventilation (VCV), which parameter remains FIXED and which is allowed to vary?</p>",
+  "answers": [
+    {
+      "text": "<div>Fixed: peak inspiratory pressure; Variable: tidal volume</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This describes Pressure-Controlled Ventilation (PCV), not VCV. In PCV the set pressure is fixed and the resulting tidal volume varies with lung compliance.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Fixed: tidal volume; Variable: peak inspiratory pressure</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. In VCV a pre-set tidal volume is delivered on every breath; the resulting airway pressure varies according to the patient's lung compliance and resistance — a rising pressure signals worsening compliance.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Fixed: respiratory rate; Variable: tidal volume and pressure</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Respiratory rate is set in both VCV and PCV, but it is not the defining differentiating parameter between modes.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Fixed: FiO2; Variable: PEEP</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>FiO2 and PEEP are set parameters in all modes but do not define the VCV/PCV distinction.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "In VCV: set tidal volume delivered → pressure varies. In PCV: set pressure applied → tidal volume varies. The defining feature is what is fixed — volume (VCV) or pressure (PCV)."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Understanding VCV vs PCV is essential for recognising ventilator alarms — a high-pressure alarm in VCV signals reduced compliance or obstruction."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

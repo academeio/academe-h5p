@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 65-year-old woman presents with acute breathlessness. NT-proBNP returns at 1,800 pg/mL. Which interpretation is most accurate?</p>",
+  "answers": [
+    {
+      "text": "<div>NT-proBNP is normal; heart failure is excluded</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The rule-out threshold for NT-proBNP in acute dyspnoea is &lt;125 pg/mL (for non-acute setting) or &lt;300 pg/mL (for acute setting). A value of 1,800 pg/mL is significantly elevated and does not exclude heart failure.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>NT-proBNP ≥900 pg/mL in a patient aged ≥75 years is the rule-in threshold; heart failure is confirmed</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Partially correct about the age-adjusted threshold (≥900 pg/mL for ≥75 years), but a single elevated NT-proBNP alone does not confirm heart failure — it must be interpreted with clinical findings and further investigation such as echocardiography.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>NT-proBNP 1,800 pg/mL is above the rule-in threshold (≥450 pg/mL for age &lt;50, ≥900 for age 50–74, ≥1800 for age ≥75); heart failure is highly likely and warrants echocardiography</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Age-adjusted NT-proBNP rule-in thresholds are ≥450 pg/mL (&lt;50 yr), ≥900 pg/mL (50–74 yr), ≥1800 pg/mL (≥75 yr). At 1,800 pg/mL this patient (age 65, so threshold 900) is clearly above the rule-in threshold; heart failure is highly likely and echocardiography is indicated to classify and quantify.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>NT-proBNP elevation confirms HFrEF; no echocardiogram is needed</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. NT-proBNP cannot distinguish HFrEF from HFmrEF or HFpEF; it only reflects myocardial wall stress. Echocardiography is essential to classify the phenotype and guide management.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review NT-proBNP interpretation: age-adjusted rule-in ≥450 (<50 yr), ≥900 (50–74 yr), ≥1800 (≥75 yr). An elevated NT-proBNP makes heart failure highly likely but echocardiography is required to classify."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. Remember the age-adjusted NT-proBNP thresholds (<450 / 900 / 1800 pg/mL for <50 / 50–74 / ≥75 yr) and that elevated values prompt — not replace — echocardiography."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

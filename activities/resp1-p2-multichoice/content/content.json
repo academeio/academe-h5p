@@ -1,0 +1,76 @@
+{
+  "question": "<p>A patient with aspirin-exacerbated asthma and co-existing allergic rhinitis needs add-on therapy. Which leukotriene modifier is most appropriate for this patient?</p>",
+  "answers": [
+    {
+      "text": "<div>Zileuton — it inhibits 5-LOX, preventing all leukotriene synthesis upstream</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Zileuton does inhibit 5-LOX at the synthesis level, but it carries hepatotoxicity risk requiring regular liver function monitoring and is less commonly used in practice. Crucially, it is not approved for allergic rhinitis — making it suboptimal for this patient's dual condition.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Montelukast — it blocks CysLT1 receptors and is also approved for allergic rhinitis</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. In aspirin-exacerbated asthma, COX inhibition shunts arachidonic acid toward the 5-LOX pathway, producing excess cysteinyl leukotrienes. Montelukast blocks their downstream bronchospastic effects at CysLT1 receptors. Its additional approval for allergic rhinitis makes it uniquely suited to address both conditions simultaneously.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Both agents are equally effective because they block the same final pathway</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>They act at different points: zileuton inhibits leukotriene synthesis (5-LOX enzyme), while montelukast blocks the CysLT1 receptor downstream. Their efficacy, safety profiles, and approved indications differ — montelukast is preferred here because it covers rhinitis and has a better safety profile.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Neither — leukotriene modifiers are ineffective in aspirin-exacerbated asthma</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Leukotriene modifiers are particularly effective in aspirin-exacerbated asthma precisely because excess cysteinyl leukotrienes drive the pathogenesis. When COX is inhibited by aspirin, arachidonic acid is diverted to the 5-LOX pathway — making leukotriene blockade a targeted intervention.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the leukotriene modifier section. Montelukast blocks CysLT1 receptors (downstream); zileuton inhibits 5-LOX (upstream). Montelukast is preferred in aspirin-exacerbated asthma with rhinitis because of its dual indication and better safety profile."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Excellent reasoning. The key distinction for exams: montelukast/zafirlukast = CysLT1 receptor antagonists; zileuton = 5-LOX synthesis inhibitor. Montelukast's dual indication for asthma and rhinitis makes it the single best agent for patients with both conditions."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

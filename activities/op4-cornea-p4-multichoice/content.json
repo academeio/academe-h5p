@@ -1,0 +1,76 @@
+{
+  "question": "<p>A farmer presents with a corneal ulcer after a twig injury to the right eye. Slit-lamp shows a dry, rough-surfaced ulcer with feathery edges and satellite lesions. KOH mount reveals branching septate hyphae. Which is the FIRST-LINE topical treatment?</p>",
+  "answers": [
+    {
+      "text": "<div>Topical acyclovir 3% ointment</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Acyclovir is antiviral — specific for HSV keratitis (dendritic/geographic ulcer). This patient has fungal keratitis (trauma + hyphae on KOH). Acyclovir has no antifungal activity.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Topical natamycin 5% suspension</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Natamycin 5% is first-line for filamentous fungal keratitis (Fusarium, Aspergillus) — the most common fungi after vegetative trauma in India. It is a polyene antifungal with broad spectrum against filamentous fungi.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Topical ciprofloxacin 0.3% drops</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Ciprofloxacin is a fluoroquinolone (antibacterial) with no antifungal activity. Bacterial keratitis typically shows a grey-white ulcer with suppuration, not feathery edges or hyphae on KOH.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Topical voriconazole 1% drops</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Voriconazole is a useful second-line antifungal (triazole class), especially for Candida and resistant filamentous fungi. However, natamycin 5% remains the recommended first-line agent for filamentous fungal keratitis per Indian guidelines.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Filamentous fungal keratitis (Fusarium/Aspergillus after vegetative trauma) = natamycin 5% first-line. Distinguish from: HSV → acyclovir; bacterial → fluoroquinolone; Candida → voriconazole."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct! Vegetative trauma + feathery edges + hyphae → fungal keratitis → natamycin 5% first-line. Remember the mnemonic: 'Natamycin for farmers (filamentous); voriconazole for failures (resistant cases)'."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

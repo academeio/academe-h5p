@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 14-month-old child presents to a rural PHC with fast breathing (RR 46/min), chest in-drawing, and is unable to drink. The health worker correctly classifies cough/breathing. According to the IMNCI colour-coded triage system, which colour category applies, and what is the IMMEDIATE required action?</p>",
+  "answers": [
+    {
+      "text": "<div>Yellow — prescribe oral amoxicillin and advise the mother to return in 2 days.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Yellow (Some Pneumonia) requires home treatment with oral antibiotics, but chest in-drawing alone would classify as Yellow. Here, 'unable to drink' is a general danger sign — elevating the classification.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Pink — refer urgently to hospital after giving pre-referral treatment (first dose of appropriate antibiotic + oxygen if available).</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. 'Unable to drink or breastfeed' is a general danger sign, which automatically triggers a Pink (Urgent Referral) classification regardless of other findings. Pre-referral treatment and urgent referral are mandatory.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Green — reassure the mother and provide ORS; recheck in 5 days.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Green indicates a well child with no pneumonia or no dehydration. This child has a general danger sign and elevated respiratory rate — Green is inappropriate.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Yellow — give the first dose of cotrimoxazole and refer to a secondary facility within 24 hours.</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Cotrimoxazole is not first-line for childhood pneumonia in the current IMNCI algorithm. More importantly, the presence of a general danger sign mandates immediate urgent referral — not a delayed referral.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the IMNCI colour-coded triage system. Pink (urgent referral) is triggered by any general danger sign. Here, 'unable to drink' is a general danger sign — it overrides any lower classification from the breathing domain alone."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Well done. The IMNCI override rule: any general danger sign (unable to drink/breastfeed, vomiting everything, convulsions, abnormally sleepy/unconscious) classifies the child as Pink regardless of other domain findings. Pre-referral treatment and urgent referral follow immediately."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

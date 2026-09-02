@@ -1,0 +1,76 @@
+{
+  "question": "<p>Which mechanism BEST explains how the HPV oncoprotein E6 contributes to cervical carcinogenesis?</p>",
+  "answers": [
+    {
+      "text": "<div>E6 binds and degrades p53 via the ubiquitin-proteasome pathway, preventing apoptosis of HPV-infected cells</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>E6 recruits E6-AP (E6-associated protein), a cellular E3 ubiquitin ligase, to target p53 for proteasomal degradation. Loss of p53 — the 'guardian of the genome' — eliminates the apoptotic response to DNA damage, allowing genomically unstable HPV-infected cells to survive and proliferate.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>E6 binds and inactivates Rb, releasing E2F transcription factors for uncontrolled cell cycle entry</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Rb inactivation and E2F release is the function of E7, not E6. Remember: E6 targets p53 (apoptosis checkpoint) and E7 targets Rb (cell cycle checkpoint) — two distinct tumour suppressor pathways disabled by two different oncoproteins.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>E6 integrates viral DNA into the c-MYC proto-oncogene locus, causing its overexpression</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>c-MYC translocation — specifically t(8;14) — is associated with Burkitt's lymphoma driven by EBV, not HPV. HPV E6 does not cause insertional activation of proto-oncogenes; its mechanism is p53 degradation via the ubiquitin pathway.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>E6 binds the CD21 receptor on B lymphocytes, triggering polyclonal B-cell activation</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>CD21 (complement receptor type 2) is the receptor for Epstein-Barr virus on B cells. EBV uses CD21 for B-cell entry and can drive B-cell lymphomas. HPV does not interact with CD21; it infects squamous epithelial cells.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Review the HPV oncoproteins carefully: E6 targets p53 for ubiquitin-mediated degradation, E7 targets Rb for inactivation. These two mechanisms are frequently confused — keep them distinct: E6 → p53, E7 → Rb."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct! The E6-E7 pair works in tandem: E6 destroys p53 (preventing apoptosis) while E7 destroys Rb (releasing E2F for uncontrolled cell division). High-risk HPV 16 and 18 expressing both oncoproteins simultaneously disable the two critical tumour suppressor pathways."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

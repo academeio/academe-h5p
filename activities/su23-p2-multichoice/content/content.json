@@ -1,0 +1,67 @@
+{
+  "question": "<p>A 22-year-old is brought to trauma bay after a road traffic accident. He has left-sided rib pain and the FAST scan shows free fluid in the perisplenic region. His BP is 90/60 mmHg and HR 118 bpm despite 2 litres of IV crystalloid. The most appropriate next step is:</p>",
+  "answers": [
+    {
+      "text": "<div>CT abdomen with contrast to grade the splenic laceration and plan non-operative management</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>CT is appropriate only in haemodynamically STABLE patients. This patient remains hypotensive despite resuscitation — taking him to CT (the 'doughnut of death') risks deterioration and death. Unstable + splenic injury = theatre.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Emergency laparotomy for haemorrhage control — the patient is haemodynamically unstable despite resuscitation</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Haemodynamic instability persisting after adequate resuscitation is the key trigger for immediate surgery in splenic trauma. Non-operative management and CT are reserved for STABLE patients. Unstable = operating theatre.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Splenic artery embolisation as the definitive treatment for haemostasis</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Splenic artery embolisation can be used as an adjunct to non-operative management in haemodynamically STABLE patients with high-grade splenic injury. An unstable patient needs immediate laparotomy, not an endovascular suite.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Haemodynamic stability is the fork in the road. Stable → CT → non-operative management or embolisation. Unstable → operating theatre immediately. Never take an unstable trauma patient to CT."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. The single most important decision in splenic trauma: haemodynamic status determines management. Unstable despite resuscitation = immediate laparotomy."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

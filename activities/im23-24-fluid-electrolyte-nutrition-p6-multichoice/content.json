@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 68-year-old woman has chronic hyponatraemia: serum Na⁺ 116 mmol/L for &gt;48 hours, with only mild drowsiness and no seizures. What is the maximum safe rate of sodium correction over the first 24 hours?</p>",
+  "answers": [
+    {
+      "text": "<div>20 mmol/L in 24 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correcting by 20 mmol/L risks osmotic demyelination syndrome (ODS), also called central pontine myelinolysis. The safe limit is ≤10–12 mmol/L/24 h in most patients.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>10–12 mmol/L in 24 hours</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. For chronic hyponatraemia (&gt;48 hours), the safe correction limit is ≤10–12 mmol/L in the first 24 hours, and ≤18 mmol/L in 48 hours. Exceeding this risks osmotic demyelination syndrome. In very high-risk patients (alcoholism, malnutrition, hypokalaemia), the limit is ≤8 mmol/L/24 h.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>20–25 mmol/L in 24 hours</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This rate is far too rapid for chronic hyponatraemia and would cause osmotic demyelination syndrome. Rapid correction is only considered in acute severe symptomatic hyponatraemia (seizures, coma) with hypertonic saline — even then limited to 5 mmol/L bolus.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>No correction needed until sodium is below 110 mmol/L</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Symptoms drive urgency, not just the absolute level. This patient is drowsy at 116 mmol/L, which requires gradual correction. Waiting for 110 mmol/L risks missing the symptomatic threshold for intervention.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "The safe correction rate for chronic hyponatraemia is ≤10–12 mmol/L in 24 hours to prevent osmotic demyelination syndrome. Only acute symptomatic hyponatraemia (seizures, coma) justifies rapid initial correction (1–2 mmol/L/h for up to 3–4 hours), still within the 24-hour limit."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. ≤10–12 mmol/L/24 h is the safe ceiling for chronic hyponatraemia. Faster correction risks osmotic demyelination — an irreversible brainstem injury causing dysarthria, dysphagia, and locked-in syndrome."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

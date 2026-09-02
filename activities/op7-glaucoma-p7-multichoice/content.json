@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 70-year-old woman presents with acute IOP elevation of 48 mmHg in her right eye. The lens is hypermature and the anterior chamber is extremely shallow. A 75-year-old man with a white hypermature cataract presents separately with IOP 38 mmHg and a deep anterior chamber; slit-lamp shows fluffy white material in the anterior chamber. Which pair of diagnoses is correct?</p>",
+  "answers": [
+    {
+      "text": "<div>First patient: phacolytic glaucoma; Second patient: phacomorphic glaucoma</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>These are reversed. Phacomorphic glaucoma occurs when a large (intumescent) lens pushes the iris forward, shallowing the anterior chamber — closed-angle mechanism. Phacolytic glaucoma occurs when a hypermature lens LEAKS high-molecular-weight proteins through its intact capsule into the anterior chamber, clogging the trabecular meshwork — open-angle mechanism with a deep chamber.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>First patient: phacomorphic glaucoma; Second patient: phacolytic glaucoma</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Phacomorphic (morpho = shape/size): the intumescent lens physically closes the angle — shallow AC, closed angle, elevated IOP. Phacolytic (lysis = dissolution): lens proteins leak through the capsule, macrophages engulf them and clog the trabecular meshwork — deep AC, open angle, white fluffy material in AC. Treatment differs: phacomorphic needs urgent cataract surgery to open the angle; phacolytic also needs cataract removal but via an open angle.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Both patients have phacomorphic glaucoma with different stages</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>No. The two presentations are mechanistically opposite. The second patient's deep anterior chamber excludes phacomorphic (which requires the lens to physically shallow the AC). The fluffy white material in the AC is leaked lens protein — pathognomonic of phacolytic glaucoma.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>First patient: pseudoexfoliation glaucoma; Second patient: pigment dispersion glaucoma</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Neither diagnosis fits. Pseudoexfoliation shows dandruff-like material on the anterior lens capsule and pupil margin — not an acute hypermature lens with shallow chamber. Pigment dispersion shows Krukenberg's spindle, concave iris, and pigment on trabecular meshwork — typically in young myopic males.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Key: Phacomorphic = intumescent lens shallows the AC → closed-angle mechanism. Phacolytic = hypermature lens leaks protein → open-angle, deep AC with macrophage-laden fluffy material. They require cataract surgery but via different mechanisms."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Phacomorphic = shape/size closes the angle (shallow AC). Phacolytic = protein leaks, clogs trabecular meshwork (deep AC, open angle, fluffy AC material). Mechanistically opposite — never confuse them."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

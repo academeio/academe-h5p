@@ -1,0 +1,76 @@
+{
+  "question": "<p>The Maternal Mortality Ratio (MMR) is expressed per:</p>",
+  "answers": [
+    {
+      "text": "<div>100,000 live births</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. MMR = (maternal deaths / live births) × 100,000. India's MMR was 97/100,000 live births in 2018–20 (SRS data).</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>1,000 total births (live + still)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. The denominator for MMR is live births, not total births. Using live births (× 100,000) is the WHO standard definition.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>1,000 women of reproductive age (15–49 years)</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. That denominator is used for the Maternal Mortality Rate (not Ratio). The Ratio uses live births as denominator.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>10,000 population</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Incorrect. MMR uses live births as denominator (× 100,000), not total population. Crude Death Rate uses total population per 1,000.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "MMR = (Number of maternal deaths / Number of live births) × 100,000. The denominator is always live births, and the multiplier is 100,000 — these two facts define the ratio."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. Remember: MMR uses live births × 100,000 — not total population, not total births."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

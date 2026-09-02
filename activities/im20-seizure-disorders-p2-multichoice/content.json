@@ -1,0 +1,76 @@
+{
+  "question": "<p>A 32-year-old man arrives in the emergency department actively seizing. The seizure has lasted 7 minutes (confirmed by paramedics). IV access is established. According to the stepwise management of convulsive status epilepticus, which drug should be given FIRST and at what stage does this represent?</p>",
+  "answers": [
+    {
+      "text": "<div>IV phenytoin (or fosphenytoin) — second-line agent, given because the 30-minute threshold has been crossed</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Phenytoin is the second-line agent used when benzodiazepines fail (typically after ~10 minutes of ongoing SE), not at 7 minutes. The 30-minute threshold is an older definition of refractory SE.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV lorazepam — first-line benzodiazepine, given because the ≥5-minute operational definition of SE is met</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. SE is operationally defined as a seizure lasting ≥5 minutes. IV lorazepam (0.1 mg/kg, max 4 mg) is the first-line agent when IV access is available. At 7 minutes this patient meets the threshold.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>IV valproate — first-line agent, preferred because it is non-sedating</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>IV valproate is a second-line or third-line agent used when benzodiazepines fail or are contraindicated. Benzodiazepines remain first-line for acute SE.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Buccal midazolam — first-line when IV access is already established</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Buccal (or intranasal) midazolam is the preferred route when IV access is NOT available (e.g., in the community). Once IV access is established, IV lorazepam is preferred.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Remember the stepwise approach: SE definition (≥5 min or ≥2 seizures without recovery) → IV lorazepam (or IM/buccal midazolam if no IV) → if failing at ~10 min, add IV phenytoin/valproate/levetiracetam."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct. SE threshold = ≥5 min → IV lorazepam first (or buccal midazolam if no IV access)."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}

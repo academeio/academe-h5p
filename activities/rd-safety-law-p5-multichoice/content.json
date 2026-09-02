@@ -1,0 +1,76 @@
+{
+  "question": "<p>An intern is observing a fluoroscopy-guided procedure. Which combination of actions best reflects ALARA principles?</p>",
+  "answers": [
+    {
+      "text": "<div>Stand close to observe clearly, remove lead apron for comfort, and watch the full procedure</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>This violates all three ALARA practical methods: proximity maximises exposure, removing the apron removes shielding, and prolonged presence increases time. This is the most harmful approach.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Stand at maximum feasible distance, wear a lead apron, and leave when not needed for learning</div>",
+      "correct": true,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>Correct. Distance (inverse-square law), shielding (lead apron reduces trunk dose &gt;90%), and minimising time in the field are the three practical ALARA methods applied together.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Wear a lead apron but stand close to see the image better</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>A lead apron provides shielding but proximity still increases scatter dose significantly. Distance is equally important as shielding.</div>",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "text": "<div>Ask the radiologist to stop the fluoroscopy beam whenever you are not actively watching</div>",
+      "correct": false,
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "<div>While minimising beam-on time is good practice, an observer requesting beam stops disrupts the procedure. The intern's role is to manage their own position and time in the room.</div>",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 50,
+      "feedback": "Not quite. The optimal approach combines all three ALARA practical methods: maximise distance (inverse-square law), wear a lead apron (shielding), and minimise time in the radiation field."
+    },
+    {
+      "from": 51,
+      "to": 100,
+      "feedback": "Correct! Maximum distance + lead apron + minimising time in the room combines all three ALARA practical tools simultaneously."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "type": "auto",
+    "singlePoint": false,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true
+  },
+  "media": {
+    "disableImageZooming": false
+  },
+  "UI": {
+    "checkAnswerButton": "Check",
+    "submitAnswerButton": "Submit",
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry"
+  }
+}
