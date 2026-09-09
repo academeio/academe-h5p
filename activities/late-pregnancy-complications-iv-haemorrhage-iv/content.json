@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/b73f1ee3-b465-480e-9563-f5321767bc49/playlist.m3u8",
+          "path": "https://vdo.cbme.in/5e5b365c-7ff4-4b3b-a47c-202dcc34ac1d/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OG10.1-2,OG11.1 | Late Pregnancy Complications — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for OG10.1-OG10.2."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for OG10.1-OG10.2."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 102.95,
-            "to": 112.95
+            "from": 55.1,
+            "to": 65.1
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In placenta praevia, the bleeding is fetal in origin, caused by rupture of fetal</p>",
+          "label": "<p>In a patient presenting with antepartum haemorrhage, a vaginal examination shoul</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,7 +76,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>In placenta praevia, the bleeding is fetal in origin, caused by rupture of fetal blood vessels that overlie the cervical os.</p>",
+              "question": "<p>In a patient presenting with antepartum haemorrhage, a vaginal examination should be performed before ultrasonography to assess the cervix and rule out local causes of bleeding.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -94,16 +94,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "The bleeding in placenta praevia is maternal, not fetal. It originates from maternal sinusoids at the placental edge when the developing lower uterine segment stretches and separates the placental attachment. Fetal vessel rupture crossing the os is the hallmark of vasa praevia — a different diagnosis.",
-                "correctAnswerMessage": "Correct. In placenta praevia the bleeding is maternal — it arises from maternal sinusoids at the placental edge as the lower uterine segment stretches and separates the attachment. Rupture of fetal vessels overlying the os describes vasa praevia, a distinct and rarer condition.",
+                "wrongAnswerMessage": "This is false. In APH, ultrasonography must always be performed before any vaginal examination. If the patient has placenta praevia, a digital examination can perforate the placenta and cause catastrophic haemorrhage. USS is safe, non-invasive, and definitively diagnostic for placental localisation.",
+                "correctAnswerMessage": "Correct. Ultrasonography must always precede vaginal examination in APH. A digital vaginal examination in a patient with undiagnosed placenta praevia can perforate the overlying placenta, rupturing maternal sinusoids and potentially causing torrential, life-threatening haemorrhage.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "bdec3057-b31f-424a-b44c-79f1a27af59f",
+            "subContentId": "df01083b-31d5-4582-a600-52c1467abe4f",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "In placenta praevia, the bleeding is fet",
+              "title": "In a patient presenting with antepartum",
               "authors": [],
               "changes": []
             }
@@ -119,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 257.35,
-            "to": 267.35
+            "from": 152.4,
+            "to": 162.4
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 30-year-old woman at 33 weeks with Type II (marginal) placenta praevia present</p>",
+          "label": "<p>A 30-year-old multigravida at 35 weeks presents with dark vaginal bleeding. Her </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +134,151 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 30-year-old woman at 33 weeks with Type II (marginal) placenta praevia presents with a single episode of mild vaginal bleeding. She is haemodynamically stable and the CTG is reassuring. What is the most appropriate next step in management?</p>",
+              "question": "<p>A 30-year-old multigravida at 35 weeks presents with dark vaginal bleeding. Her uterus is tense, tender, and woody hard, with no relaxation between contractions. The foetal heart rate is difficult to auscultate. Which diagnosis is most consistent with this clinical picture?</p>",
+              "answers": [
+                {
+                  "text": "<div>Placenta praevia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Placenta praevia presents with painless, bright-red bleeding and a soft, relaxed, non-tender uterus. The tense, woody-hard uterus with tenderness and foetal compromise points to abruption, not praevia.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Placental abruption</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The dark bleeding, tense woody-hard tender uterus (caused by retroplacental blood infiltrating the myometrium), absent relaxation, and compromised foetal heart are the hallmarks of placental abruption — virtually the opposite of praevia's presentation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Vasa praevia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Vasa praevia typically presents with bleeding at membrane rupture, with foetal distress disproportionate to the volume of blood lost. The uterine findings here — tenseness, tenderness, and board-like rigidity — are characteristic of abruption.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Cervical ectropion</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Cervical ectropion causes minor spotting, not the degree of bleeding and dramatic uterine changes described. A tense, board-like uterus with dark bleeding is classic for placental abruption.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The key is the uterine examination: a tense, tender, board-like uterus with no relaxation indicates retroplacental haemorrhage infiltrating the myometrium — the hallmark of placental abruption, not placenta praevia (which has a soft, non-tender uterus)."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. The clinical triad of dark bleeding, a tense tender uterus, and foetal compromise is pathognomonic of placental abruption — a presentation diametrically opposite to the soft, relaxed uterus and bright-red painless bleeding of placenta praevia."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "ba0b645d-770c-4dfb-b648-549c7c34d4f3",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A 30-year-old multigravida at 35 weeks p",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 260.75,
+            "to": 270.75
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A haemodynamically stable primigravida at 31 weeks of gestation is diagnosed wit</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A haemodynamically stable primigravida at 31 weeks of gestation is diagnosed with Type II (marginal) placenta praevia following a minor bleed that has now settled. What is the most appropriate management plan?</p>",
               "answers": [
                 {
                   "text": "<div>Immediate emergency caesarean section</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Emergency caesarean is reserved for major (Type III–IV) praevia with significant haemorrhage or maternal instability. In a stable preterm patient with minor praevia, expectant management allows the fetus further maturation.</div>",
+                    "chosenFeedback": "<div>Emergency caesarean is reserved for haemodynamically unstable patients or those with major (Type III/IV) praevia with significant active bleeding. A stable patient with minor praevia at a preterm gestation benefits from expectant management to allow foetal maturation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Expectant management with in-patient observation, antenatal corticosteroids, and planned delivery</div>",
+                  "text": "<div>Induction of labour with oxytocin for vaginal delivery</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Induction of labour is contraindicated in placenta praevia. Cervical dilatation and uterine contractions in the presence of a low-lying placenta risk uncontrollable haemorrhage from the exposed maternal sinusoids.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Expectant management with close surveillance and antenatal corticosteroids</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Minor praevia in a stable preterm patient is managed expectantly — corticosteroids for fetal lung maturity, close surveillance for recurrent bleeding, and planned delivery when delivery benefits outweigh prematurity risks.</div>",
+                    "chosenFeedback": "<div>Correct. In a stable patient with minor (Type I/II) praevia at a preterm gestation, expectant management allows continued foetal maturation. Corticosteroids accelerate lung maturity, and close monitoring detects any recurrence of bleeding early.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Induction of labour with oxytocin under close monitoring</div>",
+                  "text": "<div>Vaginal delivery with manual removal of the placenta</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Induction is contraindicated in placenta praevia. Uterine contractions can worsen the placental separation and provoke torrential haemorrhage. The route and timing of delivery depend on the type and position of the placenta.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Digital vaginal examination to assess cervical favourability</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Digital vaginal examination must never be performed in suspected placenta praevia — a finger can perforate the overlying placenta, converting a stable bleed into a catastrophic haemorrhage.</div>",
+                    "chosenFeedback": "<div>Vaginal delivery is dangerous in placenta praevia as the placenta lies in the lower segment. Manual removal would risk massive haemorrhage from the exposed maternal sinusoids at the placental bed.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In stable preterm minor praevia, the priority is expectant management — corticosteroids, close in-patient surveillance, and planned delivery. Emergency CS is for major praevia or haemodynamic instability; vaginal examination and induction are both contraindicated."
+                  "feedback": "In minor praevia with a stable preterm patient, the management principles — maternal safety, foetal maturation, and minimising haemorrhage — all support expectant management with surveillance rather than immediate delivery at 31 weeks."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The management of minor praevia in a stable preterm patient centres on buying time for fetal maturity while closely monitoring for recurrent haemorrhage."
+                  "feedback": "Correct. The three overarching management principles — preserve maternal life, maximise foetal maturity, and minimise haemorrhagic risk — all support expectant management with surveillance for a stable patient with minor praevia at a preterm gestation."
                 }
               ],
               "behaviour": {
@@ -209,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8d5734c9-afe6-4171-b6e2-64a81ea51005",
+            "subContentId": "5e59cdcd-27ce-4762-bd8f-194d9f6c4349",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 30-year-old woman at 33 weeks with Typ",
+              "title": "A haemodynamically stable primigravida a",
               "authors": [],
               "changes": []
             }
@@ -229,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 356.975,
-            "to": 366.975
+            "from": 363.025,
+            "to": 373.025
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A multigravida who received two blood transfusions during her previous delivery </p>",
+          "label": "<p>Before issuing blood for a non-emergency transfusion in a patient with obstetric</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A multigravida who received two blood transfusions during her previous delivery now requires packed red cells for antepartum haemorrhage. Beyond ABO and Rh(D) grouping, what additional pre-transfusion step is essential before issuing crossmatched blood?</p>",
+              "question": "<p>Before issuing blood for a non-emergency transfusion in a patient with obstetric haemorrhage, which pair of investigations constitutes the essential pre-transfusion compatibility workup?</p>",
               "answers": [
                 {
-                  "text": "<div>Direct antiglobulin (Coombs) test to detect autoantibodies coating her red cells</div>",
+                  "text": "<div>Complete blood count and coagulation screen</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The direct antiglobulin test detects antibodies already bound to the patient's own red cells — it is used to diagnose autoimmune haemolytic anaemia, not for routine pre-transfusion compatibility screening.</div>",
+                    "chosenFeedback": "<div>These assess the impact of haemorrhage but do not confirm compatibility between donor and recipient blood. Pre-transfusion testing specifically requires ABO/Rh(D) grouping and antibody screening to prevent haemolytic reactions.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Screening for unexpected alloantibodies acquired from prior transfusions or pregnancies</div>",
+                  "text": "<div>ABO/Rh(D) blood grouping and antibody screening</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Prior transfusions and pregnancies can stimulate alloantibody formation against foreign red cell antigens. These antibodies may destroy incompatible donor red cells, causing an acute haemolytic transfusion reaction — hence antibody screening is the second essential component of pre-transfusion testing.</div>",
+                    "chosenFeedback": "<div>Correct. These two tests identify the recipient's blood group and detect any unexpected alloantibodies (acquired from prior transfusion or pregnancy) that could destroy donor red cells and cause a potentially fatal acute haemolytic transfusion reaction.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Peripheral blood smear to exclude microangiopathic haemolysis</div>",
+                  "text": "<div>Bleeding time and platelet count</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A peripheral smear diagnoses microangiopathic conditions such as HELLP syndrome, but it is not part of the standard pre-transfusion compatibility workup.</div>",
+                    "chosenFeedback": "<div>These assess haemostatic function, not donor-recipient compatibility. The essential pre-transfusion workup requires ABO/Rh(D) grouping and antibody screening to ensure the donated red cells are safe for the specific recipient.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Serum bilirubin estimation to assess baseline haemolysis</div>",
+                  "text": "<div>Direct Coombs test and serum bilirubin</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Serum bilirubin reflects the rate of red cell breakdown and may be monitored after transfusion if a haemolytic reaction is suspected, but it is not a component of pre-transfusion compatibility testing.</div>",
+                    "chosenFeedback": "<div>The direct Coombs test detects antibodies already bound to the patient's own red cells and is used to investigate haemolytic reactions after they occur, not for pre-transfusion compatibility. The workup requires ABO/Rh(D) grouping and antibody screening.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Pre-transfusion testing has two components: ABO/Rh(D) typing and screening for unexpected alloantibodies. In a multigravida with prior transfusions, alloantibodies from previous exposures can destroy donor red cells if undetected."
+                  "feedback": "Pre-transfusion compatibility testing requires ABO/Rh(D) blood grouping and antibody screening. These identify the recipient's blood group and detect alloantibodies that could destroy transfused donor cells, preventing potentially fatal haemolytic reactions."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Alloantibody screening is critical in any patient with prior transfusion or pregnancy exposure — undetected antibodies can cause a fatal haemolytic transfusion reaction."
+                  "feedback": "Well done. Pre-transfusion compatibility testing has two components: determining the patient's ABO and Rh(D) group, and screening for unexpected alloantibodies — together these prevent potentially fatal haemolytic transfusion reactions."
                 }
               ],
               "behaviour": {
@@ -319,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "22aa9859-aeb6-48b6-9c4a-132bbd266327",
+            "subContentId": "049cba8c-0813-4c4e-83df-69e82ff336b8",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A multigravida who received two blood tr",
+              "title": "Before issuing blood for a non-emergency",
               "authors": [],
               "changes": []
             }
@@ -339,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 464.4,
-            "to": 474.4
+            "from": 473.37499999999994,
+            "to": 483.37499999999994
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>During transfusion of packed red cells for obstetric haemorrhage, a patient deve</p>",
+          "label": "<p>During transfusion of packed red cells, a patient develops sudden fever, rigors,</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>During transfusion of packed red cells for obstetric haemorrhage, a patient develops fever, rigors, loin pain, and passage of dark-coloured urine within 15 minutes of starting the unit. What is the most likely complication?</p>",
+              "question": "<p>During transfusion of packed red cells, a patient develops sudden fever, rigors, hypotension, and severe lumbar pain within minutes of starting a new unit. What is the most critical immediate action?</p>",
               "answers": [
                 {
-                  "text": "<div>Febrile non-haemolytic transfusion reaction</div>",
+                  "text": "<div>Slow the transfusion rate and administer intravenous paracetamol</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Febrile non-haemolytic reactions cause fever and rigors but are typically milder — they do not produce loin pain or haemoglobinuria. They are mediated by cytokines accumulated in stored blood components.</div>",
+                    "chosenFeedback": "<div>Slowing the rate and giving antipyretics is appropriate for minor febrile non-haemolytic reactions. The combination of hypotension, rigors, and lumbar pain suggests an acute haemolytic reaction — a life-threatening emergency requiring immediate cessation of the transfusion.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Acute haemolytic transfusion reaction</div>",
+                  "text": "<div>Stop the transfusion immediately and initiate aggressive resuscitation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The triad of fever with rigors, loin pain, and haemoglobinuria (dark urine from free haemoglobin) occurring early in transfusion is the hallmark of an acute haemolytic reaction — ABO-incompatible donor red cells are destroyed by the recipient's antibodies. The transfusion must be stopped immediately and aggressive resuscitation begun.</div>",
+                    "chosenFeedback": "<div>Correct. The acute onset of fever, hypotension, rigors, and lumbar pain during transfusion suggests an acute haemolytic transfusion reaction — a life-threatening emergency. The transfusion must be stopped within seconds and aggressive resuscitation commenced immediately.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Transfusion-related acute lung injury (TRALI)</div>",
+                  "text": "<div>Continue the transfusion and administer an antihistamine</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>TRALI presents with acute respiratory distress, hypoxia, and bilateral pulmonary infiltrates within 6 hours of transfusion. It does not cause loin pain or dark-coloured urine.</div>",
+                    "chosenFeedback": "<div>Antihistamines are used for mild allergic reactions such as urticaria or pruritus. The features described — hypotension, rigors, lumbar pain — indicate a severe, potentially fatal reaction requiring the transfusion to be stopped immediately.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Allergic urticarial reaction</div>",
+                  "text": "<div>Switch the blood to a different intravenous line and resume infusion</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Allergic reactions present with urticaria, pruritus, and sometimes bronchospasm or anaphylaxis. They are mediated by recipient antibodies against donor plasma proteins and do not cause intravascular haemolysis.</div>",
+                    "chosenFeedback": "<div>Changing the IV access does not address the underlying problem. The reaction is caused by incompatibility between donor cells and recipient antibodies. The unit must be stopped immediately and aggressive resuscitation commenced.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Fever, rigors, loin pain, and dark urine early in a transfusion indicate acute haemolytic reaction — ABO-incompatible donor red cells are being destroyed intravascularly. This is a medical emergency requiring immediate cessation of the transfusion and aggressive resuscitation."
+                  "feedback": "In a severe transfusion reaction with hypotension, rigors, and lumbar pain, the transfusion must be stopped immediately and aggressive resuscitation initiated. These signs suggest an acute haemolytic reaction — a life-threatening emergency where seconds matter."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Acute haemolytic reactions are the most immediately life-threatening transfusion complication — recognising the triad early and stopping the transfusion within seconds can be life-saving."
+                  "feedback": "Correct. Life-threatening transfusion reactions require the transfusion to be stopped within seconds and aggressive resuscitation to begin — delay can be fatal, particularly in obstetric patients already physiologically stressed from haemorrhage."
                 }
               ],
               "behaviour": {
@@ -429,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "37fa5d9d-b757-486c-829a-e995d3c0641f",
+            "subContentId": "b662f1fb-41e8-4cdb-863c-485adc1693a7",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "During transfusion of packed red cells f",
+              "title": "During transfusion of packed red cells,",
               "authors": [],
               "changes": []
             }
@@ -459,40 +569,40 @@
         },
         {
           "time": 55,
-          "label": "Placenta Praevia — Pathophysiology and Types Placenta pra…"
+          "label": "Placenta Praevia — Pathophysiology and Types."
         },
         {
-          "time": 103,
-          "label": "Clinical Features and Differential Diagnosis The clinical…"
+          "time": 104,
+          "label": "Clinical Features and Differential Diagnosis."
         },
         {
           "time": 152,
-          "label": "Investigations and Ultrasonography in APH Investigation o…"
+          "label": "Investigations and Ultrasonography in APH."
         },
         {
-          "time": 206,
-          "label": "Management of Placenta Praevia Management of placenta pra…"
+          "time": 208,
+          "label": "Management of Placenta Praevia."
         },
         {
-          "time": 257,
+          "time": 261,
           "label": "Clinical Indications for Blood Products in Obstetric Haem…"
         },
         {
-          "time": 306,
-          "label": "Blood Group Compatibility and Pre-Transfusion Testing Bef…"
+          "time": 310,
+          "label": "Blood Group Compatibility and Pre-Transfusion Testing."
         },
         {
-          "time": 357,
-          "label": "Massive Transfusion Protocol and Damage-Control Haemostas…"
+          "time": 363,
+          "label": "Massive Transfusion Protocol and Damage-Control Haemostasis."
         },
         {
-          "time": 413,
-          "label": "Complications of Transfusion and Their Management Transfu…"
+          "time": 421,
+          "label": "Complications of Transfusion and Their Management."
         }
       ],
       "endscreens": [
         {
-          "time": 507,
+          "time": 517,
           "label": "End"
         }
       ]
@@ -504,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "1f464680-0012-4cfd-986d-823602709a35",
+              "subContentId": "11c5fe55-270e-4bd6-9b3e-c32b2f653747",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -527,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "5ceb2c1f-0ee2-441b-a304-efe1ea9648a8",
+        "subContentId": "b45eaf18-8a2c-4ec8-8f3d-99e1f492dbf6",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
