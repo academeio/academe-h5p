@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/8856f565-9ff6-4dda-8b09-19e5603c5601/playlist.m3u8",
+          "path": "https://vdo.cbme.in/ac075812-03bf-4217-941a-89c0242745ea/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -67,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient's blood tests show elevated conjugated (direct) bilirubin with normal </p>",
+          "label": "<p>A patient with bile duct obstruction presents with dark urine and pale stools. W</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient's blood tests show elevated conjugated (direct) bilirubin with normal unconjugated levels and normal liver enzymes. Which mechanism best explains this finding?</p>",
+              "question": "<p>A patient with bile duct obstruction presents with dark urine and pale stools. What explains why the stools become pale?</p>",
               "answers": [
                 {
-                  "text": "<div>Increased destruction of red blood cells in the spleen</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Accelerated haemolysis raises unconjugated bilirubin, the water-insoluble form produced by haem catabolism. It does not directly elevate conjugated bilirubin.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Impaired conjugation of bilirubin by UDP-glucuronosyltransferase</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Impaired conjugation raises unconjugated bilirubin. Normal unconjugated levels here indicate the conjugation step is working — the block must be downstream.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Blocked excretion of conjugated bilirubin from the hepatocyte or bile duct</div>",
+                  "text": "<div>Conjugated bilirubin cannot reach the gut, so stercobilin is not formed</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The liver has successfully conjugated bilirubin (step 2 intact), but excretion into bile canaliculi (step 3) or drainage through the biliary system (step 4) is blocked, causing water-soluble conjugated bilirubin to reflux into the blood.</div>",
+                    "chosenFeedback": "<div>Correct. Stercobilin, the brown pigment derived from bacterial conversion of bilirubin in the gut, gives stools their normal colour. When bile flow is blocked, conjugated bilirubin never reaches the intestine, halting stercobilin production.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Deficient bacterial conversion of bilirubin to urobilinogen in the gut</div>",
+                  "text": "<div>Unconjugated bilirubin is deposited in the intestinal wall</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Bacterial conversion occurs in the gut, downstream of biliary excretion. Its impairment affects stool colour but does not cause conjugated bilirubin to accumulate in blood.</div>",
+                    "chosenFeedback": "<div>Unconjugated bilirubin does not reach the gut in significant amounts; it is conjugated in the liver first. Stool colour depends on downstream pigments formed by bacterial metabolism in the intestine.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Urobilinogen is completely reabsorbed by the kidneys</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>In biliary obstruction, urobilinogen production itself is reduced because less bilirubin reaches the gut for bacterial conversion. Pale stools result from absent stercobilin, not from increased renal reabsorption.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Albumin-bound bilirubin is diverted away from the liver to the skin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Albumin carries unconjugated bilirubin TO the liver for conjugation. Skin yellowing in jaundice results from bilirubin accumulating in the blood, but this mechanism does not explain stool colour change.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the four steps: unconjugated bilirubin is produced by haem catabolism (step 1), conjugated in the hepatocyte (step 2), excreted into bile (step 3), and drained to the gut (step 4). Elevated conjugated bilirubin means conjugation worked but excretion or drainage is blocked."
+                  "feedback": "Review the 4-step bilirubin pathway. At step 4 (biliary drainage), obstruction traps conjugated bilirubin. Without it reaching the gut, bacteria cannot form urobilinogen or stercobilin, and stools lose their brown colour."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. When conjugated bilirubin is selectively elevated, the problem lies after conjugation — in the excretion or drainage steps of the bilirubin pathway."
+                  "feedback": "Exactly right. Bile duct obstruction prevents conjugated bilirubin from reaching the gut, stopping the formation of stercobilin — the pigment responsible for the normal brown colour of stools."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "3e1dabf9-035d-4ee5-937e-52c6f0255acb",
+            "subContentId": "5298b38c-447b-40c5-92f3-4935a88cabf3",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient's blood tests show elevated co",
+              "title": "A patient with bile duct obstruction pre",
               "authors": [],
               "changes": []
             }
@@ -177,43 +177,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In alcoholic liver disease, the initial hepatic change is steatohepatitis, cause</p>",
+          "label": "<p>In alcoholic liver disease, ethanol metabolism shifts the hepatocyte's NAD+/NADH</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In alcoholic liver disease, the initial hepatic change is steatohepatitis, caused by the inflammatory response to acetaldehyde.</p>",
-              "correct": "false",
+              "question": "<p>In alcoholic liver disease, ethanol metabolism shifts the hepatocyte's NAD+/NADH balance. What is the direct pathological consequence of this redox shift?</p>",
+              "answers": [
+                {
+                  "text": "<div>Activation of Kupffer cells releasing inflammatory mediators</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Kupffer cell activation is driven by acetaldehyde-generated reactive oxygen species, a step downstream of the initial redox shift. The redox imbalance itself affects a different metabolic pathway first.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Accumulation of lipids in hepatocytes (steatosis)</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The excess NADH blocks fatty acid oxidation, causing triglycerides to accumulate within hepatocytes. This steatosis is the earliest histological change in alcoholic liver disease.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Deposition of collagen by hepatic stellate cells</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Collagen deposition occurs during the fibrosis stage, driven by persistent stellate cell activation. This is a late consequence of ongoing injury, not the direct effect of the initial redox shift.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Formation of regenerative nodules characteristic of cirrhosis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Regenerative nodules are a hallmark of end-stage cirrhosis, the final common pathway of chronic liver disease. They develop long after the initial metabolic insult from the redox shift.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The key is the metabolic sequence. Ethanol oxidation converts NAD+ to NADH. Excess NADH directly blocks fatty acid oxidation, causing fat to accumulate in hepatocytes (steatosis). Inflammation and fibrosis are downstream consequences."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. The NAD+/NADH shift is the first domino — it blocks fatty acid oxidation, leading to lipid accumulation (steatosis), the earliest stage of alcoholic liver disease."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "The initial hepatic change in ALD is steatosis, not steatohepatitis. Ethanol oxidation shifts NAD⁺ to NADH, blocking fatty acid oxidation and causing fat accumulation. Inflammation (steatohepatitis) only develops with continued drinking, when acetaldehyde triggers Kupffer cell activation.",
-                "correctAnswerMessage": "Correct — this statement is false. The initial change is steatosis (fatty liver), not steatohepatitis. The NAD⁺-to-NADH shift from ethanol metabolism blocks fatty acid oxidation, driving lipid accumulation first. Steatohepatitis develops later when acetaldehyde generates reactive oxygen species and activates Kupffer cells.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "da5d21e5-aa4d-47d1-b01a-b9a3ba736e96",
+            "subContentId": "68957c88-50a8-4a74-940c-65b3c80b9a99",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In alcoholic liver disease, the initial",
+              "title": "In alcoholic liver disease, ethanol meta",
               "authors": [],
               "changes": []
             }
@@ -235,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 30-year-old woman presents with jaundice. Her investigations show: ALT 1800 U/</p>",
+          "label": "<p>A patient with acute jaundice tests negative for hepatitis B surface antigen (HB</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 30-year-old woman presents with jaundice. Her investigations show: ALT 1800 U/L, AST 900 U/L, ALP 160 U/L, HBsAg negative, IgM anti-HBc positive. What is the most likely diagnosis?</p>",
+              "question": "<p>A patient with acute jaundice tests negative for hepatitis B surface antigen (HBsAg), but the clinician strongly suspects early hepatitis B infection. Which marker should be tested next to detect infection during the window period?</p>",
               "answers": [
                 {
-                  "text": "<div>Chronic hepatitis B infection</div>",
+                  "text": "<div>Hepatitis B e-antigen (HBeAg)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Chronic hepatitis B requires positive HBsAg, the hallmark of current infection. Its absence here excludes chronic HBV.</div>",
+                    "chosenFeedback": "<div>HBeAg indicates active viral replication and is typically positive only when HBsAg is also positive. It cannot bridge the diagnostic gap when HBsAg is undetectable.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Acute hepatitis B in the window period</div>",
+                  "text": "<div>Hepatitis B surface antibody (anti-HBs)</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Anti-HBs indicates immunity — either from vaccination or recovery from past infection. It does not detect current active infection.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>IgM antibody to hepatitis B core antigen (IgM anti-HBc)</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The hepatocellular pattern (ALT and AST markedly elevated, ALT &gt; AST) indicates acute injury. Despite negative HBsAg, positive IgM anti-HBc captures acute hepatitis B during the window period — when surface antigen has cleared but surface antibody has not yet appeared.</div>",
+                    "chosenFeedback": "<div>Correct. IgM anti-HBc is the key diagnostic marker during the window period, when HBsAg has been cleared or has not yet appeared. It confirms acute hepatitis B infection when surface markers are absent.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Alcoholic hepatitis</div>",
+                  "text": "<div>Hepatitis C antibody (anti-HCV)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Alcoholic hepatitis characteristically shows an AST:ALT ratio above 2:1. Here the ratio is 0.5 (900/1800), which argues strongly against alcohol as the cause.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Cholestatic liver disease from gallstones</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Gallstone cholestasis raises ALP and GGT disproportionately. Here, ALT and AST dominate — a hepatocellular pattern, not cholestatic.</div>",
+                    "chosenFeedback": "<div>Anti-HCV screens for hepatitis C, an entirely different virus. If hepatitis B is suspected, hepatitis B-specific markers must be tested. The two infections have distinct serological panels.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Analyse in two steps: (1) the enzyme pattern — ALT and AST lead, indicating hepatocellular injury; (2) the serology — HBsAg negative but IgM anti-HBc positive indicates acute HBV during the window period, when surface antigen has been cleared."
+                  "feedback": "In acute hepatitis B, there is a 'window period' when HBsAg has been cleared but anti-HBs has not yet appeared. During this gap, IgM anti-HBc is the only reliable marker of recent infection."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The hepatocellular enzyme pattern plus positive IgM anti-HBc with negative HBsAg is the classic serological profile of acute hepatitis B in the window period."
+                  "feedback": "Correct. IgM anti-HBc bridges the window period — the interval when HBsAg has disappeared but anti-HBs has not yet appeared — confirming acute hepatitis B."
                 }
               ],
               "behaviour": {
@@ -319,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "4e317aed-5a8c-43ae-b0bb-85098895095b",
+            "subContentId": "9886f81d-3e9d-4a5f-8c4c-0c6472f834ef",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 30-year-old woman presents with jaundi",
+              "title": "A patient with acute jaundice tests nega",
               "authors": [],
               "changes": []
             }
@@ -345,7 +397,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with known cirrhosis and ascites develops fever and abdominal pain. Di</p>",
+          "label": "<p>What is the standard initial diuretic combination for managing cirrhotic ascites</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with known cirrhosis and ascites develops fever and abdominal pain. Diagnostic paracentesis shows 400 polymorphonuclear cells per cubic millimetre. Ascitic fluid cultures are pending. What is the most appropriate immediate management?</p>",
+              "question": "<p>What is the standard initial diuretic combination for managing cirrhotic ascites?</p>",
               "answers": [
                 {
-                  "text": "<div>Withhold antibiotics until culture results confirm the causative organism</div>",
+                  "text": "<div>Spironolactone 40 mg with furosemide 100 mg — furosemide drives rapid fluid removal</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Waiting for cultures delays life-saving treatment. In SBP, the diagnosis is made on the PMN count (≥250/mm³), and antibiotics must be started immediately.</div>",
+                    "chosenFeedback": "<div>This reverses the standard ratio. Loop diuretics alone cause excessive potassium loss and rapid intravascular depletion. The higher dose should be spironolactone, targeting the dominant mechanism — aldosterone-driven sodium retention.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Start intravenous ceftriaxone and give albumin infusion</div>",
+                  "text": "<div>Furosemide 80 mg alone, with spironolactone added only if ascites is refractory</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Loop diuretics alone cause rapid volume depletion and hypokalaemia. Combined therapy from the start is the standard approach, with spironolactone addressing the underlying hormonal mechanism driving sodium retention.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Spironolactone 50 mg with furosemide 50 mg — equal doses maintain electrolyte balance</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Equal doses do not reflect the different potencies and pharmacological targets of the two drugs. The standard ratio specifically counterbalances aldosterone-mediated sodium retention while maintaining potassium homeostasis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Spironolactone 100 mg with furosemide 40 mg — aldosterone antagonism is the primary target</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>With PMN ≥250/mm³, the diagnosis is spontaneous bacterial peritonitis. Immediate ceftriaxone plus albumin (1.5 g/kg on day one, 1 g/kg on day three) reduces the risk of hepatorenal syndrome and improves survival.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Perform large-volume paracentesis and start oral diuretics</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Large-volume paracentesis with albumin replacement is used for refractory ascites, not for treating the infection in SBP. Diuretics alone do not address a bacterial peritonitis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Administer lactulose and rifaximin to prevent encephalopathy</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Lactulose and rifaximin are the management of hepatic encephalopathy. This patient's presentation — fever, abdominal pain, elevated PMN count — indicates SBP, which requires antibiotics.</div>",
+                    "chosenFeedback": "<div>Correct. This 100:40 ratio addresses aldosterone excess as the dominant driver of sodium retention in cirrhosis. The ratio is maintained as both drugs are titrated upward, preserving potassium balance.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The PMN count of 400/mm³ exceeds the 250/mm³ threshold for SBP. Treatment is immediate: intravenous ceftriaxone and albumin infusion (1.5 g/kg day one, 1 g/kg day three). Never withhold antibiotics pending culture results."
+                  "feedback": "The standard combination is spironolactone 100 mg plus furosemide 40 mg. Spironolactone is the backbone because aldosterone excess drives sodium retention in cirrhosis. This ratio is maintained as both drugs are titrated upward."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. SBP is diagnosed at ≥250 PMN/mm³ and treated immediately with a third-generation cephalosporin plus albumin — never wait for cultures."
+                  "feedback": "Exactly. Spironolactone 100 mg plus furosemide 40 mg is the standard starting combination, maintained as a ratio during titration. It targets the primary mechanism — aldosterone-driven sodium retention — while balancing potassium."
                 }
               ],
               "behaviour": {
@@ -429,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2953fa79-b53b-45a0-8b68-90b601c4013b",
+            "subContentId": "3fcbe090-b548-429f-a773-44da8f7921d7",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with known cirrhosis and ascit",
+              "title": "What is the standard initial diuretic co",
               "authors": [],
               "changes": []
             }
@@ -455,95 +507,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which of the following patients should be referred for liver transplant evaluati</p>",
+          "label": "<p>A patient with hepatocellular carcinoma who has two tumours of 4 cm each, with n</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Which of the following patients should be referred for liver transplant evaluation?</p>",
-              "answers": [
-                {
-                  "text": "<div>A 25-year-old with acute hepatitis A and ALT of 1800 U/L, responding well to supportive care</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Acute hepatitis A is typically self-limiting. Transplant is only considered if acute liver failure develops and meets King's College Criteria — not in a patient responding to supportive care.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>A patient with cirrhosis, Child-Pugh C, and a MELD score of 16</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>A MELD score of 15 or above triggers transplant evaluation. This patient has decompensated cirrhosis (Child-Pugh C) with a MELD of 16, meeting the threshold. Early referral preserves the most options.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>A patient with a single hepatocellular carcinoma nodule measuring 7 cm and no vascular invasion</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>A single HCC nodule of 7 cm exceeds the Milan criteria, which require a single tumour ≤5 cm. Beyond these limits, standard transplant listing is not indicated.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>A 40-year-old with compensated cirrhosis, Child-Pugh A, and a MELD score of 8</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Compensated cirrhosis (Child-Pugh A) with a MELD score well below 15 does not meet the threshold for transplant evaluation. This patient requires surveillance, not transplant referral.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Transplant evaluation is triggered at MELD ≥15. For HCC, the Milan criteria (single tumour ≤5 cm, or up to three tumours each ≤3 cm, no vascular invasion) determine eligibility. Acute liver failure qualifies only if King's College Criteria are met."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. A MELD score ≥15 triggers transplant evaluation; ≥20 triggers listing. This patient's MELD of 16 with decompensated cirrhosis clearly warrants referral."
-                }
-              ],
+              "question": "<p>A patient with hepatocellular carcinoma who has two tumours of 4 cm each, with no vascular invasion, meets the Milan criteria for liver transplantation.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "The Milan criteria allow either a single tumour ≤5 cm OR up to three tumours each ≤3 cm, with no vascular invasion. This patient has two tumours at 4 cm each — since there are multiple tumours, the 3 cm per-tumour limit applies, not the 5 cm single-tumour limit. The criteria are not met.",
+                "correctAnswerMessage": "Correct — this patient does NOT meet the Milan criteria. For multiple tumours, each must be no larger than 3 cm. Two tumours at 4 cm each exceed this limit. The 5 cm threshold applies only when there is a solitary tumour.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "14457b3d-4b21-4de9-9764-bac75870801d",
+            "subContentId": "78299e02-1a0e-4394-9207-08796c2dba67",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "Which of the following patients should b",
+              "title": "A patient with hepatocellular carcinoma",
               "authors": [],
               "changes": []
             }
@@ -614,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "225156b5-b39f-419e-9a0f-1a77253c539b",
+              "subContentId": "bbca9b4e-7c79-4fa7-9a65-6c51bc33bc27",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -637,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "056a6626-9662-407b-be18-73c237f1d518",
+        "subContentId": "01d6241d-b250-4292-aecb-728a3056bae1",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
