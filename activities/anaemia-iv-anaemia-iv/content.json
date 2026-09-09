@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/917e64d9-351e-47b1-8eca-07a2c890e91c/playlist.m3u8",
+          "path": "https://vdo.cbme.in/a33970d0-87f7-4523-8249-60157afd10f9/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -67,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 55-year-old man has anaemia with a mean corpuscular volume of 108 fL and a ret</p>",
+          "label": "<p>Why is the reticulocyte production index preferred over the raw reticulocyte per</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 55-year-old man has anaemia with a mean corpuscular volume of 108 fL and a reticulocyte production index of 0.9. Using the two-axis classification framework, which diagnosis does this profile most strongly support?</p>",
+              "question": "<p>Why is the reticulocyte production index preferred over the raw reticulocyte percentage when evaluating bone marrow response in anaemia?</p>",
               "answers": [
                 {
-                  "text": "<div>Acute blood loss with a reactive marrow</div>",
+                  "text": "<div>It measures the absolute number of reticulocytes per microlitre, which is more precise than a percentage</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Acute blood loss produces a normocytic anaemia (MCV 80–100 fL) and, after a day or two, a high reticulocyte production index as the marrow responds briskly. An MCV of 108 fL excludes this pattern.</div>",
+                    "chosenFeedback": "<div>The absolute reticulocyte count is a different measure. The RPI specifically corrects the percentage for the reduced red-cell denominator in anaemia.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Iron deficiency anaemia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Iron deficiency produces a microcytic anaemia (MCV &lt;80 fL), not a macrocytic one. Red cells are small because haem synthesis is limited by iron lack — the MCV here is in the opposite direction.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Vitamin B12 or folate deficiency</div>",
+                  "text": "<div>It corrects for the reduced red-cell mass that falsely elevates the raw reticulocyte percentage</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A macrocytic MCV (&gt;100 fL) combined with a low reticulocyte production index (&lt;2) is the hallmark of megaloblastic anaemia. Impaired DNA synthesis allows cells to grow but not divide, producing large red cells while marrow output remains insufficient.</div>",
+                    "chosenFeedback": "<div>Correct. In anaemia, fewer red cells circulate, shrinking the denominator and making the raw percentage appear falsely high. The RPI divides by the normal haematocrit (45) to give a true production rate.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Hereditary spherocytosis</div>",
+                  "text": "<div>It adjusts for the patient's age and sex to provide a standardised value</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Hereditary spherocytosis is a haemolytic anaemia. It typically shows a normal or mildly reduced MCV and a high reticulocyte production index (≥2) as the marrow compensates for ongoing red cell destruction — the opposite RPI pattern.</div>",
+                    "chosenFeedback": "<div>The RPI does not adjust for age or sex. It corrects the reticulocyte percentage by comparing the patient's haematocrit to the normal value of 45.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It accounts for differences in reticulocyte size between microcytic and macrocytic anaemias</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Reticulocyte size is not part of the RPI calculation. The correction addresses the falsely inflated percentage caused by a reduced total red-cell count.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Use both axes together. MCV >100 fL indicates macrocytic anaemia; RPI <2 confirms the marrow is underperforming. Together they point to B12 or folate deficiency, not a haemolytic or microcytic cause."
+                  "feedback": "The RPI corrects for the artificially inflated percentage caused by having fewer red cells in circulation. An RPI ≥ 2 signals adequate marrow response (haemolysis, blood loss), while < 2 signals inadequate response (deficiency, suppression)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Macrocytic MCV (>100 fL) plus hypoproliferative RPI (<2) defines megaloblastic anaemia — the marrow cannot respond because DNA synthesis is blocked by B12 or folate deficiency."
+                  "feedback": "Right. RPI = (reticulocyte % × patient haematocrit) ÷ 45. An RPI of 2 or above indicates hyperproliferation (haemolysis or blood loss), while below 2 indicates hypoproliferation (deficiency or marrow suppression)."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "46cb77bc-3a5e-47e7-aed0-1fd7a7031fbe",
+            "subContentId": "6d65852a-783d-4718-9614-0ee82e8b5bd6",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 55-year-old man has anaemia with a mea",
+              "title": "Why is the reticulocyte production index",
               "authors": [],
               "changes": []
             }
@@ -177,7 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 50-year-old man with pulmonary tuberculosis has a haemoglobin of 9.8 g/dL and </p>",
+          "label": "<p>Which combination of laboratory findings forms the diagnostic fingerprint of hae</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 50-year-old man with pulmonary tuberculosis has a haemoglobin of 9.8 g/dL and normocytic red cells. Which laboratory profile is most consistent with anaemia of chronic disease rather than iron deficiency anaemia?</p>",
+              "question": "<p>Which combination of laboratory findings forms the diagnostic fingerprint of haemolytic anaemia?</p>",
               "answers": [
                 {
-                  "text": "<div>Low serum ferritin, elevated total iron-binding capacity, transferrin saturation below 16%</div>",
+                  "text": "<div>Low serum ferritin, high total iron-binding capacity, and low transferrin saturation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This is the classic iron deficiency anaemia pattern — depleted stores drive ferritin down and TIBC up as the body upregulates transferrin synthesis. Anaemia of chronic disease operates through a fundamentally different mechanism.</div>",
+                    "chosenFeedback": "<div>This pattern indicates iron deficiency anaemia, not haemolysis. In haemolysis, iron stores are typically normal or elevated because iron is recycled from destroyed red cells.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Normal or elevated serum ferritin, low total iron-binding capacity, normocytic red cells</div>",
+                  "text": "<div>Pancytopaenia with reticulocytopenia and a hypocellular bone marrow</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This pattern characterises aplastic anaemia — marrow failure. Haemolytic anaemia shows increased reticulocytes as the marrow compensates for accelerated red-cell destruction.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Elevated reticulocyte count, raised LDH, low haptoglobin, and raised unconjugated bilirubin</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In anaemia of chronic disease, interleukin-6 stimulates hepcidin, which traps iron inside macrophages. Ferritin — an acute-phase reactant — rises even as functional iron is unavailable to the marrow. TIBC falls because transferrin synthesis is suppressed. The anaemia is normocytic in about three quarters of cases.</div>",
+                    "chosenFeedback": "<div>Correct. Accelerated red-cell destruction releases LDH and free haemoglobin (which binds haptoglobin, lowering it). Unconjugated bilirubin rises from haem catabolism, and the marrow responds by releasing more reticulocytes.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Low serum ferritin, elevated red cell distribution width, pencil cells on the peripheral smear</div>",
+                  "text": "<div>Macro-ovalocytes and hypersegmented neutrophils on peripheral smear</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Pencil cells, elevated RDW, and low ferritin form the fingerprint of iron deficiency anaemia. Tuberculosis can cause both ACD and IDA, but the hepcidin-mediated trapping pattern of ACD differs fundamentally from true iron depletion.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>High transferrin saturation, elevated ferritin, and ring sideroblasts on marrow examination</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>High transferrin saturation with ring sideroblasts is the pattern of sideroblastic anaemia, where iron loads into mitochondria but cannot be incorporated into haem. This is distinct from both IDA and anaemia of chronic disease.</div>",
+                    "chosenFeedback": "<div>This smear pattern is diagnostic of megaloblastic anaemia from vitamin B12 or folate deficiency, reflecting impaired DNA synthesis rather than red-cell destruction.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key differentiator is ferritin: it is low in iron deficiency anaemia and normal or elevated in anaemia of chronic disease, because in ACD the problem is iron trapping by hepcidin, not iron depletion."
+                  "feedback": "The haemolytic fingerprint is: elevated reticulocytes (marrow compensation), raised LDH and unconjugated bilirubin (from red-cell breakdown), and low haptoglobin (consumed by free haemoglobin). This combination distinguishes haemolysis from other causes of anaemia."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. In ACD, hepcidin traps iron in macrophages: ferritin rises as an acute-phase protein, TIBC falls, and the anaemia is typically normocytic — the opposite of the IDA profile."
+                  "feedback": "Right. These four markers — high reticulocytes, elevated LDH, low haptoglobin, and raised unconjugated bilirubin — together confirm accelerated red-cell destruction and distinguish haemolysis from deficiency states and marrow failure."
                 }
               ],
               "behaviour": {
@@ -261,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "c7ef2abb-f65d-42d8-af96-640b9b0d4979",
+            "subContentId": "14227522-32a6-4420-b77d-4f3ebafde7d9",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 50-year-old man with pulmonary tubercu",
+              "title": "Which combination of laboratory findings",
               "authors": [],
               "changes": []
             }
@@ -287,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 45-year-old male farmworker presents with fatigue and pallor. His haemoglobin </p>",
+          "label": "<p>A 52-year-old man presents with microcytic anaemia, low serum ferritin, and mela</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 45-year-old male farmworker presents with fatigue and pallor. His haemoglobin is 8.6 g/dL with microcytic hypochromic red cells. Which combination of history domains is most essential to determine the aetiology of his anaemia?</p>",
+              "question": "<p>A 52-year-old man presents with microcytic anaemia, low serum ferritin, and melaena. Iron deficiency anaemia is confirmed on laboratory work-up. What should be the primary clinical priority?</p>",
               "answers": [
                 {
-                  "text": "<div>Family history of haemoglobinopathy and dietary history alone</div>",
+                  "text": "<div>Start oral ferrous sulphate and reassess haemoglobin in four weeks</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Family history and dietary iron intake are relevant, but in a middle-aged male farmworker they are insufficient. Gastrointestinal blood loss — including occult malignancy — and occupational hookworm exposure are higher-yield domains that must not be omitted.</div>",
+                    "chosenFeedback": "<div>Starting iron is appropriate but must not be the sole action. In a middle-aged man with melaena, gastrointestinal malignancy must be excluded even when a benign cause is apparent — the dangerous diagnosis hides behind the obvious one.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Gastrointestinal bleeding history, dietary history, and occupational exposure</div>",
+                  "text": "<div>Investigate for underlying gastrointestinal malignancy</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In an adult male with microcytic anaemia, gastrointestinal bleeding must be excluded first, including the possibility of malignancy. Dietary deficiency of haem iron is common. Barefoot farm work is the key occupational exposure for hookworm infestation — a major driver of iron deficiency anaemia in rural India.</div>",
+                    "chosenFeedback": "<div>Correct. This is the safety-netting principle: iron deficiency is the haematological classification, but in a middle-aged man with melaena, GI malignancy is the diagnosis that cannot be missed. Iron replacement treats the effect; investigation targets the cause.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Menstrual history and prior medications</div>",
+                  "text": "<div>Order haemoglobin electrophoresis to exclude thalassaemia trait</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Menstrual history is a high-yield domain for women of reproductive age, where menorrhagia is a leading cause of iron deficiency anaemia in Indian women. It is not applicable to a male patient. Medications are relevant but not the priority in this presentation.</div>",
+                    "chosenFeedback": "<div>A low ferritin already confirms iron deficiency. Thalassaemia trait shows normal or elevated ferritin. This test does not address the critical question of why a middle-aged man has iron deficiency with GI bleeding.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Pica history and prior illness only</div>",
+                  "text": "<div>Refer for immediate bone marrow aspiration</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Pica reliably flags iron deficiency and prior illness matters, but neither alone constitutes the most critical combination for a male farmworker. Gastrointestinal bleeding and hookworm exposure are the domains that most sharply prioritise the differential in this context.</div>",
+                    "chosenFeedback": "<div>Bone marrow aspiration is reserved for unexplained pancytopaenia, suspected infiltration, or refractory anaemia. Here the diagnosis is clear — the priority is identifying the source of bleeding.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In adult males, menstrual history is irrelevant. Focus on gastrointestinal bleeding including occult malignancy, dietary haem-iron sources, and occupational hookworm exposure — the three domains that most sharply narrow the differential for microcytic anaemia in a male farmworker."
+                  "feedback": "The safety-netting principle requires you to ask: what dangerous diagnosis could this presentation be hiding? Here, iron deficiency anaemia is confirmed, but melaena in a 52-year-old demands investigation for gastrointestinal malignancy — the cause behind the deficiency."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. For a male patient with microcytic anaemia, gastrointestinal blood loss, dietary iron intake, and barefoot farm work (hookworm exposure) are the three most yield-generating history domains."
+                  "feedback": "Right. Safety-netting ensures that the dangerous diagnosis hiding behind the obvious one is not missed. Iron deficiency explains the blood picture, but gastrointestinal malignancy explains the bleeding — and that is the diagnosis that cannot be missed."
                 }
               ],
               "behaviour": {
@@ -371,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "22c01267-1c19-4f9b-b2cd-486f2b4735ef",
+            "subContentId": "79666863-2322-4d2f-a7a7-83ef8f960739",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 45-year-old male farmworker presents w",
+              "title": "A 52-year-old man presents with microcyt",
               "authors": [],
               "changes": []
             }
@@ -397,7 +397,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 32-year-old pregnant woman has a haemoglobin of 8.9 g/dL and a mean corpuscula</p>",
+          "label": "<p>In which of the following clinical scenarios is bone marrow aspiration most appr</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 32-year-old pregnant woman has a haemoglobin of 8.9 g/dL and a mean corpuscular volume of 106 fL. Her serum homocysteine is markedly elevated, but serum methylmalonic acid is within normal limits. Which diagnosis does this metabolic pattern most specifically indicate?</p>",
+              "question": "<p>In which of the following clinical scenarios is bone marrow aspiration most appropriately indicated?</p>",
               "answers": [
                 {
-                  "text": "<div>Vitamin B12 deficiency</div>",
+                  "text": "<div>A young woman with microcytic anaemia and a serum ferritin of 5 ng/mL</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Vitamin B12 deficiency elevates both methylmalonic acid and homocysteine. A normal methylmalonic acid level effectively excludes B12 deficiency as the primary cause, because MMA is the most specific confirmatory marker for B12 — it rises only when B12-dependent metabolism is impaired.</div>",
+                    "chosenFeedback": "<div>The low ferritin confirms iron deficiency anaemia. The diagnosis is clear from simpler tests, and bone marrow aspiration would add nothing to management. Start iron replacement.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Folate deficiency</div>",
+                  "text": "<div>A patient with macrocytic anaemia showing a good reticulocyte response to vitamin B12 injections</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A rising reticulocyte count confirms the diagnosis and treatment response. Bone marrow aspiration is unnecessary when simpler tests have identified the cause and treatment is working.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A patient with unexplained pancytopaenia that fails to respond to empirical therapy</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Folate deficiency raises homocysteine because folate is required for the conversion of homocysteine to methionine. However, methylmalonic acid metabolism depends on B12, not folate, so MMA remains normal. Elevated homocysteine with normal MMA therefore points specifically to folate deficiency.</div>",
+                    "chosenFeedback": "<div>Correct. Bone marrow aspiration is reserved for unexplained pancytopaenia, suspected marrow infiltration, or anaemia refractory to treatment. It is not a shortcut around interpreting simpler blood tests.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Iron deficiency anaemia</div>",
+                  "text": "<div>A patient with normocytic anaemia, elevated ferritin, and active pulmonary tuberculosis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Iron deficiency anaemia is microcytic (MCV &lt;80 fL) and does not affect homocysteine or methylmalonic acid. A macrocytic MCV of 106 fL with elevated homocysteine indicates impaired DNA synthesis — a feature of B-vitamin deficiency, not iron metabolism.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Anaemia of chronic disease</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Anaemia of chronic disease is typically normocytic (MCV 80–100 fL) and does not elevate homocysteine or methylmalonic acid. The macrocytic MCV and the metabolic marker pattern here clearly indicate a deficiency of a B-vitamin involved in DNA synthesis.</div>",
+                    "chosenFeedback": "<div>This pattern — normocytic anaemia with elevated ferritin in active infection — is classic anaemia of chronic disease. The hepcidin-mediated mechanism is understood, and the diagnosis follows from the clinical and biochemical picture without marrow sampling.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Both B12 and folate deficiency raise homocysteine. The discriminator is methylmalonic acid: it rises only in B12 deficiency. A normal MMA with elevated homocysteine therefore points to folate, not B12."
+                  "feedback": "Bone marrow aspiration is reserved for specific situations: unexplained pancytopaenia, suspected infiltration, or refractory anaemia. When simpler tests — peripheral smear, iron studies, B12 and folate levels — can establish the diagnosis, marrow aspiration adds cost and discomfort without benefit."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Elevated homocysteine with normal methylmalonic acid is the functional signature of folate deficiency — MMA rises only when B12-dependent metabolism is disrupted."
+                  "feedback": "Right. Bone marrow aspiration is a targeted investigation for specific indications — unexplained pancytopaenia, suspected marrow infiltration, or treatment-refractory anaemia. It should never replace systematic interpretation of the haemogram, smear, and iron studies."
                 }
               ],
               "behaviour": {
@@ -481,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2e005392-baa5-4211-82b1-ecbcac524fdc",
+            "subContentId": "2f46b933-93ac-4ddc-ba07-11d8847dee6b",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 32-year-old pregnant woman has a haemo",
+              "title": "In which of the following clinical scena",
               "authors": [],
               "changes": []
             }
@@ -507,7 +507,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 28-year-old vegetarian woman has a haemoglobin of 7.6 g/dL, a mean corpuscular</p>",
+          "label": "<p>A doctor at a primary health centre is planning an anaemia prevention programme </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -516,41 +516,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 28-year-old vegetarian woman has a haemoglobin of 7.6 g/dL, a mean corpuscular volume of 110 fL, and macro-ovalocytes with hypersegmented neutrophils on the peripheral smear. A colleague proposes prescribing folic acid 5 mg daily immediately, without first checking vitamin B12 levels. Why is this approach potentially dangerous?</p>",
+              "question": "<p>A doctor at a primary health centre is planning an anaemia prevention programme for school-going adolescents. Under the Anaemia Mukt Bharat programme, which supplementation schedule should be implemented?</p>",
               "answers": [
                 {
-                  "text": "<div>Folic acid competes with vitamin B12 for intestinal absorption and will worsen B12 stores</div>",
+                  "text": "<div>Daily iron and folic acid tablets for 100 consecutive days each year</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Folate and B12 use entirely separate absorption mechanisms — intrinsic factor for B12 in the terminal ileum, and folate-specific transporters for dietary folate in the proximal small intestine. There is no direct competition at the absorption level.</div>",
+                    "chosenFeedback": "<div>Daily supplementation under Anaemia Mukt Bharat is prescribed for pregnant women, not adolescents. Adolescents receive a weekly schedule to improve compliance in school-based programmes.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Folic acid corrects the blood count but allows subacute combined degeneration of the spinal cord to progress silently</div>",
+                  "text": "<div>Weekly iron and folic acid tablets</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This is the folic acid trap. If the underlying cause is B12 deficiency, folate normalises haematopoiesis and the haemoglobin rises — masking the diagnosis. However, demyelination of the posterior and lateral columns of the spinal cord continues unchecked and can become irreversible. B12 status must be confirmed before folate is prescribed alone.</div>",
+                    "chosenFeedback": "<div>Correct. The Anaemia Mukt Bharat programme prescribes weekly iron and folic acid for adolescents, while pregnant women receive daily supplementation throughout pregnancy and for 180 days postpartum.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Folic acid supplementation is contraindicated during the first trimester of pregnancy</div>",
+                  "text": "<div>Monthly intramuscular iron dextran injections</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The opposite is true. Folic acid 400 micrograms daily is recommended periconceptionally and throughout the first trimester to prevent neural tube defects. High-dose folic acid is also used safely in confirmed folate deficiency.</div>",
+                    "chosenFeedback": "<div>Parenteral iron is reserved for individual patients with malabsorption or intolerance to oral iron. Population-level programmes use oral supplementation for feasibility and cost-effectiveness.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>High-dose folate causes thrombocytosis, which increases the risk of venous thromboembolism</div>",
+                  "text": "<div>Iron tablets only during confirmed anaemia episodes</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Folic acid does not cause thrombocytosis. The danger of giving folate without checking B12 is entirely neurological: it masks the haematological abnormality of B12 deficiency while spinal cord degeneration advances.</div>",
+                    "chosenFeedback": "<div>Anaemia Mukt Bharat is a prophylactic programme targeting all adolescents regardless of haemoglobin status. Waiting for confirmed anaemia defeats the preventive purpose of the programme.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -559,12 +559,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The folic acid trap: folate corrects the blood picture in B12 deficiency, but subacute combined degeneration of the spinal cord progresses silently and can become irreversible. Always check vitamin B12 levels first."
+                  "feedback": "The Anaemia Mukt Bharat programme prescribes weekly iron and folic acid tablets for adolescents and daily supplementation for pregnant women throughout pregnancy and for 180 days postpartum. The programme is prophylactic, targeting all individuals in these groups regardless of current anaemia status."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Always exclude B12 deficiency before prescribing folate alone — folate relieves the anaemia but cannot prevent or reverse B12-mediated subacute combined degeneration of the spinal cord."
+                  "feedback": "Right. Anaemia Mukt Bharat targets all life stages: weekly IFA for adolescents, daily IFA for pregnant women throughout pregnancy and 180 days postpartum. This prophylactic approach addresses the 57% anaemia prevalence among Indian women aged 15–49."
                 }
               ],
               "behaviour": {
@@ -591,11 +591,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ad581769-e21e-4ffd-ab27-0a2196ed261f",
+            "subContentId": "7315fa70-3b78-4131-bdcd-368d9938666d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 28-year-old vegetarian woman has a hae",
+              "title": "A doctor at a primary health centre is p",
               "authors": [],
               "changes": []
             }
@@ -662,7 +662,7 @@
       ],
       "endscreens": [
         {
-          "time": 940,
+          "time": 936,
           "label": "End"
         }
       ]
@@ -674,7 +674,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "2289b0a8-d0df-4baf-a825-5b7dd4eae76a",
+              "subContentId": "624cc309-9af3-470e-9a72-dfa48fb482bd",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -697,7 +697,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "e9e5f4da-bced-47bd-bce7-0c31f207f023",
+        "subContentId": "eaea7bce-5610-47cc-ae24-601ced465391",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
