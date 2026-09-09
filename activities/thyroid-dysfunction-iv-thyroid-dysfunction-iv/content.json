@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/ff831784-f76e-42d2-8fbe-53e8aaf874b8/playlist.m3u8",
+          "path": "https://vdo.cbme.in/0d6c3866-9d5f-4e87-b498-653770bdf4b0/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "IM12.1-14 | Thyroid Dysfunction — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for IM12.1-IM12.9."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for IM12.1-IM12.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -79,38 +79,38 @@
               "question": "<p>Why is serum TSH considered the most sensitive marker for detecting primary thyroid dysfunction?</p>",
               "answers": [
                 {
-                  "text": "<div>TSH is produced directly by the thyroid gland and therefore reflects its function most accurately</div>",
+                  "text": "<div>It directly measures the concentration of biologically active T3 entering target cells</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>TSH is produced by thyrotrophs in the anterior pituitary, not by the thyroid gland. The thyroid produces T4 and T3.</div>",
+                    "chosenFeedback": "<div>TSH is a pituitary hormone that reflects the pituitary's response to circulating thyroid hormones. It does not directly measure T3 at the tissue level.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>TSH responds logarithmically to even small changes in free T4 levels</div>",
+                  "text": "<div>TSH responds logarithmically to small changes in free T4, detecting dysfunction before hormone levels become overtly abnormal</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. A small decline in free T4 triggers a disproportionately large TSH rise because the relationship is logarithmic. This amplification makes TSH the earliest marker of primary thyroid dysfunction.</div>",
+                    "chosenFeedback": "<div>Correct. The logarithmic TSH–free T4 relationship means even a minor dip in free T4 drives a disproportionately large TSH rise, flagging primary dysfunction at the subclinical stage.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>TSH remains stable regardless of thyroid hormone fluctuations, providing a reliable baseline</div>",
+                  "text": "<div>TSH levels remain stable during non-thyroidal illness, ensuring reliability in all clinical settings</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The opposite is true. TSH is exquisitely sensitive to thyroid hormone changes through negative feedback — this sensitivity is precisely why it is the best screening marker.</div>",
+                    "chosenFeedback": "<div>TSH is actually unreliable in three settings: acute non-thyroidal illness (sick euthyroid syndrome), pituitary disease, and recent thyroid status change.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>TSH directly measures total thyroid hormone concentrations in the blood</div>",
+                  "text": "<div>TSH is the only thyroid marker unaffected by serum binding proteins</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>TSH does not measure thyroid hormones at all. It is itself a pituitary hormone whose secretion responds to free (not total) T4 and T3 via negative feedback.</div>",
+                    "chosenFeedback": "<div>While TSH is unaffected by binding proteins, this is not what makes it the most sensitive marker. Its logarithmic amplification of small free T4 changes is the key property.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "TSH responds logarithmically to small changes in free T4. A modest fall in free T4 drives a disproportionately large TSH rise, making it the earliest and most sensitive detector of primary thyroid dysfunction."
+                  "feedback": "TSH responds logarithmically to even small changes in free T4. A minor fall in T4 drives a disproportionately large TSH rise, flagging dysfunction before free T4 or free T3 levels become overtly abnormal."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "The logarithmic TSH–free T4 curve means TSH flags dysfunction before free T4 leaves the reference range. This is why TSH is always the first-line screening test for primary thyroid disease."
+                  "feedback": "Correct! TSH amplifies small changes in free T4 logarithmically — a minor fall in free T4 drives a disproportionately large rise in TSH, making it the earliest detector of primary thyroid dysfunction."
                 }
               ],
               "behaviour": {
@@ -151,7 +151,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "c254322b-c9ed-4808-b146-306229e28fa1",
+            "subContentId": "d0e2bded-3581-4559-bfe2-996328bd4caa",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -177,43 +177,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A normal serum TSH result reliably excludes primary thyroid dysfunction in all c</p>",
+          "label": "<p>A patient with thyrotoxicosis tests positive for anti-thyroid peroxidase (anti-T</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A normal serum TSH result reliably excludes primary thyroid dysfunction in all clinical settings, including during acute illness and suspected pituitary disease.</p>",
-              "correct": "false",
+              "question": "<p>A patient with thyrotoxicosis tests positive for anti-thyroid peroxidase (anti-TPO) antibodies. Which additional test reliably distinguishes Graves disease from Hashimoto thyroiditis?</p>",
+              "answers": [
+                {
+                  "text": "<div>Anti-thyroglobulin antibody</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Anti-thyroglobulin antibodies may be positive in Hashimoto thyroiditis but are less specific and do not distinguish it from Graves disease, since both conditions can show anti-TPO positivity.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>TSH receptor antibody (TRAb)</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. TRAb (the thyroid-stimulating immunoglobulin) binds and activates the TSH receptor, driving Graves disease. It is present in Graves disease and absent in Hashimoto thyroiditis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Serum free T3-to-T4 ratio</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While an elevated free T3/T4 ratio may suggest increased intrathyroidal T3 production, it is not the definitive antibody test that distinguishes the two autoimmune conditions.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Erythrocyte sedimentation rate</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>ESR is a nonspecific inflammatory marker. It may be elevated in subacute thyroiditis but does not differentiate Graves disease from Hashimoto thyroiditis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Anti-TPO antibodies are positive in both Hashimoto thyroiditis and Graves disease, so they cannot separate them. The TSH receptor antibody (TRAb) is present only in Graves disease, making it the definitive distinguishing test."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct! Anti-TPO antibodies are positive in both Hashimoto and Graves disease, so they cannot distinguish between the two. TRAb is present only in Graves disease and is the definitive distinguishing test."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "A normal TSH does exclude primary thyroid dysfunction in stable outpatients. However, three exceptions make it unreliable: acute illness (sick euthyroid syndrome mimics thyroid patterns), pituitary disease (TSH itself is deficient), and recent thyroid status change (TSH lags behind). These were explicitly highlighted as the three settings to remember.",
-                "correctAnswerMessage": "Correct. While a normal TSH in a stable outpatient virtually excludes primary thyroid disease, three settings make it unreliable: acute illness (sick euthyroid syndrome), pituitary disease (secondary hypothyroidism), and recent thyroid status change. In these contexts, a normal TSH cannot be trusted.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "33da0b0f-237f-43a9-9dfa-07b7d38759ce",
+            "subContentId": "4177c058-9f02-4b2d-9ee9-9da8cf2367d5",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A normal serum TSH result reliably exclu",
+              "title": "A patient with thyrotoxicosis tests posi",
               "authors": [],
               "changes": []
             }
@@ -235,95 +287,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 28-year-old woman with confirmed thyrotoxicosis presents with tachycardia, lid</p>",
+          "label": "<p>Lid retraction and lid lag are specific clinical signs of Graves disease and are</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A 28-year-old woman with confirmed thyrotoxicosis presents with tachycardia, lid retraction, and lid lag but has no proptosis, no thyroid bruit, and no pretibial myxoedema. Which conclusion is most appropriate?</p>",
-              "answers": [
-                {
-                  "text": "<div>These findings are sufficient to diagnose Graves disease</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Lid retraction and lid lag are driven by sympathetic overactivation and occur in all causes of thyrotoxicosis. Diagnosing Graves based on these alone is the classic student error identified in this video.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Lid retraction is mediated by thyroid receptor antibodies and therefore confirms Graves disease</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Lid retraction is caused by sympathetic stimulation of Müller's muscle, not by thyroid receptor antibodies. It is non-specific to Graves disease.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The Graves-specific triad is absent, so alternative causes of thyrotoxicosis must be considered</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Exophthalmos, thyroid bruit, and pretibial myxoedema form the Graves-specific triad, all mediated by TRAb acting on orbital fibroblasts, intrathyroidal vasculature, and cutaneous fibroblasts respectively. Their absence means Graves cannot be confirmed clinically.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Pretibial myxoedema is a late finding that develops only in advanced disease and has no early diagnostic value</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Pretibial myxoedema is not a late-stage progression marker. It is a disease-specific sign of Graves disease mediated by TRAb acting on dermal fibroblasts. Its presence or absence is diagnostically meaningful at any stage.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Lid retraction and lid lag are sympathetic-driven signs seen in any cause of thyrotoxicosis. The triad specific to Graves disease is exophthalmos, thyroid bruit, and pretibial myxoedema — all mediated by thyroid receptor antibodies. Without this triad, alternative aetiologies must be actively considered."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "The Graves triad — exophthalmos, thyroid bruit, and pretibial myxoedema — is antibody-mediated and disease-specific. Lid retraction and lid lag are sympathetic signs common to all thyrotoxicosis. Separating the two prevents premature diagnostic closure."
-                }
-              ],
+              "question": "<p>Lid retraction and lid lag are specific clinical signs of Graves disease and are not seen in other causes of thyrotoxicosis.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Lid retraction and lid lag are driven by sympathetic overactivation and occur in ALL forms of thyrotoxicosis, not just Graves disease. The Graves-specific triad is exophthalmos, thyroid bruit, and pretibial myxoedema — all TRAb-mediated.",
+                "correctAnswerMessage": "Correct. Lid retraction and lid lag are driven by sympathetic overactivation and occur in all forms of thyrotoxicosis. The triad specific to Graves disease is exophthalmos, thyroid bruit, and pretibial myxoedema — all mediated by TSH receptor antibodies.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "1e15b462-b14c-41ed-bcb7-608136e8e137",
+            "subContentId": "19db46b8-cc62-41aa-b257-32be5246271f",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "A 28-year-old woman with confirmed thyro",
+              "title": "Lid retraction and lid lag are specific",
               "authors": [],
               "changes": []
             }
@@ -339,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 683.05,
-            "to": 693.05
+            "from": 607.375,
+            "to": 617.375
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 55-year-old hypothyroid patient's ECG shows sinus bradycardia, low-voltage com</p>",
+          "label": "<p>A patient's thyroid function tests show suppressed TSH with normal free T4. Befo</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 55-year-old hypothyroid patient's ECG shows sinus bradycardia, low-voltage complexes, and electrical alternans with alternating QRS heights. What is the most important next investigation?</p>",
+              "question": "<p>A patient's thyroid function tests show suppressed TSH with normal free T4. Before labelling this as subclinical hyperthyroidism, which investigation must be ordered next?</p>",
               "answers": [
                 {
-                  "text": "<div>Repeat thyroid function tests to confirm the severity of hypothyroidism</div>",
+                  "text": "<div>Anti-thyroid peroxidase antibodies</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The patient is already known to be hypothyroid. The ECG pattern — particularly electrical alternans — points to a specific cardiac complication that needs urgent assessment beyond confirming the thyroid status.</div>",
+                    "chosenFeedback": "<div>Anti-TPO antibodies help confirm autoimmune aetiology but do not resolve whether this pattern represents subclinical hyperthyroidism or T3 toxicosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Echocardiography to evaluate for pericardial effusion</div>",
+                  "text": "<div>Total T4</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Total T4 includes protein-bound hormone and is less informative than free T4, which has already been measured. The missing piece is a different hormone entirely.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Free T3</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In hypothyroidism, low-voltage complexes combined with electrical alternans strongly suggest pericardial effusion. The fluid causes the heart to swing within the pericardium, producing alternating QRS heights. Echocardiography confirms the diagnosis and is urgent.</div>",
+                    "chosenFeedback": "<div>Correct. If free T3 is elevated despite normal free T4, the diagnosis is T3 toxicosis — the gland is preferentially secreting T3. Missing this pattern leaves thyrotoxicosis undertreated.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Coronary angiography to exclude ischaemic heart disease</div>",
+                  "text": "<div>Thyroid ultrasound</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Electrical alternans is not a feature of coronary artery disease. The combination of low voltage and alternating QRS heights in hypothyroidism specifically indicates pericardial effusion, not ischaemia.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>24-hour Holter monitoring to detect paroxysmal arrhythmias</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The alternating QRS heights represent electrical alternans from the heart swinging within a pericardial effusion, not a rhythm disturbance. Echocardiography, not Holter monitoring, is the appropriate next step.</div>",
+                    "chosenFeedback": "<div>Ultrasound assesses gland morphology and nodularity but cannot distinguish subclinical hyperthyroidism from T3 toxicosis. The biochemical test must come first.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In hypothyroidism, sinus bradycardia and low-voltage complexes are common. When electrical alternans is also present — beat-to-beat variation in QRS height — pericardial effusion must be suspected. Echocardiography is the urgent investigation to confirm this."
+                  "feedback": "When TSH is suppressed but free T4 is normal, always measure free T3. If free T3 is elevated, the diagnosis is T3 toxicosis — not subclinical hyperthyroidism. Missing this leaves thyrotoxicosis undertreated."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Electrical alternans in a hypothyroid patient is a red flag for pericardial effusion. The swinging heart produces the alternating QRS pattern. Recognising this combination and ordering echocardiography promptly can prevent tamponade."
+                  "feedback": "Correct! Suppressed TSH with normal free T4 could be T3 toxicosis, where the gland preferentially secretes T3. Always measure free T3 before concluding subclinical hyperthyroidism."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e85a5f73-171c-4a64-83d3-56665e1b0d83",
+            "subContentId": "1b7807a5-6d5e-47f5-98bf-aa942b27eabf",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 55-year-old hypothyroid patient's ECG",
+              "title": "A patient's thyroid function tests show",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 784.4499999999999,
+            "to": 794.4499999999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A pregnant woman with Graves disease requires antithyroid medication in her firs</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A pregnant woman with Graves disease requires antithyroid medication in her first trimester. Which drug is preferred, and why?</p>",
+              "answers": [
+                {
+                  "text": "<div>Carbimazole, because it has a longer duration of action and better compliance</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Carbimazole is contraindicated in the first trimester because it causes aplasia cutis (absence of scalp skin) and other midline defects during early foetal development.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Propylthiouracil, because carbimazole causes aplasia cutis and midline defects during this developmental window</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. PTU is the safer choice in the first trimester. Once the vulnerable developmental window closes, switch to carbimazole from the second trimester onward.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Radioiodine, because it provides definitive cure without prolonged drug exposure</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Radioiodine is absolutely contraindicated in pregnancy. The foetal thyroid begins concentrating iodine from week 10, and radiation would destroy it.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Propranolol, because it controls symptoms without affecting thyroid hormone synthesis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Propranolol is a beta-blocker that controls adrenergic symptoms but does not reduce thyroid hormone production. An antithyroid drug is still essential.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Propylthiouracil is the preferred antithyroid drug in the first trimester. Carbimazole causes aplasia cutis and midline defects during early foetal development. Switch to carbimazole from the second trimester onward."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct! PTU is preferred in the first trimester to avoid carbimazole's teratogenic effects. Switch to carbimazole in the second trimester once the critical developmental window closes."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "6329d0d9-d1cb-443d-878b-4dab20f8553d",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A pregnant woman with Graves disease req",
               "authors": [],
               "changes": []
             }
@@ -467,38 +577,38 @@
               "question": "<p>In thyroid storm management, why must propylthiouracil be administered before Lugol's iodine?</p>",
               "answers": [
                 {
-                  "text": "<div>Propylthiouracil enhances iodine uptake by the thyroid, making Lugol's iodine more effective</div>",
+                  "text": "<div>PTU takes longer to reach peak effect, so giving it first ensures both drugs act simultaneously</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Propylthiouracil blocks thyroid peroxidase, inhibiting hormone synthesis. It does not enhance iodine uptake. The sequencing is about blocking the enzyme before providing its substrate.</div>",
+                    "chosenFeedback": "<div>The sequencing is not about synchronising peak effects. It is about blocking the synthetic enzyme before providing its substrate.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Lugol's iodine chemically inactivates propylthiouracil if given at the same time</div>",
+                  "text": "<div>Lugol's iodine chemically inactivates PTU if given first, reducing its efficacy</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>There is no chemical interaction between the two drugs. The sequencing is based on enzyme physiology — blocking thyroid peroxidase before supplying its substrate — not on a drug–drug interaction.</div>",
+                    "chosenFeedback": "<div>There is no direct chemical interaction between iodine and PTU. The reason relates to what happens inside the thyroid gland when iodine reaches an unblocked enzyme.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Iodine given before synthesis is blocked provides substrate to still-active thyroid peroxidase, increasing hormone production</div>",
+                  "text": "<div>PTU must block thyroid peroxidase first; otherwise iodine provides substrate to the still-active enzyme, increasing hormone release</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. If iodine is given while thyroid peroxidase is still active, the enzyme uses the iodine to synthesise more thyroid hormone, worsening the crisis. PTU must first block the enzyme and peripheral T4-to-T3 conversion; Lugol's iodine follows after one to two hours.</div>",
+                    "chosenFeedback": "<div>Correct. PTU blocks thyroid peroxidase and peripheral T4-to-T3 conversion. If Lugol's iodine is given first, the still-active enzyme uses the iodine to produce even more thyroid hormone, worsening the crisis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Propylthiouracil must first lower the heart rate to a safe level before iodine administration</div>",
+                  "text": "<div>Lugol's iodine causes anaphylaxis unless PTU is given as premedication</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Heart rate control is the role of propranolol, a beta-blocker given after the PTU-then-iodine sequence. Propylthiouracil blocks hormone synthesis and peripheral T4-to-T3 conversion; it has no direct cardiac rate effect.</div>",
+                    "chosenFeedback": "<div>Lugol's iodine does not require premedication for anaphylaxis. The sequencing is based on blocking hormone synthesis before providing its raw material.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +617,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Giving iodine before blocking thyroid peroxidase provides fresh substrate to a still-active enzyme, paradoxically increasing hormone production. The correct sequence is: propylthiouracil first (blocks synthesis + peripheral conversion), then Lugol's iodine after 1–2 hours, followed by propranolol and hydrocortisone."
+                  "feedback": "PTU must block thyroid peroxidase before iodine is given. If Lugol's iodine is administered first, the still-active enzyme uses the iodine substrate to synthesise more hormone, paradoxically worsening the thyroid storm."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "The thyroid storm sequence is fixed: PTU blocks synthesis and peripheral conversion first; Lugol's iodine follows after 1–2 hours once the enzyme is inhibited; propranolol then controls the adrenergic surge; hydrocortisone covers adrenal insufficiency. Reversing the PTU–iodine order worsens the crisis."
+                  "feedback": "Correct! PTU blocks the synthetic enzyme first, then Lugol's iodine can safely inhibit further hormone release. Reversing the order feeds an active enzyme and paradoxically worsens the thyroid storm."
                 }
               ],
               "behaviour": {
@@ -539,7 +649,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ca190bb2-1360-4c1c-9687-021926169b8b",
+            "subContentId": "596776d5-d4b2-4873-87dc-367782188ec9",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -602,7 +712,7 @@
       ],
       "endscreens": [
         {
-          "time": 948,
+          "time": 949,
           "label": "End"
         }
       ]
@@ -614,7 +724,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "91e0da85-552e-407a-b523-5376af8e88f6",
+              "subContentId": "bed9fb2d-27c0-4433-96e6-f9900fc5761c",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -637,7 +747,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "03734dd2-de4c-4121-bb74-048a8f3dba26",
+        "subContentId": "16e12f88-db46-46ac-b503-4c8a7fd46cf4",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
