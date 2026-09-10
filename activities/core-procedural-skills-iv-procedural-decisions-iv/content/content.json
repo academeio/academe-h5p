@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/a93b1cc0-89ed-403e-bfd9-a08301b0961f/playlist.m3u8",
+          "path": "https://vdo.cbme.in/482b49a4-a632-4143-be0c-d8f93f68367b/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OG19.3,OG35.{15-18,20},OG36.3 | Core Procedural Skills — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 3 embedded questions for OG35.1-OG35.9."
+        "shortStartDescription": "Interactive lecture with 4 embedded questions for OG35.1-OG35.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 101.3,
-            "to": 111.3
+            "from": 51.074999999999996,
+            "to": 61.074999999999996
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which of the following best explains why Pap smear screening and cervical punch </p>",
+          "label": "<p>In a patient with a visible cauliflower-like growth on the ectocervix showing co</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which of the following best explains why Pap smear screening and cervical punch biopsy serve complementary rather than interchangeable roles in cervical cancer management?</p>",
+              "question": "<p>In a patient with a visible cauliflower-like growth on the ectocervix showing contact bleeding, what is the most appropriate immediate investigation?</p>",
               "answers": [
                 {
-                  "text": "<div>Pap smear detects pre-invasive cellular changes in asymptomatic women, while punch biopsy provides tissue histology for visible or colposcopically detected lesions</div>",
+                  "text": "<div>Conventional Pap smear from the transformation zone</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A Pap smear is a screening tool for asymptomatic women. When a visible suspicious lesion is already present, cytology cannot substitute for tissue histology, and proceeding with a smear delays definitive diagnosis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Punch biopsy directly from the visible lesion</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Exactly. Cytology is a population-level screening tool designed for asymptomatic pre-invasive detection, while biopsy yields tissue architecture for histological diagnosis — each addresses a different stage of the cervical disease pathway.</div>",
+                    "chosenFeedback": "<div>Correct. When a clinically obvious lesion is visible, punch biopsy from the suspicious area provides histological tissue diagnosis — cytology (Pap smear) cannot substitute for histology in this setting.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Pap smear is more sensitive than biopsy for detecting invasive carcinoma</div>",
+                  "text": "<div>Visual inspection with acetic acid (VIA) before any sampling</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The Pap smear is designed for screening pre-invasive changes, not for detecting invasive carcinoma. When invasive disease is suspected clinically, tissue biopsy — not cytology — is the definitive investigation.</div>",
+                    "chosenFeedback": "<div>VIA is a low-resource screening alternative for asymptomatic women. When a frank lesion with contact bleeding is already visible on speculum examination, direct biopsy — not another screening tool — is required for histological confirmation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Punch biopsy is a screening tool used before Pap smear in high-risk populations</div>",
+                  "text": "<div>Endocervical curettage followed by cytological analysis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Punch biopsy is a diagnostic procedure triggered by abnormal cytology or clinical findings, not a screening tool. Pap smear remains the population-level screening test.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Both procedures sample the transformation zone but Pap smear is preferred due to lower cost</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Although both may sample the transformation zone area, they yield fundamentally different information — cellular morphology (cytology) versus tissue architecture (histology) — making them complementary, not simply a cost trade-off.</div>",
+                    "chosenFeedback": "<div>Endocervical curettage may supplement colposcopy-directed biopsies but is not the first-line investigation when an obvious ectocervical growth is visible and directly accessible for punch biopsy.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Not quite. The key distinction is that Pap smear is a population-level screening tool for asymptomatic pre-invasive detection, while punch biopsy provides tissue histology for diagnosis — they serve different and complementary stages of cervical cancer management."
+                  "feedback": "When a visible cervical lesion with contact bleeding is present, the correct approach is to perform a punch biopsy directly from the lesion. Cytology (Pap smear) is a screening tool and cannot substitute for tissue histology."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! Cytology screens asymptomatic women for pre-invasive changes, while punch biopsy provides tissue for histological diagnosis of visible or colposcopically abnormal lesions — they are complementary tools in the cervical disease pathway."
+                  "feedback": "Correct. When an obvious cervical lesion is visible, a punch biopsy provides the tissue histology needed for diagnosis — a Pap smear is a screening tool and cannot replace histological confirmation."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ccf9ad8d-87ac-43d4-aec7-203344e5034d",
+            "subContentId": "9eb43b53-b483-40b9-8a8c-6e49240b2b6f",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which of the following best explains why",
+              "title": "In a patient with a visible cauliflower-",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 198.2,
-            "to": 208.2
+            "from": 152.825,
+            "to": 162.825
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>What makes artificial rupture of membranes (ARM) categorically different from mo</p>",
+          "label": "<p>Why does the Bethesda system classify a Pap smear as 'unsatisfactory for evaluat</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>What makes artificial rupture of membranes (ARM) categorically different from most other diagnostic procedures performed during labour?</p>",
+              "question": "<p>Why does the Bethesda system classify a Pap smear as 'unsatisfactory for evaluation'?</p>",
               "answers": [
                 {
-                  "text": "<div>It requires general anaesthesia, unlike other labour procedures</div>",
+                  "text": "<div>The patient was not fasting before the procedure</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. ARM is performed without general anaesthesia — it is done during vaginal examination using an amniotic hook. The distinguishing feature is its irreversibility, not the anaesthesia requirement.</div>",
+                    "chosenFeedback": "<div>Fasting is not required for a Pap smear. Unsatisfactory classification relates to specimen adequacy — specifically, absent transformation zone cells, poor cellular transfer to the slide, or inadequate fixation allowing air-drying distortion.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It is irreversible — once performed, the sterile amniotic environment is permanently lost</div>",
+                  "text": "<div>The smear lacks cells from the transformation zone, has poor cellular transfer, or was not fixed promptly</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Once the membranes are ruptured, the protective sterile barrier is permanently removed. The foetus is exposed to ascending infection from the birth canal, and every hour of ruptured membranes without delivery increases chorioamnionitis risk.</div>",
+                    "chosenFeedback": "<div>Correct. All three conditions must be met for adequacy: cells from both ecto- and endocervix (transformation zone) must be present, properly transferred without crushing or streaming artefact, and fixed within seconds to prevent air-drying distortion of nuclear morphology.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It can only be performed by a consultant obstetrician</div>",
+                  "text": "<div>The cervix showed visible inflammation that obscured all epithelial cells</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. ARM can be performed by trained residents under supervision. Its distinguishing feature is not who performs it but that it permanently removes the amniotic barrier, committing the team to completing delivery.</div>",
+                    "chosenFeedback": "<div>While inflammatory exudate can obscure cells, the primary causes of an unsatisfactory smear are absence of transformation zone cells, inadequate transfer technique, or delayed fixation — all procedural factors under the operator's control.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It carries a unique risk of uterine rupture that other procedures do not</div>",
+                  "text": "<div>The endocervical brush was not inserted deep enough into the cervical canal</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While uterine rupture is a concern in specific obstetric contexts, it is not what makes ARM categorically different. ARM's defining feature is its irreversibility and the resulting time-dependent infection risk.</div>",
+                    "chosenFeedback": "<div>While brush technique affects cell yield, the Bethesda unsatisfactory classification applies when the overall specimen fails one or more of three conditions: transformation zone representation, artefact-free transfer, and timely fixation before air-drying.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Not quite. ARM's defining feature is its irreversibility — once the membranes are ruptured, the sterile amniotic environment is permanently lost, creating time-dependent infection risk and committing the team to completing delivery."
+                  "feedback": "A Pap smear is classified as unsatisfactory when it fails one or more of three conditions: cells from the transformation zone must be present, they must be adequately transferred without crushing or streaming artefact, and the slide must be fixed immediately before air-drying distorts nuclear morphology."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! ARM permanently removes the protective amniotic barrier, exposing the foetus to ascending infection and committing the obstetric team to active surveillance and timely delivery."
+                  "feedback": "Correct. The three conditions for Pap smear adequacy are: transformation zone cell representation, artefact-free transfer to the slide, and immediate fixation — failure at any step produces an unsatisfactory smear under the Bethesda system."
                 }
               ],
               "behaviour": {
@@ -261,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "4aa37bb6-8a2d-47c5-91b2-4486b47c2c29",
+            "subContentId": "aa41a97a-da02-41e6-807b-08695c338a98",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "What makes artificial rupture of membran",
+              "title": "Why does the Bethesda system classify a",
               "authors": [],
               "changes": []
             }
@@ -281,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 293.525,
-            "to": 303.525
+            "from": 251.72499999999997,
+            "to": 261.72499999999997
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>What is the most important distinction an observer should recognise when identif</p>",
+          "label": "<p>Which pair of errors does an understanding of uterine cavity dimensions help pre</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>What is the most important distinction an observer should recognise when identifying different tubal ligation techniques during surgery?</p>",
+              "question": "<p>Which pair of errors does an understanding of uterine cavity dimensions help prevent during IUCD insertion?</p>",
               "answers": [
                 {
-                  "text": "<div>Whether the procedure is performed under general or regional anaesthesia</div>",
+                  "text": "<div>Uterine perforation from excessive fundal pressure and device migration into the Fallopian tube</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The anaesthesia type is an anaesthetic decision, not a surgical classification. The critical distinction lies in whether the tube is excised or merely occluded, as this determines reversal potential.</div>",
+                    "chosenFeedback": "<div>While perforation is a recognised risk, the primary pair of errors relates to device-cavity size mismatch (risking perforation and expulsion) and failure to achieve fundal placement (reducing efficacy). Migration into the Fallopian tube is an extremely rare event, not the key teaching point.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Whether the technique uses laparoscopy or laparotomy as the approach</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The surgical approach (laparoscopic vs open) is about access, not the tissue-handling principle. Modified Pomeroy can be done via minilaparotomy, while rings and clips are applied laparoscopically — but the key classification is excision versus occlusion.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Whether a segment of tube is excised or the tube is occluded without excision</div>",
+                  "text": "<div>Inserting a device too large for the cavity (risking perforation and expulsion) and failure to achieve fundal placement (reducing efficacy)</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Excision techniques (modified Pomeroy, fimbriectomy, Uchida) remove a tubal segment and allow histological confirmation, while occlusion techniques (Irving, rings, clips) block the lumen without removal — directly determining reversal potential.</div>",
+                    "chosenFeedback": "<div>Correct. These are the two critical errors: a device-cavity mismatch increases perforation and expulsion risk, while failure to seat the device at the fundus — the widest point (~4 cm) — significantly reduces contraceptive efficacy.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Whether absorbable or non-absorbable suture material is used</div>",
+                  "text": "<div>Cervical stenosis preventing insertion and endometrial damage from incorrect device orientation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While suture choice matters for the modified Pomeroy technique specifically (absorbable suture allows tubal stumps to separate), it is not the overarching classification. The fundamental distinction is excision versus occlusion of the tube.</div>",
+                    "chosenFeedback": "<div>Cervical stenosis is an insertion challenge but is not directly related to cavity dimension matching. The two critical errors are device-cavity size mismatch and failure to achieve fundal placement.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Expulsion from a cavity that is too large and decreased efficacy from hormonal absorption by the myometrium</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The typical mismatch concern is a device too large for the cavity, not the reverse. The two key errors are attempting insertion into a cavity too small for the device (perforation/expulsion risk) and failing to achieve fundal placement (reduced efficacy).</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Not quite. The crucial distinction is between excision techniques (modified Pomeroy, fimbriectomy, Uchida) that remove a tubal segment, and occlusion techniques (Irving, rings, clips) that block the lumen without removal — this determines reversal potential and histological confirmation."
+                  "feedback": "The two critical errors are: (1) attempting insertion of a device too large for the uterine cavity, which increases expulsion and perforation risk, and (2) failing to achieve fundal placement, which reduces contraceptive efficacy. The uterine cavity is triangular and widest at the fundus (~4 cm)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! Recognising whether a technique excises tubal tissue or merely occludes the lumen is the key classification — it determines both the potential for surgical reversal and whether histological confirmation of the correct structure is available."
+                  "feedback": "Correct. Understanding uterine cavity dimensions prevents two critical errors: inserting a device into a cavity too small for it (increasing perforation and expulsion risk) and failing to achieve fundal placement (reducing contraceptive efficacy)."
                 }
               ],
               "behaviour": {
@@ -371,11 +371,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "b8ca0135-fb1f-480a-8b0d-2f68a579f73f",
+            "subContentId": "9d4efc24-1c98-4869-8c03-31ad663708f0",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "What is the most important distinction a",
+              "title": "Which pair of errors does an understandi",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 349.325,
+            "to": 359.325
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A medical student is learning to perform a Pap smear. According to competency-ba</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A medical student is learning to perform a Pap smear. According to competency-based training principles, what is the correct sequence for skill acquisition?</p>",
+              "answers": [
+                {
+                  "text": "<div>Watch a demonstration, then perform the complete procedure under supervision on a patient</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Directly performing the complete procedure after demonstration skips the critical step of isolated component practice. The chunked approach — practise each component (speculum insertion, spatula angulation, brush technique) separately on simulation models — builds reliable motor patterns before integration.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Study the theory, then perform the complete procedure independently on a simulation model</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While simulation practice is correct, performing the complete procedure immediately skips the essential step of isolating and mastering individual components before integrating them. Independent practice also skips the supervised clinical stage.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Practise each component skill in isolation on a simulation model, integrate the full sequence, then apply under clinical supervision</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Competency-based training requires chunking — speculum insertion, spatula angulation, brush rotation, and slide fixation are each practised separately, then integrated into the complete procedure on simulation, before supervised clinical application with validated checklist assessment.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Practise on a simulation model using the procedural checklist, then immediately proceed to independent clinical practice</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Proceeding directly to independent practice without supervised clinical application violates the training hierarchy. Skills must progress from isolated component practice → integrated simulation → supervised clinical practice, with validated checklist assessment at each stage.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The correct sequence for competency-based procedural training is: chunk each skill → practise components in isolation on simulation models → integrate into the complete procedure → apply under supervised clinical conditions. Assessment at each stage uses validated procedural checklists."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. The competency-based approach follows a sequence: chunk individual skills → practise each in isolation on simulation → integrate the complete procedure → apply under supervised clinical conditions, assessed with validated procedural checklists."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "1740210c-0101-483f-a1da-a4323167cc30",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A medical student is learning to perform",
               "authors": [],
               "changes": []
             }
@@ -401,32 +511,32 @@
         },
         {
           "time": 51,
-          "label": "When and Why: Indications for Cervical Cytology and Biops…"
+          "label": "When and Why: Indications for Cervical Cytology and Biopsy."
         },
         {
-          "time": 101,
-          "label": "Pap Smear Technique: Step-by-Step The Pap smear technique…"
+          "time": 103,
+          "label": "Pap Smear Technique: Step-by-Step."
         },
         {
-          "time": 151,
-          "label": "Artificial Rupture of Membranes (ARM): Technique ARM is a…"
+          "time": 153,
+          "label": "Artificial Rupture of Membranes (ARM): Technique."
         },
         {
-          "time": 198,
-          "label": "Uterine Anatomy and IUCD Device Types A working knowledge…"
+          "time": 202,
+          "label": "Uterine Anatomy and IUCD Device Types."
         },
         {
-          "time": 246,
-          "label": "Techniques of Tubal Ligation: What the Observer Sees Mult…"
+          "time": 252,
+          "label": "Techniques of Tubal Ligation: What the Observer Sees."
         },
         {
-          "time": 294,
-          "label": "Simulated Practice, Complications and Quality Assurance P…"
+          "time": 301,
+          "label": "Simulated Practice, Complications and Quality Assurance."
         }
       ],
       "endscreens": [
         {
-          "time": 379,
+          "time": 387,
           "label": "End"
         }
       ]
@@ -438,7 +548,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "90b7ecfe-35e3-42ad-b555-eb7d1487d179",
+              "subContentId": "0a9f2b49-7f23-4192-bfc1-76dcc1cc417c",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -461,7 +571,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "55a833e6-a1ef-44c8-bd14-8f0135f98ea0",
+        "subContentId": "e7cc4fd3-c362-47b6-a5f1-873a96be50df",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
