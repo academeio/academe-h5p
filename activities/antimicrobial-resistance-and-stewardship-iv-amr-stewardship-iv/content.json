@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/0ba0fd9e-8470-4c6b-9a2b-93880d73b93d/playlist.m3u8",
+          "path": "https://vdo.cbme.in/1022dd20-9718-44bc-bf01-6fbd041844c8/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "MI11.1-3 | Antimicrobial Resistance & Stewardship — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 3 embedded questions for MI11.1-MI11.3."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for MI11.1-MI11.3."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 106.325,
-            "to": 116.325
+            "from": 166.725,
+            "to": 176.725
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Mycoplasma species are intrinsically resistant to all beta-lactam antibiotics. W</p>",
+          "label": "<p>Which mechanism of horizontal gene transfer is described as clinically the most </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Mycoplasma species are intrinsically resistant to all beta-lactam antibiotics. Which structural feature of Mycoplasma best explains this resistance?</p>",
+              "question": "<p>Which mechanism of horizontal gene transfer is described as clinically the most important route for the rapid spread of resistance genes such as NDM-1 between unrelated bacterial species in intensive care units?</p>",
               "answers": [
                 {
-                  "text": "<div>Presence of multiple efflux pumps that actively expel beta-lactams from the cell</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Efflux pumps are an important resistance mechanism in organisms like Pseudomonas aeruginosa. Mycoplasma's beta-lactam resistance is more fundamental — the complete absence of a cell wall means the drug's target does not exist.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Absence of a cell wall, eliminating the target site of beta-lactam antibiotics</div>",
+                  "text": "<div>Conjugation via plasmid transfer</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Beta-lactams inhibit cell wall synthesis by binding penicillin-binding proteins. Since Mycoplasma species naturally lack a cell wall, the drug's target simply does not exist — making this resistance intrinsic and absolute.</div>",
+                    "chosenFeedback": "<div>Correct. Conjugation transfers plasmids directly between bacteria through a sex pilus, allowing resistance genes to spread rapidly across even unrelated species — this is why NDM-1 moved so quickly through ICUs.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Production of chromosomal beta-lactamases that degrade the antibiotic before it can act</div>",
+                  "text": "<div>Transduction by bacteriophage</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Beta-lactamase production is an acquired enzymatic mechanism seen in many bacteria. Mycoplasma's resistance is intrinsic — it stems from the complete absence of a cell wall, not from enzymatic degradation of the drug.</div>",
+                    "chosenFeedback": "<div>Not the main route here. Transduction relies on a bacteriophage carrying the gene between cells, which is far slower and less common in ICU outbreaks than plasmid conjugation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Reduced porin channels in the outer membrane that restrict drug entry into the cell</div>",
+                  "text": "<div>Transformation from free environmental DNA</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Reduced porins contribute to resistance in Gram-negative organisms such as Pseudomonas. Mycoplasma lacks both an outer membrane and a cell wall entirely, which is the true basis of its beta-lactam resistance.</div>",
+                    "chosenFeedback": "<div>Transformation requires bacteria to pick up naked DNA from their surroundings — it occurs, but it is not the dominant route for rapid multi-species spread like NDM-1.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Spontaneous chromosomal mutation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Mutation only passes resistance vertically to daughter cells of the same organism — it cannot explain a gene appearing across unrelated species, which requires horizontal transfer.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Beta-lactams target cell wall synthesis via penicillin-binding proteins. Mycoplasma species have no cell wall at all, so the drug has no target — this is the definition of intrinsic resistance."
+                  "feedback": "Review the three horizontal transfer routes: conjugation (plasmid via pilus) is the one responsible for rapid cross-species spread of genes like NDM-1."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Intrinsic resistance is species-level and present before any antibiotic exposure — Mycoplasma's lack of a cell wall is a textbook example."
+                  "feedback": "Correct — conjugation is the clinically dominant horizontal transfer route driving multidrug resistance outbreaks."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8de7f28b-b233-4492-9e39-0715a22d43f5",
+            "subContentId": "31a428ba-e1ef-4ae1-94ae-e026eca9a0b2",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Mycoplasma species are intrinsically res",
+              "title": "Which mechanism of horizontal gene trans",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 222.42499999999998,
-            "to": 232.42499999999998
+            "from": 270.8,
+            "to": 280.8
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>MRSA is resistant to ALL beta-lactam antibiotics, including cephalosporins and c</p>",
+          "label": "<p>A clinician needs to confirm whether a standard antibiotic dose will actually re</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>MRSA is resistant to ALL beta-lactam antibiotics, including cephalosporins and carbapenems. Which mechanism underlies this broad-spectrum beta-lactam resistance?</p>",
+              "question": "<p>A clinician needs to confirm whether a standard antibiotic dose will actually reach an effective concentration at the infection site. Which AST method should be requested to get this exact value?</p>",
               "answers": [
                 {
-                  "text": "<div>Production of extended-spectrum beta-lactamases (ESBLs) that hydrolyse the beta-lactam ring</div>",
+                  "text": "<div>Kirby-Bauer disk diffusion</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>ESBLs are plasmid-encoded enzymes found in Gram-negative organisms like E. coli and Klebsiella, not in Staphylococcus aureus. MRSA's resistance is target-modification, not enzymatic destruction.</div>",
+                    "chosenFeedback": "<div>Disk diffusion is cheap and widely used, but it only classifies the isolate as Susceptible, Intermediate, or Resistant — it does not give an exact concentration value.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Acquisition of the mecA gene encoding PBP2a, a penicillin-binding protein with low affinity for all beta-lactams</div>",
+                  "text": "<div>Broth microdilution</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The mecA gene produces PBP2a, an altered penicillin-binding protein that continues cell wall synthesis even when all native PBPs are inhibited by beta-lactams. This single mechanism confers resistance to the entire beta-lactam class.</div>",
+                    "chosenFeedback": "<div>Correct. Broth microdilution is the gold standard because it determines the Minimum Inhibitory Concentration (MIC) — the lowest drug concentration that stops visible growth — letting the clinician check if a standard dose achieves that level at the infection site.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Upregulation of efflux pumps that expel beta-lactams before they can reach the target</div>",
+                  "text": "<div>Automated VITEK 2 system</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While efflux pumps contribute to resistance in some organisms, MRSA's hallmark resistance is target modification — specifically, the mecA-encoded PBP2a that beta-lactams cannot bind effectively.</div>",
+                    "chosenFeedback": "<div>VITEK 2 gives rapid results within hours and is very useful clinically, but broth microdilution remains the reference (gold standard) method for MIC determination.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Thickening of the cell wall that prevents beta-lactam penetration to penicillin-binding proteins</div>",
+                  "text": "<div>Molecular resistance gene detection</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Cell wall thickening is associated with vancomycin-intermediate S. aureus (VISA), not MRSA. MRSA resistance is conferred by the mecA gene producing PBP2a, an alternate penicillin-binding protein with low beta-lactam affinity.</div>",
+                    "chosenFeedback": "<div>Molecular tests detect the presence of a resistance gene directly, which is fast for high-priority organisms, but they do not quantify the Minimum Inhibitory Concentration.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "MRSA carries the mecA gene, which encodes PBP2a — a modified penicillin-binding protein with low affinity for beta-lactams. This target alteration, not enzymatic destruction, is why all beta-lactams fail against MRSA."
+                  "feedback": "Remember: disk diffusion only gives a category (S/I/R); broth microdilution is the gold standard for the exact MIC."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The mecA → PBP2a mechanism is one of the most clinically significant acquired resistance mechanisms, rendering every beta-lactam ineffective against MRSA."
+                  "feedback": "Correct — broth microdilution is the gold standard because it yields the exact MIC value."
                 }
               ],
               "behaviour": {
@@ -261,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "0c40711c-2b79-41be-bddb-b8c4ae472ed9",
+            "subContentId": "bd55fa03-e06e-4bf3-ab46-5a85e715b5d2",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "MRSA is resistant to ALL beta-lactam ant",
+              "title": "A clinician needs to confirm whether a s",
               "authors": [],
               "changes": []
             }
@@ -281,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 314.925,
-            "to": 324.925
+            "from": 424.3,
+            "to": 434.3
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A common antibiotic misuse pattern in Indian hospitals is continuing empirical b</p>",
+          "label": "<p>A 25-year-old woman has an uncomplicated lower urinary tract infection caused by</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A common antibiotic misuse pattern in Indian hospitals is continuing empirical broad-spectrum therapy beyond 48–72 hours without reviewing culture results. According to AMSP principles, why is failure to de-escalate particularly harmful?</p>",
+              "question": "<p>A 25-year-old woman has an uncomplicated lower urinary tract infection caused by ESBL-producing E. coli, and the isolate is reported as susceptible. Per current IDSA/ICMR guidance, what is the most appropriate first-line therapy?</p>",
               "answers": [
                 {
-                  "text": "<div>Broad-spectrum antibiotics are always less effective than narrow-spectrum drugs at treating the causative pathogen</div>",
+                  "text": "<div>IV meropenem</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Broad-spectrum antibiotics can be highly effective against the causative organism. The concern is not efficacy but collateral damage — their indiscriminate use when narrower agents would suffice creates unnecessary selection pressure for resistant organisms.</div>",
+                    "chosenFeedback": "<div>This is the reflexive carbapenem over-use the video warns against — using a last-resort drug for an uncomplicated infection drives further resistance and should be reserved for complicated or systemic disease.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Prolonged broad-spectrum exposure increases selection pressure for resistance while a culture-guided narrow-spectrum alternative would suffice</div>",
+                  "text": "<div>Oral fosfomycin</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Once culture and sensitivity data are available (typically within 48–72 hours), AMSP principles call for narrowing therapy to target the specific pathogen — reducing collateral damage to commensal flora and selection pressure for resistance.</div>",
+                    "chosenFeedback": "<div>Correct. For uncomplicated ESBL E. coli cystitis, oral fosfomycin (or nitrofurantoin) is preferred when the isolate is susceptible, preserving carbapenems for complicated or high-MIC infections.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Culture and sensitivity results in Indian hospital laboratories are unreliable, making de-escalation unsafe</div>",
+                  "text": "<div>IV ceftriaxone</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Standardised AST methods (disk diffusion, automated MIC systems) are reliable when performed correctly. AMSP depends on robust microbiological support — the problem is that available results are often ignored, not that they are unreliable.</div>",
+                    "chosenFeedback": "<div>ESBL enzymes destroy extended-spectrum cephalosporins like ceftriaxone, so this would fail — ESBL isolates resist penicillins and cephalosporins by definition.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>De-escalation is only recommended for immunocompromised patients and should not be applied to the general hospital population</div>",
+                  "text": "<div>IV colistin</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>De-escalation is a universal AMSP principle applicable to all patients. Once the causative organism and its susceptibility pattern are known, narrowing therapy is standard practice regardless of the patient's immune status.</div>",
+                    "chosenFeedback": "<div>Colistin is a last-resort agent reserved for extensively or pan-drug-resistant organisms, not for a straightforward susceptible ESBL cystitis case.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Continuing broad-spectrum therapy when a targeted narrow-spectrum option is available wastes the opportunity to reduce selection pressure for resistance — this is a core AMSP concern in Indian hospitals where empirical therapy is often never reviewed."
+                  "feedback": "Recall the distinction: pyelonephritis or systemic infection needs IV carbapenem, but simple ESBL cystitis should be treated with oral fosfomycin or nitrofurantoin to avoid carbapenem over-use."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. The AMSP framework ensures the right drug, right dose, right route, right duration — de-escalation after culture results is central to minimising unnecessary resistance selection."
+                  "feedback": "Correct — oral fosfomycin/nitrofurantoin is first-line for uncomplicated ESBL cystitis; carbapenems are reserved for complicated or systemic infection."
                 }
               ],
               "behaviour": {
@@ -371,11 +371,179 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "617281b4-1b07-4d8c-b533-4ca958106160",
+            "subContentId": "241a1048-d9a5-4342-a4ac-a8085278cef7",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A common antibiotic misuse pattern in In",
+              "title": "A 25-year-old woman has an uncomplicated",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 538.775,
+            "to": 548.775
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>At the mandatory 48-72 hour antibiotic time-out, if cultures show no growth and </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>At the mandatory 48-72 hour antibiotic time-out, if cultures show no growth and the patient is improving clinically, the stewardship team should reassess and consider narrowing or stopping therapy rather than continuing broad-spectrum antibiotics by default.</p>",
+              "correct": "true",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Incorrect. The whole purpose of the 48-72 hour time-out is to force a fresh look at every prescription — continuing broad-spectrum therapy without reviewing culture results is exactly the misuse pattern the AMSP is designed to prevent.",
+                "correctAnswerMessage": "Correct. The time-out exists precisely to force this reassessment — de-escalating or stopping therapy when culture results and clinical improvement support it, rather than letting broad-spectrum coverage continue by inertia.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "2e92d1fa-5fb0-4219-a463-1e62a8084ab6",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "At the mandatory 48-72 hour antibiotic t",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 681.925,
+            "to": 691.925
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>The video argues that de-escalation to targeted therapy — the most important ste</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>The video argues that de-escalation to targeted therapy — the most important stewardship strategy — can only succeed if one prerequisite step happens before the very first antibiotic dose. What is that prerequisite?</p>",
+              "answers": [
+                {
+                  "text": "<div>Formulary restriction on carbapenems and colistin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Restricting last-resort drugs protects them for later, but it does not by itself enable de-escalation — that requires knowing the causative organism's susceptibility first.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Sending cultures for microbiological testing</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Without a culture sent before the first dose, there is no susceptibility data to de-escalate against later — this is why the video calls specimen collection the true foundation of stewardship.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Starting broad-spectrum empirical therapy immediately</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Empirical therapy is often necessary while awaiting results, but starting it is not the prerequisite that enables de-escalation — sending the culture beforehand is.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Ordering a procalcitonin biomarker level</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Procalcitonin and other rapid diagnostics help speed up decisions, but the video identifies culture collection before the first dose as the essential foundation, not biomarker testing.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Re-examine the stewardship hierarchy: de-escalation only works if a culture was sent before empirical therapy began, making specimen collection the true foundation of the whole programme."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct — sending cultures before the first antibiotic dose is the foundation that makes later de-escalation possible."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "2f46d8c7-54ff-4451-9a60-9e4b0287e6f4",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "The video argues that de-escalation to t",
               "authors": [],
               "changes": []
             }
@@ -401,32 +569,32 @@
         },
         {
           "time": 48,
-          "label": "Mechanisms of Antimicrobial Resistance."
+          "label": "Antimicrobial resistance mechanisms fall into two broad g…"
         },
         {
-          "time": 106,
-          "label": "Antimicrobial Susceptibility Testing (AST)."
+          "time": 167,
+          "label": "Antimicrobial susceptibility testing, or A S T, tells us…"
         },
         {
-          "time": 163,
-          "label": "Intrinsic vs Acquired Resistance & Antibiotic Spectrum of…"
+          "time": 271,
+          "label": "Now let's look at some of the most clinically important r…"
         },
         {
-          "time": 222,
+          "time": 387,
           "label": "'Pradofloxacin-resistant E."
         },
         {
-          "time": 260,
-          "label": "Antimicrobial Stewardship Programme (AMSP)."
+          "time": 424,
+          "label": "An antimicrobial stewardship programme, or AMSP, is a coo…"
         },
         {
-          "time": 315,
-          "label": "Ward 7, a tertiary government hospital in Chennai."
+          "time": 539,
+          "label": "A fifty-five-year-old diabetic man in Ward seven, a terti…"
         }
       ],
       "endscreens": [
         {
-          "time": 420,
+          "time": 732,
           "label": "End"
         }
       ]
@@ -438,7 +606,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "78c866dc-4fdd-4132-9e70-6cfe72089cdf",
+              "subContentId": "2462cf99-c861-42a8-b3f9-e3ff808b4ddc",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -461,7 +629,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "c0652fd1-cfff-4492-a908-a5dbdb58792f",
+        "subContentId": "337f4391-fd31-4ab2-9b71-97697f3f4627",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
