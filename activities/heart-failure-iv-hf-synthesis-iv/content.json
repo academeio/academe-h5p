@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/41be3efb-0291-46e1-b094-bd6c8548ecf8/playlist.m3u8",
+          "path": "https://vdo.cbme.in/ac9ab5bd-6c7a-442e-aefe-3b9ffcdf3ab4/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "IM1.1-27 | Heart Failure — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for IM1.1-IM1.9."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for IM1.1-IM1.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,343 @@
       "interactions": [
         {
           "duration": {
-            "from": 107.2,
-            "to": 117.2
+            "from": 198.05,
+            "to": 208.05
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In heart failure, dyspnoea and pulmonary oedema are symptoms of forward failure </p>",
+          "label": "<p>A patient with heart failure reports waking up gasping for breath one to two hou</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient with heart failure reports waking up gasping for breath one to two hours after falling asleep. This symptom is best explained by:</p>",
+              "answers": [
+                {
+                  "text": "<div>Forward failure causing cerebral hypoperfusion</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Cerebral hypoperfusion causes confusion and dizziness (forward failure symptoms), not respiratory distress. Nocturnal gasping is a pulmonary symptom.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Backward failure on the right side causing hepatic congestion</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Right-sided backward failure causes hepatomegaly, ascites, and peripheral oedema — not pulmonary symptoms like nocturnal breathlessness.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Backward failure on the left side causing fluid redistribution into the lungs</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Paroxysmal nocturnal dyspnoea occurs when lying flat redistributes fluid from the legs into the pulmonary circulation, raising capillary pressure and causing pulmonary congestion.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Forward failure causing renal hypoperfusion and sodium retention</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Renal hypoperfusion contributes to chronic fluid retention, but the acute gasping on lying down is caused by pulmonary congestion from fluid redistribution — a left-sided backward failure mechanism.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "PND results from left-sided backward failure. When the patient lies flat, fluid redistributes from the legs into the pulmonary circulation, and the failing left ventricle cannot handle the increased return, causing pulmonary congestion and gasping."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. PND is a hallmark of left-sided backward failure — fluid shifts from dependent areas into the lungs when the patient lies flat, overwhelming the compromised left ventricle."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "65dd33ce-d58f-4639-8ffe-57a5e91e246b",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A patient with heart failure reports wak",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 307.225,
+            "to": 317.225
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>What is the single most common cause of right heart failure in everyday clinical</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>What is the single most common cause of right heart failure in everyday clinical practice?</p>",
+              "answers": [
+                {
+                  "text": "<div>Cor pulmonale from chronic lung disease</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Cor pulmonale is the most common cause of ISOLATED right heart failure, but in everyday practice, left heart failure causing secondary right ventricular overload is more common overall.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Left heart failure</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Pulmonary congestion from left heart failure raises pulmonary arterial pressure, progressively overloading the right ventricle. That is why biventricular failure is the pattern seen most often.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Primary pulmonary hypertension</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Primary pulmonary hypertension is an uncommon condition. Left heart failure is a far more prevalent cause of right heart failure in clinical practice.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Tricuspid valve disease</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Isolated tricuspid valve disease is relatively rare. Most tricuspid regurgitation is functional, occurring secondary to right ventricular dilatation from left heart failure.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The narration emphasises that while cor pulmonale causes isolated right heart failure, left heart failure is the most common overall cause, because congestion on the left eventually overloads the right ventricle."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. Left heart failure is the most common cause of right heart failure. Pulmonary congestion raises right ventricular afterload, leading to biventricular failure — the pattern you will encounter most frequently."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "9ef16ae0-2f07-4469-8c66-dbaf66810bac",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "What is the single most common cause of",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 512.825,
+            "to": 522.825
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A patient with heart failure has an ECG showing an irregularly irregular rhythm </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient with heart failure has an ECG showing an irregularly irregular rhythm with no identifiable P waves. Why is this arrhythmia particularly important in the context of heart failure?</p>",
+              "answers": [
+                {
+                  "text": "<div>It always indicates an underlying ischaemic cause of heart failure</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Atrial fibrillation can arise from many causes in heart failure, including valvular disease, hypertension, and cardiomyopathy — it does not specifically indicate ischaemia.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It both causes and worsens heart failure, and requires stroke risk assessment</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Atrial fibrillation has a bidirectional relationship with heart failure: it can cause HF and is worsened by it. Every patient with both conditions needs a CHA₂DS₂-VASc score to guide anticoagulation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It confirms that the patient has right heart failure rather than left</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>AF does not distinguish between left and right heart failure. It can occur in either type and reflects atrial remodelling from any cause of heart failure.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It indicates that the patient's heart failure is in the early stages</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>AF is more common in established heart failure with significant atrial dilatation. Its presence suggests substantial cardiac remodelling, not early disease.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Atrial fibrillation has a unique bidirectional relationship with heart failure — it both causes and worsens the condition. Every patient with both needs a CHA₂DS₂-VASc score to determine whether anticoagulation is indicated."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. AF both causes and worsens heart failure, creating a vicious cycle. The combination of AF and HF raises stroke risk, making CHA₂DS₂-VASc scoring essential to guide anticoagulation decisions."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "c7dc9f5c-05a4-4dfe-a951-927b70a42a06",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A patient with heart failure has an ECG",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 634.35,
+            "to": 644.35
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Diuretics are one of the four pillars of guideline-directed medical therapy in h</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,7 +406,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>In heart failure, dyspnoea and pulmonary oedema are symptoms of forward failure caused by reduced cardiac output.</p>",
+              "question": "<p>Diuretics are one of the four pillars of guideline-directed medical therapy in heart failure with reduced ejection fraction.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -94,16 +424,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "Dyspnoea and pulmonary oedema are symptoms of backward failure, not forward failure. When the left ventricle fails, pressure backs up into the left atrium and pulmonary veins, forcing fluid into the alveoli. Forward failure (reduced cardiac output) causes fatigue and exercise intolerance.",
-                "correctAnswerMessage": "Correct. Dyspnoea and pulmonary oedema arise from backward failure — elevated left atrial and pulmonary venous pressures cause fluid transudation into the alveoli. Forward failure (reduced cardiac output) manifests as fatigue and exercise intolerance instead.",
+                "wrongAnswerMessage": "Diuretics are important for managing fluid overload symptoms, but they do NOT reduce mortality. The four pillars are RAAS blockers (ACEi/ARB/ARNI), evidence-based beta-blockers (carvedilol, metoprolol succinate, bisoprolol), mineralocorticoid receptor antagonists (spironolactone), and SGLT2 inhibitors (empagliflozin, dapagliflozin). The narration notes that diuretics and digoxin 'don't extend survival the way these four pillars do.'",
+                "correctAnswerMessage": "Correct. Although diuretics are widely used for symptom relief in heart failure, they do not reduce mortality. The four mortality-reducing pillars are RAAS blockers (ACEi/ARB/ARNI), evidence-based beta-blockers (carvedilol, metoprolol succinate, bisoprolol), mineralocorticoid receptor antagonists, and SGLT2 inhibitors.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "6c9efd80-a7e5-4023-9c3f-15b3cbfc20d0",
+            "subContentId": "084cdcb1-938b-4e8c-9401-62aa4bba0c71",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "In heart failure, dyspnoea and pulmonary",
+              "title": "Diuretics are one of the four pillars of",
               "authors": [],
               "changes": []
             }
@@ -119,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 215.2,
-            "to": 225.2
+            "from": 854.075,
+            "to": 864.075
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 65-year-old woman presents with progressive breathlessness and bilateral ankle</p>",
+          "label": "<p>An uncorrected atrial septal defect initially causes no cyanosis. What best expl</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 65-year-old woman presents with progressive breathlessness and bilateral ankle swelling. Her JVP is elevated to 8 cm above the sternal angle. This finding most directly reflects which of the following?</p>",
+              "question": "<p>An uncorrected atrial septal defect initially causes no cyanosis. What best explains the absence of cyanosis?</p>",
               "answers": [
                 {
-                  "text": "<div>Elevated left atrial pressure due to mitral valve disease</div>",
+                  "text": "<div>The defect is too small to allow significant blood flow</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Left atrial pressure is reflected in the pulmonary venous circulation, not the jugular veins. The JVP is a measure of right-sided pressures transmitted through the valveless internal jugular vein.</div>",
+                    "chosenFeedback": "<div>Even large ASDs remain acyanotic initially. The absence of cyanosis depends on shunt direction, not defect size.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Elevated right atrial pressure transmitted to the internal jugular vein</div>",
+                  "text": "<div>Blood shunts from left to right, so only oxygenated blood recirculates</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The internal jugular vein has a direct, valveless connection to the right atrium, making the JVP a reliable bedside estimate of right atrial pressure in heart failure.</div>",
+                    "chosenFeedback": "<div>Because left-sided pressures are normally higher, blood shunts left to right. Oxygenated blood recirculates through the lungs; no deoxygenated blood enters the systemic circulation, so there is no cyanosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Increased pulmonary artery pressure from primary pulmonary hypertension</div>",
+                  "text": "<div>The right atrium prevents mixing of oxygenated and deoxygenated blood</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Pulmonary artery pressure lies upstream of the right ventricle. While pulmonary hypertension can eventually raise the JVP through right heart failure, the JVP itself directly reflects right atrial pressure, not pulmonary artery pressure.</div>",
+                    "chosenFeedback": "<div>In ASD, blood freely crosses between the atria. The absence of cyanosis occurs because the shunt direction is left to right — oxygenated blood goes into the pulmonary circuit, not deoxygenated blood into the systemic circuit.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Elevated intracranial pressure causing impaired jugular venous drainage</div>",
+                  "text": "<div>Pulmonary blood flow is reduced, limiting oxygen desaturation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Raised intracranial pressure can impede cerebral venous outflow but does not produce the typical JVP elevation pattern seen in heart failure. The mechanism here is elevated right atrial filling pressure.</div>",
+                    "chosenFeedback": "<div>In acyanotic CHD with left-to-right shunts, pulmonary blood flow is actually INCREASED, not reduced. The extra volume overloads the lungs and right heart over time.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The JVP reflects right atrial pressure — the internal jugular vein has a valveless connection to the right atrium. This is why the JVP serves as a bedside manometer for right heart filling pressures in heart failure."
+                  "feedback": "The key determinant of cyanosis in congenital heart disease is shunt direction. In ASD, blood shunts left to right because left-sided pressures are higher. Only oxygenated blood recirculates — no deoxygenated blood reaches the systemic circulation, so there is no cyanosis."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The JVP provides a direct, non-invasive window into right atrial pressure because the internal jugular vein connects to the right atrium without intervening valves."
+                  "feedback": "Correct. In ASD, the left-to-right shunt means oxygenated blood recirculates through the pulmonary circuit. Since no deoxygenated blood escapes into the systemic circulation, there is no cyanosis."
                 }
               ],
               "behaviour": {
@@ -209,231 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ca3fcfa8-fc3f-4fcf-a028-48765093027a",
+            "subContentId": "16f656de-9519-4d28-bd6f-cd5e37015802",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 65-year-old woman presents with progre",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 331.47499999999997,
-            "to": 341.47499999999997
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A 60-year-old man with HFrEF (LVEF 30%) is haemodynamically stable after initial</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A 60-year-old man with HFrEF (LVEF 30%) is haemodynamically stable after initial management. According to guideline-directed medical therapy (GDMT), which prescribing approach is recommended?</p>",
-              "answers": [
-                {
-                  "text": "<div>Start with a diuretic alone and add neurohormonal agents only if symptoms persist</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Diuretics relieve congestion but do not improve mortality. GDMT prioritises the four neurohormonal pillar drugs — diuretics are added as needed for volume management alongside them.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Select two of the four pillar drug classes based on the predominant symptom profile</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Current guidelines recommend all four pillar classes, not a selective approach. Each class targets a different component of the neurohormonal cascade, and the mortality benefit comes from the combination.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Initiate all four pillar drug classes — ACEi/ARB/ARNI, beta-blocker, MRA, and SGLT2 inhibitor</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Every haemodynamically stable HFrEF patient should receive all four pillar classes. Together they reduce all-cause mortality, reduce hospitalisation, and reverse ventricular remodelling.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Begin with an ACE inhibitor alone and up-titrate to maximum dose before adding any other agent</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Sequential single-agent up-titration delays the benefit of the other three pillar classes. Current evidence supports initiating all four pillars with concurrent up-titration as tolerated.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "GDMT for HFrEF requires all four evidence-based drug classes (ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2 inhibitor) in every haemodynamically stable patient. Each pillar targets a different neurohormonal mechanism, and together they reduce mortality and reverse remodelling."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. GDMT for HFrEF means all four pillar drug classes for every eligible patient — each targets a different arm of the neurohormonal cascade driving disease progression."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "f3609277-fe0e-4c5e-8b50-77919f97cd71",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A 60-year-old man with HFrEF (LVEF 30%)",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 439.69999999999993,
-            "to": 449.69999999999993
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A child with a ventricular septal defect (VSD) has a confirmed left-to-right shu</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A child with a ventricular septal defect (VSD) has a confirmed left-to-right shunt on echocardiography. Which of the following best explains why this child does not have cyanosis?</p>",
-              "answers": [
-                {
-                  "text": "<div>The shunted blood bypasses the pulmonary circulation entirely</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>In a left-to-right shunt, oxygenated blood flows from the left heart into the right heart and recirculates through the pulmonary circulation — it does not bypass the lungs.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Oxygenated blood crosses from the left to the right heart, so systemic arterial blood remains fully saturated</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>In a left-to-right shunt, already-oxygenated blood recirculates through the lungs. No deoxygenated blood enters the systemic circulation, so arterial oxygen saturation is maintained and there is no cyanosis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The right ventricle increases its ejection fraction to compensate for the extra volume load</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The right ventricle does adapt to volume overload, but this compensatory response does not explain the absence of cyanosis. Cyanosis depends on whether deoxygenated blood reaches the systemic circulation — and in a left-to-right shunt, it does not.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The defect is too small to permit any significant intracardiac blood flow</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The echocardiogram has confirmed a left-to-right shunt — significant flow is present. The absence of cyanosis is because the shunt direction keeps deoxygenated blood out of the systemic arterial circulation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "In a left-to-right shunt, oxygenated blood crosses from the left heart to the right heart. Systemic arterial blood remains fully oxygenated because no deoxygenated blood enters the aorta — this is why left-to-right shunts are classified as acyanotic."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. In left-to-right shunts, oxygenated blood recirculates through the lungs — systemic arterial blood stays fully saturated, so there is no cyanosis. This is the defining principle of acyanotic congenital heart disease."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "d48547a7-0d6a-4408-835d-5d065a71b5d0",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A child with a ventricular septal defect",
+              "title": "An uncorrected atrial septal defect init",
               "authors": [],
               "changes": []
             }
@@ -455,40 +565,40 @@
         },
         {
           "time": 2,
-          "label": "A 58-year-old man with longstanding hypertension and diab…"
+          "label": "A 58-year-old man with long-standing high blood pressure…"
         },
         {
-          "time": 54,
-          "label": "Clinical Presentation of Heart Failure."
+          "time": 97,
+          "label": "Heart failure means the heart can't pump enough blood to…"
         },
         {
-          "time": 107,
-          "label": "Pathophysiology and Aetiology: Left vs Right, Systolic vs…"
+          "time": 198,
+          "label": "Left heart failure happens when the left ventricle can't…"
         },
         {
-          "time": 162,
-          "label": "Governing Principles: The Physiological Basis of Clinical…"
+          "time": 307,
+          "label": "Why does understanding the mechanism behind a clinical si…"
         },
         {
-          "time": 215,
-          "label": "The 12-Lead ECG: Principles and Interpretation in Heart F…"
+          "time": 402,
+          "label": "The twelve lead E C G is the single most useful test you…"
         },
         {
-          "time": 271,
-          "label": "Pharmacological Management: Four Pillars of HFrEF Therapy."
+          "time": 513,
+          "label": "Guideline-directed medical therapy for heart failure with…"
         },
         {
-          "time": 331,
-          "label": "Clinical Presentation: Acute vs Subacute Endocarditis."
+          "time": 634,
+          "label": "Infective endocarditis is an infection of the inner linin…"
         },
         {
-          "time": 386,
-          "label": "Clinical Presentation: Acyanotic vs Cyanotic Congenital H…"
+          "time": 752,
+          "label": "A patient's echo shows a shunt lesion."
         }
       ],
       "endscreens": [
         {
-          "time": 463,
+          "time": 877,
           "label": "End"
         }
       ]
@@ -500,7 +610,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "d41af5a2-9c2d-4386-9ce9-adc4c044d672",
+              "subContentId": "22ba3d67-beee-4168-9fda-9b03905fd325",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -523,7 +633,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "0d7abdcd-002d-41c7-aa72-7215bd0ea6d0",
+        "subContentId": "6be667ed-f8d2-4037-9149-048b1bbd4df5",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
