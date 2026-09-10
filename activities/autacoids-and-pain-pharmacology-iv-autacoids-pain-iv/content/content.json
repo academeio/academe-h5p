@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/0e31a1e0-e0f9-4e40-ab1f-50bfe5630728/playlist.m3u8",
+          "path": "https://vdo.cbme.in/b2103329-32b7-4347-a3ca-8dfac7a5aafc/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PH2.6-8 | Autacoids and Pain Pharmacology — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for PH2.1-PH2.8."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for PH2.1-PH2.8."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,101 +61,49 @@
       "interactions": [
         {
           "duration": {
-            "from": 158.15,
-            "to": 168.15
+            "from": 164.85,
+            "to": 174.85
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why do first-generation H1 antihistamines such as chlorpheniramine cause signifi</p>",
+          "label": "<p>H2 receptor antagonists such as ranitidine are effective in treating the sneezin</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Why do first-generation H1 antihistamines such as chlorpheniramine cause significant sedation, unlike second-generation drugs such as cetirizine?</p>",
-              "answers": [
-                {
-                  "text": "<div>They have a higher binding affinity for peripheral H1 receptors on mast cells</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Sedation arises from central nervous system effects, not peripheral receptor binding. First-generation drugs cross the blood-brain barrier and block H1 receptors in the brain, producing drowsiness.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>They are lipophilic compounds that readily cross the blood-brain barrier and occupy central H1 receptors</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct! First-generation antihistamines are lipophilic and low-molecular-weight, allowing them to cross the BBB freely. By occupying central H1 receptors they produce sedation and cognitive impairment — the reason the student's father's chlorpheniramine 'knocked her out.'</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>They inhibit mast cell degranulation more potently than second-generation drugs</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Antihistamines are receptor antagonists — they block the action of histamine at H1 receptors on target cells. They do not prevent mast cell degranulation or histamine release.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>They selectively block H2 receptors on parietal cells in addition to H1 receptors</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. H2 receptors on parietal cells regulate gastric acid secretion, not sedation. First-generation drugs cause sedation through central H1 blockade; their non-selective binding involves muscarinic, adrenergic, and serotonin receptors — not H2.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The answer is: they are lipophilic compounds that readily cross the blood-brain barrier. First-generation drugs occupy central H1 receptors causing sedation, whereas second-generation drugs are designed to minimally penetrate the BBB."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct! Lipophilicity and BBB penetration distinguish first-generation from second-generation H1 antihistamines and explain why the former cause sedation while the latter do not."
-                }
-              ],
+              "question": "<p>H2 receptor antagonists such as ranitidine are effective in treating the sneezing and rhinorrhoea of allergic rhinitis.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "H2 receptors sit on gastric parietal cells and control acid secretion — they are not involved in allergy symptoms. Allergic rhinitis symptoms are driven by histamine acting on H1 receptors in the nose, eyes, and skin. That is why H1 antagonists, not H2 blockers like ranitidine, are used to treat allergic rhinitis.",
+                "correctAnswerMessage": "Correct. H2 receptors are located on gastric parietal cells and regulate acid secretion — they play no role in allergic rhinitis symptoms. Sneezing, itching, and rhinorrhoea are mediated exclusively by H1 receptors, which is why only H1 antagonists treat allergic rhinitis.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "cb0aa0f5-b147-45b4-bc82-97115fed4f49",
+            "subContentId": "4c48453d-aa01-4bb7-b2a4-ab2f39a407f3",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "Why do first-generation H1 antihistamine",
+              "title": "H2 receptor antagonists such as ranitidi",
               "authors": [],
               "changes": []
             }
@@ -171,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 263,
-            "to": 273
+            "from": 368.6,
+            "to": 378.6
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>What is the role of phospholipase A2 in the pain signalling pathway triggered by</p>",
+          "label": "<p>A 30-year-old woman with moderate-persistent allergic rhinitis and nasal congest</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>What is the role of phospholipase A2 in the pain signalling pathway triggered by tissue injury?</p>",
+              "question": "<p>A 30-year-old woman with moderate-persistent allergic rhinitis and nasal congestion has been using oxymetazoline nasal spray daily for two weeks. She reports worsening congestion despite continued use. What is the most likely explanation?</p>",
               "answers": [
                 {
-                  "text": "<div>It directly synthesises prostaglandin E2, which sensitises peripheral nociceptors</div>",
+                  "text": "<div>Development of IgE-mediated drug allergy to oxymetazoline</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. PGE2 synthesis requires the sequential action of COX and specific prostaglandin synthases. Phospholipase A2 acts upstream — it liberates the substrate that feeds into these pathways.</div>",
+                    "chosenFeedback": "<div>Oxymetazoline allergy is exceedingly rare. The pattern of worsening congestion after prolonged decongestant use is characteristic of rebound, not hypersensitivity.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It activates bradykinin receptors on Aδ and C fibre nerve endings</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Bradykinin acts on its own receptors independently. Phospholipase A2 does not activate bradykinin receptors — its role is to release arachidonic acid from the cell membrane.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It releases arachidonic acid from membrane phospholipids, providing the substrate for both the COX and LOX pathways</div>",
+                  "text": "<div>Rhinitis medicamentosa from prolonged topical decongestant use</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! Phospholipase A2 is activated by tissue injury and cleaves arachidonic acid from membrane phospholipids. This released arachidonic acid then serves as the essential substrate for both the COX pathway (producing prostaglandins and thromboxanes) and the LOX pathway (producing leukotrienes).</div>",
+                    "chosenFeedback": "<div>Correct. Topical decongestants like oxymetazoline cause rebound nasal congestion (rhinitis medicamentosa) when used beyond 3–5 days, due to receptor downregulation and mucosal oedema.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It converts leukotriene A4 to leukotriene B4, amplifying neutrophil-driven inflammation</div>",
+                  "text": "<div>Progression to chronic allergic fungal sinusitis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Leukotriene A4 hydrolase performs that conversion. Phospholipase A2 acts much further upstream — it releases the arachidonic acid precursor from the membrane before either the COX or LOX enzymes act on it.</div>",
+                    "chosenFeedback": "<div>Allergic fungal sinusitis presents with thick allergic mucin, nasal polyps, and often unilateral symptoms — not simple worsening congestion after two weeks of decongestant use.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Tachyphylaxis to intranasal corticosteroid therapy</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This patient is using oxymetazoline (a sympathomimetic decongestant), not an intranasal corticosteroid. Moreover, intranasal corticosteroids do not typically cause tachyphylaxis.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The answer is: it releases arachidonic acid from membrane phospholipids. Phospholipase A2 is the upstream enzyme activated by tissue injury, providing the essential substrate for both the COX (prostaglandins) and LOX (leukotrienes) pathways."
+                  "feedback": "The key clue is prolonged use of a topical decongestant beyond the recommended 3–5 day limit. This causes rebound congestion called rhinitis medicamentosa, not an allergic reaction or infection."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! Phospholipase A2 is the gatekeeper of the arachidonic acid cascade — without it releasing arachidonic acid from the membrane, neither prostaglandins nor leukotrienes can be synthesised."
+                  "feedback": "Well done. Rhinitis medicamentosa is a common clinical pitfall — always counsel patients to limit topical decongestant use to 3–5 days maximum."
                 }
               ],
               "behaviour": {
@@ -261,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "3710024d-c09b-420c-8707-a14a09874d8d",
+            "subContentId": "bd3a7531-b36b-4e78-a237-232ead12277d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "What is the role of phospholipase A2 in",
+              "title": "A 30-year-old woman with moderate-persis",
               "authors": [],
               "changes": []
             }
@@ -281,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 368.4,
-            "to": 378.4
+            "from": 570.1,
+            "to": 580.1
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 45-year-old man on long-term ibuprofen for osteoarthritis develops epigastric </p>",
+          "label": "<p>Aspirin has a plasma half-life of only 15–20 minutes, yet its antiplatelet effec</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 45-year-old man on long-term ibuprofen for osteoarthritis develops epigastric pain and melaena. Which mechanism best explains his gastrointestinal bleeding?</p>",
+              "question": "<p>Aspirin has a plasma half-life of only 15–20 minutes, yet its antiplatelet effect persists for 7–10 days. Which property best explains this discrepancy?</p>",
               "answers": [
                 {
-                  "text": "<div>Inhibition of COX-1 in the gastric mucosa reducing protective PGE2 and PGI2 synthesis</div>",
+                  "text": "<div>Aspirin is extensively redistributed into deep tissue compartments, creating a slow-release reservoir</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Aspirin is rapidly hydrolysed to salicylic acid and is not extensively tissue-sequestered. The prolonged effect is pharmacodynamic (enzyme level), not pharmacokinetic.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Active metabolites of aspirin continue to inhibit platelet COX-1 after the parent drug is cleared</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Salicylic acid, aspirin's main metabolite, is only a weak reversible COX inhibitor and does not account for the sustained antiplatelet action.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Aspirin irreversibly acetylates COX-1 in anucleate platelets that cannot synthesise new enzyme</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! Non-selective NSAIDs like ibuprofen inhibit COX-1 in the gastric mucosa, reducing PGE2 and PGI2 production. These prostaglandins normally maintain mucus secretion, bicarbonate production, and mucosal blood flow — their loss leaves the mucosa vulnerable to acid-peptic damage and haemorrhage.</div>",
+                    "chosenFeedback": "<div>Correct. Aspirin covalently acetylates a serine residue on COX-1. Since platelets lack a nucleus, they cannot produce new enzyme, so the inhibition lasts the entire platelet lifespan of 7–10 days.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Direct cytotoxic damage to gastric epithelial cells independent of prostaglandin inhibition</div>",
+                  "text": "<div>Aspirin binds with high affinity to plasma albumin, maintaining therapeutic levels beyond its apparent half-life</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While NSAIDs can cause mild topical irritation, the clinically significant GI damage is primarily systemic — it results from COX-1 inhibition reducing the prostaglandin-dependent mucosal defence barrier.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Inhibition of COX-2 in the renal medulla leading to compensatory gastric acid hypersecretion</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Renal COX-2 inhibition affects sodium handling and renal perfusion but does not cause compensatory gastric acid hypersecretion. GI toxicity results from COX-1 inhibition in the gastric mucosa itself.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Competitive antagonism of prostaglandin receptors on parietal cells increasing acid output</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. NSAIDs inhibit prostaglandin synthesis by blocking the COX enzyme — they do not act as receptor antagonists at the prostaglandin receptor level.</div>",
+                    "chosenFeedback": "<div>While aspirin does bind albumin, its clearance is rapid. The sustained antiplatelet effect is due to irreversible enzyme modification, not prolonged plasma levels.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The answer is COX-1 inhibition in the gastric mucosa. Ibuprofen inhibits COX-1, reducing PGE2 and PGI2 that normally maintain mucus secretion, bicarbonate production, and mucosal blood flow — their loss leads to acid-peptic damage and GI bleeding."
+                  "feedback": "The key is that aspirin permanently destroys COX-1 by covalent acetylation. Since platelets have no nucleus, they cannot make new enzyme, so the effect lasts the platelet's entire lifespan of 7–10 days."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! COX-1 inhibition in the gastric mucosa is the central mechanism — loss of protective PGE2 and PGI2 removes the mucosal defence barrier, predisposing to erosions, ulcers, and haemorrhage."
+                  "feedback": "Exactly. This irreversible mechanism is why aspirin must be stopped 7–10 days before elective surgery to allow new platelets with functional COX-1 to enter the circulation."
                 }
               ],
               "behaviour": {
@@ -371,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6e254206-d839-456c-b0ba-105f57374a6a",
+            "subContentId": "6a0b246e-45af-4a7d-9b8e-984406a52477",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 45-year-old man on long-term ibuprofen",
+              "title": "Aspirin has a plasma half-life of only 1",
               "authors": [],
               "changes": []
             }
@@ -391,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 478.45,
-            "to": 488.45
+            "from": 763.125,
+            "to": 773.125
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 55-year-old man with acute gouty arthritis is already on low-dose aspirin for </p>",
+          "label": "<p>In an acute gouty attack, monosodium urate crystals deposited in the joint activ</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 55-year-old man with acute gouty arthritis is already on low-dose aspirin for cardiovascular prophylaxis. Why should aspirin NOT be used as an analgesic for his acute gout attack?</p>",
+              "question": "<p>In an acute gouty attack, monosodium urate crystals deposited in the joint activate which intracellular sensor in synovial macrophages to trigger the inflammatory cascade?</p>",
               "answers": [
                 {
-                  "text": "<div>Aspirin activates the NLRP3 inflammasome in synovial macrophages, intensifying the gout flare</div>",
+                  "text": "<div>Toll-like receptor 4 (TLR-4)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The NLRP3 inflammasome is activated by monosodium urate crystals, not by aspirin. Aspirin's problem in gout relates to its effect on renal urate handling, not inflammasome activation.</div>",
+                    "chosenFeedback": "<div>TLR-4 is a pattern-recognition receptor for bacterial lipopolysaccharide. While it may contribute to innate immune responses, it is not the primary intracellular sensor for urate crystal-induced inflammation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Aspirin irreversibly acetylates platelet COX-1, which directly worsens crystal-induced joint inflammation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Irreversible COX-1 acetylation is the basis of aspirin's antiplatelet action, not a mechanism that worsens gout. The issue with aspirin in gout is its paradoxical effect on renal uric acid excretion.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>At low doses, aspirin decreases renal urate excretion, potentially worsening hyperuricaemia</div>",
+                  "text": "<div>NLRP3 inflammasome</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! At low analgesic and antipyretic doses, aspirin paradoxically reduces renal urate excretion, raising serum uric acid levels. This can worsen hyperuricaemia and is why the video explicitly warns: 'Do NOT use aspirin' for acute gout.</div>",
+                    "chosenFeedback": "<div>Correct. MSU crystals are phagocytosed by synovial macrophages and activate the NLRP3 inflammasome, which cleaves pro-IL-1β into active IL-1β, driving the intense neutrophilic inflammation characteristic of acute gout.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Aspirin inhibits the uricosuric action of colchicine, rendering it ineffective</div>",
+                  "text": "<div>Nuclear factor kappa B (NF-κB)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Colchicine works by disrupting microtubule-dependent neutrophil migration and NLRP3 inflammasome activation — it is not a uricosuric agent, so aspirin cannot inhibit a uricosuric action it does not possess.</div>",
+                    "chosenFeedback": "<div>NF-κB is a downstream transcription factor in many inflammatory pathways, not the specific intracellular sensor that detects urate crystals. The NLRP3 inflammasome is the crystal-sensing platform.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Cyclo-oxygenase-2 (COX-2)</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>COX-2 is an enzyme producing inflammatory prostaglandins; it is a downstream effector of inflammation, not the intracellular sensor that detects urate crystals and initiates the cascade.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The answer is: at low doses, aspirin decreases renal urate excretion, potentially worsening hyperuricaemia. This paradoxical effect makes aspirin contraindicated in acute gout despite being an effective analgesic in other contexts."
+                  "feedback": "MSU crystals specifically activate the NLRP3 inflammasome inside synovial macrophages, which cleaves pro-IL-1β into active IL-1β and recruits neutrophils — this is the central driver of acute gouty inflammation."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! The aspirin paradox in gout is a high-yield clinical pearl — low-dose aspirin retains uric acid by reducing renal excretion, making it unsuitable for treating acute gouty arthritis."
+                  "feedback": "Well done. The NLRP3 inflammasome → IL-1β axis explains why colchicine (which disrupts inflammasome assembly) and IL-1 inhibitors are effective in acute gout."
                 }
               ],
               "behaviour": {
@@ -481,11 +429,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "54216355-a55e-4ce2-9fb7-def9bf32ec97",
+            "subContentId": "86b09ecc-bdad-4bc2-a158-81cbb3a962e1",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 55-year-old man with acute gouty arthr",
+              "title": "In an acute gouty attack, monosodium ura",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 956.3000000000001,
+            "to": 966.3000000000001
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Other NSAIDs such as indomethacin are used to treat acute gout, yet aspirin is s</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Other NSAIDs such as indomethacin are used to treat acute gout, yet aspirin is specifically avoided. Which mechanism explains why aspirin worsens gout rather than helping it?</p>",
+              "answers": [
+                {
+                  "text": "<div>Aspirin causes more gastric bleeding than other NSAIDs, increasing the risk of complications in gout</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While aspirin does carry GI risk, this is a class effect shared by all non-selective NSAIDs. It is not the specific reason aspirin is avoided in gout.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Aspirin irreversibly inhibits COX-2 in synovial tissue, paradoxically increasing urate crystal deposition</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Aspirin irreversibly acetylates COX-1 (not selectively COX-2), and its effect on gout is renal, not synovial.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>At low doses, aspirin reduces renal urate excretion, thereby worsening hyperuricaemia</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Low-dose aspirin competitively inhibits urate secretion in the renal tubule, raising serum uric acid levels. This drug-disease interaction is unique to aspirin among NSAIDs and can precipitate or worsen gout attacks.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Aspirin displaces urate-lowering drugs from plasma protein binding, rendering them ineffective</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While aspirin can displace other drugs from albumin, this is not the mechanism by which it worsens gout. The issue is reduced renal urate excretion at low doses.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The specific problem is that low-dose aspirin reduces uric acid excretion by the kidneys, raising serum urate levels. This worsens hyperuricaemia and can trigger gout attacks — an effect not shared by other NSAIDs like indomethacin."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly. This is a key drug-disease interaction: aspirin at low doses impairs renal urate excretion, worsening the very hyperuricaemia that drives gout — making it uniquely contraindicated among NSAIDs for this condition."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "ea220c9f-2671-4807-b006-a0eac4cc685a",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Other NSAIDs such as indomethacin are us",
               "authors": [],
               "changes": []
             }
@@ -507,48 +565,48 @@
         },
         {
           "time": 3,
-          "label": "A 19-year-old college student comes to the outpatient cli…"
+          "label": "A 19-year-old college student comes to the clinic in Apri…"
         },
         {
-          "time": 54,
-          "label": "Pathophysiology of Allergic Rhinitis and the Role of Hist…"
+          "time": 88,
+          "label": "Allergic rhinitis is an allergic reaction in the nasal li…"
         },
         {
-          "time": 105,
-          "label": "Classification of H1 Antihistamines All clinically used H…"
-        },
-        {
-          "time": 158,
-          "label": "Management of Allergic Rhinitis and Common Cold The manag…"
-        },
-        {
-          "time": 210,
-          "label": "Pathophysiology of Pain and the Prostaglandin Pathway Pai…"
+          "time": 165,
+          "label": "All H1 antihistamines fall into two generations, and the…"
         },
         {
           "time": 263,
-          "label": "Pharmacokinetics, Mechanism of Action, and Pharmacodynami…"
+          "label": "Let's apply what we just learned about allergic rhinitis…"
         },
         {
-          "time": 314,
-          "label": "Adverse Drug Reactions and Drug Interactions of NSAIDs Th…"
+          "time": 369,
+          "label": "Pain is defined by the International Association for the…"
         },
         {
-          "time": 368,
-          "label": "Pathophysiology of Gout, Arthritis, and Migraine: Setting…"
+          "time": 454,
+          "label": "Understanding how these drugs move through the body expla…"
         },
         {
-          "time": 422,
-          "label": "Drug Classes Used in Each Condition Mapping the right dru…"
+          "time": 570,
+          "label": "Let's look at the adverse effects of NSAIDs, and here the…"
         },
         {
-          "time": 478,
-          "label": "Drug Classes Used in Each Condition Mapping the right dru…"
+          "time": 668,
+          "label": "Let's look at why these three conditions need such differ…"
+        },
+        {
+          "time": 764,
+          "label": "This scene has the shape of a table image with narration…"
+        },
+        {
+          "time": 860,
+          "label": "Now that we've covered the underlying pharmacology in ear…"
         }
       ],
       "endscreens": [
         {
-          "time": 578,
+          "time": 1000,
           "label": "End"
         }
       ]
@@ -560,7 +618,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "5e280325-6268-4cfa-a690-04d912646b2c",
+              "subContentId": "478fdaa2-3ee4-4511-8106-0de11e8e138f",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -583,7 +641,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "4eb4c0e0-54f4-41b1-b680-2f9b75b52477",
+        "subContentId": "a06ea283-4d94-4c4c-b940-e5652999bce1",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
