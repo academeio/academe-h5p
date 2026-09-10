@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/cf74c64e-810b-46a0-a59f-cf764fb85cb8/playlist.m3u8",
+          "path": "https://vdo.cbme.in/f33fe0c4-d8e4-41e6-802f-31366b9353ce/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OG16.1-3 | Third Stage Complications — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 3 embedded questions for OG16.1-OG16.4."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for OG16.1-OG16.4."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 112.875,
-            "to": 122.875
+            "from": 226.64999999999998,
+            "to": 236.64999999999998
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 26-year-old woman has an estimated blood loss of 400 mL following vaginal deli</p>",
+          "label": "<p>A woman delivered vaginally 3 hours ago. Her pulse is 120/min and systolic blood</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 26-year-old woman has an estimated blood loss of 400 mL following vaginal delivery. She is tachycardic at 112 bpm with a blood pressure of 88/58 mmHg. How should this presentation be classified?</p>",
+              "question": "<p>A woman delivered vaginally 3 hours ago. Her pulse is 120/min and systolic blood pressure is 80 mmHg, giving a shock index of 1.5. Based on the thresholds discussed, this value most likely indicates:</p>",
               "answers": [
                 {
-                  "text": "<div>Not PPH, as blood loss has not reached the 500 mL threshold</div>",
+                  "text": "<div>Normal postpartum physiology requiring observation only</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The 500 mL volume criterion is only one arm of the definition. Any blood loss causing haemodynamic instability — tachycardia and hypotension here — meets the clinical threshold for PPH regardless of estimated volume.</div>",
+                    "chosenFeedback": "<div>A normal shock index is below 0.7–0.9. A value of 1.5 is markedly elevated and indicates significant haemodynamic compromise requiring urgent action.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Compensated haemorrhage requiring observation only</div>",
+                  "text": "<div>Compensated blood loss — oral uterotonics and monitoring are sufficient</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A pulse of 112 bpm and BP of 88/58 mmHg indicate uncompensated haemodynamic instability, not compensated loss. Moreover, visual estimation underestimates true blood loss by 30–50%, so the actual volume is likely higher.</div>",
+                    "chosenFeedback": "<div>Young, healthy women can appear deceptively stable due to compensatory mechanisms, but a shock index above 1.0 indicates true haemodynamic compromise. Waiting for overt hypotension risks dangerous delay.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>PPH, because haemodynamic instability defines the clinical threshold regardless of estimated volume</div>",
+                  "text": "<div>Haemodynamic compromise needing urgent transfusion</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The clinical definition of PPH includes any blood loss that produces haemodynamic instability, irrespective of measured volume — visual estimation consistently underestimates true loss by 30–50%.</div>",
+                    "chosenFeedback": "<div>Correct. A shock index above 1.0 signals haemodynamic compromise requiring urgent transfusion. This patient's value of 1.5 clearly exceeds that threshold but is below 1.7, which would indicate life-threatening haemorrhage.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Secondary PPH, as the bleeding occurred after placental delivery</div>",
+                  "text": "<div>Life-threatening haemorrhage requiring massive transfusion protocol</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Secondary PPH refers to haemorrhage between 24 hours and 12 weeks postpartum, not simply 'after placental delivery'. Bleeding within the first 24 hours is primary PPH, which is the more common and dangerous form.</div>",
+                    "chosenFeedback": "<div>Life-threatening haemorrhage is indicated by a shock index above 1.7. This patient's value of 1.5 indicates serious compromise needing urgent transfusion, but has not yet reached the life-threatening threshold.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "PPH is defined not only by volume (≥500 mL vaginal, ≥1000 mL caesarean) but also by any blood loss causing haemodynamic instability. Tachycardia and hypotension demand immediate treatment regardless of the estimated volume."
+                  "feedback": "The shock index is calculated as heart rate divided by systolic blood pressure. Values above 1.0 indicate haemodynamic compromise needing urgent transfusion; above 1.7 indicates life-threatening haemorrhage. Young women may compensate well, so don't wait for overt hypotension."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. In clinical practice, always treat haemodynamic instability as PPH — do not wait for a volume threshold to be crossed, especially since visual estimation underestimates blood loss by 30–50%."
+                  "feedback": "Well done. The shock index (heart rate ÷ systolic BP) is a rapid bedside tool: >1.0 signals compromise needing urgent transfusion, and >1.7 signals life-threatening haemorrhage."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f05f5d47-f2a5-44b4-856f-18a845d0cb40",
+            "subContentId": "737c53e5-c7bb-40e7-97d6-4e233bde32ca",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 26-year-old woman has an estimated blo",
+              "title": "A woman delivered vaginally 3 hours ago.",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 216.225,
-            "to": 226.225
+            "from": 348.525,
+            "to": 358.525
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>You are managing atonic PPH unresponsive to initial uterotonics. You initiate bi</p>",
+          "label": "<p>Active management of the third stage of labour (AMTSL) is recommended for every </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>You are managing atonic PPH unresponsive to initial uterotonics. You initiate bimanual uterine compression. Which statement best describes how this technique controls haemorrhage?</p>",
+              "question": "<p>Active management of the third stage of labour (AMTSL) is recommended for every woman delivering, not just those identified as high risk. Which of the following best explains this practice?</p>",
               "answers": [
                 {
-                  "text": "<div>It stimulates the Ferguson reflex, triggering endogenous oxytocin release from the posterior pituitary</div>",
+                  "text": "<div>Risk factor screening reliably identifies most women who will develop PPH</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The Ferguson reflex is triggered by cervical and vaginal distension during labour, not by bimanual compression of the uterine body. Bimanual compression works by direct mechanical tamponade, not via a neuroendocrine reflex.</div>",
+                    "chosenFeedback": "<div>This is actually the opposite of reality. Risk factor screening has poor predictive value — many women who develop PPH have no identifiable risk factors at all.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It evacuates retained clots from the uterine cavity, allowing uterotonics to reach the myometrium</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While clot evacuation may be a secondary benefit, the primary mechanism is direct mechanical compression of the placental bed vessels between the two hands — substituting for the myometrial contraction that is failing.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It compresses the uterine body between the vaginal and abdominal hands, mechanically occluding the placental bed vessels</div>",
+                  "text": "<div>Up to 40% of PPH cases occur in women with no identifiable risk factor</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The internal hand in the vaginal fornix and the external hand on the fundus compress the uterus between them, directly occluding the placental bed vessels — the same 'living ligatures' principle that myometrial contraction normally provides.</div>",
+                    "chosenFeedback": "<div>Correct. Because risk factor identification misses a large proportion of PPH cases, relying on selective prevention would leave many women unprotected. Universal AMTSL closes this gap.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It stretches the lower uterine segment, activating a myotatic reflex that initiates uterine contraction</div>",
+                  "text": "<div>AMTSL is only effective when given to women without prior uterotonic exposure</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>There is no myotatic reflex mechanism in uterine smooth muscle analogous to skeletal muscle stretch reflexes. Bimanual compression is a direct mechanical tamponade, not a contraction trigger.</div>",
+                    "chosenFeedback": "<div>AMTSL is effective regardless of prior uterotonic exposure. Its universality is driven by the unpredictability of PPH, not by pharmacological limitations.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Controlled cord traction can only be safely performed if initiated before the third stage begins</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Controlled cord traction is one component of AMTSL performed during the third stage itself. The reason for universal AMTSL is the inability to predict which women will bleed, not a procedural timing constraint.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Bimanual compression works by sandwiching the uterus between an internal vaginal hand and an external abdominal hand, directly compressing the placental bed vessels. This exploits the 'living ligatures' principle — the same mechanism that myometrial contraction normally uses to achieve haemostasis."
+                  "feedback": "Risk factor screening has limited predictive value: up to 40% of PPH cases occur in women with no identifiable risk factors. This is precisely why AMTSL is recommended universally rather than selectively."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Bimanual compression is a no-equipment, immediately available technique that provides a mechanical substitute for failing myometrial contraction — always used alongside continuing uterotonic therapy."
+                  "feedback": "Exactly. The unpredictability of PPH — with up to 40% of cases occurring in women without risk factors — is the key reason AMTSL is offered to all women, not selectively."
                 }
               ],
               "behaviour": {
@@ -261,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e2a1fe5e-244b-4895-a2f8-db603c014f16",
+            "subContentId": "509e0eba-5e94-4d74-bad3-8133a8f76645",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "You are managing atonic PPH unresponsive",
+              "title": "Active management of the third stage of",
               "authors": [],
               "changes": []
             }
@@ -281,49 +281,321 @@
         },
         {
           "duration": {
-            "from": 313.2,
-            "to": 323.2
+            "from": 554.6999999999999,
+            "to": 564.6999999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In acute uterine inversion, the cervical ring gradually relaxes over time, makin</p>",
+          "label": "<p>During management of atonic PPH unresponsive to uterotonics, a Bakri balloon is </p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In acute uterine inversion, the cervical ring gradually relaxes over time, making delayed manual reduction easier than immediate reduction.</p>",
-              "correct": "false",
+              "question": "<p>During management of atonic PPH unresponsive to uterotonics, a Bakri balloon is inflated with 400 mL of warm saline inside the uterine cavity. Vaginal bleeding stops completely. What does this finding indicate?</p>",
+              "answers": [
+                {
+                  "text": "<div>The uterus has regained its own tone and the balloon can be removed immediately</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Cessation of bleeding with the balloon in situ means the balloon is providing the tamponade, not the uterus. Removing it immediately risks re-bleeding. The balloon is typically left in place for 24–48 hours.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A positive tamponade test — surgical intervention is unlikely to be needed</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. When bleeding stops after balloon inflation, this is called a positive tamponade test. It indicates that mechanical tamponade alone is sufficient and surgical escalation — B-Lynch suture, devascularisation, or hysterectomy — is unlikely to be required.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Retained placental fragments have been displaced and the bleeding source is sealed</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The balloon works by exerting direct pressure against the uterine walls, compressing the placental bed vessels. It does not displace tissue fragments — the mechanism is tamponade, not tissue displacement.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The balloon has triggered a sustained uterine contraction reflex</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While the balloon may stimulate some uterine activity, the clinical significance of the tamponade test is that mechanical pressure alone is controlling the bleeding. The test predicts that surgical escalation is unlikely to be needed.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "When an intrauterine balloon is inflated and vaginal bleeding stops, this is called a positive tamponade test. It indicates that mechanical tamponade is sufficient to control bleeding, and surgical escalation is unlikely to be needed."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. A positive tamponade test — bleeding stopping after balloon inflation — is a key decision point in the PPH escalation ladder, indicating that surgery is unlikely to be needed."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. The cervical ring progressively constricts around the inverted fundus over time, making delayed reduction far more difficult than immediate reduction. Every minute of delay allows the constriction ring to tighten further, which is why uterine inversion demands immediate recognition and action.",
-                "correctAnswerMessage": "Correct — this statement is false. The cervical ring progressively tightens around the inverted fundus with every passing minute, making reduction increasingly difficult. This is precisely why immediate recognition and reduction are critical; delay worsens the constriction and compounds the cardiovascular collapse.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f5fac6bf-6189-4779-8435-ae535ef9018f",
+            "subContentId": "19e71ea7-045f-476a-a0ef-440d462d0451",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In acute uterine inversion, the cervical",
+              "title": "During management of atonic PPH unrespon",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 665.4499999999999,
+            "to": 675.4499999999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In acute uterine inversion, the cardiovascular collapse is often far more severe</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In acute uterine inversion, the cardiovascular collapse is often far more severe than the volume of blood lost would explain. Which additional mechanism contributes to this disproportionate shock?</p>",
+              "answers": [
+                {
+                  "text": "<div>Anaphylaxis from exposure of foetal antigens to the maternal circulation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Foetal antigen exposure can cause amniotic fluid embolism, which is a separate and distinct condition. The disproportionate shock in uterine inversion is caused by a different mechanism related to mechanical displacement of the uterus.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Vasovagal response triggered by traction on uterine ligaments and peritoneum</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The inverted uterus pulls on its broad and round ligaments and the overlying peritoneum, triggering a parasympathetic (vasovagal) reflex that causes bradycardia and hypotension — on top of any haemorrhagic shock.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Acute adrenal insufficiency from sudden loss of placental cortisol production</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Placental cortisol production ceases with delivery in all women, not specifically in uterine inversion. The disproportionate shock here is caused by a vasovagal reflex from peritoneal and ligament traction.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Air embolism entering through the exposed placental sinuses on the inverted fundus</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Air embolism is not a recognised mechanism in uterine inversion. The disproportionate shock is explained by the vasovagal reflex triggered by traction on the uterine ligaments and peritoneum.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "In acute uterine inversion, the inverted fundus tugs on the broad and round ligaments and peritoneum, triggering a parasympathetic (vasovagal) reflex with bradycardia and hypotension. This adds to haemorrhagic shock, explaining why collapse seems out of proportion to visible bleeding."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. The vasovagal component — triggered by peritoneal and ligament traction — is what makes the shock in uterine inversion disproportionate to the blood loss, distinguishing this emergency from ordinary PPH."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "a78442ab-0c72-4b47-a9d4-50c408f998a1",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In acute uterine inversion, the cardiova",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 809.7499999999999,
+            "to": 819.7499999999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A woman with acute uterine inversion has the placenta still attached to the inve</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A woman with acute uterine inversion has the placenta still attached to the inverted fundus. Intravenous access has been secured and resuscitation is underway. What is the correct action regarding the placenta before attempting the Johnson manoeuvre?</p>",
+              "answers": [
+                {
+                  "text": "<div>Remove the placenta to reduce the bulk of tissue that must be pushed back through the cervix</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Removing the placenta before reduction opens the placental sinuses on the inverted fundus, causing massive haemorrhage that cannot be controlled until the uterus is repositioned. The placenta must stay in place.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Partially separate the placenta at its edges to allow a better grip on the fundus</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Any degree of placental separation opens vascular sinuses on the exposed fundal surface. Even partial removal can trigger uncontrollable haemorrhage. Leave the placenta entirely undisturbed.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Leave the placenta in place — it tamponades the placental bed and limits haemorrhage</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The attached placenta covers and compresses the placental bed sinuses, limiting bleeding. Removing it before the uterus is reduced is the single most dangerous error in managing uterine inversion.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Administer oxytocin to contract the uterus and separate the placenta before reduction</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Oxytocin causes uterine contraction, which would tighten the cervical constriction ring around the inverted fundus and make reduction harder or impossible. Oxytocin is given only after successful reduction, never before.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The attached placenta acts as a tamponade over the placental bed sinuses. Removing it before reduction opens those sinuses and triggers massive, uncontrollable haemorrhage. Leave the placenta in place, perform the Johnson manoeuvre, and only then manage the placenta and give oxytocin."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. The placenta tamponades the placental bed and must be left undisturbed until the uterus has been successfully reduced by the Johnson manoeuvre. This is the single most critical rule in managing uterine inversion."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "15d7876a-d216-40de-8d2a-9289b1e7cf12",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A woman with acute uterine inversion has",
               "authors": [],
               "changes": []
             }
@@ -345,36 +617,36 @@
         },
         {
           "time": 3,
-          "label": "It is 2 AM."
+          "label": "It is 2 AM, and a 28-year-old woman who has just delivere…"
         },
         {
-          "time": 53,
-          "label": "Clinical Presentation of PPH Postpartum haemorrhage (PPH)…"
+          "time": 106,
+          "label": "Postpartum haemorrhage, or PPH, is defined as blood loss…"
         },
         {
-          "time": 113,
-          "label": "Risk Factors and Prevention — AMTSL Prevention is the mos…"
+          "time": 227,
+          "label": "Prevention is by far the most effective way to reduce dea…"
         },
         {
-          "time": 167,
-          "label": "Bimanual Uterine Compression Bimanual uterine compression…"
+          "time": 349,
+          "label": "Bimanual uterine compression is your first move when the…"
         },
         {
-          "time": 216,
-          "label": "Surgical and Interventional Management When uterotonic th…"
+          "time": 445,
+          "label": "When uterotonic drugs fail to control bleeding, or when t…"
         },
         {
-          "time": 264,
-          "label": "Clinical Presentation and Recognition Uterine inversion i…"
+          "time": 555,
+          "label": "Uterine inversion is the turning inside-out of the uterus…"
         },
         {
-          "time": 313,
-          "label": "Management — Manual Reduction The management of acute ute…"
+          "time": 666,
+          "label": "Once uterine inversion has been recognised, how do you ac…"
         }
       ],
       "endscreens": [
         {
-          "time": 395,
+          "time": 843,
           "label": "End"
         }
       ]
@@ -386,7 +658,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "2df08fcf-0c73-4608-a91a-0cd0965e11d0",
+              "subContentId": "c6f20e46-b0ed-435a-be1b-6f1664855f26",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -409,7 +681,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "f442244b-828a-4b5f-a992-61c8fdf1e036",
+        "subContentId": "619996f8-6ae8-40a2-b301-a93eb4a71dd2",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
