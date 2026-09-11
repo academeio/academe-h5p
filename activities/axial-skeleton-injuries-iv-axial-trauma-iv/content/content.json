@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/6a606ca7-5d70-4620-a41a-8fd5eca1bbab/playlist.m3u8",
+          "path": "https://vdo.cbme.in/49abf6f1-d1fd-4f12-a711-46d81bf3285b/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -11,9 +11,9 @@
         }
       ],
       "startScreenOptions": {
-        "title": "OR2.1-OR2.8 — Interactive Lecture (OR)",
+        "title": "OR2.7-8 | Axial Skeleton Injuries — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for OR2.1-OR2.8."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for OR2.1-OR2.8."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,123 @@
       "interactions": [
         {
           "duration": {
-            "from": 98.475,
-            "to": 108.475
+            "from": 184.72500000000002,
+            "to": 194.72500000000002
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>An isolated fracture at a single point of the pelvic ring can displace significa</p>",
+          "label": "<p>The pelvic ring has three articulations. In a young adult, why does a pubic rami</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>The pelvic ring has three articulations. In a young adult, why does a pubic rami fracture almost always have a corresponding injury at the posterior ring?</p>",
+              "answers": [
+                {
+                  "text": "<div>Because the anterior pelvis absorbs more force than the posterior pelvis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The posterior ring, not the anterior, bears the majority of axial load. The reason for a second injury lies in the biomechanics of the ring itself.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Because the pelvic ring is a rigid structure, so displacement at one point requires a second disruption elsewhere</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. A rigid ring cannot deform at a single point without yielding at a second. This is why an isolated anterior fracture on X-ray should prompt careful evaluation of the posterior ring on CT.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Because the presacral venous plexus connects the anterior and posterior rings vascularly</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The presacral venous plexus is a major source of bleeding in pelvic fractures, but it does not explain why a second bony or ligamentous disruption must exist. The explanation is mechanical, not vascular.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Because the sacroiliac joints are inherently hypermobile in young adults</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The sacroiliac joints are tightly bound by strong ligaments in young adults. In fact, it is the elderly pelvis, with weaker bone, that may sustain isolated ramus fractures without a second break.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Review the rigid-ring concept. A ring that breaks at one point can only displace if it also breaks or gives way at a second point. In a young adult's strong pelvis, an anterior fracture almost always has a posterior partner."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. The rigid-ring principle is fundamental: always look for the second break, especially at the posterior ring, which determines stability and bleeding risk."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "0084180d-5ed2-4db7-93d2-a6d3b573bdd4",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "The pelvic ring has three articulations.",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 375.45,
+            "to": 385.45
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Preserved voluntary anal contraction alone is sufficient to classify a spinal co</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,8 +186,8 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>An isolated fracture at a single point of the pelvic ring can displace significantly without any additional break or ligamentous disruption elsewhere in the ring.</p>",
-              "correct": "false",
+              "question": "<p>Preserved voluntary anal contraction alone is sufficient to classify a spinal cord injury as incomplete on the ASIA Impairment Scale.</p>",
+              "correct": "true",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
@@ -94,16 +204,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "The pelvic ring behaves like a rigid circle: a break at one point can only displace if there is a second break or ligamentous disruption elsewhere. This is why a displaced pubic ramus fracture should always prompt a search for a posterior ring injury.",
-                "correctAnswerMessage": "Correct. The pelvic ring functions as a rigid circle — a fracture at one point cannot displace unless there is a second disruption (bony or ligamentous) elsewhere. Apparently 'isolated' displaced pubic rami fractures always harbour an occult posterior ring injury.",
+                "wrongAnswerMessage": "This statement is actually true. The concept of sacral sparing means that even one preserved function at the S4–S5 level reclassifies the injury from complete to incomplete. This distinction is critical because incomplete injuries have a significantly better prognosis. That is why S4–S5 must always be examined meticulously.",
+                "correctAnswerMessage": "Correct. Sacral sparing means that even a single preserved S4–S5 function — voluntary anal contraction, perianal sensation, or deep anal pressure — changes the classification from ASIA A (complete) to incomplete, which carries a dramatically better prognosis for neurological recovery.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "76b9150e-14a4-4c91-a405-db5e9b7be739",
+            "subContentId": "561cd093-df47-41b7-84e1-13c232ee9344",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "An isolated fracture at a single point o",
+              "title": "Preserved voluntary anal contraction alo",
               "authors": [],
               "changes": []
             }
@@ -119,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 197.075,
-            "to": 207.075
+            "from": 545.9,
+            "to": 555.9
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the ASIA Impairment Scale, what is the single key clinical finding that disti</p>",
+          "label": "<p>A trauma team is applying a pelvic binder on a haemodynamically unstable patient</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In the ASIA Impairment Scale, what is the single key clinical finding that distinguishes a complete from an incomplete spinal cord injury?</p>",
+              "question": "<p>A trauma team is applying a pelvic binder on a haemodynamically unstable patient with an open-book pelvic fracture. At which anatomical level should the binder be centred?</p>",
               "answers": [
                 {
-                  "text": "<div>Absence of all voluntary motor function below the neurological level of injury</div>",
+                  "text": "<div>At the level of the iliac crests</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Motor loss below the level is present in both complete and incomplete injuries. The distinction rests on preserved sacral function — even minimal perianal sensation or voluntary anal contraction reclassifies the injury as incomplete.</div>",
+                    "chosenFeedback": "<div>This is the most common error. The iliac crests are too high and do not compress the pelvic ring effectively. The binder must sit at the greater trochanters to reduce pelvic volume.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Preserved sacral sensory or motor function</div>",
+                  "text": "<div>At the level of the greater trochanters</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Sacral sparing — preserved perianal sensation (S4–S5) or voluntary anal contraction — indicates that at least some long-tract fibres traverse the injury site, classifying it as incomplete and predicting substantially better neurological recovery.</div>",
+                    "chosenFeedback": "<div>Correct. Placing the binder at the greater trochanters compresses the pelvic ring and reduces its volume, which is most effective for counteracting the displacement in open-book injuries.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Loss of deep tendon reflexes in the lower extremities</div>",
+                  "text": "<div>At the level of the anterior superior iliac spines</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Areflexia typically indicates spinal shock rather than completeness of injury. Once spinal shock resolves, reflexes may return even in complete injuries. The ASIA distinction depends on sacral sparing, not reflex status.</div>",
+                    "chosenFeedback": "<div>The ASIS level is still too high for optimal ring compression. The binder needs to sit lower, at the greater trochanters, to effectively close the displaced pelvic ring.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Presence of neurogenic shock with bradycardia and hypotension</div>",
+                  "text": "<div>At the level of the pubic symphysis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Neurogenic shock reflects loss of sympathetic tone and can occur in both complete and incomplete high cord injuries. It is a haemodynamic finding, not the criterion the ASIA scale uses to grade injury completeness.</div>",
+                    "chosenFeedback": "<div>The pubic symphysis is too low and too anterior. A binder placed here would not adequately compress the posterior ring where the bleeding originates.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The ASIA Impairment Scale hinges on sacral sparing: preserved perianal sensation or voluntary anal sphincter contraction. This single finding separates complete (ASIA A, poor prognosis) from incomplete (ASIA B–D, recovery potential) injuries."
+                  "feedback": "The pelvic binder must be applied at the level of the greater trochanters, not the iliac crests or any other landmark. This is one of the most commonly tested and most commonly misapplied steps in pelvic trauma management."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Sacral sparing is the single most important finding in acute spinal cord assessment — it separates a complete injury (ASIA A, poor prognosis) from an incomplete injury (ASIA B–D) where meaningful neurological recovery is possible."
+                  "feedback": "Well done. Correct binder placement at the greater trochanters is a life-saving skill. It reduces pelvic volume and helps tamponade venous bleeding from the presacral plexus."
                 }
               ],
               "behaviour": {
@@ -209,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "d37f26b1-e7f0-4afb-ad19-939edd8d9497",
+            "subContentId": "a03753ea-7d2b-4893-bed7-f4b3a49d08ff",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In the ASIA Impairment Scale, what is th",
+              "title": "A trauma team is applying a pelvic binde",
               "authors": [],
               "changes": []
             }
@@ -229,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 302.825,
-            "to": 312.825
+            "from": 699.275,
+            "to": 709.275
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 38-year-old man with an unstable open-book pelvic fracture arrives with blood </p>",
+          "label": "<p>Open pelvic fractures carry a mortality rate of 30 to 50 per cent. What combinat</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 38-year-old man with an unstable open-book pelvic fracture arrives with blood pressure 65/40 mmHg. The massive transfusion protocol is activated with packed RBCs, FFP, and platelets in a 1:1:1 ratio. What is the target systolic blood pressure during damage-control resuscitation until definitive bleeding control is achieved?</p>",
+              "question": "<p>Open pelvic fractures carry a mortality rate of 30 to 50 per cent. What combination of factors is primarily responsible for this high lethality?</p>",
               "answers": [
                 {
-                  "text": "<div>60–70 mmHg to minimise clot disruption</div>",
+                  "text": "<div>Bilateral sacroiliac disruption combined with acetabular involvement</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A target this low risks inadequate end-organ perfusion, particularly to the brain and kidneys. The accepted permissive hypotension target balances reduced bleeding with sufficient perfusion at 80–90 mmHg systolic.</div>",
+                    "chosenFeedback": "<div>While these patterns can coexist, the defining danger of open fractures is not the fracture pattern itself but the communication with contaminated spaces.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>80–90 mmHg until definitive bleeding control</div>",
+                  "text": "<div>Massive haemorrhage combined with faecal or urinary contamination leading to pelvic sepsis</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Permissive hypotension targets a systolic of 80–90 mmHg — high enough to maintain organ perfusion but low enough to avoid disrupting early clot formation before the source of haemorrhage is definitively controlled.</div>",
+                    "chosenFeedback": "<div>Correct. The wound communicates with the perineum, vagina, or rectum, allowing bacteria to enter the fracture site. This contamination, on top of massive bleeding, drives pelvic sepsis and multiorgan failure.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>100–110 mmHg to ensure adequate organ perfusion</div>",
+                  "text": "<div>Arterial injury from the internal iliac artery, which is impossible to control with a binder</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Aggressively restoring blood pressure above 100 mmHg before bleeding is controlled can dislodge forming clots and worsen haemorrhage. The damage-control approach accepts a lower systolic of 80–90 mmHg until haemostasis is secured.</div>",
+                    "chosenFeedback": "<div>While arterial injury can occur, most pelvic bleeding is venous. More importantly, it is the contamination through the open wound that distinguishes these injuries and drives the excess mortality.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>120 mmHg to restore normal haemodynamics as rapidly as possible</div>",
+                  "text": "<div>Neurological injury from sacral plexus damage, leading to autonomic instability</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Attempting to normalise blood pressure before surgical haemorrhage control is counterproductive — it increases blood loss by disrupting nascent clots. The damage-control approach accepts a systolic of 80–90 mmHg until bleeding is definitively controlled.</div>",
+                    "chosenFeedback": "<div>Nerve injuries do occur and affect bowel and bladder function, but they are not the primary cause of the high mortality. The lethal combination is haemorrhage plus contamination.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The damage-control resuscitation principle uses permissive hypotension — targeting a systolic of 80–90 mmHg until definitive bleeding control is achieved. This prevents clot disruption while maintaining minimum organ perfusion."
+                  "feedback": "The key to understanding open pelvic fracture lethality is the dual hit: massive haemorrhage combined with contamination through a wound communicating with the perineum, vagina, or rectum. This combination leads to pelvic sepsis and multiorgan failure."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "In damage-control resuscitation, permissive hypotension (systolic 80–90 mmHg) balances organ perfusion against the risk of disrupting early clot formation — a cornerstone of managing haemodynamically unstable pelvic fractures."
+                  "feedback": "Exactly. Open pelvic fractures are a surgical emergency because the wound connects the fracture to contaminated spaces. Early recognition of a perineal, vaginal, or rectal wound is the house officer's most important contribution."
                 }
               ],
               "behaviour": {
@@ -319,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2f6d98fa-02cb-4678-af3e-43cb443b90cd",
+            "subContentId": "edd148db-4f99-4c3c-b6f4-bdf51724e54e",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 38-year-old man with an unstable open-",
+              "title": "Open pelvic fractures carry a mortality",
               "authors": [],
               "changes": []
             }
@@ -339,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 454.525,
-            "to": 464.525
+            "from": 895.65,
+            "to": 905.65
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which combination of findings in a thoracolumbar injury most strongly indicates </p>",
+          "label": "<p>In a patient with a pelvic fracture and ongoing haemodynamic instability, why ca</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which combination of findings in a thoracolumbar injury most strongly indicates the need for prompt surgical decompression and stabilisation rather than conservative management?</p>",
+              "question": "<p>In a patient with a pelvic fracture and ongoing haemodynamic instability, why can a negative FAST scan be misleading?</p>",
               "answers": [
                 {
-                  "text": "<div>Stable burst fracture with intact neurology and preserved posterior ligamentous complex</div>",
+                  "text": "<div>FAST has poor sensitivity for detecting solid organ injuries in trauma</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A mechanically stable fracture in a neurologically intact patient is the classic candidate for conservative management with bracing and supervised mobilisation — surgery would add risk without clear benefit.</div>",
+                    "chosenFeedback": "<div>FAST can detect free fluid from solid organ injury reasonably well. The issue in pelvic trauma is the location of the bleeding, not the sensitivity of the scan for intraperitoneal fluid.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Incomplete cord injury with disrupted posterior ligamentous complex</div>",
+                  "text": "<div>Pelvic fracture haemorrhage is primarily retroperitoneal, which FAST cannot detect</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. An incomplete cord injury (potential for neurological recovery) combined with posterior ligamentous complex disruption (mechanical instability) creates an urgent indication for surgery to protect recoverable cord function and restore spinal stability.</div>",
+                    "chosenFeedback": "<div>Correct. FAST detects free intraperitoneal fluid, but pelvic fracture bleeding collects in the retroperitoneal space. A negative FAST therefore does not rule out life-threatening pelvic haemorrhage.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Complete cord injury with a stable compression fracture</div>",
+                  "text": "<div>FAST requires intravenous contrast to visualise pelvic vasculature</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In a complete cord injury (ASIA A) with a mechanically stable fracture, surgery offers little neurological benefit since recovery potential is poor. Management focuses on preventing complications rather than emergency intervention.</div>",
+                    "chosenFeedback": "<div>FAST is an ultrasound-based assessment that does not use contrast. It detects free fluid in the peritoneal cavity, pericardium, and pleural space — but not retroperitoneal blood.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Wedge compression fracture with a normal TLICS score and no neurological deficit</div>",
+                  "text": "<div>Haemodynamic instability causes bowel gas artefacts that obscure pelvic images</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A low TLICS score with intact neurology points to conservative management. The TLICS was designed precisely to identify which injuries can be safely managed without surgery.</div>",
+                    "chosenFeedback": "<div>Bowel gas can reduce image quality, but the fundamental limitation is that FAST surveys the peritoneal cavity while pelvic fracture blood accumulates retroperitoneally.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Definitive spinal injury management integrates three axes: fracture stability (three-column model and TLICS), neurological status (ASIA), and surgical indications. An incomplete cord injury with a disrupted posterior ligamentous complex is the combination that most urgently demands surgical intervention."
+                  "feedback": "The key point is anatomical: pelvic fracture haemorrhage accumulates in the retroperitoneal space, which lies behind the peritoneum. FAST only surveys the peritoneal cavity, so it misses this bleeding entirely. A negative FAST in a haemodynamically unstable pelvic fracture patient should never be reassuring."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "The decision to operate hinges on all three axes together: an incomplete neurological deficit (recovery worth protecting) plus mechanical instability (posterior ligamentous disruption) creates the strongest indication for prompt surgical decompression and stabilisation."
+                  "feedback": "Exactly right. This is a classic pitfall in trauma management. Never let a negative FAST reassure you in a patient with a pelvic fracture and haemodynamic instability — the bleeding is retroperitoneal and invisible to FAST."
                 }
               ],
               "behaviour": {
@@ -429,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "454ced13-e398-4446-9d4b-2220a2c7bf97",
+            "subContentId": "a892cd56-f965-49d4-b909-515ed7f0e9d2",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which combination of findings in a thora",
+              "title": "In a patient with a pelvic fracture and",
               "authors": [],
               "changes": []
             }
@@ -455,48 +565,48 @@
         },
         {
           "time": 3,
-          "label": "A 28-year-old motorcyclist arrives in the emergency depar…"
+          "label": "A 28-year-old motorcyclist arrives after a high-speed col…"
         },
         {
-          "time": 50,
-          "label": "Aetiopathogenesis and Mechanism of Injury Pelvic fracture…"
+          "time": 103,
+          "label": "Pelvic fractures almost always come from high-energy trauma."
         },
         {
-          "time": 98,
-          "label": "Classification Systems: Tile and Young-Burgess Two classi…"
+          "time": 185,
+          "label": "Two classification systems matter here, because they guid…"
         },
         {
-          "time": 146,
-          "label": "Classification: ASIA Impairment Scale and TLICS Two class…"
+          "time": 285,
+          "label": "Two systems drive every decision in spinal injury care, a…"
         },
         {
-          "time": 200,
-          "label": "Clinical Features and Assessment Clinical assessment of a…"
+          "time": 376,
+          "label": "Assessing a pelvic injury starts the moment the primary s…"
         },
         {
-          "time": 251,
-          "label": "Emergency Management: Haemorrhage Control and Resuscitati…"
+          "time": 454,
+          "label": "Managing a haemodynamically unstable pelvic fracture is a…"
         },
         {
-          "time": 303,
-          "label": "Spinal Precautions and Safe Mobilisation: Log-Roll Techni…"
+          "time": 546,
+          "label": "Keeping the spine in neutral alignment is the single most…"
         },
         {
-          "time": 355,
-          "label": "Open Pelvic Fractures and Special Complications Open pelv…"
+          "time": 618,
+          "label": "Open pelvic fractures are a special category of pelvic in…"
         },
         {
-          "time": 406,
-          "label": "Principles of Management: Definitive Treatment and Rehabi…"
+          "time": 699,
+          "label": "Definitive management of spinal injuries rests on three f…"
         },
         {
-          "time": 458,
-          "label": "Self-Assessment: Key Principles in Pelvic and Acetabular…"
+          "time": 801,
+          "label": "Now that you've worked through the full module on pelvic…"
         }
       ],
       "endscreens": [
         {
-          "time": 545,
+          "time": 933,
           "label": "End"
         }
       ]
@@ -508,7 +618,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "c6d8ea3b-0cd4-4980-b961-76524c26dad5",
+              "subContentId": "e0a7a0b9-4ebc-4fb8-aaa9-dc36b591196b",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -531,7 +641,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "18d52b69-2f8d-4f59-8858-80c37031ce65",
+        "subContentId": "1565ea0b-9d2b-4929-b64c-7df83071707a",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
