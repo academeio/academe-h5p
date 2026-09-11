@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/fd6be3b6-8b1d-424f-80e1-8b65cb0b7bd5/playlist.m3u8",
+          "path": "https://vdo.cbme.in/ebe033c1-fc06-41fd-8eca-713463aa77f5/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -67,43 +67,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In suspected pulmonary embolism, CT pulmonary angiography should be the first in</p>",
+          "label": "<p>In a 65-year-old patient with suspected pulmonary embolism and low pre-test prob</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In suspected pulmonary embolism, CT pulmonary angiography should be the first investigation performed in all patients.</p>",
-              "correct": "false",
+              "question": "<p>In a 65-year-old patient with suspected pulmonary embolism and low pre-test probability, what is the age-adjusted D-dimer cut-off above which CT pulmonary angiography is indicated?</p>",
+              "answers": [
+                {
+                  "text": "<div>500 ng/mL</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This is the standard D-dimer cut-off. For patients over 50, the age-adjusted cut-off is age × 10 ng/mL, which for a 65-year-old is 650 ng/mL.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>650 ng/mL</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The age-adjusted D-dimer cut-off is age × 10 ng/mL. For a 65-year-old, this equals 650 ng/mL. A value below this in a low-probability patient safely excludes PE without imaging.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>1000 ng/mL</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This exceeds the age-adjusted threshold. The formula is age × 10 ng/mL, giving 650 ng/mL for a 65-year-old.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>325 ng/mL</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This is too low. The age-adjusted D-dimer cut-off is calculated as age × 10, in ng/mL, giving 650 ng/mL for a 65-year-old.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The age-adjusted D-dimer cut-off is age × 10 ng/mL. For a 65-year-old, this gives 650 ng/mL. Below this level in a low-probability patient, PE can be safely excluded without imaging."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "The age-adjusted D-dimer cut-off improves specificity in older patients, reducing unnecessary CT pulmonary angiography without missing clinically significant emboli."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Imaging is never the first step in suspected PE. Pre-test probability (Wells or revised Geneva score) is assessed first. Low-probability patients need only a D-dimer — if normal, PE is safely excluded without a scan. CTPA is reserved for patients with a raised D-dimer or high clinical probability.",
-                "correctAnswerMessage": "Correct. Imaging is never the starting point in suspected PE. Clinical pre-test probability using the Wells or revised Geneva score must be assessed first. Low-probability patients undergo a D-dimer test — a normal age-adjusted result safely excludes PE without any scan.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "3aa41a4d-4485-4a79-972e-bbb48f4b19f5",
+            "subContentId": "e974519e-3a06-4b6f-8278-ac89ec175a5b",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In suspected pulmonary embolism, CT pulm",
+              "title": "In a 65-year-old patient with suspected",
               "authors": [],
               "changes": []
             }
@@ -125,7 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>On a non-contrast CT brain in early acute ischaemic stroke, which finding indica</p>",
+          "label": "<p>On a non-contrast CT brain in the first two hours of ischaemic stroke, which fin</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>On a non-contrast CT brain in early acute ischaemic stroke, which finding indicates large-vessel occlusion and warrants urgent CT angiography, even when the rest of the scan appears normal?</p>",
+              "question": "<p>On a non-contrast CT brain in the first two hours of ischaemic stroke, which finding indicates large-vessel occlusion and warrants urgent CT angiography?</p>",
               "answers": [
                 {
-                  "text": "<div>Bilateral periventricular hypodensities</div>",
+                  "text": "<div>Diffuse cerebral oedema with midline shift</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Bilateral periventricular hypodensities suggest chronic small-vessel disease, not acute large-vessel occlusion. They are a background finding and do not indicate the need for urgent CT angiography.</div>",
+                    "chosenFeedback": "<div>Diffuse oedema with midline shift suggests a large established infarct or space-occupying lesion, not an early sign of acute ischaemia.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A hyperdense segment within the middle cerebral artery in the Sylvian fissure</div>",
+                  "text": "<div>Hyperdense middle cerebral artery sign</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The hyperdense MCA sign represents thrombus within the proximal middle cerebral artery. It may be the only CT abnormality in the first 1–2 hours and indicates large-vessel occlusion — always check the Sylvian fissure for asymmetric hyperdensity.</div>",
+                    "chosenFeedback": "<div>Correct. The hyperdense MCA sign represents a thrombus in the proximal middle cerebral artery, appearing as a bright segment in the Sylvian fissure. It may be the only CT abnormality in the first one to two hours.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Diffuse cerebral oedema with effacement of the sulci</div>",
+                  "text": "<div>Bilateral basal ganglia calcification</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Diffuse cerebral oedema with sulcal effacement suggests raised intracranial pressure from a completed infarct or other cause. It is a late finding, not an early indicator of acute ischaemic stroke.</div>",
+                    "chosenFeedback": "<div>Basal ganglia calcification is a normal age-related finding unrelated to acute stroke.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Hypodensity in the contralateral cerebellar hemisphere</div>",
+                  "text": "<div>Periventricular white-matter hypodensity</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A contralateral cerebellar hypodensity would suggest posterior circulation ischaemia, not a middle cerebral artery occlusion. The hyperdense MCA sign is specific to the anterior circulation.</div>",
+                    "chosenFeedback": "<div>Periventricular hypodensity suggests chronic small-vessel disease, not acute large-vessel occlusion.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The correct answer is the hyperdense MCA sign — a bright segment within the middle cerebral artery in the Sylvian fissure. It may be the only finding in the first 1–2 hours and directly warrants urgent CT angiography."
+                  "feedback": "The hyperdense MCA sign — a bright segment in the Sylvian fissure representing a proximal MCA thrombus — indicates large-vessel occlusion and mandates urgent CT angiography, even if the rest of the scan appears normal."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The hyperdense MCA sign — a bright segment in the Sylvian fissure — is a critical early finding indicating proximal MCA thrombus and large-vessel occlusion, warranting urgent CT angiography."
+                  "feedback": "The hyperdense MCA sign may be the only early abnormality. Always check the Sylvian fissure for asymmetric hyperdensity — this single finding warrants urgent CT angiography even when everything else looks normal."
                 }
               ],
               "behaviour": {
@@ -209,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e65332c2-f824-45fb-a9a2-52944617b70e",
+            "subContentId": "5e4dc772-a4de-4692-8b44-6c70af270731",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "On a non-contrast CT brain in early acut",
+              "title": "On a non-contrast CT brain in the first",
               "authors": [],
               "changes": []
             }
@@ -235,95 +287,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>On a chest radiograph, which sequence correctly describes the progression of fin</p>",
+          "label": "<p>Kerley B lines on a chest radiograph indicate alveolar flooding in heart failure</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>On a chest radiograph, which sequence correctly describes the progression of findings as left ventricular pressure rises in heart failure?</p>",
-              "answers": [
-                {
-                  "text": "<div>Alveolar oedema → interstitial oedema → upper-lobe venous distension</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This sequence is reversed. Alveolar oedema (bat-wing pattern) is the final stage when pressure is highest. The progression begins with venous distension, moves to interstitial oedema, and only then reaches alveolar flooding.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Cardiomegaly with upper-lobe venous distension → Kerley B lines and peribronchial cuffing → bat-wing alveolar oedema</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>As left ventricular pressure rises, fluid accumulates in a predictable sequence: cardiomegaly and upper-lobe venous distension appear first, then interstitial oedema produces Kerley B lines and peribronchial cuffing, and finally fluid floods the alveoli in a bat-wing pattern.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Pleural effusions → Kerley B lines → cardiomegaly</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Cardiomegaly and venous congestion are among the earliest signs, not the last. Pleural effusions typically accompany the later stages of fluid accumulation, alongside alveolar oedema.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Perihilar haze → cardiomegaly → upper-lobe venous distension</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Perihilar haze reflects interstitial oedema, which appears after cardiomegaly and venous distension have already developed. Cardiomegaly comes first, not after interstitial changes.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The correct sequence is: cardiomegaly with upper-lobe venous distension → interstitial oedema (Kerley B lines, peribronchial cuffing) → alveolar oedema with the bat-wing pattern. Each stage reflects progressively higher left atrial pressure."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. The CXR in heart failure is best read as a pressure gauge: cardiomegaly and upper-lobe distension → interstitial oedema (Kerley B lines) → alveolar oedema (bat-wing pattern)."
-                }
-              ],
+              "question": "<p>Kerley B lines on a chest radiograph indicate alveolar flooding in heart failure.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Kerley B lines represent interstitial oedema, not alveolar flooding. They are short horizontal lines at the lung bases caused by fluid accumulating in the interlobular septa. Alveolar oedema produces the classic bat-wing pattern — a later, more severe stage in the pressure sequence.",
+                "correctAnswerMessage": "Correct — Kerley B lines represent interstitial oedema, not alveolar flooding. They are short horizontal lines at the lung bases caused by fluid in the interlobular septa. The bat-wing pattern is the hallmark of alveolar oedema, a more advanced stage of pulmonary congestion.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "e5d3a37e-7895-4a2b-8046-40861b1536d4",
+            "subContentId": "06ad00a2-9c35-4e3c-95d4-0d4c929ba99b",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "On a chest radiograph, which sequence co",
+              "title": "Kerley B lines on a chest radiograph ind",
               "authors": [],
               "changes": []
             }
@@ -339,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 589.65,
-            "to": 599.65
+            "from": 662.6999999999999,
+            "to": 672.6999999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 65-year-old man presents 18 hours after stroke onset. Non-contrast CT brain sh</p>",
+          "label": "<p>A 60-year-old man presents within three hours of acute right-sided weakness. Non</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 65-year-old man presents 18 hours after stroke onset. Non-contrast CT brain shows no haemorrhage but no definite infarct either. Which next imaging study will determine whether salvageable brain tissue remains?</p>",
+              "question": "<p>A 60-year-old man presents within three hours of acute right-sided weakness. Non-contrast CT brain shows no haemorrhage. CT angiography reveals proximal left middle cerebral artery occlusion. What is the most appropriate next step?</p>",
               "answers": [
                 {
-                  "text": "<div>Repeat non-contrast CT brain after 24 hours</div>",
+                  "text": "<div>Observe and repeat CT brain after 24 hours</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Waiting 24 hours wastes the remaining treatment window. In the extended window (6–24 hours), an active study that maps viable tissue is needed to guide intervention — delay risks irreversible infarction.</div>",
+                    "chosenFeedback": "<div>Observation wastes critical time. The ischaemic penumbra shrinks every minute, and both alteplase and thrombectomy are indicated in this scenario.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Carotid Doppler ultrasonography</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Carotid Doppler assesses extracranial stenosis but does not map the ischaemic penumbra within the brain. It cannot determine whether salvageable tissue remains for intervention.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>CT perfusion to map the ischaemic penumbra</div>",
+                  "text": "<div>Administer intravenous alteplase and plan mechanical thrombectomy</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>CT perfusion is used in the extended window (6–24 hours from onset) to identify the mismatch between the infarcted core and the surrounding salvageable penumbra. A favourable mismatch supports mechanical thrombectomy.</div>",
+                    "chosenFeedback": "<div>Correct. Within the 4.5-hour window with no haemorrhage, intravenous alteplase is indicated. The proximal MCA occlusion on CTA additionally qualifies the patient for mechanical thrombectomy.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Digital subtraction angiography</div>",
+                  "text": "<div>Start therapeutic anticoagulation with heparin</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Digital subtraction angiography is invasive and primarily used during endovascular intervention, not as a first-step escalation study. CT perfusion non-invasively maps the penumbra to determine intervention eligibility.</div>",
+                    "chosenFeedback": "<div>Anticoagulation alone is not the treatment for acute ischaemic stroke with large-vessel occlusion. Thrombolysis and mechanical thrombectomy are the evidence-based acute interventions.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Urgent neurosurgical decompression</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Decompressive surgery may be considered later for malignant MCA infarction with cerebral oedema, but it is not the immediate management step in acute ischaemic stroke.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The correct answer is CT perfusion. In the extended stroke window (6–24 hours), CT perfusion maps the mismatch between the infarcted core and the salvageable penumbra, guiding the decision on mechanical thrombectomy."
+                  "feedback": "When NCCT excludes haemorrhage within 4.5 hours, administer intravenous alteplase. When CTA confirms proximal MCA occlusion, plan mechanical thrombectomy — the window for thrombectomy can extend to 24 hours if salvageable tissue remains on CT perfusion."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. CT perfusion maps the ischaemic penumbra in the extended window (6–24 hours), identifying whether salvageable tissue remains to justify mechanical thrombectomy."
+                  "feedback": "No haemorrhage clears the path for alteplase, and the CTA-confirmed large-vessel occlusion adds thrombectomy — a powerful image-to-action chain that the video builds across scenes."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "b76d6d47-c591-45e4-937a-8a3bd191b827",
+            "subContentId": "498c3c34-fd82-477b-bd97-d1dde0c10577",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 65-year-old man presents 18 hours afte",
+              "title": "A 60-year-old man presents within three",
               "authors": [],
               "changes": []
             }
@@ -449,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 743.15,
-            "to": 753.15
+            "from": 783.0749999999999,
+            "to": 793.0749999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A cirrhotic patient on surveillance ultrasound has a new 3 cm hepatic nodule. Mu</p>",
+          "label": "<p>Across the four conditions covered in this video, which single imaging finding p</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A cirrhotic patient on surveillance ultrasound has a new 3 cm hepatic nodule. Multiphasic CT shows arterial hyperenhancement with washout. What is the most appropriate next step?</p>",
+              "question": "<p>Across the four conditions covered in this video, which single imaging finding produces the most dramatic reversal of the initial management plan?</p>",
               "answers": [
                 {
-                  "text": "<div>Perform a percutaneous liver biopsy to confirm histological diagnosis</div>",
+                  "text": "<div>Cardiomegaly on chest X-ray in suspected heart failure</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Biopsy is not required here. In a cirrhotic liver, a nodule showing arterial hyperenhancement with washout on multiphasic imaging meets the diagnostic criteria for hepatocellular carcinoma — biopsy adds bleeding risk without changing the diagnosis.</div>",
+                    "chosenFeedback": "<div>Cardiomegaly supports the diagnosis of heart failure but does not reverse the management plan — diuresis and further assessment proceed regardless.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Repeat the ultrasound in six months to assess interval growth</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Waiting six months is appropriate for an indeterminate nodule, but not when the characteristic enhancement pattern is already present. Arterial hyperenhancement with washout is diagnostic — further delay is unwarranted.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Diagnose hepatocellular carcinoma by imaging criteria and proceed to treatment planning</div>",
+                  "text": "<div>Haemorrhage on non-contrast CT brain in acute stroke</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In a cirrhotic liver, arterial hyperenhancement with washout on multiphasic CT is the defining imaging pattern for hepatocellular carcinoma. This allows diagnosis without biopsy — a key principle in hepatology practice.</div>",
+                    "chosenFeedback": "<div>Correct. Haemorrhage on NCCT fundamentally reverses stroke management from thrombolysis to blood-pressure control and anticoagulation reversal. Giving thrombolysis into a haemorrhage is lethal — this single finding flips the entire treatment approach.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Order a PET-CT scan for whole-body staging before making a diagnosis</div>",
+                  "text": "<div>Hepatorenal sign on abdominal ultrasound</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>PET-CT has limited sensitivity for well-differentiated hepatocellular carcinoma and is not the next diagnostic step. The multiphasic CT enhancement pattern already establishes the diagnosis in a cirrhotic patient.</div>",
+                    "chosenFeedback": "<div>The hepatorenal sign confirms fatty infiltration and prompts lifestyle modification, but it is an expected finding that does not reverse the management direction.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Bilateral pleural effusions on chest X-ray</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Pleural effusions indicate advanced congestion and guide diuretic intensity, but the management shift is incremental — it does not reverse the treatment direction.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The correct answer is to diagnose HCC by imaging criteria and plan treatment. In a cirrhotic patient, arterial hyperenhancement with washout on multiphasic CT or MRI is the hallmark pattern that confirms hepatocellular carcinoma without biopsy."
+                  "feedback": "Haemorrhage on NCCT produces the most dramatic management reversal. Both stroke types look identical at the bedside, yet their treatments are opposite — thrombolysis saves ischaemic brain but is lethal in haemorrhage."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Arterial hyperenhancement with washout on multiphasic imaging in a cirrhotic liver diagnoses hepatocellular carcinoma by imaging criteria — no biopsy is needed."
+                  "feedback": "The presence or absence of haemorrhage on NCCT is the single most consequential imaging finding in acute medicine — it determines whether the patient receives thrombolysis or the opposite intervention."
                 }
               ],
               "behaviour": {
@@ -539,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f26bbafd-936f-489d-adeb-2f3315fa3568",
+            "subContentId": "314a8c0c-e042-419e-8702-365d70dcaf51",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A cirrhotic patient on surveillance ultr",
+              "title": "Across the four conditions covered in th",
               "authors": [],
               "changes": []
             }
@@ -622,7 +622,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "7cee062c-5097-4019-b7d5-ab0c9748330e",
+              "subContentId": "13aeac27-dc64-493c-9d5f-624a21d0edf4",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -645,7 +645,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "df955501-87bc-4cef-9855-cdcb881b2698",
+        "subContentId": "6d398900-f4c0-4931-a796-17e43f184305",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
