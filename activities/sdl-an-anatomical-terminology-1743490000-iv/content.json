@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/b92b0160-91ed-4339-b1b6-27639efff3de/playlist.m3u8",
+          "path": "https://vdo.cbme.in/50912396-0489-4d7d-a412-35a18cadf9ea/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -11,9 +11,9 @@
         }
       ],
       "startScreenOptions": {
-        "title": "AN1.1-2 | Anatomical terminology — Interactive Lecture",
+        "title": "AN1.1-2,AN4.1-5 | Anatomical Terminology & Integument Basics — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for AN1.1-AN1.2."
+        "shortStartDescription": "Interactive lecture with 3 embedded questions for AN1.1-AN1.2."
       },
       "textTracks": {
         "videoTrack": [
@@ -22,7 +22,7 @@
             "kind": "subtitles",
             "srcLang": "en",
             "track": {
-              "path": "https://anatomy.cbme.in/cc/videos/sdl-an-anatomical-terminology-1743490000/v1/cc-en.vtt",
+              "path": "https://anatomy.cbme.in/cc/videos/sdl-an-anatomical-terminology-1743490000/v2/cc-en.vtt",
               "mime": "text/vtt",
               "copyright": {
                 "license": "U"
@@ -34,7 +34,7 @@
             "kind": "subtitles",
             "srcLang": "hi",
             "track": {
-              "path": "https://anatomy.cbme.in/cc/videos/sdl-an-anatomical-terminology-1743490000/v1/cc-hi.vtt",
+              "path": "https://anatomy.cbme.in/cc/videos/sdl-an-anatomical-terminology-1743490000/v2/cc-hi.vtt",
               "mime": "text/vtt",
               "copyright": {
                 "license": "U"
@@ -46,7 +46,7 @@
             "kind": "subtitles",
             "srcLang": "ta",
             "track": {
-              "path": "https://anatomy.cbme.in/cc/videos/sdl-an-anatomical-terminology-1743490000/v1/cc-ta.vtt",
+              "path": "https://anatomy.cbme.in/cc/videos/sdl-an-anatomical-terminology-1743490000/v2/cc-ta.vtt",
               "mime": "text/vtt",
               "copyright": {
                 "license": "U"
@@ -61,71 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 126.775,
-            "to": 136.775
+            "from": 124.05000000000001,
+            "to": 134.05
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the anatomical position, the palms face toward the thighs.</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>In the anatomical position, the palms face toward the thighs.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "In the anatomical position, the palms face forward — not toward the thighs. Although the natural resting stance has palms facing the body, the anatomical position deliberately turns them forward so that terms like medial and lateral remain consistent across the forearm and hand.",
-                "correctAnswerMessage": "Correct — that statement is false. In the anatomical position the palms face forward, not toward the thighs. The natural resting position has palms facing inward, which is why this detail is so commonly confused.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "8f0a2ae1-4441-480c-8c8a-12fc7c9e334d",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "In the anatomical position, the palms fa",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 283.92499999999995,
-            "to": 293.92499999999995
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>Which of the following statements correctly uses anatomical directional terminol</p>",
+          "label": "<p>A clinician describes a skin lesion on the 'anterior surface of the forearm' of </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which of the following statements correctly uses anatomical directional terminology?</p>",
+              "question": "<p>A clinician describes a skin lesion on the 'anterior surface of the forearm' of a patient who is lying in bed. Why is this description valid even though the patient is not standing upright?</p>",
               "answers": [
                 {
-                  "text": "<div>The knee is proximal to the ankle</div>",
+                  "text": "<div>The anatomical position helps the clinician measure the exact size of the lesion</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The anatomical position defines spatial relationships and directional terms, not measurements. Lesion size is assessed separately with a ruler or caliper.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Directional terms like 'anterior' and 'medial' always refer back to the standard anatomical position, regardless of how the patient is actually positioned</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Proximal means closer to where the limb attaches to the trunk. The knee is closer to the hip than the ankle is, making it proximal to the ankle.</div>",
+                    "chosenFeedback": "<div>Exactly. The anatomical position is anatomy's compass — it ensures 'anterior,' 'medial,' and every other directional term carry the same meaning whether the patient is lying down, seated, or standing.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The skin is deep to the muscles</div>",
+                  "text": "<div>The patient must first be repositioned into the anatomical position before any examination can begin</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Skin is superficial to the muscles — it lies closer to the body surface. Deep structures are farther from the surface, such as bones deep to the muscles.</div>",
+                    "chosenFeedback": "<div>Patients do not need to physically assume the anatomical position. It exists as a mental reference for the clinician, not a requirement for the examination itself.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The little finger is lateral to the thumb</div>",
+                  "text": "<div>Imaging equipment can only capture structures accurately when the patient is in the anatomical position</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. In the anatomical position (palms forward), the thumb sits on the lateral side (farther from the midline) and the little finger on the medial side (closer to the midline).</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The sternum is posterior to the vertebral column</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The sternum is anterior — toward the front of the body. The vertebral column is posterior to the sternum, not the other way around.</div>",
+                    "chosenFeedback": "<div>Imaging works in many positions — CT scans are taken supine, MRIs in various orientations. The anatomical position is a conceptual reference for terminology, not a requirement for imaging.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the five directional pairs: superior/inferior, anterior/posterior, medial/lateral, proximal/distal, and superficial/deep. Each pair is defined relative to the anatomical position."
+                  "feedback": "The anatomical position (body upright, palms facing forward) serves as a fixed reference for all directional descriptions. Terms like 'anterior' and 'posterior' always refer to this standard, regardless of the patient's actual posture."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. You can apply directional terms to anatomical relationships beyond the examples given in the lecture."
+                  "feedback": "Well done. The anatomical position is the universal reference point — like anatomy's north on a compass — so every directional term has the same meaning worldwide, no matter how the patient is actually positioned."
                 }
               ],
               "behaviour": {
@@ -209,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "d3543a26-2a2a-4740-b253-edd3bb8ddebe",
+            "subContentId": "f1fb65fd-4523-4609-b0ca-4cb572f3fe60",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which of the following statements correc",
+              "title": "A clinician describes a skin lesion on t",
               "authors": [],
               "changes": []
             }
@@ -229,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 453.69999999999993,
-            "to": 463.69999999999993
+            "from": 270.45,
+            "to": 280.45
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the reinforced concrete analogy of bone structure, which component plays the </p>",
+          "label": "<p>An orthopaedic surgeon describes a fracture as 'proximal to the wrist and on the</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In the reinforced concrete analogy of bone structure, which component plays the role of steel rebar, providing flexibility and tensile strength?</p>",
+              "question": "<p>An orthopaedic surgeon describes a fracture as 'proximal to the wrist and on the lateral aspect of the forearm.' In the anatomical position, where is this fracture located?</p>",
               "answers": [
                 {
-                  "text": "<div>Hydroxyapatite</div>",
+                  "text": "<div>Closer to the elbow, on the little finger side</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Hydroxyapatite is the inorganic crystalline mineral that provides hardness and compressive strength — it corresponds to the concrete in the analogy, not the rebar.</div>",
+                    "chosenFeedback": "<div>'Proximal to the wrist' correctly points toward the elbow, but the little finger side is the medial (ulnar) side, not the lateral side.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Osteoclasts</div>",
+                  "text": "<div>Near the wrist, on the thumb side</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Osteoclasts are bone-resorbing cells involved in remodelling. They are not a structural component of the bone matrix itself.</div>",
+                    "chosenFeedback": "<div>The thumb side is indeed the lateral (radial) side, but 'proximal to the wrist' means farther from the wrist and closer to the trunk — toward the elbow, not near the wrist.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Collagen</div>",
+                  "text": "<div>Near the wrist, on the little finger side</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This describes a location that is distal (near the wrist) and medial (little finger side) — the opposite of what the surgeon described.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Closer to the elbow, on the thumb side</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Collagen is the organic protein matrix produced by osteoblasts. It constitutes about 35% of bone's dry weight and provides flexibility and tensile strength — like steel rebar preventing concrete from shattering on impact.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Calcium carbonate</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The inorganic mineral in bone is primarily hydroxyapatite (a calcium phosphate compound), not calcium carbonate. Hydroxyapatite provides compressive hardness, corresponding to concrete in the analogy.</div>",
+                    "chosenFeedback": "<div>Correct. Proximal means closer to the trunk, so proximal to the wrist points toward the elbow. In the anatomical position, the lateral side of the forearm is the thumb (radial) side.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the reinforced concrete analogy: collagen (organic, 35%) is the rebar that provides flexibility, while hydroxyapatite (inorganic, 65%) is the concrete that provides hardness."
+                  "feedback": "Work through each directional term separately: 'proximal' means closer to where the limb attaches to the trunk (so toward the elbow), and 'lateral' means away from the body's midline (the thumb/radial side in the anatomical position). Then combine them."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Without collagen, bone would shatter like glass — the organic and inorganic components must work together."
+                  "feedback": "Excellent. You correctly combined two directional terms: proximal (toward the trunk attachment) and lateral (away from the midline). This ability to integrate directional terms is essential for interpreting clinical descriptions."
                 }
               ],
               "behaviour": {
@@ -319,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "aff1a98f-56a1-440b-99f7-3bbc7027baf7",
+            "subContentId": "f0464013-0c45-461a-9658-3ca1d4f24639",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In the reinforced concrete analogy of bo",
+              "title": "An orthopaedic surgeon describes a fract",
               "authors": [],
               "changes": []
             }
@@ -339,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 631.2749999999999,
-            "to": 641.2749999999999
+            "from": 429.92499999999995,
+            "to": 439.92499999999995
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The sagittal plane divides the body into which two portions?</p>",
+          "label": "<p>In the reinforced-concrete analogy for bone, collagen serves as the steel rebar </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The sagittal plane divides the body into which two portions?</p>",
+              "question": "<p>In the reinforced-concrete analogy for bone, collagen serves as the steel rebar and hydroxyapatite serves as the concrete. If a condition selectively impairs collagen synthesis, the affected bone would most likely:</p>",
               "answers": [
                 {
-                  "text": "<div>Anterior and posterior</div>",
+                  "text": "<div>Become rubbery and bend easily under load</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The coronal (frontal) plane divides the body into anterior (front) and posterior (back) portions. The name 'coronal' comes from the Latin word for crown.</div>",
+                    "chosenFeedback": "<div>Rubbery, bendable bone results from loss of the inorganic component (hydroxyapatite), not collagen. Without concrete (hydroxyapatite), rebar (collagen) alone bends — not the other way round.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Right and left</div>",
+                  "text": "<div>Lose its mineral density while retaining flexibility</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Mineral density depends on the inorganic component (hydroxyapatite), which is unaffected by impaired collagen synthesis. Loss of collagen removes flexibility, not minerals.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Become brittle and prone to shattering on impact</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The sagittal plane runs vertically from front to back, dividing the body into right and left portions. When it passes exactly down the midline, it is called the midsagittal or median plane.</div>",
+                    "chosenFeedback": "<div>Correct. Collagen provides flexibility and tensile strength. Without it, bone retains hardness from hydroxyapatite but loses resilience — becoming brittle like glass, exactly as the video describes.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Superior and inferior</div>",
+                  "text": "<div>Show no structural change because hydroxyapatite compensates for the missing collagen</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The transverse (axial) plane divides the body into superior (upper) and inferior (lower) portions — this is the plane used in CT scan slices.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Proximal and distal</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Proximal and distal are directional terms for limb structures, not portions created by a body plane. The sagittal plane produces right and left portions.</div>",
+                    "chosenFeedback": "<div>Neither component can substitute for the other. Hydroxyapatite provides hardness while collagen provides flexibility; both are essential for bone's structural integrity.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the three planes: sagittal divides right and left, coronal divides front and back, and transverse divides upper and lower."
+                  "feedback": "Remember the two components: collagen (organic, ~35%) = rebar = flexibility and tensile strength; hydroxyapatite (inorganic, ~65%) = concrete = hardness and compressive strength. Without collagen, bone shatters like glass; without hydroxyapatite, it bends like rubber."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well recalled. The three primary planes — sagittal (right/left), coronal (front/back), and transverse (upper/lower) — are fundamental to describing anatomical sections."
+                  "feedback": "Spot on. Collagen (organic, ~35%) provides tensile strength and flexibility, while hydroxyapatite (inorganic, ~65%) provides compressive strength and hardness. The reinforced-concrete analogy captures this perfectly."
                 }
               ],
               "behaviour": {
@@ -429,121 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "bee920dd-9677-4d10-b0f4-5a984c123561",
+            "subContentId": "19aa06a4-c93d-431b-af97-2e9e19ebf14c",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The sagittal plane divides the body into",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 756.8249999999998,
-            "to": 766.8249999999998
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A bone marrow biopsy is performed to investigate a suspected blood disorder. Fro</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A bone marrow biopsy is performed to investigate a suspected blood disorder. From which anatomical site is this biopsy most commonly obtained?</p>",
-              "answers": [
-                {
-                  "text": "<div>Medullary cavity of the femur</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The medullary cavity of long bones contains yellow marrow (primarily adipocytes), which stores energy but is not the standard site for diagnostic biopsy of blood disorders.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Body of the sternum</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Although the sternum contains red marrow and sternal aspirates are occasionally performed, the standard diagnostic biopsy site is the posterior iliac crest, which provides a larger and safer area.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Anterior iliac crest</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While the iliac crest is correct, the standard approach is from the posterior iliac crest — not the anterior — as it offers a thicker area of cancellous bone with abundant red marrow.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Posterior iliac crest</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The posterior iliac crest is the standard site for bone marrow biopsy. It contains abundant red (haematopoietic) marrow and allows safe access for both aspiration and trephine biopsy.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The posterior iliac crest is the standard bone marrow biopsy site. It is rich in red marrow, where haematopoiesis takes place, and provides safe access for both aspiration and core biopsy."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. The posterior iliac crest is the go-to site for diagnosing leukaemia, anaemia, and other haematological disorders."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "57986dcb-e03a-455a-a46d-67a5a749655a",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A bone marrow biopsy is performed to inv",
+              "title": "In the reinforced-concrete analogy for b",
               "authors": [],
               "changes": []
             }
@@ -568,33 +400,33 @@
           "label": "A twenty-two-year-old medical student walks into the emer…"
         },
         {
-          "time": 51,
+          "time": 53,
           "label": "Every directional term in anatomy is defined relative to…"
         },
         {
-          "time": 127,
+          "time": 124,
           "label": "Imagine slicing a loaf of bread."
         },
         {
-          "time": 201,
+          "time": 196,
           "label": "Directional terms describe where one structure sits relat…"
         },
         {
-          "time": 284,
+          "time": 270,
           "label": "Now that you know the body's planes, you can describe how…"
         },
         {
-          "time": 370,
+          "time": 352,
           "label": "Bone is remarkable because it is both hard and flexible a…"
         },
         {
-          "time": 454,
+          "time": 430,
           "label": "Inside the hollow spaces of bone lives a specialised tiss…"
         }
       ],
       "endscreens": [
         {
-          "time": 778,
+          "time": 527,
           "label": "End"
         }
       ]
@@ -606,7 +438,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "415a2320-2e36-4d3d-98f0-bff5d413796e",
+              "subContentId": "2d53dc73-4862-4b85-99f7-7ecaa9d3bfcf",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -629,7 +461,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "1fb01556-3b69-486b-946f-17931c2b32aa",
+        "subContentId": "a52bd0bd-2f97-4481-b1df-89912bfeda17",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
