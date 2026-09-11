@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/7caec6ac-3c2f-4920-96a7-d026fdea84a5/playlist.m3u8",
+          "path": "https://vdo.cbme.in/e4256193-ff9f-4b96-85c5-ab5042ead558/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -67,43 +67,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A normal mammogram reliably excludes breast cancer in a woman presenting with a </p>",
+          "label": "<p>In triple assessment, when clinical examination suggests malignancy but the mamm</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A normal mammogram reliably excludes breast cancer in a woman presenting with a clinically suspicious breast lump.</p>",
-              "correct": "false",
+              "question": "<p>In triple assessment, when clinical examination suggests malignancy but the mammogram appears normal, what is the most appropriate course of action?</p>",
+              "answers": [
+                {
+                  "text": "<div>Reassure the patient based on the normal imaging result</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Imaging alone cannot exclude cancer. A clinically suspicious lump with benign imaging is a discordant finding that requires further investigation, not reassurance.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Investigate further, typically with tissue biopsy</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. When clinical and imaging findings are discordant, the suspicious component takes precedence. A normal mammogram does not rule out cancer, which is why triple assessment includes pathology as its third arm.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Repeat mammography in six months to check for change</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Short-interval follow-up suits a BI-RADS 3 (probably benign) finding. A discordant clinical examination — where the lump feels suspicious — warrants prompt pathological investigation, not delayed reimaging.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Request MRI to resolve the discrepancy between examination and mammogram</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>MRI is reserved for high-risk screening (e.g. BRCA carriers) and staging of known cancer. The appropriate next step in triple assessment when findings disagree is tissue sampling, not additional imaging.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "When clinical examination and imaging disagree, the suspicious finding must be pursued. Imaging supports the assessment but does not replace it — that is why triple assessment combines clinical examination, imaging, and pathology."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. Triple assessment exists because no single modality can exclude cancer on its own. When findings are discordant, the most suspicious result drives the next step."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "A normal mammogram does not reliably exclude cancer. Dense breast tissue can obscure a malignancy on X-ray, and sensitivity falls in younger women. Triple assessment (clinical examination, imaging, and pathology) ensures that a clinically suspicious lump is never dismissed on the basis of imaging alone.",
-                "correctAnswerMessage": "Correct. A normal mammogram cannot rule out cancer, particularly in dense breast tissue where malignancy is easily masked. This is precisely why triple assessment — clinical examination, imaging, and pathology — exists. When clinical and imaging findings disagree, further investigation is mandatory.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "4c360b14-68c0-475a-a505-084496bd0c0d",
+            "subContentId": "c64696b1-f6b2-44cd-924a-fb5fc4ae8099",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A normal mammogram reliably excludes bre",
+              "title": "In triple assessment, when clinical exam",
               "authors": [],
               "changes": []
             }
@@ -125,7 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 32-year-old woman with a confirmed BRCA1 gene mutation presents for breast can</p>",
+          "label": "<p>A 34-year-old woman presents with a palpable breast lump. She has dense breast t</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 32-year-old woman with a confirmed BRCA1 gene mutation presents for breast cancer screening. Which imaging modality is most appropriate as her primary screening tool?</p>",
+              "question": "<p>A 34-year-old woman presents with a palpable breast lump. She has dense breast tissue. Which imaging modality should be performed first?</p>",
               "answers": [
                 {
-                  "text": "<div>Mammography, as it is the standard population screening tool</div>",
+                  "text": "<div>Mammography</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Mammography is the standard screening tool for the general population, but its sensitivity drops in the dense breast tissue of younger women. For women at high genetic risk, a more sensitive modality is indicated.</div>",
+                    "chosenFeedback": "<div>Mammography's sensitivity drops significantly in dense breast tissue because dense tissue and cancer both appear white on X-ray. It is most reliable in older women with fattier breasts.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Ultrasound, because she is under 40 years of age</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Ultrasound is the first-line choice for symptomatic assessment in young women and for characterising focal lesions, but it is not the recommended primary screening tool for high-risk individuals.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Magnetic resonance imaging, as it is indicated for high-risk screening</div>",
+                  "text": "<div>Ultrasound</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>MRI offers the highest sensitivity of all breast imaging modalities and is specifically indicated for screening women at high genetic risk, such as BRCA mutation carriers, despite a higher false-positive rate.</div>",
+                    "chosenFeedback": "<div>Correct. Ultrasound is the first-line imaging choice for women under 40 or with dense breast tissue. It uses no ionising radiation and excels at characterising focal lesions as solid or cystic.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Computed tomography of the chest for comprehensive breast and thoracic assessment</div>",
+                  "text": "<div>MRI with gadolinium contrast</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>CT delivers a significant radiation dose and is reserved for staging known malignancy (e.g. detecting lung or liver metastases), not for breast cancer screening.</div>",
+                    "chosenFeedback": "<div>MRI offers the highest sensitivity but is reserved for high-risk screening (e.g. BRCA mutation carriers) and staging known cancers. It generates more false positives and requires contrast injection, making it inappropriate as a first-line investigation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>CT of the chest, abdomen and pelvis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>CT delivers a much higher radiation dose than mammography and is used to stage distant metastatic disease (lung, liver) in confirmed cancer. It is not used for initial assessment of a breast lump.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "For high-risk screening — particularly in women with a known BRCA gene mutation — MRI is indicated because of its superior sensitivity compared to mammography and ultrasound. Mammography screens the general population; ultrasound characterises symptomatic lesions."
+                  "feedback": "In women under 40 or with dense breasts, ultrasound is the first-line investigation. It uses no ionising radiation and characterises focal lesions effectively, unlike mammography whose sensitivity falls in dense tissue."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "MRI is the modality of choice for breast cancer screening in women at high genetic risk, including BRCA mutation carriers. Its superior sensitivity outweighs the drawback of more frequent false positives in this population."
+                  "feedback": "Well done. Ultrasound avoids ionising radiation and performs well in dense breast tissue, making it the ideal first-line modality in younger women presenting with a lump."
                 }
               ],
               "behaviour": {
@@ -209,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "d526fc29-3498-4427-9bec-219b80c0b162",
+            "subContentId": "205e7f59-5afb-4844-a170-885fc78220dc",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 32-year-old woman with a confirmed BRC",
+              "title": "A 34-year-old woman presents with a palp",
               "authors": [],
               "changes": []
             }
@@ -235,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A mammogram reveals a well-defined, oval mass with smooth margins and coarse, po</p>",
+          "label": "<p>A screening mammogram reveals fine, branching microcalcifications arranged in a </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A mammogram reveals a well-defined, oval mass with smooth margins and coarse, popcorn-like calcification. Which BI-RADS category is most appropriate?</p>",
+              "question": "<p>A screening mammogram reveals fine, branching microcalcifications arranged in a linear pattern within one breast segment. What is the most appropriate BI-RADS category?</p>",
               "answers": [
                 {
                   "text": "<div>BI-RADS 1 — negative, normal study</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>BI-RADS 1 denotes a completely normal mammogram with no identifiable finding. Here a mass is clearly present, even though its features are benign.</div>",
+                    "chosenFeedback": "<div>BI-RADS 1 indicates a completely normal mammogram. Fine, branching microcalcifications in a linear pattern are suspicious for ductal carcinoma and cannot be classified as normal.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
                   "text": "<div>BI-RADS 2 — definitely benign finding</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>BI-RADS 2 is reserved for definitely benign findings such as coarse, popcorn-like calcification typical of a fibroadenoma. Linear, branching microcalcifications are suspicious and require tissue sampling.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>BI-RADS 3 — probably benign, short-interval follow-up</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>BI-RADS 3 calls for short-interval follow-up at six months. However, fine, branching microcalcifications in a linear or segmental pattern are highly suspicious for ductal carcinoma and warrant biopsy, not observation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>BI-RADS 4 — suspicious, biopsy recommended</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A well-defined, oval, smooth-margined mass with coarse popcorn-like calcification is the classic mammographic appearance of a fibroadenoma — a definitely benign finding warranting only routine follow-up.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>BI-RADS 4 — suspicious, biopsy should be considered</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>BI-RADS 4 applies to lesions with suspicious features such as irregular margins, spiculation, or fine pleomorphic microcalcifications. Smooth margins and coarse calcification point to a benign aetiology.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>BI-RADS 5 — highly suggestive of malignancy</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>BI-RADS 5 is reserved for findings that are classic for malignancy — spiculated masses with fine linear or branching microcalcifications. The features described here are characteristic of a benign fibroadenoma.</div>",
+                    "chosenFeedback": "<div>Correct. Fine, branching microcalcifications in a linear or segmental pattern are a hallmark mammographic finding suspicious for ductal carcinoma. BI-RADS 4 mandates tissue biopsy to confirm or exclude malignancy.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The combination of smooth margins, oval shape, and coarse popcorn calcification is the classic mammographic appearance of a fibroadenoma. This is a definitely benign finding — BI-RADS 2 — requiring no further workup beyond routine follow-up."
+                  "feedback": "Fine, branching microcalcifications in a linear or segmental pattern are a classic suspicious finding for ductal carcinoma. BI-RADS 4 (suspicious) is the correct category, and it mandates tissue biopsy — each BI-RADS number carries an obligatory next step."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Coarse, popcorn-like calcification within a well-defined oval mass is the hallmark of a fibroadenoma, a definitely benign lesion classified as BI-RADS 2. The management is reassurance and routine screening."
+                  "feedback": "Excellent. Linear, branching microcalcifications are one of the most important mammographic signs of ductal carcinoma. BI-RADS 4 ensures this suspicious finding proceeds promptly to biopsy."
                 }
               ],
               "behaviour": {
@@ -319,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "4b426c65-fa7f-42d5-b9c9-3dc0b528905d",
+            "subContentId": "5336a5dd-c4b9-472c-a214-25aebcb62ec4",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A mammogram reveals a well-defined, oval",
+              "title": "A screening mammogram reveals fine, bran",
               "authors": [],
               "changes": []
             }
@@ -345,95 +397,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 26-year-old woman who is 20 weeks pregnant discovers a firm breast lump. Which</p>",
+          "label": "<p>In a pregnant woman who discovers a breast lump, imaging assessment should be de</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A 26-year-old woman who is 20 weeks pregnant discovers a firm breast lump. Which imaging modality should be used first to evaluate this lump?</p>",
-              "answers": [
-                {
-                  "text": "<div>Mammography, as it is the standard breast imaging tool</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Mammography uses ionising radiation, which should be avoided in pregnancy when a safer alternative exists. Moreover, hormonally stimulated dense breast tissue in pregnancy reduces mammographic sensitivity.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>MRI with gadolinium contrast for highest sensitivity</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Gadolinium crosses the placenta and is generally avoided in pregnancy. MRI is reserved for high-risk screening and staging of confirmed malignancy, not for initial assessment of a palpable lump.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Ultrasound, as it is radiation-free and characterises the mass</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Ultrasound carries no ionising radiation, making it safe in pregnancy. It reliably distinguishes solid from cystic masses and is the first-line modality in young women with dense breast tissue. Pregnancy never justifies delaying assessment of a breast lump.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>CT of the chest for comprehensive evaluation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>CT delivers a substantial radiation dose and is used for staging distant metastases in confirmed cancer, not for the initial assessment of a breast lump — especially in pregnancy.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "In a pregnant woman with a breast lump, ultrasound is the first-line imaging choice. It uses no ionising radiation and characterises masses effectively in dense breast tissue. The finding is then assigned a BI-RADS category to guide management — pregnancy alone never justifies skipping assessment."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Ultrasound is the correct first-line modality: it avoids ionising radiation in pregnancy, performs well in dense breast tissue, and distinguishes solid from cystic masses. The BI-RADS category assigned then determines whether biopsy, follow-up, or reassurance is the next step."
-                }
-              ],
+              "question": "<p>In a pregnant woman who discovers a breast lump, imaging assessment should be deferred until after delivery to avoid harm to the foetus.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is false. The video emphasises that pregnancy alone never justifies skipping assessment. Ultrasound uses no ionising radiation and is safe throughout pregnancy. Every lump still requires investigation — a high-risk BI-RADS category triggers biopsy regardless of pregnancy status.",
+                "correctAnswerMessage": "Correct — this statement is false. Pregnancy alone never justifies skipping breast assessment. Ultrasound is safe in pregnancy as it uses no ionising radiation, and every breast lump requires a full workup. A BI-RADS category is assigned and management follows accordingly.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "63d36462-1e5f-4997-8cd7-1b1a6c8f8bf9",
+            "subContentId": "083090fc-ffaf-4ddb-a3be-1e28a81cee69",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "A 26-year-old woman who is 20 weeks preg",
+              "title": "In a pregnant woman who discovers a brea",
               "authors": [],
               "changes": []
             }
@@ -492,7 +492,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "ca97cd34-07d8-495b-b3ed-1e9ab31482bb",
+              "subContentId": "8fbd7eee-8d64-411f-b37b-4e3cbe5ff35e",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -515,7 +515,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "3591fab6-7903-43c0-b451-c925a4843ef4",
+        "subContentId": "81c39287-18f0-4ff7-9e36-24496889f0e9",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
