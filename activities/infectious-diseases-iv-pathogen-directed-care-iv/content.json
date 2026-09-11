@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/1681aafd-2690-46f4-8dfc-a49aae5f2bbd/playlist.m3u8",
+          "path": "https://vdo.cbme.in/11bfa11c-51bf-4cd9-a1df-441262e8d9be/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "IM26.1-35 | Infectious Diseases — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 3 embedded questions for IM26.1-IM26.9."
+        "shortStartDescription": "Interactive lecture with 4 embedded questions for IM26.1-IM26.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,71 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 54.6,
-            "to": 64.6
+            "from": 92.9,
+            "to": 102.9
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Proton pump inhibitor monotherapy, without H. pylori eradication, is sufficient </p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>Proton pump inhibitor monotherapy, without H. pylori eradication, is sufficient to prevent recurrence of H. pylori-associated duodenal ulcers.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "PPIs suppress acid and allow mucosal healing, but H. pylori persists in the gastric epithelium. When the PPI course ends, acid production resumes against an inflamed, chronically infected mucosa — recurrence is the rule, not the exception. The brother's two relapses on omeprazole alone are a textbook example of why eradication therapy is mandatory.",
-                "correctAnswerMessage": "Correct. PPIs heal the ulcer by suppressing acid but do not eliminate H. pylori from the gastric mucosa. Once the PPI is stopped, acid secretion resumes against ongoing mucosal infection — ulcer relapse is predictable. The patient's brother illustrates this: two recurrences on omeprazole alone.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "b3493816-6fe4-42d0-a636-39d2ccadfbd0",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "Proton pump inhibitor monotherapy, witho",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 264.125,
-            "to": 274.125
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A patient with an absolute neutrophil count below 100/µL for the past 12 days de</p>",
+          "label": "<p>Both patients in the opening cases are infected with gram-negative bacteria. Wha</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with an absolute neutrophil count below 100/µL for the past 12 days develops fever and a CT chest showing a pulmonary nodule with a surrounding ground-glass halo. Galactomannan results are pending. What is the most appropriate immediate step?</p>",
+              "question": "<p>Both patients in the opening cases are infected with gram-negative bacteria. What best explains the difference between the software engineer's chronic course and the leukaemia patient's rapid deterioration?</p>",
               "answers": [
                 {
-                  "text": "<div>Await galactomannan and culture results before initiating antifungal therapy</div>",
+                  "text": "<div>Pseudomonas produces urease, giving it a survival advantage that H. pylori lacks</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In prolonged profound neutropenia, fever plus a halo-sign nodule constitutes probable invasive pulmonary aspergillosis. Delaying therapy for confirmatory results risks rapid clinical deterioration — the pre-test probability is already high enough to treat.</div>",
+                    "chosenFeedback": "<div>Incorrect. It is H. pylori, not Pseudomonas, that produces urease to neutralise gastric acid and colonise the stomach lining.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Start voriconazole immediately without waiting for galactomannan results</div>",
+                  "text": "<div>H. pylori colonises the protected gastric mucosa and causes gradual tissue damage, while Pseudomonas exploits severe immunosuppression to cause fulminant sepsis</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The immune-context-first framework dictates that prolonged severe neutropenia combined with fever and a halo-sign nodule on CT constitutes probable invasive pulmonary aspergillosis — voriconazole should be started empirically without awaiting galactomannan confirmation.</div>",
+                    "chosenFeedback": "<div>Correct. H. pylori is adapted to chronic gastric colonisation, using urease to survive stomach acid. Pseudomonas rarely causes severe disease in healthy hosts but can be lethal within hours when neutropenia removes immune defences.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Start empirical fluconazole and reassess after 48 hours</div>",
+                  "text": "<div>H. pylori is sensitive to all standard antibiotics, making it an inherently milder pathogen</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Fluconazole has no clinically meaningful activity against Aspergillus species. The halo sign in a neutropenic patient points to invasive pulmonary aspergillosis, which requires voriconazole, isavuconazole, or liposomal amphotericin B.</div>",
+                    "chosenFeedback": "<div>Incorrect. H. pylori has significant treatment challenges — rising clarithromycin resistance means multi-drug regimens are needed. Its chronic course reflects host-adapted colonisation, not antibiotic sensitivity.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Perform CT-guided lung biopsy to obtain histopathological confirmation</div>",
+                  "text": "<div>Gram-negative rods are inherently more virulent than spiral-shaped gram-negative bacteria</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Biopsy is rarely feasible in severe neutropenia due to thrombocytopenia-related bleeding risk and clinical instability. The immune context and characteristic CT findings provide sufficient diagnostic certainty to initiate therapy.</div>",
+                    "chosenFeedback": "<div>Incorrect. Bacterial morphology does not determine virulence. The key difference is the host's immune status — chemotherapy-induced neutropenia removes the defences that would normally contain Pseudomonas.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "When the immune context (prolonged profound neutropenia) and imaging (halo sign) align, the probability of invasive pulmonary aspergillosis is high enough to warrant immediate voriconazole — waiting for galactomannan wastes critical time."
+                  "feedback": "Review the contrast: H. pylori is a chronic coloniser of the gastric mucosa, while Pseudomonas is an acute opportunist that exploits immunosuppression."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "The immune-context filter is the key first step — host risk category plus characteristic imaging can justify empirical therapy even before microbiological confirmation returns."
+                  "feedback": "Well done. The host's immune status and the organism's ecological niche determine whether a gram-negative infection follows a chronic or fulminant course."
                 }
               ],
               "behaviour": {
@@ -209,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "12af5d1c-965d-4fcc-ab29-aa8f423990af",
+            "subContentId": "06019655-f34e-444e-9525-bd685af39692",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with an absolute neutrophil co",
+              "title": "Both patients in the opening cases are i",
               "authors": [],
               "changes": []
             }
@@ -229,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 419.95000000000005,
-            "to": 429.95000000000005
+            "from": 352.45,
+            "to": 362.45
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>You are counselling a 28-year-old newly diagnosed with pulmonary TB who believes</p>",
+          "label": "<p>Why are antiviral drugs like acyclovir unable to completely eliminate herpes sim</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>You are counselling a 28-year-old newly diagnosed with pulmonary TB who believes he will need 'months of hospital isolation.' Using the SPIKES framework, which step should you complete BEFORE delivering clinical information about diagnosis and treatment?</p>",
+              "question": "<p>Why are antiviral drugs like acyclovir unable to completely eliminate herpes simplex virus from the body?</p>",
               "answers": [
                 {
-                  "text": "<div>Summarise the treatment plan and agree on follow-up dates</div>",
+                  "text": "<div>Acyclovir cannot cross the blood-brain barrier to reach the site of viral persistence</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Summary and Strategy is the final step of SPIKES. It follows Knowledge delivery and the Empathy response — it cannot precede them.</div>",
+                    "chosenFeedback": "<div>Incorrect. Acyclovir crosses the blood-brain barrier well, which is why it is the drug of choice for HSV encephalitis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Assess the patient's existing understanding and beliefs about TB</div>",
+                  "text": "<div>HSV rapidly develops resistance to acyclovir after the first course of treatment</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Acyclovir resistance in HSV is uncommon in immunocompetent patients. The reason for viral persistence is latency, not drug resistance.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Acyclovir is active only against HSV-2 and has no effect on HSV-1</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Acyclovir is active against both HSV-1 and HSV-2. The inability to cure either type is because both establish latency in sensory ganglia.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The virus establishes latency in sensory nerve ganglia, where it remains dormant and inaccessible to antivirals</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The Perception step (P in SPIKES) requires eliciting what the patient already knows or believes — revealing misconceptions like 'months of isolation' — so that subsequent information delivery can directly address and correct them.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Express empathy regarding the emotional impact of the diagnosis</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Empathy (E in SPIKES) is the clinician's response to the patient's emotional reaction after receiving clinical information. It follows the Knowledge step, not precedes it.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Contact the district TB officer for mandatory notification before beginning the conversation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>TB notification is a statutory public health obligation but is a separate administrative process. SPIKES is a patient communication framework — notification does not feature as one of its steps.</div>",
+                    "chosenFeedback": "<div>Correct. After primary infection, HSV retreats into sensory ganglia — HSV-1 into the trigeminal ganglion, HSV-2 into the sacral ganglia. In this latent state the virus is not replicating, so antivirals that target viral replication cannot affect it.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In SPIKES, the Perception step (P) comes before Knowledge delivery (K). The clinician must first understand what the patient already believes — misconceptions about prolonged isolation or lifelong contagiousness — before providing accurate clinical information."
+                  "feedback": "The key concept is latency: HSV hides in sensory nerve ganglia (trigeminal for HSV-1, sacral for HSV-2) in a dormant state where antivirals targeting replication cannot reach it."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Assessing existing perceptions before delivering information ensures the clinician can address specific misconceptions — especially critical in communicable diseases where stigma and fear drive non-adherence."
+                  "feedback": "Exactly right. Latency in sensory ganglia is the defining feature of all herpesviruses — it allows lifelong persistence despite effective antiviral therapy."
                 }
               ],
               "behaviour": {
@@ -319,11 +261,231 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5c1689e5-d13a-425b-90c8-2244f6ecc999",
+            "subContentId": "cdd4cb0a-78c3-40e0-9301-7a0db6d03fff",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "You are counselling a 28-year-old newly",
+              "title": "Why are antiviral drugs like acyclovir u",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 523.15,
+            "to": 533.15
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A 40-year-old patient with dyspepsia undergoes a urea breath test for H. pylori,</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A 40-year-old patient with dyspepsia undergoes a urea breath test for H. pylori, which returns negative. She has been taking omeprazole daily for the past month. What is the most appropriate next step?</p>",
+              "answers": [
+                {
+                  "text": "<div>Accept the negative result and reassure the patient that she is not infected</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Proton pump inhibitors suppress H. pylori activity and reduce urease production, leading to false-negative results on both the urea breath test and stool antigen test.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Start empirical H. pylori eradication therapy despite the negative test result</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Empirical eradication without confirmed infection risks unnecessary antibiotic exposure and contributes to antimicrobial resistance. The correct approach is to retest after a proper washout.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Stop omeprazole for at least two weeks and repeat the urea breath test</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. PPIs must be stopped at least two weeks before non-invasive H. pylori testing. Similarly, antibiotics require a four-week washout. Only then can the urea breath test reliably detect active infection.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Proceed directly to endoscopy with rapid urease test as the definitive investigation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Endoscopy is invasive and unnecessary in a young patient with dyspepsia and no alarm features. The simpler step is to repeat the non-invasive test after an adequate PPI washout period.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Remember: PPIs suppress H. pylori urease activity, causing false negatives. Always stop PPIs for at least two weeks and antibiotics for at least four weeks before retesting."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. Recognising PPI interference with H. pylori testing is essential — the washout rule applies equally to the urea breath test and stool antigen test."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "c69812d2-13da-43f2-a5cf-10012e980222",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A 40-year-old patient with dyspepsia und",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 719.3249999999999,
+            "to": 729.3249999999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>When using the SPIKES framework to counsel a newly diagnosed pulmonary TB patien</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>When using the SPIKES framework to counsel a newly diagnosed pulmonary TB patient, which step should you complete immediately before explaining how tuberculosis spreads and is treated?</p>",
+              "answers": [
+                {
+                  "text": "<div>Arrange a private consultation room and invite a family member if the patient wishes</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Arranging a private space is the 'Setting' step — it is the first step in SPIKES, not the one immediately before delivering medical knowledge.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Provide a written summary of the six-month treatment regimen for the patient to take home</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. A written plan belongs to the final 'Summary and Strategy' step, after medical knowledge has been delivered and the patient's emotions addressed.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Ask the patient what they already understand about TB to identify and correct misconceptions</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The 'Perception' step — eliciting the patient's existing understanding — comes before 'Knowledge'. This reveals myths such as TB spreading through shared food, which must be corrected before new information is given.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Begin with empathic statements acknowledging the patient's fear and distress about the diagnosis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. In SPIKES, the 'Empathy' step responds to the patient's emotional reaction after medical information has been delivered, not before it.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "In SPIKES, the order matters: Setting → Perception → Invitation → Knowledge → Empathy → Summary. Always check what the patient already believes before adding new information."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. Checking the patient's perception before delivering knowledge prevents myths from distorting the medical information you provide."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "8960c96c-ed44-41a3-aea0-9c8faa6be1bf",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "When using the SPIKES framework to couns",
               "authors": [],
               "changes": []
             }
@@ -345,40 +507,40 @@
         },
         {
           "time": 3,
-          "label": "A 38-year-old software engineer presents with 6 months of…"
+          "label": "What links a software engineer with a stubborn stomach ul…"
         },
         {
-          "time": 55,
-          "label": "A 28-year-old software professional tests positive for pu…"
+          "time": 93,
+          "label": "A young software professional just found out he has pulmo…"
         },
         {
-          "time": 100,
-          "label": "Helicobacter pylori: Pathogenesis, Clinical Presentation,…"
+          "time": 166,
+          "label": "Helicobacter pylori is a spiral-shaped bacterium that inf…"
         },
         {
-          "time": 156,
-          "label": "Herpesvirus Infections: HSV and VZV Herpes simplex virus…"
+          "time": 262,
+          "label": "Herpes simplex virus comes in two forms that look differe…"
         },
         {
-          "time": 212,
-          "label": "Integrating the Clinical Picture: Recognising Fungal Infe…"
+          "time": 352,
+          "label": "How do you pull the pieces together at the bedside to rec…"
         },
         {
-          "time": 267,
-          "label": "H."
+          "time": 439,
+          "label": "Diagnosing H."
         },
         {
-          "time": 324,
-          "label": "Management Principles and Antibiotic Stewardship for Pseu…"
+          "time": 524,
+          "label": "Managing Pseudomonas and H."
         },
         {
-          "time": 374,
-          "label": "Performing the Skill: Structured Infection Counselling St…"
+          "time": 625,
+          "label": "Now let's apply this to a real counselling scenario."
         }
       ],
       "endscreens": [
         {
-          "time": 541,
+          "time": 838,
           "label": "End"
         }
       ]
@@ -390,7 +552,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "2301d953-d5b3-47f8-89b1-6d80f41f80aa",
+              "subContentId": "e1513548-50bf-46c8-9506-699fd0ed1c71",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -413,7 +575,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "a2dfeca5-50fb-441e-ac07-070dd1d9dca6",
+        "subContentId": "a42a65c2-78ad-4cdc-841f-2406360fba0c",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
