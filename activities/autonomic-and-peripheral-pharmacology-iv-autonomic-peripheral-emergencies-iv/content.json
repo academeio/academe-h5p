@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/d7750b70-ad43-4be6-af3b-289264726e93/playlist.m3u8",
+          "path": "https://vdo.cbme.in/eebb674c-09a0-4f44-ac9c-b4bce935c7d9/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PH2.1-5 | Autonomic and Peripheral Pharmacology — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 3 embedded questions for PH2.1-PH2.8."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for PH2.1-PH2.8."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 107.225,
-            "to": 117.225
+            "from": 228.8,
+            "to": 238.8
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In anaphylaxis, adrenaline reverses both bronchospasm and life-threatening hypot</p>",
+          "label": "<p>A patient receiving an intravenous infusion of phenylephrine develops a signific</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In anaphylaxis, adrenaline reverses both bronchospasm and life-threatening hypotension because it activates multiple adrenoceptor subtypes. Which receptor-mediated action is primarily responsible for restoring blood pressure?</p>",
+              "question": "<p>A patient receiving an intravenous infusion of phenylephrine develops a significant rise in blood pressure followed by a fall in heart rate. Which mechanism best explains this bradycardia?</p>",
               "answers": [
                 {
-                  "text": "<div>β2-mediated bronchodilation in airway smooth muscle</div>",
+                  "text": "<div>Direct beta-1 receptor blockade by phenylephrine</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>β2 activation reverses bronchoconstriction, which helps breathing but does not directly raise blood pressure.</div>",
+                    "chosenFeedback": "<div>Phenylephrine is a selective alpha-1 agonist; it does not block beta-1 receptors. The bradycardia is a reflex response to the rise in blood pressure, not a direct drug effect on the heart.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>α1-mediated vasoconstriction raising systemic vascular resistance</div>",
+                  "text": "<div>Alpha-2 receptor stimulation reducing central sympathetic outflow</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While alpha-2 agonists like clonidine do reduce central sympathetic outflow, phenylephrine acts primarily on alpha-1 receptors. The bradycardia here is mediated by baroreceptors detecting the blood pressure rise, not by central alpha-2 stimulation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Baroreceptor-mediated increase in vagal tone</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. α1 receptors on vascular smooth muscle cause vasoconstriction via the Gq–IP3/DAG–Ca²⁺ pathway, directly raising SVR and restoring perfusion pressure — the critical haemodynamic action in anaphylactic shock.</div>",
+                    "chosenFeedback": "<div>Correct. The alpha-1-mediated rise in blood pressure is detected by arterial baroreceptors, which reflexly increase parasympathetic (vagal) outflow to the heart, slowing the heart rate. This is classic reflex bradycardia.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>β1-mediated increase in heart rate and contractility</div>",
+                  "text": "<div>Beta-2 receptor-mediated coronary vasodilation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>β1 stimulation augments cardiac output, which contributes to BP support, but the primary mechanism for reversing hypotension is restoring vascular tone through α1 vasoconstriction.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>α2-mediated presynaptic inhibition of further noradrenaline release</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>α2 activation on presynaptic terminals actually reduces sympathetic outflow — this would work against the goal of raising blood pressure in shock.</div>",
+                    "chosenFeedback": "<div>Coronary beta-2 vasodilation does not cause bradycardia. The heart rate drop here results from a baroreceptor reflex — the rise in blood pressure triggers increased vagal tone to the sinoatrial node.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the adrenoceptor subtypes: α1 receptors on blood vessels mediate vasoconstriction (Gq → ↑Ca²⁺ → contraction), which is the primary mechanism by which adrenaline restores blood pressure in anaphylaxis."
+                  "feedback": "Review the baroreceptor reflex: when blood pressure rises (here from alpha-1 agonism by phenylephrine), arterial baroreceptors trigger increased vagal tone to the heart, which slows the heart rate. This is called reflex bradycardia."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. In anaphylaxis the dominant problem is vasodilation and capillary leak causing distributive shock. Adrenaline's α1 effect on vascular smooth muscle is what reverses the haemodynamic collapse."
+                  "feedback": "Well done. Reflex bradycardia is a predictable consequence of raising blood pressure with a pure alpha-1 agonist — the baroreceptor reflex arc is a fundamental pharmacological principle you will encounter repeatedly in clinical practice."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "777102d2-29d6-44d3-8ef0-56e626bad1dd",
+            "subContentId": "896c393e-50ef-4ecb-b5b8-12b50ce77ec2",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In anaphylaxis, adrenaline reverses both",
+              "title": "A patient receiving an intravenous infus",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 208.92499999999998,
-            "to": 218.92499999999998
+            "from": 349.34999999999997,
+            "to": 359.34999999999997
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Succinylcholine produces visible muscle fasciculations before inducing paralysis</p>",
+          "label": "<p>A patient undergoing emergency surgery is given succinylcholine for rapid-sequen</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Succinylcholine produces visible muscle fasciculations before inducing paralysis. This characteristic biphasic response occurs because the drug:</p>",
+              "question": "<p>A patient undergoing emergency surgery is given succinylcholine for rapid-sequence intubation. Postoperatively, neuromuscular blockade persists for several hours instead of the expected 10–15 minutes. Which enzyme abnormality best explains this prolonged paralysis?</p>",
               "answers": [
                 {
-                  "text": "<div>Competitively blocks nicotinic receptors at the motor end plate, preventing ACh binding</div>",
+                  "text": "<div>Deficiency of acetylcholinesterase at the neuromuscular junction</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Competitive blockade is the mechanism of non-depolarising agents like atracurium and vecuronium. They do not cause fasciculations because they never activate the receptor.</div>",
+                    "chosenFeedback": "<div>Acetylcholinesterase breaks down acetylcholine at the synapse, not succinylcholine. Succinylcholine is metabolised in plasma by a different enzyme — butyrylcholinesterase (pseudocholinesterase).</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Inhibits acetylcholinesterase, leading to excessive ACh accumulation at the synapse</div>",
+                  "text": "<div>Overactivity of hepatic cytochrome P450 enzymes</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>AChE inhibitors (e.g. neostigmine) do increase ACh at the junction, but succinylcholine is structurally two ACh molecules joined together — it acts as a direct receptor agonist, not an enzyme inhibitor.</div>",
+                    "chosenFeedback": "<div>Succinylcholine is not metabolised by hepatic cytochrome P450 enzymes. It is rapidly hydrolysed in plasma by butyrylcholinesterase. Hepatic enzymes are irrelevant to its clearance.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Causes persistent depolarisation of the motor end plate, briefly exciting the muscle before rendering it inexcitable</div>",
+                  "text": "<div>Atypical butyrylcholinesterase (pseudocholinesterase)</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Succinylcholine binds NM receptors and produces sustained end-plate depolarisation (Phase 1 block). The initial depolarisation triggers fasciculations within 10–15 seconds; continued depolarisation then inactivates perijunctional sodium channels, producing flaccid paralysis.</div>",
+                    "chosenFeedback": "<div>Correct. Succinylcholine is normally broken down within minutes by plasma butyrylcholinesterase. Patients with an atypical genetic variant of this enzyme metabolise the drug extremely slowly, resulting in prolonged neuromuscular blockade lasting hours.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Blocks voltage-gated sodium channels in the muscle fibre membrane, similar to local anaesthetics</div>",
+                  "text": "<div>Inhibition of choline acetyltransferase in the motor nerve terminal</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Sodium channel blockade is the mechanism of local anaesthetics, not neuromuscular blockers. Succinylcholine acts at the nicotinic receptor, not at voltage-gated channels.</div>",
+                    "chosenFeedback": "<div>Choline acetyltransferase synthesises acetylcholine inside nerve terminals and plays no role in succinylcholine metabolism. The prolonged block is caused by impaired breakdown by atypical plasma butyrylcholinesterase.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Succinylcholine is a depolarising NMBD: it mimics ACh at the NM receptor, causing persistent end-plate depolarisation (Phase 1 block). Fasciculations represent the initial muscle activation before inexcitability sets in."
+                  "feedback": "Succinylcholine is metabolised by plasma butyrylcholinesterase (pseudocholinesterase), not by acetylcholinesterase or hepatic enzymes. An atypical genetic variant of this enzyme causes dangerously prolonged paralysis — a key pharmacogenomic concept."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The fasciculation-then-paralysis sequence is the hallmark of depolarising block — the muscle fires once from the sustained depolarisation, then becomes refractory as sodium channels inactivate."
+                  "feedback": "Exactly. Atypical pseudocholinesterase is a clinically important pharmacogenomic variant — always consider it when succinylcholine-induced paralysis is unexpectedly prolonged."
                 }
               ],
               "behaviour": {
@@ -261,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "c2d32cdb-509e-4709-aa28-ba73d50ecd6d",
+            "subContentId": "6ff10db9-20e0-4cad-8529-157566b3d043",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Succinylcholine produces visible muscle",
+              "title": "A patient undergoing emergency surgery i",
               "authors": [],
               "changes": []
             }
@@ -281,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 319.875,
-            "to": 329.875
+            "from": 493.59999999999997,
+            "to": 503.59999999999997
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In septic shock, noradrenaline is the first-line vasopressor rather than dobutam</p>",
+          "label": "<p>A patient with extensive burns sustained 72 hours ago requires emergency intubat</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In septic shock, noradrenaline is the first-line vasopressor rather than dobutamine. Which analysis of the underlying pathophysiology best explains this choice?</p>",
+              "question": "<p>A patient with extensive burns sustained 72 hours ago requires emergency intubation. Which neuromuscular blocking agent must be avoided in this patient?</p>",
               "answers": [
                 {
-                  "text": "<div>Dobutamine causes excessive α1-mediated vasoconstriction that would worsen tissue ischaemia in sepsis</div>",
+                  "text": "<div>Rocuronium</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Dobutamine is primarily a β1-selective agonist with minimal α1 activity — it does not cause significant vasoconstriction. The rationale for choosing noradrenaline is not about avoiding dobutamine's vasoconstriction.</div>",
+                    "chosenFeedback": "<div>Rocuronium is a non-depolarising agent and is safe in burns patients. Its rapid onset makes it the preferred alternative to succinylcholine when the latter is contraindicated.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Noradrenaline selectively stimulates β2 receptors, providing the bronchodilation that septic patients require</div>",
+                  "text": "<div>Cisatracurium</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Noradrenaline has negligible β2 activity. Its therapeutic value in septic shock comes from α1-mediated vasoconstriction and modest β1 inotropy, not bronchodilation.</div>",
+                    "chosenFeedback": "<div>Cisatracurium is a non-depolarising agent that undergoes Hofmann elimination independent of liver or kidney function. It does not cause depolarisation or potassium release and is safe in burns patients.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Dobutamine has too short a duration of action for continuous infusion in the ICU setting</div>",
+                  "text": "<div>Vecuronium</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Both dobutamine and noradrenaline are routinely administered as continuous infusions in intensive care. Duration of action is not the distinguishing factor.</div>",
+                    "chosenFeedback": "<div>Vecuronium is a non-depolarising agent that is haemodynamically neutral. It does not cause the sustained depolarisation that leads to dangerous potassium efflux in burns patients.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The primary haemodynamic defect in sepsis is pathological vasodilation, and noradrenaline's α1 agonism restores systemic vascular resistance while providing modest β1 inotropy</div>",
+                  "text": "<div>Succinylcholine</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In septic/distributive shock, inflammatory mediators cause overwhelming vasodilation that exceeds the body's compensatory sympathetic response. Noradrenaline's α1 activity directly addresses this by raising SVR, while its β1 component provides supportive inotropy without the excessive chronotropy of adrenaline.</div>",
+                    "chosenFeedback": "<div>Correct. In burns older than 24 hours, extra nicotinic receptors proliferate across the muscle surface (upregulation). Succinylcholine depolarises all of these receptors simultaneously, causing a massive potassium efflux that can trigger fatal hyperkalaemia and cardiac arrest.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In septic shock, vasodilation overwhelms the normal sympathetic compensatory response. Noradrenaline is first-line because its α1 agonism restores the vascular tone that is lost, while its β1 activity provides modest cardiac support — matching the drug to the defect."
+                  "feedback": "Succinylcholine must be avoided. After burns older than 24 hours, extra nicotinic receptors spread across the muscle membrane (upregulation). Succinylcholine depolarises all of them, causing a massive potassium surge that can be fatal. Non-depolarising agents like rocuronium are the safe alternative."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well analysed. The key principle is to match the drug's receptor profile to the specific physiological defect — sepsis causes vasodilation, so an agent with strong α1 activity (noradrenaline) targets the root haemodynamic problem."
+                  "feedback": "Well done. Succinylcholine is contraindicated in burns >24 hours, prolonged immobilisation, spinal cord injury, crush injuries, and denervation — all conditions where receptor upregulation causes life-threatening hyperkalaemia."
                 }
               ],
               "behaviour": {
@@ -371,11 +371,231 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6dd4518c-95f5-4151-8dc9-f2ea8e40df40",
+            "subContentId": "5d3a4a88-90b7-4963-a834-06b9c1e6213a",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In septic shock, noradrenaline is the fi",
+              "title": "A patient with extensive burns sustained",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 634.8,
+            "to": 644.8
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Which pharmacokinetic property of bupivacaine is primarily responsible for its h</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Which pharmacokinetic property of bupivacaine is primarily responsible for its high risk of cardiac toxicity compared to lignocaine?</p>",
+              "answers": [
+                {
+                  "text": "<div>Its lower pKa, allowing faster nerve membrane penetration</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Bupivacaine actually has a slightly higher pKa than lignocaine, meaning less unionised drug at body pH and therefore slower onset, not faster. Cardiac toxicity is driven by lipid solubility, not pKa.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Its high lipid solubility, causing greater partitioning into cardiac tissue</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Bupivacaine's high lipid solubility allows it to partition readily into cardiac tissue, where it binds sodium channels rapidly but dissociates very slowly. This makes bupivacaine-induced cardiac arrest notoriously resistant to standard resuscitation — lipid emulsion therapy acts as a 'lipid sink' to pull the drug out of cardiac tissue.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Its low protein binding, leading to more free drug in plasma</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Bupivacaine is actually 95% protein-bound — one of the most highly protein-bound local anaesthetics. High protein binding prolongs its duration of action but is not the driver of its cardiac toxicity.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Its rapid metabolism by plasma esterases</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Bupivacaine is an amide-type local anaesthetic metabolised by hepatic enzymes, not plasma esterases. Ester-type agents like procaine are metabolised by plasma cholinesterases. Its cardiac toxicity relates to its high lipid solubility, not its metabolism.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The critical property is lipid solubility. Bupivacaine's high lipid solubility drives it into cardiac tissue, where it binds sodium channels with a very slow off-rate — causing treatment-resistant cardiac arrest. Lipid emulsion therapy works by creating a lipid sink that extracts the drug from cardiac tissue."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly. High lipid solubility equals high potency but also high cardiac risk. This is why bupivacaine must never be used for intravenous regional anaesthesia, and why lipid emulsion therapy was developed as a specific rescue."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "33ed5d70-e6b5-4097-ab43-e92311d447f8",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Which pharmacokinetic property of bupiva",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 783.175,
+            "to": 793.175
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In the preoperative management of phaeochromocytoma, alpha-adrenergic blockade w</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In the preoperative management of phaeochromocytoma, alpha-adrenergic blockade with phenoxybenzamine must be established before starting a beta-blocker. What is the physiological basis for this sequencing?</p>",
+              "answers": [
+                {
+                  "text": "<div>Beta-blockers inhibit the hepatic metabolism of alpha-blockers, reducing their efficacy</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>There is no clinically significant pharmacokinetic interaction between beta-blockers and phenoxybenzamine. The sequencing rule is based on receptor physiology and haemodynamic consequences, not drug metabolism.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Alpha-blockers require prior beta-receptor sensitisation to bind effectively</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Alpha-blockers bind alpha-adrenoceptors independently of beta-receptor status. The sequencing is about preventing a dangerous haemodynamic consequence when catecholamine excess is present.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Beta-blockade removes the beta-2-mediated vasodilatory counterbalance, leaving alpha-1 vasoconstriction unopposed, risking a hypertensive crisis</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Catecholamines from the tumour activate both alpha-1 (vasoconstriction) and beta-2 (vasodilation) receptors. Blocking beta-2 first removes the vasodilatory counterbalance, leaving alpha-1-mediated vasoconstriction completely unopposed and risking a dangerous hypertensive crisis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Alpha-blockade must come first to prevent beta-blocker-induced bronchospasm in these patients</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While non-selective beta-blockers can cause bronchospasm via beta-2 blockade in susceptible patients, this is not the reason for the sequencing rule in phaeochromocytoma. The concern is specifically about unopposed alpha-1 vasoconstriction causing a hypertensive crisis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The key principle: catecholamines from the tumour cause both alpha-1 vasoconstriction and beta-2 vasodilation simultaneously. If you block beta-2 first, you lose the vasodilatory buffer, and unopposed alpha-1 activity can trigger a life-threatening hypertensive crisis. Always establish alpha-blockade first."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well analysed. The alpha-before-beta rule in phaeochromocytoma is a direct application of receptor pharmacology — always control vasoconstriction before removing the vasodilatory counterbalance provided by beta-2 receptors."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "a5009951-0d45-40c0-b2d6-87ff44dd2786",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In the preoperative management of phaeoc",
               "authors": [],
               "changes": []
             }
@@ -397,32 +617,32 @@
         },
         {
           "time": 4,
-          "label": "A 28-year-old woman develops urticaria, throat tightness,…"
+          "label": "A 28-year-old woman develops hives, throat tightness, and…"
         },
         {
-          "time": 52,
-          "label": "Pathophysiology of Sympathetic Activation and Adrenergic…"
+          "time": 101,
+          "label": "The adrenergic system switches on whenever the body sense…"
         },
         {
-          "time": 107,
-          "label": "Pathophysiology of Cholinergic Transmission and ACh Recep…"
+          "time": 229,
+          "label": "Cholinergic transmission starts with the synthesis of ace…"
         },
         {
-          "time": 158,
-          "label": "Neuromuscular Blocking Drugs — PK, PD, Uses, and Adverse…"
+          "time": 350,
+          "label": "Neuromuscular blocking drugs are among the most tightly c…"
         },
         {
-          "time": 209,
-          "label": "Pharmacokinetics, Pharmacodynamics, Uses, and Adverse Eff…"
+          "time": 494,
+          "label": "A patient receives a large dose of bupivacaine for a nerv…"
         },
         {
-          "time": 270,
-          "label": "Therapeutic Rationale for Adrenergic Drug Therapy The fun…"
+          "time": 635,
+          "label": "The fundamental idea behind adjusting the adrenergic syst…"
         }
       ],
       "endscreens": [
         {
-          "time": 372,
+          "time": 835,
           "label": "End"
         }
       ]
@@ -434,7 +654,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "aee9fafd-2bc3-485d-a8a4-6e15bee739ce",
+              "subContentId": "348852ed-7f8a-4716-9d9f-183e6bdb1410",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -457,7 +677,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "f7bcff1b-aaf8-4935-8a0f-6331861c7fc9",
+        "subContentId": "2bd29a9b-cf23-422b-b7d8-09f4b99fde0e",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
