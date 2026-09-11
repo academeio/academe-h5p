@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/6c3a6408-e47c-4d42-80a8-5d2c0ef6d2cd/playlist.m3u8",
+          "path": "https://vdo.cbme.in/8b77fc9d-47cb-4f65-8891-1a4a3843ab61/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -11,9 +11,9 @@
         }
       ],
       "startScreenOptions": {
-        "title": "OR8.1 — Interactive Lecture (OR)",
+        "title": "OR8.1,OR9.1 | Neuromuscular Orthopaedics — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for OR8.1."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for OR8.1."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 99.15,
-            "to": 109.15
+            "from": 194.075,
+            "to": 204.075
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which of the following best explains why muscle wasting is severe in post-polio </p>",
+          "label": "<p>The video explains that post-polio residual paralysis is treated with tendon tra</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which of the following best explains why muscle wasting is severe in post-polio residual paralysis but relatively mild in cerebral palsy?</p>",
+              "question": "<p>The video explains that post-polio residual paralysis is treated with tendon transfer, while cerebral palsy is treated with tendon lengthening. Which underlying mechanism explains this difference in surgical approach?</p>",
               "answers": [
                 {
-                  "text": "<div>In PPRP, the anterior horn cell is destroyed and the muscle is denervated, causing severe denervation atrophy</div>",
+                  "text": "<div>PPRP produces rigid contractures from denervated muscles, while CP produces flail, lax joints from overactive muscles</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This reverses the actual pattern. PPRP produces flail, hypermobile joints because the muscle has lost its nerve supply entirely. CP produces rigid contractures because spastic muscles are overactive and too tight.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>In PPRP, the paralysed muscle has lost its nerve supply entirely, so a functioning muscle must be redirected to replace it; in CP, muscles are overactive and spastic, so they need to be surgically released</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Poliovirus selectively destroys the anterior horn cell (LMN), severing the nerve supply to the muscle. Without trophic input from the motor neurone, the muscle fibres undergo severe, irreversible denervation atrophy. In CP, the LMN and muscle are intact — the deficit is in the upper motor neurone pathways.</div>",
+                    "chosenFeedback": "<div>Correct. Anterior horn cell destruction in PPRP leaves the muscle without any nerve supply, necessitating redirection (transfer) of a working muscle. In CP, the muscle retains its nerve supply but is released from cortical inhibition, producing spasticity that is managed by lengthening the overactive muscle–tendon unit.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Post-polio selectively destroys type I (slow-twitch) muscle fibres, which form the bulk of limb muscle mass</div>",
+                  "text": "<div>Both conditions involve weakened muscles, but tendon transfer is chosen for younger patients and tendon lengthening for older patients</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Poliovirus does not selectively destroy a particular muscle fibre type. The severe wasting results from destruction of the entire motor neurone supplying the muscle (LMN lesion), causing denervation atrophy — a fundamentally different mechanism from fibre-type loss.</div>",
+                    "chosenFeedback": "<div>The choice between transfer and lengthening is determined by the underlying pathology (LMN vs UMN), not the patient's age. A denervated muscle needs replacement by transfer; a spastic muscle needs release by lengthening.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>In CP, the muscles are spared because the brain lesion occurs before myelination is complete</div>",
+                  "text": "<div>Tendon transfer is preferred in PPRP because sensation is absent, reducing post-operative pain; lengthening is preferred in CP because sensation is preserved</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. CP muscles are spared from denervation atrophy because the lower motor neurone — the nerve directly supplying the muscle — remains intact. The timing of myelination is not the relevant factor; the preservation of the LMN is.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Post-polio patients present later in childhood, allowing longer duration of disuse atrophy</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While PPRP patients may present later, their severe wasting is not from disuse alone. Denervation atrophy from anterior horn cell destruction is far more severe and irreversible than simple disuse atrophy, which is mild and reversible with exercise.</div>",
+                    "chosenFeedback": "<div>Sensation is completely normal in PPRP — poliovirus attacks only motor neurones. The treatment choice is driven by whether the muscle is paralysed (needing replacement) or spastic (needing release), not by sensory status.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The answer is denervation atrophy from anterior horn cell destruction. In PPRP (an LMN lesion), poliovirus destroys the motor neurone supplying the muscle, causing severe irreversible wasting. In CP (a UMN lesion), the LMN is intact and the muscle retains its nerve supply."
+                  "feedback": "Review the contrast table: PPRP destroys the anterior horn cell (no muscle innervation → flail joint → transfer a working muscle), while CP damages the brain (muscle still innervated but spastic → contracture → lengthen the tight muscle)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The key distinction: PPRP destroys the LMN itself, denervating the muscle and causing severe wasting. In CP, the LMN is intact, so the muscle retains its nerve supply and bulk."
+                  "feedback": "Well done. This LMN-vs-UMN distinction is the single most important concept in neuromuscular orthopaedics and drives every subsequent treatment decision."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6e6e3a61-ed7f-4fa6-b5b8-c0a584a70e5a",
+            "subContentId": "fc5cf08d-a4d9-496d-b7c7-66563c4196ca",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which of the following best explains why",
+              "title": "The video explains that post-polio resid",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 197.65,
-            "to": 207.65
+            "from": 397.79999999999995,
+            "to": 407.79999999999995
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Since cerebral palsy results from a static, non-progressive brain lesion, the ch</p>",
+          "label": "<p>Since cerebral palsy is caused by a non-progressive brain lesion, the orthopaedi</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,7 +186,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Since cerebral palsy results from a static, non-progressive brain lesion, the child's musculoskeletal deformities will also remain stable throughout growth.</p>",
+              "question": "<p>Since cerebral palsy is caused by a non-progressive brain lesion, the orthopaedic deformities also remain stable throughout childhood.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -204,16 +204,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. While the brain lesion in CP is indeed static, the musculoskeletal deformities are progressive. As the skeleton grows, spastic muscles fail to elongate proportionally, causing worsening contractures and joint deformities. This is precisely why CP management must be lifelong and anticipatory.",
-                "correctAnswerMessage": "Correct — this is false. Although the brain lesion in CP is static, the musculoskeletal consequences are dynamic and progressive. Spastic muscles fail to lengthen with skeletal growth, producing worsening contractures, lever-arm dysfunction, and joint subluxation. 'Non-progressive neurology' does not mean 'non-progressive deformity.'",
+                "wrongAnswerMessage": "This statement is false. The narration explicitly states that while the brain lesion is static, 'the orthopaedic and functional consequences are dynamic, and they tend to worsen as the child grows.' Without proactive treatment, deformities often become considerably worse despite the non-progressive nature of the underlying brain injury.",
+                "correctAnswerMessage": "Correct — this statement is false. Although the brain lesion in CP is static and non-progressive, the musculoskeletal consequences are dynamic. As the child grows, spastic muscles fail to elongate at the same rate as bone, leading to progressive contractures and worsening deformities that require proactive management.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "4a99233f-2a11-4e81-b4ca-6e8a78798457",
+            "subContentId": "cc4bd721-970f-4cbd-ad67-175897992871",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Since cerebral palsy results from a stat",
+              "title": "Since cerebral palsy is caused by a non-",
               "authors": [],
               "changes": []
             }
@@ -229,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 299.225,
-            "to": 309.225
+            "from": 595.6,
+            "to": 605.6
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 12-year-old boy with post-polio residual paralysis has a fixed equinus deformi</p>",
+          "label": "<p>A twelve-year-old boy with post-polio residual paralysis has a fixed equinovarus</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 12-year-old boy with post-polio residual paralysis has a fixed equinus deformity of the ankle and a paralysed tibialis anterior. The surgeon plans a tibialis posterior transfer to restore active dorsiflexion. What must be accomplished before the tendon transfer?</p>",
+              "question": "<p>A twelve-year-old boy with post-polio residual paralysis has a fixed equinovarus deformity and paralysed ankle dorsiflexors. The tibialis posterior muscle grades 4. A tendon transfer of tibialis posterior to the dorsum of the foot is planned to restore dorsiflexion. What must be done before the transfer?</p>",
               "answers": [
                 {
-                  "text": "<div>Electromyography must confirm that the tibialis posterior has MRC grade 5 power</div>",
+                  "text": "<div>Begin six months of intensive strengthening exercises to improve the tibialis posterior to grade 5 before transfer</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While the donor muscle must have adequate power (typically ≥MRC grade 4), the critical prerequisite is correction of the fixed deformity. A strong donor transferred onto an uncorrected rigid joint cannot act through a full range of motion and will fail.</div>",
+                    "chosenFeedback": "<div>A grade 4 muscle already meets the minimum donor requirement. The critical issue here is the fixed deformity — it must be corrected before any reconstructive procedure, regardless of donor muscle strength.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The fixed equinus deformity must first be corrected by soft-tissue release or bony procedure</div>",
+                  "text": "<div>Perform the transfer immediately to prevent the equinovarus deformity from worsening further</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Operating on an uncorrected fixed deformity violates the management hierarchy. The transferred tendon will be placed under abnormal tension, the joint cannot move through the range the tendon needs, and the patient ends up no better than before surgery.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Correct the fixed equinovarus deformity first, so the transferred tendon can function across a mobile, plantigrade joint</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The PPRP management hierarchy demands that corrective procedures (restoring passive range and alignment) precede reconstructive procedures (tendon transfer). A transfer onto an uncorrected fixed deformity places the tendon under abnormal tension with an inadequate arc of motion, guaranteeing a poor outcome.</div>",
+                    "chosenFeedback": "<div>Correct. The management hierarchy requires corrective procedures before reconstructive ones. A tendon transfer onto a stiff, deformed joint is stretched under abnormal tension and cannot produce useful movement. Correcting the deformity first gives the transferred tendon the best chance of restoring functional dorsiflexion.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>An ankle-foot orthosis trial for at least six months to assess residual walking potential</div>",
+                  "text": "<div>Prescribe an ankle-foot orthosis for one year and defer the transfer, since conservative management alone may resolve the fixed deformity</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Orthotic management is part of the conservative tier, but the specific prerequisite before tendon transfer is correction of any fixed deformity. The hierarchy is: conservative → corrective (restore passive range and alignment) → reconstructive (tendon transfer).</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Nerve conduction studies must exclude ongoing reinnervation of the tibialis anterior</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. By the residual stage of polio, spontaneous recovery is complete and further reinnervation will not occur. The critical step before tendon transfer is correction of fixed deformity — the surgical hierarchy principle, not further neurological investigation.</div>",
+                    "chosenFeedback": "<div>An orthosis can prevent worsening or support a paralysed limb, but it cannot correct an established fixed bony deformity. Surgical correction of the equinovarus is needed before the reconstructive tendon transfer can proceed.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The answer is correction of the fixed equinus deformity first. PPRP management follows a strict hierarchy: conservative → corrective → reconstructive. A tendon transfer onto an uncorrected joint cannot generate useful motion — the deformity must be corrected before the transfer."
+                  "feedback": "Revisit the management hierarchy: conservative measures come first, then corrective procedures to address fixed deformity, and only then reconstructive procedures like tendon transfer. Skipping the corrective step dooms the transfer to failure."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. The management hierarchy in PPRP — conservative, then corrective, then reconstructive — exists because a tendon transfer across an uncorrected rigid deformity will inevitably fail."
+                  "feedback": "Exactly right. The strict hierarchy — conservative, then corrective, then reconstructive — exists because reconstruction on an uncorrected deformity guarantees a poor result."
                 }
               ],
               "behaviour": {
@@ -319,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "c9eddf2b-e1e7-4dd1-a1b1-b13083163797",
+            "subContentId": "65947c5c-7813-4f26-b74a-fb90ebd5c4cb",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 12-year-old boy with post-polio residu",
+              "title": "A twelve-year-old boy with post-polio re",
               "authors": [],
               "changes": []
             }
@@ -339,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 399.15,
-            "to": 409.15
+            "from": 701.375,
+            "to": 711.375
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In a child with post-polio residual paralysis, the peronei (evertors) are paraly</p>",
+          "label": "<p>A five-year-old child with spastic diplegic cerebral palsy (GMFCS level II) has </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In a child with post-polio residual paralysis, the peronei (evertors) are paralysed but the tibialis posterior (invertor and plantar flexor) is intact. Which deformity will progressively develop due to this muscle imbalance?</p>",
+              "question": "<p>A five-year-old child with spastic diplegic cerebral palsy (GMFCS level II) has dynamic equinus that limits walking, but no fixed contracture. Six months of physiotherapy and ankle-foot orthosis use have produced limited improvement. What is the most appropriate next step?</p>",
               "answers": [
                 {
-                  "text": "<div>Calcaneovalgus, because the dorsiflexors and evertors overpower the weakened plantar flexors</div>",
+                  "text": "<div>Surgical Achilles tendon lengthening to permanently correct the equinus</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Calcaneovalgus results from strong dorsiflexors and evertors with weak plantar flexors — the opposite pattern. Here, the intact tibialis posterior (a plantar flexor and invertor) is unopposed, producing equinovarus, not calcaneovalgus.</div>",
+                    "chosenFeedback": "<div>Tendon lengthening is reserved for fixed contractures or cases where less invasive measures have been exhausted. In dynamic equinus without a contracture, a reversible intervention should be tried before committing to surgery.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Equinovarus, because the intact tibialis posterior acts unopposed in inversion and plantar flexion</div>",
+                  "text": "<div>Selective dorsal rhizotomy to permanently reduce lower-limb spasticity</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Selective dorsal rhizotomy is an irreversible surgical procedure at the far end of the spasticity management spectrum. It is reserved for carefully selected children and is not the next step after conservative measures in focal dynamic equinus.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Botulinum toxin injection into the gastrocnemius–soleus complex, followed by intensive physiotherapy</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. With the peronei (evertors) paralysed, the tibialis posterior — a powerful invertor and plantar flexor — acts without opposition, progressively pulling the foot into equinovarus. This muscle-imbalance analysis is the cornerstone of deformity prediction in PPRP.</div>",
+                    "chosenFeedback": "<div>Correct. Botulinum toxin temporarily blocks nerve signals to the overactive calf muscles, reducing spasticity for three to six months. This provides a window during which physiotherapy can consolidate gains in range of motion and strength — the appropriate next step on the spasticity management spectrum.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Pure equinus without a varus component, because the tibialis posterior is primarily a plantar flexor</div>",
+                  "text": "<div>Intrathecal baclofen pump implantation to control generalised spasticity</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The tibialis posterior is both a plantar flexor AND a strong invertor. With the peronei (evertors) paralysed, the inverting action is unopposed, so varus accompanies the equinus. The resulting deformity is equinovarus.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Pes planovalgus, because loss of the peronei causes collapse of the lateral longitudinal arch</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Pes planovalgus results from weak invertors with intact evertors — the opposite scenario. The peronei are evertors; their paralysis leaves the invertor (tibialis posterior) unopposed, producing equinovarus, not valgus.</div>",
+                    "chosenFeedback": "<div>Intrathecal baclofen is indicated for severe, generalised spasticity, usually at higher GMFCS levels. It is not appropriate for focal dynamic equinus in a community-ambulant child at GMFCS level II.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The answer is equinovarus. When the peronei (evertors) are paralysed and the tibialis posterior (invertor + plantar flexor) is intact, the foot is pulled into inversion and plantar flexion. Mapping intact versus paralysed muscles to predict deformity is the central analytical skill in PPRP."
+                  "feedback": "Review the spasticity management spectrum: physiotherapy and orthotics → botulinum toxin (temporary, focal) → oral or intrathecal baclofen (generalised) → selective dorsal rhizotomy (permanent). Each step targets a different severity and distribution of spasticity."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The dominant pathological mechanism in PPRP is muscle imbalance: the unopposed action of intact muscles against paralysed antagonists drives progressive joint deformity. Predicting the deformity from the muscle chart is an essential clinical skill."
+                  "feedback": "Well done. Botulinum toxin sits at the right point on the spectrum — reversible, targeted, and paired with physiotherapy to consolidate the benefit."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "efdbcd9a-3518-47b8-8bd2-6d2395401904",
+            "subContentId": "e5ff7e0c-366d-4204-91c7-69c2a4d0846d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In a child with post-polio residual para",
+              "title": "A five-year-old child with spastic diple",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 804.5250000000001,
+            "to": 814.5250000000001
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A child with post-polio residual paralysis has paralysed ankle dorsiflexors but </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A child with post-polio residual paralysis has paralysed ankle dorsiflexors but intact plantarflexors. Applying the principle that deformity results from 'the unopposed pull of whichever muscle still works,' which deformity develops, and what happens if a tendon transfer is performed without correcting any fixed component?</p>",
+              "answers": [
+                {
+                  "text": "<div>Calcaneal deformity develops; the transfer will be too tight and restrict plantarflexion</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Calcaneal deformity results from paralysed plantarflexors with intact dorsiflexors — the opposite muscle imbalance. With paralysed dorsiflexors and intact plantarflexors, the unopposed downward pull produces equinus, not a calcaneal foot.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Equinus deformity develops; the transfer will succeed regardless because the donor muscle is strong enough</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>You correctly identified equinus, but donor muscle strength alone does not guarantee success. If the equinus has become a fixed contracture, the management hierarchy demands correction first — a transfer onto a rigid joint is stretched under abnormal tension and produces a poor result.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Equinus deformity develops; if it becomes fixed, the transfer will fail because the tendon is stretched under abnormal tension across a rigid joint</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The intact plantarflexors pull the foot downward unopposed, producing equinus. If this becomes a fixed contracture, the management hierarchy demands surgical correction before tendon transfer — otherwise the transferred tendon works against a rigid joint and the outcome is poor.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Varus deformity develops; the transfer must be delayed until the child stops growing to prevent recurrence</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Varus involves inward turning of the foot, driven by a different muscle imbalance such as unopposed tibialis posterior. Paralysed dorsiflexors with intact plantarflexors produce equinus — the foot points downward, not inward.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "This question combines two key principles: (1) identify which deformity results from the specific muscle imbalance (unopposed plantarflexors → equinus), and (2) recall that the management hierarchy forbids tendon transfer onto an uncorrected fixed deformity."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Excellent analysis. You correctly linked the 'unopposed pull' principle to the specific deformity and recognised why the management hierarchy must be respected before reconstruction."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "a8c45f36-55c1-4f43-a0cf-ac8cc6dece39",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A child with post-polio residual paralys",
               "authors": [],
               "changes": []
             }
@@ -455,40 +565,40 @@
         },
         {
           "time": 3,
-          "label": "A 14-year-old boy from rural Maharashtra is brought to yo…"
+          "label": "A fourteen-year-old boy from rural Maharashtra is brought…"
         },
         {
-          "time": 49,
-          "label": "LMN versus UMN Paralysis: PPRP and CP Contrasted The comp…"
+          "time": 86,
+          "label": "Post-polio residual paralysis and cerebral palsy sit at o…"
         },
         {
-          "time": 99,
-          "label": "Clinical Presentation and Stages of Poliomyelitis The cli…"
+          "time": 194,
+          "label": "The clinical course of poliomyelitis moves through three…"
         },
         {
-          "time": 148,
-          "label": "Clinical Presentation and Classification of Cerebral Pals…"
+          "time": 293,
+          "label": "Cerebral palsy is a group of permanent, non-progressive d…"
         },
         {
-          "time": 201,
-          "label": "Clinical Examination: Muscle Charting, Deformity Assessme…"
+          "time": 398,
+          "label": "Clinical assessment of post-polio residual paralysis need…"
         },
         {
-          "time": 253,
-          "label": "Management Principles: Physiotherapy, Orthoses, and Conse…"
+          "time": 507,
+          "label": "Management follows a strict order, and understanding why…"
         },
         {
-          "time": 302,
-          "label": "Multidisciplinary Management: Physiotherapy, Spasticity M…"
+          "time": 596,
+          "label": "Managing cerebral palsy is a lifelong, multidisciplinary…"
         },
         {
-          "time": 352,
-          "label": "Self-Assessment: Key Principles in PPRP Self-assessment i…"
+          "time": 702,
+          "label": "This is time to test what you have learned so far."
         }
       ],
       "endscreens": [
         {
-          "time": 434,
+          "time": 840,
           "label": "End"
         }
       ]
@@ -500,7 +610,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "87487158-363a-4dfa-b09b-8c0e999d889c",
+              "subContentId": "8d5cd721-cc87-4b84-93f2-4000cf7fdbb4",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -523,7 +633,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "72533a11-c6fc-46eb-845c-e3485eea6dbe",
+        "subContentId": "72a560a3-8d63-429f-9529-6a27974b0307",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
