@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/d04c0a26-2ea1-47a1-9205-d8da3314e325/playlist.m3u8",
+          "path": "https://vdo.cbme.in/fd2672f3-a3a9-4b17-91af-9b82a9d9b8a3/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PH5.1-2 | Respiratory Pharmacology — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for PH5.1-PH5.2."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for PH5.1-PH5.2."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 97.6,
-            "to": 107.6
+            "from": 168.875,
+            "to": 178.875
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In bronchial asthma, mast cell degranulation triggers the immediate early-phase </p>",
+          "label": "<p>In bronchial asthma, the late-phase response occurring 6–12 hours after allergen</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In bronchial asthma, mast cell degranulation triggers the immediate early-phase response. What PRIMARILY drives the late-phase response that follows 6–12 hours later?</p>",
+              "question": "<p>In bronchial asthma, the late-phase response occurring 6–12 hours after allergen exposure is predominantly driven by:</p>",
               "answers": [
                 {
-                  "text": "<div>Neutrophil infiltration triggered by complement activation</div>",
+                  "text": "<div>Mast cells releasing histamine</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Neutrophilic inflammation is the hallmark of COPD, not asthma. The late-phase asthma response is driven by eosinophil recruitment via cytokines such as IL-5.</div>",
+                    "chosenFeedback": "<div>Mast cell degranulation with histamine release characterises the early-phase response (within minutes of allergen exposure), not the late-phase response at 6–12 hours.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Cytokine-driven eosinophil recruitment with further mediator release</div>",
+                  "text": "<div>Neutrophils and macrophages</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Neutrophils and macrophages are the predominant inflammatory cells in COPD, not in the asthmatic late-phase response. This distinction is central to choosing the right drug class for each condition.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Eosinophils recruited by cytokines</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The late-phase response is dominated by eosinophils recruited by IL-5, while IL-4 and IL-13 drive IgE class switching — amplifying the inflammatory cycle.</div>",
+                    "chosenFeedback": "<div>Correct. IL-5 drives eosinophil production and survival, while IL-4 and IL-13 promote IgE class-switching, sustaining the late-phase inflammatory cascade that leads to airway remodelling.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Goblet cell hyperplasia leading to acute mucus plugging</div>",
+                  "text": "<div>Basophils producing IgE</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Mucus hypersecretion occurs in asthma but is a downstream consequence, not the primary driver of the late-phase response. Eosinophil recruitment is the dominant mechanism.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Smooth muscle hypertrophy from sustained bronchospasm</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Smooth muscle hypertrophy is a feature of chronic airway remodelling over months to years, not the acute late-phase response occurring 6–12 hours after allergen exposure.</div>",
+                    "chosenFeedback": "<div>IgE is produced by B lymphocytes after class-switching driven by IL-4 and IL-13, not by basophils. The late-phase response is dominated by eosinophils flooding into the airway.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The late-phase asthma response is driven by cytokine-mediated eosinophil recruitment (IL-5), not neutrophils (that is COPD) or structural changes. This eosinophilic dominance is why inhaled corticosteroids are essential."
+                  "feedback": "Review the biphasic inflammatory response: the early phase is driven by mast cell degranulation (minutes), while the late phase (6–12 hours) is dominated by eosinophils recruited by cytokines such as IL-5."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Understanding that eosinophilic inflammation drives the late phase explains why anti-inflammatory therapy (ICS) — not just bronchodilators — is the cornerstone of asthma management."
+                  "feedback": "The biphasic asthma response is clinically important: the early phase is mast cell/histamine-mediated, while the late phase is eosinophil-dominated and drives chronic airway remodelling."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e8e87f3a-2e71-4caf-bb2a-4bdd314b868a",
+            "subContentId": "a05a05a5-661d-4701-88dc-1bf134ca9801",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In bronchial asthma, mast cell degranula",
+              "title": "In bronchial asthma, the late-phase resp",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 209.47499999999997,
-            "to": 219.47499999999997
+            "from": 407,
+            "to": 417
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with persistent bronchial asthma is prescribed salmeterol (a LABA) for</p>",
+          "label": "<p>Why must long-acting beta-2 agonists (LABAs) never be prescribed as monotherapy </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with persistent bronchial asthma is prescribed salmeterol (a LABA) for maintenance bronchodilation. Which additional drug class MUST be co-prescribed to ensure safety?</p>",
+              "question": "<p>Why must long-acting beta-2 agonists (LABAs) never be prescribed as monotherapy in bronchial asthma?</p>",
               "answers": [
                 {
-                  "text": "<div>Short-acting muscarinic antagonist (ipratropium)</div>",
+                  "text": "<div>They cause rapid tachyphylaxis, losing bronchodilator effect within days</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Ipratropium is used for acute bronchospasm relief (particularly in COPD) but is not the mandatory partner for LABA in asthma. The critical co-prescription is an inhaled corticosteroid.</div>",
+                    "chosenFeedback": "<div>While some tolerance to beta-2 agonist effects can develop, this is not the primary safety concern. The critical issue is that LABA monotherapy has been linked to increased asthma-related mortality.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Leukotriene receptor antagonist (montelukast)</div>",
+                  "text": "<div>They worsen airway remodelling by directly stimulating smooth muscle hypertrophy</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Montelukast is a useful add-on in asthma but is not the mandatory LABA partner. LABA alone masks worsening eosinophilic inflammation — only ICS addresses this underlying process.</div>",
+                    "chosenFeedback": "<div>LABAs do not cause smooth muscle hypertrophy. Airway remodelling is driven by chronic eosinophilic inflammation, which LABAs do not address — hence the need for concurrent inhaled corticosteroids.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Inhaled corticosteroid (ICS)</div>",
+                  "text": "<div>They are ineffective as bronchodilators unless combined with a corticosteroid</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>LABAs are effective bronchodilators on their own. The problem is not lack of efficacy but increased mortality when the underlying eosinophilic inflammation remains untreated.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>They have been associated with increased asthma-related deaths when used without inhaled corticosteroids</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. LABA must ALWAYS be combined with ICS in asthma. LABA provides symptomatic bronchodilation but does not address underlying eosinophilic inflammation — used alone, it masks disease progression and increases mortality risk.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Oral methylxanthine (theophylline)</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Theophylline is an add-on bronchodilator with a narrow therapeutic index, not the mandatory LABA partner. The critical safety rule is LABA + ICS in asthma — never LABA monotherapy.</div>",
+                    "chosenFeedback": "<div>Correct. Clinical evidence showed higher asthma mortality with LABA monotherapy. LABAs relieve symptoms but do not address the underlying inflammation, masking worsening disease. Note: LABA monotherapy is acceptable in COPD.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "LABA must ALWAYS be combined with ICS in asthma — never prescribed as monotherapy. LABA relieves bronchospasm but does not treat the underlying eosinophilic inflammation, risking near-fatal exacerbations."
+                  "feedback": "LABA monotherapy in asthma is linked to increased deaths because it relieves bronchoconstriction while leaving eosinophilic inflammation unchecked. Always combine with inhaled corticosteroids in asthma."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The LABA + ICS rule is one of the most critical safety principles in asthma pharmacotherapy — LABA alone masks inflammation while the disease silently worsens."
+                  "feedback": "This is a critical safety rule: LABA + ICS is mandatory in asthma. In contrast, LABA monotherapy is acceptable in COPD, where the inflammatory mechanism and safety profile differ."
                 }
               ],
               "behaviour": {
@@ -261,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "cc06653e-b7c3-4065-ada3-f7cc0dae83b7",
+            "subContentId": "5e4ed39f-326f-4388-a643-8c8c7ed1db25",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with persistent bronchial asth",
+              "title": "Why must long-acting beta-2 agonists (LA",
               "authors": [],
               "changes": []
             }
@@ -281,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 320.72499999999997,
-            "to": 330.72499999999997
+            "from": 581.225,
+            "to": 591.225
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A student with well-controlled asthma on optimal ICS-LABA therapy reports increa</p>",
+          "label": "<p>A patient with allergic rhinitis reports that cetirizine has relieved her sneezi</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A student with well-controlled asthma on optimal ICS-LABA therapy reports increasing nocturnal cough. Examination reveals co-existing allergic rhinitis that she has never treated. What is the most appropriate NEXT step?</p>",
+              "question": "<p>A patient with allergic rhinitis reports that cetirizine has relieved her sneezing and itching, but nasal congestion persists. What is the pharmacological explanation for this incomplete response?</p>",
               "answers": [
                 {
-                  "text": "<div>Step up her asthma controller by adding oral montelukast</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Before escalating asthma therapy, address the under-treated rhinitis. The 'united airway' model shows that nasal inflammation perpetuates bronchial hyper-reactivity and may be driving her nocturnal symptoms.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Switch from inhaled to oral corticosteroids for systemic coverage</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Oral corticosteroids carry significant systemic side effects and are not warranted here. Intranasal corticosteroids treat rhinitis topically and, via the united airway mechanism, can improve her asthma symptoms.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Prescribe an oral second-generation antihistamine for rhinitis</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While antihistamines help with sneezing and rhinorrhoea, intranasal corticosteroids are the MOST effective single drug class for allergic rhinitis — they address nasal obstruction as well, which antihistamines handle poorly.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Prescribe an intranasal corticosteroid spray for her rhinitis</div>",
+                  "text": "<div>Nasal congestion is primarily mediated by alpha-adrenergic vascular pathways, not by histamine</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The 'united airway' concept shows that nasal and bronchial mucosa share a continuous epithelium. Treating allergic rhinitis with INCS reduces post-nasal drip and bronchial hyper-reactivity, often improving asthma control without escalating lower-airway therapy.</div>",
+                    "chosenFeedback": "<div>Correct. Histamine acts mainly on nerve endings and secretory glands, driving sneezing, itching, and rhinorrhoea. Nasal congestion results from vascular engorgement controlled by alpha-adrenergic receptors, which antihistamines cannot address.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Cetirizine is a weak H1 blocker that fails to reach adequate nasal mucosal concentrations</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Cetirizine is a potent second-generation H1-receptor antagonist with good bioavailability. The issue is not drug potency but the fact that congestion is mediated by a different receptor pathway altogether.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Second-generation antihistamines lack the anti-inflammatory properties needed for decongestion</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While anti-inflammatory effects vary among antihistamines, the real reason is that congestion is not histamine-mediated. Intranasal corticosteroids address congestion by reducing inflammation across all mediator pathways.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Prolonged antihistamine use leads to histamine receptor upregulation in nasal blood vessels</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Receptor upregulation with antihistamine use is not a recognised clinical phenomenon. Congestion persists because it is driven by alpha-adrenergic vascular pathways, not histamine receptors.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The 'united airway' model teaches that under-treated rhinitis perpetuates bronchial hyper-reactivity. Before escalating asthma therapy, treat the rhinitis with intranasal corticosteroids — the most effective single drug class for allergic rhinitis."
+                  "feedback": "Histamine drives sneezing, itching, and rhinorrhoea but plays only a minor role in nasal vascular congestion. Congestion is controlled by alpha-adrenergic pathways — that is why antihistamines alone leave it untreated."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Applying the 'united airway' concept — treating rhinitis to reduce asthma burden — is a crucial clinical skill. INCS are the most effective single drug class for allergic rhinitis."
+                  "feedback": "This explains why intranasal corticosteroids are the most effective monotherapy for allergic rhinitis — they address all four cardinal symptoms including congestion, which antihistamines cannot."
                 }
               ],
               "behaviour": {
@@ -371,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "1f1eba36-726b-4f18-952c-1a17b57633c7",
+            "subContentId": "d70597a0-34ac-465d-a460-1e9e3abe7bd2",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A student with well-controlled asthma on",
+              "title": "A patient with allergic rhinitis reports",
               "authors": [],
               "changes": []
             }
@@ -391,13 +391,13 @@
         },
         {
           "duration": {
-            "from": 473.675,
-            "to": 483.675
+            "from": 739.1,
+            "to": 749.1
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Codeine phosphate suppresses cough by acting on μ-opioid receptors in the medull</p>",
+          "label": "<p>A patient presents with a productive cough bringing up mucopurulent sputum follo</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Codeine phosphate suppresses cough by acting on μ-opioid receptors in the medullary cough centre. What is the key pharmacokinetic step required for this antitussive action?</p>",
+              "question": "<p>A patient presents with a productive cough bringing up mucopurulent sputum following a lower respiratory tract infection. Why would prescribing an antitussive be inappropriate in this situation?</p>",
               "answers": [
                 {
-                  "text": "<div>Hepatic conversion to morphine by CYP2D6</div>",
+                  "text": "<div>Antitussives are contraindicated in bacterial infections due to drug interactions with antibiotics</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>There is no significant interaction between antitussives and antibiotics. The issue is that suppressing the cough reflex in a productive cough impairs the body's mechanism for clearing infected secretions.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Suppressing a productive cough impairs airway clearance of secretions that the body needs to expel</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Codeine is a pro-drug that requires CYP2D6 to convert it to morphine, which then acts on μ-opioid receptors centrally. CYP2D6 poor metabolisers get minimal cough suppression, while ultra-rapid metabolisers risk opioid toxicity.</div>",
+                    "chosenFeedback": "<div>Correct. When cough is productive, the reflex is protective — it clears mucus, pathogens, and debris from the airways. Suppressing it leads to retained secretions, which can worsen infection and impair recovery.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Hepatic glucuronidation to codeine-6-glucuronide</div>",
+                  "text": "<div>Codeine-based antitussives are ineffective against infection-related cough because the reflex arc differs</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Codeine-6-glucuronide is a metabolite but is NOT the primary active form responsible for cough suppression. The therapeutically critical pathway is CYP2D6-mediated conversion to morphine.</div>",
+                    "chosenFeedback": "<div>Codeine suppresses cough regardless of aetiology by acting centrally on the medullary cough centre. The problem is not inefficacy but that suppression is actively harmful when secretions need to be cleared.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Hepatic conversion to norcodeine by CYP3A4</div>",
+                  "text": "<div>Productive cough always resolves spontaneously and never requires any pharmacological intervention</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>CYP3A4 does metabolise codeine to norcodeine, but norcodeine has minimal antitussive activity. The clinically significant pathway is CYP2D6 → morphine, which then acts at μ-opioid receptors in the cough centre.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Direct binding to peripheral TRPV1 receptors in airway mucosa</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>TRPV1 receptors are peripheral cough triggers found in airway sensory nerve endings. Codeine acts CENTRALLY via its active metabolite morphine at μ-opioid receptors in the medullary cough centre, not peripherally.</div>",
+                    "chosenFeedback": "<div>Productive cough often does need treatment — but the correct approach is to facilitate secretion clearance using expectorants, mucolytics, hydration, and chest physiotherapy, not to suppress the reflex.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Codeine is a pro-drug — it must be converted to morphine by hepatic CYP2D6 before it can suppress cough centrally. Poor CYP2D6 metabolisers get no benefit; ultra-rapid metabolisers risk toxicity — an important pharmacogenomic consideration."
+                  "feedback": "In productive cough, the reflex is protective. Suppressing it retains secretions and can worsen the underlying condition. The correct approach is to aid clearance with expectorants, mucolytics, and adequate hydration."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Codeine's pro-drug status makes CYP2D6 pharmacogenomics clinically significant — dextromethorphan, which acts directly without CYP2D6 activation, is often preferred as a non-opioid alternative."
+                  "feedback": "The dry-versus-productive distinction is the single most important assessment in cough management: suppress only dry cough; facilitate clearance in productive cough; and always treat the underlying cause."
                 }
               ],
               "behaviour": {
@@ -481,11 +481,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6c343f24-284c-42d9-afc1-aef9836c25a8",
+            "subContentId": "2082817b-279c-4522-8a24-e047374e53af",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Codeine phosphate suppresses cough by ac",
+              "title": "A patient presents with a productive cou",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 911.7500000000001,
+            "to": 921.7500000000001
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A 50-year-old non-smoking woman with a normal chest radiograph has had a persist</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A 50-year-old non-smoking woman with a normal chest radiograph has had a persistent dry cough for ten weeks. She takes enalapril for hypertension. What is the most appropriate first step in managing her cough?</p>",
+              "answers": [
+                {
+                  "text": "<div>Prescribe dextromethorphan for symptomatic cough suppression</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Symptomatic relief without addressing the underlying cause is not rational cough management. This patient has an identifiable and reversible drug-related cause that should be addressed first.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Start empirical antibiotics for suspected atypical pneumonia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A normal chest radiograph and absence of systemic symptoms make atypical pneumonia unlikely. The clinical profile — chronic dry cough in a patient on an ACE inhibitor — points strongly to a drug-induced cause.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Switch enalapril to an angiotensin receptor blocker and reassess after a few weeks</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. ACE inhibitor–induced cough is one of the three most common causes of chronic cough (&gt;8 weeks) in non-smokers with a normal chest radiograph. Switching to an ARB typically resolves the cough within 1–4 weeks.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Order high-resolution CT thorax to exclude interstitial lung disease</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Advanced imaging is not warranted as a first step when a clear drug-related cause is present. The rational approach is to address the most likely reversible cause first and investigate further only if the cough persists.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "In a non-smoker with a normal CXR and chronic dry cough on an ACE inhibitor, drug-induced cough is the most likely diagnosis. Switch to an ARB first; investigate further only if the cough persists after 1–4 weeks."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Rational cough management follows a structured algorithm: characterise the cough, identify the most likely cause, and treat the cause before adding symptomatic therapy. ACE inhibitor cough is a classic reversible cause."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "26725fc3-1776-424e-bbe5-cff42ca81aba",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A 50-year-old non-smoking woman with a n",
               "authors": [],
               "changes": []
             }
@@ -511,44 +621,44 @@
         },
         {
           "time": 42,
-          "label": "Pathophysiology of Obstructive Airway Disease Understandi…"
+          "label": "Understanding how these airway diseases actually develop…"
         },
         {
-          "time": 98,
-          "label": "Therapeutic Goals in Asthma, COPD, and Rhinitis Before se…"
+          "time": 169,
+          "label": "Before we select any drug, we need to ask what we're actu…"
         },
         {
-          "time": 153,
-          "label": "Bronchodilators: Beta-2 Agonists (SABA and LABA) Beta-2 a…"
+          "time": 310,
+          "label": "Beta-2 agonists are the most widely used bronchodilators…"
         },
         {
-          "time": 209,
-          "label": "Anticholinergics: SAMA and LAMA Anticholinergic (muscarin…"
+          "time": 408,
+          "label": "Anticholinergic bronchodilators work by blocking muscarin…"
         },
         {
-          "time": 265,
-          "label": "Rhinitis Pharmacotherapy Allergic rhinitis pharmacotherap…"
+          "time": 499,
+          "label": "Why can antihistamines control the sneezing and itching o…"
         },
         {
-          "time": 321,
-          "label": "A 34-year-old teacher presents with a 5-day history of dr…"
+          "time": 582,
+          "label": "A thirty-four-year-old teacher has had a dry, non-product…"
         },
         {
-          "time": 370,
-          "label": "Therapeutic Goals in Cough Management The therapeutic goa…"
+          "time": 666,
+          "label": "Managing a cough always starts with one question: what is…"
         },
         {
-          "time": 420,
-          "label": "Antitussives: Central and Peripheral Mechanisms Antitussi…"
+          "time": 740,
+          "label": "Antitussives work by raising the threshold of the cough r…"
         },
         {
-          "time": 474,
-          "label": "Clinical Decision-Making in Cough Management Rational cou…"
+          "time": 828,
+          "label": "Rational cough management means combining what you know a…"
         }
       ],
       "endscreens": [
         {
-          "time": 581,
+          "time": 967,
           "label": "End"
         }
       ]
@@ -560,7 +670,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "bb7240f4-ef14-495c-842e-2c711139d723",
+              "subContentId": "fc98ebe3-c680-4a8d-b4ca-340d4190416a",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -583,7 +693,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "255ccf68-df9a-4dc1-85b6-b7dbd022e877",
+        "subContentId": "76c99963-0fb6-452a-9850-f77012a123fb",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
