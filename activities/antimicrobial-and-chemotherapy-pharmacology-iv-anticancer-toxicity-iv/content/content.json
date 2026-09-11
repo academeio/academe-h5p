@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/b3e4689f-b8df-4642-8ffc-097696812ce6/playlist.m3u8",
+          "path": "https://vdo.cbme.in/de15756d-9930-499b-9b53-df9e33dd8abe/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PH8.1-11 | Antimicrobial and Chemotherapy Pharmacology — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for PH8.1-PH8.9."
+        "shortStartDescription": "Interactive lecture with 4 embedded questions for PH8.1-PH8.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -67,95 +67,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why are antimetabolites most effective during the DNA synthesis (S) phase of the</p>",
+          "label": "<p>Cancer stem cells hiding in the G0 phase are highly susceptible to most chemothe</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Why are antimetabolites most effective during the DNA synthesis (S) phase of the cell cycle?</p>",
-              "answers": [
-                {
-                  "text": "<div>They form covalent crosslinks with DNA, preventing strand separation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Covalent DNA crosslinks are the mechanism of alkylating agents such as cyclophosphamide and cisplatin, not antimetabolites.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>They structurally mimic DNA building blocks and get incorporated during replication, disrupting the process</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Antimetabolites disguise themselves as normal nucleotides. During S phase the cell is actively copying its DNA, so these fraudulent molecules are incorporated and halt replication.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>They generate oxygen free radicals that break DNA strands during replication</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Free-radical-mediated DNA strand breaks are the mechanism of bleomycin, not antimetabolites.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>They prevent the mitotic spindle from assembling, blocking chromosome separation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Blocking the mitotic spindle is the mechanism of vinca alkaloids, which act during M phase, not S phase.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Review the cell cycle: antimetabolites act in S phase because they mimic the building blocks the cell uses to replicate its DNA — they are incorporated and disrupt the copying process."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Antimetabolites resemble normal nucleotide building blocks. Cells in S phase actively incorporate them during DNA replication, producing faulty copies that trigger cell death."
-                }
-              ],
+              "question": "<p>Cancer stem cells hiding in the G0 phase are highly susceptible to most chemotherapy agents.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "G0 is actually a protected resting phase. Cells here are not actively dividing, so most chemotherapy drugs cannot reach them. The narration specifically noted that cancer stem cells hide in G0 to escape treatment — this is one of the key reasons for tumour recurrence.",
+                "correctAnswerMessage": "Correct. G0 cells are not actively dividing, so chemotherapy drugs that target cell-cycle processes — DNA synthesis, mitosis — cannot kill them effectively. Cancer stem cells exploit this resting phase to escape treatment, which is a major reason tumours recur even after apparently successful chemotherapy.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "ff0fb19d-fb3e-4a80-863a-6f597b2aa896",
+            "subContentId": "3afed6a6-afa7-40bd-ad4d-67ac33f707ab",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "Why are antimetabolites most effective d",
+              "title": "Cancer stem cells hiding in the G0 phase",
               "authors": [],
               "changes": []
             }
@@ -171,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 277.775,
-            "to": 287.775
+            "from": 363.67499999999995,
+            "to": 373.67499999999995
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why are drugs with non-overlapping toxicities preferred in combination chemother</p>",
+          "label": "<p>A patient on mercaptopurine for maintenance chemotherapy develops hyperuricaemia</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Why are drugs with non-overlapping toxicities preferred in combination chemotherapy regimens?</p>",
+              "question": "<p>A patient on mercaptopurine for maintenance chemotherapy develops hyperuricaemia and allopurinol is considered. Why must the mercaptopurine dose be reduced before adding allopurinol?</p>",
               "answers": [
                 {
-                  "text": "<div>They allow sequential scheduling so that only one drug is active in the body at a time</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Combination regimens often give multiple drugs simultaneously. The advantage of non-overlapping toxicities is about organ safety, not about sequential timing.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Each drug can be given at near-maximum effective dose without compounding harm to the same organ</div>",
+                  "text": "<div>Allopurinol inhibits xanthine oxidase, which also metabolises mercaptopurine, risking severe myelosuppression</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. When each drug damages a different organ system, oncologists can push every drug closer to its maximum therapeutic dose, maximising tumour kill while keeping side effects tolerable.</div>",
+                    "chosenFeedback": "<div>Correct. Xanthine oxidase is the enzyme responsible for breaking down mercaptopurine. Allopurinol blocks this enzyme, causing mercaptopurine to accumulate to toxic levels. The dose must be reduced to approximately one-third to prevent dangerous bone marrow suppression.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>They prevent cancer cells from developing resistance to any single agent</div>",
+                  "text": "<div>Allopurinol displaces mercaptopurine from plasma protein binding sites, increasing free drug levels</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Preventing resistance is achieved by using drugs with different molecular mechanisms. Non-overlapping toxicity is a separate principle that concerns organ safety, not resistance.</div>",
+                    "chosenFeedback": "<div>Protein-binding displacement is not the mechanism here. Allopurinol blocks xanthine oxidase — the same enzyme that breaks down mercaptopurine — leading to drug accumulation and severe myelosuppression.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>They reduce the total number of chemotherapy cycles needed for cure</div>",
+                  "text": "<div>Allopurinol enhances renal tubular reabsorption of mercaptopurine, reducing its clearance</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The number of cycles is determined by the log-kill hypothesis and the initial tumour burden, not by the toxicity profiles of the drugs chosen.</div>",
+                    "chosenFeedback": "<div>Allopurinol does not affect renal tubular handling of mercaptopurine. The interaction occurs because allopurinol inhibits xanthine oxidase, the enzyme responsible for mercaptopurine breakdown, causing toxic accumulation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Allopurinol converts mercaptopurine into a nephrotoxic metabolite that damages the kidneys</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Mercaptopurine is not converted to a nephrotoxic metabolite. Rather, allopurinol blocks xanthine oxidase — the enzyme that normally inactivates mercaptopurine — causing the drug to accumulate and suppress the bone marrow.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key principle: when one drug is nephrotoxic and another is cardiotoxic, each can be given at near-maximum dose because they do not compound harm to the same organ."
+                  "feedback": "The key fact is that allopurinol and mercaptopurine share the same metabolic enzyme, xanthine oxidase. Blocking this enzyme with allopurinol prevents mercaptopurine breakdown, leading to dangerous accumulation and bone marrow suppression."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Non-overlapping toxicities mean each drug harms a different organ, so each can be dosed aggressively without additive damage to the same tissue — maximising tumour kill with manageable side effects."
+                  "feedback": "Well done. This is one of the most clinically important drug interactions in oncology — always reduce the mercaptopurine dose when co-prescribing allopurinol."
                 }
               ],
               "behaviour": {
@@ -261,121 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8923d8ed-4d89-40dd-b7f0-2f1800e3c690",
+            "subContentId": "df0ae7df-cb1e-4510-83ff-4e1af440fada",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Why are drugs with non-overlapping toxic",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 452.44999999999993,
-            "to": 462.44999999999993
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>What makes vincristine particularly valuable in combination chemotherapy regimen</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>What makes vincristine particularly valuable in combination chemotherapy regimens?</p>",
-              "answers": [
-                {
-                  "text": "<div>It kills cancer cells in all phases of the cell cycle, including the G0 resting phase</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Vincristine is cell-cycle specific — it acts only during M phase by binding beta-tubulin and blocking mitotic spindle formation. Cell-cycle non-specific agents are the alkylating agents.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It does not cause myelosuppression, so it can be combined with bone-marrow-toxic drugs without additive haematological toxicity</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Unlike most chemotherapy drugs, vincristine spares the bone marrow. This lets oncologists add it to regimens containing myelosuppressive agents without worsening blood-count suppression.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It enhances the efficacy of other drugs by sensitising cancer cells to DNA damage</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Vincristine disrupts the mitotic spindle; it does not sensitise cells to DNA damage or directly boost other drugs' mechanisms.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It has no significant dose-limiting toxicity at standard therapeutic doses</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Vincristine does have a serious dose-limiting toxicity — peripheral neuropathy, which can cause numbness, motor weakness, and severe constipation from autonomic nerve damage.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Vincristine is notable because it does NOT suppress the bone marrow. Its dose-limiting toxicity is peripheral neuropathy, which is why dose adjustments are driven by neurological symptoms, not blood counts."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Vincristine's lack of myelosuppression is unusual among chemotherapy drugs. Its dose-limiting toxicity is instead peripheral neuropathy — sensory, motor, and autonomic."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "812647bd-55ca-400d-9bdd-7c2e17d01d14",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "What makes vincristine particularly valu",
+              "title": "A patient on mercaptopurine for maintena",
               "authors": [],
               "changes": []
             }
@@ -397,7 +235,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient on high-dose cyclophosphamide is prescribed MESNA for uroprotection. W</p>",
+          "label": "<p>A patient receiving high-dose cyclophosphamide is prescribed MESNA for uroprotec</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient on high-dose cyclophosphamide is prescribed MESNA for uroprotection. Which property of MESNA makes it selectively protective without reducing the anticancer effect?</p>",
+              "question": "<p>A patient receiving high-dose cyclophosphamide is prescribed MESNA for uroprotection. Which pharmacological property of MESNA allows it to prevent haemorrhagic cystitis without reducing the anticancer effect?</p>",
               "answers": [
                 {
-                  "text": "<div>It neutralises cyclophosphamide in the bloodstream before toxic metabolites can form</div>",
+                  "text": "<div>It blocks cyclophosphamide absorption from the gastrointestinal tract</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>MESNA does not act on cyclophosphamide itself. The drug must be metabolised to its active form (and the byproduct acrolein) for the anticancer effect to occur. MESNA acts downstream, only in the urine.</div>",
+                    "chosenFeedback": "<div>MESNA does not affect cyclophosphamide absorption. It works downstream in the urinary tract, where its sulfhydryl group binds acrolein — the toxic metabolite — after it has been filtered into the urine.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It coats the bladder epithelium with a physical barrier against chemical irritation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>MESNA does not form a physical barrier. Its protection is chemical — its sulfhydryl (–SH) group binds and neutralises acrolein, the metabolite that causes haemorrhagic cystitis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It remains inactive in the blood and activates only in urine, where its sulfhydryl group binds acrolein to form a harmless thioether</div>",
+                  "text": "<div>It remains inactive in the bloodstream and is activated only in the urine, where its sulfhydryl group binds acrolein</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. MESNA stays inactive in the circulation, so it does not interfere with cyclophosphamide's anticancer activity. Once filtered into urine, it activates and its –SH group binds acrolein, converting it to a non-toxic thioether compound.</div>",
+                    "chosenFeedback": "<div>Correct. MESNA is inactive while circulating in the blood and becomes activated only in urine. There, its free sulfhydryl group binds acrolein — the bladder-toxic metabolite of cyclophosphamide — converting it to a harmless thioether. This selective activation is why it protects the bladder without blunting the drug's tumour-killing activity.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It accelerates renal excretion of acrolein, reducing its contact time with the bladder mucosa</div>",
+                  "text": "<div>It competitively inhibits cyclophosphamide uptake by tumour cells, redirecting it away from the bladder</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>MESNA does not alter excretion rates. It chemically binds acrolein in the urine. Hydration is the strategy used alongside MESNA to dilute and flush metabolites faster.</div>",
+                    "chosenFeedback": "<div>MESNA does not interact with tumour-cell drug uptake. It acts exclusively in the urinary tract, neutralising acrolein after it has been produced by hepatic metabolism and excreted by the kidneys.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It accelerates hepatic conversion of cyclophosphamide to a less toxic form before it reaches the kidneys</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>MESNA does not alter hepatic metabolism of cyclophosphamide. It works downstream — in the urine — binding and neutralising acrolein after the toxic metabolite has already been produced and filtered by the kidneys.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "MESNA is site-selective: inactive in the bloodstream, active in urine. Its sulfhydryl group binds acrolein (the toxic bladder-damaging metabolite of cyclophosphamide) and converts it to a harmless compound."
+                  "feedback": "Remember: MESNA is inactive in the blood and switches on only in the urine. Its sulfhydryl group binds acrolein there, converting it to a harmless thioether. This selective activation is what makes it an ideal uroprotectant — it never interferes with the anticancer effect."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "MESNA's selectivity is its key advantage — inactive in blood (preserving anticancer efficacy), active only in urine where its –SH group converts acrolein to a harmless thioether. It is given as 60% of the cyclophosphamide dose in three divided doses over eight hours."
+                  "feedback": "Excellent. MESNA's selective urothelial activation is a textbook example of organ-targeted toxicity prevention — it is given at 60% of the cyclophosphamide dose, in three divided doses over eight hours, alongside IV hydration."
                 }
               ],
               "behaviour": {
@@ -481,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "29fda5ea-45c3-4606-a9a8-413676784bb4",
+            "subContentId": "122dc81a-b8cb-4277-999b-f397b0f1d8e5",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient on high-dose cyclophosphamide",
+              "title": "A patient receiving high-dose cyclophosp",
               "authors": [],
               "changes": []
             }
@@ -507,7 +345,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the FOLFOX regimen, leucovorin is combined with 5-fluorouracil. How does leuc</p>",
+          "label": "<p>In the FOLFOX regimen for metastatic colon cancer, leucovorin is combined with 5</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -516,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In the FOLFOX regimen, leucovorin is combined with 5-fluorouracil. How does leucovorin's role here differ from its use with high-dose methotrexate?</p>",
+              "question": "<p>In the FOLFOX regimen for metastatic colon cancer, leucovorin is combined with 5-fluorouracil. What is the pharmacological role of leucovorin in this specific combination?</p>",
               "answers": [
                 {
-                  "text": "<div>It rescues normal cells from toxicity in both settings, but through different biochemical pathways</div>",
+                  "text": "<div>It rescues normal cells from 5-fluorouracil toxicity, similar to its role with methotrexate</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Leucovorin does not rescue normal cells when used with 5-FU. It does the opposite — it enhances 5-FU's cytotoxicity by stabilising the inhibitory complex on thymidylate synthase.</div>",
+                    "chosenFeedback": "<div>This is the most common misconception. With methotrexate, leucovorin does rescue normal cells by bypassing the blocked enzyme. But with 5-fluorouracil it plays the opposite role — it enhances the anticancer effect by stabilising the inhibitory complex on thymidylate synthase.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It enhances 5-FU's anticancer effect by stabilising thymidylate synthase inhibition, whereas with methotrexate it rescues normal cells from folate depletion</div>",
+                  "text": "<div>It inhibits dihydrofolate reductase to potentiate 5-fluorouracil's cytotoxicity</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Dihydrofolate reductase inhibition is methotrexate's mechanism, not leucovorin's. With 5-fluorouracil, leucovorin acts as a cofactor that stabilises the ternary complex of 5-FU with thymidylate synthase, prolonging enzyme inhibition.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It stabilises the ternary complex with thymidylate synthase, enhancing 5-fluorouracil's anticancer action</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. With 5-FU, leucovorin stabilises a ternary complex that locks thymidylate synthase in its inhibited state, boosting tumour kill. With methotrexate, it bypasses blocked dihydrofolate reductase to supply reduced folate and rescue normal cells.</div>",
+                    "chosenFeedback": "<div>Correct. Leucovorin provides the folate cofactor that locks 5-fluorouracil onto thymidylate synthase in a stable ternary complex, prolonging enzyme inhibition. This is the opposite of its rescue role with methotrexate — a distinction the video specifically flagged as commonly confused.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It reduces nausea caused by 5-FU, whereas it prevents nephrotoxicity from methotrexate</div>",
+                  "text": "<div>It prevents oxaliplatin-induced peripheral neuropathy in the FOLFOX regimen</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Leucovorin has no anti-emetic properties. With methotrexate, it rescues cells by providing reduced folate, not by protecting the kidneys. Hydration and urine alkalinisation are the renal protective strategies.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It acts as an antidote to both drugs but is administered at different time points in each regimen</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Leucovorin is not an antidote to 5-FU — it actually makes 5-FU more effective against cancer cells, which is the opposite of an antidote role.</div>",
+                    "chosenFeedback": "<div>Leucovorin has no protective effect against oxaliplatin neuropathy. There is no established neuroprotective drug for oxaliplatin; management relies on avoiding cold exposure acutely, and dose reduction or discontinuation when cumulative sensory neuropathy becomes severe.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -559,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "This is a high-yield concept: the same drug, two opposite roles. Leucovorin boosts 5-FU's efficacy (more tumour kill) but rescues normal cells from methotrexate toxicity (prevents folate depletion). Context determines the effect."
+                  "feedback": "The key distinction: with methotrexate, leucovorin rescues normal cells by bypassing the blocked enzyme. With 5-fluorouracil, leucovorin enhances the anticancer effect by stabilising the ternary complex with thymidylate synthase. Same drug, opposite roles depending on the combination."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Leucovorin plays opposite roles: it ENHANCES 5-FU (stabilises the ternary complex inhibiting thymidylate synthase, boosting tumour kill) but RESCUES from methotrexate (bypasses blocked dihydrofolate reductase to save normal cells from folate depletion)."
+                  "feedback": "Well done. Leucovorin plays two completely different roles depending on context: rescue with methotrexate, but enhancement with 5-fluorouracil. This is a high-yield distinction for both exams and clinical practice."
                 }
               ],
               "behaviour": {
@@ -591,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "12a161fa-3b88-45a6-a6f6-7a4773062944",
+            "subContentId": "729b71f1-2aae-49fa-99f7-d41426bbcad2",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In the FOLFOX regimen, leucovorin is com",
+              "title": "In the FOLFOX regimen for metastatic col",
               "authors": [],
               "changes": []
             }
@@ -658,7 +496,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "8ef5f5d3-deff-4c3e-b02c-c3656155a4ac",
+              "subContentId": "f390d9b5-c04f-4d2f-9a2e-8ffb75f168be",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -681,7 +519,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "19b67eb3-201f-4bea-b6f5-c162cc6add3d",
+        "subContentId": "705ee296-11ea-4ed4-af24-4e45336a490d",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
