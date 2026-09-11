@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/14149c6a-d36e-4c16-ab0e-b6e04ab684c9/playlist.m3u8",
+          "path": "https://vdo.cbme.in/5cbea781-5c6c-4261-95dd-f6d9342cb8d6/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -67,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which of the following preparation steps serves the goal of image quality rather</p>",
+          "label": "<p>Which of the following preparation instructions primarily serves image quality r</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,14 +76,23 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which of the following preparation steps serves the goal of image quality rather than patient safety?</p>",
+              "question": "<p>Which of the following preparation instructions primarily serves image quality rather than patient safety?</p>",
               "answers": [
                 {
-                  "text": "<div>Checking the estimated glomerular filtration rate before contrast administration</div>",
+                  "text": "<div>Checking the eGFR before iodinated contrast injection</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Checking the eGFR is a patient safety measure — it identifies kidneys vulnerable to contrast-induced injury before iodinated or gadolinium contrast is given.</div>",
+                    "chosenFeedback": "<div>Incorrect. eGFR assessment is a patient safety measure — it identifies kidneys vulnerable to contrast-induced injury, not an image-quality step.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Asking the patient to drink water and avoid voiding before a transabdominal pelvic ultrasound</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct! A full bladder displaces gas-filled bowel from the pelvis, creating an acoustic window that improves visualisation of the uterus and adnexa.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -92,25 +101,16 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>MRI metal screening is a patient safety measure — ferromagnetic objects can move, heat, or malfunction in the strong magnetic field.</div>",
+                    "chosenFeedback": "<div>Incorrect. MRI metal screening is a patient safety measure — ferromagnetic objects can become projectiles or cause tissue heating in the magnetic field.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Instructing the patient to fast for four to six hours before an abdominal ultrasound</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Fasting allows the gallbladder to fill with bile and distend, making gallstones and wall pathology visible. This directly improves image quality.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Excluding pregnancy before a study using ionising radiation</div>",
+                  "text": "<div>Excluding pregnancy before a radiograph</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Excluding pregnancy protects the foetus from ionising radiation — this is a patient safety measure, not an image quality one.</div>",
+                    "chosenFeedback": "<div>Incorrect. Pregnancy exclusion before ionising radiation is a patient safety measure — it protects the foetus from radiation exposure.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Fasting before abdominal ultrasound is an image quality measure — it allows the gallbladder to fill and distend, making stones visible. The other three options — eGFR check, metal screening, and pregnancy exclusion — all protect patient safety."
+                  "feedback": "Incorrect. A full bladder for transabdominal pelvic ultrasound serves image quality — it pushes gas-filled bowel out of the pelvis to open an acoustic window. eGFR checks, metal screening, and pregnancy exclusion are all patient safety measures."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Fasting empties the stomach and duodenum, allowing the gallbladder to distend with bile. A contracted gallbladder hides small stones and prevents assessment of wall thickening — a direct image quality issue."
+                  "feedback": "Correct! A full bladder is an image-quality preparation. It creates an acoustic window by displacing bowel gas from the pelvis, allowing clear visualisation of pelvic structures. The other options — eGFR checks, metal screening, and pregnancy exclusion — are all patient safety measures."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "0eed1310-5200-4f8c-af8e-e75d77a4c13c",
+            "subContentId": "3c71a801-4572-4ff8-b415-9f8867ea0b48",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which of the following preparation steps",
+              "title": "Which of the following preparation instr",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 410.6,
-            "to": 420.6
+            "from": 410,
+            "to": 420
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 62-year-old patient on metformin has an estimated glomerular filtration rate o</p>",
+          "label": "<p>A 62-year-old patient on metformin has an eGFR of 50 mL/min and is scheduled for</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 62-year-old patient on metformin has an estimated glomerular filtration rate of 45 and is scheduled for contrast-enhanced CT. What is the correct management of metformin?</p>",
+              "question": "<p>A 62-year-old patient on metformin has an eGFR of 50 mL/min and is scheduled for a contrast-enhanced CT scan. What is the correct instruction regarding his metformin?</p>",
               "answers": [
                 {
-                  "text": "<div>Continue metformin as the eGFR is above 30</div>",
+                  "text": "<div>Continue metformin as usual since the eGFR is above 30</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The threshold for metformin management is an eGFR below 60, not 30. The eGFR of 30 is the threshold for involving the radiologist regarding direct contrast risk to the kidneys — a separate decision.</div>",
+                    "chosenFeedback": "<div>Incorrect. Although eGFR above 30 means iodinated contrast can usually be given, metformin must still be withheld when eGFR is below 60 because contrast-induced kidney impairment could cause dangerous metformin accumulation and lactic acidosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Withhold metformin from the time of contrast and for 48 hours afterward</div>",
+                  "text": "<div>Stop metformin 72 hours before the scan to clear it from the system</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Metformin is withheld from the time of contrast, not before. Pre-scan withdrawal is not part of the protocol and has no evidence base for reducing the risk of lactic acidosis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Withhold metformin from the time of contrast and for 48 hours afterward, resuming only after renal review</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. With an eGFR below 60, metformin is withheld from the time of contrast and for 48 hours afterward, resuming only after renal function review.</div>",
+                    "chosenFeedback": "<div>Correct! When eGFR is below 60, metformin is withheld from the time of contrast for 48 hours and resumed only after confirming kidney function has not deteriorated.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Permanently discontinue metformin before the scan</div>",
+                  "text": "<div>Switch permanently from metformin to insulin before the scan</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Permanent discontinuation is unnecessary. Metformin is temporarily withheld from the time of contrast and for 48 hours afterward, then resumed once kidney function is confirmed stable.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Halve the metformin dose on the day of the scan</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Dose reduction is not the recommended approach. The protocol requires complete withholding of metformin from the time of contrast to prevent lactic acidosis if the kidneys are injured.</div>",
+                    "chosenFeedback": "<div>Incorrect. A permanent switch is disproportionate. Metformin only needs a temporary hold — it is resumed after 48 hours once renal function is confirmed stable.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "When the eGFR is below 60, metformin must be withheld from the time of iodinated contrast and for 48 hours afterward. This prevents lactic acidosis, which can develop if contrast damages the kidneys and metformin accumulates. The drug is resumed only after a renal function review."
+                  "feedback": "Incorrect. The correct protocol for a patient on metformin with eGFR below 60 is to withhold metformin from the time of contrast and for 48 hours afterward, resuming only after renal review confirms kidney function is stable."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Iodinated contrast can injure the kidneys, and impaired clearance of metformin causes dangerous lactic acidosis. The 48-hour hold allows time to confirm that kidney function has not deteriorated before resuming the drug."
+                  "feedback": "Correct! For patients on metformin with an eGFR below 60, the protocol is to withhold metformin from the time of iodinated contrast for 48 hours, then resume only after confirming kidney function is stable. This prevents lactic acidosis if contrast-induced kidney injury occurs."
                 }
               ],
               "behaviour": {
@@ -261,7 +261,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "b6fe516e-7f58-4680-9eba-508505edecb2",
+            "subContentId": "ae4ecbd9-85ed-41af-8427-356d5c1a56d4",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -287,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient scheduled for a gallbladder ultrasound tells you at the door that she </p>",
+          "label": "<p>You hand a patient scheduled for a gallbladder ultrasound a written instruction </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient scheduled for a gallbladder ultrasound tells you at the door that she had breakfast this morning. What should you do?</p>",
+              "question": "<p>You hand a patient scheduled for a gallbladder ultrasound a written instruction sheet stating 'do not eat for four to six hours before the scan.' Which step should you take next to ensure she arrives properly prepared?</p>",
               "answers": [
                 {
-                  "text": "<div>Proceed with the scan and document that the patient was not fasted</div>",
+                  "text": "<div>Ask her to sign a consent form confirming she has read the instructions</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A non-fasted gallbladder is contracted and uninterpretable. Documenting the limitation does not solve the diagnostic problem — the scan will not answer the clinical question.</div>",
+                    "chosenFeedback": "<div>Incorrect. A signed form confirms receipt but not understanding. Many patients sign documents without fully comprehending them — signing is not a substitute for verbal counselling.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Give intravenous fluids to speed gastric emptying and then scan</div>",
+                  "text": "<div>Provide the same written instructions to a family member as backup</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Intravenous fluids do not reverse gallbladder contraction. The gallbladder needs several hours of fasting to refill with bile and distend sufficiently for assessment.</div>",
+                    "chosenFeedback": "<div>Incorrect. Preparation instructions must be communicated directly to the patient. Relying on a family member introduces a communication gap and does not confirm the patient's own understanding.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Reschedule the scan and provide written and verbal fasting instructions with a teach-back check</div>",
+                  "text": "<div>Note the fasting instruction in the referral form and trust the patient to comply</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Noting the instruction in the referral is necessary for the radiology team but does nothing to verify the patient's understanding or likely compliance.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Counsel her verbally on the fasting requirement and ask her to repeat the instruction back to you</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. An unfasted gallbladder is uninterpretable. Reschedule, and this time deliver instructions through both written and verbal channels, then confirm understanding with a teach-back.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Proceed with the scan since a light meal does not significantly affect gallbladder imaging</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Even a light meal causes the gallbladder to contract. A contracted gallbladder hides small stones and cannot be assessed for wall thickening — the scan must be rescheduled.</div>",
+                    "chosenFeedback": "<div>Correct! Verbal counselling paired with a teach-back check confirms the patient has understood the instruction. Written instructions alone do not account for literacy barriers or misunderstanding.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "An unfasted gallbladder is contracted and uninterpretable — scanning produces no diagnostic value. Reschedule the appointment and provide both written and verbal fasting instructions, confirming the patient's understanding with a teach-back check. On the rescheduled day, verify fasting at the door."
+                  "feedback": "Incorrect. After providing written instructions, the next step is to counsel the patient verbally and perform a teach-back check — asking her to repeat the fasting instruction in her own words. Written instructions alone are insufficient because they do not account for literacy or comprehension barriers."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The correct response is to reschedule rather than scan an unprepared patient. The video's four-step protocol — written instructions, verbal counselling, teach-back, and a door check — prevents this situation from recurring."
+                  "feedback": "Correct! Both written and verbal channels must be used together, followed by a teach-back check — the patient repeats the instruction in their own words. On the day of the scan, a door check confirms actual compliance. This matched approach is what makes preparation instructions safe and reliable."
                 }
               ],
               "behaviour": {
@@ -371,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "17a1901e-d7f1-4754-9271-e06f794f4498",
+            "subContentId": "dcecb470-a576-4b72-be29-a40a58f5b383",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient scheduled for a gallbladder ul",
+              "title": "You hand a patient scheduled for a gallb",
               "authors": [],
               "changes": []
             }
@@ -434,7 +434,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "b9263741-486d-4620-87b8-a1963ab28c7f",
+              "subContentId": "e6998307-26ff-4934-83b1-764ab689ad1c",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -457,7 +457,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "d9833be0-7f17-4b7c-8c23-ac15495bbd3c",
+        "subContentId": "4da387e7-d7fb-4b34-8d68-961a32241d5f",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
