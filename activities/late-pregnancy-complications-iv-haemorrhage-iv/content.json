@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/c1fab2a2-b214-4f7a-b25d-ec3549c22513/playlist.m3u8",
+          "path": "https://vdo.cbme.in/32716df1-b9bc-4851-9301-3af3f97d568b/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -67,43 +67,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In a patient presenting with antepartum haemorrhage, a digital vaginal examinati</p>",
+          "label": "<p>In Mrs Savitha's case, the senior resident stopped the registrar from performing</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In a patient presenting with antepartum haemorrhage, a digital vaginal examination should be performed before ultrasonography to assess cervical dilatation.</p>",
-              "correct": "false",
+              "question": "<p>In Mrs Savitha's case, the senior resident stopped the registrar from performing a vaginal examination. Which of the following best explains why this examination must be avoided before an ultrasound?</p>",
+              "answers": [
+                {
+                  "text": "<div>It may rupture the membranes and precipitate preterm labour</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Membrane rupture is a concern in some situations, but the immediate danger here is different — a digital exam can tear a low-lying placenta and its underlying blood vessels.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It can tear a low-lying placenta covering the cervix, causing catastrophic haemorrhage</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. If the placenta covers the internal os (placenta praevia), a digital examination can disrupt the placental attachment and rupture maternal sinusoids, converting a controlled bleed into a life-threatening one.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It is unreliable for diagnosing the cause of antepartum haemorrhage</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While clinical examination alone cannot reliably localise the placenta, the main reason to avoid it is the risk of catastrophic bleeding if the placenta lies over the cervix.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It introduces infection into the uterine cavity through the cervical canal</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Infection risk exists with any invasive procedure, but the primary danger in suspected placenta praevia is mechanical disruption of the placenta causing massive haemorrhage.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The critical danger is mechanical — a digital examination can tear a placenta that covers the cervical os, causing uncontrollable haemorrhage. Ultrasound must always come first."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. Ultrasound must always precede vaginal examination in APH to rule out placenta praevia and avoid triggering life-threatening bleeding."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Incorrect. As the narration showed, performing a vaginal examination before locating the placenta with ultrasound is dangerous. In placenta praevia, a digital exam can tear the placenta and cause catastrophic haemorrhage. Ultrasound must always come first.",
-                "correctAnswerMessage": "Correct. Ultrasonography must always precede vaginal examination in APH. If the placenta is covering the cervix (placenta praevia), a digital exam can disrupt the placental attachment and trigger life-threatening maternal haemorrhage.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "561dc2ad-c78f-4574-aa97-c9b4e24d41fe",
+            "subContentId": "e64613a6-a63f-4f52-883d-269def03c633",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In a patient presenting with antepartum",
+              "title": "In Mrs Savitha's case, the senior reside",
               "authors": [],
               "changes": []
             }
@@ -125,7 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A pregnant woman presents with sudden, severe, constant abdominal pain and a har</p>",
+          "label": "<p>A 30-year-old multigravida at 34 weeks presents with sudden-onset constant abdom</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A pregnant woman presents with sudden, severe, constant abdominal pain and a hard, tender, board-like uterus. Visible vaginal bleeding is minimal, yet she is tachycardic and hypotensive. Which clinical feature most reliably distinguishes this presentation from placenta praevia?</p>",
+              "question": "<p>A 30-year-old multigravida at 34 weeks presents with sudden-onset constant abdominal pain and a small amount of dark vaginal bleeding. Her uterus is tense, tender, and board-like. Fetal heart sounds are absent and she appears more shocked than the visible blood loss would suggest. The most likely diagnosis is:</p>",
               "answers": [
                 {
-                  "text": "<div>Presence of vaginal bleeding</div>",
+                  "text": "<div>Placenta praevia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Vaginal bleeding occurs in both placenta praevia and placental abruption. Its mere presence does not distinguish between the two conditions.</div>",
+                    "chosenFeedback": "<div>Placenta praevia presents with painless, bright-red bleeding and a soft, non-tender uterus. This patient's pain, dark blood, and rigid uterus point to a different diagnosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Maternal shock disproportionate to visible blood loss</div>",
+                  "text": "<div>Placental abruption</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In placental abruption, blood is often concealed behind the placenta, causing shock that appears out of proportion to visible bleeding. In praevia, shock typically matches the amount of visible blood loss.</div>",
+                    "chosenFeedback": "<div>Correct. The combination of sudden constant pain, dark concealed bleeding, a tense board-like uterus, absent fetal heart sounds, and shock disproportionate to visible blood loss is the classic presentation of severe placental abruption.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Occurrence in the third trimester of pregnancy</div>",
+                  "text": "<div>Vasa praevia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Both placenta praevia and placental abruption can present in the third trimester. Gestational timing alone does not differentiate them.</div>",
+                    "chosenFeedback": "<div>Vasa praevia typically presents with painless bleeding at membrane rupture and fetal distress out of proportion to blood loss, not a rigid tender uterus.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Foetal malpresentation on abdominal examination</div>",
+                  "text": "<div>Uterine rupture</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Foetal malpresentation (breech, transverse, or oblique lie) is actually more characteristic of placenta praevia, where the low-lying placenta prevents the foetal head from engaging in the pelvis.</div>",
+                    "chosenFeedback": "<div>Uterine rupture can present with pain and shock, but the board-like rigidity and dark concealed bleeding pattern here are characteristic of placental abruption rather than rupture.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In placental abruption, much of the haemorrhage is concealed behind the placenta, making visible blood loss an unreliable indicator. Shock out of proportion to visible bleeding is the key distinguishing feature from placenta praevia."
+                  "feedback": "This presentation — pain, dark blood, rigid uterus, concealed haemorrhage, and shock exceeding visible blood loss — is the classic pattern of placental abruption, essentially the opposite of praevia's painless bright bleeding with a soft uterus."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Concealed haemorrhage causing shock disproportionate to visible bleeding is the hallmark that distinguishes abruption from praevia, where the bleeding is entirely revealed."
+                  "feedback": "Well analysed. Abruption and praevia present in nearly opposite ways — recognising these contrasting patterns is a critical bedside skill."
                 }
               ],
               "behaviour": {
@@ -209,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e9e2a07c-513f-4091-bb56-1077227bcb57",
+            "subContentId": "65dcfaf1-4604-42eb-8b12-381fe6fa46f5",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A pregnant woman presents with sudden, s",
+              "title": "A 30-year-old multigravida at 34 weeks p",
               "authors": [],
               "changes": []
             }
@@ -235,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A haemodynamically stable primigravida at 30 weeks of gestation is diagnosed wit</p>",
+          "label": "<p>A haemodynamically stable primigravida at 30 weeks is diagnosed with type IV (co</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A haemodynamically stable primigravida at 30 weeks of gestation is diagnosed with a type II (marginal) placenta praevia after an episode of minor vaginal bleeding. What is the most appropriate management?</p>",
+              "question": "<p>A haemodynamically stable primigravida at 30 weeks is diagnosed with type IV (complete) placenta praevia on ultrasound after a self-limiting episode of bleeding. Which management approach is most appropriate at this stage?</p>",
               "answers": [
                 {
-                  "text": "<div>Immediate emergency caesarean section regardless of foetal maturity</div>",
+                  "text": "<div>Immediate emergency caesarean section regardless of stability</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Emergency caesarean is reserved for haemodynamically unstable patients or those with major praevia (types III–IV). A stable patient with minor praevia at 30 weeks benefits from expectant management to allow foetal maturation.</div>",
+                    "chosenFeedback": "<div>Emergency caesarean is reserved for unstable patients or uncontrollable bleeding. This patient is stable and preterm — the goal is to buy time for fetal maturity while monitoring closely.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Expectant management with close monitoring and corticosteroids for foetal lung maturity</div>",
+                  "text": "<div>Expectant management with close monitoring, and planned caesarean section at appropriate gestation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. A stable patient with minor praevia (type I–II) at a preterm gestation is managed expectantly. Close monitoring and antenatal corticosteroids allow the foetus to mature while watching for recurrent bleeds.</div>",
+                    "chosenFeedback": "<div>Correct. She is stable and preterm, so expectant management maximises fetal maturity. However, type IV praevia is an absolute indication for caesarean delivery — vaginal delivery is never attempted, as the placenta completely covers the birth canal.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Induction of labour with oxytocin at the earliest convenience</div>",
+                  "text": "<div>Trial of vaginal delivery with standby for emergency caesarean</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Induction of labour is not appropriate in placenta praevia. Cervical dilatation can disrupt the low-lying placenta and cause uncontrollable haemorrhage.</div>",
+                    "chosenFeedback": "<div>Types III and IV praevia are absolute contraindications for vaginal delivery — the placenta covers the cervical os, and labour would tear it, causing uncontrollable haemorrhage.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Discharge home with instructions to return if bleeding recurs</div>",
+                  "text": "<div>Discharge home with advice to return if bleeding recurs</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A patient with confirmed placenta praevia and active bleeding requires inpatient monitoring. The risk of sudden, recurrent, and potentially heavier bleeding makes discharge unsafe at this stage.</div>",
+                    "chosenFeedback": "<div>A patient with type IV praevia needs close inpatient monitoring. Discharge would be unsafe given the high risk of recurrent, potentially severe bleeding.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "For a stable patient with minor (type I–II) praevia at 30 weeks, the priority is to buy time for foetal lung maturity. Emergency section is reserved for unstable patients or major praevia (types III–IV). Expectant management with close monitoring is the standard approach."
+                  "feedback": "With type IV praevia in a stable preterm patient, the correct approach is expectant management (to allow fetal maturation) followed by planned caesarean section. Type IV praevia always requires caesarean delivery, but the timing depends on stability and gestation."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The three management principles — preserve maternal life, maximise foetal maturity, and plan the safest delivery route — all point to expectant management for a stable preterm patient with minor praevia."
+                  "feedback": "Correct. The four variables — type, gestation, stability, and labour status — all point to expectant management now with planned caesarean later. Maternal life is the first priority, then fetal maturity, then controlled delivery."
                 }
               ],
               "behaviour": {
@@ -319,7 +371,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "08ee9fca-2ba4-4c83-a6fb-4a8d0905266d",
+            "subContentId": "9f7b84e4-d325-4a60-bfce-1b26a03d6bf3",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -345,95 +397,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 28-year-old Rh D-negative woman is experiencing life-threatening haemorrhage f</p>",
+          "label": "<p>When a woman of childbearing age requires emergency transfusion and her blood gr</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A 28-year-old Rh D-negative woman is experiencing life-threatening haemorrhage from a placental abruption. Her blood group has not yet been confirmed by the laboratory. Which blood product should be transfused immediately?</p>",
-              "answers": [
-                {
-                  "text": "<div>Rh D-positive, group O packed red cells</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>In women of childbearing age, Rh D-positive blood should be avoided unless truly unavoidable in an extreme emergency. It can sensitise an Rh D-negative woman, leading to haemolytic disease of the newborn in future pregnancies.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Group-specific blood once rapid ABO typing is complete</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Group-specific blood requires at least 15 minutes for ABO typing. In life-threatening haemorrhage, that delay can be fatal. Emergency O-negative blood should be given immediately while typing proceeds in parallel.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Rh D-negative, group O packed red cells</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. O-negative blood is the universal emergency product, safe for any recipient. In life-threatening haemorrhage where the blood group is unconfirmed, it is transfused immediately while formal typing and crossmatching proceed in parallel.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Fresh frozen plasma as the first-line product</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Fresh frozen plasma replaces clotting factors but does not carry oxygen. In acute haemorrhage, the immediate priority is restoring oxygen-carrying capacity with packed red cells. FFP is used alongside red cells in massive transfusion protocols.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "When haemorrhage is immediately life-threatening and the blood group is unknown, O-negative packed red cells are the correct choice. They are safe for any recipient and are given while ABO/Rh typing and crossmatch proceed in parallel."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. In life-threatening haemorrhage where the blood group is unconfirmed, O-negative packed red cells are transfused immediately. They are safe for any patient and buy critical time for formal compatibility testing."
-                }
-              ],
+              "question": "<p>When a woman of childbearing age requires emergency transfusion and her blood group is unknown, O Rh D positive blood is the safest first choice.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is false. While O positive is ABO-compatible with all groups, it carries the Rh D antigen. In women of childbearing age, Rh D positive blood can sensitise an Rh D negative recipient, threatening future pregnancies with haemolytic disease. O Rh D negative blood is the correct emergency choice.",
+                "correctAnswerMessage": "Correct — this statement is false. O Rh D negative blood is the safe emergency choice. Giving Rh D positive blood to an Rh D negative woman risks sensitising her, which can cause haemolytic disease in future pregnancies.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "8da40661-e028-446d-84f0-702c4be793ae",
+            "subContentId": "cbb76e84-6ead-45c3-9ece-ae45d2cef620",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "A 28-year-old Rh D-negative woman is exp",
+              "title": "When a woman of childbearing age require",
               "authors": [],
               "changes": []
             }
@@ -455,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A postpartum patient develops high fever, rigors, and passage of dark-coloured u</p>",
+          "label": "<p>During a blood transfusion, a patient develops acute breathlessness and bilatera</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A postpartum patient develops high fever, rigors, and passage of dark-coloured urine within minutes of starting a new unit of packed red cells. What is the most appropriate immediate action?</p>",
+              "question": "<p>During a blood transfusion, a patient develops acute breathlessness and bilateral pulmonary infiltrates on chest X-ray. There are no signs of fluid overload, and diuretics provide no improvement. The most likely transfusion reaction is:</p>",
               "answers": [
                 {
-                  "text": "<div>Slow the transfusion rate and administer intravenous paracetamol</div>",
+                  "text": "<div>Transfusion-associated circulatory overload (TACO)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Slowing the rate with paracetamol is appropriate for a mild febrile non-haemolytic reaction. However, fever, rigors, and dark urine within minutes strongly suggest an acute haemolytic transfusion reaction from ABO incompatibility, which requires stopping the transfusion immediately.</div>",
+                    "chosenFeedback": "<div>TACO causes breathlessness with clear signs of fluid overload — raised jugular venous pressure, pulmonary oedema, and a response to diuretics. This patient has none of those features.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Continue the transfusion while sending blood samples for a direct Coombs test</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Never continue a transfusion when an acute haemolytic reaction is suspected. Continuing the infusion of incompatible blood worsens red cell destruction, renal injury, and the risk of disseminated intravascular coagulation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Stop the transfusion immediately, maintain IV access with normal saline, and call for senior help</div>",
+                  "text": "<div>Transfusion-related acute lung injury (TRALI)</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. This follows the cardinal rule for any serious transfusion reaction: stop the transfusion, keep the IV line open with normal saline, call for senior help, and save both the blood bag and a fresh patient sample for the blood bank to investigate.</div>",
+                    "chosenFeedback": "<div>Correct. TRALI presents with acute respiratory distress and bilateral lung infiltrates without fluid overload. Unlike TACO, it does not respond to diuretics because the mechanism is immunological lung injury, not volume excess.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Administer intravenous adrenaline and commence high-flow oxygen</div>",
+                  "text": "<div>Acute haemolytic transfusion reaction</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Adrenaline and high-flow oxygen are the first-line treatment for anaphylaxis, not for a haemolytic transfusion reaction. While severe reactions need aggressive resuscitation, the critical first step is always stopping the transfusion and maintaining IV access with saline.</div>",
+                    "chosenFeedback": "<div>Acute haemolytic reactions typically present with fever, rigors, loin pain, and dark urine from haemolysis — respiratory distress with bilateral infiltrates and no haemolysis points to TRALI instead.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Febrile non-haemolytic transfusion reaction</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Febrile non-haemolytic reactions cause fever and rigors but are benign and self-limiting. They do not cause bilateral pulmonary infiltrates or significant respiratory compromise.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Fever, rigors, and dark urine within minutes of starting a new unit suggest an acute haemolytic transfusion reaction, most likely from ABO incompatibility. The cardinal rule is: stop the transfusion immediately, maintain IV access with normal saline, call for senior help, and send the blood bag and a patient sample to the blood bank."
+                  "feedback": "The absence of fluid overload is the critical clue. TRALI causes lung injury through an immunological mechanism — bilateral infiltrates without raised venous pressures or response to diuretics. TACO, by contrast, is volume overload that responds to diuretics. Both require stopping the transfusion immediately."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The cardinal rule — stop the transfusion, saline, senior help, save the bag — applies to all suspected serious transfusion reactions. Early recognition of an acute haemolytic reaction prevents progression to DIC and renal failure."
+                  "feedback": "Well applied. The key bedside distinction is that TRALI shows no fluid overload and does not respond to diuretics, while TACO does. In either case, the first step is always: stop the transfusion, keep IV access, and call for help."
                 }
               ],
               "behaviour": {
@@ -539,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "bf10d6b6-8141-4287-b65a-0a6fc97690ae",
+            "subContentId": "693b990e-5f58-425b-8ad0-70a6152e616d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A postpartum patient develops high fever",
+              "title": "During a blood transfusion, a patient de",
               "authors": [],
               "changes": []
             }
@@ -614,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "e27282de-168a-42b5-8e83-cd7cde72a438",
+              "subContentId": "8929afcd-2aeb-4438-8aa3-6fbd3d8024d3",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -637,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "92ed0b29-b03e-409d-9925-840a9d9b8eec",
+        "subContentId": "ceb6dbd7-66e9-4c42-82c9-9fa4ffa31f3c",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
