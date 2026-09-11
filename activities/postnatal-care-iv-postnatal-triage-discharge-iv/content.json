@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/3258baf9-3978-4ceb-bf28-75256897c07d/playlist.m3u8",
+          "path": "https://vdo.cbme.in/66868e7f-d532-4e4a-8985-d4751451da7b/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -67,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A low APGAR score at one minute is sufficient to diagnose birth asphyxia in the </p>",
+          "label": "<p>A one-minute APGAR score of 3 out of 10 in a term newborn confirms the diagnosis</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,7 +76,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A low APGAR score at one minute is sufficient to diagnose birth asphyxia in the newborn.</p>",
+              "question": "<p>A one-minute APGAR score of 3 out of 10 in a term newborn confirms the diagnosis of birth asphyxia.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -94,16 +94,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "Not quite. While a low APGAR score triggers immediate resuscitation, it does not by itself confirm birth asphyxia. Factors such as prematurity and maternal sedation can also lower the score. Cord blood gas analysis is needed before a diagnosis of birth asphyxia can be made.",
-                "correctAnswerMessage": "Correct. The APGAR score signals the need for resuscitation but is not a diagnosis. Prematurity, maternal medications, and congenital conditions can all lower the score independently of oxygen deprivation. Confirming birth asphyxia requires additional evidence such as cord blood gas analysis.",
+                "wrongAnswerMessage": "A low APGAR score does not confirm birth asphyxia. Virginia Apgar designed it in 1952 as a quick, structured signal to initiate resuscitation. Prematurity, maternal medications, and other conditions can produce low scores independently of oxygen deprivation.",
+                "correctAnswerMessage": "Correct. The APGAR score is a trigger for resuscitation, not a diagnostic tool for birth asphyxia. Other conditions such as prematurity, maternal sedation, and congenital anomalies can lower the score. Confirmation of birth asphyxia requires cord blood gas analysis.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "64b44d71-72f6-4f44-af6d-1ebf98c8b5e0",
+            "subContentId": "01dfddd7-311b-41d5-8726-ea40e15887bc",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "A low APGAR score at one minute is suffi",
+              "title": "A one-minute APGAR score of 3 out of 10",
               "authors": [],
               "changes": []
             }
@@ -119,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 381.37499999999994,
-            "to": 391.37499999999994
+            "from": 506.07499999999993,
+            "to": 516.0749999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Two babies are assessed using the New Ballard Score. Baby A has a total score of</p>",
+          "label": "<p>A term newborn delivered by normal vaginal delivery has no identified antenatal </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Two babies are assessed using the New Ballard Score. Baby A has a total score of 26, while Baby B has a total score of 30. What is the estimated difference in gestational age between these two babies?</p>",
+              "question": "<p>A term newborn delivered by normal vaginal delivery has no identified antenatal risk factors. At one minute of life, the baby has irregular gasping respirations and a heart rate of 90 beats per minute. What is the most appropriate next step?</p>",
               "answers": [
                 {
-                  "text": "<div>Approximately 1 week</div>",
+                  "text": "<div>Continue observation for another minute as no antenatal risk factors were present</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A one-week difference would correspond to only a two-point gap. Here the gap is four points, so the gestational age difference is larger.</div>",
+                    "chosenFeedback": "<div>The absence of antenatal risk factors does not reduce the need for resuscitation. The narration notes that about half of all neonates needing resuscitation show no risk factors at all. A heart rate below 100 bpm at the Golden Minute mandates intervention.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Approximately 2 weeks</div>",
+                  "text": "<div>Start chest compressions along with positive-pressure ventilation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Chest compressions are indicated only when the heart rate remains below 60 bpm after 30 seconds of confirmed effective positive-pressure ventilation. At 90 bpm, ventilation alone is the correct first step.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Begin positive-pressure ventilation immediately</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct — every two-point increase in the New Ballard Score corresponds to approximately one additional week of gestational age. A four-point difference therefore equals roughly two weeks.</div>",
+                    "chosenFeedback": "<div>Within the Golden Minute, if the baby is not breathing effectively or the heart rate is below 100 bpm, positive-pressure ventilation must start immediately. This is the single most important intervention in neonatal resuscitation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Approximately 4 weeks</div>",
+                  "text": "<div>Administer intravenous adrenaline to raise the heart rate</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This would be the answer if each point equalled one week. In fact, every two points correspond to one week, so four points equal two weeks.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The scores are too close to determine a meaningful difference</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The New Ballard Score is sensitive enough that a four-point difference is clinically meaningful — it represents approximately two weeks of gestational maturity.</div>",
+                    "chosenFeedback": "<div>Adrenaline is reserved for cases where the heart rate remains below 60 bpm despite adequate ventilation and chest compressions. It is not a first-line intervention at birth.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the key relationship: every two-point increase in the New Ballard Score equals approximately one additional week of gestational age. A four-point difference (30 minus 26) therefore corresponds to roughly two weeks."
+                  "feedback": "Review the Golden Minute protocol: if the baby is not breathing effectively or the heart rate is below 100 bpm at 60 seconds, positive-pressure ventilation must begin immediately — even when no risk factors are present."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The key relationship is: every two-point increase in the total New Ballard Score corresponds to approximately one extra week of gestational age. A four-point gap (30 minus 26) therefore translates to about two weeks of maturity difference."
+                  "feedback": "Well done. The Golden Minute principle mandates starting PPV when the heart rate is below 100 bpm, regardless of whether antenatal risk factors were identified."
                 }
               ],
               "behaviour": {
@@ -209,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "414fb587-9e64-414d-aa25-4b4c1b8e616c",
+            "subContentId": "5819f3e7-c4ba-4fb7-9b8d-b9fc27cf14aa",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Two babies are assessed using the New Ba",
+              "title": "A term newborn delivered by normal vagin",
               "authors": [],
               "changes": []
             }
@@ -235,7 +235,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why is the neonatal chest compression to ventilation ratio 3:1, rather than the </p>",
+          "label": "<p>The neonatal compression-to-ventilation ratio is 3:1, unlike the 30:2 ratio used</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,23 +244,32 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Why is the neonatal chest compression to ventilation ratio 3:1, rather than the 30:2 ratio used in adult CPR?</p>",
+              "question": "<p>The neonatal compression-to-ventilation ratio is 3:1, unlike the 30:2 ratio used in adult resuscitation. Which of the following best explains this difference?</p>",
               "answers": [
                 {
-                  "text": "<div>The neonatal ribcage is too fragile for frequent compressions</div>",
+                  "text": "<div>The neonatal chest wall is more compliant, requiring fewer compressions to generate adequate cardiac output</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Fragility of the ribcage is not the reason. The ratio reflects the underlying cause of arrest, not the structural properties of the chest wall.</div>",
+                    "chosenFeedback": "<div>Chest wall compliance does not determine the compression-to-ventilation ratio. The ratio is based on the underlying pathophysiology of neonatal cardiac arrest, which is respiratory in origin.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A single rescuer cannot coordinate faster compressions with bag-mask ventilation</div>",
+                  "text": "<div>Excessive chest compressions in neonates increase the risk of rib fractures and pneumothorax</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Rescuer logistics do not determine the ratio. The guideline is based on the pathophysiology of neonatal cardiac arrest, not practical constraints.</div>",
+                    "chosenFeedback": "<div>While neonatal ribs are more pliable, injury risk does not drive the ratio decision. The 3:1 ratio is determined by the respiratory origin of most neonatal arrests, prioritising oxygenation over circulation alone.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The neonatal heart rate is normally higher, so fewer compressions are needed to maintain circulation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A higher baseline heart rate does not influence the compression-to-ventilation ratio. The ratio reflects the aetiology of arrest: neonatal arrests are oxygen-driven, so proportionally more ventilation is required.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -269,16 +278,7 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Exactly. Unlike adults, where cardiac arrest is often a primary cardiac event, neonatal arrest is nearly always secondary to respiratory failure and hypoxia. The 3:1 ratio prioritises ventilation because restoring oxygenation is the key to restoring cardiac output.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Rapid compressions in newborns cause rebound bradycardia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Rebound bradycardia from compressions is not an established phenomenon. The ratio is determined by the fact that the underlying problem in neonatal arrest is oxygen deprivation, not a primary cardiac arrhythmia.</div>",
+                    "chosenFeedback": "<div>In newborns, cardiac arrest is nearly always secondary to respiratory failure and oxygen deprivation, unlike adults where primary cardiac causes predominate. The 3:1 ratio ensures adequate ventilation to address this underlying cause — delivering 30 compressions and 10 breaths per minute.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The reason lies in the cause of arrest. Neonatal cardiac arrest is almost always driven by oxygen deprivation, not a primary cardiac problem. The 3:1 ratio gives proportionally more breaths because restoring oxygenation is what reverses the arrest."
+                  "feedback": "The key concept is that neonatal cardiac arrest is almost always caused by oxygen deprivation, not a primary cardiac problem. This is why ventilation carries proportionally more weight in the neonatal resuscitation ratio."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. In newborns, cardiac arrest is nearly always secondary to respiratory failure. The 3:1 ratio delivers thirty compressions and ten breaths per minute — proportionally more ventilation than in adult CPR — because restoring oxygenation addresses the root cause."
+                  "feedback": "Exactly right. The mnemonic is 'one, and two, and three, and breathe' — reflecting the dominance of respiratory aetiology in neonatal arrests."
                 }
               ],
               "behaviour": {
@@ -319,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "7be0410c-2cbf-479d-a1ba-38adad6c1d78",
+            "subContentId": "638cc6b7-3592-41e3-ba6b-c9848a13feba",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Why is the neonatal chest compression to",
+              "title": "The neonatal compression-to-ventilation",
               "authors": [],
               "changes": []
             }
@@ -345,7 +345,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A woman on postnatal day five presents with a temperature of 38.6°C and foul-sme</p>",
+          "label": "<p>A woman who delivered by caesarean section under general anaesthesia develops a </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A woman on postnatal day five presents with a temperature of 38.6°C and foul-smelling vaginal discharge. Using the 'five W's' approach to puerperal pyrexia, which 'W' does this clinical presentation MOST likely point to?</p>",
+              "question": "<p>A woman who delivered by caesarean section under general anaesthesia develops a temperature of 38.4°C on postnatal day two and 38.6°C on day three. Using the 5 W's approach to puerperal pyrexia, which cause should be evaluated first?</p>",
               "answers": [
                 {
-                  "text": "<div>Wind — atelectasis or pneumonia</div>",
+                  "text": "<div>Water — urinary tract infection from catheterisation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Wind refers to respiratory causes. While atelectasis is common after general anaesthesia, the presence of foul-smelling vaginal discharge points away from a respiratory source.</div>",
+                    "chosenFeedback": "<div>Urinary tract infection is an important cause of postpartum fever, especially after catheterisation. However, with a history of general anaesthesia, respiratory causes (Wind) take priority in the initial evaluation as atelectasis commonly develops on day one to two post-GA.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Water — urinary tract infection</div>",
+                  "text": "<div>Wound — infection at the caesarean incision site</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Water refers to UTI, which is common after catheterisation. However, the hallmark of UTI is dysuria and frequency, not malodorous vaginal discharge.</div>",
+                    "chosenFeedback": "<div>Wound infection typically presents later, around day five or beyond. At day two to three after general anaesthesia, respiratory complications such as atelectasis are the more likely initial cause.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Wound — episiotomy or caesarean site infection</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Wound infection typically presents with localised redness, swelling, and discharge at the surgical or perineal site. Foul-smelling vaginal discharge suggests the infection source is within the uterine cavity.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Womb — endometritis</div>",
+                  "text": "<div>Wind — atelectasis or pneumonia after general anaesthesia</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Foul-smelling lochia combined with fever on postpartum day five is the classic presentation of endometritis. The 'Womb' category in the five W's covers endometritis, the most dangerous puerperal infection requiring prompt antibiotic therapy.</div>",
+                    "chosenFeedback": "<div>After general anaesthesia, atelectasis is the commonest early cause of fever, typically appearing on day one to two. The 5 W's mnemonic lists Wind first precisely because respiratory causes are among the earliest to appear postpartum.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Womb — endometritis after operative delivery</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Endometritis typically presents from day five to ten with uterine tenderness and foul-smelling lochia. While caesarean delivery increases the risk, fever on day two to three after GA points first to respiratory causes.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key clue is the foul-smelling vaginal discharge. Normal lochia changes colour over days but should never become malodorous. When fever combines with foul-smelling lochia, the five W's framework directs you to 'Womb' — specifically endometritis, the most serious puerperal infection."
+                  "feedback": "After general anaesthesia, atelectasis (Wind) is the earliest and most common cause of postpartum fever. Remember the 5 W's in sequence: Wind, Water, Wound, Walking, Womb or Milk."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Malodorous lochia with fever in the first postpartum week strongly suggests endometritis — infection of the uterine lining. The five W's ensure you systematically consider all organ systems, but the foul-smelling discharge is the key clue pointing to the womb."
+                  "feedback": "Well done. In the 5 W's framework, Wind (respiratory) is the first cause to consider, especially when the patient has had general anaesthesia."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "509b5c99-7f16-4435-b408-689d608bcf46",
+            "subContentId": "cd4e3a68-ff10-4357-b1a7-21db6c50126a",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A woman on postnatal day five presents w",
+              "title": "A woman who delivered by caesarean secti",
               "authors": [],
               "changes": []
             }
@@ -455,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A breastfeeding mother is three weeks postpartum and requests combined oral cont</p>",
+          "label": "<p>A breastfeeding mother at four weeks postpartum requests a combined oral contrac</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A breastfeeding mother is three weeks postpartum and requests combined oral contraceptive pills. According to the WHO Medical Eligibility Criteria, why is this method contraindicated at this stage?</p>",
+              "question": "<p>A breastfeeding mother at four weeks postpartum requests a combined oral contraceptive pill. Which of the following correctly explains why this method is classified as WHO MEC Category 4 at this time?</p>",
               "answers": [
                 {
-                  "text": "<div>Oestrogen suppresses prolactin and reduces breast milk production</div>",
+                  "text": "<div>Combined pills increase the risk of postpartum venous thromboembolism in the first six weeks</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While thrombotic risk does contribute to contraceptive restrictions in the early postpartum period, the category 4 classification for breastfeeding women is specifically linked to the effect of oestrogen on lactation, not thrombosis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The synthetic hormones are excreted in breast milk at levels harmful to the neonate</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The primary concern with combined hormonal contraceptives in breastfeeding is not neonatal hormone exposure. The restriction arises because oestrogen suppresses prolactin, reducing milk volume and compromising breastfeeding.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Oestrogen suppresses prolactin, reducing breast milk production and compromising exclusive breastfeeding</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Oestrogen in combined hormonal contraceptives suppresses prolactin, directly reducing breast milk volume. The WHO classifies combined methods as category 4 (absolutely contraindicated) for breastfeeding women before six weeks postpartum.</div>",
+                    "chosenFeedback": "<div>Oestrogen in combined hormonal contraceptives suppresses prolactin, the hormone driving milk production. This reduces breast milk volume during the critical period of exclusive breastfeeding. Progestogen-only methods do not suppress lactation and are classified as category 1 or 2 from six weeks onward.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The progestogen component passes into breast milk and causes neonatal drowsiness</div>",
+                  "text": "<div>Combined pills interfere with uterine involution in the early puerperium</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Progestogen-only methods are actually classified as category 1 or 2 for breastfeeding women from six weeks onward — they do not significantly affect lactation. The issue with combined pills is the oestrogen component, not progestogen.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Combined pills prevent uterine involution by maintaining high oestrogen levels</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Uterine involution is not the concern here. The contraindication is based on oestrogen's effect on prolactin and breast milk production, not on uterine recovery.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Hormonal contraceptives are ineffective until ovulation resumes at six weeks</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Hormonal contraceptives can be pharmacologically effective before ovulation resumes. The contraindication is not about efficacy but about the adverse effect of oestrogen on lactation through prolactin suppression.</div>",
+                    "chosenFeedback": "<div>Uterine involution is not the mechanism behind this classification. The WHO MEC category 4 for breastfeeding women in the first six weeks is specifically because oestrogen suppresses prolactin and reduces breast milk production.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key mechanism is: oestrogen suppresses prolactin, which directly reduces breast milk volume. This is why the WHO classifies combined hormonal contraceptives as category 4 for breastfeeding women in the first six weeks. As the infant starts complementary feeds, the category eases progressively."
+                  "feedback": "The key mechanism is that oestrogen suppresses prolactin, which reduces breast milk production. This is why combined hormonal methods are category 4 for breastfeeding women in the first six weeks postpartum."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The WHO rates combined hormonal contraceptives as category 4 (absolutely contraindicated) for breastfeeding women before six weeks postpartum because oestrogen suppresses prolactin and reduces milk production. Progestogen-only methods are a safer alternative as they do not affect lactation."
+                  "feedback": "Correct. The WHO MEC framework restricts combined hormonal methods in breastfeeding women because oestrogen suppresses prolactin and compromises lactation."
                 }
               ],
               "behaviour": {
@@ -539,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "d5802105-2c84-43f0-9021-96c41c377d0c",
+            "subContentId": "79296813-ed50-4031-bc82-3a9175e05831",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A breastfeeding mother is three weeks po",
+              "title": "A breastfeeding mother at four weeks pos",
               "authors": [],
               "changes": []
             }
@@ -614,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "2801433b-d069-413e-a948-7684a707b711",
+              "subContentId": "6e337b48-c439-41d2-a66c-f9dbf2ef8a02",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -637,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "b52a02f1-3de5-4723-a058-30705309ea16",
+        "subContentId": "fae7cd27-d525-4256-ab80-0150cf926a7c",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
