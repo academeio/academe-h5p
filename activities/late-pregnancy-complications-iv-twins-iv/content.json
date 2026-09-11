@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/2c461bca-ed67-457e-812f-4ca01877a53f/playlist.m3u8",
+          "path": "https://vdo.cbme.in/2faee3c6-5a82-4cdf-a0e8-06279d4aa00c/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OG10.1-2,OG11.1 | Late Pregnancy Complications — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for OG10.1-OG10.2."
+        "shortStartDescription": "Interactive lecture with 3 embedded questions for OG10.1-OG10.2."
       },
       "textTracks": {
         "videoTrack": [
@@ -67,95 +67,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why is the first-trimester ultrasound scan between 11 and 14 weeks considered th</p>",
+          "label": "<p>Clinical findings such as a uterus larger than expected for dates and auscultati</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Why is the first-trimester ultrasound scan between 11 and 14 weeks considered the single most important investigation in a newly diagnosed twin pregnancy?</p>",
-              "answers": [
-                {
-                  "text": "<div>It detects congenital anomalies more accurately than a second-trimester scan</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The detailed anomaly scan is performed at 18 to 20 weeks, not in the first trimester. The first-trimester scan's primary value lies in determining chorionicity, not anomaly detection.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It determines chorionicity with over 95% accuracy, which governs the entire surveillance and delivery plan</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Chorionicity is the single most important prognostic factor in twin pregnancy, and it can only be reliably determined in this narrow window before the inter-twin membrane thickens.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It can predict whether twin-to-twin transfusion syndrome will develop later in pregnancy</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>TTTS cannot be predicted at this stage. However, identifying monochorionic placentation at this scan alerts clinicians to begin the closer surveillance that can detect TTTS when it develops.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It accurately estimates individual fetal weights to detect early growth restriction</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Fetal weight estimation becomes relevant from the mid-second trimester onward. The first-trimester scan's unique and irreplaceable value is in determining chorionicity.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The first-trimester USS uniquely determines chorionicity with over 95% accuracy. After 14 weeks, membrane thickening makes this assessment unreliable, yet chorionicity governs every subsequent management decision."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. After 14 weeks the inter-twin membrane thickens, making chorionicity much harder to determine — so this first-trimester window is irreplaceable for planning the entire pregnancy."
-                }
-              ],
+              "question": "<p>Clinical findings such as a uterus larger than expected for dates and auscultation of two separate fetal heartbeats are sufficient to confirm a diagnosis of twin pregnancy.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is actually false. The video explained that clinical signs like a uterus larger than dates, severe vomiting, and hearing two heartbeats can suggest twins but are not reliable on their own. Ultrasound is the only definitive way to diagnose a multiple pregnancy, and the first-trimester scan (11–14 weeks) is essential for determining chorionicity — the single most important prognostic factor.",
+                "correctAnswerMessage": "Correct — this statement is false. While these clinical signs raise suspicion, they are not reliable enough to confirm a multiple pregnancy on their own. Ultrasound is the definitive diagnostic tool and should be performed routinely at the first-trimester scan (11–14 weeks) to confirm the number of fetuses and determine chorionicity.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "9c6b7402-7cfd-4bef-bf9c-c79f1e869938",
+            "subContentId": "2a0b70f4-9c97-4a09-bd16-eef057158ebd",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "Why is the first-trimester ultrasound sc",
+              "title": "Clinical findings such as a uterus large",
               "authors": [],
               "changes": []
             }
@@ -177,7 +125,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>On first-trimester ultrasound, an inter-twin membrane meets the placenta at a sh</p>",
+          "label": "<p>On first-trimester ultrasound of a twin pregnancy, a wedge of placental tissue i</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>On first-trimester ultrasound, an inter-twin membrane meets the placenta at a sharp right angle, forming a T-shape. What does this finding indicate?</p>",
+              "question": "<p>On first-trimester ultrasound of a twin pregnancy, a wedge of placental tissue is seen projecting into the base of the inter-twin membrane, creating a peak. What does this lambda sign indicate?</p>",
               "answers": [
                 {
-                  "text": "<div>Dichorionic diamniotic twins with separate placentas</div>",
+                  "text": "<div>Monochorionic diamniotic twins sharing a single placenta</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Dichorionic twins show a lambda (twin peak) sign, where a wedge of placental tissue from both placentas pushes into the membrane base — not a sharp right-angle T-shape.</div>",
+                    "chosenFeedback": "<div>In monochorionic twins, the membrane is composed only of amnion and meets the placenta at a sharp right angle, producing a T-sign — not a wedge of placental tissue.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Monochorionic diamniotic twins sharing one placenta</div>",
+                  "text": "<div>Dichorionic diamniotic twins with separate placentas</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In monochorionic twins the inter-twin membrane is composed only of amnion, with no intervening chorionic tissue, so it meets the single shared placenta at a sharp right angle — the T-sign.</div>",
+                    "chosenFeedback": "<div>Correct. The lambda (twin peak) sign occurs because chorionic villi from both placentas grow into the base of the inter-twin membrane, creating a visible wedge. This confirms dichorionic placentation — the lowest-risk twin configuration.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Monochorionic monoamniotic twins sharing one amniotic sac</div>",
+                  "text": "<div>Monochorionic monoamniotic twins with no inter-twin membrane</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Monoamniotic twins have no inter-twin membrane at all. If a membrane is visible forming a T-sign, the twins must have separate amniotic sacs — making them monochorionic diamniotic.</div>",
+                    "chosenFeedback": "<div>In monoamniotic twins, there is no inter-twin membrane at all — the babies share a single amniotic sac. The lambda sign requires a visible membrane with placental tissue at its base.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A normal singleton pregnancy with a uterine septum mimicking a membrane</div>",
+                  "text": "<div>A vanishing twin with residual placental tissue at the membrane</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A uterine septum does not produce an inter-twin membrane with a T-sign. This sign is specific to monochorionic twin pregnancies where only amniotic layers form the dividing membrane.</div>",
+                    "chosenFeedback": "<div>A vanishing twin refers to one twin that stops developing and is reabsorbed early in pregnancy. The lambda sign is a normal finding in dichorionic twins — the wedge results from villi of both placentas growing into the membrane base, not from reabsorbing tissue.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The T-sign indicates monochorionic diamniotic twins. Unlike the lambda sign (where villi from two placentas push into the membrane base), the T-sign shows only amniotic membrane meeting a single shared placenta at a right angle."
+                  "feedback": "The lambda (twin peak) sign indicates dichorionic diamniotic twins. Villi from both separate placentas grow into the membrane base, creating the characteristic wedge. Contrast this with the T-sign of monochorionic twins, where only amniotic membrane meets the placenta at a right angle."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The T-sign confirms a shared placenta, which means these twins need closer surveillance — fortnightly scans from 16 weeks — because of the risk of twin-to-twin transfusion syndrome."
+                  "feedback": "The lambda sign is pathognomonic of dichorionic diamniotic twins. Remember that this sign is most reliably seen before 14 weeks — after that, membrane thickening reduces chorionicity determination accuracy significantly."
                 }
               ],
               "behaviour": {
@@ -261,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "370ce39a-08a8-4484-8331-2b2ccbb15abd",
+            "subContentId": "90f5710c-1aee-4204-9317-a8869fbff3f0",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "On first-trimester ultrasound, an inter-",
+              "title": "On first-trimester ultrasound of a twin",
               "authors": [],
               "changes": []
             }
@@ -287,65 +235,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Monochorionic diamniotic twins should be delivered at 38 weeks, the same gestati</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>Monochorionic diamniotic twins should be delivered at 38 weeks, the same gestational age as dichorionic diamniotic twins.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Not quite. Because monochorionic diamniotic twins share a single placenta, they face risks like twin-to-twin transfusion syndrome and require earlier delivery at 36 to 37 weeks. The 38-week target applies only to dichorionic diamniotic twins, the lower-risk category.",
-                "correctAnswerMessage": "Correct — the statement is false. Monochorionic diamniotic twins share one placenta that ages faster and carries the risk of twin-to-twin transfusion syndrome, so they are delivered earlier at 36 to 37 weeks. Only dichorionic diamniotic twins are delivered at 38 weeks.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "479c4347-a722-43ea-b873-23534562d382",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "Monochorionic diamniotic twins should be",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 616.0999999999999,
-            "to": 626.0999999999999
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>In twin-to-twin transfusion syndrome, blood flows unevenly between twins through</p>",
+          "label": "<p>A 30-year-old woman with monochorionic diamniotic twins diagnosed at her 12-week</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In twin-to-twin transfusion syndrome, blood flows unevenly between twins through shared placental vessels. Which of the following best describes the resulting pathological consequence for the affected twins?</p>",
+              "question": "<p>A 30-year-old woman with monochorionic diamniotic twins diagnosed at her 12-week scan presents for antenatal care planning. Which surveillance schedule and planned delivery timing is appropriate?</p>",
               "answers": [
                 {
-                  "text": "<div>Both twins develop polyhydramnios from increased circulating volume</div>",
+                  "text": "<div>Growth scans every 4 weeks from 20 weeks; planned delivery at 38 weeks</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Only the recipient twin develops polyhydramnios from volume overload. The donor twin, losing blood through the shared vessels, becomes fluid-depleted — this asymmetry is the hallmark of TTTS.</div>",
+                    "chosenFeedback": "<div>This is the protocol for dichorionic diamniotic (DCDA) twins, which have separate placentas and lower risk. MCDA twins share one placenta and need more frequent monitoring to detect twin-to-twin transfusion syndrome early.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>One twin becomes fluid-depleted while the other becomes fluid-overloaded</div>",
+                  "text": "<div>Ultrasound scans every 2 weeks from 16 weeks; planned delivery at 36 to 37 weeks</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The unbalanced blood flow through shared placental anastomoses causes the donor to become fluid-depleted and the recipient to become volume-overloaded, creating the characteristic amniotic fluid discordance that clinicians watch for.</div>",
+                    "chosenFeedback": "<div>Correct. MCDA twins share one placenta, so twin-to-twin transfusion syndrome can develop within days. Fortnightly scans from 16 weeks allow early detection, and delivery is planned at 36–37 weeks before placental ageing causes complications.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Both twins develop symmetrical growth restriction from overall placental insufficiency</div>",
+                  "text": "<div>Inpatient monitoring from 28 weeks; planned caesarean delivery at 32 to 34 weeks</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>TTTS is not about overall placental insufficiency — it is specifically about unequal distribution of blood flow between the twins. The consequences are asymmetric, not symmetrical.</div>",
+                    "chosenFeedback": "<div>This intensive protocol is reserved for monochorionic monoamniotic (MCMA) twins, who share a single amniotic sac and face cord entanglement risk. MCDA twins have a membrane separating them and do not require inpatient monitoring.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The donor twin develops polycythaemia while the recipient twin becomes anaemic</div>",
+                  "text": "<div>Monthly scans from 24 weeks with Doppler; planned delivery at 40 weeks</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This describes twin anaemia-polycythaemia sequence (TAPS), a different condition involving slow haemoglobin transfer. In TTTS, the primary pathology is volume imbalance causing amniotic fluid discordance, not primarily a haemoglobin difference.</div>",
+                    "chosenFeedback": "<div>No multiple pregnancy should be allowed to continue to 40 weeks. Even DCDA twins — the lowest-risk category — are delivered at 38 weeks. MCDA twins need fortnightly surveillance from 16 weeks with delivery at 36–37 weeks.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In TTTS, blood flows unevenly through shared placental vessels: one twin loses volume (becomes fluid-depleted) while the other gains excess volume (becomes fluid-overloaded). This asymmetric fluid discordance is the hallmark finding that fortnightly scans are designed to detect."
+                  "feedback": "For MCDA twins, the correct protocol is fortnightly ultrasound from 16 weeks with planned delivery at 36–37 weeks. Remember the principle: chorionicity determines the entire surveillance schedule — more shared structures mean higher risk and more intensive monitoring."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. This fluid discordance is why monochorionic twins need fortnightly scanning from 16 weeks. Left untreated, TTTS carries an extremely high risk of fetal death, which is why staging systems and fetoscopic laser ablation exist."
+                  "feedback": "Surveillance intensity tracks directly with shared placental and amniotic risk: DCDA (4-weekly, 38 weeks) → MCDA (fortnightly from 16 weeks, 36–37 weeks) → MCMA (inpatient from 28 weeks, 32–34 weeks by caesarean)."
                 }
               ],
               "behaviour": {
@@ -429,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "fb9a3f5f-b9a9-43c8-bca4-1cc00106ac5b",
+            "subContentId": "1085d831-7d9c-40d9-9b7d-ef2d22bafd8b",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In twin-to-twin transfusion syndrome, bl",
+              "title": "A 30-year-old woman with monochorionic d",
               "authors": [],
               "changes": []
             }
@@ -492,7 +382,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "bccc8b46-0ce5-4eb1-bc42-8f173f9f8ff3",
+              "subContentId": "5f67a66e-93d1-46b1-a519-eaf4da9954ce",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -515,7 +405,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "8639521d-4748-4311-9428-ccc2b23cf479",
+        "subContentId": "95f86c95-f93b-45ab-b5ab-1f438d6e277d",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
