@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/d276e57d-322b-4864-9b8e-e9b1b6279b68/playlist.m3u8",
+          "path": "https://vdo.cbme.in/7ef9fa77-be73-4faf-af0a-04f3be9f2cdd/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OG35.{1-14,19},OG36.1-2,OG38.4 | Core Clinical Skills — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for OG35.1-OG35.9."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for OG35.1-OG35.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -67,43 +67,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>If the clinical outcome of a procedure is excellent, the patient has no valid gr</p>",
+          "label": "<p>In the opening case, Mrs Leela's husband filed a formal complaint despite a tech</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>If the clinical outcome of a procedure is excellent, the patient has no valid grounds for a complaint about the consent process.</p>",
-              "correct": "false",
+              "question": "<p>In the opening case, Mrs Leela's husband filed a formal complaint despite a technically flawless caesarean section. Which of the following best explains why a good clinical outcome did not prevent the complaint?</p>",
+              "answers": [
+                {
+                  "text": "<div>The anaesthesia team did not adequately manage Mrs Leela's post-operative pain</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The narration states the surgery was technically flawless and the clinical outcome was excellent. The complaint arose because consent was treated as a signature, not because of any deficiency in anaesthesia or post-operative care.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Consent was obtained as a signature rather than a meaningful conversation about the procedure</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Dr Priya handed over the form without explaining the surgical scar, bladder risk, or the possibility of intensive care. Consent must be a conversation — covering risks, alternatives, and implications — not merely a signed form.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The surgeon failed to follow the WHO surgical safety checklist before operating</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The issue was not a failure of surgical protocol — the surgery itself was technically flawless. The failure was in communication: the patient did not understand what she was consenting to.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The hospital did not inform the husband before proceeding with the emergency surgery</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While the husband was upset, the core issue was that the patient herself — the person whose consent is legally required — did not receive an explanation of the procedure, its risks, and its alternatives before signing.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Review the opening case. The surgery was technically flawless, but consent was treated as a formality — 'sign here, we need to operate now.' Without genuine understanding of the procedure, its risks, and alternatives, consent is legally invalid regardless of the clinical outcome."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. Consent is a process of communication, not merely a signature on a form. Even when the clinical outcome is excellent, failing to explain the procedure, its risks, and alternatives means the patient cannot participate in decisions about her own care — making the consent legally and ethically invalid."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. Consent and clinical outcome are independent obligations. Mrs Leela's surgery was technically flawless, yet the complaint was valid because she was never told about the surgical scar, bladder risk, or possible ICU stay. The law treats a procedure done without informed consent as battery — the clinical result does not cure the consent failure.",
-                "correctAnswerMessage": "Correct. Consent is a separate professional and legal obligation. In the opening case, Mrs Leela's caesarean had an excellent clinical outcome, yet the formal complaint was valid because she signed without understanding the risks. Under Indian law, a procedure performed without valid informed consent can constitute battery, regardless of outcome.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8d212ff3-348e-4777-b867-143bf5c5a4c6",
+            "subContentId": "04edf913-df8e-4a36-ae17-ae02930e4d35",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "If the clinical outcome of a procedure i",
+              "title": "In the opening case, Mrs Leela's husband",
               "authors": [],
               "changes": []
             }
@@ -125,7 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 22-year-old woman scheduled for an emergency caesarean signs the consent form </p>",
+          "label": "<p>A 32-year-old woman is scheduled for an elective hysterectomy. After explaining </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 22-year-old woman scheduled for an emergency caesarean signs the consent form after being told the diagnosis and material risks. When asked to explain the procedure in her own words, she cannot describe what will be done or why. Which step of the five-step consent process is unfulfilled?</p>",
+              "question": "<p>A 32-year-old woman is scheduled for an elective hysterectomy. After explaining the procedure, its risks, and alternatives, she nods and says she has no questions. According to the consent process described in this video, what should you do next?</p>",
               "answers": [
                 {
-                  "text": "<div>Capacity assessment — she lacks the mental ability to consent</div>",
+                  "text": "<div>Proceed to have her sign the consent form, as she has been fully informed</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>She can communicate a decision (she signed), which suggests capacity is present. Capacity means the ability to understand, retain, weigh information, and communicate a decision — not whether she actually understood.</div>",
+                    "chosenFeedback": "<div>Disclosure alone does not complete the consent process. The next step is to confirm understanding — and simply having no questions does not prove the patient has understood the information.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Disclosure — she was not given enough information</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>She was told the diagnosis and material risks, so disclosure was performed. The gap is downstream — the information was given but not grasped.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Verification of understanding — she cannot demonstrate she grasped the information</div>",
+                  "text": "<div>Ask her to explain the procedure back to you in her own words</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The teach-back method — asking the patient to explain the procedure in her own words — is the check for understanding. A signature after disclosure does not prove comprehension.</div>",
+                    "chosenFeedback": "<div>Correct. The video specifically teaches that asking the patient to explain the procedure in her own words (teach-back) uncovers gaps that questions alone would miss. This is the third step: checking understanding.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Voluntariness — she is being pressured into the decision</div>",
+                  "text": "<div>Document that informed consent was obtained and file the consent form</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>No evidence of external pressure is described. Voluntariness means freedom from family, financial, or time pressure — a separate step from understanding.</div>",
+                    "chosenFeedback": "<div>Documentation is the fifth and final step in the consent process. Before documenting, you must first confirm understanding (step three) and ensure the decision is voluntary (step four).</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Ask a family member to confirm that the patient has understood the procedure</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Understanding must be confirmed with the patient herself, not through a family member. Asking the patient to explain the procedure in her own words is the method emphasised in the consent framework.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The correct answer is verification of understanding. She was told the diagnosis and risks (disclosure was done) and she could sign and communicate (capacity appears intact). The missing step is understanding — she could not explain the procedure back in her own words. The teach-back method is the key check that distinguishes genuine consent from a mere signature."
+                  "feedback": "After explaining the procedure (disclosure), the next step in the five-step consent process is to check understanding. The video emphasises asking the patient to explain the procedure back in her own words, because this teach-back method uncovers gaps that questions alone would miss."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Disclosure (telling) and understanding (grasping) are distinct steps. A signed form only records the conversation — it does not prove the patient understood. Always use the teach-back method before accepting consent as valid."
+                  "feedback": "Correct. After disclosure, the next step is to verify understanding through teach-back — asking the patient to explain the procedure in her own words. This uncovers gaps that simply asking 'do you have questions?' would miss, ensuring genuine informed consent."
                 }
               ],
               "behaviour": {
@@ -209,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "202358a1-b528-46ad-b032-3ab06a7d9443",
+            "subContentId": "6d1ac012-93e2-49a6-a2a1-aba8ea551e1c",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 22-year-old woman scheduled for an eme",
+              "title": "A 32-year-old woman is scheduled for an",
               "authors": [],
               "changes": []
             }
@@ -229,101 +281,49 @@
         },
         {
           "duration": {
-            "from": 562.85,
-            "to": 572.85
+            "from": 449.02500000000003,
+            "to": 459.02500000000003
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 30-year-old woman at 22 weeks of gestation requests termination of pregnancy f</p>",
+          "label": "<p>In medicolegal proceedings, a clinical action that was performed but not documen</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A 30-year-old woman at 22 weeks of gestation requests termination of pregnancy for a condition listed under the MTP Act's specified categories. What level of medical authorisation is legally required?</p>",
-              "answers": [
-                {
-                  "text": "<div>Opinion of one registered medical practitioner</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>One practitioner's opinion is sufficient only up to 20 weeks of gestation. Beyond that threshold, the required authority increases.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Opinion of two registered medical practitioners</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The MTP Act requires two practitioners' opinions for pregnancies between 20 and 24 weeks in specified categories. Signing outside your authorised scope invalidates the certificate.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Approval of a State Medical Board</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>A State Medical Board is required only beyond 24 weeks, and only for substantial foetal abnormality. At 22 weeks in a specified category, two practitioners suffice.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Approval of the hospital ethics committee</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The MTP Act does not require ethics committee approval for termination. The authorising bodies are individual practitioners or the State Medical Board, depending on gestational age.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The correct answer is two registered medical practitioners. The MTP Act's sliding scale requires: one practitioner's opinion up to 20 weeks, two practitioners between 20 and 24 weeks for specified categories, and a State Medical Board beyond 24 weeks for substantial foetal abnormality. As gestational age increases, the required legal authority increases."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. The MTP Act uses a sliding scale: one practitioner up to 20 weeks, two practitioners between 20 and 24 weeks for specified categories, and a State Medical Board beyond 24 weeks for substantial foetal abnormality. Knowing which level applies is essential — signing outside your authorised scope invalidates the certificate."
-                }
-              ],
+              "question": "<p>In medicolegal proceedings, a clinical action that was performed but not documented in the medical record is legally treated as if it was never done.</p>",
+              "correct": "true",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is true. The video explicitly states that in litigation, the principle is applied literally: if it isn't written, it wasn't done. The medical record is a legal document — the clinician's contemporaneous evidence of care delivered. Oral testimony alone cannot substitute for proper documentation.",
+                "correctAnswerMessage": "Correct. The video states this principle literally: 'if it isn't written, it wasn't done.' The medical record is the clinician's contemporaneous account of what was done and why — in court, it is the primary evidence, not a supplement to oral testimony.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "3de74bb4-efa1-466f-a9d6-6f2345cc9f8a",
+            "subContentId": "c722f0f6-bef4-4606-a8af-6675b46746f2",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "A 30-year-old woman at 22 weeks of gesta",
+              "title": "In medicolegal proceedings, a clinical a",
               "authors": [],
               "changes": []
             }
@@ -339,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 808.85,
-            "to": 818.85
+            "from": 677.425,
+            "to": 687.425
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A pregnant woman presents for her third antenatal visit at a district hospital, </p>",
+          "label": "<p>The video describes how clinic disorganisation — long queues, no triage system, </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A pregnant woman presents for her third antenatal visit at a district hospital, having been registered and seen twice at a primary health centre in another district. Which document is the most reliable source of her prior antenatal findings at this new facility?</p>",
+              "question": "<p>The video describes how clinic disorganisation — long queues, no triage system, and missing records — contributes to a specific type of delay in maternal care. In the three delays framework, which delay does this represent?</p>",
               "answers": [
                 {
-                  "text": "<div>The ANC register at the primary health centre where she was registered</div>",
+                  "text": "<div>The first delay — the woman's delay in deciding to seek medical care</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The ANC register stays at the facility that maintains it. It is not available to clinicians at a different hospital — this is precisely why a patient-held document is needed.</div>",
+                    "chosenFeedback": "<div>The first delay refers to the patient's or family's delay in recognising a problem and deciding to seek care. Clinic disorganisation does not affect this decision — it affects what happens after the woman has already arrived.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The Mother and Child Protection (MCP) card she carries</div>",
+                  "text": "<div>The second delay — the delay in reaching a health facility after deciding to seek care</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The second delay refers to transport and accessibility barriers between the home and the facility. Once the woman has arrived at the facility, transport is no longer the issue.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The third delay — the delay in receiving timely care after arriving at the facility</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The MCP card is a foldout booklet given at the first antenatal visit and kept by the woman. It records her obstetric history, every antenatal finding, immunisations, and delivery details — making continuity across facilities possible.</div>",
+                    "chosenFeedback": "<div>Correct. The third delay occurs when a woman has reached the facility but still cannot receive timely, appropriate care — due to disorganised patient flow, missing records, lack of triage, or unclear staff roles.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The HMIS monthly report submitted by the primary health centre</div>",
+                  "text": "<div>A health-system delay — the delay in procuring essential medicines and supplies</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>HMIS reports contain aggregated programme indicators (early registration rates, ANC completion rates), not individual patient-level clinical findings.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Her MCTS ID record on the national tracking portal</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The MCTS ID enables tracking across facilities and triggers alerts for missed visits, but it does not carry detailed clinical findings such as blood pressure, haemoglobin, or foetal heart rate from each visit.</div>",
+                    "chosenFeedback": "<div>While supply-chain issues can contribute to delays in care, the three delays framework uses three specific categories. Clinic disorganisation falls under the third delay — the delay in receiving care after arrival at the facility.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The correct answer is the Mother and Child Protection (MCP) card. This patient-held booklet carries her complete antenatal record — weight, blood pressure, haemoglobin, urine findings, and foetal heart rate from every visit. Because it travels with the woman, it is what makes continuity of care possible when she moves between facilities."
+                  "feedback": "Clinic disorganisation causes the third delay in the three delays framework. The first delay is in deciding to seek care, the second is in reaching the facility, and the third — directly linked to clinic organisation — is the delay in receiving appropriate care after the woman has already arrived."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The MCP card is the single most important patient-level document in the Indian public health system for antenatal care. Because the woman carries it herself, any clinician at any facility can continue her care without starting from scratch."
+                  "feedback": "Correct. The third delay occurs when a woman has already reached the health facility but still cannot get timely, appropriate care. The video emphasises that clinic disorganisation — poor triage, long queues, missing records, and unclear staff roles — is a direct cause of this delay, which is why clinic organisation is itself a clinical intervention."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "4a7b97b1-6c4d-47e4-bada-154ac43f378b",
+            "subContentId": "5ff81e4b-65d3-45eb-88f3-ce43acd8f5f4",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A pregnant woman presents for her third",
+              "title": "The video describes how clinic disorgani",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 809.125,
+            "to": 819.125
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A pregnant woman diagnosed with gestational diabetes at a primary health centre </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A pregnant woman diagnosed with gestational diabetes at a primary health centre now presents at a district hospital for her third antenatal visit. The obstetrician needs to review her previous glucose tolerance test results and prescribed treatment. Which document would most reliably provide this information?</p>",
+              "answers": [
+                {
+                  "text": "<div>The ANC register maintained at the primary health centre</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The ANC register stays at the primary health centre and does not travel with the patient. Accessing it would require contacting the originating facility, delaying care.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The Mother and Child Protection (MCP) card</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The MCP card is a patient-held foldout booklet that records all antenatal visit findings, including test results, and travels with the woman between facilities — making it the key tool for continuity of care.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The facility's HMIS monthly report</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>HMIS reports aggregate facility-level data for programme monitoring and policy decisions. They do not contain individual patient-level clinical details like specific test results.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The referral register at the primary health centre</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The referral register tracks where patients were sent and what feedback was received, but does not contain detailed clinical findings from each antenatal visit.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The MCP card is the answer. Unlike facility registers (ANC, PNC, referral) that stay at the clinic, the MCP card is a patient-held document that travels with the woman between facilities, recording all her antenatal findings, test results, and treatment. This is what makes continuity of care across providers possible."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. The Mother and Child Protection (MCP) card is given to the woman at her first antenatal visit and she keeps it herself. It records her complete obstetric history, visit findings, immunisation schedule, and delivery details — enabling continuity of care across providers and settings."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "cadd9d86-a3c6-4dec-b57e-3af418a3e5c7",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A pregnant woman diagnosed with gestatio",
               "authors": [],
               "changes": []
             }
@@ -470,11 +580,11 @@
           "label": "Clinical documentation is the single thread that connects…"
         },
         {
-          "time": 449,
+          "time": 450,
           "label": "Every medical certificate you sign is a legal document, n…"
         },
         {
-          "time": 563,
+          "time": 564,
           "label": "Organizing an obstetrics and gynaecology clinic is not ju…"
         },
         {
@@ -484,7 +594,7 @@
       ],
       "endscreens": [
         {
-          "time": 846,
+          "time": 847,
           "label": "End"
         }
       ]
@@ -496,7 +606,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "b173177f-d349-4a64-bc12-40bd33ba6c47",
+              "subContentId": "be43ac5c-e7d2-4eb5-880b-2fee814fb5ce",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -519,7 +629,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "f66c16f0-b6e0-4f64-9a71-336bc37f70f1",
+        "subContentId": "a26acced-20e5-4d02-912e-370c089541f9",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
