@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/baea568a-4710-4fc6-be10-b3536a2e4667/playlist.m3u8",
+          "path": "https://vdo.cbme.in/c3402710-de7d-4a46-a70e-2295f1ec8c2e/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OG9.1-6 | Early Pregnancy Complications — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for OG9.1-OG9.6."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for OG9.1-OG9.6."
       },
       "textTracks": {
         "videoTrack": [
@@ -67,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In which type of abortion is the cervical os open and bleeding is moderate to he</p>",
+          "label": "<p>A woman at 10 weeks of gestation presents with vaginal bleeding. On examination,</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,23 +76,23 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In which type of abortion is the cervical os open and bleeding is moderate to heavy, but no products of conception have yet been expelled?</p>",
+              "question": "<p>A woman at 10 weeks of gestation presents with vaginal bleeding. On examination, the cervical os is closed, the uterus is appropriate for dates, and no tissue has been passed. Ultrasound shows a viable fetus with cardiac activity. Which type of abortion does this presentation indicate?</p>",
               "answers": [
                 {
                   "text": "<div>Threatened abortion</div>",
-                  "correct": false,
+                  "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In threatened abortion the cervical os remains closed and the fetus is still viable. An open os rules out this diagnosis.</div>",
+                    "chosenFeedback": "<div>Correct. A closed cervical os, uterus appropriate for dates, no tissue passed, and a viable fetus on ultrasound together define threatened abortion. About half of these pregnancies continue successfully.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
                   "text": "<div>Inevitable abortion</div>",
-                  "correct": true,
+                  "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! An open cervical os with active bleeding but no tissue yet expelled defines inevitable abortion — pregnancy loss is now certain but expulsion has not begun.</div>",
+                    "chosenFeedback": "<div>In inevitable abortion, the cervical os is open and bleeding is heavier, though no tissue has been expelled yet. The closed os here rules out inevitable abortion.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -101,7 +101,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In incomplete abortion, some products of conception have already been expelled. The os is open, but the distinguishing feature is that tissue HAS been passed.</div>",
+                    "chosenFeedback": "<div>Incomplete abortion requires that some products of conception have already been passed. No tissue has been expelled in this scenario.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -110,7 +110,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In missed abortion the fetus has died but the cervical os stays closed and bleeding is minimal. An open os rules this out.</div>",
+                    "chosenFeedback": "<div>In missed abortion, the fetus has died but is retained in the uterus with a closed os. Here the fetus shows cardiac activity on ultrasound, confirming viability.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Focus on two anchors: os status and tissue passage. Open os + no tissue expelled = inevitable. Once tissue passes, it becomes incomplete. Closed os + viable fetus = threatened. Closed os + dead fetus = missed."
+                  "feedback": "This is threatened abortion. Remember the four clinical anchors: closed os + no tissue passed + appropriate uterine size + viable fetus = threatened. About half continue to a successful pregnancy."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done! The open os with no tissue passage defines inevitable abortion — the point of no return where loss is certain but expulsion has not yet occurred."
+                  "feedback": "Exactly right. The four clinical anchors — os status, tissue passage, uterine size, and fetal viability — let you classify the type of abortion even before further investigations."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e553f968-c81b-4086-bd2b-e0ab430a6522",
+            "subContentId": "dfae50d4-3bdc-4d46-bd62-d67093c45e42",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In which type of abortion is the cervica",
+              "title": "A woman at 10 weeks of gestation present",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 234.77499999999998,
+            "to": 244.77499999999998
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In current practice, which method has replaced traditional sharp curettage as th</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In current practice, which method has replaced traditional sharp curettage as the preferred approach for uterine evacuation in incomplete abortion?</p>",
+              "answers": [
+                {
+                  "text": "<div>Manual vacuum aspiration or medical management with misoprostol</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Based on randomised trial evidence and WHO guidance, MVA and misoprostol have largely replaced sharp curettage for incomplete abortion. They are safer and can often be performed without general anaesthesia.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Dilatation and curettage under general anaesthesia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>D&amp;C with sharp curettage is the very method being replaced. It carries a higher risk of uterine perforation and Asherman syndrome compared to vacuum aspiration.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Expectant management with serial ultrasound monitoring alone</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Expectant management is suitable for complete abortion and selected cases of missed abortion, but incomplete abortion with retained tissue generally requires active evacuation to prevent haemorrhage and infection.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Hysterotomy with direct visualisation of the uterine cavity</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Hysterotomy is a major surgical procedure reserved for specific situations such as failed termination at advanced gestation. It is not used for routine incomplete abortion management.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Manual vacuum aspiration and medical management with misoprostol have replaced sharp curettage for incomplete abortion, based on WHO guidance and trial evidence. This is one of the most important practice shifts in early pregnancy care."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. The shift from sharp curettage to MVA and misoprostol is a key advance in safe abortion care, now endorsed by WHO as standard practice."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "049ac3b3-389c-480f-ac69-2502aca2a6aa",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In current practice, which method has re",
               "authors": [],
               "changes": []
             }
@@ -177,43 +287,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>According to the RCOG and ESHRE, recurrent pregnancy loss is defined as two or m</p>",
+          "label": "<p>In recurrent pregnancy loss, why are losses occurring between 12 and 20 weeks co</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>According to the RCOG and ESHRE, recurrent pregnancy loss is defined as two or more consecutive pregnancy losses before 20 weeks of gestation.</p>",
-              "correct": "false",
+              "question": "<p>In recurrent pregnancy loss, why are losses occurring between 12 and 20 weeks considered more diagnostically significant than first-trimester losses?</p>",
+              "answers": [
+                {
+                  "text": "<div>They occur more frequently and are therefore better studied</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Second-trimester losses are actually less common than first-trimester losses. Most recurrent losses occur between 6 and 12 weeks.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>They more often point to a structural cause such as cervical incompetence or a uterine anomaly</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Second-trimester losses (12–20 weeks) more often indicate a structural cause — such as cervical incompetence or a uterine anomaly — rather than a random chromosomal error, making them diagnostically more actionable.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>They always require immediate surgical intervention</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Not all second-trimester losses require surgery. Their significance lies in their higher likelihood of pointing to a treatable structural cause, not in necessarily requiring surgical management.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>They indicate a worse long-term prognosis for future pregnancies</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The significance of second-trimester losses is diagnostic, not prognostic. Because they more often point to structural causes like cervical incompetence, identifying and treating the cause can actually improve future pregnancy outcomes.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Second-trimester losses (12–20 weeks) are less common but diagnostically more important because they often indicate a structural cause such as cervical incompetence or a uterine anomaly, rather than random chromosomal error."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. Second-trimester losses point towards structural pathology — uterine anomalies or cervical incompetence — which is often treatable once identified."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. The RCOG and ESHRE require ≥3 consecutive losses before 20 weeks. The ≥2 threshold belongs to the ASRM, which justifies it on the grounds that even two losses cause significant distress and a treatable cause can often be found. Always state which definition you are using in exams.",
-                "correctAnswerMessage": "Correct — this statement is false. The RCOG and ESHRE require three or more consecutive losses before 20 weeks, not two. It is the ASRM that uses the lower threshold of two or more ultrasound-confirmed losses.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "36c30cb5-8b83-4afc-b1eb-90e6450b96a7",
+            "subContentId": "7e436b84-2b01-4636-8a1e-9a9e9606c473",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "According to the RCOG and ESHRE, recurre",
+              "title": "In recurrent pregnancy loss, why are los",
               "authors": [],
               "changes": []
             }
@@ -235,95 +397,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>According to the narration, what is the primary reason ectopic pregnancy is freq</p>",
+          "label": "<p>In ectopic pregnancy, the cervical os is typically open, which helps distinguish</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>According to the narration, what is the primary reason ectopic pregnancy is frequently missed on initial clinical assessment?</p>",
-              "answers": [
-                {
-                  "text": "<div>Beta-hCG levels are always within the normal range in ectopic pregnancy</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Beta-hCG is elevated in ectopic pregnancy; it is the pattern of suboptimal rise that aids diagnosis, not a normal level.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Many ectopic pregnancies present atypically, without the classic triad of symptoms</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct! Many women present with only mild intermittent pain or attribute a missed period to stress. Without the classic triad, clinicians may reassure and discharge them — which is why a high index of suspicion is essential.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Ectopic pregnancy is too rare to be considered in the differential diagnosis</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Ectopic pregnancy is not rare and must be considered in every woman of reproductive age with lower abdominal pain. Frequency is not the barrier to diagnosis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Ultrasound is unable to detect a tubal ectopic pregnancy</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Transvaginal ultrasound can detect tubal ectopic pregnancies, particularly when combined with serial beta-hCG measurements. The real problem is the atypical clinical presentation that delays investigation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The narration emphasised that the classic triad (amenorrhoea, pain, bleeding) is often incomplete. Up to 50% of ectopic deaths occur in women seen by a clinician within 48 hours whose diagnosis was missed due to atypical presentation."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly! Up to half of women who die from ruptured ectopic pregnancy were seen by a clinician within 48 hours. Atypical presentations lead to missed diagnoses — a high index of suspicion combined with beta-hCG and ultrasound is your best protection."
-                }
-              ],
+              "question": "<p>In ectopic pregnancy, the cervical os is typically open, which helps distinguish it from a threatened abortion.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "In ectopic pregnancy, the cervical os is characteristically closed. A closed os helps distinguish ectopic pregnancy from inevitable abortion (open os) and incomplete abortion (also open os). Cervical excitation and a closed os together should raise strong suspicion of ectopic pregnancy.",
+                "correctAnswerMessage": "Correct — this statement is false. In ectopic pregnancy, the cervical os is characteristically closed, not open. A closed os with unilateral pain and cervical excitation should raise suspicion of ectopic pregnancy. An open os would point towards inevitable or incomplete abortion instead.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "79567250-0039-489a-af9c-a5897687434b",
+            "subContentId": "18489991-2901-41c0-86e0-fee323a18d37",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "According to the narration, what is the",
+              "title": "In ectopic pregnancy, the cervical os is",
               "authors": [],
               "changes": []
             }
@@ -345,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which clinical feature is described in the narration as pathognomonic (uniquely </p>",
+          "label": "<p>Which of the following clinical findings is pathognomonic for a hydatidiform mol</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which clinical feature is described in the narration as pathognomonic (uniquely diagnostic) of a hydatidiform mole?</p>",
+              "question": "<p>Which of the following clinical findings is pathognomonic for a hydatidiform mole?</p>",
               "answers": [
-                {
-                  "text": "<div>Vaginal bleeding between 8 and 16 weeks of gestation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>First-trimester vaginal bleeding occurs in many conditions, including threatened abortion, ectopic pregnancy, and cervical pathology. It is not specific to molar pregnancy.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Passage of grape-like vesicles per vaginam</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct! The narration described grape-like vesicles as pathognomonic for a molar pregnancy. When present, they are the physical hallmark of abnormal trophoblastic proliferation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
                 {
                   "text": "<div>Uterus larger than expected for gestational age</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A large-for-dates uterus is characteristic of a complete mole but also occurs in multiple pregnancies and polyhydramnios. It is suggestive, not pathognomonic.</div>",
+                    "chosenFeedback": "<div>A large-for-dates uterus is common in complete moles but is not pathognomonic, as it can occur with multiple gestation, polyhydramnios, and other conditions.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Pregnancy-induced hypertension before 20 weeks</div>",
+                  "text": "<div>Passage of grape-like vesicles per vaginum</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The passage of grape-like vesicles is pathognomonic for molar pregnancy. These represent hydropic chorionic villi from the proliferating trophoblastic tissue and are diagnostic when seen.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Pregnancy-induced hypertension before 20 weeks of gestation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Pre-eclampsia before 20 weeks is highly suspicious for a molar pregnancy and almost never occurs in normal pregnancies, but it is not pathognomonic. The narration specifically reserved that term for grape-like vesicles.</div>",
+                    "chosenFeedback": "<div>Pre-eclampsia before 20 weeks is a strong pointer towards molar pregnancy, especially in the Indian context, but it is not pathognomonic as it can occur in other conditions.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Bilateral theca-lutein cysts on pelvic examination</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Theca-lutein cysts develop from high beta-hCG stimulation and are common in complete moles, but they are not pathognomonic and can occur in any condition with markedly elevated hCG levels.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Other features — large-for-dates uterus, severe vomiting, early pre-eclampsia, theca-lutein cysts — are characteristic but not unique to molar pregnancy. The passage of grape-like vesicles is the only pathognomonic sign the narration identified."
+                  "feedback": "The passage of grape-like vesicles is pathognomonic for molar pregnancy. While a large-for-dates uterus, early pre-eclampsia, and theca-lutein cysts are all suggestive, only the vesicles are diagnostic on their own."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! Grape-like vesicles are pathognomonic for molar pregnancy. In current practice, many moles are now detected early on routine ultrasound before vesicles are ever passed."
+                  "feedback": "Well done. Grape-like vesicles are the one finding that clinches the diagnosis of molar pregnancy on clinical grounds alone."
                 }
               ],
               "behaviour": {
@@ -429,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2ba72b60-53b9-4e53-a721-7574ee368ade",
+            "subContentId": "77165d77-0d8d-4f35-8851-1095221592dc",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which clinical feature is described in t",
+              "title": "Which of the following clinical findings",
               "authors": [],
               "changes": []
             }
@@ -449,13 +559,13 @@
         },
         {
           "duration": {
-            "from": 814.1750000000001,
-            "to": 824.1750000000001
+            "from": 697.9000000000001,
+            "to": 707.9000000000001
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>After performing manual vacuum aspiration at 8 weeks of gestation, the uterus fe</p>",
+          "label": "<p>The PUQE score grades the severity of hyperemesis gravidarum by measuring which </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +574,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>After performing manual vacuum aspiration at 8 weeks of gestation, the uterus feels firm and bleeding has decreased. However, on inspecting the aspirated tissue, you cannot identify chorionic villi. What is the most appropriate next step?</p>",
+              "question": "<p>The PUQE score grades the severity of hyperemesis gravidarum by measuring which three parameters?</p>",
               "answers": [
                 {
-                  "text": "<div>Discharge the patient with analgesics, since the uterine signs confirm complete evacuation</div>",
+                  "text": "<div>Hours of nausea, episodes of vomiting, and degree of ketonuria</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Absent villi at 8 weeks is a red flag that cannot be dismissed by uterine contraction alone. The narration stressed that no single finding is reliable on its own — all three sources of evidence must agree before discharge.</div>",
+                    "chosenFeedback": "<div>Ketonuria is assessed separately on urine dipstick as one of the three defining features of hyperemesis, but it is not part of the PUQE score. The third PUQE parameter is episodes of retching.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Immediately repeat the aspiration, as chorionic villi must always be identified</div>",
+                  "text": "<div>Hours of nausea, episodes of vomiting, and percentage of weight loss</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Blind re-aspiration without first considering WHY villi are absent is potentially dangerous. If the pregnancy was ectopic and never intrauterine, repeating aspiration is futile and delays the real diagnosis.</div>",
+                    "chosenFeedback": "<div>Weight loss exceeding 5% of pre-pregnancy body weight is one of the defining features of hyperemesis gravidarum, but it is not measured by the PUQE score. The score specifically quantifies emetic symptoms.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Investigate further — consider ectopic pregnancy, failed evacuation, very early gestation, or uterine anomaly before deciding on re-aspiration</div>",
+                  "text": "<div>Hours of nausea, episodes of vomiting, and episodes of retching</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! Absent villi at 8 weeks has multiple explanations: retained tissue from a failed evacuation, an ectopic pregnancy that was never intrauterine, a very early gestation where villi have not yet formed, or evacuation of the wrong horn in a uterine anomaly. Each requires a different response.</div>",
+                    "chosenFeedback": "<div>Correct. The PUQE score measures hours of nausea, episodes of vomiting, and episodes of retching, each scored out of five, yielding mild, moderate, or severe categories to guide treatment decisions.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Send the tissue for histopathology and wait for the report before taking any further action</div>",
+                  "text": "<div>Episodes of vomiting, degree of dehydration, and serum electrolyte levels</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While histopathology is important, waiting days for a report without immediate clinical assessment is unsafe. Absent villi at 8 weeks demands urgent evaluation — particularly to rule out ectopic pregnancy.</div>",
+                    "chosenFeedback": "<div>Dehydration and electrolytes are assessed through clinical examination and laboratory tests but are not part of the PUQE score. The score specifically quantifies the three emetic symptoms — nausea, vomiting, and retching.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +617,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "When chorionic villi are absent after evacuation at 8 weeks or later, think through four possibilities: failed evacuation, ectopic pregnancy, very early gestation, or uterine anomaly. Evaluate all three sources (intraoperative feel, tissue inspection, ultrasound) together before acting."
+                  "feedback": "The PUQE score measures three emetic parameters: hours of nausea, episodes of vomiting, and episodes of retching, each scored out of five. Ketonuria, weight loss, and electrolytes are assessed separately."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent! The narration emphasised evaluating three sources of evidence together: intraoperative signs, tissue inspection, and ultrasound. When they disagree — as here — that disagreement should prompt further investigation before discharge."
+                  "feedback": "Exactly right. The PUQE score turns subjective emetic symptoms into a standardised number: nausea (hours), vomiting (episodes), and retching (episodes), each scored out of five."
                 }
               ],
               "behaviour": {
@@ -539,11 +649,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ed268830-ee17-4445-94d4-523385c90f2b",
+            "subContentId": "8e64e6c2-e2dc-4f77-9a89-98696c849261",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "After performing manual vacuum aspiratio",
+              "title": "The PUQE score grades the severity of hy",
               "authors": [],
               "changes": []
             }
@@ -610,7 +720,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "f34a167a-1c23-4603-9899-17c4ac2dc9c0",
+              "subContentId": "aa1f9dd4-0009-451c-beae-25ba777e4524",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -633,7 +743,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "14d21af8-4dfb-49f8-a00d-128fc035a7c8",
+        "subContentId": "6fc8b979-b08e-4447-8f23-be67ab948b04",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
