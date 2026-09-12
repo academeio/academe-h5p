@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/58f37a5c-f01a-4410-89a3-2c14101054f6/playlist.m3u8",
+          "path": "https://vdo.cbme.in/e04d4e07-ed9b-48eb-ad0f-07a0d382124f/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,101 +61,49 @@
       "interactions": [
         {
           "duration": {
-            "from": 227.9,
-            "to": 237.9
+            "from": 106.5,
+            "to": 116.5
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A Pap smear in a patient with a clinically normal-appearing cervix reports high-</p>",
+          "label": "<p>When a visible cauliflower-like growth is seen on the cervix during speculum exa</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A Pap smear in a patient with a clinically normal-appearing cervix reports high-grade cellular changes, while in another patient with a visible cauliflower-like cervical growth, the Pap smear returns as normal. Which analysis of these two scenarios is correct?</p>",
-              "answers": [
-                {
-                  "text": "<div>The first patient needs no further evaluation since the cervix looks normal and high-grade cytology is likely a sampling error</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>High-grade cytological changes require prompt colposcopy referral and likely biopsy regardless of cervical appearance. Cytology detects cellular abnormalities the naked eye cannot see — that is precisely its value as a screening tool.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The second patient's normal Pap smear reliably excludes cervical malignancy because cytology is more sensitive than visual inspection</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Cytology only samples superficial cells scraped from the surface. In a visible growth, the malignant cells may lie deeper than the spatula reaches. A normal smear cannot rule out cancer when a suspicious lesion is present — biopsy is required.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Cytology samples surface cells and cannot assess tissue architecture, so the second patient still needs a punch biopsy despite the normal smear</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Cytology gives a probability by reading cell patterns, whereas biopsy gives certainty by examining tissue architecture. A visible lesion demands biopsy regardless of cytology results, because surface sampling may miss deeper pathology.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Both patients should have repeat Pap smears in three months before considering any invasive procedure</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Delaying action is inappropriate in both scenarios. High-grade cytological changes warrant immediate colposcopy, and a visible suspicious growth requires direct biopsy — waiting three months risks disease progression.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Review the distinction: cytology (Pap smear) is a screening tool that samples surface cells, while punch biopsy examines tissue architecture for definitive diagnosis. A visible lesion always needs biopsy, regardless of cytology results."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Cytology screens; biopsy diagnoses. When a visible lesion is present, always proceed to biopsy — a normal Pap smear cannot exclude malignancy in that setting."
-                }
-              ],
+              "question": "<p>When a visible cauliflower-like growth is seen on the cervix during speculum examination, a routine Pap smear should be performed before proceeding to biopsy.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Incorrect. A Pap smear is a screening tool for asymptomatic women. When a visible, suspicious growth is present — especially one with contact bleeding — cytology cannot provide the tissue diagnosis needed. The correct step is to proceed directly to a cervical punch biopsy for histological confirmation.",
+                "correctAnswerMessage": "Correct. When a suspicious visible lesion is already present, a Pap smear is insufficient because cytology only assesses surface cells and cannot diagnose invasive cancer. A punch biopsy must be taken directly from the lesion to obtain tissue for histopathological diagnosis.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "982a5628-8c85-4b14-a0aa-bee0b608e396",
+            "subContentId": "30c178da-a6ee-4a74-ab93-f51565e18dc8",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "A Pap smear in a patient with a clinical",
+              "title": "When a visible cauliflower-like growth i",
               "authors": [],
               "changes": []
             }
@@ -171,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 432.15,
-            "to": 442.15
+            "from": 332.725,
+            "to": 342.725
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why is it essential to confirm that the fetal head is well-engaged before perfor</p>",
+          "label": "<p>During a Pap smear, why must the slide be fixed within 30 seconds of smearing?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Why is it essential to confirm that the fetal head is well-engaged before performing artificial rupture of membranes?</p>",
+              "question": "<p>During a Pap smear, why must the slide be fixed within 30 seconds of smearing?</p>",
               "answers": [
                 {
-                  "text": "<div>An unengaged head increases the risk of shoulder dystocia during delivery</div>",
+                  "text": "<div>To prevent bacterial contamination of the specimen</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Shoulder dystocia relates to fetal size and shoulder position during the second stage of labour, not to head engagement at the time of ARM.</div>",
+                    "chosenFeedback": "<div>Bacterial contamination is not the concern here. The fixative preserves cell morphology, not sterility. The critical issue is preserving nuclear detail before air-drying distorts it.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Rupturing membranes with an unengaged head can allow the umbilical cord to prolapse below the presenting part</div>",
+                  "text": "<div>To prevent air-drying artefact that distorts nuclear morphology</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. When the head is not well-applied to the cervix, the gap between the head and cervical wall allows a loop of umbilical cord to slip past. Cord prolapse is a genuine emergency — compression of the prolapsed cord cuts off fetal oxygen supply.</div>",
+                    "chosenFeedback": "<div>Correct. When cells dry in air, their nuclei swell and distort. This can cause the smear to be reported as unsatisfactory under the Bethesda system, or lead to misinterpretation of atypia — both of which compromise the screening value of the test.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The amnihook cannot reach the membranes unless the head is pressed firmly against the cervix</div>",
+                  "text": "<div>To enhance staining uptake by the Papanicolaou method</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The amnihook is guided alongside the examining fingers and can reach the membranes regardless of head station. Engagement is about preventing cord prolapse, not about instrument access.</div>",
+                    "chosenFeedback": "<div>While proper fixation is a prerequisite for good staining, the reason for the strict 30-second window is to prevent air-drying artefact. Without prompt fixation, nuclear distortion makes the smear unreadable regardless of staining quality.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Membranes spontaneously reseal when the head is not engaged, making the procedure ineffective</div>",
+                  "text": "<div>To comply with the Bethesda reporting system guidelines</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Once ruptured, membranes cannot reseal — ARM is irreversible. The concern with an unengaged head is cord prolapse, not procedural failure.</div>",
+                    "chosenFeedback": "<div>The Bethesda system classifies cytology results; it does not mandate fixation protocols. The 30-second rule is a technical requirement driven by cell biology — air exposure distorts nuclei, making the smear unsatisfactory or misleading.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Recall that ARM cannot be undone. The fetal head must be engaged so it seals the gap at the cervix — without this, the umbilical cord can slip past the head (cord prolapse), compressing it and cutting off fetal oxygen."
+                  "feedback": "The correct answer is air-drying artefact. When fixation is delayed beyond 30 seconds, cells dry in air and their nuclei distort, which can make the smear unreadable or cause misdiagnosis. This is a key quality measure in cervical cytology."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. ARM is irreversible and the key safety prerequisite — confirming head engagement — exists specifically to prevent cord prolapse, a life-threatening emergency."
+                  "feedback": "Exactly right. Prompt fixation preserves nuclear detail, preventing both false-negative results and unsatisfactory smear reports. This is one of the most common preventable causes of failed cervical screening."
                 }
               ],
               "behaviour": {
@@ -261,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "bb71161c-351d-45f0-8e7b-64138772c255",
+            "subContentId": "a85746ae-6e8f-45e7-95cd-8bb2485006a7",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Why is it essential to confirm that the",
+              "title": "During a Pap smear, why must the slide b",
               "authors": [],
               "changes": []
             }
@@ -287,7 +235,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>What is the primary reason the levonorgestrel intrauterine system (LNG-IUS) is c</p>",
+          "label": "<p>What is the primary mechanism by which the levonorgestrel intrauterine system (M</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>What is the primary reason the levonorgestrel intrauterine system (LNG-IUS) is considered the first-line option for heavy menstrual bleeding in women who also need contraception?</p>",
+              "question": "<p>What is the primary mechanism by which the levonorgestrel intrauterine system (Mirena) prevents pregnancy?</p>",
               "answers": [
                 {
-                  "text": "<div>It has a larger copper surface area than the CuT 380A, providing stronger spermicidal action</div>",
+                  "text": "<div>It releases copper ions that are directly toxic to sperm</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The LNG-IUS contains no copper at all. It is the CuT 380A that relies on 380 mm² of copper surface area for its spermicidal mechanism.</div>",
+                    "chosenFeedback": "<div>This describes the mechanism of the copper IUCD (CuT 380A), which achieves its spermicidal effect through its 380 mm² copper surface area. The levonorgestrel IUS contains no copper.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It remains effective for ten years compared to the shorter lifespan of copper devices</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This reverses the durations. The CuT 380A lasts ten years; the LNG-IUS (52 mg levonorgestrel) has a working life of approximately five years.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Its wider inserter tube ensures more reliable fundal placement than the copper device</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The LNG-IUS inserter is slightly wider (4.8 mm vs 4 mm for CuT 380A), but inserter width does not determine fundal placement accuracy. Uterine sounding before insertion is what sets the correct depth.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Its local release of levonorgestrel thins the endometrial lining and thickens cervical mucus, significantly reducing menstrual flow</div>",
+                  "text": "<div>It thins the endometrial lining and thickens cervical mucus through local hormone release</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The LNG-IUS releases levonorgestrel at 20 micrograms per day, acting locally to thin the endometrium and thicken cervical mucus. This leads to markedly lighter periods — approximately one in five users become amenorrhoeic — making it the ideal dual-purpose device.</div>",
+                    "chosenFeedback": "<div>Correct. The LNG-IUS releases 20 micrograms of levonorgestrel per day, acting locally to make the endometrium unreceptive to implantation and to produce thick cervical mucus that impedes sperm transport. This local action is also why about one in five users experience amenorrhoea.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It creates a physical barrier that blocks sperm from entering the uterine cavity</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While the device occupies the uterine cavity, its contraceptive action is primarily hormonal, not mechanical. A physical barrier alone would not explain its high efficacy or its effect of reducing menstrual bleeding.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It suppresses ovulation through systemic absorption of progesterone into the bloodstream</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The primary action of the LNG-IUS is local, not systemic. While some ovulatory suppression may occur, the dominant mechanisms are endometrial thinning and cervical mucus thickening, both driven by local levonorgestrel release within the uterine cavity.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The LNG-IUS works by releasing levonorgestrel locally — it thins the uterine lining and thickens cervical mucus, producing markedly lighter periods. It contains no copper and has a different mechanism from the CuT 380A."
+                  "feedback": "The LNG-IUS works by releasing levonorgestrel locally within the uterus. This thins the endometrial lining (reducing menstrual bleeding) and thickens cervical mucus (blocking sperm). Unlike the copper IUCD, it has no spermicidal action — its effect is hormonal, not chemical."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The local hormonal action of the LNG-IUS on the endometrium is what makes it uniquely suited for women with heavy menstrual bleeding who also need contraception."
+                  "feedback": "Well done. Understanding the local hormonal mechanism of the LNG-IUS explains both its contraceptive action and its therapeutic benefit in heavy menstrual bleeding — making it the first-line choice when both goals are needed."
                 }
               ],
               "behaviour": {
@@ -371,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "983fef17-6973-413d-87c7-cc31d576b1ab",
+            "subContentId": "53cf80c5-cefb-4a31-926c-12cb14f04476",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "What is the primary reason the levonorge",
+              "title": "What is the primary mechanism by which t",
               "authors": [],
               "changes": []
             }
@@ -397,7 +345,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>During your first supervised Pap smear in the simulation lab, you complete the e</p>",
+          "label": "<p>During a supervised cervical punch biopsy, the patient suddenly turns pale, feel</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>During your first supervised Pap smear in the simulation lab, you complete the ectocervical and endocervical sampling successfully. However, you pause to label the slide and check the requisition form before applying fixative. What is the most likely consequence of this delay?</p>",
+              "question": "<p>During a supervised cervical punch biopsy, the patient suddenly turns pale, feels light-headed, and her pulse drops to 52 beats per minute. What is the most appropriate immediate action?</p>",
               "answers": [
                 {
-                  "text": "<div>Air-drying artefact will distort nuclear morphology, potentially causing the smear to be reported as unsatisfactory</div>",
+                  "text": "<div>Administer intravenous atropine to treat cervical shock</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This presentation is a vasovagal response, not cervical shock requiring pharmacological intervention. Vasovagal episodes are common during cervical procedures and are managed with simple supportive measures, not IV medications.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Lower the patient's head, reassure her, and monitor vital signs</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Fixation must occur within 30 seconds of smearing. Delayed fixation causes air-drying artefact that distorts nuclear morphology — this can lead to over-calling atypia or the smear being classified as unsatisfactory under the Bethesda system.</div>",
+                    "chosenFeedback": "<div>Correct. Vasovagal episodes are the most common complication during cervical biopsy. Management involves lowering the head (Trendelenburg position), verbal reassurance, and monitoring until symptoms resolve. Always warn the patient before the procedure.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The slide will develop bacterial contamination, rendering the sample unreadable</div>",
+                  "text": "<div>Start rapid intravenous fluid resuscitation for haemorrhagic shock</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Bacterial contamination results from improper storage or collection technique, not from a brief delay in fixation. The immediate concern with delayed fixation is cellular desiccation and nuclear distortion.</div>",
+                    "chosenFeedback": "<div>A cervical punch biopsy causes only minor, localised bleeding controlled with Monsel's solution or silver nitrate. The combination of pallor and bradycardia here points to a vasovagal response, not hypovolaemia — which would cause tachycardia, not bradycardia.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The endocervical columnar cells will detach from the glass, leaving only squamous ectocervical cells for analysis</div>",
+                  "text": "<div>Administer intramuscular adrenaline for suspected anaphylaxis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Properly rolled cells adhere to the glass surface. They do not detach from a brief delay — the problem is nuclear distortion from dehydration, not mechanical loss of cells.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The fixative spray will no longer bond to the dried glass surface, requiring a fresh slide</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Fixative can still be applied to the slide. The issue is that cells have already begun to desiccate — once air-drying artefact sets in, fixation preserves the distorted morphology rather than correcting it.</div>",
+                    "chosenFeedback": "<div>Anaphylaxis typically presents with tachycardia, hypotension, urticaria, and bronchospasm. This patient's bradycardia and pallor are characteristic of a vasovagal episode, not an allergic reaction. Distinguishing these two presentations is an important clinical skill.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: fixation must happen within 30 seconds. Delayed fixation causes air-drying artefact — nuclear distortion that leads to unsatisfactory or misleading smear results. Always fix the slide before any other task."
+                  "feedback": "The correct response is to lower the patient's head and monitor vital signs. This is a vasovagal episode — a common reaction during cervical biopsy. The hallmarks are pallor, light-headedness, and bradycardia. It resolves with positioning and reassurance, not pharmacological intervention."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. The 30-second fixation window exists because air-drying distorts cell nuclei irreversibly — a false-negative or unsatisfactory result gives dangerous false reassurance."
+                  "feedback": "Exactly right. Vasovagal episodes are common and predictable during cervical procedures. Always warn the patient before the biopsy, and be prepared to lower the head and provide supportive care if she becomes pale or bradycardic."
                 }
               ],
               "behaviour": {
@@ -481,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "17736141-f667-45d8-b11d-8b414c9868f3",
+            "subContentId": "e8df0f3e-32b1-4642-ba2e-398360fdc2f6",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "During your first supervised Pap smear i",
+              "title": "During a supervised cervical punch biops",
               "authors": [],
               "changes": []
             }
@@ -548,7 +496,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "682e0268-e4d4-4c93-a292-29d478255763",
+              "subContentId": "d9e63f2d-b0c5-44d7-9daf-401cc9f47b1e",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -571,7 +519,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "7166d191-4aa3-4194-9943-3a98d3d9c65b",
+        "subContentId": "a3825983-72f9-416e-9a49-3ad0bc56c63e",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
