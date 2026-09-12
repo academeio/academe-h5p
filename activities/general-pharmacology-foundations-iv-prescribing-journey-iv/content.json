@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/ca180fc4-c1cf-47d9-be94-72844a69919b/playlist.m3u8",
+          "path": "https://vdo.cbme.in/503cf0b8-8376-464c-865b-2323a4a1c06c/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PH1.1-13 | General Pharmacology Foundations — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 6 embedded questions for PH1.1-PH1.9."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for PH1.1-PH1.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -67,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Pharmacodynamics is the study of what the body does to a drug, including its abs</p>",
+          "label": "<p>Pharmacokinetics is the study of what a drug does to the body, including its mec</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,7 +76,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Pharmacodynamics is the study of what the body does to a drug, including its absorption, distribution, metabolism, and excretion.</p>",
+              "question": "<p>Pharmacokinetics is the study of what a drug does to the body, including its mechanism of action and dose-response relationship.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -94,16 +94,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This description actually fits pharmacokinetics, not pharmacodynamics. Pharmacokinetics = what the body does to the drug (ADME). Pharmacodynamics = what the drug does to the body (mechanism and dose-response). Anchoring this distinction early will help throughout the course.",
-                "correctAnswerMessage": "Correct — this statement describes pharmacokinetics, not pharmacodynamics. Pharmacokinetics studies what the body does to the drug (ADME), while pharmacodynamics studies what the drug does to the body (mechanism of action and dose-response).",
+                "wrongAnswerMessage": "This describes pharmacodynamics, not pharmacokinetics. Remember: pharmacokinetics = body acts on drug (ADME); pharmacodynamics = drug acts on body (mechanism and dose-response). This distinction underpins all of clinical pharmacology.",
+                "correctAnswerMessage": "Well done. This statement actually describes pharmacodynamics, not pharmacokinetics. Pharmacokinetics studies what the body does to the drug — absorption, distribution, metabolism, and excretion (ADME).",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "3099e9d6-37a4-40f4-9078-8de1a999f6f9",
+            "subContentId": "5942d789-1e75-4f0f-a31b-68d9cd64fa9f",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Pharmacodynamics is the study of what th",
+              "title": "Pharmacokinetics is the study of what a",
               "authors": [],
               "changes": []
             }
@@ -125,7 +125,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A nurse plans to crush a sustained-release morphine tablet to pass it through a </p>",
+          "label": "<p>A patient on a sustained-release morphine tablet requires a nasogastric feeding </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A nurse plans to crush a sustained-release morphine tablet to pass it through a nasogastric feeding tube. What is the most likely consequence?</p>",
+              "question": "<p>A patient on a sustained-release morphine tablet requires a nasogastric feeding tube. A nurse asks whether to crush the tablet and administer it through the tube. What is the primary risk of this action?</p>",
               "answers": [
                 {
-                  "text": "<div>Delayed absorption due to the enteric coating</div>",
+                  "text": "<div>The drug will be destroyed by gastric acid before absorption</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Crushing destroys the sustained-release matrix; the problem is the opposite — rapid, not delayed, absorption.</div>",
+                    "chosenFeedback": "<div>Sustained-release morphine is designed for the oral route and is stable in gastric acid. The danger lies in how quickly the dose is released, not in chemical degradation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Rapid release of the entire dose, risking fatal respiratory depression</div>",
+                  "text": "<div>The entire dose will be released at once, risking fatal respiratory depression</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Crushing destroys the controlled-release matrix, dumping what was designed to release over 8–12 hours into a few minutes — a potentially lethal dose-dumping event.</div>",
+                    "chosenFeedback": "<div>Correct. Crushing destroys the sustained-release mechanism, dumping a dose designed for 8–12 hours into the bloodstream within minutes — a potentially fatal error called dose dumping.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>No clinically significant effect on drug delivery</div>",
+                  "text": "<div>The drug will bind irreversibly to the tube material and not reach the patient</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Crushing a sustained-release formulation fundamentally alters its pharmacokinetics, potentially with fatal consequences.</div>",
+                    "chosenFeedback": "<div>While some drugs can adsorb to tube material, the primary and most dangerous risk with sustained-release morphine is dose dumping from destroying the controlled-release barrier.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Conversion of morphine to an inactive metabolite inside the tube</div>",
+                  "text": "<div>The drug will become pharmacologically inactive once the tablet coating is removed</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Morphine does not undergo significant degradation in a feeding tube; the danger lies in dose-dumping from the destroyed matrix.</div>",
+                    "chosenFeedback": "<div>Morphine remains pharmacologically active regardless of its coating. The coating controls the rate of release, not the drug's activity — removing it causes dangerously rapid absorption.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Crushing a sustained-release tablet destroys its controlled-release matrix, releasing the full dose in minutes instead of hours. This is called dose-dumping and can cause fatal respiratory depression with opioids like morphine."
+                  "feedback": "Crushing a sustained-release tablet destroys the mechanism that spaces out the dose over 8–12 hours, releasing the entire amount at once and risking fatal respiratory depression (dose dumping)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Crushing a sustained-release formulation causes dose-dumping — the entire 8–12-hour dose is released at once, risking fatal respiratory depression."
+                  "feedback": "Exactly right. Crushing a sustained-release formulation eliminates the controlled-release mechanism, causing dose dumping — a life-threatening prescribing error to watch for on the wards."
                 }
               ],
               "behaviour": {
@@ -209,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "4049c435-3499-4dd5-967c-c6e8adbe08c8",
+            "subContentId": "606adcb7-f68d-4ee0-8cb3-f99ccc4f1d37",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A nurse plans to crush a sustained-relea",
+              "title": "A patient on a sustained-release morphin",
               "authors": [],
               "changes": []
             }
@@ -235,7 +235,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient on phenytoin has plasma levels at the upper end of the therapeutic ran</p>",
+          "label": "<p>A patient on phenytoin has a plasma level of 15 µg/mL (therapeutic range 10–20 µ</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient on phenytoin has plasma levels at the upper end of the therapeutic range. The clinician increases the dose by 10%. What is the most likely outcome, and why?</p>",
+              "question": "<p>A patient on phenytoin has a plasma level of 15 µg/mL (therapeutic range 10–20 µg/mL). The dose is increased by just 10%, yet the plasma level rises to 28 µg/mL with nystagmus and ataxia. Which pharmacokinetic principle explains this disproportionate rise?</p>",
               "answers": [
                 {
-                  "text": "<div>Levels rise proportionally by 10%, because phenytoin follows first-order kinetics at all doses</div>",
+                  "text": "<div>First-order kinetics with hepatic enzyme induction</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Near the therapeutic range, phenytoin's metabolising enzymes become saturated, so it shifts from first-order to zero-order kinetics — the proportional relationship breaks down.</div>",
+                    "chosenFeedback": "<div>Enzyme induction would increase metabolism, lowering drug levels — the opposite of what is observed. Moreover, first-order kinetics produces proportional changes in concentration, not disproportionate jumps.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Levels rise disproportionately into the toxic range, because metabolic enzymes are saturated</div>",
+                  "text": "<div>Zero-order kinetics due to saturation of metabolising enzymes</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. At near-therapeutic concentrations, phenytoin saturates hepatic enzymes (zero-order kinetics). A constant amount — not a constant fraction — is eliminated, so even a small dose increase produces a large, non-linear rise in plasma levels.</div>",
+                    "chosenFeedback": "<div>Correct. Near the therapeutic range, phenytoin saturates its hepatic metabolising enzymes. Elimination shifts from a constant fraction (first-order) to a constant amount (zero-order), so even a small dose increase produces a disproportionately large rise in plasma concentration.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Levels fall because enzyme induction increases phenytoin's own metabolism</div>",
+                  "text": "<div>Increased oral bioavailability from altered gut pH</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While phenytoin is an enzyme inducer, the immediate concern at the therapeutic ceiling is enzyme saturation, not induction. Saturation means a small dose increase causes a disproportionate rise.</div>",
+                    "chosenFeedback": "<div>A change in gut pH could slightly alter absorption but would not explain a near-doubling of plasma levels from a 10% dose increase. The mechanism is saturated hepatic metabolism, not enhanced absorption.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Levels remain unchanged because renal excretion compensates fully</div>",
+                  "text": "<div>Reduced renal clearance from drug-induced nephrotoxicity</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Phenytoin is primarily hepatically metabolised; renal excretion plays a minor role and cannot compensate for saturated enzymes.</div>",
+                    "chosenFeedback": "<div>Phenytoin is primarily cleared by hepatic metabolism, not renal excretion. The disproportionate rise is caused by enzyme saturation (zero-order kinetics), not renal impairment.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "When phenytoin's metabolising enzymes are saturated, elimination switches from first-order (constant fraction) to zero-order (constant amount per unit time). A small dose increase then causes a disproportionately large rise in plasma concentration, producing toxic effects like nystagmus and ataxia."
+                  "feedback": "Phenytoin follows zero-order kinetics near its therapeutic range: metabolising enzymes are saturated, so a fixed amount (not fraction) is eliminated per hour. A small dose increase overwhelms this fixed capacity, causing plasma levels to rise disproportionately."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Near the therapeutic range, phenytoin saturates hepatic CYP2C9, shifting to zero-order kinetics — a constant amount is eliminated per unit time, so even a small dose increase causes a disproportionate rise into the toxic range (nystagmus, ataxia)."
+                  "feedback": "Well done. Phenytoin's shift to zero-order kinetics at therapeutic concentrations is a classic pharmacokinetic trap — small dose adjustments can cause dangerous toxicity."
                 }
               ],
               "behaviour": {
@@ -319,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f798be82-70c3-4784-8791-f1133765c9da",
+            "subContentId": "29be37b3-ec33-471f-b8be-e04afca23ff9",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient on phenytoin has plasma levels",
+              "title": "A patient on phenytoin has a plasma leve",
               "authors": [],
               "changes": []
             }
@@ -345,7 +345,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In opioid overdose, naloxone rapidly reverses respiratory depression by competin</p>",
+          "label": "<p>A patient in the emergency department presents with pinpoint pupils and a respir</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,14 +354,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In opioid overdose, naloxone rapidly reverses respiratory depression by competing with morphine at mu-opioid receptors. Which type of antagonism does this best illustrate?</p>",
+              "question": "<p>A patient in the emergency department presents with pinpoint pupils and a respiratory rate of 6 breaths per minute after an opioid overdose. Intravenous naloxone is administered and the respiratory rate rapidly normalises. Which type of drug antagonism does naloxone demonstrate?</p>",
               "answers": [
                 {
                   "text": "<div>Chemical antagonism</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Chemical antagonism involves direct neutralisation of a drug molecule (e.g., protamine binding heparin), not competition at a receptor binding site.</div>",
+                    "chosenFeedback": "<div>Chemical antagonism involves one substance directly neutralising another by chemical binding — like protamine binding heparin. Naloxone does not chemically neutralise the opioid; it competes with it at the receptor.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -370,7 +370,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Physiological antagonism involves two drugs acting on entirely different receptors or pathways with opposing effects (e.g., adrenaline countering histamine in anaphylaxis). Naloxone acts at the same receptor as morphine.</div>",
+                    "chosenFeedback": "<div>Physiological antagonism involves two drugs acting through entirely different receptor systems to produce opposing effects — like adrenaline counteracting histamine-mediated bronchoconstriction in anaphylaxis. Naloxone acts at the same mu-opioid receptor as the overdosed drug.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -379,7 +379,7 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Naloxone competes with morphine at the same mu-opioid receptor, displacing it and reversing its effects — the classic example of pharmacological (competitive) antagonism.</div>",
+                    "chosenFeedback": "<div>Correct. Naloxone is a competitive pharmacological antagonist — it binds to the mu-opioid receptor without producing an intrinsic effect, displacing the opioid agonist and reversing respiratory depression.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -388,7 +388,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Non-competitive antagonism involves binding at a different site on the receptor to reduce maximal response. Naloxone competes at the same orthosteric binding site as morphine, making this competitive pharmacological antagonism.</div>",
+                    "chosenFeedback": "<div>Non-competitive antagonism involves irreversible binding or allosteric binding that reduces the maximum achievable effect. Naloxone binds reversibly at the same orthosteric site as the opioid — it is a competitive, not non-competitive, antagonist.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Naloxone and morphine both act at the mu-opioid receptor — naloxone competes for the same binding site, displacing morphine. This is pharmacological antagonism, distinct from chemical antagonism (direct drug neutralisation) and physiological antagonism (opposing effects via different pathways)."
+                  "feedback": "Naloxone demonstrates pharmacological antagonism: it competes with opioids at the mu-opioid receptor. Compare with chemical antagonism (protamine neutralises heparin by direct binding) and physiological antagonism (adrenaline opposes histamine via entirely different receptor pathways)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. Pharmacological antagonism occurs when two drugs compete at the same receptor. Naloxone displaces morphine from the mu-opioid receptor, reversing respiratory depression — a life-saving application of competitive antagonism."
+                  "feedback": "Exactly right. Naloxone exemplifies pharmacological antagonism — competing at the same mu-opioid receptor to displace the agonist and reverse its life-threatening effects."
                 }
               ],
               "behaviour": {
@@ -429,121 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "46e4fede-bc7f-4c23-921f-43f7f094d3c9",
+            "subContentId": "570701f0-5ca2-4dc3-a196-462cdaea9fe5",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In opioid overdose, naloxone rapidly rev",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 770.5250000000001,
-            "to": 780.5250000000001
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A patient develops anaphylaxis within minutes of receiving penicillin — a Type B</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A patient develops anaphylaxis within minutes of receiving penicillin — a Type B adverse drug reaction. What is the correct management principle for this ADR type?</p>",
-              "answers": [
-                {
-                  "text": "<div>Reduce the penicillin dose and continue therapy</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Dose reduction is appropriate for Type A (augmented) reactions, which are dose-dependent and predictable. Type B reactions are idiosyncratic and not dose-related, so dose reduction does not help.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Switch to another penicillin derivative with a different formulation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Type B reactions are often immune-mediated and related to the drug's core chemical structure. Cross-reactivity within the penicillin class makes switching within the same class inappropriate.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Withdraw penicillin permanently and never rechallenge</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Type B (bizarre/idiosyncratic) reactions demand complete, permanent withdrawal. Rechallenge risks a more severe reaction because of immunological memory.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Add a corticosteroid and continue penicillin at the same dose</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While corticosteroids are part of anaphylaxis emergency management, continuing the offending drug is dangerous. Type B reactions require permanent withdrawal of the causative agent.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Type B (bizarre/idiosyncratic) ADRs are unpredictable and not dose-dependent. Unlike Type A reactions — which can often be managed by reducing the dose — Type B reactions require complete and permanent withdrawal of the offending drug, with no rechallenge."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Type B ADRs are unpredictable, often immune-mediated, and not dose-dependent — the drug must be permanently withdrawn. This is fundamentally different from Type A reactions, where dose adjustment is often sufficient."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "72262593-a86e-477a-ac99-027845ddd229",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A patient develops anaphylaxis within mi",
+              "title": "A patient in the emergency department pr",
               "authors": [],
               "changes": []
             }
@@ -574,14 +464,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient on warfarin is started on rifampicin for tuberculosis. Two weeks later, the patient suffers an ischaemic stroke because warfarin plasma levels have dropped below the therapeutic range. Which category of drug interaction is responsible?</p>",
+              "question": "<p>A patient on warfarin is started on rifampicin for tuberculosis. Two weeks later, the INR drops to sub-therapeutic levels and the patient develops a deep vein thrombosis. Which category of drug interaction is responsible?</p>",
               "answers": [
                 {
                   "text": "<div>Pharmaceutical interaction</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Pharmaceutical interactions are physical or chemical incompatibilities that occur before drugs enter the body (e.g., precipitation when two drugs are mixed in the same IV line). Here, the interaction occurs inside the body.</div>",
+                    "chosenFeedback": "<div>Pharmaceutical interactions are physical or chemical incompatibilities that occur before the drugs reach the patient — such as two drugs precipitating when mixed in the same IV line. This interaction occurs inside the body at the level of hepatic metabolism.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -590,7 +480,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Pharmacodynamic interactions alter a drug's effect at the receptor level without changing its plasma concentration. In this case, warfarin's blood level itself dropped due to increased metabolism.</div>",
+                    "chosenFeedback": "<div>Pharmacodynamic interactions alter a drug's effect at the receptor or target site without changing its plasma concentration. Here, warfarin's plasma level itself is reduced by accelerated metabolism, not its receptor-level activity.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -599,16 +489,16 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Rifampicin induces hepatic CYP enzymes, accelerating warfarin's metabolism and reducing its plasma concentration — a pharmacokinetic interaction at the level of drug metabolism.</div>",
+                    "chosenFeedback": "<div>Correct. Rifampicin is a potent inducer of hepatic CYP450 enzymes, accelerating warfarin's metabolism and reducing its plasma concentration below the effective range — a classic pharmacokinetic interaction at the level of drug metabolism.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Idiosyncratic interaction</div>",
+                  "text": "<div>Idiosyncratic drug reaction</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>'Idiosyncratic interaction' is not a standard category. This interaction is entirely predictable and mechanism-based: rifampicin induces the enzymes that metabolise warfarin, lowering its levels.</div>",
+                    "chosenFeedback": "<div>Idiosyncratic reactions are unpredictable, patient-specific responses. The warfarin–rifampicin interaction is predictable and mechanism-based — it occurs in virtually every patient receiving both drugs because rifampicin reliably induces CYP450 enzymes.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -617,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Rifampicin is a potent inducer of hepatic CYP enzymes, which accelerates warfarin's metabolism and lowers its plasma concentration below the therapeutic range. This is a pharmacokinetic interaction — the drug's blood level is altered through changes in metabolism, not through any effect at the receptor."
+                  "feedback": "This is a pharmacokinetic interaction: rifampicin induces hepatic CYP450 enzymes, increasing warfarin's rate of metabolism and lowering its plasma concentration below the therapeutic range. Knowing the mechanism lets the prescriber anticipate the problem rather than react to a thrombotic event."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Rifampicin induces hepatic CYP enzymes, increasing warfarin's metabolism and lowering its plasma concentration — a pharmacokinetic interaction. This is why prescribers must review all enzyme-metabolised medicines before starting rifampicin, especially narrow-therapeutic-index drugs like warfarin."
+                  "feedback": "Well done. Rifampicin induces CYP450 enzymes, accelerating warfarin's metabolism — a textbook pharmacokinetic interaction that prescribers must anticipate before starting anti-tubercular therapy."
                 }
               ],
               "behaviour": {
@@ -649,7 +539,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "d499d3c3-72e4-41af-b1f4-66ee58b57658",
+            "subContentId": "22f84308-858f-422f-9a51-d62821b02653",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -724,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "f8f9155e-5b6d-40ed-9612-a2cd8453f78a",
+              "subContentId": "8208c141-f7c5-43ac-b754-028f869b1c91",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -747,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "a2ba7ed9-8f5f-48d3-98e2-e9c7ae3c254f",
+        "subContentId": "59077aab-5f05-46f8-bf29-20be9ec6c349",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
