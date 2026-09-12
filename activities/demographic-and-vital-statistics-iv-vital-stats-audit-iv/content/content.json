@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/60fa739c-812d-4785-83a5-41677ce4470e/playlist.m3u8",
+          "path": "https://vdo.cbme.in/ea40491e-ba0c-4ab4-ae6d-0b677394e5a3/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OG1.1-5 | Demographic and Vital Statistics — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for OG1.1-OG1.5."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for OG1.1-OG1.5."
       },
       "textTracks": {
         "videoTrack": [
@@ -67,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The maternal mortality ratio (MMR) and the maternal mortality rate both count ma</p>",
+          "label": "<p>The Maternal Mortality Ratio (MMR) uses live births as its denominator, while th</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The maternal mortality ratio (MMR) and the maternal mortality rate both count maternal deaths in the numerator but differ in their denominators. Which of the following correctly describes this difference?</p>",
+              "question": "<p>The Maternal Mortality Ratio (MMR) uses live births as its denominator, while the Maternal Mortality Rate uses women of reproductive age. Why does the MMR specifically use live births?</p>",
               "answers": [
                 {
-                  "text": "<div>MMR uses total births (including stillbirths); the rate uses live births</div>",
+                  "text": "<div>Stillbirths are excluded because they do not generate maternal complications</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The MMR denominator is live births, not total births. The rate uses an entirely different population denominator.</div>",
+                    "chosenFeedback": "<div>Incorrect. Stillbirths are excluded from the denominator not because they lack maternal complications — pregnancies ending in stillbirth can cause severe maternal morbidity. Live births are used because they approximate the population of women exposed to the risk of maternal death.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>MMR uses live births; the rate uses women of reproductive age (15–49 years)</div>",
+                  "text": "<div>The Sample Registration System only records live births, not total births</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. The SRS records both live births and stillbirths. The choice of live births as the denominator is an epidemiological decision — they approximate the number of pregnancy events that carry maternal risk.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Live births approximate the number of women exposed to pregnancy-related risk, making the MMR a measure of risk per pregnancy event</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! The MMR divides maternal deaths by live births (×100,000), reflecting risk per pregnancy that resulted in a live birth. The rate uses all women of reproductive age as the denominator, reflecting the broader population-level risk across the fertile years.</div>",
+                    "chosenFeedback": "<div>Correct. Since maternal deaths occur only in women who are pregnant or recently delivered, live births serve as a proxy for the population at risk — the women who actually experienced pregnancy and childbirth.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>MMR uses women of reproductive age; the rate uses live births</div>",
+                  "text": "<div>Live births are easier to count accurately than total births in field surveys</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This reverses the two denominators. The ratio uses live births because maternal deaths occur only in women who are pregnant or recently delivered; the rate uses women of reproductive age to capture the wider population risk.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>MMR uses total pregnancies registered; the rate uses total deliveries</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Neither denominator is correct. The MMR uses live births, and the rate uses women of reproductive age (15–49 years). Pregnancies and deliveries are not standard denominators for these measures.</div>",
+                    "chosenFeedback": "<div>Incorrect. The denominator choice is epidemiological, not practical. Live births are used because they represent the population of women who experienced pregnancy and delivery — the group at risk of maternal death.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the distinction: the maternal mortality ratio uses live births in the denominator (risk per delivery), while the maternal mortality rate uses women of reproductive age 15–49 (risk across the fertile population)."
+                  "feedback": "Review the distinction: the MMR denominator (live births) approximates the at-risk population — women who went through pregnancy and childbirth. The maternal mortality rate uses women of reproductive age because it captures the broader lifetime risk."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The ratio benchmarks risk per pregnancy outcome, while the rate captures risk across the entire fertile population — two views of the same problem at different scales."
+                  "feedback": "Well done. Understanding why specific denominators are chosen helps you interpret and compare vital statistics correctly across different populations."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2ec962de-e4bf-4e1a-a4e6-31d51dc63e83",
+            "subContentId": "8820ad8f-a6fb-4c9f-a668-a32a6e504315",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The maternal mortality ratio (MMR) and t",
+              "title": "The Maternal Mortality Ratio (MMR) uses",
               "authors": [],
               "changes": []
             }
@@ -177,7 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>According to the WHO framework formalised in 2011, what is the key criterion tha</p>",
+          "label": "<p>According to the WHO (2011), which criterion must be met for a maternal complica</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>According to the WHO framework formalised in 2011, what is the key criterion that classifies a complication as a maternal near-miss rather than simply severe maternal morbidity?</p>",
+              "question": "<p>According to the WHO (2011), which criterion must be met for a maternal complication to qualify as a maternal near-miss?</p>",
               "answers": [
                 {
-                  "text": "<div>Admission to the intensive care unit for more than 24 hours</div>",
+                  "text": "<div>The woman requires admission to an intensive care unit during pregnancy</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>ICU admission often accompanies a near-miss, but it is not the defining criterion. A woman may be in the ICU for monitoring without meeting near-miss criteria, or may have organ dysfunction managed outside a formal ICU.</div>",
+                    "chosenFeedback": "<div>Incorrect. ICU admission alone does not define a near-miss. Many women are admitted for monitoring without meeting the threshold of severe organ dysfunction that the WHO criteria require.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Requirement for blood transfusion of more than five units</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Massive transfusion can indicate a near-miss event such as severe haemorrhage, but it is one possible marker, not the defining criterion. The near-miss definition is broader and system-based.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Evidence of severe organ dysfunction in one or more organ systems</div>",
+                  "text": "<div>The woman survives a life-threatening complication characterised by severe organ dysfunction during pregnancy, childbirth, or within 42 days of termination</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! The WHO defines a maternal near-miss as a woman who survived severe organ dysfunction — cardiovascular, respiratory, renal, coagulation, hepatic, or neurological — during pregnancy, delivery, or within 42 days of the pregnancy ending. This threshold distinguishes a near-miss from other severe morbidity.</div>",
+                    "chosenFeedback": "<div>Correct. The WHO near-miss definition requires survival plus evidence of severe organ dysfunction — cardiovascular, respiratory, renal, coagulation, hepatic, or neurological — occurring during pregnancy, childbirth, or within 42 days of pregnancy termination.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Survival after an emergency peripartum hysterectomy</div>",
+                  "text": "<div>The woman needs a blood transfusion of more than two units during delivery</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Emergency hysterectomy is a specific management-based marker sometimes used in near-miss audits, but the overarching WHO definition centres on organ dysfunction across any system, not a single surgical procedure.</div>",
+                    "chosenFeedback": "<div>Incorrect. While a massive transfusion may accompany a near-miss event, blood transfusion alone does not satisfy the WHO criterion. The definition specifically requires severe organ dysfunction, not a single intervention threshold.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The woman's hospital stay exceeds seven days following delivery due to a complication</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Prolonged hospital stay indicates significant morbidity but does not meet the WHO near-miss threshold. The defining criterion is severe organ dysfunction, not duration of stay.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The defining criterion is severe organ dysfunction — in the cardiovascular, respiratory, renal, coagulation, hepatic, or neurological systems. The WHO formalised this in 2011 to systematically identify women who nearly died but survived."
+                  "feedback": "The WHO maternal near-miss concept (2011) has a specific threshold: the woman must have survived severe organ dysfunction — cardiovascular, respiratory, renal, coagulation, hepatic, or neurological — during pregnancy or within 42 days of its end."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The near-miss concept captures preventable near-fatalities by identifying severe organ dysfunction — the same system failures that, under different circumstances, would have caused a death."
+                  "feedback": "Excellent. Near-miss audits complement mortality data by capturing preventable near-fatalities that reflect the same systemic failures that elsewhere would have caused a death."
                 }
               ],
               "behaviour": {
@@ -261,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "1910ad5f-df7f-4582-91cc-ad718ff5770f",
+            "subContentId": "d88a9aa8-e38f-4258-b3ea-bae8deb32724",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "According to the WHO framework formalise",
+              "title": "According to the WHO (2011), which crite",
               "authors": [],
               "changes": []
             }
@@ -287,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the opening clinical scenario, a pregnant woman from a remote village had sei</p>",
+          "label": "<p>A pregnant woman in a remote village recognises danger signs but waits two days </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,23 +296,23 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In the opening clinical scenario, a pregnant woman from a remote village had seizures at home, was brought to the district hospital after 'a long journey from a remote village,' and died forty minutes after arrival despite resuscitation. Applying the Thaddeus and Maine model, which delay is MOST directly indicated by the phrase 'a long journey from a remote village'?</p>",
+              "question": "<p>A pregnant woman in a remote village recognises danger signs but waits two days hoping they will resolve, partly because her family fears the cost of hospital care. Which of the three delays does this scenario best illustrate?</p>",
               "answers": [
                 {
                   "text": "<div>Delay 1 — delay in deciding to seek care</div>",
-                  "correct": false,
+                  "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Delay 1 relates to decision-making at home — recognising danger signs, overcoming financial or cultural barriers. The phrase 'a long journey from a remote village' specifically describes the physical barrier of reaching the facility, which is Delay 2.</div>",
+                    "chosenFeedback": "<div>Correct. Delay 1 encompasses factors that delay the decision to seek care: failure to recognise danger, financial barriers, cultural norms, and limited decision-making power. Here, despite recognising the signs, the family's fear of cost delayed the decision to act.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Delay 2 — delay in reaching the health facility</div>",
-                  "correct": true,
+                  "text": "<div>Delay 2 — delay in reaching a health facility</div>",
+                  "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. 'A long journey from a remote village' directly describes Delay 2 — geographic isolation and inadequate transport preventing timely access to care. This scenario likely involved all three delays (seizures at home suggest Delay 1; death despite resuscitation suggests possible Delay 3), but the phrase specifically maps to Delay 2.</div>",
+                    "chosenFeedback": "<div>Incorrect. Delay 2 relates to physical barriers in reaching the facility — geographic distance, poor roads, or inadequate transport. This woman's delay occurred at home, in the decision to seek care, not during the journey.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -321,16 +321,16 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Delay 3 refers to inadequate care after arrival — staff shortages, lack of blood or drugs, or skill gaps. The phrase 'a long journey from a remote village' describes the journey itself (Delay 2), not the care received after arrival.</div>",
+                    "chosenFeedback": "<div>Incorrect. Delay 3 occurs after the woman reaches the facility — staff shortages, missing drugs or blood, or gaps in clinical skill. In this scenario, she has not yet left home.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>This scenario involves only Delay 1, since the seizures started at home</div>",
+                  "text": "<div>A combination of Delay 2 and Delay 3, since remoteness and cost are facility-access issues</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The seizures at home may relate to Delay 1 (delayed recognition), but the scenario clearly involves multiple delays. The phrase asked about specifically points to Delay 2 — geographic barriers to reaching care.</div>",
+                    "chosenFeedback": "<div>Incorrect. Although remoteness contributes to Delay 2, the scenario describes hesitation at home driven by fear of cost — a Delay 1 problem. The barrier is the decision to seek care, not the physical journey or facility-level care.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The phrase 'a long journey from a remote village' maps to Delay 2 — the delay in physically reaching the facility due to geographic isolation and inadequate transport. Remember: Delay 1 = deciding to seek care, Delay 2 = reaching the facility, Delay 3 = receiving adequate care."
+                  "feedback": "Review the three delays: Delay 1 = deciding to seek care (recognition, cost fears, cultural norms), Delay 2 = reaching the facility (distance, transport), Delay 3 = receiving care (staff, supplies, skills). Most Indian maternal deaths involve more than one delay."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well analysed. Most Indian maternal deaths involve more than one delay simultaneously, which is why effective interventions must address all three points — community awareness, transport infrastructure, and facility readiness."
+                  "feedback": "Well done. The three delays model helps identify where the system failed in each maternal death, guiding targeted interventions rather than generic solutions."
                 }
               ],
               "behaviour": {
@@ -371,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "3730e5ed-77dd-4adf-a0e9-e1fa0672831c",
+            "subContentId": "76843621-1cb8-4525-99cf-96312e115985",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In the opening clinical scenario, a preg",
+              "title": "A pregnant woman in a remote village rec",
               "authors": [],
               "changes": []
             }
@@ -397,7 +397,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The Robson Ten-Group Classification System sorts every obstetric patient using s</p>",
+          "label": "<p>What property of the Robson Ten-Group Classification makes it the WHO-recommende</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The Robson Ten-Group Classification System sorts every obstetric patient using six specific variables. Which of the following is NOT one of these classification variables?</p>",
+              "question": "<p>What property of the Robson Ten-Group Classification makes it the WHO-recommended standard for comparing caesarean section rates across facilities?</p>",
               "answers": [
                 {
-                  "text": "<div>Onset of labour (spontaneous, induced, or pre-labour caesarean)</div>",
+                  "text": "<div>It groups patients by the clinical indication for their caesarean section</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Onset of labour IS one of the six Robson variables. It distinguishes whether labour was spontaneous, induced, or whether a caesarean was planned before labour began — a crucial distinction for audit.</div>",
+                    "chosenFeedback": "<div>Incorrect. Robson groups classify ALL obstetric patients — not just those who had caesarean sections — by characteristics such as parity, presentation, gestational age, and onset of labour, regardless of mode of delivery.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Indication for caesarean section (e.g. foetal distress, failed progress)</div>",
+                  "text": "<div>Its ten groups are mutually exclusive and totally inclusive, so every patient is classified exactly once and all patients are accounted for</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! The indication for caesarean is NOT a Robson variable. The six variables are: parity, previous caesarean section, foetal presentation, onset of labour, gestational age, and number of foetuses. The system deliberately avoids subjective variables like indication, which differ between clinicians — this is what makes it reproducible across facilities worldwide.</div>",
+                    "chosenFeedback": "<div>Correct. Mutual exclusivity means each patient fits only one group; total inclusivity means every patient in the obstetric population can be classified. Together, these properties ensure group sizes add up to the whole population and group-specific CS rates combine to give the overall facility rate.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Foetal presentation (cephalic, breech, or transverse)</div>",
+                  "text": "<div>It adjusts caesarean rates for differences in hospital infrastructure and staffing levels</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Foetal presentation IS one of the six Robson variables. It determines whether the patient enters Groups 1–5 (cephalic), Group 6 or 7 (breech), or Group 9 (transverse or oblique lie).</div>",
+                    "chosenFeedback": "<div>Incorrect. The Robson system does not adjust for facility resources. It classifies patients by obstetric characteristics, which then allows facilities to compare the same patient profiles against each other.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Number of foetuses (singleton or multiple)</div>",
+                  "text": "<div>It excludes emergency caesarean sections, which are too variable for meaningful comparison</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Number of foetuses IS one of the six Robson variables. Multiple pregnancies are classified separately in Group 8, regardless of other characteristics.</div>",
+                    "chosenFeedback": "<div>Incorrect. The Robson system includes all deliveries — vaginal, elective caesarean, and emergency caesarean. Excluding any delivery type would undermine its value as a comprehensive audit framework.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The six Robson variables are: parity, previous caesarean section, foetal presentation, onset of labour, gestational age, and number of foetuses. The indication for caesarean is deliberately excluded because it is subjective and varies between clinicians."
+                  "feedback": "The key properties are mutual exclusivity (each patient fits one group only) and total inclusivity (every patient fits somewhere). These ensure the system captures the entire obstetric population without overlap, making comparisons valid."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The Robson system uses only objective, easily recorded obstetric characteristics — never the indication for surgery. This objectivity is what makes the classification mutually exclusive, totally inclusive, and reproducible for audit."
+                  "feedback": "Exactly. The mutual exclusivity and total inclusivity of the Robson system make it a complete audit framework — every patient has a place, and no patient is double-counted."
                 }
               ],
               "behaviour": {
@@ -481,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5bddcf9f-d63e-4d5b-b453-8f0db78516b1",
+            "subContentId": "a7c42ce0-ca93-4077-a2e1-604bfd5631dd",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The Robson Ten-Group Classification Syst",
+              "title": "What property of the Robson Ten-Group Cl",
               "authors": [],
               "changes": []
             }
@@ -501,13 +501,123 @@
         },
         {
           "duration": {
-            "from": 858.0250000000001,
-            "to": 868.0250000000001
+            "from": 741.4000000000001,
+            "to": 751.4000000000001
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Under Janani Shishu Suraksha Karyakram (JSSK), eligible pregnant women receive a</p>",
+          "label": "<p>How do Janani Suraksha Yojana (JSY) and Janani Shishu Suraksha Karyakram (JSSK) </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>How do Janani Suraksha Yojana (JSY) and Janani Shishu Suraksha Karyakram (JSSK) differ in their approach to reducing maternal mortality?</p>",
+              "answers": [
+                {
+                  "text": "<div>JSY provides free delivery services at government facilities; JSSK pays cash incentives to ASHA workers</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. This reverses the two schemes. JSY is the cash transfer programme that incentivises women to deliver in facilities. JSSK provides free services — delivery, drugs, diagnostics, blood, meals, and transport.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>JSY covers only Below Poverty Line families nationwide; JSSK is universal in all states</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. In low-performing states, JSY covers ALL women regardless of income. In high-performing states, it targets BPL women. JSSK's free services apply to all women delivering in government facilities.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>JSY is a conditional cash transfer encouraging institutional delivery; JSSK eliminates out-of-pocket costs for delivery and newborn care at the facility</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. JSY (2005) motivates women to choose facility delivery by offering a direct cash payment. JSSK (2011) removes financial barriers once they arrive — free delivery (normal or caesarean), drugs, diagnostics, blood, meals, transport, and free treatment for sick newborns up to 30 days.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>JSY was launched as part of JSSK in 2011 to add a cash component to the free-services model</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. JSY (2005) preceded JSSK by six years. They are independent schemes under the National Health Mission that tackle complementary barriers — JSY encourages facility delivery, JSSK removes costs once the woman arrives.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Remember the distinction: JSY (2005) = conditional cash transfer to encourage institutional delivery. JSSK (2011) = free services at the facility — delivery, drugs, diagnostics, blood, meals, and transport, plus free care for sick newborns up to 30 days."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. Together, JSY and JSSK address complementary barriers: JSY gets women through the door with a cash incentive, and JSSK ensures they pay nothing once inside."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "22e3d8e5-fb61-41e1-924c-e5205a1a79ec",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "How do Janani Suraksha Yojana (JSY) and",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 936.4250000000002,
+            "to": 946.4250000000002
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>The Robson group for a patient can always be accurately determined retrospective</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -516,7 +626,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Under Janani Shishu Suraksha Karyakram (JSSK), eligible pregnant women receive a direct cash transfer to encourage institutional delivery.</p>",
+              "question": "<p>The Robson group for a patient can always be accurately determined retrospectively from the medical record after discharge.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -534,16 +644,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. JSSK (launched 2011) removes costs entirely by providing free services — delivery, drugs, diagnostics, blood, meals, and transport — not cash payments. The conditional cash transfer scheme is Janani Suraksha Yojana (JSY, launched 2005). Remember: JSY pays you to come; JSSK ensures you pay nothing once you arrive.",
-                "correctAnswerMessage": "Correct — this statement is false. JSSK (2011) does not provide cash transfers. It eliminates out-of-pocket costs by making delivery, drugs, diagnostics, blood transfusions, meals, and transport completely free. The conditional cash transfer scheme is Janani Suraksha Yojana (JSY), launched in 2005.",
+                "wrongAnswerMessage": "This statement is false. While most obstetric variables are documented, the critical distinction between a planned pre-labour caesarean and one decided during labour cannot be reconstructed later. Robson classification must therefore be assigned prospectively at the time of discharge.",
+                "correctAnswerMessage": "Correct — this statement is false. Whether a caesarean was planned before labour or performed during labour often cannot be reliably reconstructed from the record after the fact. This is why Robson classification must be recorded prospectively as part of the delivery record itself.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "a1d95f5a-2577-4124-a135-061cbbdfc940",
+            "subContentId": "87a03a95-c655-47be-917c-d22ba57c71da",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Under Janani Shishu Suraksha Karyakram (",
+              "title": "The Robson group for a patient can alway",
               "authors": [],
               "changes": []
             }
@@ -618,7 +728,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "d3c708e0-c27c-4878-becd-2ab770101cce",
+              "subContentId": "254ee3f3-5f17-46cb-b468-efd97de30e28",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -641,7 +751,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "0b258505-9abd-4f11-823d-0aecd0c0a733",
+        "subContentId": "f5df2532-d239-419f-a560-d6429ce861e8",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
