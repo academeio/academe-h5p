@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/9d873fe2-98c8-49c3-9c8c-702b2f3c963e/playlist.m3u8",
+          "path": "https://vdo.cbme.in/01613c7a-55eb-4c4e-9f63-82dd49d8cea2/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PH6.1-5 | Gastrointestinal Pharmacology — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for PH6.1-PH6.5."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for PH6.1-PH6.5."
       },
       "textTracks": {
         "videoTrack": [
@@ -67,7 +67,337 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Helicobacter pylori causes peptic ulcers primarily by directly stimulating parie</p>",
+          "label": "<p>How does Helicobacter pylori increase gastric acid output beyond normal levels?</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>How does Helicobacter pylori increase gastric acid output beyond normal levels?</p>",
+              "answers": [
+                {
+                  "text": "<div>It directly produces hydrochloric acid through its urease enzyme</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Urease produces ammonia from urea, which helps H. pylori survive in the acidic stomach — it does not generate hydrochloric acid.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It suppresses the stomach's natural braking mechanism on acid production, leading to excess gastrin-driven acid secretion</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. H. pylori disrupts the normal inhibitory feedback on gastrin release, resulting in persistently elevated gastrin and consequently higher acid output from parietal cells.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It destroys the bicarbonate-secreting surface cells of the gastric mucosa</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While H. pylori damages the mucosa through its toxins and inflammatory response, its key effect on acid output is through dysregulation of gastrin, not destruction of bicarbonate-secreting cells.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It converts inactive pepsinogen into active pepsin in the gastric lumen</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Pepsinogen is activated by the low pH of gastric juice, not by H. pylori. The bacterium raises acid output indirectly, which then activates more pepsin as a secondary consequence.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Review H. pylori's four virulence mechanisms: ammonia production (urease), toxic proteins (VacA, CagA), chronic inflammation, and — most importantly for this question — suppression of the inhibitory feedback on gastrin, driving excess acid output."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "H. pylori suppresses the stomach's acid-inhibitory feedback, allowing unchecked gastrin secretion — a key reason why eradication is central to lasting ulcer cure."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "e12ba3f7-93f1-43ac-b721-52f2d83dcb5a",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "How does Helicobacter pylori increase ga",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 395.875,
+            "to": 405.875
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Why should sucralfate NOT be prescribed together with a proton pump inhibitor?</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Why should sucralfate NOT be prescribed together with a proton pump inhibitor?</p>",
+              "answers": [
+                {
+                  "text": "<div>Sucralfate inactivates the proton pump inhibitor before it can be absorbed</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Sucralfate can bind some drugs in the gut, but that is not the reason for this incompatibility — the issue lies in what sucralfate itself needs to work.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Both drugs compete for the same binding site on the H⁺/K⁺-ATPase pump of parietal cells</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Sucralfate does not act on parietal cells at all — it works entirely in the gastric lumen as a local, physical barrier over damaged mucosa.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>PPIs increase aluminium absorption from sucralfate, causing nephrotoxicity</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While sucralfate should be avoided in severe renal failure due to its aluminium content, the reason for avoiding co-prescription with PPIs is that sucralfate needs an acidic pH to activate.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Sucralfate requires an acidic gastric environment to polymerise into its protective barrier, and PPIs raise pH too high for this to occur</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Sucralfate is an aluminium salt that polymerises into a viscous paste only under acidic conditions. PPIs raise gastric pH well beyond the range needed for this activation, rendering sucralfate ineffective.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The key principle: sucralfate is an aluminium salt that turns into a sticky paste in an acidic environment. PPIs raise gastric pH substantially, preventing sucralfate from activating. This is why the two drugs are pharmacologically incompatible."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Sucralfate polymerises only in acid — combining it with a PPI removes the very condition it needs to form its protective barrier over the ulcer base."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "6466c39a-07af-40a3-a496-fdc3b8c5c30e",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Why should sucralfate NOT be prescribed",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 581.55,
+            "to": 591.55
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A 4-year-old child presents with bloody mucoid diarrhoea and high fever. Stool c</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A 4-year-old child presents with bloody mucoid diarrhoea and high fever. Stool culture confirms invasive Shigella colitis. Why is loperamide contraindicated in this patient?</p>",
+              "answers": [
+                {
+                  "text": "<div>Loperamide causes dose-dependent respiratory depression in young children at therapeutic doses</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While opioid-related effects can occur in very young children, the primary contraindication here relates to the invasive infection itself, not the patient's age.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>By reducing gut motility, loperamide traps toxins and bacteria inside the bowel, delaying clearance and risking life-threatening complications such as toxic megacolon</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. In invasive colitis, slowing gut transit prevents the body from clearing pathogens and their toxins, which can precipitate toxic megacolon or intestinal perforation — a surgical emergency.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Loperamide directly suppresses the mucosal immune cells needed to clear Shigella from the intestinal wall</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Loperamide acts on opioid receptors in the myenteric plexus to slow motility — it does not directly suppress mucosal immune function.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Loperamide interacts with the antibiotics used for Shigella, reducing their bioavailability</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This is not a recognised drug interaction. The danger is mechanical — trapping toxins and bacteria by slowing gut transit, not a pharmacokinetic interaction with antibiotics.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The critical rule: in invasive diarrhoea (bloody stools, fever, confirmed pathogen), anti-motility drugs trap the organism and its toxins inside the bowel. This can cause toxic megacolon — a life-threatening complication that makes an already serious infection far worse."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "In invasive colitis, gut motility serves a protective function by clearing pathogens and toxins. Anti-motility agents like loperamide reverse this, trapping the offending organisms and risking fatal complications."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "55233d0a-00b2-4be4-9202-5fcc11b60656",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A 4-year-old child presents with bloody",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 689.125,
+            "to": 699.125
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Stimulant laxatives such as senna and bisacodyl are the safest class of laxative</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,7 +406,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Helicobacter pylori causes peptic ulcers primarily by directly stimulating parietal cells to secrete more gastric acid.</p>",
+              "question": "<p>Stimulant laxatives such as senna and bisacodyl are the safest class of laxatives for long-term management of chronic constipation.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -94,16 +424,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "H. pylori does lead to increased acid output, but indirectly — by suppressing the stomach's natural braking mechanism on gastrin. Its primary pathogenic mechanism is direct mucosal damage through urease-derived ammonia, cytotoxic proteins (VacA, CagA), and chronic inflammation, not direct parietal cell stimulation.",
-                "correctAnswerMessage": "Correct. H. pylori does not directly stimulate parietal cells. Its primary pathogenic mechanisms are urease-derived ammonia production, release of cytotoxic proteins (VacA, CagA), and chronic mucosal inflammation. While it does suppress the stomach's normal braking mechanism on gastrin-driven acid secretion — leading to increased acid output — this indirect effect is secondary to the direct mucosal injury.",
+                "wrongAnswerMessage": "This is false. Stimulant laxatives act quickly by triggering colonic contractions, but they are meant for short courses only — not chronic use. Bulk-forming agents such as ispaghula, which absorb water and stimulate peristalsis naturally, are the safest class for long-term management of constipation.",
+                "correctAnswerMessage": "You correctly identified this as false. Bulk-forming agents like ispaghula are the safest for long-term use because they mimic physiological stool passage by absorbing water and increasing bulk. Stimulant laxatives trigger direct colonic contractions and are intended for short courses only.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "1a12dbb9-3663-497c-b62d-eb350853d637",
+            "subContentId": "5fa01780-be8c-4afc-8fb2-accddd43fe44",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Helicobacter pylori causes peptic ulcers",
+              "title": "Stimulant laxatives such as senna and bi",
               "authors": [],
               "changes": []
             }
@@ -119,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 492.025,
-            "to": 502.025
+            "from": 808.6999999999999,
+            "to": 818.6999999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with Parkinson's disease develops post-operative nausea. The intern pr</p>",
+          "label": "<p>Which statement correctly distinguishes the pharmacotherapy of inflammatory bowe</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with Parkinson's disease develops post-operative nausea. The intern prescribes metoclopramide. Which receptor mechanism explains why this choice is likely to worsen the patient's neurological symptoms?</p>",
+              "question": "<p>Which statement correctly distinguishes the pharmacotherapy of inflammatory bowel disease (IBD) from that of irritable bowel syndrome (IBS)?</p>",
               "answers": [
                 {
-                  "text": "<div>5-HT₃ receptor antagonism in the vomiting centre</div>",
+                  "text": "<div>Both conditions share the same first-line drugs, but IBD requires higher doses and longer treatment duration</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>5-HT₃ antagonism is the mechanism of ondansetron, not metoclopramide. Ondansetron does not block dopamine receptors and would be a safer antiemetic choice in Parkinson's disease.</div>",
+                    "chosenFeedback": "<div>IBD and IBS use entirely different drug classes. IBD drugs target inflammation and immune pathways; IBS drugs target functional symptoms such as altered motility, secretion, and visceral pain.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>H₁ receptor antagonism in the vestibular nuclei</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>H₁ antagonism is the mechanism by which antihistamines like promethazine treat motion sickness and vestibular nausea. This is not how metoclopramide works.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>D₂ receptor antagonism in the central nervous system after crossing the blood-brain barrier</div>",
+                  "text": "<div>IBD is treated with anti-inflammatory and immunomodulatory agents, while IBS is managed with symptom-directed drugs such as antispasmodics, secretagogues, or low-dose antidepressants</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Metoclopramide crosses the blood-brain barrier and blocks D₂ receptors centrally. In Parkinson's disease, where dopaminergic signalling is already deficient, this D₂ blockade worsens motor symptoms including tremor and involuntary movements.</div>",
+                    "chosenFeedback": "<div>Correct. IBD involves mucosal inflammation requiring aminosalicylates, corticosteroids, immunomodulators, or biologics. IBS has no mucosal pathology and is managed by targeting the predominant symptom — diarrhoea, constipation, or pain.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Muscarinic receptor agonism in the gastrointestinal tract</div>",
+                  "text": "<div>Corticosteroids are first-line maintenance therapy for both IBD and IBS, differing only in route of administration</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Metoclopramide's prokinetic effect comes from 5-HT₄ agonism in the myenteric plexus, not muscarinic agonism. Its neurological adverse effects are due to central D₂ blockade, not any muscarinic action.</div>",
+                    "chosenFeedback": "<div>Corticosteroids are used in IBD only for induction during acute flares — never for maintenance. They have no role at all in IBS, which lacks the inflammatory pathology that steroids target.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Biologics like infliximab are equally effective in both IBD and IBS when conventional therapy fails</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Biologics target specific inflammatory mediators such as TNF-α and integrins, and are reserved for moderate-to-severe IBD. IBS has no inflammatory target for biologics to act upon.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Metoclopramide blocks D₂ receptors and, unlike domperidone, readily crosses the blood-brain barrier. In Parkinson's disease, this central dopamine blockade worsens the existing motor deficit."
+                  "feedback": "Remember the key rule from this section: none of the IBS drugs are anti-inflammatory or immune-modulating. IBD = mucosal inflammation → immunotherapy. IBS = functional symptoms → symptom-directed therapy. Mixing them up is the most dangerous prescribing error in GI pharmacology."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Metoclopramide crosses the blood-brain barrier and blocks central D₂ receptors — in Parkinson's disease, this worsens the already deficient dopaminergic motor pathway."
+                  "feedback": "The critical divide: IBD drugs are anti-inflammatory or immunomodulatory; IBS drugs are purely symptom-directed. Confusing the two risks either needless immunosuppression or untreated mucosal damage."
                 }
               ],
               "behaviour": {
@@ -209,231 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5bdbf5bf-c9ad-476c-b1ba-d0d55c89db2d",
+            "subContentId": "3fc75829-133a-4dca-9ddf-94f9c3d83ab8",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with Parkinson's disease devel",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 582.15,
-            "to": 592.15
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A 30-year-old man presents with bloody diarrhoea, fever, and abdominal cramps. S</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A 30-year-old man presents with bloody diarrhoea, fever, and abdominal cramps. Stool culture grows Shigella. Which drug is CONTRAINDICATED in this patient?</p>",
-              "answers": [
-                {
-                  "text": "<div>Oral rehydration solution</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>ORS is the cornerstone of management in all diarrhoeal illnesses. It replaces fluid and electrolyte losses and is never contraindicated.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Loperamide</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Loperamide is an anti-motility agent that slows gut transit. In invasive colitis caused by organisms like Shigella, it traps toxins and bacteria inside the bowel, delays their clearance, and can precipitate life-threatening complications such as toxic megacolon.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Zinc supplementation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Zinc supplementation reduces the duration and severity of diarrhoeal episodes and is recommended as adjunctive therapy, particularly in children.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Ciprofloxacin</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Ciprofloxacin is an appropriate antimicrobial for Shigella dysentery and is part of the targeted treatment, not a contraindicated agent.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Loperamide is the contraindicated drug. In invasive colitis, anti-motility agents trap bacteria and toxins inside the bowel, delaying their clearance and potentially precipitating life-threatening complications."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Anti-motility agents like loperamide must be avoided in invasive, bloody diarrhoea — they trap pathogens and toxins in the bowel, delaying clearance and risking dangerous complications."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "72ed7d33-af08-4d43-8051-2fd6a3e8ae98",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A 30-year-old man presents with bloody d",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 689.725,
-            "to": 699.725
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A patient with chronic kidney disease requires a laxative for long-term constipa</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A patient with chronic kidney disease requires a laxative for long-term constipation management. Which agent should be AVOIDED?</p>",
-              "answers": [
-                {
-                  "text": "<div>Ispaghula husk</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Ispaghula is a bulk-forming laxative that absorbs water and stimulates peristalsis naturally. It is safe for long-term use and has no contraindication in kidney disease, provided adequate fluid intake is maintained.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Lactulose</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Lactulose is a non-absorbable sugar that draws water osmotically into the bowel. It is not systemically absorbed and does not carry a risk of electrolyte accumulation in renal failure.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Magnesium hydroxide</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Magnesium hydroxide is an osmotic laxative containing a poorly absorbed salt. In kidney failure, impaired renal excretion leads to magnesium accumulation, risking dangerous hypermagnesaemia with cardiac and neuromuscular toxicity.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Polyethylene glycol (PEG)</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>PEG is a non-absorbable osmotic agent that does not cause clinically significant electrolyte disturbance. It is suitable for long-term use even in patients with renal impairment.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Magnesium hydroxide is the agent to avoid. In chronic kidney disease, impaired renal excretion of magnesium leads to dangerous accumulation and risk of hypermagnesaemia."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. Magnesium-based osmotic laxatives must be avoided in kidney failure — impaired excretion leads to systemic magnesium accumulation and risk of toxicity."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "96bbfeb2-4f98-4e1c-acc6-6af5e330744f",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A patient with chronic kidney disease re",
+              "title": "Which statement correctly distinguishes",
               "authors": [],
               "changes": []
             }
@@ -455,7 +565,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 50-year-old man presents with haematemesis from a bleeding duodenal ulcer. Aft</p>",
+          "label": "<p>A patient with a bleeding duodenal ulcer requires pharmacotherapy to support hae</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +574,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 50-year-old man presents with haematemesis from a bleeding duodenal ulcer. After endoscopic haemostasis, which pharmacological strategy best supports clot stability and prevents re-bleeding?</p>",
+              "question": "<p>A patient with a bleeding duodenal ulcer requires pharmacotherapy to support haemostasis. Which intragastric pH target and drug class are most appropriate?</p>",
               "answers": [
                 {
-                  "text": "<div>Oral H₂ receptor antagonist to maintain intragastric pH above 4</div>",
+                  "text": "<div>pH above 4, achieved with an H2 receptor antagonist</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>H₂ receptor antagonists suppress about 70% of acid output and can achieve pH above 4 for ulcer healing, but they cannot reliably sustain pH above 6, which is the target needed for haemostasis in a bleeding ulcer.</div>",
+                    "chosenFeedback": "<div>pH above 4 is the target for ulcer healing, not for haemostasis. A bleeding ulcer needs pH above 6, and H2 receptor antagonists, which suppress only about 70% of acid output, cannot reliably achieve that.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Hourly oral antacids to neutralise secreted acid</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Antacids provide rapid but short-lived acid neutralisation. They cannot maintain the sustained intragastric pH elevation above 6 required for platelet aggregation and fibrin clot stability.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>High-dose intravenous proton pump inhibitor to maintain intragastric pH above 6</div>",
+                  "text": "<div>pH above 6, achieved with a high-dose proton pump inhibitor</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Haemostasis requires intragastric pH above 6, because platelet aggregation and fibrin clot stability are pH-dependent. High-dose intravenous PPIs suppress over 90% of acid output and reliably maintain this target, reducing re-bleeding risk.</div>",
+                    "chosenFeedback": "<div>Correct. Haemostasis requires pH above 6, at which platelet aggregation and clot stability are maintained. High-dose PPIs suppress over 90% of 24-hour acid output and are the only class that can sustain this target.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Oral sucralfate to form a physical barrier over the ulcer base</div>",
+                  "text": "<div>pH above 4, achieved with a high-dose proton pump inhibitor</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Sucralfate provides a physical protective barrier but does not raise intragastric pH. It requires an acidic environment to polymerise and is not a haemostatic strategy for actively bleeding ulcers.</div>",
+                    "chosenFeedback": "<div>A PPI is the correct drug class, but pH above 4 is the threshold for ulcer healing, not haemostasis. A bleeding ulcer needs pH above 6 to support stable clot formation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>pH above 6, achieved with antacids administered every two hours</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While the pH target is correct, antacids provide only brief, short-lived neutralisation after each dose and cannot sustain intragastric pH above 6 over 24 hours.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +617,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The correct strategy is high-dose intravenous PPI. Haemostasis requires pH above 6, and PPIs — suppressing over 90% of acid output — are the only agents that reliably achieve and sustain this target."
+                  "feedback": "The key principle from this section: ulcer healing needs pH above 4, but haemostasis in a bleeding ulcer needs pH above 6. H2 receptor antagonists suppress only about 70% of acid output and cannot maintain pH above 6. High-dose PPIs suppress over 90% and are the only reliable choice."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. High-dose IV PPI maintains pH above 6, supporting platelet function and clot stability — the key pharmacological goal after endoscopic haemostasis in a bleeding ulcer."
+                  "feedback": "Two pH thresholds to remember: above 4 for ulcer healing, above 6 for haemostasis. Only high-dose PPIs can sustain pH above 6, making them the standard of care for bleeding peptic ulcers."
                 }
               ],
               "behaviour": {
@@ -539,11 +649,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "0af75816-5ef4-4dbe-b6b1-86858bfd8207",
+            "subContentId": "bf4ac4ba-bf76-4efd-9f68-53b958725226",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 50-year-old man presents with haematem",
+              "title": "A patient with a bleeding duodenal ulcer",
               "authors": [],
               "changes": []
             }
@@ -614,7 +724,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "c5c0ae07-7fd2-4a8b-881c-df589abd8a18",
+              "subContentId": "f44fdbc5-4453-4612-9bc6-997a2218a89e",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -637,7 +747,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "687767b6-01b6-492f-8cc4-af9ab07c4182",
+        "subContentId": "27035af0-34c3-4182-9cf6-afdf92a87dcb",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
