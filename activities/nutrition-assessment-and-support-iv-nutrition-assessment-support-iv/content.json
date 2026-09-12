@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/a34b08fe-498f-4eb3-97d8-42168d26fa13/playlist.m3u8",
+          "path": "https://vdo.cbme.in/1880b30b-a71d-4f33-91a6-5f810f121d4f/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -67,41 +67,93 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>According to the ICMR-NIN 2020 guidelines, a child aged 1–3 years requires appro</p>",
+          "label": "<p>According to the ICMR-NIN 2020 guidelines, the approximate daily energy requirem</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>According to the ICMR-NIN 2020 guidelines, a child aged 1–3 years requires approximately 1350 kilocalories per day.</p>",
-              "correct": "false",
+              "question": "<p>According to the ICMR-NIN 2020 guidelines, the approximate daily energy requirement for a child aged one to three years is:</p>",
+              "answers": [
+                {
+                  "text": "<div>800 kcal/day</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This is too low even for a one-year-old. An infant aged 6–12 months already needs about 98 kcal/kg/day, which totals more than 800 kcal for most infants.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>1000 kcal/day</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The ICMR-NIN 2020 guideline recommends approximately 1000 kcal/day for children aged 1–3 years, rising to about 1350 for 4–6 year-olds and 1690 for 7–9 year-olds.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>1350 kcal/day</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This is the ICMR-NIN 2020 recommendation for a 4–6-year-old child, not for the 1–3-year age group.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>1690 kcal/day</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This figure corresponds to the requirement for a 7–9-year-old child. Energy needs rise with age, and each age bracket has a distinct benchmark.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Review the ICMR-NIN 2020 energy ladder: 1000 kcal/day at 1–3 years → 1350 at 4–6 → 1690 at 7–9 → 2190 (boys) or 1970 (girls) at 10–12 → up to 2640 in adolescent boys."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. Knowing the age-specific energy benchmarks is the first step toward spotting a dietary gap and planning an appropriate diet."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. ICMR-NIN 2020 recommends approximately 1000 kcal/day for a 1–3 year old, not 1350. The 1350 kcal/day figure actually applies to the 4–6 year age group. Remember the progression: 1000 → 1350 → 1690 kcal/day across the 1–3, 4–6, and 7–9 year groups.",
-                "correctAnswerMessage": "Correct — the figure is wrong. ICMR-NIN 2020 recommends approximately 1000 kcal/day for a 1–3 year old. The 1350 kcal figure applies to children aged 4–6 years. The progression is 1000 → 1350 → 1690 kcal/day for the 1–3, 4–6, and 7–9 year age groups respectively.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2798d209-a142-4b4c-a404-d3b6da4e94c8",
+            "subContentId": "f0983762-b12c-4895-b10b-188cc828b889",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
               "title": "According to the ICMR-NIN 2020 guideline",
               "authors": [],
@@ -125,7 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A community health worker measures a 14-month-old child's mid-upper arm circumfe</p>",
+          "label": "<p>A community health worker needs to screen children for acute malnutrition in a v</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A community health worker measures a 14-month-old child's mid-upper arm circumference (MUAC) as 12.0 cm. Based on the standard MUAC cutoffs, how should this child's nutritional status be classified?</p>",
+              "question": "<p>A community health worker needs to screen children for acute malnutrition in a village without access to growth charts or a calibrated scale. Which anthropometric measurement is most appropriate?</p>",
               "answers": [
                 {
-                  "text": "<div>Normal nutritional status</div>",
+                  "text": "<div>Weight-for-age plotted on a WHO chart</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A MUAC above 12.5 cm is classified as normal. At 12.0 cm, this child falls below that threshold and needs further assessment.</div>",
+                    "chosenFeedback": "<div>Weight-for-age requires both a calibrated scale and a growth chart for interpretation, making it impractical for the scenario described.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Moderate acute malnutrition</div>",
+                  "text": "<div>Mid-upper arm circumference (MUAC)</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. A MUAC of 11.5–12.5 cm indicates moderate acute malnutrition (MAM). This child's reading of 12.0 cm falls squarely in this range.</div>",
+                    "chosenFeedback": "<div>Correct. MUAC needs only a simple measuring tape and uses fixed cutoffs — below 11.5 cm indicates SAM, 11.5–12.5 cm indicates MAM — so no growth chart is needed for interpretation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Severe acute malnutrition</div>",
+                  "text": "<div>Head circumference</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Severe acute malnutrition (SAM) is indicated by a MUAC below 11.5 cm. At 12.0 cm, this child is above that cutoff, placing them in the moderate category.</div>",
+                    "chosenFeedback": "<div>Head circumference tracks brain growth in the first two years of life, not acute nutritional status. It also requires a reference chart to interpret.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Chronic malnutrition (stunting)</div>",
+                  "text": "<div>Skinfold thickness</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>MUAC assesses acute malnutrition, not chronic malnutrition. Stunting is identified by low height-for-age on a growth chart, not by arm circumference.</div>",
+                    "chosenFeedback": "<div>Skinfold measurement requires callipers and trained technique, and is used mainly in research settings — not suitable for routine community screening.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the MUAC cutoffs: below 11.5 cm = severe acute malnutrition, 11.5–12.5 cm = moderate acute malnutrition, above 12.5 cm = normal. A reading of 12.0 cm falls in the MAM range."
+                  "feedback": "Remember: MUAC stands out because it needs no growth chart and no scale. Its fixed cutoffs (< 11.5 cm = SAM, 11.5–12.5 cm = MAM) allow instant classification in the field."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. MUAC is a quick community screening tool that needs no growth chart: below 11.5 cm signals SAM, 11.5–12.5 cm signals MAM, and above 12.5 cm is normal."
+                  "feedback": "Exactly. MUAC's simplicity and fixed cutoffs make it the go-to screening tool in community settings where scales and charts are unavailable."
                 }
               ],
               "behaviour": {
@@ -209,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "b681b4d6-6c27-4272-b402-748222ae4e55",
+            "subContentId": "60b1acff-8eb3-4d19-a104-a0f7ece8e597",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A community health worker measures a 14-",
+              "title": "A community health worker needs to scree",
               "authors": [],
               "changes": []
             }
@@ -235,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which clinical feature is the defining characteristic that distinguishes kwashio</p>",
+          "label": "<p>Which clinical feature is the single defining criterion that separates kwashiork</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,14 +296,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which clinical feature is the defining characteristic that distinguishes kwashiorkor from marasmus in a child with severe acute malnutrition?</p>",
+              "question": "<p>Which clinical feature is the single defining criterion that separates kwashiorkor from marasmus in a child with severe acute malnutrition?</p>",
               "answers": [
                 {
-                  "text": "<div>Severe muscle wasting with prominent ribs and shoulder blades</div>",
+                  "text": "<div>Severe muscle wasting with visible ribs</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Visible wasting with prominent ribs is characteristic of marasmus, where the body catabolises its own muscle and fat stores. Kwashiorkor may actually mask wasting beneath oedema.</div>",
+                    "chosenFeedback": "<div>Severe wasting is the hallmark of marasmus, not kwashiorkor. In kwashiorkor, oedema may actually mask the degree of underlying wasting.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -260,25 +312,25 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Bilateral pitting oedema is the defining feature of kwashiorkor. It begins at the feet and can spread upward, sometimes producing a moon-shaped face. Its presence is what distinguishes kwashiorkor from marasmus.</div>",
+                    "chosenFeedback": "<div>Correct. Bilateral pitting oedema is the defining feature of kwashiorkor. It can extend upward to cause a swollen, moon-shaped face. When severe wasting and oedema coexist, the classification becomes marasmic-kwashiorkor.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Alert, irritable behaviour with preserved appetite</div>",
+                  "text": "<div>Listless, apathetic behaviour with poor appetite</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Alertness and preserved appetite are more typical of marasmus. In kwashiorkor, the child is usually listless and apathetic, with a poor appetite.</div>",
+                    "chosenFeedback": "<div>While apathy and anorexia are typical of kwashiorkor, they are not the defining criterion. A child with marasmus can also be lethargic if severely unwell. Oedema is what makes the classification.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Loss of buccal fat pads producing a wizened face</div>",
+                  "text": "<div>Thin, discoloured hair that pulls out easily</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The 'old-man' or wizened face from buccal fat pad loss is a classic sign of marasmus, not kwashiorkor. In kwashiorkor, facial oedema can produce a moon-shaped appearance instead.</div>",
+                    "chosenFeedback": "<div>Hair changes (flag sign) are seen in kwashiorkor but are not the defining criterion. Hair changes can also occur in other micronutrient deficiencies. Bilateral pitting oedema is what formally distinguishes kwashiorkor.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The defining feature of kwashiorkor is bilateral pitting oedema, starting at the feet. Wasting, prominent ribs, and the wizened face are features of marasmus. Kwashiorkor presents with oedema, flaky skin, sparse discoloured hair, enlarged liver, and apathy."
+                  "feedback": "Remember the classification rule: no oedema + severe wasting = marasmus; bilateral pitting oedema = kwashiorkor; both together = marasmic-kwashiorkor. Oedema is the single feature that shifts the classification."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Bilateral pitting oedema is what makes kwashiorkor kwashiorkor. Without oedema, severe wasting is classified as marasmus; with both oedema and wasting, it is marasmic-kwashiorkor."
+                  "feedback": "Right. Bilateral pitting oedema is the WHO's defining criterion for kwashiorkor. Its presence with severe wasting classifies the child as marasmic-kwashiorkor, which carries the highest mortality risk."
                 }
               ],
               "behaviour": {
@@ -319,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6e7e8d31-0398-4082-b009-b29fedaf75ee",
+            "subContentId": "efe1e126-785c-462d-b029-fbb6743bd2c3",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which clinical feature is the defining c",
+              "title": "Which clinical feature is the single def",
               "authors": [],
               "changes": []
             }
@@ -345,7 +397,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>An adolescent girl on a purely vegetarian diet is found to have iron-deficiency </p>",
+          "label": "<p>Adolescent girls require approximately 21 mg of iron daily, nearly twice the rec</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>An adolescent girl on a purely vegetarian diet is found to have iron-deficiency anaemia. Which combination of factors best explains why she is at particularly high risk?</p>",
+              "question": "<p>Adolescent girls require approximately 21 mg of iron daily, nearly twice the recommendation for boys of the same age. Which physiological factor best explains this difference?</p>",
               "answers": [
                 {
-                  "text": "<div>Higher total energy needs and rapid linear growth during puberty</div>",
+                  "text": "<div>Girls undergo a faster linear growth spurt than boys</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While adolescent energy needs are high, energy intake per se does not determine iron status. The specific risk factors for iron-deficiency anaemia are menstrual losses and poor non-haem iron absorption.</div>",
+                    "chosenFeedback": "<div>Boys actually have a more prolonged growth spurt and accumulate more muscle mass. The greater iron need in girls is not driven by growth velocity.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Menstrual iron losses compounded by poor absorption of non-haem iron from plant-based diets</div>",
+                  "text": "<div>Girls deposit more iron into rapidly growing bone tissue</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Calcium, not iron, is the mineral primarily deposited in bone during peak bone building. The iron difference has a different explanation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Menstrual blood loss creates a recurring iron drain that boys do not experience</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Adolescent girls need about 21 mg/day of iron once menstruation begins — nearly twice the male requirement. Plant-based diets provide only non-haem iron, which is absorbed poorly. Together, these factors make iron-deficiency anaemia very common in this group.</div>",
+                    "chosenFeedback": "<div>Correct. Once menstruation begins, girls lose iron cyclically, raising their daily requirement to about 21 mg/day. This is compounded by the poor bioavailability of iron from plant-based Indian diets, making iron-deficiency anaemia very common.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Inadequate calcium intake reducing iron absorption from food</div>",
+                  "text": "<div>Girls have higher basal metabolic rates during puberty</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While calcium needs peak in adolescence, calcium does not significantly affect iron stores. The key factors are menstrual losses and the low bioavailability of plant-based non-haem iron.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Low folate levels interfering with red blood cell production</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Folate deficiency causes megaloblastic anaemia, not iron-deficiency anaemia. The reason adolescent girls on vegetarian diets are particularly vulnerable is the combination of menstrual iron losses and poor non-haem iron absorption.</div>",
+                    "chosenFeedback": "<div>Boys actually develop higher basal metabolic rates after puberty because they build more lean muscle mass. The iron gap is related to menstrual losses, not metabolic rate.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key factors are: (1) girls need 21 mg/day of iron after menarche — nearly double the male requirement — due to menstrual losses, and (2) plant-based Indian diets provide only non-haem iron, which has poor bioavailability. This combination drives the high prevalence of iron-deficiency anaemia in adolescent girls."
+                  "feedback": "The critical point: menstruation creates a recurring iron loss that boys simply do not have. At 21 mg/day, the recommendation for adolescent girls is nearly double the 11–15 mg/day for boys — and even this is hard to meet on a purely vegetarian Indian diet."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The double burden of menstrual losses and poor plant-iron absorption is precisely why iron-deficiency anaemia is so prevalent among Indian adolescent girls — a critical public health concern."
+                  "feedback": "Exactly. Menstrual losses are the key driver. Combined with poor iron absorption from predominantly plant-based Indian diets, this makes iron-deficiency anaemia one of the most prevalent nutritional problems in adolescent girls."
                 }
               ],
               "behaviour": {
@@ -429,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "1cf572a2-60e8-4466-942c-b202da5a9254",
+            "subContentId": "bc2272db-60d3-432d-933e-6d3a6cd11582",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "An adolescent girl on a purely vegetaria",
+              "title": "Adolescent girls require approximately 2",
               "authors": [],
               "changes": []
             }
@@ -455,7 +507,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>During examination of a 13-year-old obese boy, you notice broad purple striae on</p>",
+          "label": "<p>During examination of an obese 14-year-old boy, you notice purple striae on his </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +516,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>During examination of a 13-year-old obese boy, you notice broad purple striae on his abdomen and thighs. This finding should raise clinical suspicion for:</p>",
+              "question": "<p>During examination of an obese 14-year-old boy, you notice purple striae on his abdomen alongside truncal obesity. Silver-white striae are present on his thighs. What is the most appropriate clinical interpretation?</p>",
               "answers": [
                 {
-                  "text": "<div>Rapid weight gain typical of simple primary obesity</div>",
+                  "text": "<div>Both types of striae are benign stretch marks from rapid weight gain and need no further investigation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Simple obesity typically produces silver-white striae from rapid skin stretching. The purple colour is an important clue that points to a different aetiology.</div>",
+                    "chosenFeedback": "<div>Silver-white striae are indeed benign in simple obesity, but purple striae have a different clinical significance that should not be dismissed.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Cushing syndrome</div>",
+                  "text": "<div>Purple striae suggest possible Cushing syndrome and warrant further endocrine evaluation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Purple striae are a red flag for Cushing syndrome, which causes pathological cortisol excess. Silver-white striae, by contrast, are the benign variant seen in simple obesity.</div>",
+                    "chosenFeedback": "<div>Correct. Purple striae indicate active collagen breakdown from cortisol excess, raising suspicion for Cushing syndrome — a secondary cause of obesity. Silver-white striae, by contrast, result from simple skin stretching in rapid weight gain.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Hypothyroidism</div>",
+                  "text": "<div>Purple striae indicate insulin resistance, similar to acanthosis nigricans</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Hypothyroidism can cause weight gain, but its characteristic skin findings include dry, coarse skin and myxoedema — not purple striae. Purple striae specifically point toward Cushing syndrome.</div>",
+                    "chosenFeedback": "<div>Acanthosis nigricans — the velvety brown thickening of skin at the neck and axillae — is the marker of insulin resistance. Purple striae point toward cortisol excess, an entirely different pathological pathway.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Type 2 diabetes mellitus</div>",
+                  "text": "<div>The colour difference reflects the age of the striae; purple ones are recent and will turn white over time</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Type 2 diabetes in obese children is associated with acanthosis nigricans — a velvety brown thickening of the skin, especially at the neck. Purple striae should prompt investigation for Cushing syndrome instead.</div>",
+                    "chosenFeedback": "<div>While striae do lighten with age, the clinical teaching here is that purple striae in an obese child should specifically prompt investigation for Cushing syndrome — they are not merely a stage in the natural fading process.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +559,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Purple striae in an obese child are a red flag for Cushing syndrome. Simple obesity causes silver-white striae from rapid skin stretching, whereas purple striae indicate pathological cortisol excess. This distinction is essential for identifying secondary causes of obesity."
+                  "feedback": "Remember the colour rule for striae in an obese child: silver-white = simple stretching from weight gain (benign); purple = active cortisol-driven collagen breakdown, pointing toward Cushing syndrome and requiring endocrine work-up."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. Purple striae are a key clinical clue that distinguishes secondary obesity due to Cushing syndrome from simple primary obesity, which produces only silver-white striae."
+                  "feedback": "Well spotted. Distinguishing purple from silver-white striae during the obesity examination is a key step in separating simple primary obesity from secondary causes like Cushing syndrome."
                 }
               ],
               "behaviour": {
@@ -539,11 +591,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8ec498f2-8915-4760-ab79-1f1118336371",
+            "subContentId": "03f69e7a-0f37-4513-b405-e9c0bfadf066",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "During examination of a 13-year-old obes",
+              "title": "During examination of an obese 14-year-o",
               "authors": [],
               "changes": []
             }
@@ -618,7 +670,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "6be7876d-cba7-4cdb-84b9-c586d89fbcf8",
+              "subContentId": "d63360f7-398a-4df3-ae33-6aa48c86246c",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -641,7 +693,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "6989b281-a597-449a-8c8b-d8b31ae8dd82",
+        "subContentId": "67fd95a7-5d58-4c1f-a1d4-4ae3c1ee346f",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
