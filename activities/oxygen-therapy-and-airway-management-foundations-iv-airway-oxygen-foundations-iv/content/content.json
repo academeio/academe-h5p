@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/f7eb6877-4c69-4c44-be6c-3d519d7c3f85/playlist.m3u8",
+          "path": "https://vdo.cbme.in/654e204c-5d7f-4248-818d-48b1df5fd713/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -94,12 +94,12 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "Actually, this statement is false. A simple face mask requires a minimum flow of 5 litres per minute. At lower flow rates, exhaled CO₂ pools inside the mask and the patient re-breathes it — a dangerous situation that can worsen hypercapnia.",
-                "correctAnswerMessage": "Correct. The minimum flow rate for a simple face mask is 5 litres per minute. Below this threshold, exhaled carbon dioxide accumulates inside the mask and the patient re-breathes it, which can precipitate respiratory failure.",
+                "wrongAnswerMessage": "Actually, this is false. A simple face mask requires a minimum flow of 5 litres per minute. At lower flows, the mask cannot flush out exhaled carbon dioxide, leading to dangerous CO₂ rebreathing. Always remember: 5 L/min is the floor for any simple face mask.",
+                "correctAnswerMessage": "Correct — this is false. The minimum safe flow for a simple face mask is 5 litres per minute. Below that threshold, exhaled carbon dioxide accumulates inside the mask and the patient rebreathes it, worsening respiratory failure rather than treating it.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "88f96074-f94f-4356-8b8c-698349fbce66",
+            "subContentId": "9b8bba6d-b581-46d4-8ffe-a0792ce4752e",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
@@ -125,7 +125,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 70-year-old patient with known COPD presents with an acute exacerbation and Sp</p>",
+          "label": "<p>A patient with known COPD presents with an acute exacerbation and SpO₂ of 85%. W</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,14 +134,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 70-year-old patient with known COPD presents with an acute exacerbation and SpO₂ of 87% on room air. Which oxygen delivery strategy is most appropriate?</p>",
+              "question": "<p>A patient with known COPD presents with an acute exacerbation and SpO₂ of 85%. Which is the most appropriate initial oxygen management?</p>",
               "answers": [
                 {
-                  "text": "<div>Non-rebreather mask at 15 L/min targeting SpO₂ ≥ 94%</div>",
+                  "text": "<div>Non-rebreather mask targeting SpO₂ ≥ 94%</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. In COPD patients with chronic CO₂ retention, uncontrolled high-flow oxygen can suppress the hypoxic respiratory drive and worsen ventilation-perfusion mismatch via the Haldane effect, risking hypercapnic respiratory failure.</div>",
+                    "chosenFeedback": "<div>Incorrect. A non-rebreather delivers uncontrolled high-flow oxygen. In COPD patients with chronic CO₂ retention, pushing SpO₂ above 92% risks suppressing the hypoxic respiratory drive and worsening ventilation–perfusion mismatch through the Haldane effect.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -150,7 +150,7 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. COPD patients with chronic CO₂ retention need controlled, low-concentration oxygen. The Venturi mask provides a precise FiO₂ regardless of breathing pattern, and the 88–92% target avoids suppressing the hypoxic drive.</div>",
+                    "chosenFeedback": "<div>Correct. The Venturi mask delivers a precise, fixed FiO₂ — essential in COPD, where the target SpO₂ is 88–92%. Starting at 24–28% avoids suppressing the hypoxic drive while treating the hypoxaemia. An arterial blood gas should be checked within 30 minutes.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -159,16 +159,16 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. A target of 98% is dangerously high for COPD patients. Additionally, the nasal cannula is a variable-performance device — it cannot guarantee a precise FiO₂, making it unsuitable when tight oxygen control is needed.</div>",
+                    "chosenFeedback": "<div>Incorrect. A nasal cannula is a variable-performance device and cannot guarantee a precise FiO₂. Moreover, targeting ≥ 98% in a COPD patient risks hypercapnic respiratory failure by suppressing the hypoxic respiratory drive.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Simple face mask at 10 L/min with no defined saturation target</div>",
+                  "text": "<div>Simple face mask at 10 L/min targeting SpO₂ ≥ 94%</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Oxygen is a drug and must be prescribed with a specific target saturation. The simple face mask also delivers a variable FiO₂, making it unsuitable for patients who need precise oxygen control.</div>",
+                    "chosenFeedback": "<div>Incorrect. A simple face mask is a variable-performance device that cannot deliver a precise FiO₂. Additionally, targeting ≥ 94% is too high for COPD — it risks triggering hypercapnic respiratory failure through suppression of the hypoxic drive.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the oxygen prescribing algorithm: in COPD, use a fixed-performance device (Venturi mask) at 24–28% FiO₂ targeting SpO₂ 88–92%, and check an arterial blood gas within 30 minutes."
+                  "feedback": "In COPD with chronic CO₂ retention, the target SpO₂ is 88–92%, not ≥ 94%. A Venturi mask at 24–28% delivers precise, controlled oxygen. Always check an arterial blood gas within 30 minutes to guide further adjustments."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The Venturi mask delivers a fixed FiO₂ via the Bernoulli principle, and the 88–92% target protects COPD patients from hypercapnic respiratory failure."
+                  "feedback": "Well done. COPD patients need controlled, low-concentration oxygen — the Venturi mask provides this precision, and the target SpO₂ of 88–92% protects against hypercapnic respiratory failure."
                 }
               ],
               "behaviour": {
@@ -209,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "358470b8-9cf2-4cc5-a0d4-33d3bf088890",
+            "subContentId": "792f6c63-6071-49c6-bf0d-be56bbb366d5",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 70-year-old patient with known COPD pr",
+              "title": "A patient with known COPD presents with",
               "authors": [],
               "changes": []
             }
@@ -229,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 495.6749999999999,
-            "to": 505.6749999999999
+            "from": 495.0749999999999,
+            "to": 505.0749999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>You insert an oropharyngeal airway in an unconscious patient during resuscitatio</p>",
+          "label": "<p>You insert an oropharyngeal airway in a semi-conscious patient and they begin to</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>You insert an oropharyngeal airway in an unconscious patient during resuscitation. The patient immediately gags on insertion. What is the correct next step?</p>",
+              "question": "<p>You insert an oropharyngeal airway in a semi-conscious patient and they begin to gag. What is the correct next step?</p>",
               "answers": [
                 {
-                  "text": "<div>Advance the oropharyngeal airway further past the gag point</div>",
+                  "text": "<div>Advance the airway deeper past the gag reflex</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect and dangerous. Forcing the airway deeper can cause vomiting, aspiration, or laryngospasm. The gag reflex is a strict contraindication to the oropharyngeal airway.</div>",
+                    "chosenFeedback": "<div>Incorrect. Forcing the airway deeper risks pharyngeal trauma and can provoke vomiting and aspiration. An intact gag reflex is an absolute contraindication to the oropharyngeal airway.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Remove the oropharyngeal airway and insert a nasopharyngeal airway</div>",
+                  "text": "<div>Leave it in place — the gag reflex will subside with time</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Leaving an OPA in a gagging patient risks vomiting and aspiration. The gag reflex is a protective mechanism, and the oropharyngeal airway must be removed immediately if the patient gags.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Remove it and insert a nasopharyngeal airway instead</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The oropharyngeal airway is only safe in patients with no gag reflex. The nasopharyngeal airway is well tolerated in semi-conscious patients because it bypasses the oropharynx entirely, passing along the nasal floor.</div>",
+                    "chosenFeedback": "<div>Correct. The oropharyngeal airway is contraindicated when a gag reflex is present. The nasopharyngeal airway is a soft, flexible tube well tolerated in semi-conscious patients with an intact gag reflex — making it the safer alternative in this situation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Hold the airway in position and wait for the gag reflex to subside</div>",
+                  "text": "<div>Remove it and rely solely on a head-tilt chin-lift manoeuvre</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. An intact gag reflex indicates the patient retains enough consciousness to reject the oropharyngeal device. Leaving it in place risks vomiting and aspiration.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Remove the airway and proceed directly to endotracheal intubation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Endotracheal intubation is an advanced technique reserved for when basic manoeuvres fail. The nasopharyngeal airway is the appropriate next step before considering escalation.</div>",
+                    "chosenFeedback": "<div>Incorrect. While a head-tilt chin-lift can open the airway, it requires continuous manual effort and does not maintain the airway reliably on its own. A nasopharyngeal airway should be inserted — it is tolerated even with an intact gag reflex.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the key rule: the oropharyngeal airway is contraindicated when the gag reflex is present. The nasopharyngeal airway is the safer alternative in semi-conscious patients."
+                  "feedback": "The oropharyngeal airway has one strict rule: it is only safe in patients with no gag reflex. If gagging occurs, remove it immediately and insert a nasopharyngeal airway, which is well tolerated in semi-conscious patients."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The strict rule: if a patient gags on an oropharyngeal airway, remove it immediately and switch to a nasopharyngeal airway."
+                  "feedback": "Exactly right. The oropharyngeal airway is only for patients without a gag reflex. When gagging occurs, remove it immediately and insert a nasopharyngeal airway — the go-to alternative in semi-conscious patients."
                 }
               ],
               "behaviour": {
@@ -319,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "dd6c2b5e-67a1-4c17-a80e-dc8b3f582287",
+            "subContentId": "283e9f9e-588d-4816-8caa-ba4b7b9f900d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "You insert an oropharyngeal airway in an",
+              "title": "You insert an oropharyngeal airway in a",
               "authors": [],
               "changes": []
             }
@@ -345,7 +345,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>What does a Mallampati class III or IV score indicate during pre-intubation airw</p>",
+          "label": "<p>Why is capnography considered the gold standard for confirming endotracheal tube</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>What does a Mallampati class III or IV score indicate during pre-intubation airway assessment?</p>",
+              "question": "<p>Why is capnography considered the gold standard for confirming endotracheal tube placement?</p>",
               "answers": [
                 {
-                  "text": "<div>The patient has a high risk of aspiration during intubation</div>",
+                  "text": "<div>It measures both oxygen and carbon dioxide levels simultaneously</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Mallampati scoring assesses the oropharyngeal view, not aspiration risk. Aspiration risk depends on factors such as fasting status and the presence of a full stomach.</div>",
+                    "chosenFeedback": "<div>Incorrect. Capnography measures only carbon dioxide, not oxygen. Its value lies in detecting CO₂ in exhaled gas, which confirms the tube is in the trachea — the oesophagus does not produce a sustained CO₂ waveform.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A potentially difficult intubation due to limited visibility of the glottis</div>",
+                  "text": "<div>It provides a continuous CO₂ waveform that can only originate from gas exchange in the trachea</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Mallampati class III–IV means that with the mouth open and tongue protruded, the soft palate obscures most or all of the oropharynx. This predicts a limited glottic view during laryngoscopy, signalling a potentially difficult intubation.</div>",
+                    "chosenFeedback": "<div>Correct. A sustained carbon dioxide waveform on capnography can only come from gas exchange in the lungs, confirming tracheal placement. Oesophageal intubation produces no sustained CO₂ waveform, making capnography definitive where auscultation alone can be misleading.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The sniffing position will not adequately align the airway axes</div>",
+                  "text": "<div>It is faster and easier to perform than chest auscultation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The sniffing position aligns the oral, pharyngeal, and laryngeal axes regardless of Mallampati score. A high score predicts limited glottic visibility, not a failure of positioning.</div>",
+                    "chosenFeedback": "<div>Incorrect. Speed is not why capnography is the gold standard. Its superiority lies in providing objective evidence — a CO₂ waveform — that the tube is in the trachea and not in the oesophagus, something auscultation cannot guarantee.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Pre-oxygenation must be extended beyond five minutes</div>",
+                  "text": "<div>It directly measures tidal volume to confirm adequate ventilation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Pre-oxygenation duration (3–5 minutes with a non-rebreather at 15 L/min) is standard regardless of Mallampati score. The classification predicts glottic visibility, not oxygenation requirements.</div>",
+                    "chosenFeedback": "<div>Incorrect. Capnography measures exhaled carbon dioxide concentration, not tidal volume. Its role in confirming tube placement is to demonstrate a CO₂ waveform that can only originate from the trachea.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The Mallampati classification grades the oropharyngeal view with the mouth open and tongue protruded. Class III–IV predicts a poor glottic view during laryngoscopy, warning of a potentially difficult intubation."
+                  "feedback": "Capnography is the gold standard because a sustained CO₂ waveform can only originate from gas exchange in the trachea. Oesophageal intubation produces no such waveform, making capnography definitive for confirming correct tube placement."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Mallampati scoring is a bedside predictor of difficult intubation — always assess it before proceeding to laryngoscopy."
+                  "feedback": "Correct. Capnography provides objective, real-time confirmation of tracheal intubation through detection of exhaled CO₂. Always use it alongside bilateral chest auscultation and observation of chest rise."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "a9b19496-2d25-48a4-8719-fbf7830c8689",
+            "subContentId": "ad26e19d-5201-4d0d-8910-97e36f98608a",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "What does a Mallampati class III or IV s",
+              "title": "Why is capnography considered the gold s",
               "authors": [],
               "changes": []
             }
@@ -455,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Thirty minutes after intubation, an arterial blood gas shows a high PaCO₂ with r</p>",
+          "label": "<p>An intubated patient's arterial blood gas at 30 minutes shows a PaCO₂ of 58 mmHg</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Thirty minutes after intubation, an arterial blood gas shows a high PaCO₂ with respiratory acidosis. Which ventilator adjustment is most appropriate?</p>",
+              "question": "<p>An intubated patient's arterial blood gas at 30 minutes shows a PaCO₂ of 58 mmHg with respiratory acidosis. Which ventilator adjustment is most appropriate?</p>",
               "answers": [
                 {
-                  "text": "<div>Increase the fraction of inspired oxygen</div>",
+                  "text": "<div>Increase the fraction of inspired oxygen (FiO₂)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. FiO₂ addresses oxygenation (PaO₂), not carbon dioxide removal. To correct a high PaCO₂, you must increase the volume of gas exchanged per minute.</div>",
+                    "chosenFeedback": "<div>Incorrect. FiO₂ addresses oxygenation, not carbon dioxide elimination. A high PaCO₂ indicates inadequate ventilation — the problem is CO₂ clearance, which depends on minute ventilation, not inspired oxygen.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Increase positive end-expiratory pressure</div>",
+                  "text": "<div>Increase positive end-expiratory pressure (PEEP)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. PEEP recruits collapsed alveoli and improves oxygenation, but it does not directly increase CO₂ clearance. Ventilation (CO₂ removal) depends on minute ventilation.</div>",
+                    "chosenFeedback": "<div>Incorrect. PEEP recruits collapsed alveoli and improves oxygenation. It does not directly address carbon dioxide removal. For respiratory acidosis with elevated PaCO₂, you need to increase minute ventilation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Increase minute ventilation by raising the respiratory rate or tidal volume</div>",
+                  "text": "<div>Increase the respiratory rate to raise minute ventilation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Minute ventilation (tidal volume × respiratory rate) determines CO₂ removal. Increasing either component lowers PaCO₂. However, monitor plateau pressure — if it exceeds 30 cmH₂O, limit tidal volume to prevent ventilator-induced lung injury.</div>",
+                    "chosenFeedback": "<div>Correct. Minute ventilation (tidal volume × respiratory rate) governs CO₂ elimination. Increasing the respiratory rate raises minute ventilation and lowers PaCO₂. You could also increase tidal volume, but always verify that plateau pressure stays at or below 30 cmH₂O to avoid ventilator-induced lung injury.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Decrease tidal volume to protect the lungs from barotrauma</div>",
+                  "text": "<div>Decrease tidal volume to protect the lungs</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect in this context. While lung-protective ventilation is essential, reducing tidal volume when PaCO₂ is already elevated would worsen the respiratory acidosis. The priority is to increase minute ventilation while keeping plateau pressure below 30 cmH₂O.</div>",
+                    "chosenFeedback": "<div>Incorrect. While lung-protective ventilation limits tidal volume, decreasing it when PaCO₂ is already elevated would worsen the respiratory acidosis. The correct adjustment is to increase minute ventilation — typically by raising the respiratory rate.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: oxygenation is managed with FiO₂ and PEEP, while ventilation (CO₂ clearance) is managed with minute ventilation (tidal volume × respiratory rate). Match the adjustment to the ABG abnormality."
+                  "feedback": "Carbon dioxide is eliminated through minute ventilation (TV × RR). When PaCO₂ is elevated, increase the respiratory rate or tidal volume. FiO₂ and PEEP address oxygenation, not CO₂ clearance. Always keep plateau pressure ≤ 30 cmH₂O to prevent lung injury."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. High PaCO₂ means inadequate ventilation — increase minute ventilation. This is the core ABG-to-ventilator feedback cycle used in every intensive care unit."
+                  "feedback": "Well done. High PaCO₂ with respiratory acidosis requires increased minute ventilation — raise the respiratory rate or tidal volume while keeping plateau pressure ≤ 30 cmH₂O. This ABG-to-ventilator feedback loop is central to ICU practice."
                 }
               ],
               "behaviour": {
@@ -539,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ba29757f-3b20-4315-8259-cfedc37cc1e4",
+            "subContentId": "a406af76-b331-4a93-9f7d-ac90aed42aee",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Thirty minutes after intubation, an arte",
+              "title": "An intubated patient's arterial blood ga",
               "authors": [],
               "changes": []
             }
@@ -610,7 +610,7 @@
       ],
       "endscreens": [
         {
-          "time": 844,
+          "time": 845,
           "label": "End"
         }
       ]
@@ -622,7 +622,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "6a25a3c8-f094-4408-a918-d2510e5a4eec",
+              "subContentId": "3bb48ec3-4bce-4f1e-b2ac-7154d7e6f288",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -645,7 +645,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "0dd7669c-4c0f-4e3a-b31f-33aed544ec13",
+        "subContentId": "270bf94f-0483-4c88-b1f4-e42217f3f74f",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
