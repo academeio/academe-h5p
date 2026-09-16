@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/396407d6-76ca-45f2-a74f-b7919af5040e/playlist.m3u8",
+          "path": "https://vdo.cbme.in/2332ab66-3f35-451e-8972-a17c1d4ede9f/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "AS2.1-2 | Cardiopulmonary Resuscitation — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for AS2.1-AS2.2."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for AS2.1-AS2.2."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,49 +61,211 @@
       "interactions": [
         {
           "duration": {
-            "from": 177.85000000000002,
-            "to": 187.85000000000002
+            "from": 70.15,
+            "to": 80.15
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Agonal gasps observed after a cardiac arrest indicate that the patient is still </p>",
+          "label": "<p>In the chain of survival, why do early chest compressions have such a significan</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Agonal gasps observed after a cardiac arrest indicate that the patient is still breathing adequately, and chest compressions should be withheld until gasping ceases.</p>",
-              "correct": "false",
+              "question": "<p>In the chain of survival, why do early chest compressions have such a significant impact on patient outcomes?</p>",
+              "answers": [
+                {
+                  "text": "<div>Compressions directly correct the underlying cardiac arrhythmia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Compressions do not correct arrhythmias. Defibrillation addresses shockable rhythms. Compressions maintain circulation to buy time for definitive therapy.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Compressions maintain cerebral and coronary perfusion, preserving the window for defibrillation and advanced care</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Compressions sustain blood flow to the brain and heart, keeping the myocardium in a shockable state and preventing irreversible neurological injury while awaiting defibrillation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Compressions are required before any drug can be administered intravenously</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While compressions improve drug distribution, the critical reason for early compressions is maintaining organ perfusion. IV access and drugs come later in the advanced life support phase.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Compressions mechanically stimulate the sinoatrial node to restart normal rhythm</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Chest compressions do not restart cardiac rhythm. They generate artificial circulation. Rhythm restoration requires defibrillation for shockable rhythms or correction of the underlying cause.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The key principle is that compressions maintain cerebral and coronary perfusion, keeping the heart and brain viable until defibrillation and advanced care can be delivered."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. Each link in the chain of survival depends on the one before it. Compressions maintain the circulation that makes defibrillation and advanced care effective."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Incorrect. Agonal gasps are irregular, noisy brainstem reflexes — not effective breathing. They can persist briefly after cardiac arrest and must never delay the start of CPR. Any uncertainty should be resolved in favour of immediate chest compressions.",
-                "correctAnswerMessage": "Correct. Agonal gasps are an involuntary brainstem reflex that can persist for seconds to minutes after cardiac arrest. They do not represent effective ventilation. Any doubt about breathing must be resolved in favour of starting CPR immediately.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "01f21d47-baa9-4fdf-80ff-f9ddb42219df",
+            "subContentId": "6e889cdf-ad29-4319-bd16-e19dea486e27",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Agonal gasps observed after a cardiac ar",
+              "title": "In the chain of survival, why do early c",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 265.225,
+            "to": 275.225
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A rescuer performing adult CPR fails to allow complete chest recoil between comp</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A rescuer performing adult CPR fails to allow complete chest recoil between compressions. What is the most important physiological consequence?</p>",
+              "answers": [
+                {
+                  "text": "<div>Reduced venous return and decreased coronary perfusion pressure</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Incomplete recoil keeps intrathoracic pressure elevated, impairing venous return to the right heart. This reduces preload and drops coronary perfusion pressure — the gradient that drives blood into the myocardium itself.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Increased risk of rib fractures due to sustained sternal pressure</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Rib fractures are related to compression depth and force, not incomplete recoil. The critical consequence of leaning is haemodynamic — it impairs the pressure gradient needed for coronary and cerebral perfusion.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Improved forward blood flow due to sustained intrathoracic pressure</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This is a common misconception. Sustained intrathoracic pressure actually impedes forward flow by preventing venous return. The thoracic pump mechanism requires alternating high and low pressure — compression and full release.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Compression of the inferior vena cava causing hepatic congestion</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While venous return is impaired, the mechanism is elevated intrathoracic pressure reducing the pressure gradient for venous return, not direct mechanical compression of the inferior vena cava.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The critical consequence is haemodynamic. Incomplete recoil keeps intrathoracic pressure high, reducing venous return and coronary perfusion pressure — the gradient that drives blood into the heart muscle itself."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. Complete chest recoil is as important as compression depth and rate. It allows intrathoracic pressure to drop, enabling venous return and maintaining coronary perfusion pressure."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "d207f547-6ee1-4f10-b66f-656f1334c621",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A rescuer performing adult CPR fails to",
               "authors": [],
               "changes": []
             }
@@ -125,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>You and a colleague are performing CPR on a 4-year-old child who collapsed on th</p>",
+          "label": "<p>In a newborn who remains bradycardic with a heart rate below 60 beats per minute</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,32 +296,32 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>You and a colleague are performing CPR on a 4-year-old child who collapsed on the ward. After delivering five initial rescue breaths, which compression-to-ventilation ratio should you use?</p>",
+              "question": "<p>In a newborn who remains bradycardic with a heart rate below 60 beats per minute despite adequate ventilation, what is the correct compression-to-ventilation ratio?</p>",
               "answers": [
                 {
                   "text": "<div>30:2</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>30:2 is the ratio for a lone rescuer managing a child, or the standard adult ratio. With two healthcare providers, the correct child CPR ratio is 15:2.</div>",
+                    "chosenFeedback": "<div>30:2 is the adult BLS ratio. Neonatal resuscitation uses a 3:1 ratio because the overwhelming cause of neonatal arrest is respiratory — the heart needs coordinated ventilation more than rapid compressions.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
                   "text": "<div>15:2</div>",
-                  "correct": true,
+                  "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. With two providers, child CPR (age one year to puberty) uses a 15:2 ratio. The higher ventilation frequency reflects the fact that paediatric arrest is most often caused by respiratory failure.</div>",
+                    "chosenFeedback": "<div>15:2 is used in paediatric CPR with two rescuers (children aged 1 year to puberty). Neonatal life support uses a 3:1 ratio with compressions and ventilation coordinated in sequence.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
                   "text": "<div>3:1</div>",
-                  "correct": false,
+                  "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>3:1 is the compression-to-ventilation ratio for Newborn Life Support, where one breath is coordinated after every three compressions. A 4-year-old child requires a 15:2 ratio with two rescuers.</div>",
+                    "chosenFeedback": "<div>Correct. In newborn life support, three compressions are followed by one ventilation breath using the two-thumb encircling technique. This ratio reflects the respiratory aetiology of neonatal arrest — lung inflation is the most effective intervention.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -168,7 +330,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>5:1 is not a current resuscitation ratio for any age group. The correct two-provider ratio for a child aged one year to puberty is 15:2.</div>",
+                    "chosenFeedback": "<div>5:1 is not a currently recommended ratio in any resuscitation guideline. The neonatal ratio is 3:1, reflecting the need for frequent ventilation in birth asphyxia.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the age-specific ratios: adults and lone-rescuer children use 30:2; two-provider children use 15:2; newborns use 3:1 with coordinated breaths."
+                  "feedback": "The correct ratio is 3:1. Neonatal arrest is almost always caused by birth asphyxia, so the algorithm prioritises frequent ventilation with the two-thumb encircling compression technique."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. In two-provider paediatric CPR, the 15:2 ratio increases ventilation frequency — critical when the underlying cause of arrest is usually respiratory failure."
+                  "feedback": "Correct. The 3:1 ratio in neonatal life support reflects the respiratory cause of most neonatal arrests — coordinated ventilation is essential alongside compressions."
                 }
               ],
               "behaviour": {
@@ -209,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "74946892-94a6-4a3e-9bb3-b640555fe108",
+            "subContentId": "37c1dc09-44f0-4757-96cd-ac8e5fe6cf8f",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "You and a colleague are performing CPR o",
+              "title": "In a newborn who remains bradycardic wit",
               "authors": [],
               "changes": []
             }
@@ -235,95 +397,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>During Advanced Life Support, a patient remains in ventricular fibrillation afte</p>",
+          "label": "<p>In a patient found to be in pulseless electrical activity, the first interventio</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>During Advanced Life Support, a patient remains in ventricular fibrillation after the third shock. Which drug combination should be administered at this point?</p>",
-              "answers": [
-                {
-                  "text": "<div>Atropine 1 mg IV and amiodarone 300 mg IV</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Atropine is used for symptomatic bradycardia, not for shockable cardiac arrest rhythms. The correct combination after the third shock in VF/pVT is adrenaline 1 mg IV and amiodarone 300 mg IV.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Adrenaline 1 mg IV and amiodarone 300 mg IV</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. After the third shock in a shockable rhythm, give adrenaline 1 mg IV and amiodarone 300 mg IV. Adrenaline is then continued every 3–5 minutes throughout the resuscitation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Adrenaline 1 mg IV and lidocaine 100 mg IV</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Lidocaine is an older alternative anti-arrhythmic but is not the first-line agent in current ALS guidelines. The recommended combination after the third shock is adrenaline 1 mg IV with amiodarone 300 mg IV.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Adrenaline 0.5 mg IV and amiodarone 150 mg IV</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>These are incorrect doses. The standard adult doses after the third shock are adrenaline 1 mg IV and amiodarone 300 mg IV. Accurate dosing is critical during cardiac arrest.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "After the third shock in VF/pVT: give adrenaline 1 mg IV and amiodarone 300 mg IV, then resume compressions immediately. For non-shockable rhythms, adrenaline 1 mg IV is given as soon as access is established."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. In the shockable pathway, both adrenaline and amiodarone are given after the third shock. Adrenaline continues every 3–5 minutes; a second dose of amiodarone (150 mg) may follow after the fifth shock."
-                }
-              ],
+              "question": "<p>In a patient found to be in pulseless electrical activity, the first intervention in the ALS algorithm is to deliver a defibrillation shock.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "PEA is a non-shockable rhythm — defibrillation will not help. The correct action is to administer adrenaline 1 mg IV immediately, continue compressions, and actively search for reversible causes (4Hs and 4Ts). Shocks are only indicated for ventricular fibrillation and pulseless ventricular tachycardia.",
+                "correctAnswerMessage": "Correct. Pulseless electrical activity is a non-shockable rhythm. The appropriate action is to give adrenaline 1 mg IV immediately, continue high-quality chest compressions, and search for reversible causes (the 4Hs and 4Ts). Defibrillation is reserved for shockable rhythms: ventricular fibrillation and pulseless ventricular tachycardia.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "07e079c2-17a8-446f-8f15-9a5de76a175a",
+            "subContentId": "c50c3a70-b64f-4bab-ae91-f0f1b4e0b397",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "During Advanced Life Support, a patient",
+              "title": "In a patient found to be in pulseless el",
               "authors": [],
               "changes": []
             }
@@ -345,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>After return of spontaneous circulation in an unconscious adult, the monitor sho</p>",
+          "label": "<p>A 55-year-old patient achieves return of spontaneous circulation after a witness</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>After return of spontaneous circulation in an unconscious adult, the monitor shows an SpO₂ of 100% on high-flow oxygen. What is the most appropriate next step?</p>",
+              "question": "<p>A 55-year-old patient achieves return of spontaneous circulation after a witnessed ventricular fibrillation arrest. His SpO₂ reads 100% on high-flow oxygen. What is the most appropriate next step regarding oxygenation?</p>",
               "answers": [
                 {
-                  "text": "<div>Continue high-flow oxygen to maximise tissue oxygenation during recovery</div>",
+                  "text": "<div>Continue high-flow oxygen to maximise tissue oxygenation during the recovery period</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Maintaining unnecessarily high oxygen levels (hyperoxia) is associated with worse neurological outcomes after cardiac arrest. Oxygen should be titrated down to a target SpO₂ of 94–98%.</div>",
+                    "chosenFeedback": "<div>Hyperoxia after ROSC is associated with worse neurological outcomes. Excessive oxygen generates reactive oxygen species that worsen reperfusion injury. Oxygen should be titrated, not maximised.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Titrate oxygen downward to target an SpO₂ of 94 to 98 percent</div>",
+                  "text": "<div>Titrate the inspired oxygen downward to maintain SpO₂ between 94 and 98 percent</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Post-ROSC guidelines recommend titrating supplemental oxygen to an SpO₂ of 94–98%. Hyperoxia generates reactive oxygen species that exacerbate reperfusion injury to the brain.</div>",
+                    "chosenFeedback": "<div>Correct. Post-ROSC guidelines target SpO₂ of 94–98%. Hyperoxia worsens neurological outcomes through increased oxidative stress during the reperfusion phase. Titrating oxygen carefully is a key component of the post-resuscitation bundle.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Discontinue all supplemental oxygen immediately</div>",
+                  "text": "<div>Discontinue all supplemental oxygen immediately since the patient now has spontaneous circulation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Abruptly removing supplemental oxygen risks hypoxaemia, which is equally harmful. The correct approach is gradual titration, targeting an SpO₂ of 94–98%.</div>",
+                    "chosenFeedback": "<div>Abrupt cessation of oxygen risks hypoxaemia, especially in a patient with recent cardiac arrest and potential myocardial stunning. The correct approach is gradual titration to a target SpO₂ of 94–98%.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Increase oxygen flow to maintain SpO₂ above 99% for neuroprotection</div>",
+                  "text": "<div>Maintain 100% oxygen for at least 24 hours to support targeted temperature management</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>An SpO₂ persistently at 100% represents hyperoxia. This is associated with worse, not better, neurological outcomes after cardiac arrest. The target is 94–98%.</div>",
+                    "chosenFeedback": "<div>There is no indication to maintain 100% oxygen during TTM. The target remains SpO₂ of 94–98% throughout the post-resuscitation period. Hyperoxia causes additional harm regardless of whether TTM is being applied.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Post-ROSC oxygen management is counterintuitive: the target is 94–98% SpO₂. Hyperoxia (SpO₂ persistently at 100%) worsens cerebral reperfusion injury. Titrate down gradually — do not maximise."
+                  "feedback": "The correct answer is to titrate oxygen to maintain SpO₂ between 94 and 98%. Hyperoxia after ROSC worsens neurological outcomes by increasing oxidative stress. More oxygen is not better in this setting."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. After ROSC, more oxygen is not better — titrate to 94–98% SpO₂ to avoid both hypoxaemia and hyperoxia-mediated neurological injury."
+                  "feedback": "Exactly right. Avoiding hyperoxia is a critical principle in post-resuscitation care. Titrating to SpO₂ 94–98% reduces oxidative injury during the vulnerable reperfusion period."
                 }
               ],
               "behaviour": {
@@ -429,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ed2eea1c-49de-4b80-80de-d6ad4668919b",
+            "subContentId": "80d08423-b3ac-48d6-bcc9-edb7a988b62f",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "After return of spontaneous circulation",
+              "title": "A 55-year-old patient achieves return of",
               "authors": [],
               "changes": []
             }
@@ -496,7 +606,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "0f84389a-3c36-47bf-b86e-7030eeebe30a",
+              "subContentId": "c776672e-8efc-4d62-9cef-0940d260f623",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -519,7 +629,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "ef1d71be-e24f-404d-a771-2261934fc201",
+        "subContentId": "9ee0bafc-4a18-4745-a47c-ac0e8c827748",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
