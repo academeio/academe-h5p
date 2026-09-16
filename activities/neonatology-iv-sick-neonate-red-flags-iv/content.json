@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/a67216e8-00c9-42c8-9c76-56401735628b/playlist.m3u8",
+          "path": "https://vdo.cbme.in/cde795f9-5d67-48f4-b11b-406ad2f4f6a6/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PE19.1-17 | Neonatology — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for PE19.1-PE19.9."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for PE19.1-PE19.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 114.5,
-            "to": 124.5
+            "from": 168.45000000000002,
+            "to": 178.45000000000002
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In a healthy term neonate, blood glucose stabilises above 45 mg/dL by 2–4 hours </p>",
+          "label": "<p>Why is 50% dextrose contraindicated when correcting symptomatic hypoglycaemia in</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In a healthy term neonate, blood glucose stabilises above 45 mg/dL by 2–4 hours after birth. Which of the following does NOT contribute to this post-natal glucose stabilisation?</p>",
+              "question": "<p>Why is 50% dextrose contraindicated when correcting symptomatic hypoglycaemia in a neonate?</p>",
               "answers": [
                 {
-                  "text": "<div>Hepatic glycogenolysis from third-trimester glycogen stores</div>",
+                  "text": "<div>It provides too little glucose to correct the deficit effectively</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This DOES contribute. Glycogen accumulated during the third trimester is the primary fuel reserve, mobilised by counter-regulatory hormones (glucagon, catecholamines) at birth.</div>",
+                    "chosenFeedback": "<div>Incorrect. 50% dextrose is actually extremely concentrated — the problem is that it is too concentrated, not too dilute, for neonatal veins.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Initiation of enteral feeding</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This DOES contribute. Early enteral feeding provides exogenous glucose and stimulates gut hormones that support the metabolic transition.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Pancreatic insulin surge at birth</div>",
+                  "text": "<div>It can injure the vein and cause dangerous rebound hypoglycaemia due to its extreme concentration</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Insulin lowers blood glucose and would oppose stabilisation. The post-natal glucose rise is driven by counter-regulatory hormones — glucagon and catecholamines — not by insulin.</div>",
+                    "chosenFeedback": "<div>Correct. The 50% concentration is far too hypertonic for neonatal veins and provokes an insulin surge that drops glucose again. The standard neonatal bolus is 10% dextrose at 2 mL/kg.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Ketone body production from fat oxidation</div>",
+                  "text": "<div>It specifically worsens the hyperinsulinism present in infants of diabetic mothers</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This DOES contribute. Fat oxidation generates ketone bodies that serve as an alternative cerebral fuel, reducing glucose demand during the transition period.</div>",
+                    "chosenFeedback": "<div>Incorrect. While infants of diabetic mothers do have hyperinsulinism, 50% dextrose is contraindicated in all neonates because of its osmolarity and rebound risk, not specifically because of the underlying hyperinsulinism.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It requires central venous access, which is not available in routine neonatal care</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. The key danger of 50% dextrose in neonates is direct vein injury and rebound hypoglycaemia, not the route of administration.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The three mechanisms that stabilise neonatal glucose are hepatic glycogenolysis, enteral feeding, and ketone production from fat oxidation. An insulin surge would lower glucose and is not part of the stabilisation process."
+                  "feedback": "The 50% dextrose used for adults is far too concentrated for neonatal veins — it causes vein injury and triggers rebound hypoglycaemia through an insulin surge. The correct neonatal bolus is 10% dextrose at 2 mL/kg, followed by continuous infusion."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The three stabilisation mechanisms are hepatic glycogenolysis, enteral feeding, and ketone production from fat oxidation — all activated by counter-regulatory hormones, not insulin."
+                  "feedback": "Correct! In neonates, 10% dextrose at 2 mL/kg is the standard bolus for symptomatic hypoglycaemia. The 50% concentration used in adults injures neonatal veins and triggers rebound hypoglycaemia."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "be408835-e562-48c0-bd3b-5b1e1dba4c3c",
+            "subContentId": "beeae360-44c1-44ec-b4de-872a4e9a3375",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In a healthy term neonate, blood glucose",
+              "title": "Why is 50% dextrose contraindicated when",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,343 @@
         },
         {
           "duration": {
-            "from": 275.02500000000003,
-            "to": 285.02500000000003
+            "from": 403.975,
+            "to": 413.975
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Neonatal sepsis typically presents with high-grade fever and localising signs of</p>",
+          "label": "<p>Why is ionised calcium preferred over total calcium for diagnosing neonatal hypo</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Why is ionised calcium preferred over total calcium for diagnosing neonatal hypocalcaemia?</p>",
+              "answers": [
+                {
+                  "text": "<div>It can be measured non-invasively using a bedside device</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Ionised calcium requires a blood sample, typically from a blood gas analyser. The reason it is preferred is that it directly reflects the biologically active calcium fraction.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It reflects the biologically active fraction that is not altered by albumin levels</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Ionised calcium is the free, active form that directly affects nerve and muscle function. Unlike total calcium, it is not confounded by albumin binding — giving a true picture of calcium availability.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Total calcium is always within the normal range in neonates, making it uninformative</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Total calcium does fall in neonates (nadir at 24–48 hours), but the problem is that albumin levels can mask true calcium status — a low albumin can make total calcium appear normal even when the active fraction is dangerously low.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It is the only calcium fraction that responds to parathyroid hormone</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Both ionised and bound calcium are affected by PTH-mediated bone resorption. The advantage of ionised calcium is that it directly measures the physiologically active fraction available to nerves and muscles.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Ionised calcium is preferred because it represents the biologically active form — the fraction that nerves and muscles actually use. Total calcium is confounded by albumin binding and can be misleadingly normal when the active fraction is dangerously low."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct! Ionised calcium measures the free, active fraction independent of albumin levels. Below 1.0 mmol/L defines neonatal hypocalcaemia regardless of the total calcium value."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "213f6dab-ad3d-445f-a26e-719c65b714d9",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Why is ionised calcium preferred over to",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 586.8000000000001,
+            "to": 596.8000000000001
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In a preterm neonate with suspected sepsis, which temperature finding should rai</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In a preterm neonate with suspected sepsis, which temperature finding should raise the highest clinical concern?</p>",
+              "answers": [
+                {
+                  "text": "<div>A single episode of low-grade fever of 37.8 °C</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. While fever can occur in neonatal sepsis, a single low-grade fever is less specific. In preterm babies, hypothermia is actually the more ominous finding, reflecting the inability to mount a febrile response.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Hypothermia, particularly in preterm and low birth weight babies</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Hypothermia is more worrying than fever in preterm neonates with sepsis. It reflects failing thermoregulation and the baby's inability to mount a febrile response — a sign of significant systemic compromise.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A stable normal temperature of 36.8 °C, which indicates the infection is controlled</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. A normal temperature does not rule out sepsis. Neonatal sepsis is notoriously non-specific, and a normal temperature can coexist with serious infection — the 'not doing well' rule still applies.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Temperature fluctuations between 36 °C and 38 °C over several hours</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. While temperature instability is concerning, the key teaching point is that sustained hypothermia, especially in preterm and low birth weight babies, is the most worrying temperature abnormality in neonatal sepsis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "In preterm neonates, hypothermia is actually the more concerning temperature finding in sepsis. Unlike older children, preterm babies often lack the ability to generate fever, so a low temperature reflects failing thermoregulation and significant systemic compromise."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct! Hypothermia is paradoxically more worrying than fever in preterm neonates with sepsis. These babies often cannot mount a reliable febrile response, so a falling temperature reflects deeper systemic illness."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "e6426968-3e74-4f17-a831-e93fd80f9167",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In a preterm neonate with suspected seps",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 771.6250000000001,
+            "to": 781.6250000000001
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Which combination of factors in a neonate's history most strongly raises suspici</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Which combination of factors in a neonate's history most strongly raises suspicion for late vitamin K deficiency bleeding?</p>",
+              "answers": [
+                {
+                  "text": "<div>Prematurity with formula feeding and an uncomplicated delivery</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Formula milk is supplemented with vitamin K, which actually protects against VKDB. The classic risk profile involves exclusive breastfeeding, since breast milk provides very little vitamin K (1–4 mcg/L).</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Exclusive breastfeeding with no vitamin K prophylaxis given at birth</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Breast milk contains very little vitamin K (1–4 mcg/L), and without prophylaxis the baby relies on gut bacteria for vitamin K₂ synthesis — which is minimal in the early weeks. This combination is the hallmark risk profile for late VKDB.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Maternal gestational diabetes with a macrosomic infant</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Infants of diabetic mothers are at risk for hypoglycaemia and hypocalcaemia, but gestational diabetes is not a specific risk factor for vitamin K deficiency bleeding.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Birth asphyxia with a prolonged NICU stay</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Birth asphyxia does not predispose to VKDB. In fact, NICU-admitted babies typically receive vitamin K prophylaxis as part of routine neonatal care.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The classic late VKDB risk profile is exclusive breastfeeding — which provides only 1–4 mcg/L of vitamin K — combined with missed vitamin K prophylaxis at birth. Together, these leave the baby with insufficient vitamin K for clotting factor synthesis."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct! Exclusive breastfeeding combined with no vitamin K prophylaxis at birth creates the classic risk profile for late VKDB. This is why vitamin K administration at birth is one of the most important preventive measures in neonatal care."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "c81d8895-b0c1-4794-8a9a-bed7c0169f26",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Which combination of factors in a neonat",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 969.4500000000002,
+            "to": 979.4500000000002
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Sustained high oxygen exposure is more harmful to the preterm retina than repeat</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,7 +516,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Neonatal sepsis typically presents with high-grade fever and localising signs of infection, similar to sepsis in older children and adults.</p>",
+              "question": "<p>Sustained high oxygen exposure is more harmful to the preterm retina than repeated fluctuations between high and low oxygen levels.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -204,236 +534,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "Incorrect. Unlike older children, neonates lack the mature immune response to generate classic fever and localising signs. Neonatal sepsis manifests as subtle, non-localising changes — poor feeding, lethargy, temperature instability, respiratory distress — easily mistaken for benign causes.",
-                "correctAnswerMessage": "Correct. Neonatal sepsis is notoriously non-specific — neonates often present with subtle signs such as poor feeding, lethargy, hypothermia, or tachypnoea rather than classic fever and rigors. The bedside 'rule of not-doing-well' mandates urgent sepsis evaluation for any neonate not feeding or behaving normally.",
+                "wrongAnswerMessage": "This statement is actually false. The video explains that repeated swings between too much and too little oxygen may harm the retina more than sustained high oxygen alone. These fluctuations cause cyclical ischaemia-reperfusion injury, amplifying oxidative damage to immature retinal vessels.",
+                "correctAnswerMessage": "Correct — this statement is false. Repeated swings between hyperoxia and hypoxia are actually more harmful to the immature retina than sustained high oxygen alone, because the oscillation amplifies oxidative damage through cycles of ischaemia-reperfusion injury.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "2ecd7b2b-5176-4dd3-96b5-f32fe41b8397",
+            "subContentId": "523445c2-ed30-4d5c-bc18-d5f743b25752",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Neonatal sepsis typically presents with",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 384.37500000000006,
-            "to": 394.37500000000006
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>The recognition of Vitamin K Deficiency Bleeding (VKDB) hinges on two key clinic</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>The recognition of Vitamin K Deficiency Bleeding (VKDB) hinges on two key clinical features. Which pair correctly identifies them?</p>",
-              "answers": [
-                {
-                  "text": "<div>Gestational age less than 34 weeks and a low platelet count</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>VKDB is not limited to preterm neonates and the platelet count is characteristically normal. The coagulopathy involves vitamin K-dependent clotting factors (II, VII, IX, X), not platelets.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Age of the bleeding neonate and the absence of another explanation for the coagulopathy</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The timing of bleeding determines the form (early 0–24 h, classic days 2–7, late 2 weeks–6 months), and exclusion of trauma, sepsis, and platelet disorders confirms the diagnosis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Maternal warfarin use and the presence of neonatal jaundice</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Maternal warfarin is a risk factor for early VKDB specifically, but is not a universal diagnostic criterion. Jaundice is a separate neonatal condition unrelated to VKDB.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Prematurity and prolonged rupture of membranes</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>These are risk factors for neonatal sepsis, not VKDB. VKDB results from physiological vitamin K deficiency — poor placental transfer, low breast-milk content, and a sterile gut lacking K₂-producing bacteria.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The two diagnostic hinges for VKDB are the age of the bleeding neonate (which determines the form — early, classic, or late) and the absence of another explanation for the coagulopathy such as sepsis, trauma, or platelet disorders."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. VKDB is recognised by two hinges: the age at which bleeding occurs (determining the form) and the exclusion of other causes of coagulopathy such as sepsis, trauma, or thrombocytopenia."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "5ec6d816-7ef4-4ce0-a35e-99cef8bd4c13",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "The recognition of Vitamin K Deficiency",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 499.2000000000001,
-            "to": 509.2000000000001
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>Why are preterm neonates particularly susceptible to oxygen toxicity when receiv</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>Why are preterm neonates particularly susceptible to oxygen toxicity when receiving supplemental oxygen?</p>",
-              "answers": [
-                {
-                  "text": "<div>Their lungs have a larger surface area relative to body weight, absorbing excess oxygen</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Preterm lungs are surfactant-deficient with reduced functional surface area. The susceptibility lies in immature antioxidant defences, not increased oxygen absorption.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Supplemental oxygen binds irreversibly to fetal haemoglobin, causing direct tissue damage</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Oxygen binding to haemoglobin — fetal or adult — is fully reversible. The toxicity results from reactive oxygen species overwhelming immature enzymatic antioxidant systems.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>They have immature antioxidant defence systems and developing organ systems vulnerable to oxidative injury</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Preterm neonates lack mature enzymatic antioxidant defences to neutralise reactive oxygen species, making developing organs — especially the retina and lungs — vulnerable to cumulative oxidative damage.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Their renal system cannot excrete excess dissolved oxygen from the bloodstream</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Oxygen is not excreted renally. The danger comes from reactive oxygen species generated by supplemental oxygen damaging developing organs in the absence of adequate antioxidant protection.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Oxygen toxicity results from immature antioxidant defence systems that cannot handle the reactive oxygen species generated by supplemental oxygen, leaving developing organs (retina, lungs, brain) vulnerable to cumulative oxidative injury."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Oxygen toxicity in preterm neonates is a predictable consequence of immature antioxidant defences — not an accident — and the severity is proportional to cumulative oxygen exposure."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "bc7d5e82-9f4f-4361-8359-602de6cf6d6a",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "Why are preterm neonates particularly su",
+              "title": "Sustained high oxygen exposure is more h",
               "authors": [],
               "changes": []
             }
@@ -455,48 +565,48 @@
         },
         {
           "time": 3,
-          "label": "A 2.1 kg baby is born at 36 weeks of gestation to a mothe…"
+          "label": "A 2.1 kilogram baby is born at 36 weeks to a mother with…"
         },
         {
-          "time": 55,
-          "label": "Neonatal Glucose Physiology and Temperature Regulation At…"
+          "time": 168,
+          "label": "When a baby is born, blood glucose falls fast."
         },
         {
-          "time": 115,
-          "label": "Calcium Homeostasis in the Neonate: Physiology and Transi…"
+          "time": 285,
+          "label": "During pregnancy, the placenta constantly pumps calcium f…"
         },
         {
-          "time": 175,
-          "label": "Clinical Presentation: Types of Neonatal Seizures Neonata…"
+          "time": 405,
+          "label": "Neonatal seizures don't look like the seizures you might…"
         },
         {
-          "time": 226,
-          "label": "Clinical Presentation of Neonatal Sepsis The clinical pre…"
+          "time": 494,
+          "label": "Any neonate who is not feeding well, not looking well, or…"
         },
         {
-          "time": 278,
-          "label": "Clinical Presentation and Timing of Neonatal Jaundice Neo…"
+          "time": 587,
+          "label": "Neonatal jaundice shows up as a yellow tinge to the skin…"
         },
         {
-          "time": 333,
-          "label": "Clinical Presentation of VKDB: When Neonates Bleed Unexpe…"
+          "time": 681,
+          "label": "Vitamin K deficiency bleeding, or V K D B, is the modern…"
         },
         {
-          "time": 387,
-          "label": "Clinical Indication: When to Suspect a Surgical Emergency…"
+          "time": 772,
+          "label": "Five red flags matter more than any others in newborn sur…"
         },
         {
-          "time": 442,
-          "label": "Clinical Presentation: Who Gets Oxygen Toxicity and When…"
+          "time": 860,
+          "label": "Oxygen toxicity in preterm neonates isn't random."
         },
         {
-          "time": 502,
-          "label": "Clinical Presentation of Neonatal Sepsis The clinical pre…"
+          "time": 970,
+          "label": "Neonatal sepsis is tricky to spot because babies don't sh…"
         }
       ],
       "endscreens": [
         {
-          "time": 603,
+          "time": 1125,
           "label": "End"
         }
       ]
@@ -508,7 +618,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "5d6ff435-99a8-4585-87be-a4c9693e3240",
+              "subContentId": "95881afb-3a97-46e5-8285-881ee5750cee",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -531,7 +641,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "899266f0-347a-4259-b6c3-fd1cad270236",
+        "subContentId": "3af06149-cf2f-4e76-b2cd-20ffe11d6409",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
