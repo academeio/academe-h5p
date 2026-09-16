@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/06d0f390-2617-4cd4-83dd-85e6221de8bc/playlist.m3u8",
+          "path": "https://vdo.cbme.in/7615cfe6-ca42-4120-bddf-7fa22d8f6444/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PE24.1-23 | Pediatric Emergencies — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 3 embedded questions for PE23.1-PE24.9."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for PE23.1-PE24.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,101 +61,49 @@
       "interactions": [
         {
           "duration": {
-            "from": 106.44999999999999,
-            "to": 116.44999999999999
+            "from": 103.94999999999999,
+            "to": 113.94999999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why must immediate stabilisation (oxygen, positioning, airway support) precede t</p>",
+          "label": "<p>In a child presenting in coma, the clinician should complete the full assessment</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Why must immediate stabilisation (oxygen, positioning, airway support) precede treatment of the underlying cause in a child with respiratory distress?</p>",
-              "answers": [
-                {
-                  "text": "<div>Respiratory failure and arrest can follow decompensation within minutes, so securing the airway and oxygenation takes priority</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The spectrum from compensated distress to arrest can progress in minutes. All immediate management — oxygen, positioning, airway support — must precede aetiological investigation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Clinical signs are unreliable during active distress, so the aetiology cannot be determined until the child is stabilised</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Clinical signs can be assessed during distress. The real priority is that respiratory failure and arrest can follow within minutes once compensation is lost — there may not be time to treat the cause if the child arrests.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Aetiological treatments such as antibiotics and bronchodilators are contraindicated during active respiratory distress</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>These treatments are not contraindicated during distress. The reason for stabilising first is that a child progressing beyond compensation can arrest within minutes — no cause-specific treatment will help an arrested child.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Respiratory distress in children is usually self-limiting and resolves with supportive care alone</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Respiratory distress in children is NOT usually self-limiting. Without intervention, compensated distress can progress rapidly through decompensation and failure to arrest.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The key principle is that respiratory failure and arrest can follow decompensation within minutes. Stabilisation (oxygen, positioning, airway support) must come first because no cause-specific treatment will work if the child arrests."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. Stabilisation is time-critical because the progression from compensated distress to respiratory arrest can be rapid — the underlying cause matters, but only a stable child can be investigated and treated."
-                }
-              ],
+              "question": "<p>In a child presenting in coma, the clinician should complete the full assessment before initiating any treatment.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "In paediatric coma, assessment and treatment happen concurrently, not sequentially. The three most common reversible causes — hypoglycaemia, CNS infections, and status epilepticus — can worsen rapidly, so first-line treatments must be started before the full assessment is complete.",
+                "correctAnswerMessage": "Correct. An unconscious child must be assessed and treated simultaneously because the three most common reversible causes — hypoglycaemia, CNS infections, and status epilepticus — can each cause irreversible damage if treatment is delayed while completing assessment.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "2aef75b7-28a8-4aa7-8597-59f55dc953f4",
+            "subContentId": "efd42a70-a628-4b10-89f3-2ec494355560",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "Why must immediate stabilisation (oxygen",
+              "title": "In a child presenting in coma, the clini",
               "authors": [],
               "changes": []
             }
@@ -171,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 279.65000000000003,
-            "to": 289.65000000000003
+            "from": 291.57499999999993,
+            "to": 301.57499999999993
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why was the earlier 30-minute definition of status epilepticus replaced by the c</p>",
+          "label": "<p>A 2-year-old in the emergency department has a heart rate of 180/min, cold extre</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Why was the earlier 30-minute definition of status epilepticus replaced by the current 5-minute operational threshold (t1)?</p>",
+              "question": "<p>A 2-year-old in the emergency department has a heart rate of 180/min, cold extremities, and a capillary refill time of 4 seconds. Blood pressure is 90/60 mmHg, which is normal for age. What is the most accurate assessment?</p>",
               "answers": [
                 {
-                  "text": "<div>Because 30 minutes was too short — most seizures that last 30 minutes still stop spontaneously</div>",
+                  "text": "<div>The child is not in shock because the blood pressure is normal</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The 30-minute threshold was too LONG, not too short. Seizures lasting beyond 5 minutes almost never stop spontaneously, and waiting 30 minutes meant treating far too late.</div>",
+                    "chosenFeedback": "<div>Blood pressure can remain normal in compensated shock. Children maintain BP by raising heart rate and constricting peripheral vessels, even after 25–30% of blood volume is lost.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Because seizures lasting &gt;5 minutes almost never stop spontaneously, and benzodiazepine efficacy declines with every minute of delay</div>",
+                  "text": "<div>The child is in compensated shock — tachycardia and poor perfusion indicate inadequate tissue perfusion despite normal blood pressure</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Two converging pieces of evidence drove the change: seizures lasting &gt;5 minutes rarely self-terminate, and benzodiazepines become progressively less effective with each passing minute of untreated seizure.</div>",
+                    "chosenFeedback": "<div>Correct. Tachycardia, prolonged capillary refill, and cold extremities signal compensated shock. Blood pressure is maintained by compensatory mechanisms and drops only when compensation fails.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Because MRI studies demonstrated that irreversible brain damage begins at exactly 5 minutes</div>",
+                  "text": "<div>The child has decompensated shock because the heart rate is elevated</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The 5-minute threshold is not based on MRI evidence of damage starting at 5 minutes. Long-term neurological consequences are associated with t2 (&gt;30 minutes). The t1 threshold reflects the operational point where the seizure is unlikely to self-terminate.</div>",
+                    "chosenFeedback": "<div>Decompensated shock is defined by the failure of compensatory mechanisms, with falling blood pressure and declining mental status — not by tachycardia alone, which is already present in compensated shock.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Because the 30-minute definition required continuous EEG monitoring that is unavailable in most emergency settings</div>",
+                  "text": "<div>The child is in irreversible shock and aggressive treatment is unlikely to help</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The 30-minute definition was a clinical one, not dependent on EEG. It was replaced because waiting 30 minutes allowed unnecessary neuronal injury and critically reduced the effectiveness of benzodiazepine treatment.</div>",
+                    "chosenFeedback": "<div>Irreversible shock implies established organ damage unresponsive to treatment. This child's preserved blood pressure indicates compensation is still active, making this the ideal window for intervention.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The 30-minute threshold was replaced because seizures lasting >5 minutes almost never stop spontaneously, and benzodiazepine efficacy declines progressively with each passing minute. The current operational threshold (t1 = ≥5 minutes) ensures earlier treatment."
+                  "feedback": "Remember: in children, shock is diagnosed by tachycardia, prolonged capillary refill, cold extremities, and altered mental status — not by blood pressure, which drops only when compensation fails."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The shift from 30 to 5 minutes reflects two key insights: seizures persisting beyond 5 minutes almost never self-terminate, and benzodiazepines work best when given early — each minute of delay reduces their efficacy."
+                  "feedback": "Well done. Compensated shock is diagnosed by clinical signs of poor perfusion — not by blood pressure, which is a late marker."
                 }
               ],
               "behaviour": {
@@ -261,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "869de3d4-c6d5-483d-84c9-4f9c300413f8",
+            "subContentId": "c687ef9f-cd63-4543-b283-18d8fc40ab3d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Why was the earlier 30-minute definition",
+              "title": "A 2-year-old in the emergency department",
               "authors": [],
               "changes": []
             }
@@ -281,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 492.6500000000001,
-            "to": 502.6500000000001
+            "from": 507.04999999999995,
+            "to": 517.05
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A child in hypovolaemic shock with cold extremities has an SpO₂ reading of 98%. </p>",
+          "label": "<p>A 4-year-old has been having continuous generalised tonic-clonic seizures for 7 </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A child in hypovolaemic shock with cold extremities has an SpO₂ reading of 98%. Which interpretation is most appropriate?</p>",
+              "question": "<p>A 4-year-old has been having continuous generalised tonic-clonic seizures for 7 minutes. The nurse suggests continuing observation until 30 minutes before treating. Based on the ILAE definition of status epilepticus, what is the correct response?</p>",
               "answers": [
                 {
-                  "text": "<div>The child has adequate oxygenation and does not need supplemental oxygen</div>",
+                  "text": "<div>The nurse is correct — treatment for status epilepticus begins only after 30 minutes of continuous seizure activity</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>An SpO₂ of 98% in a poorly perfused child cannot be trusted at face value. Pulse oximetry depends on adequate pulsatile blood flow — in shock with vasoconstriction, readings may not reflect true arterial saturation.</div>",
+                    "chosenFeedback": "<div>The 30-minute threshold (t2) marks the point at which lasting brain injury becomes likely. Treatment must start much earlier, at t1 = 5 minutes.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The reading is accurate but incomplete — the child also needs capnography because SpO₂ does not measure CO₂</div>",
+                  "text": "<div>The 30-minute threshold applies to adults only; the paediatric threshold is 15 minutes</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While it is true that SpO₂ does not detect hypercapnia, the primary concern here is the reliability of the reading itself. In hypovolaemic shock with cold extremities, the pulsatile signal is diminished, making the SpO₂ value unreliable.</div>",
+                    "chosenFeedback": "<div>The t1 threshold of 5 minutes applies to convulsive status epilepticus in both adults and children. There is no separate 15-minute threshold in the ILAE framework.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The reading is likely unreliable because pulse oximetry requires adequate peripheral perfusion to generate accurate values</div>",
+                  "text": "<div>Treatment timing depends entirely on the seizure type and should await EEG confirmation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Convulsive status epilepticus is a clinical diagnosis. Waiting for EEG confirmation delays life-saving benzodiazepine administration and worsens outcomes.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Treatment should have started at 5 minutes — seizures beyond this point rarely self-terminate, and each additional minute reduces benzodiazepine efficacy due to receptor internalisation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. SpO₂ readings are unreliable when the perfusion waveform is poor. Shock, hypothermia, and severe peripheral vasoconstriction all reduce the pulsatile signal the oximeter depends on — clinical assessment must supplement the number.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The SpO₂ confirms that respiratory support can be safely discontinued and focus shifted to fluid resuscitation alone</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Never discontinue respiratory support based solely on an SpO₂ reading in a poorly perfused child. The value may be falsely reassuring — pulse oximetry requires adequate pulsatile blood flow, which is compromised in hypovolaemic shock.</div>",
+                    "chosenFeedback": "<div>Correct. The ILAE defines t1 as 5 minutes for generalised tonic-clonic seizures. Benzodiazepine receptors undergo internalisation during prolonged seizures, making delayed treatment progressively less effective.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In hypovolaemic shock with cold extremities, the SpO₂ reading is unreliable. Pulse oximetry depends on pulsatile blood flow — when perfusion is poor (shock, hypothermia, vasoconstriction), readings may not reflect true arterial saturation. Never rely on the number alone."
+                  "feedback": "The ILAE defines two timepoints: t1 (5 minutes) for treatment initiation and t2 (30 minutes) for risk of lasting brain injury. Benzodiazepines must be given at t1, because their efficacy drops with each passing minute due to receptor internalisation."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent analysis. In hypovolaemic shock with peripheral vasoconstriction, pulse oximetry readings are unreliable because the device depends on adequate pulsatile blood flow. Always correlate SpO₂ with clinical signs."
+                  "feedback": "Correct. Treat at 5 minutes — the old 30-minute threshold has been abandoned because delayed treatment allows receptor downregulation and worsens prognosis."
                 }
               ],
               "behaviour": {
@@ -371,11 +319,231 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "683db71f-2274-4988-bcc7-512a2bb30c15",
+            "subContentId": "79ebebf0-7d28-494a-86e0-3a80cdd8f9e5",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A child in hypovolaemic shock with cold",
+              "title": "A 4-year-old has been having continuous",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 701.225,
+            "to": 711.225
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>During single-rescuer CPR on an 8-month-old infant, which compression technique </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>During single-rescuer CPR on an 8-month-old infant, which compression technique and compression-to-ventilation ratio should be used?</p>",
+              "answers": [
+                {
+                  "text": "<div>Heel of one hand on the lower sternum, 30 compressions to 2 breaths</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The heel-of-hand technique is used for children aged 1 year to puberty, not for infants under one year.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Two thumbs encircling the chest, 15 compressions to 2 breaths</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The two-thumb encircling technique is used only with two rescuers in infants, with a 15:2 ratio. A single rescuer uses the two-finger technique with a 30:2 ratio.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Two fingers on the centre of the chest just below the nipple line, 30 compressions to 2 breaths</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. For single-rescuer infant CPR, two fingers are placed over the centre of the chest just below the nipple line, compressing to about 4 cm depth at 100–120/min, with a 30:2 ratio.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Two hands on the lower sternum, 15 compressions to 2 breaths</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Two-hand compressions are reserved for larger children approaching puberty. For infants, a single rescuer uses the two-finger technique with a 30:2 ratio.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "For single-rescuer infant CPR: two fingers on the centre of the chest just below the nipple line, compress ~4 cm deep at 100–120/min, 30 compressions then 2 breaths. With two rescuers, switch to two thumbs encircling the chest with a 15:2 ratio."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. Single-rescuer infant CPR uses two fingers just below the nipple line, compressing to ~4 cm at 100–120/min with a 30:2 ratio."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "1efd22c6-6a12-46a1-83fc-b3422be89284",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "During single-rescuer CPR on an 8-month-",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 885.2750000000001,
+            "to": 895.2750000000001
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A child on a non-rebreather mask at 15 L/min shows a pulse oximetry reading of 9</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A child on a non-rebreather mask at 15 L/min shows a pulse oximetry reading of 97%. The resident concludes the child is improving. Which limitation of pulse oximetry makes this conclusion potentially unsafe?</p>",
+              "answers": [
+                {
+                  "text": "<div>Pulse oximetry does not measure carbon dioxide — the child may be retaining CO₂ with rising hypercapnia despite adequate SpO₂</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Pulse oximetry measures oxygen saturation only. On supplemental oxygen, SpO₂ can remain high even as CO₂ accumulates, masking respiratory failure. Clinical signs — respiratory rate, effort, alertness — must always be assessed alongside.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Pulse oximetry is unreliable in all children under 5 years of age</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Pulse oximetry is reliable across all paediatric ages. Its limitations relate to perfusion state and what it measures — not to the patient's age.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A reading of 97% always indicates the child needs less supplemental oxygen, confirming improvement</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A high SpO₂ on supplemental oxygen shows adequate oxygenation at that moment but says nothing about ventilation or the trajectory of the child's work of breathing. It does not confirm improvement.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The non-rebreather mask interferes with the pulse oximetry probe and produces falsely high readings</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The oxygen delivery device does not affect the probe. Falsely abnormal readings occur with poor perfusion, hypothermia, or motion artefact — not with the type of mask used.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Pulse oximetry does not measure CO₂. On supplemental oxygen, a normal SpO₂ can mask worsening ventilation. The clinician must combine oximetry with clinical signs — respiratory rate, retractions, alertness, and colour — to judge whether the child is truly improving."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. SpO₂ can look falsely reassuring on supplemental oxygen while CO₂ quietly rises. Always assess respiratory rate, effort, consciousness, and skin colour alongside the oximetry reading."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "a523e5db-39ff-4eeb-83f7-271361804d5e",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A child on a non-rebreather mask at 15 L",
               "authors": [],
               "changes": []
             }
@@ -397,44 +565,44 @@
         },
         {
           "time": 3,
-          "label": "Why Consciousness Matters: Indication and Clinical Releva…"
+          "label": "Consciousness is the brain's most integrative function."
         },
         {
-          "time": 52,
-          "label": "Clinical Indication: Recognising Respiratory Distress in…"
+          "time": 104,
+          "label": "Respiratory distress happens when a child must work harde…"
         },
         {
-          "time": 106,
-          "label": "Clinical Indication: Recognising Shock in a Child Shock i…"
+          "time": 201,
+          "label": "Recognising shock in a child starts with one key fact: bl…"
         },
         {
-          "time": 162,
-          "label": "IMNCI Assessment Technique: Signs of Dehydration and Clas…"
+          "time": 292,
+          "label": "Now that you've seen how each sign is assessed, let's put…"
         },
         {
-          "time": 219,
-          "label": "Clinical Presentation: Recognising Status Epilepticus Sta…"
+          "time": 399,
+          "label": "A young child has been having continuous rhythmic jerking…"
         },
         {
-          "time": 280,
-          "label": "Thermal Emergencies: Why Temperature Matters in Paediatri…"
+          "time": 508,
+          "label": "Temperature regulation in babies and children is not a mi…"
         },
         {
-          "time": 336,
-          "label": "BLS for Children: Technique and Sequence Paediatric basic…"
+          "time": 621,
+          "label": "You've just called a code and started chest compressions…"
         },
         {
-          "time": 389,
-          "label": "Governing Principles: Informed Consent, Capacity, and Pro…"
+          "time": 702,
+          "label": "A child arrives needing urgent treatment, a form is pushe…"
         },
         {
-          "time": 438,
-          "label": "Interpretation: Monitoring Response to Oxygen and Ventila…"
+          "time": 778,
+          "label": "After starting oxygen therapy or bag-valve-mask ventilati…"
         }
       ],
       "endscreens": [
         {
-          "time": 528,
+          "time": 920,
           "label": "End"
         }
       ]
@@ -446,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "7f813c0b-5219-435d-ac1b-6014871bdc24",
+              "subContentId": "c4227a7c-d0ad-4be3-a36b-203dfdc3bb14",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -469,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "dfcbd40d-ef4d-48e0-97a0-db658616f9e0",
+        "subContentId": "8155b730-9145-4376-8a3b-9ef149847038",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
