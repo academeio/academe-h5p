@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/d413c015-206e-4f09-9282-c59f9663b2a8/playlist.m3u8",
+          "path": "https://vdo.cbme.in/fcb805ef-e58f-4a26-b41c-4610a6248df1/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "EN4.{3-4,6-8,10-11,15} | Otitis Media and Middle Ear Surgery — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for EN4.1-EN4.9."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for EN4.1-EN4.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,71 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 75.3,
-            "to": 85.3
+            "from": 171.9,
+            "to": 181.9
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The Eustachian tube remains open at rest and closes during swallowing in healthy</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>The Eustachian tube remains open at rest and closes during swallowing in healthy adults.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Actually, the opposite is true. The cartilaginous portion of the Eustachian tube is collapsed shut at rest and opens briefly during swallowing or yawning to ventilate the middle ear. A permanently open tube is pathological — the patulous type — and causes autophony, as illustrated in the opening case.",
-                "correctAnswerMessage": "Correct — the cartilaginous outer two-thirds of the Eustachian tube is collapsed shut at rest and opens only when the tensor veli palatini contracts during swallowing or yawning. A tube that remains permanently open is termed patulous and causes autophony, as described in the opening clinical vignette.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "58eea8a0-92eb-4bd6-b597-5f155872d55e",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "The Eustachian tube remains open at rest",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 246.15,
-            "to": 256.15
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>What is the primary reason otitis media with effusion is considered clinically d</p>",
+          "label": "<p>According to the aspiration theory, what event initiates bacterial entry into th</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>What is the primary reason otitis media with effusion is considered clinically dangerous in young children?</p>",
+              "question": "<p>According to the aspiration theory, what event initiates bacterial entry into the middle ear in acute suppurative otitis media?</p>",
               "answers": [
                 {
-                  "text": "<div>It causes severe otalgia that disrupts sleep and feeding patterns</div>",
+                  "text": "<div>Direct bacterial invasion through an intact tympanic membrane</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Unlike ASOM, otitis media with effusion is characteristically painless. The absence of symptoms is precisely what makes it dangerous — it goes undetected.</div>",
+                    "chosenFeedback": "<div>The tympanic membrane is an effective barrier. In ASOM, bacteria reach the middle ear via the Eustachian tube from the nasopharynx, not through the drum.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It frequently progresses to tympanic membrane perforation and acute infection</div>",
+                  "text": "<div>Haematogenous spread of bacteria from a distant focus of infection</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. OME does not typically progress to perforation. The tympanic membrane remains intact but retracted, with thick viscous fluid accumulating behind it.</div>",
+                    "chosenFeedback": "<div>Haematogenous spread is not the mechanism in ASOM. The route is mucosal — Eustachian tube obstruction creates negative pressure that aspirates nasopharyngeal organisms.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It produces painless hearing loss during the critical period of language and cognitive development</div>",
+                  "text": "<div>Negative middle ear pressure drawing bacteria up through a blocked Eustachian tube</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! OME causes conductive hearing loss without pain or fever. Because it peaks between ages 2 and 10 — the critical window for language acquisition — children fall behind in speech and academic performance before anyone suspects an ear problem.</div>",
+                    "chosenFeedback": "<div>Correct. A preceding URTI causes mucosal swelling that obstructs the Eustachian tube. The resulting negative pressure aspirates nasopharyngeal bacteria — chiefly S. pneumoniae, non-typeable H. influenzae, and M. catarrhalis — into the sterile middle ear.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It causes recurrent high fevers requiring hospitalisation and intravenous antibiotics</div>",
+                  "text": "<div>Retrograde bacterial migration from the external auditory canal through the annulus</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. OME does not cause fever. It is an entirely silent condition — no pain, no fever, no visible illness — which is exactly why it is often missed.</div>",
+                    "chosenFeedback": "<div>The external canal is separated from the middle ear by an intact tympanic membrane. In ASOM, bacteria ascend from the nasopharynx via the obstructed Eustachian tube.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "OME is dangerous precisely because it is silent — no pain, no fever, no obvious illness. The conductive hearing loss arrives during the critical language development window (ages 2–10), and children simply adapt rather than complain."
+                  "feedback": "Review the aspiration theory: a URTI blocks the Eustachian tube, creating negative middle ear pressure that draws nasopharyngeal bacteria into the sterile space."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The danger of glue ear lies in its silence — painless hearing loss during the language-learning years can cause lasting developmental harm if not detected early."
+                  "feedback": "Exactly right. Eustachian tube obstruction → negative middle ear pressure → aspiration of nasopharyngeal bacteria is the core mechanism of ASOM."
                 }
               ],
               "behaviour": {
@@ -209,11 +151,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "fcb60ef3-4f7f-42f6-a06a-cdb80afcf17b",
+            "subContentId": "c75dcc0f-416b-4f53-bc25-14c4c63a7170",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "What is the primary reason otitis media",
+              "title": "According to the aspiration theory, what",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 342.325,
+            "to": 352.325
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>On otoscopy, which finding is characteristic of Stage 3 acute suppurative otitis</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>On otoscopy, which finding is characteristic of Stage 3 acute suppurative otitis media and distinguishes it from otitis media with effusion?</p>",
+              "answers": [
+                {
+                  "text": "<div>A dull, retracted tympanic membrane with an amber hue</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>An amber, retracted drum is characteristic of OME, where sterile fluid fills the middle ear without active infection. There is no bulging or hyperaemia.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A cherry-red, bulging tympanic membrane with loss of all landmarks</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. In Stage 3 ASOM, pus accumulates under pressure, causing the drum to bulge outward and turn cherry-red. The cone of light and malleus handle are completely obscured. OME, by contrast, shows a retracted, dull drum.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Air-fluid level or bubbles visible through the tympanic membrane</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Air-fluid levels and bubbles are classic findings in OME, where partial middle ear filling allows both air and fluid to be visible through a translucent drum.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A grey-blue tympanic membrane with an intact cone of light</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A grey-blue drum is another presentation of OME. In Stage 3 ASOM, the cone of light is obliterated by the bulging, hyperaemic membrane — it is never intact.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Remember: Stage 3 ASOM shows a cherry-red, bulging drum with all landmarks obscured by pus under pressure. OME shows a retracted, dull, amber or grey-blue drum."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. The bulging, cherry-red drum with lost landmarks is the hallmark of Stage 3 ASOM — pus under pressure is the key."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "c84b8ff8-36a0-4cc0-b557-3af02a0b78cf",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "On otoscopy, which finding is characteri",
               "authors": [],
               "changes": []
             }
@@ -235,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with chronic ear discharge has a perforation in the posterosuperior pa</p>",
+          "label": "<p>Why is mucosal (tubotympanic) chronic suppurative otitis media classified as the</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with chronic ear discharge has a perforation in the posterosuperior pars flaccida with scanty, foul-smelling discharge. Which of the following best explains the clinical significance of this finding?</p>",
+              "question": "<p>Why is mucosal (tubotympanic) chronic suppurative otitis media classified as the 'safe' type?</p>",
               "answers": [
                 {
-                  "text": "<div>A pars flaccida perforation indicates mucosal CSOM, which responds well to conservative management with aural toilet</div>",
+                  "text": "<div>Because the discharge is always sterile and self-limiting</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Mucosal (tubotympanic) CSOM has a central perforation in the pars tensa with a healthy rim of tissue on all sides. A pars flaccida perforation indicates the squamosal (atticoantral) unsafe type.</div>",
+                    "chosenFeedback": "<div>The discharge in mucosal CSOM is not sterile — it contains bacteria and is profuse and mucoid. The 'safe' classification is based on perforation type and the absence of cholesteatoma, not on the nature of the discharge.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Foul-smelling discharge from a pars flaccida perforation suggests cholesteatoma formation, classifying this as unsafe CSOM requiring surgery</div>",
+                  "text": "<div>Because it only occurs in children, who have better mucosal healing</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Mucosal CSOM occurs in both adults and children. Its 'safe' classification relates to the perforation location preventing cholesteatoma, not to patient age or healing capacity.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Because the squamous epithelium migrating through the perforation is benign</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>In mucosal CSOM, squamous epithelium does NOT migrate through the perforation — that is what happens in the unsafe squamosal type, where it forms a cholesteatoma. The safe type's central perforation specifically prevents this migration.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Because the central perforation in the pars tensa prevents cholesteatoma formation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! A pars flaccida perforation allows skin to migrate into the middle ear, forming a cholesteatoma — a keratinising cyst that releases collagenases and silently erodes the ossicles, facial nerve canal, and skull base. The scanty but foul discharge is characteristic of keratin breakdown.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Scanty discharge indicates a resolving infection regardless of perforation location, and the patient can be safely observed</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. In squamosal CSOM, scanty discharge does not indicate resolution — it reflects keratin breakdown within a cholesteatoma. Low volume here is deceptive. The perforation site, not the discharge volume, determines urgency.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>A posterosuperior perforation carries the same complication risk as a central pars tensa perforation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Perforation location is the single most important factor distinguishing safe from unsafe CSOM. Central pars tensa perforations (mucosal type) carry low complication risk; pars flaccida or marginal perforations indicate squamosal disease with cholesteatoma and bone erosion risk.</div>",
+                    "chosenFeedback": "<div>Correct. A central perforation preserves a rim of healthy tissue on all sides, preventing skin migration into the middle ear. Without skin migration, no cholesteatoma forms, keeping the risk of bone erosion and serious complications low.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The critical distinction is perforation location. A pars flaccida or marginal perforation allows skin to migrate into the middle ear, forming a cholesteatoma that silently erodes bone. This makes squamosal CSOM the 'unsafe' type — cholesteatoma is never managed conservatively."
+                  "feedback": "The 'safe' label hinges on one fact: a central pars tensa perforation with intact margins prevents skin from migrating into the middle ear, so no cholesteatoma can form."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent analysis. Perforation location — not symptom severity — determines surgical urgency. Pars flaccida or marginal perforations permit cholesteatoma formation, making squamosal CSOM the unsafe type that always requires surgery."
+                  "feedback": "Exactly. No cholesteatoma = no bone erosion = 'safe' type. The perforation location is the key determinant."
                 }
               ],
               "behaviour": {
@@ -319,11 +371,69 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "501b450c-2c87-4ac5-badf-8072b7b7a1dc",
+            "subContentId": "8e024321-1098-41ae-afa8-2d63ffb35efa",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with chronic ear discharge has",
+              "title": "Why is mucosal (tubotympanic) chronic su",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 580.075,
+            "to": 590.075
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Cholesteatoma in chronic suppurative otitis media can be managed conservatively </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>Cholesteatoma in chronic suppurative otitis media can be managed conservatively with antibiotics if the patient has no active complications.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is false. Cholesteatoma is never managed conservatively, even without active complications. The keratinising cyst continuously releases collagenases that erode the ossicles, facial nerve canal, and skull base. Mastoidectomy is always required.",
+                "correctAnswerMessage": "Correct — this statement is false. Cholesteatoma releases collagenases that progressively erode bone regardless of symptoms. It is never managed conservatively. Mastoidectomy — modified radical or combined approach tympanomastoidectomy — is mandatory.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "357ef20e-b2c9-46ca-89df-fdf1cfc4df99",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "Cholesteatoma in chronic suppurative oti",
               "authors": [],
               "changes": []
             }
@@ -345,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 3-year-old child with stage three ASOM has not improved after 48 hours of oral</p>",
+          "label": "<p>What is the standard management sequence for mucosal chronic suppurative otitis </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 3-year-old child with stage three ASOM has not improved after 48 hours of oral amoxicillin. Myringotomy is planned. In which quadrant of the tympanic membrane should the incision be placed?</p>",
+              "question": "<p>What is the standard management sequence for mucosal chronic suppurative otitis media before tympanoplasty?</p>",
               "answers": [
                 {
-                  "text": "<div>Posterosuperior quadrant, to provide the widest access to the middle ear cavity</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The posterosuperior quadrant is close to the ossicular chain, particularly the incudostapedial joint. An incision here risks iatrogenic conductive hearing loss.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Anterosuperior quadrant, to avoid the round window membrane</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The anterosuperior quadrant is too close to the ossicular chain. The safe zone lies inferiorly, away from the ossicles and major vascular structures.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Anteroinferior quadrant, because the ossicular chain lies superiorly and the jugular bulb posteroinferiorly</div>",
+                  "text": "<div>Aural toilet and topical ciprofloxacin until the ear is dry for at least six weeks, then temporalis fascia underlay graft</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! The anteroinferior quadrant is the safe zone. A superior incision risks damaging the ossicular chain (causing hearing loss), and a posteroinferior incision risks injuring the jugular bulb (causing catastrophic venous haemorrhage).</div>",
+                    "chosenFeedback": "<div>Correct. Regular aural toilet and topical ciprofloxacin dry the ear over a minimum of six weeks. The temporalis fascia graft is then placed in the underlay position, deep to the tympanic membrane remnant, and held by Gelfoam.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Posteroinferior quadrant, to allow gravity-dependent drainage of pus</div>",
+                  "text": "<div>Systemic antibiotics for two weeks, then immediate surgical grafting</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Although gravity drainage sounds logical, the jugular bulb lies in the posteroinferior region. An incision here risks catastrophic venous haemorrhage. The anteroinferior quadrant is the safe choice.</div>",
+                    "chosenFeedback": "<div>Systemic antibiotics are not the standard first step. Topical ciprofloxacin with aural toilet is preferred, and the ear must be dry for at least six weeks — not two — before grafting.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Myringotomy with grommet insertion to ventilate the middle ear</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Grommets are used for otitis media with effusion, not CSOM. In mucosal CSOM, a perforation already exists — the goal is to dry the ear and then close the perforation with a graft.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Modified radical mastoidectomy followed by observation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Modified radical mastoidectomy is reserved for squamosal CSOM with cholesteatoma. Mucosal CSOM, the 'safe' type, is managed with drying and tympanoplasty, not mastoidectomy.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The safe quadrant is anteroinferior. Two structures constrain the choice: the ossicular chain sits superiorly (so superior cuts risk hearing damage), and the jugular bulb sits posteroinferiorly (so posteroinferior cuts risk catastrophic venous haemorrhage)."
+                  "feedback": "The sequence is: aural toilet and topical ciprofloxacin for at least six weeks to achieve a dry ear, then tympanoplasty using a temporalis fascia graft in the underlay position."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Perfect application. The anteroinferior quadrant avoids both the ossicular chain (superiorly) and the jugular bulb (posteroinferiorly) — the two structures that make all other quadrants unsafe for myringotomy."
+                  "feedback": "Well done. Dry ear (aural toilet + topical ciprofloxacin) for six or more weeks → temporalis fascia underlay tympanoplasty is the standard protocol."
                 }
               ],
               "behaviour": {
@@ -429,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "23d15a75-526b-4880-9ff8-dd8ff0029fd6",
+            "subContentId": "6fa0aabe-cebe-4a60-90b1-4b057b2cdd52",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 3-year-old child with stage three ASOM",
+              "title": "What is the standard management sequence",
               "authors": [],
               "changes": []
             }
@@ -484,7 +594,7 @@
       ],
       "endscreens": [
         {
-          "time": 743,
+          "time": 744,
           "label": "End"
         }
       ]
@@ -496,7 +606,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "536b5515-f42d-429c-9eea-81b485178eab",
+              "subContentId": "b6e01f10-e4ca-4301-a96a-28c6642481cc",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -519,7 +629,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "fa6211db-5acf-4ef1-b8a6-e3391345dad7",
+        "subContentId": "f117d9d6-b197-4b20-b589-046e66c4671b",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
