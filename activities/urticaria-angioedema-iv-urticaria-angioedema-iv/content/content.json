@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/56acd063-557e-4a97-ae1f-f92075f5fcf2/playlist.m3u8",
+          "path": "https://vdo.cbme.in/45d55929-b5a8-4dcf-b8ee-4b6c999cbecc/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "DR14.1-3 | Urticaria Angioedema — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 3 embedded questions for DR14.1-DR14.3."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for DR14.1-DR14.3."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,101 +61,49 @@
       "interactions": [
         {
           "duration": {
-            "from": 100.92500000000001,
-            "to": 110.92500000000001
+            "from": 77.32499999999999,
+            "to": 87.32499999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient presents with recurring skin swellings. Which pair of features, when p</p>",
+          "label": "<p>Angioedema is more dangerous than urticaria because it involves a fundamentally </p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A patient presents with recurring skin swellings. Which pair of features, when present together, is most diagnostic of urticarial wheals?</p>",
-              "answers": [
-                {
-                  "text": "<div>Intense pruritus and each individual wheal resolving within 24 hours without leaving a mark</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The two hallmark features of urticarial wheals are intense pruritus and transience — each individual wheal resolves completely within 24 hours without a residual mark, even though the eruption as a whole may last days to weeks.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Diffuse, non-pruritic swelling with predilection for the lips and eyelids</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This describes angioedema — the same mast-cell–driven process occurring in the deeper dermis and subcutis. Angioedema is characteristically less pruritic and longer-lasting than the superficial wheal.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Burning pain and each lesion persisting for more than 48 hours</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Painful lesions that persist beyond 24 hours and leave bruise-like discolouration suggest urticarial vasculitis, not ordinary urticaria. A skin biopsy showing leucocytoclastic vasculitis would confirm that diagnosis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Pruritus with residual hyperpigmentation after each wheal resolves</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Urticarial wheals resolve completely without leaving a mark. Residual hyperpigmentation after a lesion resolves points to a different diagnosis, such as a fixed drug eruption.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The two diagnostic features are intense pruritus and individual wheal transience — each wheal lasts less than 24 hours and resolves without leaving a mark. The narration calls transience 'the single most important fact' in the entire topic."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. Intense itch and individual lesion transience (<24 hours, no residual mark) are the two features you must elicit in the history to confirm urticaria."
-                }
-              ],
+              "question": "<p>Angioedema is more dangerous than urticaria because it involves a fundamentally different pathological mechanism from urticarial wheals.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Actually, urticaria and angioedema involve the same pathological process — vascular fluid leakage — at different depths of the skin. Angioedema is dangerous because of where it occurs (deep tissues near the airway such as the tongue and larynx), not because it involves a fundamentally different mechanism.",
+                "correctAnswerMessage": "Correct — urticaria and angioedema share the same underlying mechanism: fluid leaking from small blood vessels. The difference is depth. Angioedema involves the deep dermis and subcutis, so when it affects loose tissues like the tongue or larynx, it can compromise the airway. The danger is about location, not a different pathology.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "77da67a5-53d7-4d0a-b75f-0cf9ac59887f",
+            "subContentId": "86efd25b-5f0b-4a07-90cb-05762b3e21cb",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "A patient presents with recurring skin s",
+              "title": "Angioedema is more dangerous than urtica",
               "authors": [],
               "changes": []
             }
@@ -171,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 204.47500000000002,
-            "to": 214.47500000000002
+            "from": 297.725,
+            "to": 307.725
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Histamine released from degranulating dermal mast cells acts on H1 receptors to </p>",
+          "label": "<p>A patient has been experiencing wheals on most days for the past two months, wit</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Histamine released from degranulating dermal mast cells acts on H1 receptors to produce the three cardinal features of a wheal. Which combination correctly identifies these three features?</p>",
+              "question": "<p>A patient has been experiencing wheals on most days for the past two months, without any identifiable external trigger. How is this urticaria best classified?</p>",
               "answers": [
                 {
-                  "text": "<div>Vasoconstriction (pallor), decreased vascular permeability, and pain</div>",
+                  "text": "<div>Acute urticaria</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Histamine on H1 receptors causes vasodilatation, not vasoconstriction; increased permeability, not decreased; and itch, not pain. The resulting triad is a red flare, a raised oedematous wheal, and pruritus.</div>",
+                    "chosenFeedback": "<div>Acute urticaria lasts less than six weeks. This patient's symptoms have persisted for two months (over eight weeks), placing the condition firmly in the chronic category.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Vasodilatation (flare), increased vascular permeability (oedema), and cutaneous nerve stimulation (itch)</div>",
+                  "text": "<div>Chronic spontaneous urticaria</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. H1-receptor activation on dermal vessels produces vasodilatation (the surrounding red flare), increased vascular permeability with plasma leaking into the superficial dermis (the raised oedematous wheal), and stimulation of sensory nerve endings (the characteristic itch).</div>",
+                    "chosenFeedback": "<div>Correct. Urticaria lasting six weeks or longer without an identifiable external trigger is classified as chronic spontaneous urticaria, which often has an autoimmune mechanism involving autoantibodies against the IgE receptor.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Vasodilatation (flare), collagen deposition (fibrosis), and sensory nerve stimulation (itch)</div>",
+                  "text": "<div>Chronic inducible urticaria</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Collagen deposition and fibrosis are features of chronic scarring conditions, not of urticaria. The wheal is caused by transient dermal oedema from increased vascular permeability, not by structural tissue change.</div>",
+                    "chosenFeedback": "<div>Chronic inducible urticaria requires a reproducible physical trigger such as cold, pressure, or dermographism. This patient has no identifiable external trigger, making the classification 'spontaneous', not 'inducible'.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Vasodilatation (flare), platelet aggregation (purpura), and thermal sensation</div>",
+                  "text": "<div>Cold urticaria</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Purpura results from blood vessel damage or platelet dysfunction and is not a feature of ordinary urticaria. If a wheal-like lesion leaves bruise-like purpura, urticarial vasculitis should be considered instead.</div>",
+                    "chosenFeedback": "<div>Cold urticaria is a specific subtype of chronic inducible urticaria, provoked reproducibly by cold exposure. This patient has no identifiable trigger, so a specific inducible subtype cannot be diagnosed.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Histamine acting on H1 receptors produces vasodilatation (red flare), increased vascular permeability (raised oedematous wheal), and cutaneous sensory nerve stimulation (itch). Understanding this triad is the key to understanding why H1-antihistamines are first-line therapy."
+                  "feedback": "Review the two-axis classification: first determine duration (acute <6 weeks vs chronic ≥6 weeks), then for chronic disease, determine whether a reproducible trigger exists (inducible) or not (spontaneous)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. This mechanism — histamine on H1 receptors producing flare, oedema, and itch — is what makes H1-antihistamines the logical cornerstone of urticaria treatment."
+                  "feedback": "Well done. The two-axis framework classifies this as chronic (≥6 weeks) and spontaneous (no external trigger) — chronic spontaneous urticaria."
                 }
               ],
               "behaviour": {
@@ -261,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "688c4f9e-56a9-4c63-ba53-c1af4210436f",
+            "subContentId": "9b793bd7-72d2-4217-a31b-f4cbe1e099a6",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Histamine released from degranulating de",
+              "title": "A patient has been experiencing wheals o",
               "authors": [],
               "changes": []
             }
@@ -281,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 361.4,
-            "to": 371.4
+            "from": 407.90000000000003,
+            "to": 417.90000000000003
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 30-year-old medical student with chronic spontaneous urticaria needs treatment</p>",
+          "label": "<p>Why does bradykinin-mediated angioedema not respond to antihistamines?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 30-year-old medical student with chronic spontaneous urticaria needs treatment that will not impair her ability to attend classes. Which is the most appropriate first-line agent?</p>",
+              "question": "<p>Why does bradykinin-mediated angioedema not respond to antihistamines?</p>",
               "answers": [
                 {
-                  "text": "<div>Chlorpheniramine 4 mg thrice daily</div>",
+                  "text": "<div>Bradykinin acts on H2 receptors, which standard antihistamines do not block</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Chlorpheniramine is a first-generation H1-antihistamine with significant sedating and anticholinergic effects. Current guidelines recommend against first-generation agents as first-line because they impair alertness, learning, and driving.</div>",
+                    "chosenFeedback": "<div>Bradykinin does not act on any histamine receptor. It operates through its own receptor pathway (bradykinin B2 receptors), which is entirely separate from the histamine system.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Oral prednisolone 40 mg daily for one week</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Systemic corticosteroids are not first-line for chronic urticaria. Their significant adverse-effect profile with repeated use makes them suitable only for short rescue courses in severe acute flares, not for ongoing management.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Cetirizine 10 mg once daily</div>",
+                  "text": "<div>Bradykinin causes swelling through a pathway entirely independent of mast cells and histamine</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. A second-generation, non-sedating H1-antihistamine at the standard licensed dose is the recommended first-line treatment. Cetirizine, levocetirizine, fexofenadine, loratadine, and bilastine all control symptoms effectively without the sedation that impairs daily functioning.</div>",
+                    "chosenFeedback": "<div>Correct. Bradykinin-mediated angioedema bypasses the mast cell entirely — no histamine is released. Since antihistamines block H1 receptors and there is no histamine to block, they have no effect. This is why ACE-inhibitor angioedema requires drug withdrawal and specific bradykinin-targeted therapy.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Hydroxyzine 25 mg at bedtime</div>",
+                  "text": "<div>Antihistamines cannot penetrate deep enough into the dermis to reach bradykinin</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Hydroxyzine is a first-generation, sedating antihistamine. Although sometimes used as a short-term adjunct at bedtime, it is not recommended as first-line monotherapy for chronic urticaria because of its sedating and anticholinergic effects.</div>",
+                    "chosenFeedback": "<div>The issue is not tissue penetration. Antihistamines reach deep tissues adequately. The problem is that bradykinin-mediated swelling does not involve histamine at any level, so there is nothing for the antihistamine to block.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Bradykinin-mediated swelling only occurs in mucous membranes where antihistamines are poorly absorbed</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Bradykinin-mediated angioedema can affect the skin as well as mucous membranes. The non-response to antihistamines is because the pathway is histamine-independent, not because of poor drug absorption at specific sites.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The recommended first-line treatment is a second-generation, non-sedating H1-antihistamine (cetirizine, levocetirizine, fexofenadine, loratadine, or bilastine) at the standard licensed dose — chosen specifically because it controls symptoms without the sedation and anticholinergic effects of older agents."
+                  "feedback": "Remember that two separate pathways cause angioedema: one driven by mast-cell histamine release (responds to antihistamines) and one driven by bradykinin (entirely histamine-independent, so antihistamines are ineffective)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The guideline-based first step is a second-generation non-sedating H1-antihistamine at standard dose. If inadequate after 2–4 weeks, the dose may be up-titrated before considering add-on therapies."
+                  "feedback": "Exactly. Recognising the mast-cell/histamine pathway versus the bradykinin pathway is essential — it determines whether antihistamines will work or whether specific therapy is needed."
                 }
               ],
               "behaviour": {
@@ -371,11 +319,231 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "030a196e-b5b5-492e-822e-23587e9fe488",
+            "subContentId": "0c1a91a5-bc8d-401a-a17b-89b9e0f4f643",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 30-year-old medical student with chron",
+              "title": "Why does bradykinin-mediated angioedema",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 517.5,
+            "to": 527.5
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A 22-year-old woman presents with widespread urticaria. Which finding during you</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A 22-year-old woman presents with widespread urticaria. Which finding during your examination should prompt immediate emergency intervention rather than outpatient antihistamine treatment?</p>",
+              "answers": [
+                {
+                  "text": "<div>Wheals spreading to involve both the trunk and lower limbs</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Widespread wheals across the trunk and limbs, while distressing, do not indicate airway compromise or systemic collapse. This patient needs standard antihistamine therapy and follow-up.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Individual wheals lasting about twelve hours before fading</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Individual wheals lasting up to twenty-four hours are within the normal range for urticaria. This is an expected feature, not a red flag.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Angioedema of the tongue with stridor and a change in voice</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Angioedema involving the tongue or larynx with stridor and voice change indicates airway compromise — a feature of anaphylaxis. This requires immediate intramuscular adrenaline (0.5 mg of 1 in 1000 in an adult), oxygen, and urgent airway assessment.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Angioedema of both eyelids without respiratory symptoms</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Eyelid angioedema without respiratory symptoms, while uncomfortable, does not threaten the airway. It can be managed with antihistamines and observation, reserving emergency intervention for airway involvement.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The critical red flags demanding emergency intervention are features of airway compromise (tongue swelling, stridor, voice change) and anaphylaxis (wheeze, hypotension, abdominal cramps). Widespread wheals alone, however distressing, are not an emergency."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well identified. Distinguishing simple itchy hives from airway-threatening angioedema is the most important judgement call in urticaria — tongue or laryngeal involvement with stridor demands adrenaline, not just antihistamines."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "927a5f7c-66df-4403-8ab0-82b9dd125324",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A 22-year-old woman presents with widesp",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 781.525,
+            "to": 791.525
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A patient with chronic spontaneous urticaria has been taking cetirizine 10 mg da</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient with chronic spontaneous urticaria has been taking cetirizine 10 mg daily for four weeks with inadequate symptom control. What is the recommended next step according to current guidelines?</p>",
+              "answers": [
+                {
+                  "text": "<div>Switch to a first-generation sedating antihistamine such as chlorpheniramine</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>First-generation sedating antihistamines are not recommended for long-term control because their sedation and anticholinergic effects impair learning, driving, and quality of life. The correct step is to optimise the second-generation antihistamine dose first.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Add a short course of oral prednisolone for long-term suppression</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Oral corticosteroids may settle a severe acute flare, but they are not appropriate for long-term management of chronic urticaria due to significant adverse effects with prolonged use.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Increase the dose of cetirizine up to four times the standard dose</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Guidelines recommend up-dosing the same second-generation antihistamine up to four times the standard dose before adding any other drug. This step is safe, effective, and often underutilised in clinical practice.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Start omalizumab as an add-on therapy immediately</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Omalizumab (anti-IgE monoclonal antibody) is reserved for patients who remain refractory after adequate up-dosing of the antihistamine. It should not be initiated before the up-dosing step has been tried and found insufficient.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Remember the stepwise approach: standard-dose second-generation H1-antihistamine first, then up-dose the same drug to four times standard before adding any new agent. Omalizumab comes only after up-dosing has failed."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct — the treatment ladder for chronic urticaria is: standard-dose second-generation antihistamine → up-dose to 4× → then specialist add-on therapy such as omalizumab. Up-dosing is the key step clinicians often skip."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "3e8b2b8f-9eb9-45a3-bbb0-47680d4933bd",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A patient with chronic spontaneous urtic",
               "authors": [],
               "changes": []
             }
@@ -397,36 +565,36 @@
         },
         {
           "time": 3,
-          "label": "A 28-year-old woman arrives at the clinic distressed, hol…"
+          "label": "A 28-year-old woman comes in distressed, holding up her f…"
         },
         {
-          "time": 51,
-          "label": "The Wheal and the Swell — Recognising Urticaria and Angio…"
+          "time": 77,
+          "label": "When you first see a patient with intermittent skin swell…"
         },
         {
-          "time": 101,
-          "label": "Classification: Acute vs Chronic, Spontaneous vs Inducibl…"
+          "time": 188,
+          "label": "Once you've identified urticaria, the next step is to cla…"
         },
         {
-          "time": 155,
-          "label": "Pathogenesis: Mast Cell, Histamine, and Beyond The clinic…"
+          "time": 298,
+          "label": "Everything about the appearance of urticaria comes down t…"
         },
         {
-          "time": 204,
-          "label": "Clinical Features: History, Distribution, and Associated…"
+          "time": 408,
+          "label": "The diagnosis of urticaria and angioedema is essentially…"
         },
         {
-          "time": 257,
-          "label": "Investigations in Chronic Urticaria A common error in man…"
+          "time": 518,
+          "label": "A common mistake in managing urticaria is over-investigat…"
         },
         {
-          "time": 310,
-          "label": "Management: Stepwise Antihistamine-First Approach The man…"
+          "time": 639,
+          "label": "Managing urticaria follows a logical, guideline-based lad…"
         }
       ],
       "endscreens": [
         {
-          "time": 413,
+          "time": 833,
           "label": "End"
         }
       ]
@@ -438,7 +606,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "5cbd6c02-38f1-4516-83c5-afd3cfbb7205",
+              "subContentId": "fb72c99b-1d17-4460-b140-3bf1bd6ed9c9",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -461,7 +629,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "390695bc-9242-4656-928d-a6804b6f8a45",
+        "subContentId": "a32d817f-8d61-473a-83a1-9427fdfed451",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
