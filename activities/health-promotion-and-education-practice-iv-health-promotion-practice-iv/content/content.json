@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/98b58fac-f124-4a82-83fe-25632d80e25d/playlist.m3u8",
+          "path": "https://vdo.cbme.in/5538f5b1-0625-4fa3-83ee-5288313411f7/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "CM4.1-4 | Health Promotion and Education Practice — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for CM4.1-CM4.4."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for CM4.1-CM4.4."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,101 +61,49 @@
       "interactions": [
         {
           "duration": {
-            "from": 86.925,
-            "to": 96.925
+            "from": 138,
+            "to": 148
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Based on the NFHS-5 findings discussed in the narration, why is merely making he</p>",
+          "label": "<p>According to the Health Belief Model, providing accurate information about a dis</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Based on the NFHS-5 findings discussed in the narration, why is merely making health information available insufficient to change behaviour in rural India?</p>",
-              "answers": [
-                {
-                  "text": "<div>Rural populations lack interest in health-related matters</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The narration does not attribute the gap to lack of interest. NFHS-5 identifies low health literacy — the capacity to understand, process, and act on health information — as the barrier, not motivation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The method of communication determines whether information translates into behaviour change</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The narration explicitly states that 'how information is communicated determines whether behaviour changes.' The ORS vignette illustrates this — the same message succeeded via demonstration but failed via pamphlet.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Health workers at sub-centres are not trained to deliver health education</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The narration does not cite health-worker training as the issue. The ANM did visit the mother three times — the problem was the choice of method (a text-heavy pamphlet), not a lack of training.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Printed materials are always ineffective in community settings</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This is an overgeneralisation. The narration critiques one specific pamphlet ('too many words') but does not claim all print materials are ineffective — rather, that the method must match the audience.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Review the narration: the health literacy gap identified by NFHS-5 means that simply making information available does not guarantee behaviour change. The choice of communication method is what determines whether the audience actually changes knowledge, attitudes, and practices."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Park defines health education as a process affecting changes in knowledge, attitudes, and practices. The NFHS-5 data and the ORS vignette together demonstrate that the communication method — not just the content — is the decisive factor."
-                }
-              ],
+              "question": "<p>According to the Health Belief Model, providing accurate information about a disease is sufficient to ensure that people adopt the recommended health behaviour.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "The Health Belief Model states that information alone is insufficient. Three conditions must be met: perceived seriousness and personal relevance, belief in the recommended action's effectiveness, and perception that barriers are manageable. Different populations need different methods precisely because these perceptions vary across groups.",
+                "correctAnswerMessage": "Correct. The Health Belief Model identifies three conditions beyond information: the person must perceive the disease as serious and personally relevant, believe the recommended action will work, and find barriers to acting manageable. This is why the pamphlet failed to change the mother's practice while the NGO worker's demonstration and storytelling succeeded — they addressed different components of belief.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "01d8bc73-082c-4dfa-a2dc-d202a29536eb",
+            "subContentId": "adbd9e28-0ac7-4d14-93e5-2493ea3ec81e",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "Based on the NFHS-5 findings discussed i",
+              "title": "According to the Health Belief Model, pr",
               "authors": [],
               "changes": []
             }
@@ -171,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 181.925,
-            "to": 191.925
+            "from": 382.325,
+            "to": 392.325
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>According to the narration on organising health promotion activities (CM4.2), wh</p>",
+          "label": "<p>During a structured home visit, the ANM has already prepared her materials and b</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>According to the narration on organising health promotion activities (CM4.2), which of the following correctly describes the primary activity at the individual and family level?</p>",
+              "question": "<p>During a structured home visit, the ANM has already prepared her materials and built rapport with the family. What should her next step be?</p>",
               "answers": [
                 {
-                  "text": "<div>Group counselling sessions conducted at the Primary Health Centre</div>",
+                  "text": "<div>Deliver a health education talk on the topic assigned for that month</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Group counselling at the PHC falls under the clinical setting, not the individual/family setting. The family-level activity is delivered in the home, not at a health facility.</div>",
+                    "chosenFeedback": "<div>Health education should be targeted to the family's specific situation, which requires assessing their health status first. Teaching before assessing leads to generic messages that may not address the family's actual needs.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Health exhibition organised by the district health office</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Health exhibitions are a community-level mass method aimed at reaching large audiences. They do not provide the one-to-one engagement characteristic of the individual/family setting.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Structured home visit by ANMs and ASHAs under Medical Officer supervision</div>",
+                  "text": "<div>Assess health status by observing sanitation, water storage, and feeding practices</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The narration identifies the home visit — with advance preparation, rapport establishment, and follow-up — as the primary activity at the individual and family level, conducted by ANMs and ASHAs under the MO's supervision.</div>",
+                    "chosenFeedback": "<div>Correct. After preparation and rapport-building, the ANM assesses the family's health status — sanitation, water storage, feeding practices — so that the subsequent health education can be targeted to the specific practices that need change.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Street play performed by trained folk media artists</div>",
+                  "text": "<div>Refer the family to the primary health centre for a detailed check-up</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Street plays (folk media) are a community-level mass method used for awareness generation. They reach large audiences but lack the personalised depth of the home visit.</div>",
+                    "chosenFeedback": "<div>Referral is a later step in the home visit sequence, done only if a health problem requiring higher-level care is identified during the assessment. It should not precede observation and education.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Document the visit details and record demographic data for the sub-centre register</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Documentation is the final step of the structured home visit, done after assessment, education, and referral if needed. Recording before assessing and educating would miss the very purpose of the visit.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The narration describes three settings mandated by CM4.2. At the individual/family level, the primary activity is the structured home visit by ANMs and ASHAs, involving advance preparation, rapport building, and follow-up — not a facility-based or mass-reach method."
+                  "feedback": "Review the structured home visit sequence: prepare materials → build rapport → assess health status (observe sanitation, water, feeding) → deliver targeted health education → refer if needed → document. Each step informs the next."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. The structured home visit is the cornerstone of individual and family-level health promotion — it allows personalised assessment, rapport, and follow-up tailored to the household's specific needs."
+                  "feedback": "Well done. The structured home visit follows a specific sequence: prepare → build rapport → assess health → deliver targeted education → refer if needed → document. Assessment before education ensures the message is relevant to that family."
                 }
               ],
               "behaviour": {
@@ -261,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9482b819-0449-4fbd-ab92-59cc03590b83",
+            "subContentId": "ed5ce824-8326-404d-a074-347d904307f9",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "According to the narration on organising",
+              "title": "During a structured home visit, the ANM",
               "authors": [],
               "changes": []
             }
@@ -281,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 321.675,
-            "to": 331.675
+            "from": 520.625,
+            "to": 530.625
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>You are a medical student about to conduct your first health education session a</p>",
+          "label": "<p>Which of the following is a correctly formulated SMART objective for a health ed</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>You are a medical student about to conduct your first health education session at a FAP centre for a group of mothers. Which action best demonstrates correct introductory facilitation as described in the narration?</p>",
+              "question": "<p>Which of the following is a correctly formulated SMART objective for a health education session?</p>",
               "answers": [
                 {
-                  "text": "<div>Begin presenting key health messages immediately to maximise teaching time</div>",
+                  "text": "<div>Mothers will understand the importance of breastfeeding</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Skipping the introductory phase undermines rapport and participation. The narration allocates a dedicated five minutes for introductions precisely because rushing into content leads to passive, unengaged audiences.</div>",
+                    "chosenFeedback": "<div>This objective is vague — 'understand' and 'importance' cannot be objectively measured. A SMART objective must specify what the learner will be able to do, to what standard, and by when.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Distribute a written pre-test questionnaire as the very first activity</div>",
+                  "text": "<div>Health workers will educate all mothers in the district about breastfeeding this year</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While pre-testing is part of session design (CM4.3), the narration places introduction and rapport before any assessment. Starting with a written test can intimidate low-literacy participants and impair trust.</div>",
+                    "chosenFeedback": "<div>This describes the facilitator's planned activity, not the learner's measurable outcome. A session objective should state what the participants will achieve, not what the educator will do.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Introduce yourself by role, establish ground rules that all questions are welcome, and use an icebreaker</div>",
+                  "text": "<div>After this session, at least 80% of mothers will correctly demonstrate breastfeeding positioning and latch technique</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The narration specifies Step 1: welcome participants, introduce yourself by role ('I am your medical student… here to learn with you'), establish ground rules (discussion format, no wrong answers), and use an icebreaker for new groups.</div>",
+                    "chosenFeedback": "<div>This objective is SMART: specific (positioning and latch), measurable (80% threshold via return demonstration), achievable, relevant to the target group, and time-bound (after this session).</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Ask participants to read the educational pamphlet silently before beginning discussion</div>",
+                  "text": "<div>Exclusive breastfeeding rates in the state will improve within five years</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This mirrors the failed approach from the opening vignette — a text-heavy, passive method. The narration emphasises active facilitation with verbal introduction, ground-rule setting, and participatory icebreakers.</div>",
+                    "chosenFeedback": "<div>This is a long-term impact-level goal, not a session objective. A single health education session cannot be held accountable for state-level breastfeeding rates over five years. Session objectives must be achievable and measurable within the session's timeframe.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the facilitation steps from the narration: Step 1 is Introduction and Rapport (5 minutes) — introduce yourself by role (not just name), establish ground rules (discussion, all questions welcome, no wrong answers), and use an icebreaker. This sets the tone for the entire session."
+                  "feedback": "A SMART objective must be Specific, Measurable, Achievable, Relevant, and Time-bound. Compare: 'mothers will understand breastfeeding' (vague) versus 'after this session, 80% of mothers will demonstrate correct latch technique' (SMART). The latter can be measured immediately."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. CM4.4 emphasises that conducting a session is a distinct competency from designing one. The introductory phase — role clarity, ground rules, icebreaker — sets the participatory tone that determines whether the session achieves genuine engagement."
+                  "feedback": "Exactly right. A SMART objective converts a vague intention into a measurable target — specifying who will do what, how well, and by when. This makes evaluation possible and prevents the 'lots of activity, no learning' trap."
                 }
               ],
               "behaviour": {
@@ -371,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2f3a1231-b295-4c6d-84a3-cad087810197",
+            "subContentId": "0471da3b-cfee-4e75-975e-c6d08fe4bf48",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "You are a medical student about to condu",
+              "title": "Which of the following is a correctly fo",
               "authors": [],
               "changes": []
             }
@@ -391,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 416.37500000000006,
-            "to": 426.37500000000006
+            "from": 739.2750000000001,
+            "to": 749.2750000000001
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A district immunisation awareness campaign raised mothers' knowledge of vaccine </p>",
+          "label": "<p>In a village with low immunisation coverage, the primary barrier is a rumour spr</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A district immunisation awareness campaign raised mothers' knowledge of vaccine schedules from 40% to 85%, yet immunisation coverage remained at 62%. Using the KAP framework from the narration, which analysis best explains this discrepancy?</p>",
+              "question": "<p>In a village with low immunisation coverage, the primary barrier is a rumour spread by a local religious leader that vaccines cause infertility. Which approach should be the first step?</p>",
               "answers": [
                 {
-                  "text": "<div>The knowledge assessment tool was poorly designed and overestimated actual learning</div>",
+                  "text": "<div>Launch radio spots in the local dialect explaining vaccine safety data</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While measurement validity is a general concern, the narration's KAP framework explains this pattern as a normal phenomenon — knowledge is the easiest to change, and a measured gain can be genuine yet still not translate into practice change.</div>",
+                    "chosenFeedback": "<div>Mass media provides reach but shallow engagement. When the barrier is an attitude rooted in trust in a local authority figure, an impersonal broadcast will not override that trust. Mass media can reinforce a shift once attitudes change, but it cannot initiate the change.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Knowledge change was achieved, but attitudinal and structural barriers prevented practice change</div>",
+                  "text": "<div>Distribute pictorial pamphlets listing the benefits of immunisation at the anganwadi centre</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Pamphlets address a knowledge gap, but this community's barrier is an attitude-level problem rooted in trust. Print material from an outside source cannot compete with the credibility of a respected local religious leader.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Engage the religious leader and respected community elders directly, and deploy peer educators from within the community</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The narration states that in the KAP sequence, each level is harder to change than the previous one. Knowledge gain (easiest) does not automatically overcome attitudinal barriers or structural obstacles like distance, vaccine availability, or family opposition.</div>",
+                    "chosenFeedback": "<div>Correct. When the barrier is an attitude rooted in trust, community mobilisation through the trusted figures themselves is the necessary first step. Only after attitudes shift can mass media step in to reinforce the new norm.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The campaign used mass methods when it should have used individual counselling</div>",
+                  "text": "<div>Train ANMs to conduct individual home visits counselling each family about vaccine safety</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While method choice matters, the KAP framework addresses a deeper issue: even a well-chosen method may change knowledge without changing practice if attitudinal and structural barriers remain. Method selection alone does not explain the K-P gap.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The target population was too large for any single campaign to influence</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Population size affects reach, not the K-to-P conversion. The KAP framework explains that knowledge, attitudes, and practices form a sequential hierarchy — success at one level does not guarantee success at the next, regardless of population size.</div>",
+                    "chosenFeedback": "<div>Individual counselling by an external health worker is unlikely to overcome a community-wide attitude driven by a trusted local authority. The source of the rumour — the social dynamic — must be addressed first through community mobilisation.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The narration explains the KAP evaluation framework: Knowledge is easiest to change, Attitude harder, and Practice hardest. An immunisation campaign can successfully improve knowledge while leaving vaccination rates unchanged because structural and attitudinal barriers — not information deficits — are blocking the behaviour change."
+                  "feedback": "The key principle: match the method to the barrier. This is not a knowledge gap (information will not fix it) but an attitude-level barrier rooted in trust in a local authority figure. Community mobilisation — engaging the religious leader and elders directly — is the correct first step."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. The KAP framework reveals that Knowledge → Attitude → Practice is a sequential hierarchy, with each step harder to achieve. Evaluation must measure all three levels, not assume that a knowledge gain will automatically produce behaviour change."
+                  "feedback": "Correct. The method must match the barrier, not just the topic. A knowledge-level barrier needs information. An attitude-level barrier rooted in trust needs community mobilisation through respected local figures. Mass media can reinforce the shift afterwards."
                 }
               ],
               "behaviour": {
@@ -481,11 +429,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "143ae1dc-9e49-473a-8d46-3962d89932ed",
+            "subContentId": "b3384e5d-58d5-497a-9bea-abeb12943190",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A district immunisation awareness campai",
+              "title": "In a village with low immunisation cover",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 847.4250000000001,
+            "to": 857.4250000000001
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>An immunisation awareness campaign raised mothers' knowledge of vaccine schedule</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>An immunisation awareness campaign raised mothers' knowledge of vaccine schedules from 30% to 75%, but full immunisation coverage in the district remained unchanged at 62%. Using the KAP framework, what does this finding most likely indicate?</p>",
+              "answers": [
+                {
+                  "text": "<div>The campaign was a complete failure and should be discontinued</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The campaign successfully changed knowledge (30% to 75%), which is a valid outcome. The KAP framework recognises knowledge change as the first level — it is a necessary precursor, not a failure, even when practice has not yet shifted.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The pre-post knowledge test was poorly designed and the apparent gain is unreliable</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A clear pattern of knowledge improvement alongside unchanged coverage is a coherent and interpretable finding within the KAP framework. It points to a specific barrier level, not to instrument error.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The real barrier to immunisation likely operates at the attitude or access level, and the next intervention should target that level specifically</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. In the KAP framework, knowledge is the easiest level to shift, followed by attitude, then practice. When knowledge changes but practice does not, the barrier lies deeper — at attitude (beliefs, trust) or at the access level (distance, cost, timing). Identifying which level is blocked tells the health officer exactly what the next intervention must target.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Mass media methods should be entirely replaced by individual counselling for all future campaigns</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The finding calls for identifying and targeting the specific level where the barrier operates (attitude or access), not for wholesale replacement of one method. The appropriate response is to layer methods — adding group or individual interventions that address the identified barrier while retaining awareness-level coverage.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The KAP framework evaluates three levels: Knowledge → Attitude → Practice, each harder to shift than the last. When knowledge improves but practice stays flat, the barrier is not information — it is at a deeper level (attitude or access). This finding should direct the next intervention to that specific level."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well analysed. The KAP framework makes evaluation actionable: knowing which level changed — and which did not — directs the next intervention. Knowledge gain without practice change means the barrier is at attitude or access, not information."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "2aed6509-aa94-47e7-b06c-1258034b87b0",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "An immunisation awareness campaign raise",
               "authors": [],
               "changes": []
             }
@@ -511,40 +569,40 @@
         },
         {
           "time": 38,
-          "label": "The Challenge of Behaviour Change: Why Methods Matter The…"
+          "label": "Preventable disease caused by everyday behaviours like to…"
         },
         {
-          "time": 87,
-          "label": "Determinants of Effective Health Education Method Selecti…"
+          "time": 139,
+          "label": "Choosing the right health education method is never just…"
         },
         {
-          "time": 133,
-          "label": "Organising Health Promotion Activities in Different Setti…"
+          "time": 251,
+          "label": "Knowing how to classify health education methods only get…"
         },
         {
-          "time": 182,
+          "time": 383,
           "label": "At a district health review meeting, the Chief Medical Of…"
         },
         {
-          "time": 230,
-          "label": "Determinants of an Effective Health Education Session An…"
+          "time": 431,
+          "label": "Six things decide whether a health education session actu…"
         },
         {
-          "time": 276,
-          "label": "Conducting a Health Education Session: Facilitation Skill…"
+          "time": 521,
+          "label": "Conducting a health education session is a different skil…"
         },
         {
-          "time": 322,
-          "label": "Applying Method Selection in Practice: Case Scenarios The…"
+          "time": 606,
+          "label": "Let's apply this."
         },
         {
-          "time": 370,
-          "label": "Evaluating Method Effectiveness and Programme Outcomes Se…"
+          "time": 739,
+          "label": "Selecting a health education method is only half the job."
         }
       ],
       "endscreens": [
         {
-          "time": 442,
+          "time": 873,
           "label": "End"
         }
       ]
@@ -556,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "3ef6b45f-96f3-4cb7-be98-e12a116e0538",
+              "subContentId": "9ab76b8f-9bad-4345-9211-61091c760c20",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -579,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "3585a0e9-bf6a-4539-adcb-12845f14b7bf",
+        "subContentId": "00c8c2a6-c38c-484c-99d9-57c2af3f352d",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
