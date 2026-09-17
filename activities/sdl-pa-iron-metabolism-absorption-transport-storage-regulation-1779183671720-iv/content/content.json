@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/47d05407-2f17-42a6-86d0-f7a4274634a7/playlist.m3u8",
+          "path": "https://vdo.cbme.in/7ed4be66-9728-4421-901c-42d2a1872b69/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -11,7 +11,7 @@
         }
       ],
       "startScreenOptions": {
-        "title": "PA14.1-PA14.2 — Interactive Lecture (PA)",
+        "title": "PA14.1-2 | Microcytic Anemias — Interactive Lecture",
         "hideStartTitle": false,
         "shortStartDescription": "Interactive lecture with 4 embedded questions for PA14.1-PA14.2."
       },
@@ -22,7 +22,7 @@
             "kind": "subtitles",
             "srcLang": "en",
             "track": {
-              "path": "https://pathology.cbme.in/cc/videos/sdl-pa-iron-metabolism-absorption-transport-storage-regulation-1779183671720/v1/cc-en.vtt",
+              "path": "https://pathology.cbme.in/cc/videos/pa-hematology-microcytic-anemias-iv-microcytic-anemia-synthesis/v1/cc-en.vtt",
               "mime": "text/vtt",
               "copyright": {
                 "license": "U"
@@ -34,7 +34,7 @@
             "kind": "subtitles",
             "srcLang": "hi",
             "track": {
-              "path": "https://pathology.cbme.in/cc/videos/sdl-pa-iron-metabolism-absorption-transport-storage-regulation-1779183671720/v1/cc-hi.vtt",
+              "path": "https://pathology.cbme.in/cc/videos/pa-hematology-microcytic-anemias-iv-microcytic-anemia-synthesis/v1/cc-hi.vtt",
               "mime": "text/vtt",
               "copyright": {
                 "license": "U"
@@ -46,7 +46,7 @@
             "kind": "subtitles",
             "srcLang": "ta",
             "track": {
-              "path": "https://pathology.cbme.in/cc/videos/sdl-pa-iron-metabolism-absorption-transport-storage-regulation-1779183671720/v1/cc-ta.vtt",
+              "path": "https://pathology.cbme.in/cc/videos/pa-hematology-microcytic-anemias-iv-microcytic-anemia-synthesis/v1/cc-ta.vtt",
               "mime": "text/vtt",
               "copyright": {
                 "license": "U"
@@ -67,43 +67,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The body absorbs enough iron from food each day to fully compensate for the incr</p>",
+          "label": "<p>Why does iron deficiency anaemia develop more readily during pregnancy despite n</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The body absorbs enough iron from food each day to fully compensate for the increased demand of pregnancy without relying on stored iron.</p>",
-              "correct": "false",
+              "question": "<p>Why does iron deficiency anaemia develop more readily during pregnancy despite normal dietary intake?</p>",
+              "answers": [
+                {
+                  "text": "<div>Pregnancy increases urinary iron excretion beyond 5 mg per day</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The body has no regulated pathway for excreting iron through the kidneys. Iron is lost only through blood loss, menstruation, and desquamation of cells.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The placenta actively blocks iron absorption from the duodenum</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The placenta does not interfere with duodenal absorption. In fact, pregnancy hormones may upregulate iron absorption, but this increase is insufficient to meet the sharply rising demand.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Increased iron demand exceeds the gut's limited absorptive capacity of 1–2 mg per day</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The body recycles 25 mg of iron daily but can absorb only 1–2 mg from food. In pregnancy, the growing foetus, expanding blood volume, and placenta raise demand well beyond this narrow absorptive capacity.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Pregnancy suppresses transferrin production by the liver</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Transferrin production actually increases during pregnancy to meet higher transport demand. Low transferrin would lower TIBC, but in iron deficiency TIBC is characteristically elevated.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Review the iron balance concept: daily recycling provides 25 mg, but absorption adds only 1–2 mg. When demand exceeds this narrow absorptive capacity — as in pregnancy — stores deplete and deficiency develops."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly. The gut can absorb only 1–2 mg/day, while the body recycles ~25 mg internally. Pregnancy sharply raises demand beyond what absorption alone can cover, depleting stores."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. The video explains that the gut absorbs only 1–2 mg of iron daily — barely enough to cover normal losses. In pregnancy, demand rises sharply, and the narrow absorption margin widens into a deficit that the body cannot close through absorption alone. This is why iron stores deplete and deficiency is so common in pregnancy.",
-                "correctAnswerMessage": "Correct — this statement is false. The gut absorbs only 1–2 mg of iron per day, which barely covers normal daily losses of the same magnitude. In pregnancy, demand rises sharply, and this narrow absorption margin cannot keep pace. The body must draw on stored iron, often resulting in iron deficiency if reserves are inadequate.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "a85c37a3-a7b3-4759-8749-5d22f55935e9",
+            "subContentId": "4e935e63-3ee8-4b5c-9733-b1979b4d7231",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The body absorbs enough iron from food e",
+              "title": "Why does iron deficiency anaemia develop",
               "authors": [],
               "changes": []
             }
@@ -125,7 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient is advised to take iron tablets on an empty stomach with orange juice </p>",
+          "label": "<p>A patient is advised to take oral iron tablets with orange juice and avoid tea. </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient is advised to take iron tablets on an empty stomach with orange juice and to avoid tea. Which aspect of iron absorption physiology best supports this advice?</p>",
+              "question": "<p>A patient is advised to take oral iron tablets with orange juice and avoid tea. Which mechanism best explains this dietary advice?</p>",
               "answers": [
                 {
-                  "text": "<div>An empty stomach allows haem iron to bypass DMT1 entirely, while tea blocks ferroportin-mediated export on the basolateral side</div>",
+                  "text": "<div>Orange juice raises gastric pH, improving iron solubility in the alkaline environment</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Haem iron enters the enterocyte intact regardless of stomach contents. The clinical advice targets non-haem iron absorption, which depends on luminal pH and reducing agents. Tea polyphenols act in the gut lumen, not on basolateral ferroportin.</div>",
+                    "chosenFeedback": "<div>Orange juice is acidic, not alkaline. A low-pH environment actually helps iron absorption by keeping iron in its reduced, absorbable ferrous form.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Orange juice increases hepatic transferrin synthesis, while tea degrades hephaestin on the basolateral membrane</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Vitamin C does not alter transferrin production by the liver, and tea polyphenols act in the gut lumen — not on the basolateral membrane. The relevant mechanisms operate at the luminal surface of the enterocyte.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Gastric acid and vitamin C promote the ferric-to-ferrous iron conversion required for DMT1 uptake, while tea polyphenols inhibit non-haem iron absorption in the lumen</div>",
+                  "text": "<div>Vitamin C enhances iron absorption while polyphenols in tea inhibit it</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Non-haem iron must be reduced from Fe³⁺ to Fe²⁺ by duodenal cytochrome b before DMT1 can transport it into the enterocyte. Vitamin C and gastric acid facilitate this reduction, while polyphenols in tea chelate iron and reduce its availability for uptake.</div>",
+                    "chosenFeedback": "<div>Vitamin C (ascorbic acid) promotes reduction of ferric iron to ferrous iron, facilitating uptake via DMT1. Polyphenols in tea chelate iron in the gut lumen, preventing absorption.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Vitamin C chelates iron and prevents its absorption, so it should be taken at a different time from iron supplements</div>",
+                  "text": "<div>Tea contains excess calcium that competes with iron for binding to DMT1</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Vitamin C actually enhances iron absorption by acting as a reducing agent that converts ferric to ferrous iron. It should be taken together with iron supplements, not separately.</div>",
+                    "chosenFeedback": "<div>While calcium does inhibit iron absorption, tea's primary inhibitory compounds are polyphenols (tannins), not calcium. Dairy products are the main dietary source of calcium-mediated inhibition.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Vitamin C converts ferric iron directly to haem iron for faster absorption</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Vitamin C reduces ferric (Fe³⁺) to ferrous (Fe²⁺) iron, facilitating non-haem iron absorption via DMT1. It does not convert inorganic iron into haem iron — haem iron comes only from animal haemoglobin and myoglobin.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Non-haem iron (85–90% of dietary iron) must be converted from ferric (Fe³⁺) to ferrous (Fe²⁺) form by duodenal cytochrome b before DMT1 can transport it. Vitamin C and gastric acid promote this reduction, while tea polyphenols inhibit absorption — hence the advice to take iron with orange juice and away from tea."
+                  "feedback": "Recall the enhancers and inhibitors discussed: vitamin C and gastric acid promote absorption by maintaining iron in its ferrous form, while polyphenols (tea, coffee), phytates (cereals), and calcium reduce it."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. As the narration states: 'That advice is physiology, not habit.' The iron supplement guidance is grounded directly in the biochemistry of non-haem iron uptake at the duodenal brush border."
+                  "feedback": "Correct. Vitamin C and gastric acid both enhance non-haem iron absorption, while polyphenols, phytates, and calcium inhibit it. This is why iron supplements are best taken before food with a source of vitamin C."
                 }
               ],
               "behaviour": {
@@ -209,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "86747121-0385-4da8-bc08-f2a2bdefb679",
+            "subContentId": "367faacf-fc57-4d9f-8c8e-74d46d9a7301",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient is advised to take iron tablet",
+              "title": "A patient is advised to take oral iron t",
               "authors": [],
               "changes": []
             }
@@ -235,95 +287,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The video states that serum ferritin falls before serum iron or haemoglobin chan</p>",
+          "label": "<p>In iron deficiency, serum ferritin falls only after haemoglobin begins to declin</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>The video states that serum ferritin falls before serum iron or haemoglobin changes. Why is serum ferritin the earliest laboratory marker of iron deficiency?</p>",
-              "answers": [
-                {
-                  "text": "<div>Ferritin is produced only in bone marrow erythroblasts, which are the first cells to sense iron depletion</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Ferritin is found in hepatocytes, macrophages, and enterocytes — not exclusively in the bone marrow. Its early decline reflects depletion of the body's storage pool, not marrow-specific sensing.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Ferritin has a shorter half-life than haemoglobin, so its plasma concentration drops more rapidly when iron intake declines</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The early fall in serum ferritin is not primarily due to half-life differences. It reflects the physiological priority: the body sacrifices storage reserves to maintain the functional pool as long as possible.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Serum ferritin directly measures free iron in the plasma, which is consumed before the storage pool</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Serum ferritin does not measure free iron — it reflects intracellular iron stores. Free plasma iron is negligible; the measured transport fraction is transferrin-bound iron, which falls at a later stage.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The body draws on the storage pool first when iron balance turns negative, and ferritin leaking into plasma reflects this decline before the transport or functional pools are compromised</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. When losses exceed absorption, the body depletes ferritin and hemosiderin reserves before compromising transferrin-bound transport iron or haemoglobin production. Serum ferritin reflects intracellular stores, so it falls at the earliest stage of negative iron balance.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Serum ferritin falls first because the storage pool is the body's buffer — it is consumed before transport iron or haemoglobin production is compromised. A small amount of intracellular ferritin leaks into plasma, providing a direct readout of these declining stores."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. One nanogram per millilitre of serum ferritin corresponds to roughly 8 mg of stored body iron, making it the most direct and earliest window into declining iron reserves."
-                }
-              ],
+              "question": "<p>In iron deficiency, serum ferritin falls only after haemoglobin begins to decline.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Ferritin is actually the earliest marker to fall, not the last. The body depletes storage iron first — ferritin drops while serum iron, TIBC, and haemoglobin remain normal. Only after stores are exhausted does transport iron decline, and haemoglobin falls last.",
+                "correctAnswerMessage": "Correct — ferritin reflects storage iron, which is the first pool the body draws upon. Serum ferritin falls while serum iron, TIBC, and haemoglobin are all still normal, making it the earliest and most sensitive marker of iron deficiency.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "c9b6774f-226c-40d8-8486-6bbe947cc849",
+            "subContentId": "5ea300dd-08c4-41c4-b9b2-7345ee6cfbd0",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "The video states that serum ferritin fal",
+              "title": "In iron deficiency, serum ferritin falls",
               "authors": [],
               "changes": []
             }
@@ -339,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 608.3499999999999,
-            "to": 618.3499999999999
+            "from": 608.7499999999999,
+            "to": 618.7499999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient has low serum ferritin, low serum iron, elevated TIBC, and a normal ha</p>",
+          "label": "<p>A patient has low serum iron, elevated TIBC, and transferrin saturation below 15</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,14 +354,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient has low serum ferritin, low serum iron, elevated TIBC, and a normal haemoglobin level. Which stage of iron deficiency does this laboratory profile represent?</p>",
+              "question": "<p>A patient has low serum iron, elevated TIBC, and transferrin saturation below 15%, but haemoglobin is still within the normal range. Which stage of iron deficiency does this represent?</p>",
               "answers": [
                 {
-                  "text": "<div>Stage 1 — storage depletion</div>",
+                  "text": "<div>Stage 1 — storage depletion only</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In stage 1, only ferritin is low. Serum iron, TIBC, and haemoglobin all remain normal because only the storage pool has been affected so far.</div>",
+                    "chosenFeedback": "<div>In stage 1, only ferritin is low. Serum iron, TIBC, and haemoglobin are all normal. The abnormalities described here — low serum iron, high TIBC, low transferrin saturation — indicate that transport iron has also been affected.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -370,7 +370,7 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In stage 2, the storage pool is exhausted (low ferritin) and the transport pool is failing (low serum iron, elevated TIBC, low transferrin saturation), but haemoglobin production is not yet compromised. This is the window for intervention before frank anaemia develops.</div>",
+                    "chosenFeedback": "<div>In stage 2, storage iron is exhausted and transport iron begins to fail. Serum iron drops, TIBC rises (the liver produces more transferrin to scavenge iron), and transferrin saturation falls below 15%. Haemoglobin is still maintained.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -379,7 +379,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Stage 3 requires haemoglobin to have fallen, with microcytic hypochromic red cells on the peripheral smear. This patient's haemoglobin is still normal.</div>",
+                    "chosenFeedback": "<div>Stage 3 is defined by frank anaemia — haemoglobin falls, MCV drops below 80 fL, and the peripheral smear shows microcytic hypochromic red cells. This patient's haemoglobin is still normal.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -388,7 +388,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In anaemia of chronic disease, TIBC is typically low or normal (not elevated), and ferritin is raised because hepcidin-mediated iron sequestration locks iron inside macrophages — the opposite ferritin pattern.</div>",
+                    "chosenFeedback": "<div>In anaemia of chronic disease, serum iron is low but TIBC is typically low or normal (not elevated), and ferritin is raised due to inflammation-driven hepcidin excess. The elevated TIBC here points to iron deficiency, not chronic disease.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "This profile — low ferritin, low serum iron, elevated TIBC, but normal haemoglobin — represents stage 2 (iron-deficient erythropoiesis). The storage pool is depleted and transport iron is failing, but haemoglobin has not yet fallen."
+                  "feedback": "Remember the sequence: ferritin falls first (stage 1), then transport markers change — serum iron drops, TIBC rises, transferrin saturation falls below 15% (stage 2) — and only lastly does haemoglobin drop (stage 3)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Recognising stage 2 allows early intervention before overt anaemia develops. The pattern to anchor: ferritin falls first, transport iron falls second, haemoglobin falls last."
+                  "feedback": "Exactly. The pattern of low serum iron, high TIBC, and low transferrin saturation with a normal haemoglobin defines stage 2 — iron-deficient erythropoiesis, where the marrow is starving but hasn't yet failed."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5c4023a2-f8b3-4fde-ba42-ec8184e65094",
+            "subContentId": "cd7bef02-8f30-4a70-bc68-b314786940fa",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient has low serum ferritin, low se",
+              "title": "A patient has low serum iron, elevated T",
               "authors": [],
               "changes": []
             }
@@ -496,7 +496,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "20ac537d-3752-4587-80ce-b4eff1a15390",
+              "subContentId": "def7d5de-f6de-4089-8040-78bf8cb4b2cb",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -519,7 +519,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "f8f631ab-d01d-4beb-a0c8-4d962c5b5994",
+        "subContentId": "6482a43d-f03d-4472-96fa-90d6575b67b0",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
