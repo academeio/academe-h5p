@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/54b6e8e5-2f56-4bcd-866c-ed952acba72a/playlist.m3u8",
+          "path": "https://vdo.cbme.in/cca69cba-b617-465c-8e43-735e5be82e18/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "MI6.1-3 | Central Nervous System Infections — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 3 embedded questions for MI6.1-MI6.3."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for MI6.1-MI6.3."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 157.425,
-            "to": 167.425
+            "from": 42.375,
+            "to": 52.375
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which organism is the most common cause of bacterial meningitis in children aged</p>",
+          "label": "<p>In the clinical case just presented, which finding provided the most specific cl</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,32 +76,124 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which organism is the most common cause of bacterial meningitis in children aged 3 months to 18 years in India?</p>",
+              "question": "<p>In the clinical case just presented, which finding provided the most specific clue to identify the causative organism?</p>",
+              "answers": [
+                {
+                  "text": "<div>Severe headache with high fever and neck stiffness</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>These are general features of meningitis and can be caused by many different organisms — bacterial, viral, or fungal. They do not identify any specific pathogen.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Non-blanching petechial rash on the trunk</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A petechial rash is suggestive of meningococcal disease but is not definitive on its own — it can also occur in other bacteraemias and vasculitides. The Gram stain provides direct morphological identification.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Turbid appearance of the cerebrospinal fluid</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Turbid CSF indicates bacterial meningitis in general but does not identify the specific organism. Many different bacteria can produce turbid CSF.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Gram-negative diplococci in pairs on the emergency Gram stain</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct! The Gram stain morphology — Gram-negative diplococci in pairs — directly identifies Neisseria meningitidis, enabling immediate targeted treatment with ceftriaxone before culture confirmation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "While clinical features and turbid CSF suggest bacterial meningitis, only the Gram stain morphology — Gram-negative diplococci in pairs — specifically identifies the organism (Neisseria meningitidis) and guides targeted therapy."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. The Gram stain is the fastest actionable diagnostic in meningitis — specific morphology identifies the organism within minutes and guides empiric antibiotic choice."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "67fccf00-c1e7-4a25-a5fe-d19e3873cda5",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In the clinical case just presented, whi",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 260.47499999999997,
+            "to": 270.47499999999997
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In Indian children aged 3 months to 18 years, which organism is the MOST common </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In Indian children aged 3 months to 18 years, which organism is the MOST common cause of bacterial meningitis?</p>",
               "answers": [
                 {
                   "text": "<div>Streptococcus pneumoniae</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>S. pneumoniae is the leading cause in adults aged 18–50 years. In Indian children, N. meningitidis predominates.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Haemophilus influenzae type b</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>H. influenzae type b was historically important in childhood meningitis but has declined significantly with the introduction of Hib vaccination.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Listeria monocytogenes</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Listeria primarily causes meningitis in neonates (via vertical transmission) and the elderly or immunocompromised — not in children aged 3 months to 18 years.</div>",
+                    "chosenFeedback": "<div>Streptococcus pneumoniae is a leading cause in adults aged 18–50 and the elderly, but in Indian children it ranks behind Neisseria meningitidis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -110,7 +202,25 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In the Indian context, N. meningitidis is the most common cause of bacterial meningitis in children, unlike some Western countries where S. pneumoniae may lead.</div>",
+                    "chosenFeedback": "<div>Correct! In India, Neisseria meningitidis is the most common cause of bacterial meningitis in children aged 3 months to 18 years.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Group B Streptococcus</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Group B Streptococcus is primarily a neonatal pathogen (under 4 weeks of age), not a leading cause in older children.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Haemophilus influenzae type b</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Haemophilus influenzae type b was historically a major cause in this age group, but its incidence has declined significantly since the introduction of the Hib vaccine.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the age-specific pattern: neonates → GBS, E. coli, Listeria; Indian children → N. meningitidis; adults → S. pneumoniae; elderly → S. pneumoniae + Listeria."
+                  "feedback": "In India, Neisseria meningitidis is the most common cause of bacterial meningitis in children aged 3 months to 18 years. Remember the age-wise pattern: neonates = GBS/E. coli/Listeria, children = meningococcus, adults = pneumococcus."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done! Knowing the age-specific organisms is essential for choosing correct empirical antibiotics before culture results arrive."
+                  "feedback": "Exactly right. The age-wise pattern is high-yield: neonates → GBS/E. coli/Listeria; children → meningococcus; adults → pneumococcus; elderly → pneumococcus/Listeria/GNR."
                 }
               ],
               "behaviour": {
@@ -151,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "0a7aa244-f54f-4ea8-9fc4-9306d99c7705",
+            "subContentId": "f13db193-0660-4dc6-bfd3-ca59ebe1c21f",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which organism is the most common cause",
+              "title": "In Indian children aged 3 months to 18 y",
               "authors": [],
               "changes": []
             }
@@ -171,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 266.45000000000005,
-            "to": 276.45000000000005
+            "from": 375.875,
+            "to": 385.875
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A CSF Gram stain shows kidney-shaped organisms arranged in pairs, some located w</p>",
+          "label": "<p>A patient's CSF shows lymphocytic pleocytosis (200 cells/mm³), very low glucose,</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A CSF Gram stain shows kidney-shaped organisms arranged in pairs, some located within neutrophils. What is the correct identification?</p>",
+              "question": "<p>A patient's CSF shows lymphocytic pleocytosis (200 cells/mm³), very low glucose, very high protein, and a cobweb-like clot forming on standing. Which diagnosis does this pattern MOST strongly suggest?</p>",
               "answers": [
                 {
-                  "text": "<div>Gram-positive Streptococcus pneumoniae</div>",
+                  "text": "<div>Acute bacterial meningitis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>S. pneumoniae appears as lancet-shaped, Gram-positive diplococci — a distinctly different morphology. Kidney-shaped intracellular diplococci point to a Gram-negative organism.</div>",
+                    "chosenFeedback": "<div>Bacterial meningitis produces predominantly neutrophilic pleocytosis (typically &gt;1000 cells) with low glucose and high protein. The lymphocyte predominance and cobweb clot here point to a different diagnosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Gram-negative Neisseria meningitidis</div>",
+                  "text": "<div>Viral meningitis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Viral meningitis shows lymphocytic pleocytosis, but glucose is usually normal and protein only mildly elevated. The very low glucose and cobweb clot are not features of viral meningitis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Tuberculous meningitis</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Kidney-shaped diplococci found intracellularly within neutrophils are the hallmark CSF Gram stain appearance of N. meningitidis. This pattern enables immediate bedside diagnosis and guides empiric ceftriaxone therapy.</div>",
+                    "chosenFeedback": "<div>Correct! Lymphocytic pleocytosis, very low glucose, very high protein, and a cobweb-like clot on standing constitute the classic CSF profile of tuberculous meningitis — the leading cause of chronic meningitis in India.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Gram-negative Escherichia coli</div>",
+                  "text": "<div>Cryptococcal meningitis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>E. coli appears as Gram-negative bacilli (rods), not kidney-shaped diplococci. E. coli meningitis occurs predominantly in neonates with the K1 capsular antigen.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Gram-positive Staphylococcus aureus</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Staphylococci are Gram-positive cocci arranged in grape-like clusters, typically seen in post-neurosurgical or shunt-related meningitis — not as kidney-shaped diplococci.</div>",
+                    "chosenFeedback": "<div>Cryptococcal meningitis can show lymphocytic pleocytosis with low glucose, but the cobweb-like clot is a hallmark of tuberculous meningitis specifically. Cryptococcus is diagnosed by India ink preparation or cryptococcal antigen testing.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Learn the two key diplococcal patterns: kidney-shaped Gram-negative intracellular diplococci = N. meningitidis; lancet-shaped Gram-positive diplococci = S. pneumoniae."
+                  "feedback": "This CSF profile — lymphocytic pleocytosis + very low glucose + very high protein + cobweb clot — is classic for tuberculous meningitis. Key contrasts: bacterial = neutrophils/>1000 cells; viral = lymphocytes/normal glucose; TBM = lymphocytes/low glucose/cobweb clot."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent! Recognising organism-specific Gram stain morphology enables bedside diagnosis within minutes — often life-saving in bacterial meningitis."
+                  "feedback": "Well analysed. The cobweb clot forming on standing is a classic sign of TBM. Combined with lymphocytic CSF, low glucose, and very high protein, the diagnosis is clear."
                 }
               ],
               "behaviour": {
@@ -261,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9d33599c-018f-4f10-b5ab-f2c2dc42c36b",
+            "subContentId": "b121e78e-8e83-47d2-9a44-bf62ba04ce0f",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A CSF Gram stain shows kidney-shaped org",
+              "title": "A patient's CSF shows lymphocytic pleocy",
               "authors": [],
               "changes": []
             }
@@ -281,13 +391,13 @@
         },
         {
           "duration": {
-            "from": 361.57500000000005,
-            "to": 371.57500000000005
+            "from": 536.9,
+            "to": 546.9
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which set of clinical features best distinguishes encephalitis from meningitis?</p>",
+          "label": "<p>A patient with suspected bacterial meningitis has papilloedema and a GCS of 8. B</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which set of clinical features best distinguishes encephalitis from meningitis?</p>",
+              "question": "<p>A patient with suspected bacterial meningitis has papilloedema and a GCS of 8. Blood cultures are drawn and intravenous ceftriaxone is started immediately. An LP performed 3 hours later shows raised protein, low glucose, and neutrophilic pleocytosis, but both Gram stain and culture are negative. What is the MOST likely explanation?</p>",
               "answers": [
                 {
-                  "text": "<div>Fever and headache</div>",
+                  "text": "<div>The patient does not have bacterial meningitis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Fever and headache are common to both meningitis and encephalitis and cannot reliably distinguish between them.</div>",
+                    "chosenFeedback": "<div>The CSF biochemical profile — raised protein, low glucose, and neutrophilic pleocytosis — is characteristic of bacterial meningitis. Negative Gram stain and culture do not exclude the diagnosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Neck stiffness and Kernig's sign</div>",
+                  "text": "<div>The CSF sample was insufficient for culture</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>These are meningeal signs — characteristic of meningitis, where the meninges are inflamed. In encephalitis, the brain parenchyma itself is the primary site of inflammation.</div>",
+                    "chosenFeedback": "<div>If the sample were insufficient, all CSF tests would be affected. Here the biochemistry and cell counts are informative — only the microbiological tests are negative, pointing to a different explanation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Altered consciousness, seizures, and focal neurological deficits</div>",
+                  "text": "<div>The organism does not grow on standard culture media</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The common causes of bacterial meningitis (Neisseria, Streptococcus, Haemophilus) all grow on standard culture media. The negative results here have a more specific clinical explanation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Prior antibiotic therapy sterilised the CSF before the LP</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Encephalitis involves inflammation of the brain parenchyma, producing altered consciousness, seizures, behavioural changes, and focal deficits — contrasting with the meningeal signs (neck stiffness, Kernig's, Brudzinski's) that dominate in meningitis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Petechial rash and purpura</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Petechial rash is associated specifically with meningococcal meningitis (N. meningitidis bacteraemia), not with encephalitis. It reflects meningococcal septicaemia rather than brain parenchymal inflammation.</div>",
+                    "chosenFeedback": "<div>Correct! Antibiotics sterilise CSF cultures within 2–4 hours and reduce Gram stain sensitivity. However, the biochemical profile (cells, protein, glucose) persists and still guides diagnosis — which is exactly why empiric antibiotics must not be delayed.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: meningitis = meningeal signs dominant (neck stiffness, Kernig's, Brudzinski's); encephalitis = parenchymal signs dominant (altered consciousness, seizures, focal deficits, behavioural changes)."
+                  "feedback": "Antibiotics sterilise CSF cultures within 2–4 hours, rendering Gram stain and culture negative. But the biochemical profile (cells, protein, glucose) persists and still guides diagnosis. This is why empiric antibiotics must never be delayed for LP in patients with raised ICP."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done! The parenchymal signs of encephalitis versus the meningeal signs of meningitis is a fundamental clinical distinction you will use in emergency settings."
+                  "feedback": "Exactly. Every 30-minute delay in antibiotic therapy increases mortality by approximately 5%. We treat first, then diagnose — the biochemical CSF profile persists even after cultures are sterilised."
                 }
               ],
               "behaviour": {
@@ -371,11 +481,69 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "75778d72-c5a8-4907-b975-6274af1d4989",
+            "subContentId": "e14c97c3-b846-4cd2-9230-c9b33f4c236b",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which set of clinical features best dist",
+              "title": "A patient with suspected bacterial menin",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 650.875,
+            "to": 660.875
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>The hallmark clinical features of encephalitis are neck stiffness and positive K</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>The hallmark clinical features of encephalitis are neck stiffness and positive Kernig's sign.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "These are signs of meningitis (meningeal irritation), not encephalitis. Encephalitis affects the brain parenchyma itself and presents with altered consciousness, seizures, focal neurological deficits, and behavioural changes — a fundamentally different clinical picture.",
+                "correctAnswerMessage": "Correct! Neck stiffness and Kernig's sign are signs of meningeal irritation, characteristic of meningitis. Encephalitis involves the brain parenchyma and is characterised by altered consciousness, seizures, focal neurological deficits, and behavioural changes.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "24b849bc-95e7-4d2d-9f02-fc82cff59dde",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "The hallmark clinical features of enceph",
               "authors": [],
               "changes": []
             }
@@ -401,32 +569,32 @@
         },
         {
           "time": 42,
-          "label": "Pathogenesis of Bacterial Meningitis Bacterial meningitis…"
+          "label": "Bacterial meningitis can reach the central nervous system…"
         },
         {
-          "time": 105,
-          "label": "Causes of Meningitis by Age Group and Category Bacterial…"
+          "time": 159,
+          "label": "Meningitis has different likely causes depending on age,…"
         },
         {
-          "time": 157,
-          "label": "Laboratory Diagnosis of Meningitis — CSF Analysis CSF is…"
+          "time": 261,
+          "label": "Diagnosing meningitis in the lab starts with a lumbar pun…"
         },
         {
-          "time": 216,
-          "label": "Reading and Interpreting CSF Gram Stain (MI6.3) The CSF G…"
+          "time": 376,
+          "label": "Reading a CSF Gram stain systematically is what lets you…"
         },
         {
-          "time": 266,
+          "time": 492,
           "label": "In suspected bacterial meningitis, do not delay antibioti…"
         },
         {
-          "time": 312,
-          "label": "Encephalitis — Causes, Pathogenesis, and Diagnosis Enceph…"
+          "time": 538,
+          "label": "Encephalitis means inflammation of the brain tissue itsel…"
         }
       ],
       "endscreens": [
         {
-          "time": 379,
+          "time": 668,
           "label": "End"
         }
       ]
@@ -438,7 +606,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "d1b1167f-da4d-453b-83cc-814f6c337306",
+              "subContentId": "a46bfc64-303c-40d1-9a03-4dbc4797715b",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -461,7 +629,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "3996c265-686d-4587-b3a2-179cf64a1c57",
+        "subContentId": "18b21c39-c399-42d7-b430-4a2d1829ca51",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
