@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/e9e0eadd-97c9-498b-9dc4-72e90653e125/playlist.m3u8",
+          "path": "https://vdo.cbme.in/134c58a4-da1d-47d6-9e5f-61ca386bec62/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "MI9.1-6 | Zoonotic, Opportunistic & Emerging Infections — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for MI9.1-MI9.6."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for MI9.1-MI9.6."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 159.025,
-            "to": 169.025
+            "from": 94.25,
+            "to": 104.25
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A farmer presents with jaundice, renal failure, and haemorrhagic manifestations </p>",
+          "label": "<p>A farmer presents with high fever, muscle pain, and red eyes after wading throug</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,14 +76,124 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A farmer presents with jaundice, renal failure, and haemorrhagic manifestations after wading through flood water. To confirm the infecting serovar of Leptospira, which investigation should be requested?</p>",
+              "question": "<p>A farmer presents with high fever, muscle pain, and red eyes after wading through flooded rice fields. Three other farmers from his village were recently hospitalised with similar symptoms. Which feature of this history most strongly points to a zoonotic aetiology?</p>",
               "answers": [
                 {
-                  "text": "<div>IgM ELISA</div>",
+                  "text": "<div>Multiple people from the same village are affected simultaneously</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>IgM ELISA is a rapid screening test for leptospirosis but cannot identify the specific serovar — it detects genus-level antibodies only.</div>",
+                    "chosenFeedback": "<div>Clustering suggests a common source, but person-to-person outbreaks can also produce village-level clusters. It does not by itself indicate an animal reservoir.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The patient's occupation involved exposure to water contaminated with animal urine</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct! The hallmark of a zoonotic infection is transmission from animals to humans. Occupational exposure to flood water contaminated with rat or cattle urine is the classic route for leptospirosis — the animal reservoir is the key link.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The presentation includes conjunctival suffusion and myalgia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>These clinical signs raise suspicion for several febrile illnesses but do not by themselves indicate animal-to-human transmission, which is what defines a zoonosis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The illness occurred during the monsoon season in a coastal state</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Monsoon seasonality provides context for outbreaks but does not distinguish zoonotic from non-zoonotic causes, since many infectious diseases peak during the monsoon.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The defining feature of a zoonosis is its animal-to-human transmission route. In this case, the farmer's contact with flood water contaminated by animal urine directly links the illness to a vertebrate animal reservoir — making occupational exposure the strongest indicator of zoonotic aetiology."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. Zoonotic infections are defined by their animal-to-human transmission, and recognising the occupational exposure to animal-contaminated water is the crucial epidemiological clue in this case."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "902d8919-fae7-4fb4-8deb-c1cab3237f75",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A farmer presents with high fever, muscl",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 232.55,
+            "to": 242.55
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A sewer worker presents during monsoon season with high fever, jaundice, and acu</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A sewer worker presents during monsoon season with high fever, jaundice, and acute kidney injury — the classic triad of Weil's disease. Which diagnostic test is considered the gold standard for confirming leptospirosis?</p>",
+              "answers": [
+                {
+                  "text": "<div>Blood culture on EMJH medium</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Blood culture on EMJH medium can isolate Leptospira in the first week of illness, but growth takes weeks and it is not considered the gold standard for confirmation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -92,25 +202,25 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Dark-field microscopy can visualise spirochaetes but is insensitive and prone to artefacts; it does not determine the serovar.</div>",
+                    "chosenFeedback": "<div>Dark-field microscopy can visualise live spirochaetes, but it is prone to artefacts and false positives, making it unreliable as a confirmatory test.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Microscopic Agglutination Test (MAT)</div>",
+                  "text": "<div>Microscopic agglutination test (MAT)</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>MAT is the gold standard serology for leptospirosis. It uses panels of live serovar antigens, so a rising titre identifies the specific infecting serovar.</div>",
+                    "chosenFeedback": "<div>Correct! MAT is the gold standard serological test for leptospirosis. It detects antibodies against specific Leptospira serovars and provides definitive confirmation of the diagnosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Blood culture in EMJH medium</div>",
+                  "text": "<div>IgM rapid diagnostic test</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Culture in EMJH medium isolates Leptospira in the first 7–10 days but takes weeks to grow and is not used for serovar confirmation in clinical practice.</div>",
+                    "chosenFeedback": "<div>The IgM rapid test is useful for early point-of-care diagnosis from around day five of illness, but it is a screening tool, not the reference standard for confirmation.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The Microscopic Agglutination Test (MAT) is the gold standard. It uses panels of live serovar antigens, enabling both diagnosis and serovar identification — critical for epidemiological tracking in endemic areas."
+                  "feedback": "The microscopic agglutination test (MAT) is the gold standard for leptospirosis. While blood culture and IgM rapid tests are useful at different stages of illness, MAT provides the definitive serological confirmation."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! MAT detects serovar-specific antibodies against live leptospiral antigens — it is the reference standard for both confirming leptospirosis and identifying the serovar."
+                  "feedback": "Well done! MAT remains the reference standard for confirming leptospirosis, testing the patient's serum against panels of live Leptospira serovars to identify the infecting serogroup."
                 }
               ],
               "behaviour": {
@@ -151,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f71c11f5-9b68-43a6-95d5-6a257efde850",
+            "subContentId": "70cd98ab-da9a-49a9-b334-7258f12cb1b4",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A farmer presents with jaundice, renal f",
+              "title": "A sewer worker presents during monsoon s",
               "authors": [],
               "changes": []
             }
@@ -171,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 278.15,
-            "to": 288.15
+            "from": 462.72499999999997,
+            "to": 472.72499999999997
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which opportunistic infection becomes a significant risk specifically when an HI</p>",
+          "label": "<p>An HIV-positive patient with a CD4 count of 80 cells/μL presents with subacute h</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which opportunistic infection becomes a significant risk specifically when an HIV-positive patient's CD4 count falls below 100 cells/μL?</p>",
+              "question": "<p>An HIV-positive patient with a CD4 count of 80 cells/μL presents with subacute headache, neck stiffness, and low-grade fever. CSF India ink preparation shows round organisms with a clear halo. Which of the following best explains the pathogenesis of this infection?</p>",
               "answers": [
                 {
-                  "text": "<div>Oral candidiasis</div>",
+                  "text": "<div>Reactivation of dormant Toxoplasma gondii cysts in the basal ganglia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Oral candidiasis occurs at a higher CD4 threshold (&lt;500 cells/μL) and is one of the earliest opportunistic infections in HIV progression.</div>",
+                    "chosenFeedback": "<div>Toxoplasma encephalitis presents with ring-enhancing lesions in the basal ganglia on MRI, not meningitis with India ink-positive CSF. It involves parasite reactivation, but the clinical and laboratory picture here points elsewhere.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Pneumocystis jirovecii pneumonia (PCP)</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>PCP typically manifests when the CD4 count drops below 200 cells/μL — this is why co-trimoxazole prophylaxis is started at that threshold.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Cryptococcal meningitis</div>",
+                  "text": "<div>Inhalation of a yeast from pigeon droppings, with haematogenous dissemination to the meninges</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Cryptococcus neoformans causes subacute meningitis at CD4 &lt;100 cells/μL. It is detected by India ink preparation (capsulated yeast) or the rapid CrAg lateral flow assay.</div>",
+                    "chosenFeedback": "<div>Correct! Cryptococcus neoformans is a yeast linked to pigeon droppings. It enters through inhalation, disseminates haematogenously, and causes subacute meningitis at CD4 &lt;100. India ink staining reveals the polysaccharide capsule as a clear halo — this finding is virtually diagnostic.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Toxoplasma encephalitis</div>",
+                  "text": "<div>Oropharyngeal colonisation by Candida albicans spreading to the central nervous system</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Toxoplasma encephalitis occurs at CD4 &lt;200 cells/μL, the same threshold as PCP, and presents with ring-enhancing lesions on imaging.</div>",
+                    "chosenFeedback": "<div>Candida causes oral thrush and oesophageal disease in immunocompromised patients, but CNS involvement is uncommon and it does not produce the characteristic India ink capsular halo described here.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Reactivation of latent cytomegalovirus in the retinal vasculature</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>CMV predominantly causes retinitis at CD4 &lt;100, producing the characteristic 'pizza-pie' fundoscopic appearance. It does not typically present as subacute meningitis with India ink-positive CSF.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Cryptococcal meningitis is the key OI at CD4 <100. The thresholds to remember: <500 (candidiasis, herpes zoster), <200 (PCP, toxoplasmosis), <100 (cryptococcus, CMV retinitis), <50 (MAC, CMV colitis)."
+                  "feedback": "The combination of subacute meningitis at CD4 <100 and India ink showing organisms with a clear capsular halo points to Cryptococcus neoformans — a yeast acquired by inhalation from pigeon droppings that disseminates to the meninges in severely immunocompromised patients."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! Cryptococcal meningitis characteristically appears at CD4 <100 cells/μL — remembering these thresholds guides both prophylaxis decisions and clinical suspicion."
+                  "feedback": "Excellent. Cryptococcal meningitis from inhaled pigeon-associated yeast is a classic opportunistic infection at CD4 <100, and the India ink capsular halo is its signature diagnostic finding."
                 }
               ],
               "behaviour": {
@@ -261,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "b9c78433-f13a-4840-92e3-ee2963ae2307",
+            "subContentId": "a3a99e58-432a-4a73-a9f8-f129bcfe4b45",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which opportunistic infection becomes a",
+              "title": "An HIV-positive patient with a CD4 count",
               "authors": [],
               "changes": []
             }
@@ -281,101 +391,49 @@
         },
         {
           "duration": {
-            "from": 406.29999999999995,
-            "to": 416.29999999999995
+            "from": 662.075,
+            "to": 672.075
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In HPV-associated cervical carcinogenesis, oncoprotein E6 drives malignant trans</p>",
+          "label": "<p>Hepatitis C virus causes hepatocellular carcinoma by integrating its DNA into th</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>In HPV-associated cervical carcinogenesis, oncoprotein E6 drives malignant transformation by targeting which tumour suppressor protein for degradation?</p>",
-              "answers": [
-                {
-                  "text": "<div>Rb (retinoblastoma protein)</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Rb is the target of HPV oncoprotein E7, not E6. E7 inactivates Rb, releasing E2F transcription factor to drive uncontrolled cell cycle entry.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>p53</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>E6 binds and degrades p53, the 'guardian of the genome', thereby preventing apoptosis of HPV-infected cells and allowing accumulation of oncogenic mutations.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>BRCA1</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>BRCA1 is a tumour suppressor involved in DNA double-strand break repair and is associated with hereditary breast and ovarian cancers — it is not a target of HPV oncoproteins.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>E2F transcription factor</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>E2F is not degraded — it is actually released when E7 inactivates Rb, which then promotes uncontrolled cell cycle progression.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "HPV oncoprotein E6 binds and degrades p53, preventing apoptosis. Remember the pair: E6 → p53 degradation, E7 → Rb inactivation. Both are needed for the persistent proliferation that leads to CIN and invasive carcinoma."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct! E6 degrades p53 (preventing apoptosis) while E7 inactivates Rb (releasing E2F) — together they are the two-hit mechanism driving HPV-associated cervical carcinogenesis over 10–20 years."
-                }
-              ],
+              "question": "<p>Hepatitis C virus causes hepatocellular carcinoma by integrating its DNA into the host genome, similar to the mechanism used by Hepatitis B virus.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is false. HCV is an RNA virus that has no DNA stage at all, so it cannot integrate into the host genome the way HBV does. Instead, HCV causes hepatocellular carcinoma through chronic inflammation and viral protein-mediated interference with p53 — a fundamentally different mechanism from HBV's DNA integration.",
+                "correctAnswerMessage": "Well done. HCV is an RNA virus with no DNA stage — it cannot integrate into the host genome. Unlike HBV, which integrates its DNA and uses the HBx protein to activate oncogenes, HCV drives liver cancer through chronic inflammation and viral proteins that interfere with p53.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "279be2a4-8757-4683-b848-4b39d1017bee",
+            "subContentId": "62c96bab-d9a0-4656-8056-78db47d25ab7",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "In HPV-associated cervical carcinogenesi",
+              "title": "Hepatitis C virus causes hepatocellular",
               "authors": [],
               "changes": []
             }
@@ -391,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 523.975,
-            "to": 533.975
+            "from": 871.6750000000001,
+            "to": 881.6750000000001
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which national health programme has successfully achieved its disease eliminatio</p>",
+          "label": "<p>Which national health programme in India is responsible for the control of malar</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which national health programme has successfully achieved its disease elimination target of less than 1 case per 10,000 population at the national level?</p>",
+              "question": "<p>Which national health programme in India is responsible for the control of malaria, dengue, chikungunya, kala-azar, and Japanese encephalitis?</p>",
               "answers": [
                 {
-                  "text": "<div>NI-KSHAY (RNTCP)</div>",
+                  "text": "<div>Ni-kshay (Revised National Tuberculosis Control Programme)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>NI-KSHAY aims for tuberculosis elimination by 2025, ahead of the SDG 2030 target, but India has not yet achieved this goal.</div>",
+                    "chosenFeedback": "<div>Ni-kshay focuses specifically on tuberculosis, using DOTS therapy and GeneXpert testing, with a target of TB elimination by 2025 — ahead of the global 2030 target.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>NVBDCP</div>",
+                  "text": "<div>National AIDS Control Programme</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>NVBDCP set a Kala-azar elimination target of &lt;1 per 10,000 by 2023, but the programme covers multiple vector-borne diseases and full national elimination has not been confirmed across all of them.</div>",
+                    "chosenFeedback": "<div>NACP is dedicated to HIV/AIDS control, providing free antiretroviral therapy, counselling and testing centres, and prevention of parent-to-child transmission.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>NACP (NACO)</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>NACP focuses on HIV/AIDS control through free ART, ICTC, and PMTCT. It has achieved a decline in new infections but uses different metrics, not the &lt;1/10,000 elimination threshold.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>NLEP (National Leprosy Eradication Programme)</div>",
+                  "text": "<div>National Vector Borne Disease Control Programme</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>India achieved national leprosy elimination (&lt;1 per 10,000) through NLEP's multi-drug therapy — dapsone + rifampicin + clofazimine — combined with active case detection and stigma reduction.</div>",
+                    "chosenFeedback": "<div>Correct! The NVBDCP handles all major vector-borne diseases in India — malaria, dengue, chikungunya, lymphatic filariasis, kala-azar, and Japanese encephalitis — through integrated vector control, diagnosis, and treatment strategies.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Integrated Disease Surveillance Programme</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>IDSP coordinates surveillance of emerging infections across all states and union territories, but it is a surveillance and reporting system, not a disease-specific control programme.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The National Leprosy Eradication Programme (NLEP) achieved <1 per 10,000 nationally using MDT (dapsone + rifampicin + clofazimine). Other programmes like NI-KSHAY and NVBDCP have set similar targets but are still working towards them."
+                  "feedback": "The correct answer is the National Vector Borne Disease Control Programme (NVBDCP). It covers malaria, dengue, chikungunya, filariasis, kala-azar, and Japanese encephalitis under a single umbrella programme with integrated vector control."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! India achieved national leprosy elimination (<1/10,000) through NLEP's MDT regimen — one of the landmark public health achievements."
+                  "feedback": "That's right. The NVBDCP is India's comprehensive programme for all vector-borne diseases, combining vector control with diagnostic and treatment strategies across six major diseases."
                 }
               ],
               "behaviour": {
@@ -481,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "3d740999-052a-4472-9e16-a723bb72b7e6",
+            "subContentId": "25bcafd1-5eb3-44b8-831e-0140133beed8",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which national health programme has succ",
+              "title": "Which national health programme in India",
               "authors": [],
               "changes": []
             }
@@ -507,44 +565,44 @@
         },
         {
           "time": 5,
-          "label": "A 35-year-old farmer from Andhra Pradesh presents in Sept…"
+          "label": "A 35-year-old farmer from Andhra Pradesh comes in during…"
         },
         {
-          "time": 57,
-          "label": "Classification and Overview of Zoonoses Classification by…"
+          "time": 94,
+          "label": "Classification and Overview of Zoonoses."
         },
         {
-          "time": 105,
-          "label": "Major Bacterial Zoonoses 1."
+          "time": 143,
+          "label": "There are four major bacterial zoonoses worth knowing wel…"
         },
         {
-          "time": 159,
-          "label": "Major Viral Zoonoses Rabies (Rabies lyssavirus): Negative…"
+          "time": 233,
+          "label": "Rabies is caused by rabies lyssavirus, a bullet-shaped vi…"
         },
         {
-          "time": 220,
-          "label": "Opportunistic Infections (OI) in Immunocompromised Hosts…"
+          "time": 352,
+          "label": "Opportunistic infections are the ones that take advantage…"
         },
         {
-          "time": 278,
-          "label": "Choosing the Right Investigation (MI9.3) Framework for in…"
+          "time": 463,
+          "label": "So a patient walks in with fever, jaundice and sudden kid…"
         },
         {
-          "time": 340,
-          "label": "Oncogenic Viruses — Mechanisms and Associated Malignancie…"
+          "time": 560,
+          "label": "Oncogenic viruses cause cancer in very different ways, an…"
         },
         {
-          "time": 406,
-          "label": "Emerging and Re-emerging Infectious Diseases Definitions:…"
+          "time": 663,
+          "label": "An emerging infection is one whose numbers in humans have…"
         },
         {
-          "time": 459,
-          "label": "National Health Programs for Infectious Diseases (MI9.6)…"
+          "time": 757,
+          "label": "India runs several national programs to control major inf…"
         }
       ],
       "endscreens": [
         {
-          "time": 561,
+          "time": 909,
           "label": "End"
         }
       ]
@@ -556,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "a9a7e362-e89d-42b7-ab00-bfda4411bf64",
+              "subContentId": "236a1d84-4528-46da-a481-891e2ec250d5",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -579,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "fb916913-8a20-4fb8-9522-6c47465b5925",
+        "subContentId": "41e9aaee-7ec4-4b6f-bab1-0af321509c5c",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
