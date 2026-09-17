@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/1d3b7706-e7b9-4bfd-bfe3-36a95bde5323/playlist.m3u8",
+          "path": "https://vdo.cbme.in/7d4ce64c-c8d6-4360-aee7-506280e2679f/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OP4.1-10 | Cornea, Keratitis and Eye Donation — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for OP4.1-OP4.9."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for OP4.1-OP4.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 184.35000000000002,
-            "to": 194.35000000000002
+            "from": 83.025,
+            "to": 93.025
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient's corneal endothelial cell count has fallen to 480 cells/mm², and the </p>",
+          "label": "<p>Which mechanism maintains corneal transparency by causing scattered light waves </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient's corneal endothelial cell count has fallen to 480 cells/mm², and the cornea appears cloudy. Which mechanism of corneal transparency has primarily failed?</p>",
+              "question": "<p>Which mechanism maintains corneal transparency by causing scattered light waves to cancel each other out?</p>",
               "answers": [
                 {
-                  "text": "<div>Avascularity maintained by limbal anti-angiogenic factors</div>",
+                  "text": "<div>Anti-angiogenic factors at the limbus preventing vessel ingrowth</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Avascularity prevents blood vessels from entering the cornea but is not directly affected by endothelial cell loss. Corneal neovascularisation is typically triggered by chronic hypoxia, such as extended contact lens wear, not by pump failure.</div>",
+                    "chosenFeedback": "<div>Anti-angiogenic factors maintain avascularity, a separate transparency mechanism. Avascularity prevents light-scattering blood vessels from entering the cornea but does not involve destructive interference.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Regular collagen fibril spacing in the Maurice lattice</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The Maurice lattice describes the precise arrangement of Type I collagen fibrils that causes destructive interference of scattered light. While stromal oedema can secondarily disrupt this arrangement, the primary failure when endothelial cells are lost is the dehydration pump.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Active endothelial pump dehydrating the stroma</div>",
+                  "text": "<div>Regular spacing of Type I collagen fibrils in the stroma</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The endothelium's Na-K-ATPase pump actively removes water from the stroma, maintaining its water content at about 78%. When the cell count drops below approximately 500 cells/mm², this pump fails, water floods the stroma, and the cornea becomes oedematous — bullous keratopathy.</div>",
+                    "chosenFeedback": "<div>Correct! The precisely spaced Type I collagen fibrils form the Maurice lattice. This regular arrangement causes destructive interference — scattered light waves cancel each other out, allowing the cornea to remain transparent.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Continuous epithelial renewal from limbal stem cells</div>",
+                  "text": "<div>Active endothelial pump maintaining stromal dehydration</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Limbal stem cell renewal maintains the surface epithelium but is independent of the endothelial cell count. Limbal stem cell deficiency causes a different set of problems, including persistent epithelial erosions and conjunctivalisation.</div>",
+                    "chosenFeedback": "<div>The endothelial pump removes water from the stroma to prevent oedema, which is the third transparency mechanism. It does not involve destructive interference of light.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Continuous renewal of the epithelium by limbal stem cells</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Limbal stem cells replenish the epithelium, maintaining its integrity. This is important for corneal health but is not one of the three transparency mechanisms described.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The cornea has three transparency mechanisms: avascularity, regular collagen spacing, and the endothelial pump. With an endothelial cell count of 480 cells/mm² — well below the critical threshold of approximately 500 — the pump has failed, allowing water to flood the stroma and cloud the cornea."
+                  "feedback": "The Maurice lattice of regularly spaced Type I collagen fibrils causes destructive interference, where scattered light waves cancel each other out. This is one of three corneal transparency mechanisms, alongside avascularity and the endothelial pump."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The endothelial pump is the critical mechanism lost here. Remember that endothelial cells do not regenerate — every intraocular surgery risks further cell loss, making preoperative cell counts by specular microscopy essential."
+                  "feedback": "Correct! The Maurice lattice — regularly spaced Type I collagen fibrils — produces destructive interference of scattered light, one of three mechanisms alongside avascularity and endothelial pump dehydration."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "fe33855c-8be7-406b-a6b6-b22490c758ef",
+            "subContentId": "5f9ed79f-9b5b-476c-a82c-bf83f9979847",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient's corneal endothelial cell cou",
+              "title": "Which mechanism maintains corneal transp",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 416.025,
-            "to": 426.025
+            "from": 304.25,
+            "to": 314.25
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A farmer presents 10 days after a paddy thorn injury. The corneal infiltrate is </p>",
+          "label": "<p>A child presents with bilateral corneal enlargement exceeding 13 mm. Which findi</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A farmer presents 10 days after a paddy thorn injury. The corneal infiltrate is dry and grey-white with feathery margins, satellite lesions, and an endothelial plaque is visible. Which treatment is most appropriate?</p>",
+              "question": "<p>A child presents with bilateral corneal enlargement exceeding 13 mm. Which finding confirms buphthalmos rather than megalocornea?</p>",
               "answers": [
                 {
-                  "text": "<div>Topical moxifloxacin hourly</div>",
+                  "text": "<div>Corneal diameter above 13 millimetres</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Fluoroquinolones treat bacterial keratitis, which presents with a dense, creamy-white infiltrate reaching maximum size within 24–48 hours. The subacute onset after vegetative trauma and feathery margins here point to a fungal, not bacterial, aetiology.</div>",
+                    "chosenFeedback": "<div>Both megalocornea and buphthalmos can have a corneal diameter above 13 mm. Diameter alone cannot distinguish the two conditions.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Natamycin 5% eye drops hourly</div>",
+                  "text": "<div>Bilateral symmetrical presentation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Both conditions can present bilaterally. Symmetry of enlargement does not favour one diagnosis over the other.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Elevated intraocular pressure with Haab's striae</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This is the classic presentation of fungal keratitis: subacute onset 5–14 days after vegetative trauma, dry grey-white infiltrate with feathery (hyphate) margins, satellite lesions, and an endothelial plaque. Natamycin 5% hourly is first-line treatment. Mistaking this for bacterial keratitis and prescribing antibiotics alone is the treatment mismatch that causes preventable corneal blindness in rural India.</div>",
+                    "chosenFeedback": "<div>Correct! Haab's striae are horizontal tears in Descemet's membrane caused by the globe stretching under raised intraocular pressure — pathognomonic of buphthalmos. Megalocornea has a clear cornea and normal pressure.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Topical aciclovir 3% ointment five times daily</div>",
+                  "text": "<div>Clear cornea with a normal anterior segment</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Aciclovir treats herpes simplex keratitis, which presents as a branching dendritic ulcer with terminal bulbs and reduced corneal sensation — a very different pattern from the dry infiltrate with satellite lesions seen here.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Polyhexamethylene biguanide 0.02% with chlorhexidine 0.02%</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>PHMB with chlorhexidine treats Acanthamoeba keratitis, which is associated with contact lens wear and tap water exposure and presents with disproportionate pain, a ring infiltrate, and radial keratoneuritis — not the post-vegetative-trauma pattern described.</div>",
+                    "chosenFeedback": "<div>A clear cornea with normal anterior segment favours megalocornea, the benign X-linked condition. Buphthalmos presents with a cloudy cornea and requires urgent surgical intervention.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "This presentation — vegetative trauma, subacute onset (5–14 days), dry grey-white infiltrate with feathery margins, satellite lesions, and endothelial plaque — is classic fungal keratitis. Natamycin 5% hourly is the correct first-line treatment. Fungal keratitis is the commonest type of corneal ulcer in rural India."
+                  "feedback": "Buphthalmos is distinguished from megalocornea by raised intraocular pressure, a cloudy cornea, and Haab's striae — horizontal tears in Descemet's membrane from globe stretching. Megalocornea has a clear cornea and normal pressure. Always measure IOP in a child with a large cornea."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The combination of vegetative trauma, subacute onset, feathery margins, and satellite lesions is the hallmark of fungal keratitis — the dominant type of corneal ulcer in rural India. Recognising this pattern prevents the devastating error of treating with antibiotics alone."
+                  "feedback": "Correct! Haab's striae with raised intraocular pressure confirm buphthalmos — congenital glaucoma requiring urgent goniotomy or trabeculotomy. Always measure eye pressure before calling any large cornea benign."
                 }
               ],
               "behaviour": {
@@ -261,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "245e6d06-85cb-40ae-95c1-8d4d443eb891",
+            "subContentId": "cd01928d-45bf-4075-9b5b-24a8488c274d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A farmer presents 10 days after a paddy",
+              "title": "A child presents with bilateral corneal",
               "authors": [],
               "changes": []
             }
@@ -281,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 628,
-            "to": 638
+            "from": 511.59999999999997,
+            "to": 521.5999999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Following a healed corneal ulcer, a patient has a white corneal scar visible in </p>",
+          "label": "<p>A patient has a Schirmer's test wetting of 14 mm but a tear film break-up time o</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Following a healed corneal ulcer, a patient has a white corneal scar visible in direct light. On slit-lamp examination, the iris pattern is still partially discernible through the opacity. Which grade of corneal opacity does this represent?</p>",
+              "question": "<p>A patient has a Schirmer's test wetting of 14 mm but a tear film break-up time of 6 seconds. Which type of dry eye does this indicate?</p>",
               "answers": [
                 {
-                  "text": "<div>Nebula</div>",
+                  "text": "<div>Aqueous-deficient dry eye from lacrimal gland failure</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A nebula is the faintest grade of corneal opacity, visible only on slit-lamp examination with the iris clearly seen through it. A white scar that is already visible in direct light is denser than a nebula.</div>",
+                    "chosenFeedback": "<div>Aqueous-deficient dry eye would show reduced Schirmer's wetting (below 10 mm). This patient's Schirmer's test is normal at 14 mm, indicating adequate lacrimal secretion.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Macula</div>",
+                  "text": "<div>Evaporative dry eye from meibomian gland dysfunction</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A macula is moderately dense, visible in direct light, with the iris pattern still discernible through it. It sits between the faint nebula (slit-lamp only, iris clear) and the opaque leukoma (solid white, iris hidden) in the grading scale.</div>",
+                    "chosenFeedback": "<div>Correct! Normal aqueous output (Schirmer's 14 mm) with a short break-up time (6 seconds, under 10) indicates an unstable tear film despite adequate volume — the hallmark of evaporative dry eye, most commonly from meibomian gland dysfunction.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Leukoma</div>",
+                  "text": "<div>Mucin-deficient dry eye from goblet cell destruction</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A leukoma is a solid white opacity through which the iris is completely hidden. Since the iris pattern is still partially visible in this case, the opacity has not reached leukoma grade.</div>",
+                    "chosenFeedback": "<div>While mucin deficiency can destabilise the tear film, the two-test classification distinguishes aqueous-deficient from evaporative dry eye. Normal Schirmer's with short TBUT specifically points to the evaporative type.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Adherent leukoma</div>",
+                  "text": "<div>Combined aqueous-deficient and evaporative dry eye</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>An adherent leukoma is a specific entity where the iris has physically adhered to the posterior surface of the corneal scar, typically after corneal perforation. It is defined by iris adhesion, not merely by partial visibility of the iris through the scar.</div>",
+                    "chosenFeedback": "<div>Combined dry eye would show both reduced Schirmer's wetting (below 10 mm) and a short break-up time. This patient's Schirmer's test is normal, ruling out aqueous deficiency.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Corneal opacities are graded by density: nebula (faint, slit-lamp only, iris clearly visible), macula (moderate, visible in direct light, iris discernible), and leukoma (solid white, iris completely hidden). A white scar visible in direct light with a partially discernible iris is a macula."
+                  "feedback": "Schirmer's test measures aqueous tear production (abnormal <10 mm), while tear film break-up time measures film stability (abnormal <10 seconds). Normal production + unstable film = evaporative dry eye, usually from meibomian gland dysfunction."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The three grades of corneal opacity — nebula, macula, leukoma — are distinguished by density and iris visibility. Post-infective corneal scarring is the second leading cause of avoidable monocular blindness in India."
+                  "feedback": "Correct! Normal Schirmer's (≥10 mm) with a short break-up time (<10 s) indicates evaporative dry eye — the tear film is unstable despite adequate aqueous volume. Meibomian gland dysfunction is the commonest cause overall."
                 }
               ],
               "behaviour": {
@@ -371,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "14b78bca-5014-4301-b58b-bfea56cab646",
+            "subContentId": "8f3d7290-88b9-4cef-8af2-3c1c07386de4",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Following a healed corneal ulcer, a pati",
+              "title": "A patient has a Schirmer's test wetting",
               "authors": [],
               "changes": []
             }
@@ -391,13 +391,13 @@
         },
         {
           "duration": {
-            "from": 797.85,
-            "to": 807.85
+            "from": 712.95,
+            "to": 722.95
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>While assessing a metallic corneal foreign body at the slit lamp, you apply fluo</p>",
+          "label": "<p>A patient with progressive keratoconus has an intact endothelium confirmed on sp</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>While assessing a metallic corneal foreign body at the slit lamp, you apply fluorescein under cobalt blue light and observe a green rivulet of fluid streaming from the wound. What is the most appropriate next step?</p>",
+              "question": "<p>A patient with progressive keratoconus has an intact endothelium confirmed on specular microscopy. Which keratoplasty is most appropriate?</p>",
               "answers": [
                 {
-                  "text": "<div>Remove the foreign body immediately with a 23-gauge needle</div>",
+                  "text": "<div>Penetrating keratoplasty</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A positive Seidel test confirms full-thickness corneal perforation with aqueous leaking from the anterior chamber. Attempting needle removal would risk expulsion of intraocular contents and worsen the injury.</div>",
+                    "chosenFeedback": "<div>Penetrating keratoplasty replaces all corneal layers and carries the highest rejection risk. It is the last resort, reserved for disease spanning all layers — not appropriate when the endothelium is healthy.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Instil proparacaine and schedule rust ring removal in 48 hours</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Rust ring removal is appropriate only for confirmed superficial foreign bodies where the Seidel test is negative. A perforated cornea requires urgent surgical intervention, not scheduled outpatient follow-up.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Shield the eye without applying pressure and refer for urgent surgical repair</div>",
+                  "text": "<div>Deep anterior lamellar keratoplasty (DALK)</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A positive Seidel test — a green rivulet of aqueous humour streaming from the wound under cobalt blue light — confirms corneal perforation. The correct action is to shield the eye (never a pressure patch, which could push intraocular contents out) and refer urgently for surgical repair.</div>",
+                    "chosenFeedback": "<div>Correct! DALK replaces only the anterior layers while preserving the patient's own healthy endothelium. This eliminates the risk of endothelial rejection and avoids the need for lifelong immunosuppression.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Prescribe topical antibiotics and arrange outpatient review in 48 hours</div>",
+                  "text": "<div>Descemet's stripping endothelial keratoplasty (DSEK)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A corneal perforation is a surgical emergency. Outpatient management with antibiotics alone risks endophthalmitis, iris prolapse, and permanent vision loss.</div>",
+                    "chosenFeedback": "<div>DSEK selectively replaces the endothelium. It is indicated for endothelial failure (e.g., Fuchs' dystrophy or pseudophakic bullous keratopathy), not for anterior stromal disease like keratoconus.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Descemet's membrane endothelial keratoplasty (DMEK)</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Like DSEK, DMEK targets the endothelium and Descemet's membrane. It is the procedure of choice for isolated endothelial disease, not for the anterior stromal thinning of keratoconus.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "A green rivulet of fluid under cobalt blue light is a positive Seidel test, confirming full-thickness corneal perforation. The only correct action is to shield the eye without pressure and refer immediately for urgent surgical repair."
+                  "feedback": "In keratoconus with an intact endothelium, DALK is preferred — it replaces only the anterior layers, sparing the patient's healthy endothelium. DSEK and DMEK target endothelial disease; penetrating keratoplasty is reserved for full-thickness involvement."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The Seidel test is the critical safety check before any corneal foreign body removal. A positive result — the green rivulet — means perforation. Shield and refer immediately; never attempt bedside removal of a perforating foreign body."
+                  "feedback": "Correct! DALK preserves the patient's own endothelium, eliminating endothelial rejection risk. The guiding principle: choose the keratoplasty type based on which layer is diseased."
                 }
               ],
               "behaviour": {
@@ -481,11 +481,69 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "24c43451-7bec-4070-8844-370a9ed03e6d",
+            "subContentId": "586be20c-3222-4318-b24c-37dda0d13ceb",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "While assessing a metallic corneal forei",
+              "title": "A patient with progressive keratoconus h",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 836.025,
+            "to": 846.025
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Topical steroids alone can safely be used to treat a dendritic corneal ulcer.</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>Topical steroids alone can safely be used to treat a dendritic corneal ulcer.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Steroids must never be used alone in active herpes simplex epithelial keratitis. Without antiviral cover (topical aciclovir), steroids suppress the immune response, allowing the virus to spread from a dendritic pattern to a geographic ulcer — a potentially blinding complication.",
+                "correctAnswerMessage": "Well reasoned! Topical steroids without antiviral cover in a dendritic ulcer (herpes simplex keratitis) suppress the local immune response, allowing unchecked viral replication. This converts the dendritic ulcer into a larger, more destructive geographic ulcer — the most dangerous error in corneal ulcer management.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "ca3ce292-647f-44ef-a6c6-743097a4b21a",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "Topical steroids alone can safely be use",
               "authors": [],
               "changes": []
             }
@@ -544,7 +602,7 @@
       ],
       "endscreens": [
         {
-          "time": 896,
+          "time": 895,
           "label": "End"
         }
       ]
@@ -556,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "76a643d4-67af-49a3-916d-f8ba3d6562df",
+              "subContentId": "4a13aef8-0e62-4da1-abf5-14f43072c740",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -579,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "f2c198fe-920d-45ce-a792-1436a96ad106",
+        "subContentId": "1cad3b9b-eabb-4ebc-b376-266a03b894ae",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
