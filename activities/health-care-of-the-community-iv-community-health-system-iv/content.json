@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/2cab26da-96b9-47c2-862d-566f546447c7/playlist.m3u8",
+          "path": "https://vdo.cbme.in/63f9b367-bed9-48ce-ad3a-53b1f2ff1c0e/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "CM17.1-6 | Health Care of the Community — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 3 embedded questions for CM17.1-CM17.6."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for CM17.1-CM17.6."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,71 @@
       "interactions": [
         {
           "duration": {
-            "from": 95.025,
-            "to": 105.025
+            "from": 169.35,
+            "to": 179.35
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which of the following best explains why treating individual patients alone cann</p>",
+          "label": "<p>In public health, a group can be called a 'community' only if its members live i</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>In public health, a group can be called a 'community' only if its members live in the same geographic area, such as a village or urban slum.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Not quite — geography is only one basis for a community. A factory workforce, a tribal cluster, or a school population also count as communities because they share health risks and can be reached through collective action, even without sharing a residence.",
+                "correctAnswerMessage": "Correct — a community is defined by any shared characteristic (geography, culture, occupation, or interest) combined with shared health risks and the ability to be reached through collective action. A factory workforce or a school population qualifies just as a village does.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "63417695-0e2f-47e4-9545-a7b8278208d2",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "In public health, a group can be called",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 345.84999999999997,
+            "to": 355.84999999999997
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A medical officer has identified three community health problems and wants to ob</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which of the following best explains why treating individual patients alone cannot address the disease burden of a community?</p>",
+              "question": "<p>A medical officer has identified three community health problems and wants to objectively compare them by scoring the magnitude of each problem, its severity, and the effectiveness of the available intervention, to decide which to tackle first. Which tool should she use?</p>",
               "answers": [
                 {
-                  "text": "<div>Individual treatments are always clinically ineffective against community-level diseases</div>",
+                  "text": "<div>PEARL criteria</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Individual treatments are effective for the patients treated. The limitation is one of scale — individual prescriptions cannot address the environmental, socioeconomic, and behavioural determinants that produce disease patterns across a population.</div>",
+                    "chosenFeedback": "<div>PEARL checks whether an intervention is feasible at all — propriety, economics, acceptability, resources, and legality — it does not produce a comparative numerical score.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Shared health risks require collective interventions that individual clinical care cannot scale to deliver</div>",
+                  "text": "<div>Hanlon's Basic Priority Rating System</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. When health risks like contaminated water, poor sanitation, or low vaccination uptake are shared across a community, collective interventions — not just individual prescriptions — are required to break the cycle of recurrent illness.</div>",
+                    "chosenFeedback": "<div>Correct — Hanlon's system multiplies magnitude, severity, and the effectiveness of the intervention to generate a score, allowing problems to be ranked against each other.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Community health problems only involve communicable diseases that cannot be treated individually</div>",
+                  "text": "<div>Kark and Cassel's COPC framework</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Community health encompasses both communicable and non-communicable diseases, as well as malnutrition, injuries, and maternal health. The issue is not the type of disease but the shared determinants that operate at the population level.</div>",
+                    "chosenFeedback": "<div>This framework describes the process of community-oriented primary care and diagnosis, not a scoring method for prioritising already-identified problems.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Primary health centre doctors lack the training to treat patients from the community</div>",
+                  "text": "<div>SWOT analysis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>PHC medical officers are trained for individual clinical care. The limitation is that even correct prescriptions cannot address root causes like contaminated water sources or low immunisation coverage that re-expose the entire community.</div>",
+                    "chosenFeedback": "<div>SWOT analysis is a general strategic-planning tool; it is not the epidemiological prioritisation method used in community health action planning.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the case of Dr Priya: her individual prescriptions were correct, yet the same families returned month after month. The root causes — contaminated water, poor sanitation, low vaccination — operate at the community level and require collective interventions."
+                  "feedback": "Remember: PEARL is a feasibility gate (yes/no on each criterion), while Hanlon's Basic Priority Rating System is the scoring formula used to rank problems against each other."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. Community health exists because shared determinants — environmental, social, economic — produce patterns of disease that no amount of individual treatment can interrupt without collective action."
+                  "feedback": "Right — Hanlon's formula (magnitude × severity × effectiveness) is the tool built specifically to rank competing community health problems."
                 }
               ],
               "behaviour": {
@@ -151,7 +209,117 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "49c1eaf9-e2e9-430d-8ecc-7aa1bb6d9e52",
+            "subContentId": "c48dd2bb-294b-4ba0-91f4-e3bb60334767",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A medical officer has identified three c",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 550.6,
+            "to": 560.6
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Which of the following best explains why India's primary health care system is d</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Which of the following best explains why India's primary health care system is described as a 'hybrid' model?</p>",
+              "answers": [
+                {
+                  "text": "<div>National vertical programmes like the TB Programme and RCH Programme function like Selective PHC, while the three-tier PHC infrastructure staffed by ASHAs, ANMs, and multipurpose workers delivers the broader comprehensive vision</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct — India runs high-impact vertical programmes alongside comprehensive PHC infrastructure, combining both approaches rather than choosing one.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>India abandoned comprehensive PHC entirely in favour of the GOBI-FFF strategy</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>India did not abandon comprehensive PHC — the three-tier Sub-Centre/PHC/CHC structure with ASHAs and ANMs continues to deliver the full comprehensive vision alongside vertical programmes.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It combines only public and private hospitals to widen access</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The public-private mix is not what the term 'hybrid' refers to here — it refers to combining Selective PHC-style vertical programmes with comprehensive PHC infrastructure.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It applies all eight comprehensive PHC elements through vertical programmes alone, without any general infrastructure</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This describes neither approach correctly — vertical programmes are selective in focus, and general infrastructure (Sub-Centres, PHCs, CHCs) is what carries the comprehensive elements.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The hybrid lies in combining two things: vertical programmes (TB, UIP, RCH) that behave like Selective PHC, and the general three-tier PHC infrastructure that delivers comprehensive care."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly — India layers Selective PHC-style vertical programmes on top of a comprehensive three-tier PHC infrastructure."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "71af16f0-ebb7-4e54-add8-839162d7db78",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -171,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 293.32500000000005,
-            "to": 303.32500000000005
+            "from": 669.7,
+            "to": 679.7
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>What was the primary criticism levelled against the selective PHC approach (GOBI</p>",
+          "label": "<p>A district reports 92% full immunisation coverage but has shown no improvement i</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>What was the primary criticism levelled against the selective PHC approach (GOBI-FFF) proposed by Walsh and Warren in 1979?</p>",
+              "question": "<p>A district reports 92% full immunisation coverage but has shown no improvement in its infant mortality rate over several years. What does this pattern most likely indicate?</p>",
               "answers": [
                 {
-                  "text": "<div>It included too many interventions for resource-constrained countries to implement</div>",
+                  "text": "<div>A coverage gap in immunisation services</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Selective PHC was specifically designed to narrow the focus to a few cost-effective interventions. The criticism was the opposite — that by narrowing focus, it abandoned the integrated vision of the Alma-Ata Declaration.</div>",
+                    "chosenFeedback": "<div>Coverage is already high at 92%, so a coverage gap is not the issue here — the process indicator is strong.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It was never endorsed by any international health organisation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>GOBI-FFF was actively supported and implemented by UNICEF and other agencies. The criticism was conceptual — about what the approach left out — not about its institutional backing.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It fragmented healthcare and ignored the social determinants that comprehensive PHC was designed to address</div>",
+                  "text": "<div>A quality problem in service delivery or unaddressed determinants such as nutrition and sanitation, despite good process performance</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Critics argued that cherry-picking a few vertical interventions abandoned the Alma-Ata vision of addressing health holistically — including the social, economic, and environmental determinants that produce disease.</div>",
+                    "chosenFeedback": "<div>Correct — strong process numbers alongside poor outcomes point to a quality problem in how services are delivered, or to other unaddressed determinants of child survival.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It focused exclusively on adult diseases and excluded maternal and child health interventions</div>",
+                  "text": "<div>Both indicators are measuring the same thing and are therefore redundant</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>GOBI-FFF was heavily oriented towards maternal and child health: Growth monitoring, ORS for diarrhoea, Breastfeeding, Immunisation, Female education, Food supplementation, and Family planning.</div>",
+                    "chosenFeedback": "<div>Process and outcome indicators measure different things — one measures system effort, the other measures results — so they are not redundant even when they diverge.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The district needs no further nutrition or sanitation interventions</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The opposite is more likely true: since immunisation effort alone has not moved the outcome, nutrition, sanitation, or care-quality gaps probably still need attention.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Recall the distinction: comprehensive PHC (Alma-Ata) addressed all 8 elements including social determinants, while selective PHC (GOBI-FFF) targeted a few high-impact interventions. Critics said this fragmentation missed the root causes of ill-health."
+                  "feedback": "Recall the rule: strong process numbers with poor outcomes point to a quality problem, while weak process numbers immediately flag a coverage gap."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Right. The comprehensive-vs-selective debate remains relevant: selective PHC achieves quick wins, but without addressing underlying social determinants, the gains may not be sustained."
+                  "feedback": "Right — when process indicators are strong but outcomes lag, the problem usually lies in the quality of care or in determinants beyond the single intervention being measured."
                 }
               ],
               "behaviour": {
@@ -261,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f0d9b1e8-3a74-4347-a4ca-971183bb7bf1",
+            "subContentId": "4da147cd-6abb-436b-b939-5cc5e7885e05",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "What was the primary criticism levelled",
+              "title": "A district reports 92% full immunisation",
               "authors": [],
               "changes": []
             }
@@ -281,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 474.75000000000006,
-            "to": 484.75000000000006
+            "from": 777.6,
+            "to": 787.6
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A tribal village is located 45 km from the nearest Community Health Centre acros</p>",
+          "label": "<p>Why is the ASHA referred to as a community health 'activist' rather than a medic</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A tribal village is located 45 km from the nearest Community Health Centre across unpaved terrain. Families in this village spend over 60% of their health expenditure out-of-pocket. How do these two barriers interact to compound healthcare inaccessibility?</p>",
+              "question": "<p>Why is the ASHA referred to as a community health 'activist' rather than a medical or clinical worker?</p>",
               "answers": [
                 {
-                  "text": "<div>They operate independently — resolving either geographic or financial barriers alone would restore adequate healthcare access</div>",
+                  "text": "<div>Because she completes an 18-month diploma in nursing and midwifery</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The narration describes these dimensions as 'interacting'. Geographic remoteness increases travel costs and delays, which directly amplify the financial burden — they are not independent problems.</div>",
+                    "chosenFeedback": "<div>This describes the ANM, who is a salaried clinical worker with an 18-month diploma — not the ASHA.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Geographic isolation increases travel costs and lost wages, which compound the financial burden of out-of-pocket payments, creating a barrier greater than either alone</div>",
+                  "text": "<div>Because her main role is generating community demand for health services through incentive-based tasks, not delivering clinical care</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. When families must travel 45 km on unpaved roads, the transport costs, lost wages, and time delay compound the direct out-of-pocket treatment expense. This interaction makes healthcare functionally inaccessible even when a facility technically exists.</div>",
+                    "chosenFeedback": "<div>Correct — the ASHA is unsalaried and works on incentives for tasks like institutional delivery referrals and ANC registration; her job is mobilising the community, while the ANM delivers the clinical care.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Financial barriers are the sole determinant — families willing to pay can always access healthcare regardless of distance</div>",
+                  "text": "<div>Because she manages vector control and environmental sanitation at the Sub-Centre</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Geographic distance affects access even for those who can afford treatment. Transport delays in obstetric emergencies, snakebites, or acute infections can be fatal regardless of the family's financial capacity.</div>",
+                    "chosenFeedback": "<div>This is the Male Health Worker's role, not the ASHA's — the ASHA's focus is household-level demand generation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>These barriers affect only curative services and do not impair access to preventive or promotive healthcare</div>",
+                  "text": "<div>Because she supervises the ANM at the Sub-Centre</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Geographic and financial barriers affect all components of healthcare — preventive services like immunisation, antenatal check-ups, and health education also require physical access to facilities or community health workers.</div>",
+                    "chosenFeedback": "<div>The reporting relationship runs the other way — the ASHA reports to the ANM and the PHC medical officer, and the ANM supervises the ASHAs in her area.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the three interacting dimensions from the narration: geographic inaccessibility (facility deficits, poor roads), financial inaccessibility (high out-of-pocket expenditure), and their compounding effect — each worsens the other, making healthcare functionally unreachable."
+                  "feedback": "Keep the roles distinct: the ASHA mobilises the household and earns incentives for specific tasks, the ANM delivers salaried clinical care from the Sub-Centre and supervises ASHAs, and the Male Health Worker handles environmental health."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Precisely. India's healthcare access problem is defined by the interaction of its dimensions — geographic, financial, and social — which multiply rather than merely add to each other."
+                  "feedback": "Exactly — the ASHA's incentive-based, community-mobilising role is what earns her the title 'activist' rather than 'health worker.'"
                 }
               ],
               "behaviour": {
@@ -371,11 +539,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "394d7ecc-28f4-4bbb-a9e4-25975cf81217",
+            "subContentId": "59cf2ff5-6691-492a-92fc-409c0ad3f9f6",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A tribal village is located 45 km from t",
+              "title": "Why is the ASHA referred to as a communi",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 885.075,
+            "to": 895.075
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A patient in a remote district skips the local Community Health Centre (CHC) and</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient in a remote district skips the local Community Health Centre (CHC) and instead travels 90 km to a district hospital, incurring heavy out-of-pocket expenses. Which combination of the three dimensions of healthcare inaccessibility best explains this behaviour?</p>",
+              "answers": [
+                {
+                  "text": "<div>Geographic inaccessibility alone — the CHC is simply too far away</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The patient is bypassing a nearby CHC, not lacking access to one — the driving factor here is not distance to the CHC itself.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Quality inaccessibility at the CHC (missing specialists) drives the patient to bypass it, which in turn produces financial inaccessibility from the resulting travel and out-of-pocket costs</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct — the 30% specialist shortfall at CHCs pushes patients to bypass them for district hospitals or private care, and that bypass is precisely what generates the catastrophic out-of-pocket costs described as India's biggest health financing failure.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Financial inaccessibility alone, since public facilities are always free of cost</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Public facilities are not the source of the cost here — the expense arises because the patient is bypassing the public CHC for a district hospital or private care due to a quality gap.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The three dimensions are independent of one another and this reflects personal preference only</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The three dimensions compound each other — a quality gap at one tier of the system pushes patients further afield, which then creates a financial burden. They do not act in isolation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Trace the chain: a quality shortfall (missing specialists at the CHC) causes patients to bypass the nearest facility, and that bypass is what creates the financial burden of travelling further for care."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Right — quality gaps (missing CHC specialists) and financial gaps (out-of-pocket bypass costs) are linked, not separate problems."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "73b2ec91-900d-49e8-9d41-182aea12725a",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A patient in a remote district skips the",
               "authors": [],
               "changes": []
             }
@@ -397,44 +675,44 @@
         },
         {
           "time": 3,
-          "label": "Dr Priya, a newly posted medical officer at a Primary Hea…"
+          "label": "Dr Priya is a newly posted medical officer at a Primary H…"
         },
         {
-          "time": 49,
-          "label": "The Burden of Poor Community Health — Why Populations, No…"
+          "time": 93,
+          "label": "A community, in the public health sense, is a group of pe…"
         },
         {
-          "time": 95,
-          "label": "Community Diagnosis — Concept, Objectives, and Methods Co…"
+          "time": 170,
+          "label": "Community diagnosis is the process of describing a commun…"
         },
         {
-          "time": 145,
-          "label": "Using Community Diagnosis to Plan Interventions Community…"
+          "time": 255,
+          "label": "Community diagnosis only matters if it leads to action."
         },
         {
-          "time": 193,
-          "label": "The Global Burden That Drove the Alma-Ata Declaration By…"
+          "time": 346,
+          "label": "By the late nineteen seventies, health experts noticed so…"
         },
         {
-          "time": 241,
-          "label": "Comprehensive vs Selective PHC and India's Adaptation Fol…"
+          "time": 440,
+          "label": "After the Alma-Ata Declaration, health planners faced a p…"
         },
         {
-          "time": 293,
-          "label": "Monitoring and Evaluating PHC Programmes — Indicators and…"
+          "time": 551,
+          "label": "PHC programmes are tracked using a set of standard health…"
         },
         {
-          "time": 366,
-          "label": "Community Health Workers — ASHA, ANM, and MPW India's com…"
+          "time": 670,
+          "label": "India's health system relies on three community health wo…"
         },
         {
-          "time": 422,
-          "label": "The Burden of Healthcare Inaccessibility — India's Covera…"
+          "time": 778,
+          "label": "India's healthcare access problem has three dimensions."
         }
       ],
       "endscreens": [
         {
-          "time": 516,
+          "time": 926,
           "label": "End"
         }
       ]
@@ -446,7 +724,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "aeb68802-83e3-4ebd-936c-b9edf43f0632",
+              "subContentId": "5bdb2d71-7030-4e84-896a-4c610865658b",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -469,7 +747,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "5e92e6fb-a70c-4c83-8eee-270d8182eda5",
+        "subContentId": "56d030b8-00f6-4646-a347-675835a58f1b",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
