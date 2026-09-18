@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/12840ecf-1b0f-4339-b7fe-f7b4d0b6df60/playlist.m3u8",
+          "path": "https://vdo.cbme.in/82c078ea-90cf-4f37-a786-980578041c28/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "IM27.1-18 | Tuberculosis — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 6 embedded questions for IM27.1-IM27.9."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for IM27.1-IM27.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 161.15,
-            "to": 171.15
+            "from": 161.65,
+            "to": 171.65
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the pathogenesis of pulmonary tuberculosis, how does Mycobacterium tuberculos</p>",
+          "label": "<p>Which immune mechanism primarily explains why 90–95 per cent of immunocompetent </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In the pathogenesis of pulmonary tuberculosis, how does Mycobacterium tuberculosis survive inside alveolar macrophages?</p>",
+              "question": "<p>Which immune mechanism primarily explains why 90–95 per cent of immunocompetent individuals exposed to Mycobacterium tuberculosis contain the infection without developing active disease?</p>",
               "answers": [
                 {
-                  "text": "<div>It produces exotoxins that lyse the macrophage membrane</div>",
+                  "text": "<div>Neutrophil-mediated intracellular killing of the bacilli within hours of inhalation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>M. tuberculosis does not produce exotoxins. Its intracellular survival depends on evading the macrophage's own killing machinery, not destroying the cell.</div>",
+                    "chosenFeedback": "<div>Neutrophils play a limited role in TB immunity. The primary defence is cell-mediated: CD4+ T cells drive a Th1 response and granuloma formation, not a neutrophilic response.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It blocks phagosome-lysosome fusion, preventing intracellular killing</div>",
+                  "text": "<div>Antibody-mediated neutralisation of mycolic acids in the bacterial cell wall</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Humoral immunity is not the principal defence against M. tuberculosis. Protection depends on cell-mediated immunity — specifically the Th1 response and granuloma formation, not on antibodies.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>CD4+ T-cell-driven granuloma formation that walls off the organism</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. M. tuberculosis prevents the phagosome from fusing with the lysosome, thereby avoiding exposure to the lysosomal enzymes that would normally destroy engulfed bacteria.</div>",
+                    "chosenFeedback": "<div>Correct. CD4+ T cells mount a Th1 response, releasing interferon-gamma that drives granuloma formation — a structured cluster of immune cells that contains the bacilli and prevents progression to active disease in 90–95% of cases.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It replicates faster than the macrophage can destroy it</div>",
+                  "text": "<div>Rapid phagosome–lysosome fusion that destroys the bacillus inside alveolar macrophages</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>M. tuberculosis has a slow doubling time of 18–24 hours. Its survival strategy is immune evasion, not rapid replication.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It secretes catalase that neutralises all reactive oxygen species</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While mycobacterial catalase-peroxidase contributes to defence, the primary survival mechanism described is blocking phagosome-lysosome fusion, not neutralising oxidative burst.</div>",
+                    "chosenFeedback": "<div>M. tuberculosis actively blocks phagosome–lysosome fusion, which is precisely how it survives inside macrophages. Containment depends on the subsequent Th1 granuloma response, not on lysosomal killing.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the four stages of TB pathogenesis. The key first step is that M. tuberculosis blocks phagosome-lysosome fusion inside the macrophage, allowing it to survive and replicate intracellularly."
+                  "feedback": "Review the four stages of TB pathogenesis. After macrophage engulfment, CD4+ T cells release interferon-gamma, driving granuloma formation. This cell-mediated containment — not antibodies or lysosomal killing — is why 90–95% of infections stay latent."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. This phagosome-lysosome fusion block is why the host relies on a Th1 cell-mediated response and granuloma formation to contain the infection rather than simple phagocytic killing."
+                  "feedback": "Exactly right. The Th1 granuloma response is the reason most TB infections remain latent. When this containment fails — as in HIV or malnutrition — the risk of progression to active disease rises sharply."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9ff6d3f5-1094-415c-82ff-1520cf0fb959",
+            "subContentId": "d3b56b98-6693-4b01-8991-c6d5351b5ff9",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In the pathogenesis of pulmonary tubercu",
+              "title": "Which immune mechanism primarily explain",
               "authors": [],
               "changes": []
             }
@@ -171,71 +171,13 @@
         },
         {
           "duration": {
-            "from": 311.05,
-            "to": 321.05
+            "from": 365.54999999999995,
+            "to": 375.54999999999995
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>According to NTEP guidelines, a systematic tuberculosis evaluation should be tri</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>According to NTEP guidelines, a systematic tuberculosis evaluation should be triggered only when all four screening symptoms — cough, fever, night sweats, and weight loss — are present together for at least two weeks.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. The narration clearly states that any one of the four symptoms — cough, fever, night sweats, or weight loss — lasting two weeks opens a systematic tuberculosis evaluation. Requiring all four would miss early or atypical presentations.",
-                "correctAnswerMessage": "Correct — this statement is false. The NTEP four-symptom screen triggers evaluation when any single symptom persists for two weeks or more, not when all four are present together. This low threshold is deliberate in a high-burden setting to maximise case detection.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "bccf4708-b42a-4afd-bc44-00f7bf6f48f3",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "According to NTEP guidelines, a systemat",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 425.90000000000003,
-            "to": 435.90000000000003
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>When constructing a differential diagnosis for an adult in India with cough exce</p>",
+          "label": "<p>During chest examination of a patient with suspected pulmonary tuberculosis, whi</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>When constructing a differential diagnosis for an adult in India with cough exceeding two weeks, fever, and weight loss, why does pulmonary tuberculosis rank above community-acquired pneumonia?</p>",
+              "question": "<p>During chest examination of a patient with suspected pulmonary tuberculosis, which auscultatory finding is most commonly missed if the examiner does not ask the patient to cough before listening again over the upper zones?</p>",
               "answers": [
                 {
-                  "text": "<div>Tuberculosis is always more rapidly fatal than pneumonia if missed</div>",
+                  "text": "<div>Bronchial breathing replacing vesicular breath sounds</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While delayed TB diagnosis has serious consequences, the ranking is driven by disease prevalence and pre-test probability in the population, not by comparative mortality.</div>",
+                    "chosenFeedback": "<div>Bronchial breathing over a consolidated area is audible on routine auscultation and does not require the cough manoeuvre to elicit.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The pre-test probability of tuberculosis is higher given India's disease prevalence</div>",
+                  "text": "<div>Post-tussive crepitations indicating cavitation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. India accounts for 26% of the global TB burden. In a high-prevalence setting, a patient presenting with the classic symptom triad has a high pre-test probability for TB, placing it at the top of the differential until evidence shifts.</div>",
+                    "chosenFeedback": "<div>Correct. Post-tussive crepitations appear or intensify only after the patient coughs twice. They are highly specific for cavitation and are absent at rest, making them the most commonly missed sign when this manoeuvre is not performed.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Community-acquired pneumonia never causes weight loss</div>",
+                  "text": "<div>Pleural rub over the lower zones</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Prolonged or severe pneumonia can cause weight loss. The ranking is based on relative probability in the population, not on symptom exclusivity.</div>",
+                    "chosenFeedback": "<div>A pleural rub is heard during normal respiration and does not depend on coughing. It also localises to the lower zones, whereas post-primary TB typically affects the upper lobes.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Tuberculosis always produces haemoptysis, which differentiates it from pneumonia</div>",
+                  "text": "<div>Reduced vocal resonance at the lung bases</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Haemoptysis occurs in some but not all TB cases. The differential hierarchy is built on prevalence-driven probability, not on any single pathognomonic sign.</div>",
+                    "chosenFeedback": "<div>Reduced vocal resonance suggests pleural effusion and is elicited by standard auscultation, not by the cough manoeuvre. Post-primary TB favours the upper lobes, not the bases.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The narration describes differential diagnosis as a ranked probability distribution. In India, the sheer prevalence of TB — 2.8 million cases annually — makes its pre-test probability the highest for this symptom pattern, placing it above other causes."
+                  "feedback": "The key sign is post-tussive crepitations — absent at rest, they only appear after the patient coughs. This is precisely why they are missed when the examiner does not perform the manoeuvre."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well reasoned. A differential diagnosis is a ranked probability distribution shaped by local disease prevalence. In India's high-burden setting, TB leads the hierarchy for this symptom pattern until investigations prove otherwise."
+                  "feedback": "Well done. Always ask the patient to cough twice, then immediately re-auscultate the upper zones. Crepitations that appear after coughing are highly specific for underlying cavitation."
                 }
               ],
               "behaviour": {
@@ -319,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "3412bf8e-c4e1-411b-8bf9-485dbcecb903",
+            "subContentId": "55113feb-e60c-4f6a-af51-5707342a48b5",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "When constructing a differential diagnos",
+              "title": "During chest examination of a patient wi",
               "authors": [],
               "changes": []
             }
@@ -339,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 546.325,
-            "to": 556.325
+            "from": 546.3,
+            "to": 556.3
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A healthcare worker with no known immunosuppression has a Mantoux test showing 1</p>",
+          "label": "<p>A healthcare worker with no immunosuppression has a Mantoux test read at 72 hour</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A healthcare worker with no known immunosuppression has a Mantoux test showing 12 mm of induration. How should this result be interpreted?</p>",
+              "question": "<p>A healthcare worker with no immunosuppression has a Mantoux test read at 72 hours. The injection site shows 14 mm of redness and 8 mm of firm, raised induration. What is the correct interpretation?</p>",
               "answers": [
                 {
-                  "text": "<div>Negative — the threshold for healthcare workers is 15 mm</div>",
+                  "text": "<div>Positive — the 14 mm erythema exceeds the 10 mm threshold for healthcare workers</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The 15 mm threshold applies to low-risk individuals with no occupational exposure. Healthcare workers fall into a higher risk category with a lower threshold.</div>",
+                    "chosenFeedback": "<div>Erythema (redness) is never measured in a Mantoux test. Only the firm, raised induration is measured. Using erythema leads to false-positive readings.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Positive — healthcare workers are a high-risk group with a 10 mm threshold</div>",
+                  "text": "<div>Positive — 8 mm of induration exceeds the 5 mm cut-off that applies to all individuals in India</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The 5 mm threshold applies only to HIV-positive or immunosuppressed patients. For healthcare workers, who are a high-risk group in India, the threshold is 10 mm.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Negative — only induration is measured, and 8 mm is below the 10 mm threshold for high-risk groups</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In India, healthcare workers and close contacts are classified as high-risk groups. Their threshold for a positive Mantoux is 10 mm of induration, so 12 mm is clearly positive.</div>",
+                    "chosenFeedback": "<div>Correct. Only induration — the firm, palpable area — is measured, not surrounding redness. Healthcare workers fall in the high-risk category with a 10 mm threshold. Since 8 mm is below this, the result is negative.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Inconclusive — the test must be repeated after two weeks</div>",
+                  "text": "<div>Inconclusive — a repeat test is needed because prior BCG vaccination invalidates the result</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Mantoux results are read once at 48–72 hours. A 12 mm induration in a healthcare worker exceeds the 10 mm threshold and is definitively positive.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>False positive — almost certainly due to prior BCG vaccination</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While BCG can cause false positives, an induration of 12 mm in a healthcare worker exceeds the 10 mm threshold and should be considered positive. BCG-related reactions typically wane with time and are usually smaller.</div>",
+                    "chosenFeedback": "<div>BCG vaccination is a recognised source of false positives but does not invalidate the test. The result is still interpreted using standard risk-based thresholds; BCG status is considered when weighing clinical significance.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the three Mantoux thresholds: 5 mm (HIV-positive or immunosuppressed), 10 mm (high-risk groups — healthcare workers, close contacts), and 15 mm (low-risk individuals). A healthcare worker at 12 mm exceeds the 10 mm cutoff."
+                  "feedback": "Remember: only the firm, raised induration is measured — never the surrounding redness. For healthcare workers (a high-risk group in India), the positive threshold is 10 mm. This patient's 8 mm induration is therefore a negative result."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. The Mantoux test uses stratified thresholds: 5 mm for immunosuppressed patients, 10 mm for high-risk groups including healthcare workers, and 15 mm for low-risk individuals. Always match the threshold to the patient's risk category."
+                  "feedback": "Exactly right. Two key rules: measure the induration, not the redness; and apply the correct threshold for the patient's risk category — 5 mm for immunosuppressed, 10 mm for high-risk groups including healthcare workers, and 15 mm for low-risk individuals."
                 }
               ],
               "behaviour": {
@@ -429,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "c1ea8773-7014-4d64-8e92-eb6576959b0c",
+            "subContentId": "349025be-d071-4bcd-8911-5f5b512d99bb",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A healthcare worker with no known immuno",
+              "title": "A healthcare worker with no immunosuppre",
               "authors": [],
               "changes": []
             }
@@ -449,13 +391,13 @@
         },
         {
           "duration": {
-            "from": 696.4000000000001,
-            "to": 706.4000000000001
+            "from": 696.375,
+            "to": 706.375
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Before starting rifampicin in a patient already taking warfarin, which pharmacol</p>",
+          "label": "<p>A 40-year-old woman with newly diagnosed drug-sensitive pulmonary tuberculosis i</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Before starting rifampicin in a patient already taking warfarin, which pharmacological property of rifampicin necessitates dose adjustment of the co-medication?</p>",
+              "question": "<p>A 40-year-old woman with newly diagnosed drug-sensitive pulmonary tuberculosis is also taking warfarin for a prosthetic heart valve. Which first-line anti-tubercular drug most urgently requires review of her anticoagulation dose?</p>",
               "answers": [
                 {
-                  "text": "<div>Inhibition of mycolic acid synthesis in the bacterial cell wall</div>",
+                  "text": "<div>Isoniazid, because it inhibits mycolic acid synthesis and alters hepatic drug metabolism</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Mycolic acid synthesis inhibition is the mechanism of isoniazid, not rifampicin. Rifampicin targets bacterial RNA polymerase.</div>",
+                    "chosenFeedback": "<div>Isoniazid inhibits mycolic acid synthesis — a pathway unique to mycobacteria. While it can cause hepatotoxicity, it is not a potent CYP450 inducer and does not significantly lower warfarin levels.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Potent induction of cytochrome P450 enzymes, increasing warfarin metabolism</div>",
+                  "text": "<div>Rifampicin, because it powerfully induces cytochrome P450 enzymes and lowers warfarin levels</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Rifampicin is one of the most powerful CYP450 inducers known. It accelerates the hepatic metabolism of warfarin, oral contraceptives, and antiretroviral drugs, requiring dose adjustments to maintain therapeutic levels.</div>",
+                    "chosenFeedback": "<div>Correct. Rifampicin is one of the most potent CYP450 inducers known. It accelerates the metabolism of warfarin, oral contraceptives, and antiretroviral drugs, requiring immediate dose adjustment of all co-medications.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Competitive binding to plasma albumin, displacing warfarin</div>",
+                  "text": "<div>Pyrazinamide, because it competes with warfarin for hepatic clearance</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While protein-binding displacement can affect some drugs, rifampicin's clinically significant interaction with warfarin is through CYP450 enzyme induction, which increases warfarin's metabolism.</div>",
+                    "chosenFeedback": "<div>Pyrazinamide's main risk is hepatotoxicity, not enzyme induction. It works inside the acidic environment of macrophages and does not significantly alter the metabolism of warfarin.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Direct inhibition of vitamin K absorption from the gut</div>",
+                  "text": "<div>Ethambutol, because it impairs hepatic function and alters drug clearance</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Rifampicin does not directly inhibit vitamin K absorption. Its interaction with warfarin is mediated by potent hepatic enzyme induction that accelerates warfarin clearance.</div>",
+                    "chosenFeedback": "<div>Ethambutol inhibits arabinosyl transferase in the mycobacterial cell wall. Its critical adverse effect is optic neuritis, not hepatic enzyme induction. It does not significantly affect warfarin metabolism.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Rifampicin powerfully induces cytochrome P450 enzymes in the liver, increasing the metabolism of many co-administered drugs. The narration specifically flags that warfarin, oral contraceptives, and antiretrovirals are all affected — always screen co-medications."
+                  "feedback": "Rifampicin powerfully induces cytochrome P450 enzymes, accelerating the metabolism of many drugs including warfarin. Failing to adjust the warfarin dose risks sub-therapeutic anticoagulation and thromboembolic complications."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well applied. Rifampicin's CYP450 induction is clinically critical — always screen all co-medications before starting it. Oral contraceptives, warfarin, and antiretrovirals all require dose adjustments or alternative strategies."
+                  "feedback": "Well done. Always screen all co-medications before starting rifampicin. Its potent CYP450 induction lowers levels of warfarin, oral contraceptives, and antiretroviral drugs — each requiring dose adjustment."
                 }
               ],
               "behaviour": {
@@ -539,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9166152e-77f1-4e18-92cb-a23ce97b99da",
+            "subContentId": "ef54a7cd-f9ff-4613-a6a1-c63d9d566ae7",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Before starting rifampicin in a patient",
+              "title": "A 40-year-old woman with newly diagnosed",
               "authors": [],
               "changes": []
             }
@@ -559,8 +501,8 @@
         },
         {
           "duration": {
-            "from": 867.0500000000001,
-            "to": 877.0500000000001
+            "from": 867.025,
+            "to": 877.025
           },
           "pause": true,
           "displayType": "poster",
@@ -574,14 +516,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient's drug sensitivity report shows resistance to isoniazid, rifampicin, and levofloxacin. How is this resistance pattern classified?</p>",
+              "question": "<p>A patient's drug sensitivity report shows resistance to isoniazid, rifampicin, and levofloxacin. How is this pattern of resistance classified under current definitions?</p>",
               "answers": [
                 {
                   "text": "<div>Multidrug-resistant tuberculosis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>MDR-TB is defined as resistance to at least isoniazid and rifampicin. This patient's resistance extends beyond that — levofloxacin is a fluoroquinolone, and adding fluoroquinolone resistance moves the classification further along the spectrum.</div>",
+                    "chosenFeedback": "<div>MDR-TB is defined as resistance to at least isoniazid and rifampicin. This patient has additional fluoroquinolone (levofloxacin) resistance, which pushes the classification beyond MDR into pre-XDR.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -590,7 +532,7 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. MDR-TB (isoniazid + rifampicin resistance) plus fluoroquinolone resistance (levofloxacin) meets the definition of Pre-XDR-TB. XDR-TB would require additional resistance to bedaquiline or linezolid.</div>",
+                    "chosenFeedback": "<div>Correct. Pre-XDR TB is MDR-TB (resistance to isoniazid and rifampicin) with additional resistance to any fluoroquinolone. Levofloxacin is a fluoroquinolone, so this pattern meets the pre-XDR definition exactly.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -599,16 +541,16 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>XDR-TB requires Pre-XDR-TB plus resistance to bedaquiline or linezolid. This pattern lacks that additional resistance, so it remains Pre-XDR-TB.</div>",
+                    "chosenFeedback": "<div>XDR-TB requires pre-XDR TB plus additional resistance to bedaquiline or linezolid. This patient's report does not show resistance to either agent, so the classification remains pre-XDR, not XDR.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Isoniazid mono-resistant tuberculosis</div>",
+                  "text": "<div>Monoresistant tuberculosis with additional acquired resistance</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Mono-resistance refers to resistance to a single first-line drug. This patient has resistance to three drugs spanning two drug classes, which is far beyond mono-resistance.</div>",
+                    "chosenFeedback": "<div>Monoresistance refers to resistance to only a single first-line drug. This patient is resistant to three drugs including both isoniazid and rifampicin, which by definition is at least MDR-TB.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -617,12 +559,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the resistance spectrum: MDR-TB = resistance to at least isoniazid and rifampicin. Pre-XDR-TB = MDR plus fluoroquinolone resistance. XDR-TB = Pre-XDR plus resistance to bedaquiline or linezolid. This patient's pattern (INH + RIF + levofloxacin) fits Pre-XDR-TB."
+                  "feedback": "Review the resistance definitions stepwise: MDR = resistance to at least isoniazid and rifampicin. Pre-XDR = MDR plus fluoroquinolone resistance. XDR = Pre-XDR plus resistance to bedaquiline or linezolid. This patient (INH + RIF + levofloxacin) fits pre-XDR."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Precisely classified. The resistance spectrum runs MDR (isoniazid + rifampicin) → Pre-XDR (MDR + fluoroquinolone) → XDR (Pre-XDR + bedaquiline or linezolid). Accurate classification determines the treatment regimen and the need for NTEP specialist referral."
+                  "feedback": "Exactly right. The resistance spectrum runs MDR (isoniazid + rifampicin) → Pre-XDR (adds fluoroquinolone) → XDR (adds bedaquiline or linezolid). Recognising the correct category determines the regimen and the need for specialist referral."
                 }
               ],
               "behaviour": {
@@ -649,7 +591,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "63deab8f-2eb9-48f6-98d3-3fb6f80885dd",
+            "subContentId": "b185528f-7348-4d67-a4c9-dee090f0253f",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -678,7 +620,7 @@
           "label": "Ramesh is a 32-year-old construction worker from Bihar."
         },
         {
-          "time": 72,
+          "time": 73,
           "label": "Mycobacterium tuberculosis is a rod-shaped, acid-fast bac…"
         },
         {
@@ -686,7 +628,7 @@
           "label": "Three linked factors modify tuberculosis's natural history."
         },
         {
-          "time": 245,
+          "time": 246,
           "label": "Meet Sunita, a 28-year-old schoolteacher."
         },
         {
@@ -698,7 +640,7 @@
           "label": "A differential diagnosis is a ranked probability distribu…"
         },
         {
-          "time": 427,
+          "time": 426,
           "label": "Imagine a sputum smear report: one-plus acid-fast bacilli."
         },
         {
@@ -740,7 +682,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "1bb8feaa-7e1b-4c30-a128-08cf7b3caa68",
+              "subContentId": "74fd3468-86a1-41a8-beec-a983966e4360",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -763,7 +705,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "525d3620-a88a-4e18-bb59-6d57894c8c17",
+        "subContentId": "9761b25a-6bf9-4c8a-97b9-bed1f384ba91",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
