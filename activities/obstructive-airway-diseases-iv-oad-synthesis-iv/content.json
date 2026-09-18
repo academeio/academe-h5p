@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/8fc09d23-326e-44bf-9e5e-e02e1ccc247c/playlist.m3u8",
+          "path": "https://vdo.cbme.in/899abd19-0979-4179-a816-3d2bc0592d26/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "IM28.1-26 | Obstructive Airway Diseases — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for IM28.1-IM28.9."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for IM28.1-IM28.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,123 @@
       "interactions": [
         {
           "duration": {
-            "from": 166.89999999999998,
-            "to": 176.89999999999998
+            "from": 166.225,
+            "to": 176.225
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A post-bronchodilator FEV1/FVC ratio below 0.70 can overcall COPD in elderly pat</p>",
+          "label": "<p>Which feature on spirometry best distinguishes asthma from COPD?</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Which feature on spirometry best distinguishes asthma from COPD?</p>",
+              "answers": [
+                {
+                  "text": "<div>Asthma produces a restrictive pattern while COPD produces an obstructive pattern</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Both asthma and COPD are obstructive diseases with a reduced FEV1/FVC ratio; neither produces a restrictive pattern.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Asthma shows significant reversibility after bronchodilator, while COPD shows persistent obstruction that is not fully reversible</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Asthma is defined by variable and reversible obstruction (≥12% and ≥200 mL FEV1 improvement after bronchodilator), while COPD has persistent, not fully reversible obstruction — this is the fundamental classification distinction.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>COPD reduces FVC but spares FEV1, whereas asthma reduces both</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. In both conditions, FEV1 falls disproportionately to FVC, which is why the FEV1/FVC ratio decreases below 0.70.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The FEV1/FVC ratio is reduced only in COPD but remains normal throughout in asthma</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. During active obstruction the FEV1/FVC ratio is reduced in both diseases; in asthma the ratio may normalise between attacks, but it is not permanently normal.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Both asthma and COPD are obstructive conditions with a reduced FEV1/FVC ratio. The key distinction is that asthma demonstrates significant bronchodilator reversibility (≥12% and ≥200 mL FEV1 rise), while COPD does not fully reverse."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly. The hallmark of asthma is reversible obstruction confirmed by bronchodilator response, while COPD shows persistent airflow limitation — this reversibility contrast is the basis for classifying obstructive airway diseases."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "a37b89a8-9ccc-4ff1-89e3-4b8e986247b5",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Which feature on spirometry best disting",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 294.725,
+            "to": 304.725
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In patients with chronic CO₂ retention, the stimulus to breathe comes from eleva</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,8 +186,8 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A post-bronchodilator FEV1/FVC ratio below 0.70 can overcall COPD in elderly patients because the ratio naturally declines with age.</p>",
-              "correct": "true",
+              "question": "<p>In patients with chronic CO₂ retention, the stimulus to breathe comes from elevated carbon dioxide levels detected by central chemoreceptors.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
@@ -94,16 +204,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is true. The FEV1/FVC ratio declines naturally with age, so the fixed 0.70 cut-off can overdiagnose COPD in elderly patients. Age-adjusted lower limits of normal are more reliable in this group — an important limitation to remember when interpreting spirometry.",
-                "correctAnswerMessage": "Correct. The FEV1/FVC ratio falls physiologically with ageing, so the fixed GOLD threshold of 0.70 can misclassify healthy elderly individuals as having COPD. The lower limit of normal adjusted for age, sex, and height is more accurate in older patients.",
+                "wrongAnswerMessage": "Not quite. In chronic CO₂ retention, the central chemoreceptors become desensitised to persistently elevated CO₂. The ventilatory drive shifts to the hypoxic stimulus detected by the carotid bodies in the neck — this is why the safe oxygen target in known retainers is 88–92%, not higher.",
+                "correctAnswerMessage": "Well done. In chronic CO₂ retainers, the central chemoreceptors have adapted to persistently high CO₂ levels and no longer drive ventilation effectively. The remaining stimulus comes from low oxygen sensed by the peripheral carotid bodies — which is precisely why uncontrolled high-flow oxygen can suppress their breathing and worsen CO₂ retention.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "428a2360-8ee3-440d-84a6-3db6b52e539c",
+            "subContentId": "4bf3c741-01a9-4919-9004-0c6d7bdbc9e1",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "A post-bronchodilator FEV1/FVC ratio bel",
+              "title": "In patients with chronic CO₂ retention,",
               "authors": [],
               "changes": []
             }
@@ -119,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 422.32499999999993,
-            "to": 432.32499999999993
+            "from": 421.65,
+            "to": 431.65
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 55-year-old man presents with breathlessness that has worsened over three year</p>",
+          "label": "<p>A 62-year-old woman presents with worsening breathlessness over three years, dai</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 55-year-old man presents with breathlessness that has worsened over three years, daily grey sputum, and a 30-pack-year smoking history. Which historical pattern best distinguishes this as COPD rather than asthma?</p>",
+              "question": "<p>A 62-year-old woman presents with worsening breathlessness over three years, daily grey sputum production, and a history of cooking over a biomass stove for 30 years. Her symptoms never fully resolve. Which pattern in the history most strongly suggests COPD rather than asthma?</p>",
               "answers": [
                 {
-                  "text": "<div>Breathlessness that is worse at night and improves by morning</div>",
+                  "text": "<div>Episodic symptoms with complete resolution between attacks</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Nocturnal worsening with morning improvement is characteristic of asthma, where airway tone fluctuates with circadian rhythm — not of COPD's relentless course.</div>",
+                    "chosenFeedback": "<div>Incorrect. Episodic symptoms with full recovery between attacks is the hallmark of asthma's variable and reversible obstruction, not COPD.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Complete resolution of symptoms between episodes with identifiable triggers</div>",
+                  "text": "<div>Nocturnal wheeze triggered by dust, cold air, and exercise</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Full inter-episode recovery with clear triggers such as dust, cold air, or exercise is the hallmark of asthma's episodic, reversible nature.</div>",
+                    "chosenFeedback": "<div>Incorrect. Nocturnal symptoms with identifiable environmental triggers such as dust and cold air are characteristic of asthma, not the progressive decline of COPD.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Progressive dyspnoea that never fully clears, with chronic sputum production</div>",
+                  "text": "<div>Progressive breathlessness with persistent symptoms that never fully clear</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. COPD is defined by relentless progression — breathlessness that never fully remits, chronic daily sputum, and a background of tobacco or biomass exposure. This irreversible, worsening pattern is the key historical distinction from asthma.</div>",
+                    "chosenFeedback": "<div>Correct. COPD presents with relentless progression — breathlessness worsens steadily over years, daily sputum production persists, and symptoms never fully resolve, in contrast to asthma's episodic pattern with symptom-free intervals.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Seasonal variation in wheeze with a family history of eczema and allergic rhinitis</div>",
+                  "text": "<div>Seasonal variation in symptoms with completely symptom-free months</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Seasonal variability and an atopic background (eczema, rhinitis, family history of allergy) strongly favour asthma, not COPD.</div>",
+                    "chosenFeedback": "<div>Incorrect. Seasonal variation with symptom-free intervals suggests allergic asthma with environmental triggers, not the progressive and persistent course of COPD.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key is that COPD never fully remits. Progressive breathlessness that worsens year on year, with daily sputum and a smoking or biomass history, is the hallmark — unlike asthma, where symptoms clear completely between episodes."
+                  "feedback": "COPD is distinguished from asthma in the history by its relentless progression: breathlessness worsens steadily, daily sputum persists, and symptoms never fully resolve — unlike asthma, where episodes clear completely between attacks."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The contrast between asthma's episodic reversibility and COPD's relentless progression is the single most important distinction on history."
+                  "feedback": "Exactly. The key history contrast is reversibility versus relentless progression — COPD symptoms never fully clear and worsen year on year, while asthma characteristically has symptom-free intervals between attacks."
                 }
               ],
               "behaviour": {
@@ -209,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "c2a32e8c-32ae-4bf6-9b83-46998be1ff63",
+            "subContentId": "fa6c40e7-9b59-4347-bbea-65fd9f3e6edf",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 55-year-old man presents with breathle",
+              "title": "A 62-year-old woman presents with worsen",
               "authors": [],
               "changes": []
             }
@@ -229,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 586.7249999999999,
-            "to": 596.7249999999999
+            "from": 586.05,
+            "to": 596.05
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 58-year-old smoker has a post-bronchodilator FEV1/FVC ratio of 0.62 and an FEV</p>",
+          "label": "<p>A 48-year-old smoker has post-bronchodilator spirometry showing FEV1 at 45% of p</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,14 +354,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 58-year-old smoker has a post-bronchodilator FEV1/FVC ratio of 0.62 and an FEV1 of 45% of predicted. What is the GOLD stage of his COPD?</p>",
+              "question": "<p>A 48-year-old smoker has post-bronchodilator spirometry showing FEV1 at 45% of predicted and an FEV1/FVC ratio of 0.62. What is the GOLD severity stage?</p>",
               "answers": [
                 {
                   "text": "<div>GOLD 1 — mild</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>GOLD 1 requires FEV1 ≥80% of predicted. This patient's FEV1 of 45% is far below that threshold.</div>",
+                    "chosenFeedback": "<div>Incorrect. GOLD 1 (mild) requires FEV1 ≥80% of predicted. This patient's FEV1 of 45% is far below that threshold.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -260,7 +370,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>GOLD 2 applies when FEV1 is 50–79% of predicted. At 45%, this patient falls just below the GOLD 2 range.</div>",
+                    "chosenFeedback": "<div>Incorrect. GOLD 2 (moderate) applies when FEV1 is 50–79% of predicted. At 45%, this patient falls just below the GOLD 2 range.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -269,7 +379,7 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. GOLD 3 (severe) applies when FEV1 is 30–49% of predicted. This patient's FEV1 of 45% places him squarely in GOLD stage 3, confirming severe airflow limitation.</div>",
+                    "chosenFeedback": "<div>Correct. GOLD 3 (severe) is defined by FEV1 between 30% and 49% of predicted. With FEV1 at 45% and a post-bronchodilator ratio of 0.62 confirming obstruction, this patient has severe COPD.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -278,7 +388,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>GOLD 4 requires FEV1 below 30% of predicted. This patient's 45% is well above that cut-off.</div>",
+                    "chosenFeedback": "<div>Incorrect. GOLD 4 (very severe) applies when FEV1 is below 30% of predicted. This patient's FEV1 of 45% places them in GOLD 3, not GOLD 4.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: GOLD staging uses FEV1 percentage of predicted after confirming obstruction. The thresholds are ≥80% (stage 1), 50–79% (stage 2), 30–49% (stage 3), and <30% (stage 4). At 45%, this patient is GOLD 3 — severe."
+                  "feedback": "GOLD stages use FEV1 as a percentage of predicted after confirming obstruction (FEV1/FVC <0.70): ≥80% = GOLD 1 (mild), 50–79% = GOLD 2 (moderate), 30–49% = GOLD 3 (severe), <30% = GOLD 4 (very severe). This patient's 45% falls in GOLD 3."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Once obstruction is confirmed (post-bronchodilator FEV1/FVC <0.70), GOLD severity is staged by FEV1 as a percentage of predicted: ≥80 is stage 1, 50–79 is stage 2, 30–49 is stage 3, and <30 is stage 4."
+                  "feedback": "Correct. GOLD severity uses FEV1 as a percentage of predicted: ≥80% is GOLD 1, 50–79% is GOLD 2, 30–49% is GOLD 3, and below 30% is GOLD 4 — memorise these thresholds for clinical practice."
                 }
               ],
               "behaviour": {
@@ -319,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "0d916a45-1db3-4117-9a74-70c86d383e9d",
+            "subContentId": "54588424-d99d-4a1e-b590-1a2039d23bae",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 58-year-old smoker has a post-bronchod",
+              "title": "A 48-year-old smoker has post-bronchodil",
               "authors": [],
               "changes": []
             }
@@ -339,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 709.8999999999999,
-            "to": 719.8999999999999
+            "from": 709.8249999999999,
+            "to": 719.8249999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>According to the 2023 GINA guidelines, what is the recommended reliever for a ne</p>",
+          "label": "<p>Under the 2023 GINA guidelines, what is the recommended reliever therapy from St</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>According to the 2023 GINA guidelines, what is the recommended reliever for a newly diagnosed asthmatic at Step 1?</p>",
+              "question": "<p>Under the 2023 GINA guidelines, what is the recommended reliever therapy from Step 1 of asthma management?</p>",
               "answers": [
                 {
-                  "text": "<div>Salbutamol alone via metered-dose inhaler as needed</div>",
+                  "text": "<div>Salbutamol alone, used as needed</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The 2023 GINA guidelines specifically removed SABA-only as a recommended option at any step, because it relieves bronchospasm without addressing underlying airway inflammation.</div>",
+                    "chosenFeedback": "<div>Incorrect. The 2023 GINA guidelines introduced a paradigm shift: a short-acting beta-2 agonist alone is no longer recommended at any step, because it treats bronchospasm without addressing the underlying airway inflammation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Low-dose inhaled corticosteroid plus formoterol as needed</div>",
+                  "text": "<div>Low-dose inhaled corticosteroid plus formoterol, used as needed</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. GINA 2023 shifted the paradigm: from Step 1, the preferred reliever is low-dose ICS-formoterol, so every rescue dose simultaneously treats inflammation. This replaced the long-standing SABA-only approach.</div>",
+                    "chosenFeedback": "<div>Correct. From Step 1, the preferred reliever is now low-dose ICS-formoterol as needed, so that every rescue dose delivers both a bronchodilator and an anti-inflammatory component, reducing the risk of severe exacerbations.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Daily oral montelukast with salbutamol for rescue</div>",
+                  "text": "<div>Regular oral montelukast as the sole controller</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Montelukast is an add-on controller useful in aspirin-exacerbated respiratory disease and exercise-induced asthma. It is not the Step 1 reliever recommendation.</div>",
+                    "chosenFeedback": "<div>Incorrect. Montelukast is an add-on therapy useful in specific situations such as aspirin-exacerbated respiratory disease or exercise-induced asthma, not the recommended standalone Step 1 treatment.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Tiotropium via dry-powder inhaler once daily</div>",
+                  "text": "<div>Ipratropium bromide via metered-dose inhaler as needed</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Tiotropium is an anticholinergic bronchodilator used primarily in COPD or as add-on therapy in refractory asthma at higher steps, not as a Step 1 reliever.</div>",
+                    "chosenFeedback": "<div>Incorrect. Ipratropium is an anticholinergic used primarily in COPD maintenance and acute asthma nebulisation, not as a first-line asthma reliever under current GINA guidelines.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The 2023 GINA paradigm shift is crucial: SABA-only is no longer recommended at any step. From Step 1, the preferred reliever is low-dose ICS-formoterol as needed, ensuring every rescue dose also treats the underlying inflammation."
+                  "feedback": "The 2023 GINA guidelines removed SABA-only as a recommended reliever at any step. From Step 1, the preferred reliever is low-dose ICS-formoterol as needed, ensuring every rescue dose also treats airway inflammation."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The key paradigm shift is that every rescue dose now delivers an anti-inflammatory component, eliminating the risk of undertreated airway inflammation when patients rely on relievers alone."
+                  "feedback": "Exactly. The GINA 2023 paradigm shift ensures every rescue puff includes an anti-inflammatory component, addressing the airway inflammation that drives asthma even in the mildest disease."
                 }
               ],
               "behaviour": {
@@ -429,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "29b5aa55-52f2-44b8-b334-8c5dd1edeefe",
+            "subContentId": "f3c98c16-c0c6-438b-a0a0-c937e7e0cb2c",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "According to the 2023 GINA guidelines, w",
+              "title": "Under the 2023 GINA guidelines, what is",
               "authors": [],
               "changes": []
             }
@@ -449,13 +559,13 @@
         },
         {
           "duration": {
-            "from": 910.6499999999999,
-            "to": 920.6499999999999
+            "from": 909.9749999999999,
+            "to": 919.9749999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 50-year-old bidi smoker with COPD says he has been 'thinking about quitting bu</p>",
+          "label": "<p>A 55-year-old COPD patient tells you he knows smoking is harmful but is not yet </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +574,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 50-year-old bidi smoker with COPD says he has been 'thinking about quitting but is not ready yet.' Using the 5As framework, what is the most appropriate next step?</p>",
+              "question": "<p>A 55-year-old COPD patient tells you he knows smoking is harmful but is not yet ready to quit. According to the 5As framework, what is the most appropriate next step?</p>",
               "answers": [
                 {
-                  "text": "<div>Set a quit date immediately and prescribe nicotine replacement therapy</div>",
+                  "text": "<div>Prescribe varenicline and set a quit date within two weeks</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Jumping to a quit date and pharmacotherapy skips the Assess step. A patient in the contemplation stage is not yet ready for a quit date — forcing one risks poor adherence and early relapse.</div>",
+                    "chosenFeedback": "<div>Incorrect. Setting a quit date and prescribing pharmacotherapy ('Assist') is appropriate only when the patient is ready to quit. Pushing it prematurely risks disengagement and undermines the therapeutic relationship.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Assess his readiness to quit and assist with a plan when he is prepared</div>",
+                  "text": "<div>Assess his readiness to quit using the Prochaska stages and arrange follow-up within one to two weeks</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. After Ask and Advise, the next step is Assess — determine the patient's readiness using the Prochaska stages. This patient is in the contemplation stage. Assist with planning when he moves to preparation, and arrange follow-up within one to two weeks.</div>",
+                    "chosenFeedback": "<div>Correct. 'Assess' his stage of readiness using the Prochaska model, then 'Arrange' follow-up within one to two weeks. Relapse is the rule, not the exception — maintaining contact with empathy keeps the door open for future attempts.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Refer directly to a de-addiction centre without further discussion</div>",
+                  "text": "<div>Inform him that further bronchodilator prescriptions will be withheld until he agrees to quit</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Referral without assessing readiness or providing brief counselling bypasses the framework. Empathetic engagement at the point of care is essential — relapse is the norm, and support works better than delegation alone.</div>",
+                    "chosenFeedback": "<div>Incorrect. Withholding treatment is clinically inappropriate and directly contradicts the non-judgmental approach the 5As framework requires. The lecture emphasises that empathy works better than blame.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Document his refusal and revisit at the next annual check-up</div>",
+                  "text": "<div>Advise him to switch from cigarettes to bidi as a harm reduction measure</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Waiting a full year misses the window for ongoing support. The 5As call for arranging follow-up within one to two weeks, maintaining momentum even when the patient is not yet ready to commit.</div>",
+                    "chosenFeedback": "<div>Incorrect. Bidi produces equal or greater tar and nicotine exposure compared to manufactured cigarettes. The 5As framework specifically includes bidi and smokeless tobacco — 'Ask' covers all forms at every visit.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +617,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the 5As: Ask about tobacco use, Advise clearly to quit, Assess readiness (this patient is in the contemplation stage), Assist with a plan when ready, and Arrange follow-up within one to two weeks. Empathy and non-judgmental support work better than blame."
+                  "feedback": "When a patient is not ready to quit, the 5As framework directs you to 'Assess' readiness using the Prochaska stages and 'Arrange' follow-up in one to two weeks, maintaining the relationship with empathy rather than judgement."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The 5As — Ask, Advise, Assess, Assist, Arrange — are sequential for good reason. Matching your intervention to the patient's readiness stage improves quit rates and preserves the therapeutic relationship."
+                  "feedback": "Well done. When a patient acknowledges harm but is not yet ready to quit, assessing their stage of change and arranging supportive follow-up is the evidence-based approach — empathy and persistence work far better than pressure."
                 }
               ],
               "behaviour": {
@@ -539,11 +649,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "dd53cec8-8269-43a5-b8b9-cc71dd403c3d",
+            "subContentId": "cbf70e91-3359-44a0-b1d8-9f0cfb19f4d7",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 50-year-old bidi smoker with COPD says",
+              "title": "A 55-year-old COPD patient tells you he",
               "authors": [],
               "changes": []
             }
@@ -610,7 +720,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "e4bb8461-4242-486f-b130-fb68277dfcce",
+              "subContentId": "85d3e93d-dadd-43a9-a786-f9d072a17e37",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -633,7 +743,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "dccc9696-697e-4846-990d-52fd6b3f7646",
+        "subContentId": "ad13e42a-2c7f-40c9-b7a6-ed2fdb206cc2",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
