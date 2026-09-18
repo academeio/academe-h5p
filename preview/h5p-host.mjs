@@ -133,14 +133,22 @@ video::cue{font-size:80%;background:rgba(0,0,0,.72);line-height:1.3}
  * toolbar will be clipped on wide monitors.
  *
  * Recommended host wrapper (works inside Canvas's HTML sanitizer):
- *   <div style="position:relative;width:100%;padding-bottom:60%;max-height:1400px;">
+ *   <div style="position:relative;width:100%;height:40px;padding-bottom:56.25%;max-height:1400px;">
  *     <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;..."></iframe>
  *   </div>
  *
+ * `height` and `padding-bottom` ADD under content-box, so the box is
+ * `40px + 0.5625W`: the percentage covers the 16:9 video, the 40px covers the
+ * FIXED-PIXEL toolbar. That is the whole trick — no single percentage can track a
+ * pixel offset across widths. A bare `padding-bottom:60%` (the pre-19-09-2026
+ * advice) fits only above ~933px of host width.
+ *
  * Do NOT use `aspect-ratio:`, `box-sizing:border-box`, or `height:80vh` in the
- * wrapper — the first two are stripped by Canvas's sanitizer, and the third
- * ties height to viewport instead of iframe width, causing clip on 16:9
- * monitors. Do NOT add `min-height:` either — it adds onto padding-bottom.
+ * wrapper — the first two are stripped by Canvas's sanitizer, and the third ties
+ * height to viewport instead of iframe width, causing clip on 16:9 monitors. Do
+ * NOT use `min-height:` — a floor over-provisions instead of summing exactly. Do
+ * NOT use `calc()`/`min()`/`clamp()`/`var()` — one CSS function makes Canvas
+ * discard the ENTIRE style attribute (measured on test course 374).
  * Reference: canvascbme docs/08-api-findings-and-solutions.md → "H5P iframe sizing".
  *
  * @param {object} opts
