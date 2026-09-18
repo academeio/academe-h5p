@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/45f4a093-e95a-40c7-8c77-ec0c3964b21e/playlist.m3u8",
+          "path": "https://vdo.cbme.in/5d8e5621-8801-4558-9a0d-53237e064ad1/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "IM6.1-22 | HIV — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for IM6.1-IM6.9."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for IM6.1-IM6.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -67,95 +67,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Rajan presents with fever, pharyngitis, a palmar rash, and oral ulcers two weeks</p>",
+          "label": "<p>A negative rapid antibody test during the first three weeks of HIV infection rel</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Rajan presents with fever, pharyngitis, a palmar rash, and oral ulcers two weeks after a high-risk exposure. His standard HIV antibody test is negative. Why is this result expected, and what test should be ordered next?</p>",
-              "answers": [
-                {
-                  "text": "<div>The antibody test is falsely negative due to immunosuppression; repeat the same test in one week</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>In acute HIV the immune system has not yet mounted an antibody response — this is the window period, not an immunosuppression artefact. Repeating the same test within days will still miss the diagnosis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Antibodies have not yet formed during this window period; a fourth-generation combination assay detecting p24 antigen should be requested</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. During the window period (2–4 weeks post-exposure), antibodies are absent but p24 antigen circulates at high levels. The fourth-generation assay detects both, narrowing the diagnostic window to 18–45 days.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>HIV has been excluded; a Western blot should be ordered to confirm the negative result</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>A Western blot also relies on antibody detection and would be negative during the window period. A negative antibody test does not exclude acute HIV when the clinical picture is suggestive.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The antibody test is reliable at this stage; the presentation is most likely Epstein–Barr virus mononucleosis</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>EBV mononucleosis does not typically produce a palmar rash or oral ulcers — two features that distinguish acute retroviral syndrome. The negative monospot test already excluded EBV in this case.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "During acute HIV seroconversion (2–4 weeks post-exposure), antibodies have not yet formed — this is the window period. Standard antibody tests will be negative. The fourth-generation antigen–antibody combination assay detects p24 antigen and is the appropriate next investigation."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "The window period is when a patient is most contagious yet hardest to diagnose. The fourth-generation combination assay bridges this gap by detecting p24 antigen directly, even before antibodies appear."
-                }
-              ],
+              "question": "<p>A negative rapid antibody test during the first three weeks of HIV infection reliably excludes the diagnosis.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Incorrect. During the window period (first 2–4 weeks), antibodies have not yet formed, so antibody-only rapid tests return false negatives. A fourth-generation combination assay that detects p24 antigen, or an HIV RNA viral load test, is needed to diagnose acute HIV.",
+                "correctAnswerMessage": "Correct. During acute HIV infection, antibodies have not yet formed — this is the window period. Standard antibody tests return false negatives. Diagnosis requires a fourth-generation p24 antigen–antibody combination assay or an HIV RNA viral load test.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "15a80bcc-37e6-45eb-b4c2-17d65ac76c46",
+            "subContentId": "b3d11a26-2dbe-48b2-9aa6-feb4f59589c7",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "Rajan presents with fever, pharyngitis,",
+              "title": "A negative rapid antibody test during th",
               "authors": [],
               "changes": []
             }
@@ -177,7 +125,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>An HIV-positive patient with a CD4 count of 80 cells/µL presents with three week</p>",
+          "label": "<p>Which of the following opportunistic infections characteristically appears at CD</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,23 +134,23 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>An HIV-positive patient with a CD4 count of 80 cells/µL presents with three weeks of worsening headache but surprisingly little neck stiffness on examination. Which opportunistic infection best explains this presentation?</p>",
+              "question": "<p>Which of the following opportunistic infections characteristically appears at CD4 counts below 100 cells/µL?</p>",
               "answers": [
                 {
                   "text": "<div>Pneumocystis jirovecii pneumonia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>PCP is a pulmonary infection presenting with exertional breathlessness, dry cough, and bilateral ground-glass infiltrates on imaging — not a CNS presentation.</div>",
+                    "chosenFeedback": "<div>PCP is the hallmark infection at CD4 below 200, not below 100. It marks the threshold for co-trimoxazole prophylaxis but appears at a higher CD4 count than the infections specific to the sub-100 range.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Primary CNS lymphoma</div>",
+                  "text": "<div>Oral candidiasis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Primary CNS lymphoma typically appears at CD4 &lt;50 as a single ring-enhancing lesion with focal neurological deficits, not as subacute headache with minimal signs.</div>",
+                    "chosenFeedback": "<div>Oral candidiasis typically emerges at CD4 below 300, reflecting moderate immunosuppression. It is a staging clue but not specific to the severe depletion seen below 100.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -211,7 +159,108 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Cryptococcal meningitis occurs at CD4 &lt;100 and classically presents with weeks of subacute headache. Neck stiffness is minimal because meningeal inflammation requires immune cells that are now depleted.</div>",
+                    "chosenFeedback": "<div>Correct. Cryptococcal meningitis characteristically appears at CD4 below 100, presenting with subacute headache and surprisingly little neck stiffness because the depleted CD4 cells cannot mount adequate meningeal inflammation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Pulmonary tuberculosis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Tuberculosis can occur at any CD4 level and becomes atypical and disseminated as immunity falls. It is not specific to the sub-100 threshold the way cryptococcal meningitis and CMV disease are.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Review the CD4 threshold ladder. Below 200 triggers PCP risk and co-trimoxazole prophylaxis. Below 100 is where cryptococcal meningitis and CMV disease appear. Below 50, disseminated MAC takes over."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. Remember the CD4 ladder: below 200 for PCP, below 100 for cryptococcal meningitis and CMV, and below 50 for disseminated MAC and CMV retinitis."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "00d60679-29cc-4449-9ee3-07de0f4b1624",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Which of the following opportunistic inf",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 444.42499999999995,
+            "to": 454.42499999999995
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A 38-year-old man with known HIV presents with subacute headache over three week</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A 38-year-old man with known HIV presents with subacute headache over three weeks and minimal neck stiffness. Co-trimoxazole tablets are found in his bag. His CD4 count is 80 cells/µL. Using the CD4 count to re-rank the differential, which diagnosis should be prioritised?</p>",
+              "answers": [
+                {
+                  "text": "<div>Bacterial meningitis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Bacterial meningitis typically presents with acute onset, high fever, and prominent meningism. The subacute course and minimal neck stiffness, combined with a CD4 below 100, point away from a typical bacterial cause.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Cryptococcal meningitis</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. At CD4 below 100, cryptococcal meningitis is the leading cause of subacute headache. Minimal neck stiffness is characteristic because the depleted immune system cannot mount the meningeal inflammation that produces classical meningism.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -220,7 +269,16 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Cerebral toxoplasmosis presents with acute focal neurological deficits and seizures, with multiple ring-enhancing lesions in the basal ganglia — a different clinical picture from subacute headache alone.</div>",
+                    "chosenFeedback": "<div>Toxoplasmosis characteristically causes focal neurological deficits and seizures with ring-enhancing basal ganglia lesions. Subacute headache with meningeal features points more strongly to cryptococcal meningitis at this CD4 level.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Viral encephalitis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Viral encephalitis usually produces altered sensorium and focal signs rather than isolated subacute headache. The CD4 count below 100 strongly favours opportunistic pathogens over common viral causes.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "At CD4 <100, cryptococcal meningitis presents with weeks of subacute headache. The hallmark diagnostic trap is minimal neck stiffness — the depleted immune system cannot mount the meningeal inflammatory response that would normally produce classical signs."
+                  "feedback": "Remember: the CD4 count modifies the prior probability of each diagnosis. At CD4 below 100, cryptococcal meningitis becomes the leading cause of subacute headache. Minimal meningism is expected, not reassuring, because the blunted immune response silences the classical signs."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "The absence of classical meningism in advanced HIV is a diagnostic trap. The depleted immune system cannot mount the inflammatory response that produces neck stiffness, so its absence does not rule out meningitis."
+                  "feedback": "Excellent. The CD4 count re-ranks a generic differential. At CD4 below 100, cryptococcal meningitis explains both the subacute course and the paradoxically quiet meningeal signs."
                 }
               ],
               "behaviour": {
@@ -261,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "cfa12772-9163-4c3d-bd6f-25b5bdd41a21",
+            "subContentId": "3f769019-9ec0-4816-bc0f-21153f47e732",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "An HIV-positive patient with a CD4 count",
+              "title": "A 38-year-old man with known HIV present",
               "authors": [],
               "changes": []
             }
@@ -281,71 +339,13 @@
         },
         {
           "duration": {
-            "from": 567.5,
-            "to": 577.5
+            "from": 567.25,
+            "to": 577.25
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In an infant under 18 months born to an HIV-positive mother, a reactive rapid an</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>In an infant under 18 months born to an HIV-positive mother, a reactive rapid antibody test confirms HIV infection in the infant.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. Maternal antibodies cross the placenta and persist in an infant's blood for up to 18 months. A reactive rapid antibody test in this age group may simply be detecting the mother's antibodies, not the infant's own immune response. The correct diagnostic test is HIV DNA polymerase chain reaction.",
-                "correctAnswerMessage": "Correct — the statement is false. Maternal IgG antibodies cross the placenta and persist in the infant's blood for up to 18 months, rendering all antibody-based tests unreliable in this age group. HIV DNA polymerase chain reaction, which detects proviral DNA in the infant's own cells, is the definitive test for early infant diagnosis.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "5e69ff5d-bc80-4aef-8be5-d53fd6bb5bc3",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "In an infant under 18 months born to an",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 668.4250000000001,
-            "to": 678.4250000000001
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A 35-year-old patient is newly diagnosed with both HIV and pulmonary tuberculosi</p>",
+          "label": "<p>An infant born to an HIV-positive mother is now 10 months old. Which test should</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 35-year-old patient is newly diagnosed with both HIV and pulmonary tuberculosis. His CD4 count is 40 cells/µL and anti-tubercular treatment has just been started. When should antiretroviral therapy be initiated?</p>",
+              "question": "<p>An infant born to an HIV-positive mother is now 10 months old. Which test should be used to confirm or exclude HIV infection?</p>",
               "answers": [
                 {
-                  "text": "<div>Within two weeks of starting anti-tubercular treatment</div>",
+                  "text": "<div>Rapid antibody card test</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Maternal IgG antibodies cross the placenta and persist in the infant's circulation for up to 18 months, making all antibody-based rapid tests unreliable in this age group.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Fourth-generation p24 antigen–antibody combination assay</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Although this assay detects p24 antigen, its antibody component is confounded by persistent maternal antibodies. In infants under 18 months, a direct viral detection method is required.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>HIV DNA polymerase chain reaction</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. When the CD4 count is below 50, the mortality risk of delaying ART outweighs the risk of immune reconstitution inflammatory syndrome. National guidelines recommend starting ART within two weeks of initiating ATT in this setting.</div>",
+                    "chosenFeedback": "<div>Correct. In infants under 18 months, maternal antibodies invalidate all antibody-based tests. HIV DNA PCR directly detects proviral DNA integrated into the infant's own cells, providing a definitive diagnosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>On the same day as anti-tubercular treatment</div>",
+                  "text": "<div>Serum beta-D-glucan</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Starting ART simultaneously with ATT carries a high risk of overlapping toxicities, drug interactions, and severe IRIS. A brief deferral of up to two weeks allows the anti-tubercular regimen to stabilise first.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>After eight weeks of anti-tubercular treatment</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>An eight-week deferral applies when the CD4 count is above 50 (where IRIS risk outweighs the mortality risk of brief delay) or in tuberculous meningitis. At CD4 &lt;50, this delay is too long and risks death from immunosuppression.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>After completing the full six-month anti-tubercular course</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Waiting six months to start ART in a profoundly immunosuppressed patient would expose them to life-threatening opportunistic infections. The Treat All policy mandates prompt ART initiation.</div>",
+                    "chosenFeedback": "<div>Beta-D-glucan is a biomarker for invasive fungal infections such as Pneumocystis jirovecii pneumonia. It plays no role in diagnosing HIV infection.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In HIV–TB co-infection with a CD4 count below 50 cells/µL, the risk of death from delayed ART outweighs the risk of IRIS. Antiretroviral therapy should begin within two weeks of starting anti-tubercular treatment. At higher CD4 counts, a longer deferral of up to eight weeks is acceptable."
+                  "feedback": "In infants under 18 months, maternal IgG antibodies cross the placenta and persist, making all antibody-based tests unreliable. HIV DNA PCR detects proviral DNA in the infant's own cells and is the correct diagnostic test."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "ART timing in TB co-infection is stratified by CD4 count: below 50 cells/µL, start within 2 weeks; above 50, defer up to 8 weeks. Tuberculous meningitis always requires 8 weeks of deferral regardless of CD4."
+                  "feedback": "Correct. Remember: maternal antibodies persist for up to 18 months, so any test that relies on antibody detection is unreliable in young infants. HIV DNA PCR is the definitive test."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "18613c34-8e38-4597-9a5a-2e96bf17495f",
+            "subContentId": "bc99d8d9-ad2b-4fce-ad14-171e02acd925",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 35-year-old patient is newly diagnosed",
+              "title": "An infant born to an HIV-positive mother",
               "authors": [],
               "changes": []
             }
@@ -449,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 850.5250000000001,
-            "to": 860.5250000000001
+            "from": 668.1750000000001,
+            "to": 678.1750000000001
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Ramesh, an HIV-positive patient on ART, asks whether he can ever safely have unp</p>",
+          "label": "<p>India's national first-line ART regimen TLD includes dolutegravir as its third c</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Ramesh, an HIV-positive patient on ART, asks whether he can ever safely have unprotected intercourse with his wife. His viral load has been undetectable for eight months. What is the evidence-based counselling response?</p>",
+              "question": "<p>India's national first-line ART regimen TLD includes dolutegravir as its third component. What is the principal advantage of dolutegravir over the previously used efavirenz?</p>",
               "answers": [
                 {
-                  "text": "<div>No — barrier protection is always mandatory regardless of viral load</div>",
+                  "text": "<div>It acts on the protease enzyme, offering a different mechanism</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While barrier methods protect against other sexually transmitted infections, the U=U evidence shows that a sustained undetectable viral load eliminates sexual HIV transmission. Insisting on mandatory barriers ignores current evidence and undermines adherence motivation.</div>",
+                    "chosenFeedback": "<div>Dolutegravir is an integrase strand transfer inhibitor that blocks viral DNA from entering the host chromosome. Protease inhibitors are a separate class reserved for second-line regimens in India.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Only if his wife also takes daily pre-exposure prophylaxis with tenofovir and emtricitabine</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>PrEP is recommended for HIV-negative individuals at ongoing high risk, but U=U means that an undetectable viral load alone prevents sexual transmission. Requiring PrEP on top is not evidence-based in this context.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>He should wait until his CD4 count rises above 500 cells/µL before considering this</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The CD4 count reflects immune recovery, but it is the viral load — not CD4 — that determines transmissibility. A sustained undetectable viral load is the criterion for U=U, regardless of the CD4 count.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Yes — a sustained undetectable viral load means he cannot sexually transmit HIV to his partner</div>",
+                  "text": "<div>It has a high genetic barrier to resistance</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The Undetectable = Untransmittable (U=U) principle is supported by robust evidence. This message transforms motivation: taking a daily tablet directly protects the people the patient loves.</div>",
+                    "chosenFeedback": "<div>Correct. Dolutegravir requires multiple mutations before resistance develops. In contrast, a single point mutation can render the entire NNRTI class, including efavirenz, ineffective. This high resistance barrier is a key reason dolutegravir anchors India's first-line TLD regimen.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It can be used as monotherapy without other antiretrovirals</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>ART always requires combination therapy to suppress viral replication and prevent resistance. Dolutegravir is combined with tenofovir and lamivudine in the TLD regimen — it is never used alone.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It eliminates the need for co-trimoxazole prophylaxis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Co-trimoxazole prophylaxis depends on the CD4 count, not the specific ART regimen. It continues until the CD4 count is sustained above 200, regardless of which antiretrovirals the patient takes.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The Undetectable = Untransmittable (U=U) principle states that a patient who maintains a sustained undetectable viral load cannot sexually transmit HIV. This evidence-based message is central to prevention counselling and transforms adherence motivation."
+                  "feedback": "Dolutegravir is an integrase strand transfer inhibitor with a high genetic barrier to resistance — it requires multiple mutations to fail. Efavirenz, an NNRTI, can be defeated by a single mutation. This difference is the principal reason India switched to the TLD regimen."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "U=U is a cornerstone of HIV prevention counselling. Connecting daily adherence to protecting loved ones is the most powerful motivational tool available to the clinician."
+                  "feedback": "Well done. Dolutegravir's high genetic barrier to resistance is what makes TLD a robust first-line regimen — multiple mutations are needed to escape it, unlike the single-mutation vulnerability of NNRTIs."
                 }
               ],
               "behaviour": {
@@ -539,11 +539,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "bc76122f-2c2f-4f54-a0d8-0fc0429f426c",
+            "subContentId": "e2de7bf5-684c-4d4c-9914-cf5c6c0ad2a8",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Ramesh, an HIV-positive patient on ART,",
+              "title": "India's national first-line ART regimen",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 850.2750000000001,
+            "to": 860.2750000000001
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>When counselling an HIV-positive patient about preventing sexual transmission, w</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>When counselling an HIV-positive patient about preventing sexual transmission, which principle should be emphasised to support both treatment adherence and prevention?</p>",
+              "answers": [
+                {
+                  "text": "<div>Barrier contraception alone is sufficient regardless of viral load</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While condoms remain important, the U=U principle provides a powerful additional motivator. It links daily adherence directly to protecting partners — a connection that barrier-only messaging does not make.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A sustained undetectable viral load means HIV cannot be sexually transmitted</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The U=U (Undetectable = Untransmittable) principle is evidence-based. It transforms motivation for adherence by connecting the daily tablet to protecting the people the patient loves — a counselling tool that simultaneously promotes both prevention and treatment compliance.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Treatment should be paused if the patient has no current sexual partners</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Under the Treat All policy, ART is lifelong regardless of sexual activity. Stopping treatment risks viral rebound, progressive immune decline, and loss of the survival benefit that ART provides.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Mandatory disclosure to all past contacts must precede any counselling</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The HIV and AIDS Prevention and Control Act 2017 protects patient confidentiality — disclosure without written consent is a criminal offence. Counselling empowers the patient to make informed decisions, rather than mandating disclosure as a precondition.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The U=U (Undetectable = Untransmittable) principle states that a patient with a sustained undetectable viral load cannot sexually transmit HIV. This links adherence directly to prevention — the daily tablet protects the patient's loved ones. It is a cornerstone of modern HIV counselling."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Excellent. U=U connects adherence to love — taking the daily tablet protects the people closest to the patient. This reframing is one of the most powerful tools in HIV prevention counselling."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "ea3b31a6-53c3-438a-85c5-6b31b761873c",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "When counselling an HIV-positive patient",
               "authors": [],
               "changes": []
             }
@@ -614,7 +724,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "19b48cbc-687e-453e-8728-8da5f8024b77",
+              "subContentId": "d9a43484-9030-4bad-ba4e-8ab8e2840c14",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -637,7 +747,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "dd332fba-d8aa-4ef0-896b-07f9469645e7",
+        "subContentId": "5954935e-a4ed-458f-bb15-161fb6666f02",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
