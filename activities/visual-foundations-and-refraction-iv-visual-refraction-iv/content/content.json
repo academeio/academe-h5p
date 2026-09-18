@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/9a9d59aa-d727-45d4-bb17-20feb6145881/playlist.m3u8",
+          "path": "https://vdo.cbme.in/5665f22a-4139-4dda-a2c3-a46b95f7bd8a/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -67,43 +67,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The crystalline lens contributes more refracting power than the cornea because i</p>",
+          "label": "<p>At the optic chiasm, nasal retinal fibres cross to the opposite side while tempo</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The crystalline lens contributes more refracting power than the cornea because it can change shape through accommodation.</p>",
-              "correct": "false",
+              "question": "<p>At the optic chiasm, nasal retinal fibres cross to the opposite side while temporal fibres remain ipsilateral. What is the direct clinical significance of this partial decussation?</p>",
+              "answers": [
+                {
+                  "text": "<div>It enables colour vision by separating cone pathways</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Colour vision depends on the three types of cone photoreceptors (L, M, and S), not on the crossing pattern at the chiasm.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It allows lesion localisation based on patterns of visual field loss</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Because each optic tract carries the contralateral visual field, the specific pattern of field loss — monocular, bitemporal, or homonymous — tells the clinician exactly where along the pathway the lesion sits.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It increases the total visual field by combining inputs from both eyes</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The total visual field is determined by orbital anatomy and retinal extent, not by the chiasmal crossing pattern.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It enables the pupillary light reflex by routing fibres to the pretectal nucleus</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The pupillary light reflex uses fibres that leave the optic tract before the lateral geniculate nucleus. This is a separate pathway from the partial decussation described here.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Remember: nasal fibres cross, temporal fibres stay. Each optic tract therefore carries the opposite visual field, making field defect patterns a powerful tool for lesion localisation."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "The partial crossing at the chiasm is why field defect patterns can localise lesions from the optic nerve all the way to the visual cortex."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Actually, the cornea provides approximately 43 dioptres — about two-thirds of the eye's total refracting power — while the lens adds only 17 to 20 dioptres. The lens's ability to change shape through accommodation makes it adjustable, but the cornea remains the dominant refractive element.",
-                "correctAnswerMessage": "Correct! The cornea actually provides the larger share — approximately 43 dioptres of the eye's total 60 dioptres — while the lens adds only 17 to 20 dioptres. Accommodation makes the lens adjustable, not more powerful. The cornea's fixed power accounts for roughly two-thirds of total refraction.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "d217c9e4-118a-4b51-ac06-c7ad29bba70c",
+            "subContentId": "f9b27504-9d5d-4d88-a058-1314d1e04a3a",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The crystalline lens contributes more re",
+              "title": "At the optic chiasm, nasal retinal fibre",
               "authors": [],
               "changes": []
             }
@@ -125,7 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A young patient with hypermetropia has normal distance vision but reports fronta</p>",
+          "label": "<p>A six-year-old child has no visual complaints but is found to have +4.00 D of hy</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A young patient with hypermetropia has normal distance vision but reports frontal headaches after prolonged reading. Which mechanism explains the absence of distance blur?</p>",
+              "question": "<p>A six-year-old child has no visual complaints but is found to have +4.00 D of hypermetropia on cycloplegic refraction. Which mechanism most likely explains why the child was asymptomatic before testing?</p>",
               "answers": [
                 {
-                  "text": "<div>Hypermetropia causes blur only at near distances, so distance vision is inherently unaffected</div>",
+                  "text": "<div>The cornea compensated by increasing its curvature</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Hypermetropia affects all distances — the focal point falls behind the retina whether the object is near or far. The absence of distance blur is due to active compensation by the crystalline lens, not a selective effect.</div>",
+                    "chosenFeedback": "<div>Corneal curvature is fixed and does not change to compensate for refractive errors.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The young eye uses accommodation to bring the focal point forward onto the retina, compensating for the error</div>",
+                  "text": "<div>Active accommodation by the crystalline lens masked the refractive error</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! The young hypermetropic eye accommodates continuously — the ciliary muscle contracts to increase lens power, shifting the focal point forward onto the retina. Prolonged near work demands even more accommodation, producing strain and headaches.</div>",
+                    "chosenFeedback": "<div>Correct. In young patients, the powerful crystalline lens can fully accommodate to overcome hypermetropia, producing clear vision without symptoms. Cycloplegic refraction paralyses the ciliary muscle to reveal the true refractive error.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The cornea temporarily steepens during distance viewing to increase its refractive power</div>",
+                  "text": "<div>Hypermetropia of this degree does not affect vision in childhood</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The cornea does not change shape dynamically — its 43 dioptres of power are fixed. The compensation comes from the crystalline lens adjusting through ciliary muscle contraction.</div>",
+                    "chosenFeedback": "<div>+4.00 D hypermetropia significantly defocuses the retinal image. The child sees clearly only because the lens actively compensates through accommodation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Tear film irregularity selectively reduces near acuity while sparing distance vision</div>",
+                  "text": "<div>The retina adapted to the chronically defocused image</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Tear film issues cause fluctuating blur at all distances, not the specific pattern of clear distance vision with near-work headaches. The mechanism here is the extra accommodative effort the lens must make.</div>",
+                    "chosenFeedback": "<div>The retina cannot adapt to chronic defocus. Clear vision in this case is achieved through the crystalline lens's accommodative effort, not retinal adaptation.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In hypermetropia, the focal point falls behind the retina. Young eyes compensate by accommodating — the ciliary muscle contracts to increase lens power and shift focus forward. This continuous effort is tolerable for distance but causes symptoms during prolonged near work."
+                  "feedback": "The key concept is accommodation masking. A young, flexible crystalline lens can increase its power sufficiently to overcome moderate hypermetropia, making the child asymptomatic until a cycloplegic agent is used."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! Accommodation masks the hypermetropic error at distance, but sustained near work demands additional effort from the ciliary muscle, producing the characteristic frontal headaches and eye strain."
+                  "feedback": "Young patients can fully compensate for hypermetropia through accommodation, which is why cycloplegic refraction is essential in paediatric eye examinations."
                 }
               ],
               "behaviour": {
@@ -209,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e986c23b-024f-45e3-be5e-dcd890652fa8",
+            "subContentId": "2a8754be-8fea-486e-b04a-e8bf289526c9",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A young patient with hypermetropia has n",
+              "title": "A six-year-old child has no visual compl",
               "authors": [],
               "changes": []
             }
@@ -229,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 451.62499999999994,
-            "to": 461.62499999999994
+            "from": 452.19999999999993,
+            "to": 462.19999999999993
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 50-year-old patient presents with visual acuity of 6/24 in the right eye. With</p>",
+          "label": "<p>A 52-year-old patient presents with gradually worsening distance vision. Unaided</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 50-year-old patient presents with visual acuity of 6/24 in the right eye. With a pinhole disc, acuity does not improve. What is the most appropriate next step?</p>",
+              "question": "<p>A 52-year-old patient presents with gradually worsening distance vision. Unaided visual acuity is 6/24 in both eyes. With a pinhole disc, acuity does not improve. What is the most appropriate next step?</p>",
               "answers": [
                 {
-                  "text": "<div>Prescribe concave spectacle lenses for presumed myopia</div>",
+                  "text": "<div>Prescribe corrective spectacles for the refractive error</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The pinhole did not improve acuity, which means the cause is not refractive. Spectacles correct optical errors only — they cannot compensate for retinal or optic nerve damage.</div>",
+                    "chosenFeedback": "<div>The pinhole did not improve acuity, which means the cause is unlikely to be a simple refractive error. Spectacles alone will not address organic pathology.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Perform cycloplegic refraction to unmask hidden hypermetropia</div>",
+                  "text": "<div>Advise the patient that this is age-related presbyopia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Cycloplegic refraction is useful when accommodation masks a refractive error, typically in younger patients. When the pinhole fails to improve acuity, the problem lies beyond refraction entirely.</div>",
+                    "chosenFeedback": "<div>Presbyopia affects near vision, not distance vision. Moreover, the negative pinhole result indicates an organic cause rather than a refractive one.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Repeat the test with the other eye occluded to confirm the reading</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Each eye should be tested separately as standard technique, but the key finding — no pinhole improvement — already provides the critical diagnostic information and does not change on repetition.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Refer for evaluation of cataract, optic nerve, or macular pathology</div>",
+                  "text": "<div>Refer for further evaluation to rule out organic pathology</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! No pinhole improvement indicates organic pathology — cataract, optic nerve disease, or macular damage. These conditions require specialist evaluation and cannot be corrected by spectacles or refraction.</div>",
+                    "chosenFeedback": "<div>Correct. When the pinhole does not improve distance acuity, the cause is likely organic — cataract, optic nerve disease, or macular pathology. This patient warrants referral for a comprehensive ophthalmic evaluation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Repeat the test at a closer distance to improve reliability</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Moving the patient closer changes the testing distance and would not clarify the cause of the deficit. The pinhole result already provides the key diagnostic information: the problem is not refractive.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "When the pinhole fails to improve acuity, the cause is organic — cataract, macular disease, or optic nerve pathology — not a refractive error. No spectacle correction can help; specialist referral is needed."
+                  "feedback": "Remember the clinical pearl: pinhole improvement means refractive cause (prescribe spectacles); no improvement means organic disease (refer for evaluation). This patient's negative pinhole result indicates the latter."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! The pinhole test is a rapid screen at the bedside: improvement points to a refractive cause correctable with spectacles, while no improvement signals organic disease requiring urgent referral."
+                  "feedback": "The pinhole test is a rapid screening tool: improvement points to refractive error, no improvement points to organic pathology requiring referral."
                 }
               ],
               "behaviour": {
@@ -319,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "90e18e52-998e-4970-9cc7-b91446234751",
+            "subContentId": "ba6730c7-5aa5-4787-a495-0c60ae42495c",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 50-year-old patient presents with visu",
+              "title": "A 52-year-old patient presents with grad",
               "authors": [],
               "changes": []
             }
@@ -339,13 +391,13 @@
         },
         {
           "duration": {
-            "from": 620.7749999999999,
-            "to": 630.7749999999999
+            "from": 621.3499999999999,
+            "to": 631.3499999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 22-year-old with stable −4 D myopia requests LASIK. Pre-operative corneal topo</p>",
+          "label": "<p>A 22-year-old woman with stable −6.00 D myopia requests LASIK. Corneal topograph</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 22-year-old with stable −4 D myopia requests LASIK. Pre-operative corneal topography reveals subclinical keratoconus, though slit-lamp examination appears normal. What is the most appropriate decision?</p>",
+              "question": "<p>A 22-year-old woman with stable −6.00 D myopia requests LASIK. Corneal topography reveals inferior steepening suggestive of subclinical keratoconus. What is the most appropriate recommendation?</p>",
               "answers": [
                 {
-                  "text": "<div>Proceed with LASIK since the refraction is within treatable range and slit-lamp findings are normal</div>",
+                  "text": "<div>Proceed with LASIK using a thinner flap to preserve more stromal tissue</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. A normal slit-lamp cannot rule out keratoconus — topography is the definitive screening tool. The topographic finding overrides clinical appearance and identifies a structurally compromised cornea.</div>",
+                    "chosenFeedback": "<div>A thinner flap does not eliminate the ectasia risk. Subclinical keratoconus is an absolute contraindication for LASIK regardless of flap thickness.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Switch to PRK, which avoids creating a flap and is biomechanically safer for this cornea</div>",
+                  "text": "<div>Advise against LASIK but offer PRK as it preserves more corneal strength</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Although PRK avoids a flap, any excimer laser ablation on a keratoconic cornea further weakens it. The risk of progressive post-operative ectasia applies to all corneal laser procedures.</div>",
+                    "chosenFeedback": "<div>Although PRK retains more biomechanical strength than LASIK, subclinical keratoconus contraindicates all corneal refractive laser procedures due to the risk of progressive ectasia.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Decline all corneal laser procedures — subclinical keratoconus is an absolute contraindication</div>",
+                  "text": "<div>Recommend SMILE as it avoids creating a flap</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>SMILE still thins the corneal stroma through lenticule extraction. Any corneal laser procedure on a keratoconus-suspect cornea carries a high risk of post-operative ectasia.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Advise against all corneal laser procedures and consider a lens-based option such as ICL</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! Subclinical keratoconus absolutely contraindicates all corneal laser procedures — LASIK, PRK, and SMILE alike. Operating on a structurally compromised cornea risks progressive ectasia regardless of the technique.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Proceed with a reduced ablation depth to preserve a thicker residual stromal bed</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Reducing ablation depth does not address the fundamental problem: the cornea is biomechanically unsound. No depth adjustment makes ablation safe on a keratoconic cornea.</div>",
+                    "chosenFeedback": "<div>Correct. Subclinical keratoconus absolutely contraindicates all corneal refractive surgery — LASIK, PRK, and SMILE. The implantable collamer lens is a viable alternative that preserves corneal integrity and remains reversible.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Subclinical keratoconus, detectable only on topography, absolutely contraindicates LASIK, PRK, and SMILE. Operating on such a cornea makes post-operative ectasia nearly inevitable, regardless of technique or ablation parameters."
+                  "feedback": "The key principle: topographic evidence of keratoconus — even subclinical — rules out all corneal laser surgery (LASIK, PRK, and SMILE), not just LASIK. Lens-based alternatives like ICL should be considered instead."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! Topographic keratoconus — even subclinical — is an absolute contraindication to corneal laser surgery. Rigorous pre-operative screening is what prevents the catastrophic complication of post-operative ectasia."
+                  "feedback": "Corneal topography is mandatory before any laser refractive surgery. Subclinical keratoconus contraindicates all corneal laser procedures because ectasia becomes nearly inevitable."
                 }
               ],
               "behaviour": {
@@ -429,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "bf8663f0-2e37-4450-beb9-894c6d307d3a",
+            "subContentId": "d29b43d2-803b-4581-8b5b-020fb6f231f1",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 22-year-old with stable −4 D myopia re",
+              "title": "A 22-year-old woman with stable −6.00 D",
               "authors": [],
               "changes": []
             }
@@ -449,13 +501,13 @@
         },
         {
           "duration": {
-            "from": 749.4499999999999,
-            "to": 759.4499999999999
+            "from": 750.025,
+            "to": 760.025
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 5-year-old child reads 6/6 with isolated single letters but only 6/18 on the s</p>",
+          "label": "<p>A five-year-old child reads 6/6 on isolated Snellen letters but only 6/18 on a f</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +516,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 5-year-old child reads 6/6 with isolated single letters but only 6/18 on the standard Snellen line chart in the right eye. The left eye scores 6/6 on both. What does this discrepancy most likely indicate?</p>",
+              "question": "<p>A five-year-old child reads 6/6 on isolated Snellen letters but only 6/18 on a full line chart with the right eye. The left eye scores 6/6 on both tests. What does this discrepancy most likely indicate?</p>",
               "answers": [
                 {
-                  "text": "<div>An uncorrected refractive error in the right eye requiring spectacle correction</div>",
+                  "text": "<div>Uncorrected astigmatism in the right eye</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. An uncorrected refractive error reduces acuity equally on single letters and full lines. The selective drop on the line chart with preserved single-letter acuity points to a cortical processing deficit, not an optical one.</div>",
+                    "chosenFeedback": "<div>Astigmatism causes blur at all distances and would reduce acuity equally on isolated letters and line charts. This selective pattern points to a different diagnosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Poor cooperation from the child, requiring retesting at a later visit</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Inconsistent cooperation produces random errors, not a systematic pattern of worse line acuity with preserved single-letter acuity. This reproducible pattern is the crowding phenomenon.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Amblyopia in the right eye, demonstrated by the crowding phenomenon</div>",
+                  "text": "<div>The crowding phenomenon, suggesting amblyopia in the right eye</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! The crowding phenomenon — worse acuity on a line chart than with isolated letters — is virtually diagnostic of amblyopia. Surrounding contours interfere with letter recognition in the amblyopic visual cortex.</div>",
+                    "chosenFeedback": "<div>Correct. The crowding phenomenon — normal acuity on single optotypes but reduced acuity on a line chart — is characteristic of amblyopia. The inter-eye difference of two or more Snellen lines confirms the diagnosis and warrants prompt treatment.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A testing artefact from improper chart distance that affects line reading more than single letters</div>",
+                  "text": "<div>Normal variation in a young child's attention during testing</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Chart distance affects all measurements equally in both eyes. The inter-eye difference combined with the specific single-letter versus line-chart discrepancy points to the crowding effect in amblyopia.</div>",
+                    "chosenFeedback": "<div>A consistent pattern of worse performance specifically on crowded optotypes in one eye is not explained by inattention. This reproducible finding is diagnostic of amblyopia.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Early cataract causing light scatter in the right eye</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Cataract causes generalised reduction in acuity, not a selective discrepancy between isolated and crowded letters. This pattern is specific to the crowding phenomenon of amblyopia.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +559,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Better single-letter acuity than line-chart acuity in one eye is the crowding phenomenon, virtually diagnostic of amblyopia. It reflects cortical processing difficulty in the amblyopic eye, not an optical or cooperation problem."
+                  "feedback": "A child who reads well on isolated letters but poorly on a full line chart is demonstrating the crowding phenomenon, which is virtually diagnostic of amblyopia. Treatment before age seven offers the best outcomes."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! The crowding phenomenon is a hallmark of amblyopia — the amblyopic cortex struggles to resolve a letter when flanked by others, causing line-chart acuity to fall well below single-letter acuity."
+                  "feedback": "The crowding phenomenon is a hallmark of amblyopia. When combined with an inter-eye difference of two or more lines, it warrants early treatment — spectacles first, then occlusion therapy if needed."
                 }
               ],
               "behaviour": {
@@ -539,11 +591,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "0b345033-afe8-4313-8d57-f90aea075355",
+            "subContentId": "c6402e7a-0da4-42f6-b1bf-0a01ea3c32f7",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 5-year-old child reads 6/6 with isolat",
+              "title": "A five-year-old child reads 6/6 on isola",
               "authors": [],
               "changes": []
             }
@@ -585,22 +637,22 @@
         },
         {
           "time": 391,
-          "label": "Building on the tests from scene 7, let us put them to wo…"
+          "label": "Building on the tests we have just covered, let us put th…"
         },
         {
-          "time": 452,
+          "time": 453,
           "label": "Patients pursue surgery for quality-of-life reasons, as w…"
         },
         {
-          "time": 547,
+          "time": 548,
           "label": "Patient selection is the single most critical factor in r…"
         },
         {
-          "time": 621,
+          "time": 622,
           "label": "Amblyopia affects two to four percent of people globally."
         },
         {
-          "time": 691,
+          "time": 692,
           "label": "Detecting amblyopia starts with visual acuity in each eye…"
         }
       ],
@@ -618,7 +670,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "515f6a9f-7d45-4c89-b6db-23082acd7332",
+              "subContentId": "69f35470-e49e-46df-b802-4b91bc6613bd",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -641,7 +693,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "9c6f7a1a-16f3-4a8e-8d5c-6bfab6f65d66",
+        "subContentId": "fe2a0e05-6773-467c-825f-20365c3a7386",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
