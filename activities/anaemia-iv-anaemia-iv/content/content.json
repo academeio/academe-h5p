@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/07544c1f-d106-4090-9669-670e07c08109/playlist.m3u8",
+          "path": "https://vdo.cbme.in/afaf58bd-111d-47d2-873d-93b473a8b41b/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 203.725,
-            "to": 213.725
+            "from": 203.125,
+            "to": 213.125
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>What does a reticulocyte production index (RPI) below 2 indicate about the bone </p>",
+          "label": "<p>A patient with anaemia has a reticulocyte count of 6% and a haematocrit of 22.5%</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>What does a reticulocyte production index (RPI) below 2 indicate about the bone marrow's response in an anaemic patient?</p>",
+              "question": "<p>A patient with anaemia has a reticulocyte count of 6% and a haematocrit of 22.5%. What does the reticulocyte production index (RPI) indicate about this patient's bone marrow?</p>",
               "answers": [
                 {
-                  "text": "<div>The marrow is compensating adequately by increasing red cell production</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Adequate marrow compensation is indicated by an RPI of 2 or above, not below 2. An RPI ≥ 2 is the hallmark of haemolysis or acute blood loss where the marrow is responding appropriately.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The marrow is underperforming, suggesting a deficiency state, renal failure, or marrow suppression</div>",
+                  "text": "<div>An adequate marrow response, pointing to haemolysis or blood loss as the cause</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. An RPI below 2 signals hypoproliferation — the marrow is failing to compensate for the anaemia. This pattern is seen in iron, B12, or folate deficiency, renal failure (reduced erythropoietin), and primary marrow suppression.</div>",
+                    "chosenFeedback": "<div>RPI = 6 × (22.5 ÷ 45) = 3.0. A value ≥ 2 signals hyperproliferation — the marrow is working well, so the anaemia is from peripheral red-cell destruction or blood loss.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The raw reticulocyte percentage has been falsely depressed by a high haematocrit</div>",
+                  "text": "<div>The marrow is failing to respond and a nutritional deficiency is likely</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The RPI correction actually adjusts for a low haematocrit, which falsely elevates the raw reticulocyte percentage because the denominator (total red cells) is smaller.</div>",
+                    "chosenFeedback": "<div>The RPI here is 3.0 (6 × 22.5 ÷ 45), well above the threshold of 2. This indicates hyperproliferation, not marrow failure or nutritional deficiency.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The patient has active haemolysis with an appropriate marrow response</div>",
+                  "text": "<div>The reticulocyte count is falsely elevated and the true marrow output is normal</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Active haemolysis with an appropriate marrow response produces an RPI of 2 or above. A low RPI in the setting of haemolysis would suggest a superimposed production problem.</div>",
+                    "chosenFeedback": "<div>The RPI correction already accounts for the reduced red-cell denominator. A corrected value of 3.0 confirms genuine marrow hyperactivity, not a statistical artefact.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Ineffective erythropoiesis consistent with a myelodysplastic process</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Ineffective erythropoiesis produces a low RPI (below 2). The high RPI here indicates cells are being produced effectively but destroyed peripherally.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "An RPI below 2 signals hypoproliferation — the marrow is not mounting an adequate response to the anaemia. Causes include nutritional deficiencies (iron, B12, folate), renal failure, and marrow suppression. An RPI of 2 or above indicates hyperproliferation, seen in haemolysis or acute blood loss."
+                  "feedback": "The RPI is 3.0 (6 × 22.5 ÷ 45). Values ≥ 2 indicate hyperproliferation, meaning the marrow is working well. Look for peripheral causes like haemolysis or blood loss."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The RPI corrects the raw reticulocyte count for the degree of anaemia. Below 2 means the marrow is underperforming (hypoproliferation), pointing to deficiency states, renal failure, or marrow suppression. Above 2 means the marrow is responding appropriately, as in haemolysis or blood loss."
+                  "feedback": "Correct. RPI ≥ 2 means the marrow is responding appropriately — the cause lies outside the marrow, in haemolysis or blood loss."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "af8f33fd-6265-461c-adac-93fccc63f7b1",
+            "subContentId": "1569d4cd-efe1-4f1d-8a1d-f53faed6b991",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "What does a reticulocyte production inde",
+              "title": "A patient with anaemia has a reticulocyt",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 301.725,
-            "to": 311.725
+            "from": 380.475,
+            "to": 390.475
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which combination of findings best distinguishes iron deficiency anaemia from β-</p>",
+          "label": "<p>Which combination of laboratory findings constitutes the diagnostic fingerprint </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which combination of findings best distinguishes iron deficiency anaemia from β-thalassaemia trait when both present with a low MCV?</p>",
+              "question": "<p>Which combination of laboratory findings constitutes the diagnostic fingerprint of haemolytic anaemia?</p>",
               "answers": [
                 {
-                  "text": "<div>High red cell distribution width (RDW) with low serum ferritin — points to iron deficiency anaemia</div>",
+                  "text": "<div>Low ferritin, elevated total iron-binding capacity, and low transferrin saturation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This pattern indicates iron deficiency anaemia — depleted iron stores, not premature red-cell destruction.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Elevated reticulocytes, raised lactate dehydrogenase, low haptoglobin, and raised unconjugated bilirubin</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In iron deficiency anaemia, RDW is elevated because progressively depleting iron stores produce red cells of varying sizes. Low ferritin confirms depleted stores. In thalassaemia trait, both RDW and ferritin remain normal.</div>",
+                    "chosenFeedback": "<div>Red-cell destruction releases LDH and haemoglobin (which consumes haptoglobin), produces unconjugated bilirubin, and stimulates compensatory reticulocytosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Normal RDW with low serum ferritin — points to iron deficiency anaemia</div>",
+                  "text": "<div>Elevated mean corpuscular volume, oval macrocytes, and hypersegmented neutrophils</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. In iron deficiency anaemia, the RDW is characteristically elevated, not normal. A normal RDW with a low MCV is more typical of thalassaemia trait, where the uniform globin-chain defect produces cells of similar (small) size.</div>",
+                    "chosenFeedback": "<div>This pattern indicates megaloblastic anaemia from vitamin B12 or folate deficiency — impaired DNA synthesis, not peripheral red-cell destruction.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>High RDW with normal serum ferritin — points to β-thalassaemia trait</div>",
+                  "text": "<div>Pancytopaenia with a hypocellular bone marrow on biopsy</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. In thalassaemia trait, the RDW is typically normal, not high. High RDW points toward iron deficiency anaemia, where varying cell sizes result from progressive iron depletion.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Mentzer index above 13 with elevated ferritin — points to iron deficiency anaemia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While a Mentzer index above 13 does favour iron deficiency anaemia, elevated ferritin contradicts this diagnosis — ferritin is low when iron stores are depleted. Elevated ferritin is seen in thalassaemia trait or anaemia of chronic disease.</div>",
+                    "chosenFeedback": "<div>Pancytopaenia with a hypocellular marrow indicates aplastic anaemia — marrow failure, not haemolysis.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In iron deficiency anaemia, the RDW is high (reflecting variable cell sizes as stores deplete progressively) and ferritin is low. In thalassaemia trait, both remain normal because the defect is in globin synthesis, not iron supply. The Mentzer index (MCV ÷ RBC count) adds further discrimination: above 13 favours IDA, below 13 favours thalassaemia trait."
+                  "feedback": "Haemolytic anaemia is diagnosed by elevated reticulocytes, raised LDH, low haptoglobin, and raised unconjugated bilirubin — all consequences of premature red-cell destruction."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The two key discriminators are RDW (high in IDA, normal in thalassaemia trait) and ferritin (low in IDA, normal or elevated in thalassaemia trait). This distinction matters because iron supplementation helps IDA but is unnecessary — and potentially harmful — in thalassaemia trait."
+                  "feedback": "Correct. These four markers together confirm accelerated red-cell destruction and help distinguish haemolytic anaemia from other causes."
                 }
               ],
               "behaviour": {
@@ -261,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "91cd55b8-5348-47b8-aa9f-8337d5f6e56c",
+            "subContentId": "f7933d51-f8f8-41c9-974b-19ac886f8a81",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which combination of findings best disti",
+              "title": "Which combination of laboratory findings",
               "authors": [],
               "changes": []
             }
@@ -281,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 478.77500000000003,
-            "to": 488.77500000000003
+            "from": 555.025,
+            "to": 565.025
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>While examining a patient with suspected anaemia, you check for pallor at the co</p>",
+          "label": "<p>Ramesh, a 52-year-old man, presents with iron deficiency anaemia and melaena. Wh</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>While examining a patient with suspected anaemia, you check for pallor at the conjunctivae, palms, tongue, and nail beds. Which single site is the most sensitive for detecting anaemia?</p>",
+              "question": "<p>Ramesh, a 52-year-old man, presents with iron deficiency anaemia and melaena. Which step in the differential diagnosis process ensures that a dangerous underlying cause such as gastrointestinal malignancy is not missed?</p>",
               "answers": [
                 {
-                  "text": "<div>Palmar crease pallor</div>",
+                  "text": "<div>Pattern recognition — matching his clinical findings to iron deficiency anaemia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Palmar pallor is a useful bedside sign but is less sensitive than conjunctival pallor and can be confounded by skin pigmentation and peripheral vasoconstriction.</div>",
+                    "chosenFeedback": "<div>Pattern recognition correctly identifies the haematological type but stops there. It does not prompt you to look beyond the obvious classification for a potentially dangerous cause.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Nail bed pallor</div>",
+                  "text": "<div>Probability estimation — ranking iron deficiency as the most likely diagnosis in his demographic</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Nail bed colour is affected by peripheral circulation, temperature, and nail conditions, making it less reliable than conjunctival pallor as a screening sign for anaemia.</div>",
+                    "chosenFeedback": "<div>Probability estimation ranks diagnoses by likelihood, but anchoring on the most common cause risks missing malignancy in a middle-aged man with GI bleeding.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Conjunctival pallor</div>",
+                  "text": "<div>Safety-netting — actively considering dangerous diagnoses that can hide behind common ones</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Conjunctival pallor is the most sensitive single site, detecting approximately 9 in 10 patients when haemoglobin falls below 9 g/dL. Combining all four sites raises specificity for the diagnosis.</div>",
+                    "chosenFeedback": "<div>Safety-netting forces you to ask: what dangerous diagnosis could be masquerading as this common one? In a 52-year-old with IDA and melaena, GI malignancy must be excluded even when a benign cause seems apparent.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Tongue pallor</div>",
+                  "text": "<div>Therapeutic trial — starting oral iron and reassessing after four weeks</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Tongue changes such as glossitis are aetiology-specific signs — a smooth beefy-red tongue points to vitamin B12 deficiency — rather than a sensitive general screening sign for low haemoglobin.</div>",
+                    "chosenFeedback": "<div>Delaying investigation with a therapeutic trial in a middle-aged man with GI bleeding risks missing a malignancy at a treatable stage. The diagnosis must be pursued before empirical treatment.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Conjunctival pallor is the most sensitive single site for detecting anaemia, picking up approximately 9 in 10 patients with haemoglobin below 9 g/dL. While all four sites (conjunctivae, palms, tongue, nail beds) should be checked together to raise specificity, the conjunctivae remain the single best screening sign."
+                  "feedback": "Safety-netting is the step that guards against missing dangerous diagnoses. In a 52-year-old man with IDA and melaena, iron deficiency is the blood picture — but gastrointestinal malignancy is the diagnosis that cannot be missed."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Conjunctival pallor detects roughly 90% of patients with haemoglobin below 9 g/dL, making it the most sensitive single examination site. For best results, examine all four sites together — conjunctivae, palms, tongue, and nail beds — as the combination raises specificity."
+                  "feedback": "Correct. Safety-netting ensures dangerous diagnoses like gastrointestinal malignancy are not missed, even when a benign explanation seems apparent."
                 }
               ],
               "behaviour": {
@@ -371,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "59d44c87-5252-4f2a-9312-25c36111f1f7",
+            "subContentId": "759eac35-0f25-43df-94ec-358919c93897",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "While examining a patient with suspected",
+              "title": "Ramesh, a 52-year-old man, presents with",
               "authors": [],
               "changes": []
             }
@@ -391,13 +391,13 @@
         },
         {
           "duration": {
-            "from": 644.225,
-            "to": 654.225
+            "from": 715.875,
+            "to": 725.875
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 40-year-old man with rheumatoid arthritis has microcytic anaemia. His serum fe</p>",
+          "label": "<p>In the evaluation of anaemia, which clinical scenario warrants bone marrow aspir</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 40-year-old man with rheumatoid arthritis has microcytic anaemia. His serum ferritin is 180 µg/L and total iron-binding capacity (TIBC) is low. Which diagnosis do these iron studies most strongly support?</p>",
+              "question": "<p>In the evaluation of anaemia, which clinical scenario warrants bone marrow aspiration rather than relying on peripheral blood tests alone?</p>",
               "answers": [
                 {
-                  "text": "<div>Iron deficiency anaemia</div>",
+                  "text": "<div>Microcytic anaemia in a young woman with menorrhagia and low ferritin</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Iron deficiency anaemia shows the opposite pattern: low ferritin (depleted stores) and high TIBC (the body's attempt to capture more circulating iron). A ferritin of 180 µg/L effectively rules out IDA.</div>",
+                    "chosenFeedback": "<div>The clinical picture and low ferritin confirm iron deficiency anaemia. Bone marrow biopsy would add nothing — peripheral tests have already answered the question.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Anaemia of chronic disease</div>",
+                  "text": "<div>Macrocytic anaemia with elevated methylmalonic acid and elevated homocysteine</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Elevated methylmalonic acid confirms vitamin B12 deficiency. The functional markers have established the diagnosis without marrow examination.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Normocytic anaemia in a patient with chronic kidney disease and low erythropoietin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The cause is explained by erythropoietin deficiency from renal failure. Marrow examination is unnecessary when the aetiology is already clear from clinical context.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Pancytopaenia of unclear aetiology that has not responded to initial therapy</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In anaemia of chronic disease, inflammatory cytokines (especially IL-6) drive hepcidin production, which traps iron inside macrophages. Ferritin remains normal or elevated, and TIBC falls — the pattern described here.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>β-thalassaemia trait</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. In thalassaemia trait, iron studies are typically normal because the defect lies in globin chain synthesis, not iron metabolism. The clinical context of rheumatoid arthritis also favours an inflammatory cause.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Sideroblastic anaemia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Sideroblastic anaemia shows elevated serum iron and high transferrin saturation due to ineffective erythropoiesis with iron loading — a pattern distinct from the low TIBC described here.</div>",
+                    "chosenFeedback": "<div>Bone marrow aspiration is reserved for unexplained pancytopaenia, suspected marrow infiltration, or anaemia refractory to treatment — situations where peripheral tests cannot establish the diagnosis.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "This iron-studies pattern — elevated ferritin with low TIBC — is characteristic of anaemia of chronic disease. Chronic inflammation drives hepcidin production, trapping iron inside macrophages. In IDA the pattern reverses: ferritin drops and TIBC rises. In thalassaemia trait, iron studies remain normal. Always read iron studies as a pattern, not as isolated values."
+                  "feedback": "Bone marrow aspiration is reserved for unexplained pancytopaenia, suspected marrow infiltration, or anaemia that does not respond to treatment. It should not be used as a shortcut when simpler tests can establish the diagnosis."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The combination of normal-to-elevated ferritin with low TIBC is the signature of anaemia of chronic disease. Hepcidin, stimulated by inflammatory cytokines, traps iron in macrophages — stores are adequate but unavailable for erythropoiesis. This is the key differentiator from IDA, where ferritin is low and TIBC is high."
+                  "feedback": "Correct. Bone marrow aspiration is indicated when peripheral tests cannot explain the findings, as in unexplained pancytopaenia or refractory anaemia."
                 }
               ],
               "behaviour": {
@@ -481,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "c17edbe2-5fa0-413f-bc13-5ae5e6fe686a",
+            "subContentId": "25b99d8e-c88f-4bc1-b07e-48b2085ccb8c",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 40-year-old man with rheumatoid arthri",
+              "title": "In the evaluation of anaemia, which clin",
               "authors": [],
               "changes": []
             }
@@ -501,13 +501,13 @@
         },
         {
           "duration": {
-            "from": 817,
-            "to": 827
+            "from": 895.275,
+            "to": 905.275
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Folic acid supplementation can safely be started before excluding vitamin B12 de</p>",
+          "label": "<p>Under India's Anaemia Mukt Bharat programme, pregnant women receive weekly iron </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -516,7 +516,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Folic acid supplementation can safely be started before excluding vitamin B12 deficiency, because it corrects both the haematological and neurological abnormalities.</p>",
+              "question": "<p>Under India's Anaemia Mukt Bharat programme, pregnant women receive weekly iron and folic acid supplementation.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -534,16 +534,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. Folic acid corrects the haematological abnormalities of B12 deficiency, giving a false sense of improvement, but neurological damage from subacute combined degeneration of the spinal cord continues unchecked. B12 deficiency must always be excluded before starting folate supplementation.",
-                "correctAnswerMessage": "Correct — this statement is false. Folic acid corrects the blood picture in B12 deficiency, masking the anaemia, but it does NOT halt neurological damage. Subacute combined degeneration of the spinal cord progresses silently while the blood count normalises. Always exclude B12 deficiency before prescribing folate alone.",
+                "wrongAnswerMessage": "This statement is false. Under Anaemia Mukt Bharat, pregnant women receive daily iron and folic acid, not weekly. Weekly supplementation is the schedule for adolescents. The increased iron demand during pregnancy necessitates daily dosing.",
+                "correctAnswerMessage": "Correct — this statement is false. Pregnant women receive daily iron and folic acid throughout pregnancy and for 180 days postpartum. It is adolescents who receive weekly supplementation. The higher physiological demand during pregnancy requires daily dosing.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "549c5b74-4f73-4bcd-8e02-a39f7321873a",
+            "subContentId": "23defc3e-dd5a-44d8-8e41-4de2fe7f3252",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Folic acid supplementation can safely be",
+              "title": "Under India's Anaemia Mukt Bharat progra",
               "authors": [],
               "changes": []
             }
@@ -600,7 +600,7 @@
           "label": "Building on the blood film findings from our earlier scen…"
         },
         {
-          "time": 717,
+          "time": 716,
           "label": "Treatment is always cause-directed."
         },
         {
@@ -610,7 +610,7 @@
       ],
       "endscreens": [
         {
-          "time": 936,
+          "time": 935,
           "label": "End"
         }
       ]
@@ -622,7 +622,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "50377fd2-1d21-4d0f-8a50-f6dc261f01bd",
+              "subContentId": "15261631-2037-4c66-a8a2-4a350417f156",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -645,7 +645,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "95211c70-34f4-429b-87ae-cb3320e9c0e6",
+        "subContentId": "351576ef-6158-4ee3-b8b6-a7a651a03be7",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
