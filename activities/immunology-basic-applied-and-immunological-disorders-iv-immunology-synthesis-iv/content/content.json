@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/e7d850d6-b651-4758-b3ca-dbd121b24ed4/playlist.m3u8",
+          "path": "https://vdo.cbme.in/55a6164b-0985-4dd1-a8db-47b770f46be2/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,8 +61,8 @@
       "interactions": [
         {
           "duration": {
-            "from": 152.125,
-            "to": 162.125
+            "from": 151.525,
+            "to": 161.525
           },
           "pause": true,
           "displayType": "poster",
@@ -79,38 +79,38 @@
               "question": "<p>Why do plain polysaccharide vaccines fail to protect infants under two years of age?</p>",
               "answers": [
                 {
-                  "text": "<div>Maternal IgG crossing the placenta neutralises the polysaccharide before it can stimulate B cells</div>",
+                  "text": "<div>Infant B lymphocytes lack surface receptors for polysaccharide antigens and cannot mount any response</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Maternal IgG can interfere with some live vaccines, but this is not specific to polysaccharide antigens. The real issue is that polysaccharides cannot recruit T-cell help for class switching and memory.</div>",
+                    "chosenFeedback": "<div>Incorrect. Infant B cells do possess surface receptors and can bind polysaccharides. The problem is that without T-cell help, the response produces only short-lived IgM and no memory B cells.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Polysaccharide antigens are T-independent, producing only IgM with no class switching or memory</div>",
+                  "text": "<div>Maternal IgG transferred across the placenta neutralises the polysaccharide before it can stimulate infant B cells</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Although maternal IgG can interfere with certain live vaccines, it is not the reason polysaccharide vaccines fail. The failure occurs because polysaccharides are T-independent and cannot generate memory, regardless of maternal antibody levels.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Polysaccharides are thymus-independent antigens that produce only IgM with no class switching or memory</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Polysaccharides stimulate B cells directly without T-cell help, generating mainly IgM with no memory. Conjugate vaccines link the polysaccharide to a carrier protein, converting it to a T-dependent antigen that activates the full adaptive pathway.</div>",
+                    "chosenFeedback": "<div>Correct. Polysaccharide antigens bypass T cells entirely, producing only short-lived IgM with no class switching or memory. Conjugate vaccines link the polysaccharide to a carrier protein, converting it into a T-dependent antigen that recruits T-cell help and generates lasting immunity — which is why Hib and PCV protect infants.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Infants lack functional B lymphocytes during the first two years of life</div>",
+                  "text": "<div>The infant thymus has not matured enough to process and present polysaccharide antigens to T helper cells</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Infants possess functional B lymphocytes from birth. The limitation is not B-cell absence but the inability of polysaccharide antigens to engage T-cell help required for a mature immune response.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The infant complement system cannot process polysaccharide antigens for presentation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Complement can interact with polysaccharides, but antigen presentation depends on antigen-presenting cells, not complement. The failure lies in the T-independent nature of polysaccharide antigens.</div>",
+                    "chosenFeedback": "<div>Incorrect. The issue is not thymic immaturity — it is that polysaccharide antigens are inherently T-independent and bypass T cells entirely. Even in adults with a fully mature thymus, polysaccharides alone cannot recruit T-cell help.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Polysaccharide antigens are T-independent: they stimulate B cells directly, yielding mainly IgM without class switching or memory. This is why conjugate vaccines, which link the polysaccharide to a carrier protein, are essential for protecting infants."
+                  "feedback": "Review the T-dependent vs T-independent distinction. Polysaccharides bypass T cells, producing only IgM without memory. Conjugate vaccines solve this by attaching a carrier protein that recruits T-cell help, enabling class switching and lasting immunity."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. This is why conjugate vaccines like the Hib and pneumococcal conjugate vaccines were developed — they convert T-independent polysaccharides into T-dependent antigens that generate lasting memory even in young infants."
+                  "feedback": "Well done. This T-dependent vs T-independent distinction underpins the rationale for conjugate vaccines in the paediatric immunisation schedule."
                 }
               ],
               "behaviour": {
@@ -151,7 +151,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "cd877262-246a-427c-aab2-6583dd604396",
+            "subContentId": "a9fa48ad-73ca-4444-b3f1-fdfa7aa073ee",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -171,13 +171,123 @@
         },
         {
           "duration": {
-            "from": 385.025,
-            "to": 395.025
+            "from": 384.42499999999995,
+            "to": 394.42499999999995
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>HIV infection primarily compromises humoral immunity by destroying B lymphocytes</p>",
+          "label": "<p>Why does advanced HIV infection lead to reactivation of latent tuberculosis?</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Why does advanced HIV infection lead to reactivation of latent tuberculosis?</p>",
+              "answers": [
+                {
+                  "text": "<div>HIV directly destroys alveolar macrophages, releasing dormant mycobacteria from granulomas</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. HIV does not directly destroy alveolar macrophages. The mechanism is loss of CD4+ Th1 cells, which are needed to produce interferon-gamma and maintain macrophage activation against intracellular mycobacteria.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>HIV reduces CD4+ T cell counts, impairing the Th1-driven macrophage activation that contains M. tuberculosis</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. M. tuberculosis survives inside macrophages and is held in check by Th1-driven interferon-gamma activation. HIV selectively destroys CD4+ T cells, collapsing this cell-mediated containment. Without sustained Th1 signalling, macrophages can no longer suppress the dormant bacilli, leading to reactivation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>HIV produces antibodies that cross-react with mycobacterial cell wall components, enhancing bacterial growth</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. HIV does not produce cross-reactive antibodies against mycobacteria. TB reactivation occurs because CD4+ T cell depletion removes the Th1 cell-mediated control that keeps M. tuberculosis contained in granulomas.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>HIV suppresses neutrophil oxidative burst, removing the primary killing mechanism against mycobacteria</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. While the neutrophil oxidative burst is critical in some infections (e.g., Chronic Granulomatous Disease), mycobacterial containment depends primarily on CD4+ Th1 cells activating macrophages through interferon-gamma, not on neutrophils.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Remember: M. tuberculosis is an intracellular pathogen controlled by Th1 cells activating macrophages via interferon-gamma. HIV destroys CD4+ T cells, collapsing this arm and enabling TB reactivation."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. The HIV–TB connection illustrates why cell-mediated immunity is indispensable against intracellular pathogens."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "a86fc056-4f67-4cd1-b959-d7f82fe07012",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Why does advanced HIV infection lead to",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 500.57499999999993,
+            "to": 510.57499999999993
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>The Mantoux tuberculin skin test works by detecting anti-mycobacterial antibodie</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,7 +296,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>HIV infection primarily compromises humoral immunity by destroying B lymphocytes, leading to susceptibility to opportunistic infections.</p>",
+              "question": "<p>The Mantoux tuberculin skin test works by detecting anti-mycobacterial antibodies at the injection site.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -204,16 +314,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "HIV targets CD4+ T helper cells, not B lymphocytes. The collapse of cell-mediated immunity — not humoral immunity — is why HIV patients develop opportunistic infections caused by intracellular organisms that require Th1-driven macrophage activation for clearance.",
-                "correctAnswerMessage": "Correct — this statement is false. HIV selectively destroys CD4+ T helper cells, not B lymphocytes. The resulting collapse of cell-mediated immunity explains susceptibility to intracellular pathogens such as Mycobacterium tuberculosis and Pneumocystis jirovecii.",
+                "wrongAnswerMessage": "Incorrect — the Mantoux test measures cell-mediated immunity, not antibodies. It is a Type IV (delayed) hypersensitivity reaction: sensitised Th1 cells recognise tuberculin and release interferon-gamma, activating macrophages and producing induration over 48–72 hours. No immunoglobulin is involved in this reaction.",
+                "correctAnswerMessage": "Correct — the Mantoux test does not detect antibodies. It is a Type IV delayed-type hypersensitivity reaction: previously sensitised CD4+ Th1 cells recognise tuberculin, release interferon-gamma, and recruit macrophages to the site. The resulting induration at 48–72 hours reflects cell-mediated immunity, not humoral.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "9fd6744b-d402-4540-b85f-bda6d43a0f5b",
+            "subContentId": "adc721f2-f6d3-41d0-98b6-a542fe3ea030",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "HIV infection primarily compromises humo",
+              "title": "The Mantoux tuberculin skin test works b",
               "authors": [],
               "changes": []
             }
@@ -229,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 501.17499999999995,
-            "to": 511.17499999999995
+            "from": 695.15,
+            "to": 705.15
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The Mantoux tuberculin skin test is positive in a patient previously exposed to </p>",
+          "label": "<p>A nurse who previously tolerated penicillin develops anaphylaxis on re-exposure.</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The Mantoux tuberculin skin test is positive in a patient previously exposed to Mycobacterium tuberculosis. Which component of the immune response does this test detect?</p>",
+              "question": "<p>A nurse who previously tolerated penicillin develops anaphylaxis on re-exposure. Why does the second exposure trigger a life-threatening reaction while the first did not?</p>",
               "answers": [
                 {
-                  "text": "<div>Circulating IgG antibodies against mycobacterial cell wall antigens</div>",
+                  "text": "<div>Complement proteins accumulate after the first exposure and lyse the nurse's own cells on re-exposure</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The Mantoux test does not measure antibodies. It detects a cell-mediated response — specifically, Th1 memory cells that recognise tuberculin protein and recruit macrophages at the injection site.</div>",
+                    "chosenFeedback": "<div>Incorrect. Complement-mediated lysis features in Type II and III hypersensitivity. Type I anaphylaxis is driven by IgE on mast cells, not by complement accumulation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Complement-mediated lysis of tuberculin-coated cells at the injection site</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Complement is not involved in the Mantoux response. The induration results from T-cell and macrophage infiltration, a hallmark of Type IV delayed-type hypersensitivity.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Th1 cell-mediated delayed-type hypersensitivity</div>",
+                  "text": "<div>The first exposure generated IgE that armed mast cells; re-exposure cross-links this IgE, triggering massive histamine release</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The Mantoux test reads out Th1 memory. Previously sensitised CD4+ T cells recognise tuberculin, release interferon-gamma, and activate macrophages, producing visible induration at 48–72 hours — a classic Type IV hypersensitivity reaction.</div>",
+                    "chosenFeedback": "<div>Correct. The first exposure to penicillin (acting as a hapten bound to serum proteins) stimulated IgE production. This IgE armed mast cells throughout the body. On re-exposure, penicillin cross-links the bound IgE, causing immediate mast cell degranulation and massive histamine release — the hallmark of Type I hypersensitivity.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Natural killer cell cytotoxicity triggered by tuberculin protein</div>",
+                  "text": "<div>Immune complexes formed during the first exposure deposited in tissues and activated neutrophils on re-exposure</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Natural killer cells are part of innate immunity and do not generate antigen-specific memory. The Mantoux reaction is an adaptive, T-cell-mediated response that takes 48–72 hours to develop.</div>",
+                    "chosenFeedback": "<div>Incorrect. Immune complex deposition describes Type III hypersensitivity, which develops over hours, not minutes. The immediate onset of anaphylaxis indicates Type I (IgE-mediated).</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Sensitised CD8+ T cells from the first exposure attack penicillin-exposed tissues on re-exposure</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. CD8+ T cell–mediated responses describe Type IV delayed hypersensitivity, which takes 24–72 hours to develop. The immediate onset within minutes rules out T-cell involvement.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The Mantoux test detects Th1-mediated delayed-type hypersensitivity (Type IV), not antibodies or complement. Sensitised CD4+ T cells recognise tuberculin protein and release interferon-gamma, activating macrophages and producing induration at 48–72 hours."
+                  "feedback": "The key is timing and mechanism: Type I = IgE on mast cells (minutes), Type II = IgG/IgM on cells (hours), Type III = immune complexes (hours), Type IV = T cells (24–72 hours). Anaphylaxis within minutes points to Type I."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The Mantoux test is a clinical readout of Type IV hypersensitivity — sensitised Th1 cells recognise tuberculin and activate macrophages, producing the characteristic induration at 48–72 hours."
+                  "feedback": "Well done. Understanding that IgE sensitisation requires initial exposure and that anaphylaxis occurs only on re-exposure is key to recognising Type I hypersensitivity."
                 }
               ],
               "behaviour": {
@@ -319,121 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "c7f51920-11d1-455c-8929-e5658dfb52e7",
+            "subContentId": "fac9d06a-1006-474b-9f6b-a513b138b90b",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The Mantoux tuberculin skin test is posi",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 695.75,
-            "to": 705.75
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A patient with systemic lupus erythematosus has a positive VDRL test but no clin</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A patient with systemic lupus erythematosus has a positive VDRL test but no clinical evidence of syphilis. What is the most likely explanation for this result?</p>",
-              "answers": [
-                {
-                  "text": "<div>VDRL uses immunofluorescence that cross-reacts with antinuclear antibodies</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>VDRL is a flocculation test, not immunofluorescence. It detects anti-cardiolipin antibodies, which lupus patients produce as part of their autoimmune antibody profile.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Complement consumption in lupus creates immune complexes that agglutinate the VDRL reagent</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While complement consumption occurs in lupus, it does not cause VDRL positivity. The false positive is specifically due to anti-cardiolipin antibodies that react with the cardiolipin in the VDRL reagent.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>VDRL becomes falsely positive in any patient receiving immunosuppressive therapy</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Immunosuppressive therapy does not cause false-positive VDRL results. The false positivity arises from anti-cardiolipin antibodies that lupus patients produce independently of any treatment.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Lupus patients produce anti-cardiolipin antibodies, and VDRL detects these rather than treponemal antibodies</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>VDRL is a non-treponemal test that detects antibodies against cardiolipin. SLE patients produce anti-cardiolipin antibodies as part of the antiphospholipid antibody syndrome. Always confirm syphilis with a treponemal-specific test such as FTA-ABS.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "VDRL is a non-treponemal screening test that detects anti-cardiolipin antibodies. Lupus patients produce these antibodies as part of their autoimmune profile, causing biological false positives. A treponemal-specific confirmatory test is always required."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. VDRL detects anti-cardiolipin antibodies, not antibodies against Treponema pallidum. Since lupus patients produce anti-cardiolipin antibodies, a positive VDRL must always be confirmed with a treponemal-specific test."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "ef6377d9-8885-4bb6-a744-d62177b0aa46",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A patient with systemic lupus erythemato",
+              "title": "A nurse who previously tolerated penicil",
               "authors": [],
               "changes": []
             }
@@ -455,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A kidney transplant recipient develops graft failure within minutes of completin</p>",
+          "label": "<p>Six weeks after receiving a kidney transplant, a patient develops fever and risi</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A kidney transplant recipient develops graft failure within minutes of completing vascular anastomosis. Which immunological mechanism is most likely responsible?</p>",
+              "question": "<p>Six weeks after receiving a kidney transplant, a patient develops fever and rising serum creatinine. Biopsy shows lymphocytic infiltration of the graft. What is the most likely type of rejection and its mechanism?</p>",
               "answers": [
                 {
-                  "text": "<div>Preformed recipient antibodies binding donor HLA molecules on graft endothelium</div>",
+                  "text": "<div>Hyperacute rejection caused by preformed anti-donor antibodies destroying the graft vasculature</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Hyperacute rejection occurs within minutes of transplantation when preformed antibodies attack the graft vasculature. The onset at six weeks with lymphocytic infiltrate indicates a T-cell mediated process, not preformed antibody.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Chronic rejection caused by gradual fibrosis from indirect processing of donor HLA fragments by host cells</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Chronic rejection develops over months to years through the indirect pathway, where host antigen-presenting cells process donor HLA fragments. The timeline of six weeks and the dense lymphocytic infiltrate are characteristic of acute rejection.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Graft-versus-host disease caused by donor lymphocytes attacking recipient tissues</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Graft-versus-host disease involves donor immune cells attacking the recipient's tissues, typically seen in bone marrow transplants. In solid organ transplants, rejection is host-versus-graft, with recipient T cells attacking the donor organ.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Acute rejection caused by host T cells directly recognising intact donor HLA molecules on graft cells</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Hyperacute rejection occurs within minutes when preformed antibodies in the recipient bind donor HLA on graft endothelial cells, activating complement and causing widespread thrombosis. Pre-transplant crossmatch testing is performed specifically to prevent this.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Direct recognition of donor MHC molecules by recipient T cells</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Direct T-cell recognition of donor MHC drives acute rejection, which takes days to weeks to develop — not minutes. The immediate timeline points to a pre-existing antibody-mediated process.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Gradual fibrosis from processed donor peptides presented on recipient antigen-presenting cells</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This describes the indirect pathway of chronic rejection, which develops over months to years. The minutes-long timeline in this scenario is characteristic of antibody-mediated hyperacute rejection.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Recipient natural killer cells lysing donor cells that lack self-MHC class I molecules</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>NK cell-mediated lysis of missing-self targets is relevant in bone marrow transplantation, not solid organ rejection within minutes. The immediate graft failure described here is caused by preformed antibodies triggering complement-mediated endothelial damage.</div>",
+                    "chosenFeedback": "<div>Correct. Acute rejection typically occurs days to weeks after transplantation. Host T cells directly recognise intact donor HLA molecules on graft cells (the direct pathway), leading to lymphocytic infiltration and graft damage. Cyclosporin prevents this by blocking calcineurin and inhibiting IL-2 production, suppressing T-cell activation.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Graft failure within minutes of vascular anastomosis indicates hyperacute rejection — caused by preformed recipient antibodies that bind donor HLA, activate complement, and trigger widespread endothelial thrombosis. This is prevented by pre-transplant crossmatch testing."
+                  "feedback": "Three rejection types are distinguished by timing and mechanism: hyperacute (minutes, preformed antibodies), acute (days to weeks, T cells recognising donor HLA directly), and chronic (months to years, indirect processing causing fibrosis). This case points to acute rejection."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Hyperacute rejection is an antibody-mediated emergency occurring within minutes of transplantation. Preformed antibodies activate complement on graft endothelium, causing thrombosis and immediate graft loss. Pre-transplant crossmatching is the key preventive measure."
+                  "feedback": "Well done. The direct pathway — host T cells recognising donor HLA — drives acute rejection, while the indirect pathway drives chronic fibrosis. Timing and biopsy findings distinguish the three types."
                 }
               ],
               "behaviour": {
@@ -539,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "68b735dd-53ce-47fe-bb7b-a5c1e6933e5a",
+            "subContentId": "faadfa07-3005-4b06-9d40-0b18440e5495",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A kidney transplant recipient develops g",
+              "title": "Six weeks after receiving a kidney trans",
               "authors": [],
               "changes": []
             }
@@ -614,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "e74cd228-719d-44c1-aedf-9495265b3555",
+              "subContentId": "c8d1bd16-f860-4474-8559-123960f2aebe",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -637,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "94277902-6dc4-4d00-9168-72c7c49b8c33",
+        "subContentId": "493528cc-380b-4d2a-b447-34acc14e486d",
         "metadata": {
           "contentType": "Summary",
           "license": "U",

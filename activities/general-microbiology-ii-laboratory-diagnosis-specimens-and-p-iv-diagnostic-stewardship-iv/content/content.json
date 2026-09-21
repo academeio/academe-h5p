@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/662a22d3-f5bc-41a9-98c5-04cdde74164e/playlist.m3u8",
+          "path": "https://vdo.cbme.in/80d332a7-98f1-4c62-9f2f-3b416222b0e6/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,71 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 291.04999999999995,
-            "to": 301.04999999999995
+            "from": 187.67499999999998,
+            "to": 197.67499999999998
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient who has completed successful treatment for tuberculosis will immediate</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>A patient who has completed successful treatment for tuberculosis will immediately test negative on PCR.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "That statement is false. PCR detects DNA regardless of organism viability. A successfully treated TB patient may remain PCR-positive for weeks because dead mycobacterial DNA persists in the specimen. Always correlate molecular results with clinical response and culture.",
-                "correctAnswerMessage": "Correct. PCR amplifies nucleic acid from both living and dead organisms. After successful TB treatment, dead mycobacterial DNA can persist in specimens for weeks, keeping the result positive. Clinical improvement and culture negativity are needed to confirm cure.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "1d2d43b1-c72b-4cc8-95b9-07be452d8dea",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "A patient who has completed successful t",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 390.19999999999993,
-            "to": 400.19999999999993
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A district hospital suspects Chlamydia trachomatis as the cause of a patient's u</p>",
+          "label": "<p>Why does culture remain the gold standard for infectious disease diagnosis despi</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A district hospital suspects Chlamydia trachomatis as the cause of a patient's urethritis. Standard bacterial culture yields no growth. Based on the test selection principles discussed, which investigation is most appropriate?</p>",
+              "question": "<p>Why does culture remain the gold standard for infectious disease diagnosis despite being the slowest conventional method?</p>",
               "answers": [
                 {
-                  "text": "<div>Repeat culture on MacConkey agar with prolonged incubation</div>",
+                  "text": "<div>It can identify all known pathogens, including obligate intracellular organisms</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Chlamydia is an obligate intracellular organism and cannot grow on standard bacteriological media such as MacConkey agar, regardless of incubation time.</div>",
+                    "chosenFeedback": "<div>Obligate intracellular organisms like Chlamydia and Rickettsia cannot grow on standard culture media. Culture is limited to organisms that replicate on artificial media.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Nucleic acid amplification test (PCR) for Chlamydia trachomatis</div>",
+                  "text": "<div>It yields live organisms that can be tested for antibiotic susceptibility</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Chlamydia is an obligate intracellular pathogen that cannot grow on standard culture media. PCR detects its genetic material directly and is the recommended diagnostic method.</div>",
+                    "chosenFeedback": "<div>Correct. Only viable organisms grown in culture can undergo phenotypic antibiotic susceptibility testing, which is essential for guiding targeted antibiotic therapy.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Serum Widal test to detect cross-reacting antibodies</div>",
+                  "text": "<div>It provides a quantitative measurement of pathogen load in the specimen</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The Widal test detects antibodies against Salmonella Typhi, not Chlamydia. It has no role in diagnosing chlamydial urethritis.</div>",
+                    "chosenFeedback": "<div>Quantitative pathogen load measurement is the strength of real-time quantitative PCR (qPCR), not conventional culture.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Ziehl-Neelsen staining of urethral discharge</div>",
+                  "text": "<div>It produces results faster than molecular methods when selective media are used</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Ziehl-Neelsen staining identifies acid-fast bacilli (primarily Mycobacterium species). Chlamydia is neither acid-fast nor visible on this stain.</div>",
+                    "chosenFeedback": "<div>Even on selective media such as MacConkey agar, bacterial culture typically requires 24–48 hours. Molecular methods like PCR yield results within hours.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Chlamydia is an obligate intracellular organism that cannot be cultured on standard bacteriological media. When pathogen biology precludes conventional culture, PCR or serology becomes the mandatory alternative."
+                  "feedback": "Review the narration: culture sits at the definitive end of the diagnostic spectrum because it yields live organisms for antibiotic susceptibility testing."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Obligate intracellular organisms like Chlamydia and Rickettsia cannot grow on standard media, making PCR or serology mandatory — a key application of the pathogen biology factor in test selection."
+                  "feedback": "Culture's unique value is producing live organisms for susceptibility testing — no molecular method replaces that."
                 }
               ],
               "behaviour": {
@@ -209,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "d8e1759c-7af8-4a7c-aeba-8d75cfca53a7",
+            "subContentId": "9e497404-cd0f-4bec-aab1-4eaa86575509",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A district hospital suspects Chlamydia t",
+              "title": "Why does culture remain the gold standar",
               "authors": [],
               "changes": []
             }
@@ -229,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 548.8,
-            "to": 558.8
+            "from": 389.5999999999999,
+            "to": 399.5999999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the epidemiological triad discussed in this session, disease emerges when the</p>",
+          "label": "<p>A clinician suspects Chlamydia pneumoniae infection in an immunocompromised pati</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In the epidemiological triad discussed in this session, disease emerges when the balance shifts in favour of the agent. Which set of factors constitutes the 'host' component of this triad?</p>",
+              "question": "<p>A clinician suspects Chlamydia pneumoniae infection in an immunocompromised patient. Given that Chlamydia is an obligate intracellular organism, which diagnostic approach is most appropriate?</p>",
               "answers": [
                 {
-                  "text": "<div>Pathogenicity, virulence, and minimum infective dose</div>",
+                  "text": "<div>Culture on MacConkey agar to isolate the organism and perform susceptibility testing</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>These are properties of the agent, not the host. The agent component describes the organism's inherent capacity to cause disease.</div>",
+                    "chosenFeedback": "<div>MacConkey agar supports gram-negative bacteria that replicate on artificial media. Obligate intracellular organisms like Chlamydia require living host cells and cannot grow on any standard culture medium.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Age, immune status, nutrition, and comorbidities</div>",
+                  "text": "<div>Widal test to detect antibodies against Chlamydia surface antigens</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The Widal test specifically detects antibodies against Salmonella Typhi. It has no role in diagnosing Chlamydia infections.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>PCR or serology, since obligate intracellular organisms cannot grow on standard culture media</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The host component includes factors that determine individual susceptibility — age, immune status, nutritional state, and comorbid conditions.</div>",
+                    "chosenFeedback": "<div>Correct. As the narration explains, Chlamydia and Rickettsia are obligate intracellular organisms that cannot grow on standard media, making PCR or serology mandatory for their diagnosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Climate, sanitation, and overcrowding</div>",
+                  "text": "<div>Ziehl-Neelsen stain of sputum to visualise the intracellular organisms directly</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>These are environmental factors, not host factors. The environment component describes external conditions that facilitate or hinder disease transmission.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Reservoir, portal of exit, and route of transmission</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>These are elements of the chain of transmission, a separate framework from the epidemiological triad. The chain describes how infection moves from source to susceptible host.</div>",
+                    "chosenFeedback": "<div>The Ziehl-Neelsen stain identifies acid-fast bacilli, primarily Mycobacterium species. Chlamydia is not acid-fast and cannot be identified by this method.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The host component includes factors affecting individual susceptibility: age, immune status, nutrition, and comorbidities. Remember to distinguish the triad (agent, host, environment) from the chain of transmission (reservoir, portal of exit, route, susceptible host)."
+                  "feedback": "The narration identified pathogen biology as a key factor: obligate intracellular organisms like Chlamydia cannot grow on standard media, so PCR or serology is mandatory."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The host component — age, immune status, nutrition, and comorbidities — determines individual susceptibility. Disease occurs when agent, host, and environmental factors align in favour of the pathogen."
+                  "feedback": "Pathogen biology is one of the five factors guiding test selection — obligate intracellular organisms mandate PCR or serology."
                 }
               ],
               "behaviour": {
@@ -319,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "30d414bc-167b-4680-9a6c-24856e38ce1c",
+            "subContentId": "116b5bcc-e7e2-4e52-87f9-37af3f157938",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In the epidemiological triad discussed i",
+              "title": "A clinician suspects Chlamydia pneumonia",
               "authors": [],
               "changes": []
             }
@@ -339,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 652.9749999999999,
-            "to": 662.9749999999999
+            "from": 548.1999999999999,
+            "to": 558.1999999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A laboratory technician routinely applies stricter biosafety precautions to spec</p>",
+          "label": "<p>How does prompt sputum collection and transport for tuberculosis contribute to d</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A laboratory technician routinely applies stricter biosafety precautions to specimens labelled 'HIV-positive' while using standard precautions for unlabelled specimens. This practice is:</p>",
+              "question": "<p>How does prompt sputum collection and transport for tuberculosis contribute to disease control at the population level?</p>",
               "answers": [
                 {
-                  "text": "<div>Appropriate, because HIV carries a higher transmission risk than most pathogens</div>",
+                  "text": "<div>It directly reduces the pathogen's virulence through cold-chain transport conditions</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Universal precautions exist because any specimen may carry blood-borne pathogens, including unlabelled ones. Differential handling creates a false sense of safety and is a form of discrimination.</div>",
+                    "chosenFeedback": "<div>Transport conditions preserve specimen quality for accurate diagnosis; they do not affect the pathogen's virulence. Sputum is transported at ambient temperature, not via cold chain.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Discriminatory and irrational, because any specimen can carry blood-borne pathogens</div>",
+                  "text": "<div>It eliminates Mycobacterium tuberculosis from environmental reservoirs permanently</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>M. tuberculosis reservoirs cannot be permanently eliminated from the environment. The primary reservoir is the infected human host.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It strengthens host immunity by facilitating earlier BCG revaccination of contacts</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>BCG vaccination is given at birth as part of the routine immunisation schedule, not in response to individual case detection. Prompt specimen work aids diagnosis, not vaccination.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It breaks the chain of transmission by enabling earlier diagnosis and reducing the patient's infectious period</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Universal precautions must apply equally to every specimen. Singling out HIV-labelled samples implies unlabelled specimens are safe — which is irrational — and stigmatises patients whose diagnosis is known.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Required under the HIV and AIDS (Prevention and Control) Act, 2017</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The HIV Act, 2017 protects patient confidentiality and prohibits discrimination. It does not mandate stricter precautions for labelled specimens — differential handling would contravene its anti-discrimination provisions.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Acceptable if the technician has not received hepatitis B vaccination</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Vaccination status does not justify differential specimen handling. Universal precautions apply regardless of the handler's immunisation history.</div>",
+                    "chosenFeedback": "<div>Correct. A smear-positive TB patient can infect ten to fifteen contacts per year. Prompt specimen collection enables earlier diagnosis and treatment, shortening the infectious period and breaking the transmission chain at population scale.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Universal precautions must be applied uniformly to every specimen. Applying stricter measures only to HIV-labelled samples is discriminatory and irrational — any specimen can carry blood-borne pathogens."
+                  "feedback": "The narration linked specimen quality to the chain of transmission: prompt diagnosis shortens the period during which a TB patient can infect others."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Universal precautions apply equally to all specimens. Differential handling is both discriminatory and a biosafety failure, since unlabelled specimens may carry the same blood-borne pathogens."
+                  "feedback": "As the narration emphasised, good sputum collection is a public health act — it interrupts transmission chains at population scale."
                 }
               ],
               "behaviour": {
@@ -429,11 +371,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8e04a38e-dbe9-4a1f-8121-5a22023b62a3",
+            "subContentId": "e1c9b840-fab3-415b-bcb7-b14ec7858fe2",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A laboratory technician routinely applie",
+              "title": "How does prompt sputum collection and tr",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 652.3749999999999,
+            "to": 662.3749999999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A laboratory technician applies additional infection-control precautions to spec</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A laboratory technician applies additional infection-control precautions to specimens labelled 'HIV-positive' while handling unlabelled specimens with standard precautions only. Which professional principle does this practice violate?</p>",
+              "answers": [
+                {
+                  "text": "<div>The SBAR framework for communicating critical laboratory results</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>SBAR (Situation, Background, Assessment, Recommendation) is a structured communication framework for reporting results to clinicians, not a specimen-handling protocol.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The requirement for pre-test counselling before HIV testing</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Pre-test counselling is required before HIV testing under national guidelines, but this question concerns specimen handling practices, not the testing process itself.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Universal precautions, which mandate identical safety measures for all specimens regardless of label</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Universal precautions require that every specimen be treated as potentially infectious. Applying stricter measures only to labelled HIV-positive specimens is both discriminatory and irrational, as any unlabelled specimen could carry blood-borne pathogens.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The minimum necessary principle of information disclosure</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The minimum necessary principle governs how much patient information is shared with others, not how specimens are physically handled in the laboratory.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The narration stated that applying stricter precautions to HIV-labelled specimens while relaxing them for unlabelled ones is 'both discriminatory and irrational,' because any specimen can carry blood-borne pathogens."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Universal precautions apply to every specimen equally — differential handling based on a diagnostic label is both discriminatory and a safety risk."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "bbc8a5ea-4d22-47fe-9680-3eecad3afe81",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A laboratory technician applies addition",
               "authors": [],
               "changes": []
             }
@@ -500,7 +552,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "977be145-3894-4a0c-b19e-a158569f8b77",
+              "subContentId": "d612a0d9-55c5-4d7b-972a-c7a8a9a683d9",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -523,7 +575,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "0fcee6a9-a22e-4ad0-8614-4ec10eb3ada2",
+        "subContentId": "0672b9e8-730c-4710-b4f8-d6fc5b63e423",
         "metadata": {
           "contentType": "Summary",
           "license": "U",

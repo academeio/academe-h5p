@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/e2ad1ccb-3c80-429f-9f83-2c3284a7922a/playlist.m3u8",
+          "path": "https://vdo.cbme.in/770e8266-c82c-4e49-b6e7-26924c167a5f/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -67,95 +67,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with diarrhoea continues to pass large-volume watery stools even after</p>",
+          "label": "<p>Secretory diarrhoea resolves when the patient fasts, because no further substrat</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A patient with diarrhoea continues to pass large-volume watery stools even after 24 hours of complete fasting. Which mechanism of diarrhoea does this finding indicate?</p>",
-              "answers": [
-                {
-                  "text": "<div>Osmotic diarrhoea</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Osmotic diarrhoea stops when the patient fasts, because the unabsorbed solute (e.g. lactose) is no longer entering the gut to hold water by osmosis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Secretory diarrhoea</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. In secretory diarrhoea, a toxin such as cholera toxin activates chloride channels, driving fluid secretion independent of oral intake — hence it persists with fasting and the stool osmotic gap is low.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Malabsorptive diarrhoea</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Malabsorptive diarrhoea produces pale, greasy, floating stools (steatorrhoea) with weight loss and nutritional deficiencies, not simply large-volume watery output.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Inflammatory diarrhoea</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Inflammatory diarrhoea is characterised by blood, mucus, fever, and tenesmus — signs of mucosal invasion — rather than painless watery stools.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The key clue is fasting behaviour. Secretory diarrhoea persists with fasting (toxin-driven chloride secretion is independent of luminal contents), while osmotic diarrhoea stops. Review the four-mechanism framework before proceeding."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. The persistence of watery stools despite fasting is the hallmark of secretory diarrhoea, distinguishing it from osmotic diarrhoea where symptoms resolve with fasting."
-                }
-              ],
+              "question": "<p>Secretory diarrhoea resolves when the patient fasts, because no further substrate enters the gut.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This describes osmotic diarrhoea, not secretory. Secretory diarrhoea is driven by active ion secretion into the lumen (e.g. cholera toxin → cAMP → CFTR activation) and continues regardless of oral intake. Osmotic diarrhoea resolves with fasting because the unabsorbed solute is no longer entering the gut.",
+                "correctAnswerMessage": "Correct. Secretory diarrhoea persists even during fasting because it is driven by active chloride secretion (e.g. cholera toxin activating cAMP-mediated CFTR channels), independent of luminal contents. It is osmotic diarrhoea that resolves with fasting, since it depends on an unabsorbed solute such as lactose.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "e3ddc5cf-94aa-41f8-81b9-4640a7688025",
+            "subContentId": "60da77c6-5fcd-4928-b00b-8bcee5ff357a",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "A patient with diarrhoea continues to pa",
+              "title": "Secretory diarrhoea resolves when the pa",
               "authors": [],
               "changes": []
             }
@@ -177,7 +125,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient presents with frequent small-volume stools containing blood and mucus,</p>",
+          "label": "<p>A 40-year-old man presents to a district hospital with acute diarrhoea. Which as</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient presents with frequent small-volume stools containing blood and mucus, accompanied by tenesmus. Based on stool characteristics, which part of the gastrointestinal tract is the most likely site of pathology?</p>",
+              "question": "<p>A 40-year-old man presents to a district hospital with acute diarrhoea. Which aspect of the clinical evaluation should be prioritised FIRST?</p>",
               "answers": [
                 {
-                  "text": "<div>Duodenum</div>",
+                  "text": "<div>Detailed dietary history over the past 72 hours</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Duodenal pathology typically produces large-volume output or upper GI bleeding (melaena), not small frequent bloody stools with tenesmus.</div>",
+                    "chosenFeedback": "<div>Dietary history is important for identifying the source but comes after ensuring the patient is haemodynamically stable. Dehydration is the immediate life-threatening complication.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Jejunum</div>",
+                  "text": "<div>Stool microscopy for ova and parasites</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Small intestinal pathology produces large-volume watery or fatty stools, not the small-volume, mucoid pattern described here.</div>",
+                    "chosenFeedback": "<div>Stool examination guides specific treatment but follows the initial clinical assessment and stabilisation of the patient.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Ileum</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Ileal disease tends to produce large-volume stools, sometimes with fat malabsorption. Tenesmus is a symptom of rectal and distal colonic involvement.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Large bowel</div>",
+                  "text": "<div>Assessment of dehydration severity</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Small-volume, frequent stools with blood, mucus, and tenesmus indicate colonic pathology. Stool volume is a clinical localiser: large-volume equals small bowel; small and frequent equals large bowel.</div>",
+                    "chosenFeedback": "<div>Dehydration is the immediate threat in acute diarrhoea. Assessing severity — pulse, blood pressure, skin turgor, mental status, urine output — determines whether the patient needs urgent intravenous fluids or can be managed with oral rehydration.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Sexual history to assess for specific pathogens</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Sexual history is relevant in certain populations (e.g. men who have sex with men, HIV-positive patients) but is not the first priority in acute diarrhoea assessment.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the volume rule from the history-taking framework: large-volume watery output localises to the small bowel, while small frequent stools with blood and mucus localise to the large bowel."
+                  "feedback": "In acute diarrhoea, always assess dehydration severity first. A postural blood pressure drop can signal significant volume loss before the patient appears critically unwell. This determines whether the patient needs Plan A (home ORS), Plan B (supervised oral rehydration), or Plan C (immediate IV fluids)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Stool volume is a simple but powerful localiser — small frequent bloody stools with tenesmus point to large bowel pathology, guiding your differential and examination."
+                  "feedback": "Exactly. Dehydration assessment comes first because it determines the immediacy and route of rehydration — the single most important intervention in acute diarrhoea."
                 }
               ],
               "behaviour": {
@@ -261,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5bde5135-61c5-4eec-8811-84126ff0256f",
+            "subContentId": "5802b1d1-07b5-4de3-a2a3-e956f0d39be3",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient presents with frequent small-v",
+              "title": "A 40-year-old man presents to a district",
               "authors": [],
               "changes": []
             }
@@ -287,7 +235,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 30-year-old man presents with bloody diarrhoea and fever. His complete blood c</p>",
+          "label": "<p>On stool microscopy of a patient with acute watery diarrhoea, faecal leucocytes </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 30-year-old man presents with bloody diarrhoea and fever. His complete blood count shows neither leucopenia nor eosinophilia. Stool microscopy reveals abundant faecal leucocytes. Which diagnosis is most consistent with these findings?</p>",
+              "question": "<p>On stool microscopy of a patient with acute watery diarrhoea, faecal leucocytes are absent. What does this finding indicate about the diarrhoeal mechanism?</p>",
               "answers": [
                 {
-                  "text": "<div>Cholera</div>",
+                  "text": "<div>The diarrhoea is inflammatory with mucosal invasion</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Cholera produces large-volume, rice-water stools without blood or faecal leucocytes. It is a secretory process driven by toxin, not mucosal invasion.</div>",
+                    "chosenFeedback": "<div>Inflammatory diarrhoea characteristically shows faecal leucocytes due to mucosal invasion and neutrophil infiltration. Their absence argues against an invasive process.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Shigella dysentery</div>",
+                  "text": "<div>The process is non-invasive — secretory or osmotic rather than inflammatory</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Bloody stools with fever and abundant faecal leucocytes indicate mucosal invasion, characteristic of Shigella. The normal white cell differential excludes enteric fever (leucopenia) and helminths (eosinophilia).</div>",
+                    "chosenFeedback": "<div>Absence of faecal leucocytes indicates an intact mucosa. In secretory diarrhoea (e.g. cholera) and osmotic diarrhoea, the epithelium is not invaded. Their presence would point to inflammatory causes such as Shigella or Entamoeba histolytica.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Helminthic infection</div>",
+                  "text": "<div>The patient definitely has a viral aetiology</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Helminthic infections characteristically produce eosinophilia on CBC, which is absent in this patient. They also rarely cause acute bloody diarrhoea with faecal leucocytes.</div>",
+                    "chosenFeedback": "<div>While viral gastroenteritis is non-invasive and would lack faecal leucocytes, other non-invasive causes (cholera, ETEC, osmotic diarrhoea) also show absent leucocytes. The finding indicates the mechanism, not the specific aetiology.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Enteric fever</div>",
+                  "text": "<div>Stool culture is unnecessary and should not be ordered</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Enteric fever characteristically shows leucopenia with relative lymphocytosis on CBC. Additionally, enteric fever typically presents with pea-soup stools, not overt bloody dysentery in its early phase.</div>",
+                    "chosenFeedback": "<div>The decision to send a stool culture depends on clinical indications — dysentery, duration beyond 7 days, suspected outbreaks, or immunocompromise — not solely on the presence or absence of faecal leucocytes.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Use the CBC and stool findings together. Faecal leucocytes indicate invasive diarrhoea. Then the CBC narrows further: leucopenia points to enteric fever, eosinophilia to helminths. When both are absent, Shigella dysentery is the leading invasive cause."
+                  "feedback": "Faecal leucocytes are present when the intestinal mucosa is invaded (inflammatory diarrhoea) and absent when it is intact (secretory or osmotic diarrhoea). This single finding tells you the mechanism and guides your differential diagnosis."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well reasoned. Faecal leucocytes confirm mucosal invasion, and the CBC pattern helps exclude enteric fever and helminths — leaving Shigella as the most consistent diagnosis."
+                  "feedback": "Correct. Faecal leucocytes are the microscopic marker of mucosal invasion. Their absence points to a secretory or osmotic mechanism, narrowing your differential before any culture result."
                 }
               ],
               "behaviour": {
@@ -371,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ef3d4eb4-bbdb-4dea-9d13-7a9fe80dec6a",
+            "subContentId": "d4dbcbfb-2b7a-42e2-af4a-97b8a59b4ee7",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 30-year-old man presents with bloody d",
+              "title": "On stool microscopy of a patient with ac",
               "authors": [],
               "changes": []
             }
@@ -391,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 742.675,
-            "to": 752.675
+            "from": 742.0749999999999,
+            "to": 752.0749999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 25-year-old man presents with bloody diarrhoea, fever of 39°C, and tenesmus. H</p>",
+          "label": "<p>A 22-year-old man presents with profuse rice-water stools and severe dehydration</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 25-year-old man presents with bloody diarrhoea, fever of 39°C, and tenesmus. His blood pressure is 110/70 mmHg. Which of the following drugs is contraindicated in this patient?</p>",
+              "question": "<p>A 22-year-old man presents with profuse rice-water stools and severe dehydration during a cholera outbreak. After initiating intravenous Ringer's Lactate, which antibiotic is most appropriate?</p>",
               "answers": [
                 {
-                  "text": "<div>Ciprofloxacin</div>",
+                  "text": "<div>Ciprofloxacin 500 mg twice daily for 3 days</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Ciprofloxacin is the first-line antibiotic for Shigella dysentery. It targets the invasive organism causing mucosal damage and is indicated, not contraindicated.</div>",
+                    "chosenFeedback": "<div>Ciprofloxacin is the drug of choice for Shigella dysentery, which presents with bloody mucoid stools and tenesmus — not the watery, rice-water pattern seen in cholera.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Oral rehydration solution</div>",
+                  "text": "<div>Oral vancomycin 125 mg four times daily for 10 days</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>ORS is the cornerstone of all diarrhoea management and is always indicated, regardless of the mechanism or severity.</div>",
+                    "chosenFeedback": "<div>Oral vancomycin is reserved for Clostridioides difficile infection, typically following recent antibiotic use. It has no role in cholera management.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Loperamide</div>",
+                  "text": "<div>Doxycycline 300 mg as a single dose</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Antimotility agents like loperamide are strictly contraindicated in dysentery. Slowing intestinal transit when the mucosa is invaded risks trapping toxins and bacteria, potentially causing toxic megacolon.</div>",
+                    "chosenFeedback": "<div>In cholera, doxycycline (300 mg single dose) is the adjunctive antibiotic of choice. It reduces the duration and volume of diarrhoea. Rehydration remains the primary life-saving intervention; the antibiotic is adjunctive only because cholera is toxin-mediated.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Azithromycin</div>",
+                  "text": "<div>Azithromycin 1 g daily for 3 days</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Azithromycin is an alternative antibiotic for bacterial dysentery and traveller's diarrhoea. It is safe and indicated, not contraindicated.</div>",
+                    "chosenFeedback": "<div>Azithromycin is used for traveller's diarrhoea caused by enterotoxigenic E. coli. While it can be an alternative in cholera in some settings, single-dose doxycycline is the standard first-line choice.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The clinical triad of bloody stools, fever, and tenesmus defines dysentery — mucosal invasion. Loperamide slows transit, trapping invasive organisms and their toxins, risking toxic megacolon. It is the one contraindicated drug in this scenario."
+                  "feedback": "In cholera, doxycycline 300 mg as a single dose is the adjunctive antibiotic of choice. Remember the mechanistic split: cholera is toxin-mediated (doxycycline adjunctive), Shigella is invasive (ciprofloxacin essential), and C. difficile requires stopping the precipitating antibiotic and starting oral vancomycin."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct — this is a hard safety rule. Never use antimotility agents in dysentery; the risk of toxic megacolon outweighs any symptomatic benefit."
+                  "feedback": "Correct. Cholera is toxin-mediated, so doxycycline is adjunctive — rehydration is the definitive treatment. The single-dose regimen reduces stool output and shortens illness duration."
                 }
               ],
               "behaviour": {
@@ -481,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5fdf2df6-52c3-4d97-ae01-1d1be5a416e0",
+            "subContentId": "7a90772a-9295-41c9-a2b0-020862730d79",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 25-year-old man presents with bloody d",
+              "title": "A 22-year-old man presents with profuse",
               "authors": [],
               "changes": []
             }
@@ -501,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 844.525,
-            "to": 854.525
+            "from": 843.925,
+            "to": 853.925
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with confirmed intestinal amoebiasis has completed a full course of me</p>",
+          "label": "<p>After treating invasive intestinal amoebiasis with metronidazole, what is the es</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -516,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with confirmed intestinal amoebiasis has completed a full course of metronidazole and is now asymptomatic. What is the essential next step in management?</p>",
+              "question": "<p>After treating invasive intestinal amoebiasis with metronidazole, what is the essential next step?</p>",
               "answers": [
                 {
-                  "text": "<div>No further treatment is required</div>",
+                  "text": "<div>Repeat stool microscopy at 48 hours to confirm clearance</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Stopping after metronidazole alone leaves viable cysts in the intestinal lumen. The patient may relapse and continues to transmit infection to others.</div>",
+                    "chosenFeedback": "<div>Follow-up microscopy is useful but is not the critical next step. Without a luminal agent, cysts persist in the intestinal lumen even after trophozoites are eliminated, leading to relapse and continued transmission.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A course of albendazole</div>",
+                  "text": "<div>Start albendazole 400 mg daily for 3 days</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Albendazole is an antihelminthic agent effective against roundworms and hookworms. It has no role in eliminating Entamoeba histolytica cysts.</div>",
+                    "chosenFeedback": "<div>Albendazole is used for helminthic infections (roundworms, hookworms, whipworms). It has no role in eliminating Entamoeba histolytica cyst carriage.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A luminal agent such as diloxanide furoate</div>",
+                  "text": "<div>Prescribe a luminal agent such as diloxanide furoate or paromomycin</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. After a tissue amoebicide like metronidazole, a luminal agent (diloxanide furoate or paromomycin) is mandatory to eliminate intraluminal cyst carriage. This is the most commonly missed step in amoebiasis treatment.</div>",
+                    "chosenFeedback": "<div>Metronidazole eliminates invasive trophozoites but does not clear cysts from the intestinal lumen. A luminal agent (diloxanide furoate or paromomycin) is mandatory to eradicate cyst carriage, preventing both relapse and ongoing faecal-oral transmission. This is the most commonly missed step in amoebiasis treatment.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Repeat colonoscopy after one month</div>",
+                  "text": "<div>Switch to nitazoxanide for 14 days</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While follow-up may be warranted in complicated cases, the immediate priority is eliminating cyst carriage with a luminal agent to prevent relapse and community transmission.</div>",
+                    "chosenFeedback": "<div>Nitazoxanide is the agent of choice for Cryptosporidium parvum, not for follow-up treatment of amoebiasis. The correct follow-up is a luminal cysticidal agent.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -559,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Metronidazole kills trophozoites in tissue but does not reliably clear cysts from the intestinal lumen. A luminal agent like diloxanide furoate or paromomycin must follow to prevent relapse and ongoing transmission."
+                  "feedback": "After metronidazole for invasive amoebiasis, always follow with a luminal agent (diloxanide furoate or paromomycin) to eliminate cyst carriage. Metronidazole kills trophozoites in tissue but leaves cysts in the gut lumen intact — without this step, relapse and transmission continue."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The two-step regimen — tissue amoebicide followed by a luminal agent — is essential. Missing the second step is the single most common error in amoebiasis management."
+                  "feedback": "Exactly right. The two-step treatment of amoebiasis — tissue amoebicide (metronidazole) followed by luminal amoebicide (diloxanide furoate or paromomycin) — is essential to prevent relapse and transmission."
                 }
               ],
               "behaviour": {
@@ -591,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9a514692-2de5-4325-8637-f88384adddec",
+            "subContentId": "d2124cca-c2ef-4639-87b3-1cb1193f4e85",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with confirmed intestinal amoe",
+              "title": "After treating invasive intestinal amoeb",
               "authors": [],
               "changes": []
             }
@@ -666,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "8b07baee-04be-45ce-b211-87514fceb5b7",
+              "subContentId": "d1f42392-4d02-4de9-a6ef-91728e043e3d",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -689,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "44ac1650-04fd-4f11-9fb9-6574b47984d3",
+        "subContentId": "2f9cf91e-1fb2-4f36-9b96-1a8fc2871908",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
