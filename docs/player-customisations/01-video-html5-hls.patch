@@ -1,0 +1,180 @@
+--- libs/H5P.Video-1.6/scripts/html5.js	2026-04-11 14:16:44
++++ libs/H5P.Video-1.7/scripts/html5.js	2026-04-22 08:09:40
+@@ -58,6 +58,69 @@
+     };
+ 
+     /**
++     * hls.js instance when the current source is an HLS playlist. `null` when
++     * the source is MP4 or when Safari's native HLS player is driving.
++     * Closure-scoped so setAudioTrack / getAudioTracks can reach it.
++     *
++     * @private
++     */
++    var hls = null;
++
++    /**
++     * Attach hls.js to the element, wire audio-track events, and start
++     * loading the playlist. Called from setInitialSource when HLS is
++     * detected and Hls.isSupported() is true AND native HLS is not
++     * available. (Safari picks the native path — hls.js doesn't work on
++     * iOS and hardware decoding is free via the element itself.)
++     *
++     * @private
++     * @param {HTMLVideoElement} videoEl
++     * @param {string}           srcPath
++     */
++    const attachHls = function (videoEl, srcPath) {
++      hls = new Hls({
++        // Defaults are fine for Stage 2b; tune later if buffering misbehaves.
++      });
++
++      hls.on(Hls.Events.MANIFEST_PARSED, function () {
++        // Mirror captions API: emit LabelValue[] with array-index as value.
++        var tracks = hls.audioTracks.map(function (t, i) {
++          return new H5P.Video.LabelValue(t.name || t.lang || ('Audio ' + (i + 1)), i);
++        });
++        if (tracks.length) {
++          self.trigger('audioTracks', tracks);
++        }
++      });
++
++      hls.on(Hls.Events.AUDIO_TRACK_SWITCHED, function (_, data) {
++        var t = hls.audioTracks[data.id];
++        if (!t) return;
++        self.trigger('audioTrack', new H5P.Video.LabelValue(t.name || t.lang, data.id));
++      });
++
++      hls.on(Hls.Events.ERROR, function (_, data) {
++        if (!data.fatal) return;
++        // Follow hls.js's recommended recovery: retry network, recover media.
++        // If recovery also fails, propagate to H5P.Video's error channel.
++        switch (data.type) {
++          case Hls.ErrorTypes.NETWORK_ERROR:
++            hls.startLoad();
++            break;
++          case Hls.ErrorTypes.MEDIA_ERROR:
++            hls.recoverMediaError();
++            break;
++          default:
++            self.trigger('error', 'HLS fatal error: ' + (data.details || data.type));
++            hls.destroy();
++            hls = null;
++        }
++      });
++
++      hls.loadSource(srcPath);
++      hls.attachMedia(videoEl);
++    };
++
++    /**
+      * Small helper to set the inital video source.
+      * Useful if some of the loading happens asynchronously.
+      * NOTE: Setting the crossOrigin must happen before any of the
+@@ -70,15 +133,44 @@
+         return;
+       }
+ 
+-      if (H5P.setSource !== undefined) {
+-        H5P.setSource(video, qualities[currentQuality].source, self.contentId)
++      const source = qualities[currentQuality].source;
++      const srcPath = H5P.getPath(source.path, self.contentId);
++      const isHls =
++        /\.m3u8(\?|#|$)/i.test(srcPath) ||
++        source.mime === 'application/vnd.apple.mpegurl' ||
++        source.mime === 'application/x-mpegURL';
++
++      if (isHls) {
++        // Prefer hls.js when Hls.isSupported() — it exposes hls.audioTracks
++        // uniformly across Chrome, Firefox, and Safari desktop, which is
++        // what H5P.InteractiveVideo's gear-menu audio picker hooks into.
++        // Chromium returns canPlayType('application/vnd.apple.mpegurl')
++        // = 'maybe' even though it does not expose HTMLMediaElement.
++        // audioTracks — so falling through to a native <video src=".m3u8">
++        // would leave us with no audio-picker UI. iOS Safari has no MSE
++        // and Hls.isSupported() is false there → fall back to native HLS
++        // (no custom audio UI; handover R3 accepts this).
++        if (window.Hls && window.Hls.isSupported()) {
++          attachHls(video, srcPath);
++        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
++          if (H5P.getCrossOrigin !== undefined) {
++            var crossOrigin = H5P.getCrossOrigin(srcPath);
++            video.setAttribute('crossorigin', crossOrigin !== null ? crossOrigin : 'anonymous');
++          }
++          video.src = srcPath;
++        } else {
++          self.trigger('error', 'HLS not supported in this browser');
++          return;
++        }
+       }
++      else if (H5P.setSource !== undefined) {
++        H5P.setSource(video, source, self.contentId)
++      }
+       else {
+         // Backwards compatibility (H5P < v1.22)
+-        const srcPath = H5P.getPath(qualities[currentQuality].source.path, self.contentId);
+         if (H5P.getCrossOrigin !== undefined) {
+-          var crossOrigin = H5P.getCrossOrigin(srcPath);
+-          video.setAttribute('crossorigin', crossOrigin !== null ? crossOrigin : 'anonymous');
++          var crossOriginMp4 = H5P.getCrossOrigin(srcPath);
++          video.setAttribute('crossorigin', crossOriginMp4 !== null ? crossOriginMp4 : 'anonymous');
+         }
+         video.src = srcPath;
+       }
+@@ -383,6 +475,11 @@
+      * @params {String} [quality]
+      */
+     self.setQuality = function (quality) {
++      if (hls) {
++        // hls.js does its own adaptive-bitrate selection. Fixed-quality
++        // switching isn't wired up for HLS in this version; no-op.
++        return;
++      }
+       if (qualities[quality] === undefined || quality === currentQuality) {
+         return; // Invalid quality
+       }
+@@ -665,6 +762,45 @@
+       return null;
+     };
+ 
++    /**
++     * Audio-track picker API — mirrors the captions API shape. Only wired
++     * when hls.js drives the source. For native-HLS (Safari), the element's
++     * own audio-track UI is used and H5P.InteractiveVideo's gear menu does
++     * not surface a picker — accept as v1 (handover R3).
++     *
++     * @return {Array<H5P.Video.LabelValue>}
++     */
++    self.getAudioTracks = function () {
++      if (!hls) return [];
++      return hls.audioTracks.map(function (t, i) {
++        return new H5P.Video.LabelValue(t.name || t.lang || ('Audio ' + (i + 1)), i);
++      });
++    };
++
++    /**
++     * Switch to the audio track identified by track.value (array index).
++     *
++     * @param {H5P.Video.LabelValue} track
++     */
++    self.setAudioTrack = function (track) {
++      if (!hls || !track || typeof track.value !== 'number') return;
++      if (track.value < 0 || track.value >= hls.audioTracks.length) return;
++      hls.audioTrack = track.value;
++    };
++
++    /**
++     * Current audio track, or null if no HLS source is attached.
++     *
++     * @return {H5P.Video.LabelValue|null}
++     */
++    self.getAudioTrack = function () {
++      if (!hls) return null;
++      var id = hls.audioTrack;
++      var t = hls.audioTracks[id];
++      if (!t) return null;
++      return new H5P.Video.LabelValue(t.name || t.lang || ('Audio ' + (id + 1)), id);
++    };
++
+     // Register event listeners
+     mapEvent('ended', 'stateChange', H5P.Video.ENDED);
+     mapEvent('playing', 'stateChange', H5P.Video.PLAYING);
