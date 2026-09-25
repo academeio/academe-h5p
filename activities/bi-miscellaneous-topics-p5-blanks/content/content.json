@@ -1,0 +1,25 @@
+{
+  "text": "<p>Fill in the correct AI application for each clinical laboratory scenario.</p>",
+  "questions": [
+    "<p>When AI holds back a potassium result of 8.5 mmol/L in a well outpatient for human review because the value is implausible, this is *autoverification/auto-verification/auto verification:Think about what happens to each result before it is released to the ward.*.</p>",
+    "<p>Monitoring running averages of patient results to detect analyser drift before conventional Westgard rules would is a *quality control/QC:This application monitors the measuring instrument's performance over time.* application.</p>",
+    "<p>Interpreting several analytes together to suggest a diagnosis is *pattern recognition:This application identifies diagnostic patterns across a set of test results.*.</p>",
+    "<p>Using serial results such as creatinine, potassium and lactate to warn the ward team of impending acute kidney injury or sepsis is called *predictive analytics:This application uses historical trends to look forward in time and anticipate clinical events.*.</p>"
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100,
+      "feedback": "Each AI application serves a distinct laboratory function: autoverification validates individual results before release, quality control follows running averages of patient results to catch analyser drift early, pattern recognition reads several analytes together to suggest a diagnosis, and predictive analytics follows serial results to warn of impending deterioration such as acute kidney injury — all require human oversight for unusual or novel cases."
+    }
+  ],
+  "behaviour": {
+    "caseSensitive": false,
+    "showSolutionsRequiresInput": true,
+    "autoCheck": false,
+    "separateLines": false,
+    "acceptSpellingErrors": true,
+    "enableRetry": true,
+    "enableSolutionsButton": true
+  }
+}

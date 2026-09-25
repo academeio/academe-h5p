@@ -1,0 +1,182 @@
+{
+  "question": {
+    "settings": {
+      "background": {
+        "path": "images/c85350b1d331a40e22b9dd396f0dae1e32a990152462a8cb312142cc078059ea.jpg",
+        "mime": "image/jpeg",
+        "copyright": {
+          "license": "U"
+        },
+        "width": 592,
+        "height": 1792
+      },
+      "size": {
+        "width": 592,
+        "height": 1792
+      },
+      "questionTitle": "The three panels show the adrenal cortex from outermost (top) to innermost (bottom). Drag each hormone to the zone that produces it."
+    },
+    "task": {
+      "elements": [
+        {
+          "type": {
+            "library": "H5P.AdvancedText 1.1",
+            "params": {
+              "text": "<div>Cortisol</div>"
+            },
+            "subContentId": "4c3790a9-deb5-4505-958a-ca34e5ddd453",
+            "metadata": {
+              "contentType": "Text",
+              "license": "U",
+              "title": "Cortisol",
+              "authors": [],
+              "changes": [],
+              "extraTitle": ""
+            }
+          },
+          "x": 1.01,
+          "y": 96.21,
+          "width": 11.83,
+          "height": 3.5,
+          "dropZones": [
+            "0",
+            "1",
+            "2"
+          ],
+          "backgroundOpacity": 100,
+          "multiple": false
+        },
+        {
+          "type": {
+            "library": "H5P.AdvancedText 1.1",
+            "params": {
+              "text": "<div>DHEA-S</div>"
+            },
+            "subContentId": "6b140d0d-45c3-4bc7-a791-74bc730b5538",
+            "metadata": {
+              "contentType": "Text",
+              "license": "U",
+              "title": "DHEA-S",
+              "authors": [],
+              "changes": [],
+              "extraTitle": ""
+            }
+          },
+          "x": 34.01,
+          "y": 96.21,
+          "width": 11.83,
+          "height": 3.5,
+          "dropZones": [
+            "0",
+            "1",
+            "2"
+          ],
+          "backgroundOpacity": 100,
+          "multiple": false
+        },
+        {
+          "type": {
+            "library": "H5P.AdvancedText 1.1",
+            "params": {
+              "text": "<div>Aldosterone</div>"
+            },
+            "subContentId": "0ceeb5aa-54b1-4603-ac5d-6cc1fc7a96f8",
+            "metadata": {
+              "contentType": "Text",
+              "license": "U",
+              "title": "Aldosterone",
+              "authors": [],
+              "changes": [],
+              "extraTitle": ""
+            }
+          },
+          "x": 67,
+          "y": 96.21,
+          "width": 11.83,
+          "height": 3.5,
+          "dropZones": [
+            "0",
+            "1",
+            "2"
+          ],
+          "backgroundOpacity": 100,
+          "multiple": false
+        }
+      ],
+      "dropZones": [
+        {
+          "x": 2.03,
+          "y": 0.67,
+          "width": 10.83,
+          "height": 106.25,
+          "label": "<div>Outer cortex — zona glomerulosa</div>",
+          "showLabel": false,
+          "correctElements": [
+            "2"
+          ],
+          "backgroundOpacity": 100,
+          "tipsAndFeedback": {
+            "tip": "",
+            "feedbackOnCorrect": "Correct. The zona glomerulosa (outer cortex) produces aldosterone, controlled mainly by the renin-angiotensin system and potassium.",
+            "feedbackOnIncorrect": "Not quite. The outer cortex, zona glomerulosa, produces aldosterone."
+          },
+          "single": true,
+          "autoAlign": true
+        },
+        {
+          "x": 35.36,
+          "y": 0.67,
+          "width": 10.83,
+          "height": 106.25,
+          "label": "<div>Middle cortex — zona fasciculata</div>",
+          "showLabel": false,
+          "correctElements": [
+            "0"
+          ],
+          "backgroundOpacity": 100,
+          "tipsAndFeedback": {
+            "tip": "",
+            "feedbackOnCorrect": "Correct. The zona fasciculata (middle cortex) produces cortisol under ACTH.",
+            "feedbackOnIncorrect": "Not quite. The middle cortex, zona fasciculata, produces cortisol."
+          },
+          "single": true,
+          "autoAlign": true
+        },
+        {
+          "x": 68.69,
+          "y": 0.67,
+          "width": 10.83,
+          "height": 106.25,
+          "label": "<div>Inner cortex — zona reticularis</div>",
+          "showLabel": false,
+          "correctElements": [
+            "1"
+          ],
+          "backgroundOpacity": 100,
+          "tipsAndFeedback": {
+            "tip": "",
+            "feedbackOnCorrect": "Correct. The zona reticularis (inner cortex) produces adrenal androgens such as DHEA-S.",
+            "feedbackOnIncorrect": "Not quite. The inner cortex, zona reticularis, produces DHEA-S."
+          },
+          "single": true,
+          "autoAlign": true
+        }
+      ]
+    }
+  },
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100,
+      "feedback": "From outer to inner cortex: zona glomerulosa produces aldosterone, controlled mainly by renin-angiotensin and potassium; zona fasciculata produces cortisol under ACTH; zona reticularis produces adrenal androgens such as DHEA-S."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableCheckButton": true,
+    "singlePoint": false,
+    "applyPenalties": false,
+    "showScorePoints": true,
+    "showTitle": true
+  }
+}

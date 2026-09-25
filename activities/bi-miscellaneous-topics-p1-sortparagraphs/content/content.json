@@ -1,0 +1,24 @@
+{
+  "taskDescription": "<p>Arrange this simplified scenario, in which DNA damage first causes cell-cycle arrest and repair fails, in order.</p>",
+  "paragraphs": [
+    "<p>DNA damage activates the sensor kinases ATM and ATR.</p>",
+    "<p>ATM and ATR phosphorylate p53, so it escapes ubiquitination by MDM2 and is not sent to the proteasome.</p>",
+    "<p>Stabilised p53 accumulates in the nucleus and activates its target genes.</p>",
+    "<p>p53 induces p21, which inhibits cyclin-CDK complexes and arrests the cell cycle at the G1/S checkpoint for repair.</p>",
+    "<p>If the damage cannot be repaired, p53 induces the pro-apoptotic protein BAX, which releases cytochrome c from mitochondria.</p>",
+    "<p>Cytochrome c activates caspases, which dismantle the cell in an orderly apoptotic death.</p>"
+  ],
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100,
+      "feedback": "In this scenario, p53 supports arrest and repair: DNA damage detection → ATM/ATR phosphorylation → escape from MDM2-mediated degradation → nuclear accumulation → p21-mediated G1/S arrest, and apoptosis follows only when the damage cannot be repaired. Arrest is not an obligatory precursor to every p53-mediated apoptotic response — p53's response is context-dependent — but loss of p53 removes both the brake and the self-destruct programme."
+    }
+  ],
+  "behaviour": {
+    "scoringMode": "transitions",
+    "duplicatesInterchangeable": true,
+    "enableRetry": true,
+    "enableSolutionsButton": true
+  }
+}
