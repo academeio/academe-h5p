@@ -1,0 +1,13 @@
+--- /tmp/html5.orig.js	2026-09-27 19:55:02
++++ html5.js	2026-09-27 19:55:02
+@@ -1065,7 +1065,9 @@
+   var PREFERRED_FORMAT = 'mp4';
+ 
+   /** @constant {Object} */
+-  var PLAYBACK_RATES = [0.25, 0.5, 1, 1.25, 1.5, 2];
++  // 0.75 added by Academe (27-09-2026): Hindi and Tamil tracks are fitted to the English timing and run up to ~1.7x;
++  // learners can slow any language. Speeds apply to the one <video> element, so every audio track follows.
++  var PLAYBACK_RATES = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 2];
+ 
+   if (navigator.userAgent.indexOf('Android') !== -1) {
+     // We have Android, check version.

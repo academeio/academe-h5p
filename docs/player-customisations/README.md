@@ -17,6 +17,7 @@ Run `./verify.sh` after any library upgrade, and before deploying.
 | 5 | H5P.InteractiveVideo-1.28 | `library.json`: `scripts/audio-picker.js` added to `preloadedJs` | `82213bef` | `03-iv-library-json.patch` |
 | 6 | H5P.InteractiveVideo-1.28 | `dist/h5p-interactive-video.css`: compact WebVTT captions (`video::cue` 65 %, dark background) | `b1068a0f` | `04-iv-caption-css.patch` |
 | 7 | **jQuery.ui-1.10** | 2-line shim that re-exposes `H5P.jQuery` as global `jQuery`, so jQuery UI attaches | `55280042` | `05-jqueryui-global-shim.patch` |
+| 8 | H5P.Video-1.7 | `scripts/html5.js`: `PLAYBACK_RATES` gains **0.75** so learners can slow a Hindi or Tamil track (fitted to the English timing, up to ~1.7×). The speed applies to the one `<video>` element, so every audio track follows. | (this commit, 27-09-2026) | `06-video-playback-rates.patch` |
 
 Related pieces outside `libs/` (already versioned with their own files, listed here for completeness):
 - `preview/h5p-host.mjs`: host-page `video::cue` caption sizing (`ca46d89a`), plus the self-hosted h5p-standalone 3.8.2 runtime (`39064b7c`).
@@ -29,7 +30,7 @@ The multiple caption tracks themselves are native Interactive Video `textTracks`
 
 **H5P.Video (upstream 1.6.x patch release):** never download "1.7" from anywhere, because it only exists here.
 1. Put the new stock 1.6.x in a scratch dir.
-2. `patch -p0 scripts/html5.js < 01-video-html5-hls.patch`, then resolve any rejects by hand.
+2. `patch -p0 scripts/html5.js < 01-video-html5-hls.patch`, then `06-video-playback-rates.patch`; resolve any rejects by hand.
 3. Apply `02-video-library-json.patch` (keep `majorVersion 1, minorVersion 7`, bump `patchVersion`) and copy in `scripts/vendor/hls.min.js`.
 4. Replace `libs/H5P.Video-1.7` with the result. Run `./verify.sh`, then do one multi-audio IV smoke test in Chrome **and** Safari.
 
