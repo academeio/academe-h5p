@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/b01869a6-d1d7-4327-84c6-76bd2982254b/playlist.m3u8",
+          "path": "https://vdo.cbme.in/2202481d-554e-42a9-9d93-6e4a2ec80fca/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,13 +61,71 @@
       "interactions": [
         {
           "duration": {
-            "from": 169.8,
-            "to": 179.8
+            "from": 184.16799999999998,
+            "to": 194.16799999999998
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which Indian legal provision specifically protects a clinician who acts in good </p>",
+          "label": "<p>The principle of non-maleficence prohibits a clinician from performing any inter</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>The principle of non-maleficence prohibits a clinician from performing any intervention that carries a risk of causing harm to the patient.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Non-maleficence does not mean 'never cause any harm.' Many beneficial interventions carry inherent risk. The principle requires that risk be proportionate to expected benefit. IPC Section 88 codifies this by protecting good-faith clinical decisions that result in unavoidable harm.",
+                "correctAnswerMessage": "Correct. Non-maleficence requires that risk be proportionate to expected benefit and that harm not be imposed carelessly — it does not prohibit all risk. IPC Section 88 specifically protects clinicians who act in good faith for a patient's benefit, even when unavoidable harm results.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "e7eb3ce9-b676-459b-b28b-a8bd5afc19cd",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "The principle of non-maleficence prohibi",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 339.5642083333333,
+            "to": 349.5642083333333
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Under the Consumer Protection Act 2019, what legal consequence follows when clin</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which Indian legal provision specifically protects a clinician who acts in good faith for a patient's benefit, even when harm results from the intervention?</p>",
+              "question": "<p>Under the Consumer Protection Act 2019, what legal consequence follows when clinical documentation is absent in a medical negligence case?</p>",
               "answers": [
                 {
-                  "text": "<div>Article 21 of the Indian Constitution</div>",
+                  "text": "<div>The case is automatically referred to the Indian Medical Association for peer review</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Article 21 guarantees the right to life with dignity and underpins the principle of justice — fair access to care regardless of status. It does not address protection of clinicians from good-faith clinical harm.</div>",
+                    "chosenFeedback": "<div>Absence of documentation does not trigger a peer review referral. Courts apply a direct evidentiary standard: if it was not recorded, it is presumed not to have happened.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The Samira Kohli ruling, 2008</div>",
+                  "text": "<div>The hospital administration bears sole liability for the gap in records</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The Samira Kohli case established that informed consent disclosure must match what a reasonable patient would want to know. It addresses the principle of autonomy, not clinician protection for unavoidable harm.</div>",
+                    "chosenFeedback": "<div>Liability does not shift to the hospital alone. The treating clinician who failed to document bears the burden of proving that proper care was provided.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Section 88 of the Indian Penal Code</div>",
+                  "text": "<div>The burden of proof shifts to the clinician to demonstrate that proper care was provided</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Section 88 IPC directly addresses non-maleficence in practice — it protects clinicians who act in good faith for the patient's benefit, recognising that many beneficial interventions carry inherent risk.</div>",
+                    "chosenFeedback": "<div>Correct. Multiple NCDRC rulings confirm this standard: absent documentation means the clinician must prove that appropriate care was delivered. 'If it wasn't written, it didn't happen.'</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Consumer Protection Act, 2019</div>",
+                  "text": "<div>The court appoints an independent medical expert to reconstruct the clinical events</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The CPA 2019 governs service deficiency and medical negligence claims. It does not provide a protective provision for good-faith clinical acts that result in harm.</div>",
+                    "chosenFeedback": "<div>Courts do not appoint experts to fill documentation gaps. The responsibility rests with the clinician — absent records shift the burden of proof onto the treating doctor.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Section 88 of the Indian Penal Code specifically protects clinicians acting in good faith for the patient's benefit, even when harm occurs. This is the legal anchor for the principle of non-maleficence as taught by Beauchamp and Childress."
+                  "feedback": "When documentation is absent, the burden of proof shifts to the clinician. Multiple NCDRC rulings under the CPA 2019 apply the standard: if it was not written, it is presumed it did not happen."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! Section 88 IPC is the legal backbone of non-maleficence in Indian clinical practice, acknowledging that risk is inherent in beneficial interventions and protecting clinicians who act with proportionate judgement."
+                  "feedback": "Well done. 'If it wasn't written, it didn't happen' — this is the operative legal standard under the Consumer Protection Act 2019, confirmed by NCDRC rulings."
                 }
               ],
               "behaviour": {
@@ -151,67 +209,9 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "fc7a3114-188d-4b22-8b6d-7f76335bb915",
+            "subContentId": "6b19da0b-f213-4f09-ae11-6a7c19b5aa4e",
             "metadata": {
               "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "Which Indian legal provision specificall",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 318.225,
-            "to": 328.225
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>Under the Consumer Protection Act 2019, when clinical documentation is absent, t</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>Under the Consumer Protection Act 2019, when clinical documentation is absent, the burden of proof shifts to the clinician — if it was not written, it is presumed not to have happened.</p>",
-              "correct": "true",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is true. Under the CPA 2019, courts apply the standard that undocumented care is presumed not to have occurred — the burden shifts to the clinician. This makes thorough, dated, signed documentation both a clinical safeguard and a legal necessity.",
-                "correctAnswerMessage": "Correct. Multiple NCDRC rulings confirm this standard. Every clinical entry must carry a date, time, legible name, designation, full clinical findings, generic drug names with dose, route, and frequency, and close with an assessment and plan.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "d088e537-f1fc-426e-8449-82d7416862e0",
-            "metadata": {
-              "contentType": "True/False Question",
               "license": "U",
               "title": "Under the Consumer Protection Act 2019,",
               "authors": [],
@@ -229,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 482.8,
-            "to": 492.8
+            "from": 510.48474999999996,
+            "to": 520.48475
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>What is the correct sequence of steps in the Practice-Based Learning and Improve</p>",
+          "label": "<p>What is the primary purpose of the PICO framework in clinical practice?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>What is the correct sequence of steps in the Practice-Based Learning and Improvement (PBLI) cycle for staying clinically current?</p>",
+              "question": "<p>What is the primary purpose of the PICO framework in clinical practice?</p>",
               "answers": [
                 {
-                  "text": "<div>Search a resource → Identify a gap → Formulate a question → Apply the finding → Reflect on the outcome</div>",
+                  "text": "<div>To calculate the number needed to treat for a new therapeutic intervention</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The cycle begins with identifying a practice gap, not searching. Without knowing what gap exists, a literature search lacks direction and may not address the real clinical need.</div>",
+                    "chosenFeedback": "<div>Number needed to treat is a statistical measure derived from trial data. PICO is used earlier in the process — it structures the clinical question before you search for that data.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Identify a practice gap → Formulate a structured question → Search a reliable resource → Apply the finding → Reflect on the outcome</div>",
+                  "text": "<div>To convert a clinical uncertainty into a precise, searchable question</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This is the correct sequence. The cycle starts with recognising a gap in your own practice, then uses tools like the PICO framework to frame a precise, searchable question before engaging the evidence.</div>",
+                    "chosenFeedback": "<div>Correct. PICO — Population, Intervention, Comparator, Outcome — transforms a vague clinical doubt into a structured query searchable in PubMed, UpToDate, or the Cochrane Library.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Formulate a question → Search a resource → Apply the finding → Identify a gap → Reflect on the outcome</div>",
+                  "text": "<div>To determine whether a patient meets the criteria for hospital admission</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Close, but the cycle must begin with identifying the practice gap. You need to recognise what problem exists before you can frame a meaningful clinical question about it.</div>",
+                    "chosenFeedback": "<div>Admission criteria are clinical decisions based on severity and resources. PICO serves a different purpose: structuring a knowledge gap into a searchable question.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Reflect on the outcome → Identify a gap → Apply the finding → Formulate a question → Search a resource</div>",
+                  "text": "<div>To prioritise patients in the emergency department based on clinical severity</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Reflection is the final step of each cycle, not the first. The cycle begins by identifying a gap in practice, ensuring that learning is driven by real clinical needs.</div>",
+                    "chosenFeedback": "<div>Triage systems like the Manchester Triage Scale handle severity-based prioritisation. PICO is an evidence-searching framework, not a clinical sorting tool.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The correct PBLI sequence is: Identify a practice gap → Formulate a structured question (using PICO) → Search a reliable resource → Apply the finding → Reflect on the outcome. This cycle ensures learning is driven by real clinical needs, not random browsing."
+                  "feedback": "PICO (Population, Intervention, Comparator, Outcome) is a framework for turning a clinical uncertainty into a precise, searchable question — it is the starting tool in the PBLI cycle for staying current with evidence."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done! The PBLI cycle is the self-directed engine for lifelong learning. The NMC's Continuing Medical Education Regulations of 2023 make accredited learning a regulatory requirement for registration renewal — not merely an ethical ideal."
+                  "feedback": "Exactly right. PICO turns uncertainty into a structured, searchable question — the first step in the Practice-Based Learning and Improvement cycle."
                 }
               ],
               "behaviour": {
@@ -319,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "dbf3a6db-f10e-4de0-833a-d02fe8771654",
+            "subContentId": "bf38bfcd-0e0d-4706-ae68-a8cf752f3296",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "What is the correct sequence of steps in",
+              "title": "What is the primary purpose of the PICO",
               "authors": [],
               "changes": []
             }
@@ -339,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 650,
-            "to": 660
+            "from": 686.488375,
+            "to": 696.488375
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A senior consultant arrives for ward rounds showing signs of alcohol intoxicatio</p>",
+          "label": "<p>A resident notices a senior consultant arriving for duty with slurred speech and</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A senior consultant arrives for ward rounds showing signs of alcohol intoxication and prescribes a teratogenic drug without checking the patient's pregnancy status. As a junior resident who witnesses this, what is the most appropriate course of action?</p>",
+              "question": "<p>A resident notices a senior consultant arriving for duty with slurred speech and alcohol on their breath. Despite this, the consultant appears functional enough to conduct ward rounds competently. The resident decides not to report. What makes this decision particularly dangerous?</p>",
               "answers": [
                 {
-                  "text": "<div>Confront the consultant publicly during ward rounds to prevent any further prescribing errors</div>",
+                  "text": "<div>The resident will face mandatory suspension under NMC regulations for failure to report</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Public confrontation in front of patients may cause additional harm and disruption. While immediate patient safety must be ensured, the appropriate mechanism for addressing impairment is institutional reporting, not a public scene.</div>",
+                    "chosenFeedback": "<div>While reporting obligations exist, the primary danger is not the administrative consequence to the resident — it is what happens to patients when an impaired physician continues to practise unchallenged.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Quietly correct the prescription yourself and avoid reporting to preserve the professional relationship</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correcting the immediate prescription is necessary, but failing to report the underlying impairment allows the risk to continue for future patients. The NMC Act 2020 requires reporting — professional relationships do not override patient safety.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Report the impairment through the appropriate institutional channel as required by the NMC Act 2020</div>",
+                  "text": "<div>A functionally impaired physician is the most likely to go unreported, allowing continued patient risk</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The NMC Act 2020 mandates that impairment creating patient risk must be reported regardless of the colleague's seniority. As the narration states, the most dangerous impaired physician is the one functional enough that peers rationalise inaction.</div>",
+                    "chosenFeedback": "<div>Correct. The most dangerous impaired colleague is one who appears competent enough that peers rationalise inaction. The NMC Act 2020 mandates reporting impairment that creates patient risk, regardless of the physician's seniority or apparent functioning.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Wait and observe over several shifts to determine whether the behaviour is a pattern before escalating</div>",
+                  "text": "<div>Hospital liability insurance will not cover complications arising from an impaired physician's decisions</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Waiting creates ongoing patient risk. The NMC Act 2020 does not require documenting a pattern — a single instance of impairment that creates patient risk is sufficient grounds for reporting through institutional channels.</div>",
+                    "chosenFeedback": "<div>Insurance coverage is an institutional concern, not the primary danger. The core risk is that a physician whose impairment goes unreported continues to make clinical decisions that endanger patients.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The consultant's impairment will inevitably worsen over time without intervention</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While progressive deterioration is possible, the immediate danger is not about the future trajectory. It is that a physician who appears functional enough escapes scrutiny right now, creating ongoing patient risk.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The NMC Act 2020 requires that physician impairment creating patient risk be reported through institutional channels, regardless of seniority. The narration emphasises that the most dangerous impaired colleague is one whose peers rationalise inaction."
+                  "feedback": "The most dangerous impaired colleague is one functional enough that peers rationalise inaction. The NMC Act 2020 requires reporting any impairment that creates patient risk, irrespective of the impaired physician's seniority or apparent competence."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! Reporting physician impairment is a legal obligation under the NMC Act 2020. Substance use disorders affect eight to twelve percent of physicians over a career, and silence — however well-intentioned — puts future patients at risk."
+                  "feedback": "Well analysed. The key insight is that functional impairment is the hardest to report — and therefore the most dangerous — because peers convince themselves that intervention is unnecessary."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2f30bea4-8432-4bb4-9855-f39b693512b2",
+            "subContentId": "2f885379-5317-4ce1-a5d5-339b5ec34425",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A senior consultant arrives for ward rou",
+              "title": "A resident notices a senior consultant a",
               "authors": [],
               "changes": []
             }
@@ -458,41 +458,41 @@
           "label": "You are the registrar on call."
         },
         {
-          "time": 51,
+          "time": 59,
           "label": "Four principles form the backbone of clinical ethical rea…"
         },
         {
-          "time": 170,
+          "time": 184,
           "label": "The four principles rarely align neatly."
         },
         {
-          "time": 254,
+          "time": 272,
           "label": "Remember Dr."
         },
         {
-          "time": 318,
+          "time": 340,
           "label": "Teamwork in clinical medicine is a structured skill."
         },
         {
-          "time": 386,
+          "time": 410,
           "label": "Earlier, we noted that Harrison's Principles of Internal…"
         },
         {
-          "time": 483,
+          "time": 511,
           "label": "Dr."
         },
         {
-          "time": 569,
+          "time": 601,
           "label": "As you saw in the last capsule, Dr."
         },
         {
-          "time": 651,
+          "time": 687,
           "label": "We are back in the 2 AM ward."
         }
       ],
       "endscreens": [
         {
-          "time": 737,
+          "time": 769,
           "label": "End"
         }
       ]
@@ -504,7 +504,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "889a6402-e2ed-4d9c-b415-b08238ac2b62",
+              "subContentId": "805b0f79-ca56-44bd-b40b-f66cd32bf650",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -527,7 +527,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "b03e21fc-f05b-428f-90c9-b37082d1cb76",
+        "subContentId": "e3484bd7-c46e-4dff-933f-d76fba607fed",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
