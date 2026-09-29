@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/3f5657e6-f86c-4c84-8230-73b5d3580525/playlist.m3u8",
+          "path": "https://vdo.cbme.in/cf625ba8-9a3a-4447-880d-c98225cc79c1/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -67,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Selective toxicity means that antimicrobial drugs are completely harmless to hum</p>",
+          "label": "<p>Selective toxicity means an antimicrobial drug can destroy the pathogen with abs</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,7 +76,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Selective toxicity means that antimicrobial drugs are completely harmless to human cells at therapeutic doses.</p>",
+              "question": "<p>Selective toxicity means an antimicrobial drug can destroy the pathogen with absolutely no risk to the host.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -94,16 +94,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "Incorrect. The narration emphasises that no drug is perfectly selective. Selective toxicity means drugs exploit targets present in pathogens but absent in human cells, minimising but not eliminating host toxicity. The gap between the effective dose and the toxic dose — the therapeutic window — reflects this imperfect selectivity.",
-                "correctAnswerMessage": "Correct — this statement is false. No antimicrobial is perfectly selective; every drug carries some risk to the host. Selective toxicity works by exploiting targets unique to pathogens — cell wall, bacterial ribosome, DNA enzymes, and folate pathway — to minimise harm, not eliminate it. That is why we monitor the therapeutic window.",
+                "wrongAnswerMessage": "The narration clarified that no drug is perfectly selective; every antimicrobial carries some risk to the host. Selective toxicity aims to widen the therapeutic window between effective and toxic doses by targeting structures unique to the pathogen, not to eliminate host risk entirely.",
+                "correctAnswerMessage": "Correct. Paul Ehrlich's 'magic bullet' is an ideal, not reality. As the narration stated, no drug is perfectly selective — every antimicrobial carries some host risk. Selective toxicity means exploiting pathogen-specific targets to maximise the gap between the effective and toxic doses.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "5e4e35e3-35ae-443f-8652-d8a8bc41136f",
+            "subContentId": "48170d5c-6f3a-4d71-8b8c-e903bb22fab3",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Selective toxicity means that antimicrob",
+              "title": "Selective toxicity means an antimicrobia",
               "authors": [],
               "changes": []
             }
@@ -125,7 +125,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which antibacterial drug class acts by irreversible binding to the 30S ribosomal</p>",
+          "label": "<p>A patient on erythromycin develops macrolide resistance. Why would the clinician</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which antibacterial drug class acts by irreversible binding to the 30S ribosomal subunit and is bactericidal?</p>",
+              "question": "<p>A patient on erythromycin develops macrolide resistance. Why would the clinician expect clindamycin to also be ineffective against the same organism?</p>",
               "answers": [
                 {
-                  "text": "<div>Tetracyclines</div>",
+                  "text": "<div>Both drugs are metabolised by the same hepatic cytochrome P450 enzyme</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Tetracyclines do bind the 30S subunit, but they bind reversibly and are only bacteriostatic — not bactericidal.</div>",
+                    "chosenFeedback": "<div>Shared hepatic metabolism does not explain microbiological cross-resistance. The reason is that both drugs bind overlapping sites on the bacterial 50S ribosomal subunit.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Macrolides</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Macrolides act on the 50S ribosomal subunit, not the 30S, and are generally bacteriostatic.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Aminoglycosides</div>",
+                  "text": "<div>Both drugs share overlapping binding sites on the bacterial 50S ribosomal subunit</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Aminoglycosides bind irreversibly to the 30S ribosomal subunit and are bactericidal — a distinctive combination, since tetracyclines at the same target are only bacteriostatic.</div>",
+                    "chosenFeedback": "<div>Correct. Macrolides and clindamycin bind overlapping sites on the 50S subunit, so a single ribosomal mutation conferring resistance to one commonly affects the other — a pattern known clinically as MLSB resistance.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Sulphonamides</div>",
+                  "text": "<div>Both drugs inhibit peptidoglycan cross-linking in the bacterial cell wall</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Sulphonamides do not act on the ribosome at all; they inhibit the folate synthesis pathway.</div>",
+                    "chosenFeedback": "<div>Cell wall synthesis is the target of beta-lactams and glycopeptides, not macrolides or clindamycin. Both erythromycin and clindamycin are 50S ribosomal protein synthesis inhibitors.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Both drugs block the same step in the bacterial folate synthesis pathway</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Folate synthesis is inhibited by sulphonamides and trimethoprim, not macrolides or lincosamides. Erythromycin and clindamycin both target the 50S ribosomal subunit.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the five target sites: aminoglycosides bind the 30S subunit irreversibly and are bactericidal. Tetracyclines also bind the 30S subunit but do so reversibly and are only bacteriostatic."
+                  "feedback": "Review the five antibacterial target sites. Macrolides (e.g. erythromycin) and clindamycin share overlapping binding sites on the 50S ribosomal subunit, which is why resistance to one often confers resistance to the other."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Among 30S ribosomal inhibitors, aminoglycosides are unique in binding irreversibly and killing bacteria outright."
+                  "feedback": "Well done. Recognising shared binding sites helps predict cross-resistance patterns — a key principle when switching antibiotics after treatment failure."
                 }
               ],
               "behaviour": {
@@ -209,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "71c6fbdf-fce6-4590-a463-dce52decde2f",
+            "subContentId": "ffb4ea24-8cb5-4f28-ae18-8819025c1d89",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which antibacterial drug class acts by i",
+              "title": "A patient on erythromycin develops macro",
               "authors": [],
               "changes": []
             }
@@ -235,7 +235,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Rifampicin is considered the most important drug for fully clearing a tuberculos</p>",
+          "label": "<p>A patient starting anti-tubercular therapy with HRZE is also on warfarin for a p</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Rifampicin is considered the most important drug for fully clearing a tuberculosis infection because it:</p>",
+              "question": "<p>A patient starting anti-tubercular therapy with HRZE is also on warfarin for a prosthetic heart valve. Which property of rifampicin necessitates adjusting the warfarin dose?</p>",
               "answers": [
                 {
-                  "text": "<div>Achieves the highest concentration in lung tissue among the four first-line drugs</div>",
+                  "text": "<div>Rifampicin competes with warfarin for plasma protein binding sites</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Rifampicin's importance does not rest on tissue concentration but on its unique ability to kill mycobacteria in every metabolic state.</div>",
+                    "chosenFeedback": "<div>Protein binding displacement causes only transient effects. Rifampicin's clinically important interaction is potent induction of hepatic cytochrome P450 enzymes, which accelerates warfarin metabolism.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Is effective against dividing, dormant, and intracellular bacilli by blocking RNA polymerase</div>",
+                  "text": "<div>Rifampicin induces hepatic cytochrome P450 enzymes, accelerating warfarin metabolism</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. By inhibiting RNA polymerase, rifampicin kills actively dividing, dormant, and hidden intracellular mycobacteria — this breadth of activity is why it is essential for sterilising the infection.</div>",
+                    "chosenFeedback": "<div>Correct. Rifampicin is one of the most potent CYP450 inducers known. It speeds up metabolism of warfarin, oral contraceptives, and many other drugs — making dose adjustment essential during anti-TB therapy.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Inhibits mycolic acid synthesis, the key structural component of the mycobacterial cell wall</div>",
+                  "text": "<div>Rifampicin chelates warfarin in the gut, reducing its oral absorption</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Mycolic acid synthesis is blocked by isoniazid, not rifampicin. Rifampicin's target is the bacterial RNA polymerase.</div>",
+                    "chosenFeedback": "<div>Gut chelation is seen with divalent cations (e.g. antacids with tetracyclines), not with rifampicin. The interaction is hepatic enzyme induction accelerating warfarin clearance.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Works specifically in the acidic environment created by caseating necrosis</div>",
+                  "text": "<div>Rifampicin directly inactivates warfarin through a chemical reaction in the bloodstream</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. That property belongs to pyrazinamide, which is most effective early in treatment when dead tissue creates an acidic microenvironment.</div>",
+                    "chosenFeedback": "<div>There is no direct chemical inactivation. Rifampicin's interaction with warfarin is indirect — it induces hepatic enzymes that metabolise warfarin faster, reducing its anticoagulant effect.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember each HRZE drug has a distinct target: isoniazid blocks mycolic acid, rifampicin blocks RNA polymerase (and kills bacteria in all states), pyrazinamide works in acidic conditions, and ethambutol prevents resistance."
+                  "feedback": "The narration highlighted that rifampicin 'speeds up how the liver breaks down many other medications.' This is because rifampicin potently induces hepatic CYP450 enzymes, requiring dose adjustment of co-administered drugs like warfarin and oral contraceptives."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Rifampicin's sterilising power comes from its ability to kill bacteria in every metabolic state — dividing, dormant, and intracellular."
+                  "feedback": "Exactly right. Remembering rifampicin's potent enzyme induction helps anticipate drug interactions across all HRZE-treated patients."
                 }
               ],
               "behaviour": {
@@ -319,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "aed4b628-c539-42c7-a7d9-1d12e2484e1b",
+            "subContentId": "a6178655-d477-474a-8d04-e4f31e525301",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Rifampicin is considered the most import",
+              "title": "A patient starting anti-tubercular thera",
               "authors": [],
               "changes": []
             }
@@ -345,7 +345,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>After treating invasive amoebic dysentery with metronidazole, a luminal amoebici</p>",
+          "label": "<p>A patient has been successfully treated with metronidazole for amoebic dysentery</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>After treating invasive amoebic dysentery with metronidazole, a luminal amoebicide like diloxanide furoate is given sequentially because:</p>",
+              "question": "<p>A patient has been successfully treated with metronidazole for amoebic dysentery and is now symptom-free. Why is a course of diloxanide furoate still required?</p>",
               "answers": [
                 {
-                  "text": "<div>Metronidazole has no activity against the trophozoite form of the amoeba</div>",
+                  "text": "<div>Metronidazole is only bacteriostatic against amoebae, so a bactericidal drug is needed to complete the cure</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Metronidazole is highly effective against invasive trophozoites in tissue. Its limitation is inadequate luminal concentration to clear cysts in the bowel.</div>",
+                    "chosenFeedback": "<div>Metronidazole is actually amoebicidal — it kills invasive trophozoites by fragmenting their DNA. The issue is that it acts on tissue forms and does not adequately reach cysts persisting in the bowel lumen.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Diloxanide furoate enhances the bactericidal activity of metronidazole in liver abscesses</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Diloxanide stays within the gut lumen with minimal systemic absorption and plays no role in treating liver abscesses.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The combination is needed to prevent the disulfiram-like reaction of metronidazole</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The disulfiram-like reaction occurs when metronidazole is taken with alcohol. Adding diloxanide does not prevent this interaction.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Metronidazole does not achieve adequate luminal concentrations to eliminate residual intestinal cysts</div>",
+                  "text": "<div>Diloxanide furoate eradicates residual intestinal cysts that the tissue amoebicide cannot adequately reach</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Metronidazole effectively clears the invasive tissue infection, but it does not reliably eliminate intestinal cysts. A luminal agent like diloxanide furoate is needed afterwards to clear these cysts and prevent relapse.</div>",
+                    "chosenFeedback": "<div>Correct. Metronidazole clears the invasive tissue infection, but cysts persisting in the bowel lumen can cause relapse. Diloxanide furoate concentrates in the gut to eliminate these residual cysts — completing the tissue-then-luminal sequence.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Diloxanide furoate neutralises the hepatotoxic metabolites of metronidazole</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Diloxanide furoate is a luminal amoebicide, not a hepatoprotective agent. Its role is to eliminate residual bowel cysts after the tissue infection has been cleared.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Diloxanide furoate provides systemic coverage to prevent relapse of amoebic liver abscess</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Diloxanide furoate is minimally absorbed — it stays in the gut lumen. Its role is specifically to clear residual intestinal cysts, not to provide systemic coverage.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the two-drug sequential strategy: metronidazole clears invasive tissue disease first, then a luminal agent like diloxanide furoate eliminates surviving cysts in the bowel to prevent relapse."
+                  "feedback": "Remember the two-drug sequential strategy: first a tissue amoebicide (metronidazole) clears the invasive disease, then a luminal amoebicide (diloxanide furoate) mops up residual cysts in the bowel to prevent relapse."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The tissue-then-luminal sequence ensures both invasive trophozoites and residual bowel cysts are eliminated."
+                  "feedback": "Exactly. The tissue-then-luminal sequence is central to amoebiasis management — metronidazole clears the invasion, diloxanide furoate prevents relapse from residual cysts."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "073167c6-70ca-4d56-a6b9-8fea599ea566",
+            "subContentId": "0cba4412-0fe9-4989-8d53-3b281026c72f",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "After treating invasive amoebic dysenter",
+              "title": "A patient has been successfully treated",
               "authors": [],
               "changes": []
             }
@@ -455,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Pyrantel and ivermectin both paralyse worms, but through opposite mechanisms. Wh</p>",
+          "label": "<p>Pyrantel and ivermectin both paralyse helminths, but through opposite mechanisms</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Pyrantel and ivermectin both paralyse worms, but through opposite mechanisms. Which statement correctly describes this contrast?</p>",
+              "question": "<p>Pyrantel and ivermectin both paralyse helminths, but through opposite mechanisms. Which of the following correctly describes this difference?</p>",
               "answers": [
                 {
-                  "text": "<div>Pyrantel locks worm muscles into sustained contraction (spastic paralysis); ivermectin opens invertebrate chloride channels (flaccid paralysis)</div>",
+                  "text": "<div>Pyrantel causes flaccid paralysis; ivermectin causes spastic paralysis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>You have reversed them. Pyrantel locks worm muscles into stiff spastic contraction, while ivermectin opens chloride channels causing flaccid (relaxed) paralysis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Pyrantel causes spastic paralysis; ivermectin opens invertebrate chloride channels causing flaccid paralysis</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Pyrantel causes depolarising spastic paralysis, while ivermectin opens chloride channels found only in invertebrate nerve and muscle, causing flaccid paralysis. In both cases, peristalsis expels the paralysed worm.</div>",
+                    "chosenFeedback": "<div>Correct. Pyrantel depolarises worm neuromuscular junctions, causing stiff spastic paralysis so peristalsis sweeps the worm out. Ivermectin opens chloride channels found only in invertebrates, causing flaccid paralysis instead.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Both drugs cause flaccid paralysis, but pyrantel additionally inhibits microtubule assembly</div>",
+                  "text": "<div>Both cause flaccid paralysis but act on different ion channel families</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The two paralysis types are opposite — spastic for pyrantel, flaccid for ivermectin. Microtubule inhibition is the mechanism of albendazole, not pyrantel.</div>",
+                    "chosenFeedback": "<div>Incorrect. The narration specifically contrasted opposite types of paralysis: pyrantel causes spastic paralysis, while ivermectin causes flaccid paralysis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Pyrantel opens chloride channels causing flaccid paralysis; ivermectin causes depolarising spastic paralysis</div>",
+                  "text": "<div>Pyrantel inhibits microtubule assembly; ivermectin blocks acetylcholine receptors</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. This reverses the mechanisms. Pyrantel causes spastic paralysis by locking muscles in contraction; ivermectin causes flaccid paralysis by opening invertebrate chloride channels.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Pyrantel is specific to trematodes, while ivermectin acts exclusively on cestodes</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Both drugs primarily target nematodes (roundworms). Ivermectin is the drug of choice for Strongyloides, a nematode.</div>",
+                    "chosenFeedback": "<div>Microtubule inhibition is the mechanism of albendazole, not pyrantel. Pyrantel causes depolarising spastic paralysis, while ivermectin opens invertebrate chloride channels causing flaccid paralysis.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: pyrantel causes spastic paralysis (muscles locked in contraction), ivermectin causes flaccid paralysis (chloride channels open, muscles relax). Both result in worm expulsion by peristalsis."
+                  "feedback": "The narration emphasised opposite paralysis types: pyrantel causes spastic (stiff) paralysis via neuromuscular depolarisation, while ivermectin causes flaccid (relaxed) paralysis via invertebrate chloride channels."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Recognising the spastic–flaccid contrast helps you predict which drug suits which clinical situation."
+                  "feedback": "Well done. Distinguishing spastic from flaccid paralysis is key to understanding which anthelmintic suits which clinical situation."
                 }
               ],
               "behaviour": {
@@ -539,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "d1043894-9e28-4df5-8e1c-efb7655686d7",
+            "subContentId": "c68a77bd-7bdc-4808-af5c-03c91765ad52",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Pyrantel and ivermectin both paralyse wo",
+              "title": "Pyrantel and ivermectin both paralyse he",
               "authors": [],
               "changes": []
             }
@@ -565,7 +565,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with community-acquired pneumonia is started empirically on broad-spec</p>",
+          "label": "<p>A 28-year-old woman presents with three days of fever, cough, and sore throat. E</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -574,41 +574,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with community-acquired pneumonia is started empirically on broad-spectrum intravenous antibiotics. Culture results at 48 hours confirm Streptococcus pneumoniae sensitive to amoxicillin. The most appropriate next step is to:</p>",
+              "question": "<p>A 28-year-old woman presents with three days of fever, cough, and sore throat. Examination and investigation suggest a viral upper respiratory infection, but she insists on antibiotics. Which of the following is the strongest justification for withholding antibiotic therapy?</p>",
               "answers": [
                 {
-                  "text": "<div>Continue the broad-spectrum intravenous course for 14 days to prevent relapse</div>",
+                  "text": "<div>Young patients rarely develop secondary bacterial complications from viral infections</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Continuing unnecessary broad-spectrum therapy increases resistance pressure, adverse effects, and cost without improving outcomes. Evidence now supports shorter courses for community-acquired pneumonia.</div>",
+                    "chosenFeedback": "<div>Age alone does not determine complication risk. The primary justification is that antibiotics provide no benefit against viruses and their unnecessary use drives antimicrobial resistance in the community.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Add oral amoxicillin to the current regimen for dual coverage</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Adding a second agent when the pathogen is confirmed susceptible to amoxicillin alone is the opposite of rational prescribing. De-escalation means narrowing therapy, not broadening it.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>De-escalate to oral amoxicillin and use an evidence-based shorter course</div>",
+                  "text": "<div>Antibiotics for viral infections provide no clinical benefit and their unnecessary use is a major driver of antimicrobial resistance</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. De-escalation to the narrowest effective agent once sensitivities are known is a core principle of rational prescribing. It lowers resistance pressure, reduces adverse effects, and cuts cost — without increasing mortality.</div>",
+                    "chosenFeedback": "<div>Correct. The narration identified prescribing for viral infections as one of the biggest drivers of resistance. Step one of rational prescribing is determining whether an antibiotic is needed at all — resisting patient pressure here is itself part of good prescribing.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Stop all antibiotics immediately since the organism responds to a basic penicillin</div>",
+                  "text": "<div>Antibiotics should never be prescribed without a positive culture result</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The infection still requires treatment. De-escalation means switching to the narrowest effective agent and optimising duration, not stopping therapy altogether.</div>",
+                    "chosenFeedback": "<div>This is too absolute — many bacterial infections are appropriately treated empirically before culture results return. The core issue here is that the infection is viral, making antibiotics ineffective regardless of culture status.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Oral antibiotics have poor penetration into upper respiratory tract tissue</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Many oral antibiotics achieve good respiratory tract concentrations. The reason to withhold here is that the illness is viral — antibiotics offer no benefit against viruses and their overuse drives community resistance.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -617,12 +617,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The rational prescribing framework: (1) decide if an antibiotic is needed, (2) identify the likely pathogen, (3) assess host factors, (4) de-escalate once sensitivities return. Narrowing therapy reduces resistance, adverse effects, and cost without worsening outcomes."
+                  "feedback": "The narration's rational prescribing framework begins with: 'Ask whether an antibiotic is even needed.' Prescribing antibiotics for viral infections drives community resistance and provides no patient benefit."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. De-escalation is the fourth step of rational prescribing — switching to the narrowest agent based on confirmed sensitivities, then using an evidence-based duration."
+                  "feedback": "Exactly. Step one of rational prescribing — determining whether an antibiotic is needed at all — is the most powerful intervention against unnecessary resistance."
                 }
               ],
               "behaviour": {
@@ -649,11 +649,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f08a35a7-d3eb-4602-b3d7-5396d660fa44",
+            "subContentId": "720630eb-e54a-4e10-83ab-c72e464a3cac",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with community-acquired pneumo",
+              "title": "A 28-year-old woman presents with three",
               "authors": [],
               "changes": []
             }
@@ -728,7 +728,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "b49a35db-6611-40f4-a242-7a1856370736",
+              "subContentId": "e8211788-f496-4bac-8b49-9ebeb724cd01",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -751,7 +751,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "ed70484f-ffc1-48f9-98fb-f4960a6db1bd",
+        "subContentId": "df0918fc-a2ed-4569-a8ed-e0b18e644176",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
