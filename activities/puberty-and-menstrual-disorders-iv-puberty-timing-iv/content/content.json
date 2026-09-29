@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/8c9eec7b-6bec-4d86-b65f-bc433bb44dc6/playlist.m3u8",
+          "path": "https://vdo.cbme.in/bbc6f2c9-50b7-4b2d-9a63-5ea53793cb83/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -67,43 +67,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Adrenarche and gonadarche are both driven by the activation of the hypothalamic-</p>",
+          "label": "<p>A 9-year-old girl presents with pubic hair but no breast development. Based on t</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Adrenarche and gonadarche are both driven by the activation of the hypothalamic-pituitary-ovarian axis at puberty.</p>",
-              "correct": "false",
+              "question": "<p>A 9-year-old girl presents with pubic hair but no breast development. Based on the physiology of puberty, which process most likely accounts for her pubic hair?</p>",
+              "answers": [
+                {
+                  "text": "<div>Activation of the HPO axis leading to ovarian oestradiol production</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>HPO axis activation (gonadarche) drives breast development via oestradiol. Isolated pubic hair without thelarche suggests the HPO axis is not yet active.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Release of adrenal androgens independent of the pituitary-ovarian axis</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Adrenarche — the release of adrenal androgens — drives pubic and axillary hair growth. It occurs roughly two years before gonadarche and is entirely independent of the HPO axis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Premature pulsatile GnRH secretion from KNDy neurons</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Premature GnRH pulsatility would activate the entire HPO axis, producing breast development alongside pubic hair — not isolated pubic hair.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Elevated FSH stimulating ovarian follicular growth</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Elevated FSH would stimulate ovarian oestradiol, causing breast development as the earliest gonadal sign. Isolated pubic hair without thelarche points to adrenal, not ovarian, androgens.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Remember: adrenarche (adrenal androgens → pubic hair) and gonadarche (HPO axis → breast development) are independent processes. Adrenarche typically precedes gonadarche by about two years."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. Adrenarche and gonadarche are separate processes — adrenarche drives pubic hair via adrenal androgens, while gonadarche drives breast development via the HPO axis."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Incorrect. While gonadarche is indeed driven by HPO axis activation (GnRH → LH/FSH → ovarian oestradiol), adrenarche is an independent process driven by adrenal androgens. It occurs approximately two years before gonadarche and is responsible for pubic and axillary hair, independent of the pituitary and ovaries.",
-                "correctAnswerMessage": "Correct. Adrenarche is driven by adrenal androgens (primarily DHEA and DHEAS) and is an entirely separate maturational event from gonadarche. It typically occurs about two years before gonadarche and is independent of GnRH pulsatility, LH, and FSH.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "c1129f20-bc04-4eda-9701-a829500fc99a",
+            "subContentId": "116c6bcc-9a5f-467f-9fb3-097c38d96ef7",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Adrenarche and gonadarche are both drive",
+              "title": "A 9-year-old girl presents with pubic ha",
               "authors": [],
               "changes": []
             }
@@ -125,7 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 16-year-old girl presents with absent breast development. Her serum FSH and LH</p>",
+          "label": "<p>A 6-year-old girl presents with breast development and accelerated growth. Her s</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 16-year-old girl presents with absent breast development. Her serum FSH and LH levels are markedly elevated. Which of the following is the most likely category of her condition?</p>",
+              "question": "<p>A 6-year-old girl presents with breast development and accelerated growth. Her serum LH and FSH are both suppressed. What does this gonadotrophin pattern indicate about the source of her pubertal changes?</p>",
               "answers": [
                 {
-                  "text": "<div>Central precocious puberty with premature HPO axis activation</div>",
+                  "text": "<div>The HPO axis has been prematurely activated by KNDy neurons</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This girl has absent — not premature — sexual development. Precocious puberty presents with early onset of secondary sexual characteristics, which is the opposite of this clinical picture.</div>",
+                    "chosenFeedback": "<div>Central (true) precocious puberty shows elevated or pubertal-range LH and FSH, because the axis itself is driving the process. Suppressed gonadotrophins rule this out.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Peripheral precocious puberty with autonomous sex steroid production</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>There are no signs of early or excess pubertal development. This patient has delayed puberty, not precocious puberty.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Hypergonadotrophic hypogonadism indicating gonadal failure</div>",
+                  "text": "<div>Sex steroids are being produced autonomously, independent of pituitary control</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Elevated FSH and LH in the setting of absent pubertal development means the pituitary is trying to stimulate the ovaries, but the ovaries are not responding — classic hypergonadotrophic hypogonadism, as seen in Turner syndrome or gonadal dysgenesis.</div>",
+                    "chosenFeedback": "<div>Correct. Suppressed LH and FSH with pubertal signs indicate peripheral precocious puberty — sex steroids are coming from an autonomous source (e.g. ovarian cyst, tumour, or McCune-Albright syndrome), suppressing pituitary gonadotrophins via negative feedback.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Hypogonadotrophic hypogonadism due to hypothalamic-pituitary suppression</div>",
+                  "text": "<div>She has constitutional delay with benign premature thelarche</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In hypogonadotrophic hypogonadism, FSH and LH are low, not elevated, because the hypothalamus or pituitary is failing to drive the axis. This patient's gonadotrophins are markedly raised, pointing to a gonadal problem.</div>",
+                    "chosenFeedback": "<div>Constitutional delay presents as late puberty, not early. Premature thelarche is isolated breast development without accelerated growth and does not suppress gonadotrophins.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The low gonadotrophins confirm primary ovarian failure</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Primary ovarian failure produces elevated gonadotrophins, because absent ovarian feedback removes the brake on LH and FSH secretion — the opposite of what is seen here.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the gonadotrophin logic: in delayed puberty, high FSH and LH indicate the pituitary is working hard but the ovaries are failing to respond (hypergonadotrophic hypogonadism), while low FSH and LH indicate the problem is at the hypothalamic-pituitary level."
+                  "feedback": "Key principle: in precocious puberty, suppressed LH/FSH means sex steroids are coming from outside the HPO axis (peripheral). Elevated LH/FSH means the axis itself is prematurely active (central). This single result shapes the entire treatment approach."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The gonadotrophin level is the pivotal first step in classifying delayed puberty: high FSH/LH points to gonadal failure (hypergonadotrophic), while low levels point to a central cause (hypogonadotrophic)."
+                  "feedback": "Exactly right. The central-vs-peripheral distinction hinges on gonadotrophin levels: elevated in central precocious puberty (axis activated), suppressed in peripheral (autonomous sex steroid source)."
                 }
               ],
               "behaviour": {
@@ -209,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "3e45b218-5f09-4956-bcb7-3efd90e749b8",
+            "subContentId": "cd5dff57-480f-48cc-981f-ed6da7b739d0",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 16-year-old girl presents with absent",
+              "title": "A 6-year-old girl presents with breast d",
               "authors": [],
               "changes": []
             }
@@ -235,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 14-year-old girl with delayed puberty is diagnosed with Turner syndrome. Which</p>",
+          "label": "<p>A 14-year-old girl with primary amenorrhoea has short stature, a webbed neck, an</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 14-year-old girl with delayed puberty is diagnosed with Turner syndrome. Which of the following management plans is most appropriate?</p>",
+              "question": "<p>A 14-year-old girl with primary amenorrhoea has short stature, a webbed neck, and elevated FSH levels. Which management approach is most appropriate?</p>",
               "answers": [
                 {
                   "text": "<div>Reassurance and watchful waiting, as puberty will occur spontaneously</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Reassurance alone is appropriate for constitutional delay of growth and puberty, where spontaneous puberty is expected. Turner syndrome causes gonadal dysgenesis — puberty will not occur without hormone replacement.</div>",
+                    "chosenFeedback": "<div>This suits constitutional delay, where puberty is simply late but will occur on its own. Elevated FSH with stigmata of Turner syndrome indicates gonadal failure — spontaneous puberty will not happen.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Gradual oestrogen replacement timed to bone age, combined with growth hormone therapy and cardiac surveillance</div>",
+                  "text": "<div>Pulsatile GnRH therapy to restore fertility</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Pulsatile GnRH therapy is used for Kallmann syndrome, where the problem is deficient hypothalamic GnRH secretion. In Turner syndrome, the ovaries themselves have failed, so stimulating the pituitary cannot help.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Gradual oestrogen replacement timed to bone age, with growth hormone and cardiac surveillance</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Turner syndrome requires a multidisciplinary approach: gradual oestrogen replacement starting around age 12–13 (guided by bone age), growth hormone for short stature, and regular cardiac and thyroid surveillance throughout life.</div>",
+                    "chosenFeedback": "<div>Correct. Turner syndrome requires multidisciplinary care: gradual oestrogen replacement starting around age 12–13 (guided by bone age) to induce puberty, growth hormone to optimise final height, and lifelong cardiac and thyroid monitoring.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Pulsatile GnRH therapy to induce puberty and restore fertility</div>",
+                  "text": "<div>Surgical drainage of trapped menstrual blood from an imperforate hymen</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Pulsatile GnRH therapy is the fertility treatment for Kallmann syndrome, where the hypothalamic GnRH pulse generator is absent. In Turner syndrome, the ovaries themselves are dysgenic, so stimulating the HPO axis will not restore ovarian function.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Nutritional rehabilitation and reduction of physical exercise load</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This is the management for functional hypothalamic suppression, such as in anorexia nervosa or the female athlete triad, where the delay reverses once the underlying cause is corrected. It does not apply to Turner syndrome.</div>",
+                    "chosenFeedback": "<div>Imperforate hymen causes outflow obstruction with cyclical pain and haematocolpos, but the girl would show normal pubertal development and normal gonadotrophins — not elevated FSH or short stature.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Each cause of delayed puberty has a distinct management: constitutional delay needs reassurance, Turner syndrome needs oestrogen replacement with growth hormone and cardiac surveillance, Kallmann syndrome needs pulsatile GnRH for fertility, and functional suppression reverses with treating the underlying cause."
+                  "feedback": "Remember: elevated FSH + short stature + webbed neck = Turner syndrome. Management is gradual oestrogen replacement (timed to bone age), growth hormone, and cardiac/thyroid monitoring — not watchful waiting or GnRH therapy."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Turner syndrome demands lifelong multidisciplinary care — oestrogen timed to bone age for puberty, growth hormone for height, and cardiac plus thyroid surveillance to catch associated complications early."
+                  "feedback": "Correct. Turner syndrome demands a multidisciplinary approach: gradual oestrogen for puberty induction, growth hormone for stature, and lifelong cardiac and thyroid surveillance."
                 }
               ],
               "behaviour": {
@@ -319,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "4b9ddae2-c039-4ff9-abb5-16035f61d056",
+            "subContentId": "89a302c5-83a9-4916-871e-a6188cda959f",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 14-year-old girl with delayed puberty",
+              "title": "A 14-year-old girl with primary amenorrh",
               "authors": [],
               "changes": []
             }
@@ -345,7 +397,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 6-year-old girl presents with breast development, accelerated growth, and an e</p>",
+          "label": "<p>An 8-year-old girl with McCune-Albright syndrome has breast development and supp</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 6-year-old girl presents with breast development, accelerated growth, and an elevated LH response on GnRH stimulation testing. Pelvic ultrasound shows no ovarian mass. What is the most appropriate treatment?</p>",
+              "question": "<p>An 8-year-old girl with McCune-Albright syndrome has breast development and suppressed LH/FSH levels. Why would GnRH analogues be ineffective in managing her precocious puberty?</p>",
               "answers": [
                 {
-                  "text": "<div>Surgical removal of the ovarian tumour</div>",
+                  "text": "<div>McCune-Albright syndrome causes resistance to GnRH at the pituitary receptor level</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>No ovarian mass was found on pelvic ultrasound, so there is no tumour to remove. Surgical treatment is reserved for peripheral precocious puberty caused by an autonomous hormone-secreting ovarian tumour.</div>",
+                    "chosenFeedback": "<div>The issue is not receptor resistance. GnRH analogues work by downregulating pituitary GnRH receptors — which only helps when the pituitary is actively driving the process, not when it is already suppressed.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>GnRH analogue therapy to suppress the prematurely activated HPO axis</div>",
+                  "text": "<div>Her HPO axis is already suppressed; oestrogen is being produced autonomously by the ovaries</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. This presentation — breast development before age 8, accelerated growth, and an elevated LH response to GnRH stimulation — confirms central precocious puberty. GnRH analogues deliver continuous GnRH, paradoxically downregulating pituitary receptors and suppressing LH/FSH, which halts pubertal progression and protects final adult height.</div>",
+                    "chosenFeedback": "<div>Correct. In McCune-Albright syndrome, ovarian cysts produce oestrogen autonomously (peripheral precocious puberty). The HPO axis is already shut down by negative feedback, so GnRH analogues have nothing left to suppress.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Aromatase inhibitor to block autonomous oestrogen production</div>",
+                  "text": "<div>Continuous GnRH delivery paradoxically accelerates pubertal progression in this condition</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Aromatase inhibitors target autonomous oestrogen production in peripheral precocious puberty, such as McCune-Albright syndrome. In central precocious puberty, the problem is premature HPO axis activation, and GnRH analogues are the appropriate treatment.</div>",
+                    "chosenFeedback": "<div>Continuous GnRH actually downregulates receptors and suppresses the axis — that is precisely how GnRH analogues work in central precocious puberty. The problem here is that the axis is not the source of sex steroids.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Reassurance and six-monthly monitoring only</div>",
+                  "text": "<div>GnRH analogues are only effective in children younger than six years of age</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Monitoring alone is appropriate for benign variants like isolated premature thelarche, where there is an isolated finding without progressive pubertal development. This child has progressive central precocious puberty with elevated gonadotrophins and accelerated growth, requiring active treatment.</div>",
+                    "chosenFeedback": "<div>There is no age cutoff for GnRH analogue efficacy. They work at any age for central precocious puberty. The issue in McCune-Albright is the peripheral mechanism, not the child's age.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Always classify first: central, peripheral, or benign variant. An elevated LH on GnRH stimulation testing with no ovarian mass points to central precocious puberty, which is treated with GnRH analogues. Peripheral causes need targeted treatment, and benign variants need only monitoring."
+                  "feedback": "Key concept: GnRH analogues suppress the HPO axis. In peripheral precocious puberty like McCune-Albright, the axis is already suppressed because oestrogen comes from an autonomous ovarian source. Treatment must target that source directly."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The elevated LH response to GnRH stimulation confirms central precocious puberty, and GnRH analogue therapy is the established treatment — it works by converting pulsatile to continuous GnRH stimulation, which downregulates pituitary receptors."
+                  "feedback": "Well done. GnRH analogues suppress a prematurely active HPO axis (central precocious puberty), but cannot address autonomous hormone production (peripheral). McCune-Albright needs targeted therapy to block the autonomous oestrogen source."
                 }
               ],
               "behaviour": {
@@ -429,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "40f4ca87-b09e-4de2-afc2-e7cadc74c4ba",
+            "subContentId": "d24c6610-28ac-4001-801e-6a1b9baabb7e",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 6-year-old girl presents with breast d",
+              "title": "An 8-year-old girl with McCune-Albright",
               "authors": [],
               "changes": []
             }
@@ -500,7 +552,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "5a13aa54-6818-4691-b28f-106525816edd",
+              "subContentId": "764c3ca3-6b89-4e02-b7c7-9b2c8bbba775",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -523,7 +575,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "895f2440-5d64-499c-a50f-a27d29443f91",
+        "subContentId": "ba097873-58bb-4c00-a995-37a96c3d3f3d",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
