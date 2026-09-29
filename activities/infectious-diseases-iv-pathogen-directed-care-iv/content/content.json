@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/8bac8243-ae5c-4ac2-9998-4ff40fd74c68/playlist.m3u8",
+          "path": "https://vdo.cbme.in/fb6415bc-4554-4fa5-96df-93c7d895c5d8/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "IM26.1-35 | Infectious Diseases — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for IM26.1-IM26.9."
+        "shortStartDescription": "Interactive lecture with 4 embedded questions for IM26.1-IM26.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -67,95 +67,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In this scenario, the software engineer's older brother had recurrent duodenal u</p>",
+          "label": "<p>A proton pump inhibitor given alone is sufficient to permanently cure a duodenal</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>In this scenario, the software engineer's older brother had recurrent duodenal ulcers despite omeprazole therapy. Which of the following best explains why acid suppression alone failed to prevent recurrence?</p>",
-              "answers": [
-                {
-                  "text": "<div>Omeprazole is ineffective at reducing gastric acid secretion adequately in this clinical setting</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Omeprazole effectively suppresses acid secretion. Recurrence here is not an issue of drug potency but of an untreated infectious cause that continues to damage the gastric mucosa.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The underlying Helicobacter pylori infection was not eradicated</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. H. pylori persists beneath the gastric mucous layer despite acid suppression. Without eradication therapy targeting the bacterium itself, ongoing mucosal damage causes the ulcer to recur once the PPI is stopped.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Duodenal ulcers invariably require surgical intervention when they recur</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Surgery for peptic ulcer disease is reserved for complications such as perforation or uncontrolled haemorrhage. Recurrent ulcers due to H. pylori respond to eradication therapy.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Repeated omeprazole use causes rebound acid hypersecretion that directly reforms the ulcer</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>PPI rebound hypersecretion can cause dyspepsia symptoms but does not explain structural ulcer recurrence. The driving force here is the persistent H. pylori infection.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The key concept is that H. pylori is the underlying cause. Omeprazole reduces acid but does not clear the infection, so the bacterium continues to damage the mucosa and the ulcer returns."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. Acid suppression treats the downstream effect — excess acid — but does not eliminate the bacterium causing mucosal damage. Eradication therapy is essential to break the cycle of recurrence."
-                }
-              ],
+              "question": "<p>A proton pump inhibitor given alone is sufficient to permanently cure a duodenal ulcer caused by Helicobacter pylori infection.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Not quite. The narration explicitly shows that the engineer's brother had recurrent duodenal ulcers despite omeprazole monotherapy, because acid suppression alone does not eliminate H. pylori from the gastric mucosa. Curative treatment requires antibiotic-based eradication therapy.",
+                "correctAnswerMessage": "Correct. As illustrated by the engineer's brother, acid suppression with a PPI alone does not eradicate H. pylori. The underlying infection persists, and the ulcer recurs. Eradication requires a combination regimen that includes antibiotics alongside the PPI.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "f257c39b-29a3-46aa-a923-8f89dcf3d081",
+            "subContentId": "6bdf1246-65b6-4f81-ae5f-1cdd3148270c",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "In this scenario, the software engineer'",
+              "title": "A proton pump inhibitor given alone is s",
               "authors": [],
               "changes": []
             }
@@ -171,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 261.825,
-            "to": 271.825
+            "from": 261.22499999999997,
+            "to": 271.22499999999997
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which Helicobacter pylori virulence factor is injected directly into gastric epi</p>",
+          "label": "<p>An H. pylori-infected patient develops gastritis that is concentrated predominan</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which Helicobacter pylori virulence factor is injected directly into gastric epithelial cells and is associated with an increased risk of gastric carcinoma?</p>",
+              "question": "<p>An H. pylori-infected patient develops gastritis that is concentrated predominantly in the gastric antrum. Which clinical outcome is this pattern of inflammation most likely to produce?</p>",
               "answers": [
                 {
-                  "text": "<div>Urease</div>",
+                  "text": "<div>Gastric carcinoma, because antral gastritis leads to progressive mucosal atrophy and intestinal metaplasia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Urease is an enzyme that neutralises gastric acid, helping H. pylori survive in the stomach environment. It contributes to local tissue damage but is not injected into host epithelial cells.</div>",
+                    "chosenFeedback": "<div>Incorrect. It is corpus-predominant or pangastritis — not antral gastritis — that causes mucosal atrophy, reduces acid output, and carries the long-term risk of progressing to gastric carcinoma.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>VacA</div>",
+                  "text": "<div>Pernicious anaemia, because antral gastritis destroys acid-secreting parietal cells</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>VacA (vacuolating cytotoxin A) forms pores in cell membranes and triggers cell death. However, it is not the factor directly translocated into epithelial cells via the type IV secretion system.</div>",
+                    "chosenFeedback": "<div>Incorrect. Parietal cells reside in the body (corpus) of the stomach, not in the antrum. Pernicious anaemia is associated with autoimmune corpus gastritis, not antral-predominant H. pylori gastritis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>CagA</div>",
+                  "text": "<div>Duodenal ulcer, because antral inflammation raises gastric acid output</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. CagA is translocated directly into gastric epithelial cells via the type IV secretion system. Once inside, it disrupts intracellular signalling pathways, promoting chronic inflammation and increasing the risk of gastric carcinoma.</div>",
+                    "chosenFeedback": "<div>Correct. Antral-predominant gastritis disrupts the normal feedback that limits acid secretion, leading to acid hypersecretion. This excess acid damages the duodenal mucosa, resulting in duodenal ulceration.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Flagellin</div>",
+                  "text": "<div>MALT lymphoma, because CagA-driven lymphoid proliferation concentrates in the antrum</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Flagellin is a structural protein of the bacterial flagellum that provides motility through gastric mucus. It is not a virulence factor injected into host cells.</div>",
+                    "chosenFeedback": "<div>Incorrect. While CagA is a virulence factor that can drive oncogenic change, MALT lymphoma is not specifically the expected outcome of antral-predominant, high-acid gastritis. The direct clinical consequence of that pattern is duodenal ulcer disease.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "CagA is the virulence factor injected into gastric epithelial cells via the type IV secretion system. It disrupts cell signalling and is strongly associated with gastric carcinoma risk."
+                  "feedback": "Review the pathogenesis pathway: antral-predominant gastritis → increased acid output → duodenal ulcer. This contrasts with corpus-predominant or pangastritis → decreased acid → risk of atrophy, metaplasia, and eventually gastric carcinoma."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. CagA is the key oncoprotein — its direct injection into host cells distinguishes more virulent H. pylori strains from less pathogenic ones."
+                  "feedback": "Well done. Understanding the 'geography' of H. pylori gastritis is the key — antral gastritis drives acid up and leads to duodenal ulcers, while diffuse or corpus gastritis drives acid down and progresses toward gastric cancer."
                 }
               ],
               "behaviour": {
@@ -261,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6fc412a8-a6ac-4bec-8798-ee1399d9c3b4",
+            "subContentId": "b7a00a30-9557-487c-acdf-b5526565efc0",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which Helicobacter pylori virulence fact",
+              "title": "An H. pylori-infected patient develops g",
               "authors": [],
               "changes": []
             }
@@ -287,7 +235,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with acute myeloid leukaemia has been profoundly neutropenic (ANC &lt; 10</p>",
+          "label": "<p>A 45-year-old patient with acute myeloid leukaemia has been severely neutropenic</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with acute myeloid leukaemia has been profoundly neutropenic (ANC &lt; 100/µL) for twelve days. They spike a fever of 39°C, and CT chest reveals a pulmonary nodule with a surrounding ground-glass halo. What is the most appropriate immediate action?</p>",
+              "question": "<p>A 45-year-old patient with acute myeloid leukaemia has been severely neutropenic (ANC &lt; 100/µL) for twelve days. They spike a fever of 39°C, and CT chest reveals a pulmonary nodule with surrounding ground-glass opacity (halo sign). What is the most appropriate immediate step?</p>",
               "answers": [
                 {
-                  "text": "<div>Wait for galactomannan and beta-D-glucan results before initiating antifungal therapy</div>",
+                  "text": "<div>Send galactomannan and beta-D-glucan assays and withhold antifungal therapy until results confirm the diagnosis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In prolonged neutropenia with a halo sign on CT, delaying treatment for confirmatory biomarkers increases mortality. This clinical picture constitutes probable invasive pulmonary aspergillosis and warrants immediate empirical therapy.</div>",
+                    "chosenFeedback": "<div>Incorrect. In prolonged severe neutropenia with a halo sign on CT, the pre-test probability of invasive pulmonary aspergillosis is high enough to justify immediate empiric therapy. Waiting for biomarker confirmation risks rapid clinical deterioration in this vulnerable patient.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Start empirical fluconazole for probable invasive candidiasis</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Fluconazole has no clinically meaningful activity against Aspergillus species. The halo sign in a profoundly neutropenic patient is the hallmark of angioinvasive aspergillosis, not invasive candidiasis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Start empirical amphotericin B for probable mucormycosis</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The halo sign (ground-glass opacity surrounding a nodule) is characteristic of angioinvasive aspergillosis. Mucormycosis is more often associated with the reversed halo sign and different risk factors such as diabetic ketoacidosis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Start voriconazole immediately for probable invasive pulmonary aspergillosis</div>",
+                  "text": "<div>Start empiric voriconazole for probable invasive pulmonary aspergillosis</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The triad of prolonged profound neutropenia, persistent fever, and a halo sign on CT constitutes probable invasive pulmonary aspergillosis. Voriconazole is first-line therapy and must be started immediately without waiting for galactomannan results.</div>",
+                    "chosenFeedback": "<div>Correct. The combination of prolonged severe neutropenia (&gt;10 days, ANC &lt; 100) and a halo sign on CT is strongly suggestive of invasive pulmonary aspergillosis. Voriconazole is the first-line agent, and treatment should begin immediately while confirmatory tests are processed.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Start empiric fluconazole, as Candida species are the most common cause of invasive fungal infections in neutropenic patients</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. While candidaemia is common in neutropenia, the halo sign on CT is characteristic of invasive pulmonary aspergillosis — an angioinvasive mould infection. Fluconazole has no clinically useful activity against Aspergillus species.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Perform a CT-guided lung biopsy to obtain tissue diagnosis before initiating any antifungal therapy</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. In a severely neutropenic patient, invasive biopsy carries a high risk of bleeding and procedural complications. The clinical picture (prolonged neutropenia + halo sign) is sufficient to classify this as probable invasive pulmonary aspergillosis and start treatment.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The halo sign on CT in a profoundly neutropenic patient is the classic presentation of invasive pulmonary aspergillosis. Voriconazole is first-line and should be started immediately — waiting for confirmatory biomarkers in this high-risk setting increases mortality."
+                  "feedback": "The key principle from this scene: match the host (who), the syndrome (what you see), and the test or treatment (what you do). Prolonged neutropenia + halo sign on CT = probable invasive pulmonary aspergillosis → start voriconazole immediately, without waiting for galactomannan."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. You correctly integrated the host risk (prolonged neutropenia), the radiological finding (halo sign), and the treatment choice (voriconazole) — the three-pillar approach to invasive fungal infection diagnosis."
+                  "feedback": "Excellent. You correctly integrated the host context (prolonged severe neutropenia in AML) with the imaging finding (halo sign) to arrive at the appropriate empiric antifungal — a core skill in managing invasive fungal infections at the bedside."
                 }
               ],
               "behaviour": {
@@ -371,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "bb6576ea-001d-47a1-94c0-1db5a06fea79",
+            "subContentId": "7cae22df-9efa-4a69-8d10-2f0b6e71530d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with acute myeloid leukaemia h",
+              "title": "A 45-year-old patient with acute myeloid",
               "authors": [],
               "changes": []
             }
@@ -391,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 624.725,
-            "to": 634.725
+            "from": 719.3249999999999,
+            "to": 729.3249999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 60-year-old patient on mechanical ventilation for eight days develops a new fe</p>",
+          "label": "<p>You are counselling a newly diagnosed pulmonary tuberculosis patient using the S</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 60-year-old patient on mechanical ventilation for eight days develops a new fever. They have a history of recent broad-spectrum antibiotic use and prior Pseudomonas bacteraemia. Which management principle should guide their empirical antibiotic therapy?</p>",
+              "question": "<p>You are counselling a newly diagnosed pulmonary tuberculosis patient using the SPIKES framework. During the 'Knowledge' step, which of the following statements would be most accurate and appropriate to communicate?</p>",
               "answers": [
                 {
-                  "text": "<div>Anti-pseudomonal coverage is unnecessary because ventilator-associated pneumonia is predominantly caused by Gram-positive cocci</div>",
+                  "text": "<div>TB spreads through sharing food and utensils, so your family members should eat separately until you finish the full course of treatment.</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Late-onset ventilator-associated pneumonia (beyond five days) is frequently caused by Gram-negative organisms, including Pseudomonas. This patient's risk factors specifically warrant anti-pseudomonal coverage.</div>",
+                    "chosenFeedback": "<div>Incorrect. Tuberculosis spreads through airborne droplet nuclei released by coughing, not through shared food, utensils, or surface contact. Communicating this myth would cause unnecessary stigma and social isolation without reducing transmission risk.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Anti-pseudomonal beta-lactam monotherapy is always sufficient for suspected Pseudomonas infection regardless of severity</div>",
+                  "text": "<div>Once you start treatment, you will be completely non-infectious within twenty-four hours, so normal close contact can resume the next day.</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>For serious Pseudomonas infections such as bacteraemia or ventilator-associated pneumonia, combination therapy (beta-lactam plus an aminoglycoside or fluoroquinolone) provides synergistic killing and limits resistance emergence.</div>",
+                    "chosenFeedback": "<div>Incorrect. While infectiousness does drop with effective treatment, the narration states it typically takes about two weeks for most patients to become non-infectious. Prematurely reassuring the patient risks preventable household transmission.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Combination anti-pseudomonal therapy is warranted given the risk factors, with de-escalation to a single agent once susceptibility results are available</div>",
+                  "text": "<div>Your household contacts do not need any screening or testing as long as they have no symptoms of cough or fever.</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. The narration clearly states that household contacts need screening. Tuberculosis infection can remain latent and entirely asymptomatic in contacts, so waiting for symptoms before screening would miss early identification and prophylaxis opportunities.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>TB spreads through airborne droplets, and after about two weeks of effective treatment, you are usually no longer infectious to those around you.</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Multiple risk factors (prolonged ventilation, prior Pseudomonas infection, recent broad-spectrum antibiotics) justify initial combination therapy. Once culture susceptibilities return and the patient improves clinically, de-escalation to the narrowest effective agent limits selection pressure for resistance.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Aminoglycosides alone provide adequate empirical anti-pseudomonal coverage in this clinical setting</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Aminoglycosides are used in combination with a beta-lactam for synergistic bactericidal activity against Pseudomonas. They are not adequate as monotherapy for serious Pseudomonas infections.</div>",
+                    "chosenFeedback": "<div>Correct. This accurately conveys both the airborne route of transmission and the approximate timeframe after which infectiousness drops — two critical facts for the Knowledge step. It empowers the patient and family with actionable, evidence-based information.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "For serious suspected Pseudomonas infections with clear risk factors, combination therapy (anti-pseudomonal beta-lactam plus aminoglycoside or fluoroquinolone) is evidence-based. De-escalation to a single agent after susceptibility data is available limits resistance pressure."
+                  "feedback": "In the SPIKES Knowledge step for TB counselling, three facts are essential: (1) TB spreads by air, not through fomites or shared utensils; (2) infectiousness drops after about two weeks of effective treatment; (3) household contacts need screening regardless of whether they have symptoms."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The principle is: escalate to combination therapy when risk factors demand it, then de-escalate to the narrowest effective agent once susceptibility data is available — balancing effective treatment against resistance selection."
+                  "feedback": "Well done. Accurate, jargon-free communication of transmission facts and treatment timelines is the cornerstone of the SPIKES Knowledge step, helping patients and families make informed decisions about isolation, contact screening, and treatment adherence."
                 }
               ],
               "behaviour": {
@@ -481,69 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "7b1b14b9-254f-4728-8917-55d8ba486350",
+            "subContentId": "2947a797-49d8-404f-b4c4-ced79558a82b",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 60-year-old patient on mechanical vent",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 719.925,
-            "to": 729.925
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>In the SPIKES framework for infection counselling, the physician should first ex</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>In the SPIKES framework for infection counselling, the physician should first explain all the medical facts about the disease before exploring what the patient already understands about their diagnosis.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "In fact, the SPIKES framework places Perception before Knowledge. The physician first explores what the patient already knows or believes about their condition, then gently corrects misconceptions, and only then delivers the medical facts. Jumping straight to information delivery risks overwhelming the patient and missing dangerous myths they may be carrying.",
-                "correctAnswerMessage": "Correct. In the SPIKES framework, the Perception step comes before the Knowledge step. The physician first explores what the patient already knows or believes, corrects any myths, and only then delivers the medical facts. This ensures new information builds on the patient's existing understanding.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "599edb5d-2eee-43c9-b016-22c45cc3c96f",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "In the SPIKES framework for infection co",
+              "title": "You are counselling a newly diagnosed pu",
               "authors": [],
               "changes": []
             }
@@ -610,7 +500,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "f9910704-d06a-4bba-bd2a-4f9057fe11c1",
+              "subContentId": "52ebffed-ee29-4f1d-bc56-fd7652983815",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -633,7 +523,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "e61493c5-280e-48d1-b8ef-95b444da2a95",
+        "subContentId": "ddfc20bd-2c85-48d8-bc6a-4435f6d3b1f2",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
