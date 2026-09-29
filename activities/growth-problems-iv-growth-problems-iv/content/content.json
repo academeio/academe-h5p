@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/3fa7e811-6d93-49f3-9010-94d111bd26fd/playlist.m3u8",
+          "path": "https://vdo.cbme.in/9f03d5c9-1edb-444f-8b0e-945485e5aa71/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -67,95 +67,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A two-year-old child presents with a weight-for-height Z-score of −2.8 SD, a mid</p>",
+          "label": "<p>Weight-for-age is sufficient to distinguish between wasting and stunting in a ma</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A two-year-old child presents with a weight-for-height Z-score of −2.8 SD, a mid-upper arm circumference of 12.0 cm, and no pedal oedema. How should this child's nutritional status be classified?</p>",
-              "answers": [
-                {
-                  "text": "<div>Normal nutritional status — weight is adequate for this age</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>A weight-for-height Z-score of −2.8 SD is well below −2 SD, indicating significant wasting. This child is clearly malnourished and needs intervention.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Moderate acute malnutrition — both indices fall in the moderate range</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Weight-for-height between −2 and −3 SD and MUAC between 11.5 and 12.5 cm both place this child in the moderate acute malnutrition category, not severe.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Severe acute malnutrition — the weight-for-height is critically low</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>SAM requires weight-for-height below −3 SD (this child is at −2.8), or MUAC below 11.5 cm (this child has 12.0 cm), or bilateral pedal oedema (absent here). None of the three SAM criteria are met.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Failure to thrive of unknown severity — further testing is needed first</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The WHO classification system provides clear anthropometric cutoffs to grade severity without additional investigations. Weight-for-height and MUAC together are sufficient to classify this child.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "This child's weight-for-height (−2.8 SD) falls between −2 and −3 SD, and the MUAC (12.0 cm) falls between 11.5 and 12.5 cm — both place the child in the moderate acute malnutrition range, not severe."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. This child meets the criteria for moderate acute malnutrition. Remember: SAM requires ANY ONE of weight-for-height < −3 SD, MUAC < 11.5 cm, or bilateral pedal oedema."
-                }
-              ],
+              "question": "<p>Weight-for-age is sufficient to distinguish between wasting and stunting in a malnourished child.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Weight-for-age shows overall growth failure but cannot distinguish wasting from stunting. You need weight-for-height to detect wasting (acute malnutrition) and height-for-age to detect stunting (chronic malnutrition). The video specifically cautions: 'weight-for-age alone cannot tell you the type of malnutrition.'",
+                "correctAnswerMessage": "Correct. Weight-for-age reflects overall underweight status but cannot differentiate between wasting (acute malnutrition, detected by weight-for-height) and stunting (chronic malnutrition, detected by height-for-age). All three indices are needed to classify the type and duration of malnutrition.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "0d3b83b0-0a38-4174-81e2-acee879c5e56",
+            "subContentId": "5182711f-5e25-4da7-8281-1a67a954924d",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "A two-year-old child presents with a wei",
+              "title": "Weight-for-age is sufficient to distingu",
               "authors": [],
               "changes": []
             }
@@ -177,43 +125,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A child whose height is at the 25th centile on the growth chart, but who is grow</p>",
+          "label": "<p>A seven-year-old girl's height plots at the 25th centile, but she grew only 2 cm</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A child whose height is at the 25th centile on the growth chart, but who is growing at only 2 cm per year, does not need investigation since the current height is within the normal range.</p>",
-              "correct": "false",
+              "question": "<p>A seven-year-old girl's height plots at the 25th centile, but she grew only 2 cm in the past year. A classmate plots at −2.5 SD but grew 5.5 cm over the same period. Based on the video, which child warrants greater clinical concern?</p>",
+              "answers": [
+                {
+                  "text": "<div>The classmate at −2.5 SD, because she already meets the short stature definition</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Although her height is below −2 SD, her growth velocity of 5.5 cm/year is normal for a prepubertal child, suggesting she is following her own trajectory. A declining velocity is more alarming than a low single measurement.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The girl at the 25th centile, because her growth velocity is abnormally low</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. A prepubertal child should grow 5–7 cm per year. Growth velocity of only 2 cm/year signals a possible pathological process even when the current height appears acceptable on the chart.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Both children equally, since both have abnormal growth parameters</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The classmate's growth velocity of 5.5 cm/year is normal for a prepubertal child, suggesting she is tracking her own curve. The girl at the 25th centile with severely reduced velocity is the one who needs investigation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Neither child, because prepubertal growth rates are too variable to interpret</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Normal prepubertal growth velocity is well established at 5–7 cm/year. A velocity consistently below 4 cm/year is a red flag regardless of the child's current centile.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Growth velocity is the key concept. A prepubertal child growing below 4 cm/year warrants investigation even when the current height looks acceptable, because it signals a declining growth trajectory."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. Growth velocity — how fast a child grows over 6–12 months — is more informative than any single height measurement. A normal velocity at a low centile is reassuring; a declining velocity at any centile warrants investigation."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. Growth velocity below 4 cm/year in a prepubertal child is a red flag regardless of current height. As the narration explains, a child at the 25th centile growing at only 2 cm/year is more concerning than a shorter child growing steadily at 5.5 cm/year. Trajectory matters more than a single measurement.",
-                "correctAnswerMessage": "Correct — this statement is false. Normal prepubertal growth velocity is 5–7 cm per year, and anything consistently below 4 cm/year is a red flag. A child at the 25th centile growing at only 2 cm/year is actually more worrying than one near −2.5 SD who is growing steadily at 5.5 cm/year, because the declining velocity signals an active process affecting growth.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "db16c8a9-f926-4901-9d57-3f8b2e9d3b52",
+            "subContentId": "2632c462-dce3-45e3-9958-f4522f55df87",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A child whose height is at the 25th cent",
+              "title": "A seven-year-old girl's height plots at",
               "authors": [],
               "changes": []
             }
@@ -235,7 +235,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>During assessment of a 15-month-old with failure to thrive, the dietary history </p>",
+          "label": "<p>The video states that a careful history is 'usually more useful than any battery</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>During assessment of a 15-month-old with failure to thrive, the dietary history shows adequate caloric intake and there are no symptoms suggesting organic disease, yet the child continues to lose weight. Which area of the history is MOST likely to reveal the underlying driver?</p>",
+              "question": "<p>The video states that a careful history is 'usually more useful than any battery of tests' when assessing failure to thrive. Why is this the case?</p>",
               "answers": [
                 {
-                  "text": "<div>A detailed birth history including Apgar scores and NICU stay</div>",
+                  "text": "<div>Because laboratory investigations are not available at primary health centres in India</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While birth history is part of the standard FTT assessment, in this scenario where diet is adequate and organic disease is excluded, perinatal factors are unlikely to yield the missing piece.</div>",
+                    "chosenFeedback": "<div>While resource constraints exist, the reason is epidemiological, not logistical. History outperforms tests because the majority of FTT cases have non-organic causes that no blood test can detect.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A comprehensive review of the child's immunisation schedule</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Immunisation status is important for preventive care but does not explain ongoing weight loss in the absence of active infection or organic symptoms.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Family and social history, including maternal mental health and food security</div>",
+                  "text": "<div>Because most FTT is non-organic, driven by feeding practices, caregiver stress, and food insecurity that only history can reveal</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. When dietary intake appears adequate and organic causes are excluded, psychosocial factors — maternal depression, caregiver stress, food insecurity — are the most likely drivers. These are 'exactly what a rushed clinician tends to miss' and are essential to identify for effective counselling.</div>",
+                    "chosenFeedback": "<div>Correct. Non-organic causes account for the majority of FTT, and their drivers — diluted formula, abrupt weaning, maternal depression, food insecurity — are invisible to laboratory panels. A careful dietary, developmental, and psychosocial history uncovers what a rushed clinician and an undirected investigation panel both miss.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A three-generation family pedigree for genetic short stature</div>",
+                  "text": "<div>Because blood tests have an unacceptably high false-positive rate in malnourished children</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Genetic short stature presents as proportionate shortness with normal growth velocity, not as acute weight loss or failure to thrive. These are distinct clinical problems.</div>",
+                    "chosenFeedback": "<div>The issue is not false positives but relevance. Most FTT is non-organic, meaning the root causes lie in feeding practices and caregiver circumstances that no blood test can identify. Investigations should follow clinical suspicion, not replace history.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Because anthropometric measurements alone are sufficient to determine both the cause and severity of malnutrition</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Anthropometry classifies severity (SAM vs MAM) and type (wasting vs stunting), but it cannot identify the underlying cause. That requires history — specifically dietary intake, psychosocial factors, and medical red flags.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "When dietary history and organic screening are unrevealing, the answer almost always lies in the family and social history. Maternal mental health, caregiver stress, and food insecurity are the most common drivers of non-organic FTT and are central to effective counselling."
+                  "feedback": "Most FTT is non-organic — caused by inadequate feeding practices, caregiver stress, maternal depression, or food insecurity. These causes are invisible to laboratory tests but clearly revealed by a careful history."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Non-organic causes account for over 70% of FTT cases. Identifying psychosocial barriers — maternal depression, caregiver stress, food insecurity — is essential for planning effective counselling."
+                  "feedback": "Excellent. Since non-organic causes drive most FTT, a thorough history covering feeding, development, and psychosocial factors reveals the cause more reliably than an undirected panel of investigations."
                 }
               ],
               "behaviour": {
@@ -319,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e8173616-7dde-4dab-8ae8-ddc9537ffca6",
+            "subContentId": "494aff32-7a49-48f4-a366-8c97534b72ae",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "During assessment of a 15-month-old with",
+              "title": "The video states that a careful history",
               "authors": [],
               "changes": []
             }
@@ -345,7 +345,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 20-month-old with severe acute malnutrition is admitted with hypothermia and p</p>",
+          "label": "<p>A child with complicated severe acute malnutrition is admitted with hypoglycaemi</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 20-month-old with severe acute malnutrition is admitted with hypothermia and poor appetite. During the first week of facility-based care, which therapeutic feed is appropriate and why?</p>",
+              "question": "<p>A child with complicated severe acute malnutrition is admitted with hypoglycaemia and poor appetite. The treating team begins F-75 therapeutic milk during the stabilisation phase. Why is this low-protein, low-energy formula chosen rather than a calorie-dense feed?</p>",
               "answers": [
                 {
-                  "text": "<div>F-100, because it provides the high calories needed for rapid weight gain</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>F-100 is used in the rehabilitation phase after the first week, not during stabilisation. Starting high-calorie feeds too early in a severely malnourished child risks refeeding syndrome — dangerous electrolyte shifts, particularly phosphate depletion.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>F-75, because its low protein and energy content reduces the risk of refeeding syndrome</div>",
+                  "text": "<div>To prevent refeeding syndrome — a dangerous electrolyte shift that occurs when a starved child is fed too aggressively</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. F-75 is deliberately formulated with lower protein and energy to avoid the dangerous electrolyte shifts that characterise refeeding syndrome during the stabilisation phase.</div>",
+                    "chosenFeedback": "<div>Correct. Refeeding syndrome occurs when a severely malnourished child receives too many calories too quickly, causing rapid insulin-driven shifts in phosphate, potassium, and magnesium that can be fatal. F-75's deliberately low composition allows safe metabolic stabilisation before transitioning to F-100 in the rehabilitation phase.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Ready-to-use therapeutic food, because it can be started immediately without preparation</div>",
+                  "text": "<div>To minimise the risk of lactose-induced diarrhoea in malnourished children</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>RUTF (such as Plumpy'Nut) is designed for home-based management of uncomplicated SAM. A child with hypothermia and poor appetite has danger signs that require facility-based care with F-75.</div>",
+                    "chosenFeedback": "<div>While diarrhoea is a concern in malnourished children, F-75's low-calorie design specifically targets the prevention of refeeding syndrome — a potentially fatal metabolic complication — not lactose intolerance.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Standard infant formula at double concentration to maximise caloric density</div>",
+                  "text": "<div>To reduce the cost of therapeutic feeding in resource-limited nutrition rehabilitation centres</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Concentrated formula is not part of the WHO/UNICEF SAM protocol. Overfeeding a metabolically compromised child can precipitate refeeding syndrome and worsen electrolyte imbalances.</div>",
+                    "chosenFeedback": "<div>Both F-75 and F-100 are WHO-formulated therapeutic milks supplied through nutrition programmes. The choice between them is driven by physiological safety — preventing the metabolic complications of refeeding — not by cost.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>To avoid hepatic overload from protein metabolism in children with kwashiorkor</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Although hepatic dysfunction can occur in kwashiorkor, F-75 is used for all children with complicated SAM regardless of oedema status. Its primary purpose is to prevent refeeding syndrome across the board, not to protect the liver specifically.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "During the stabilisation phase (first week), F-75 therapeutic milk is used. Its low protein and energy content prevents refeeding syndrome — a dangerous electrolyte shift that occurs when a starved child is fed too aggressively too soon."
+                  "feedback": "F-75 is deliberately low in protein and energy to prevent refeeding syndrome — a dangerous electrolyte shift (especially phosphate) that occurs when a starved child receives too much nutrition too quickly. Once the child is metabolically stable, they transition to the calorie-dense F-100."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. F-75's deliberately low protein and energy content safeguards against refeeding syndrome during the critical first week. F-100 and catch-up feeding begin only after appetite returns and complications resolve."
+                  "feedback": "Well done. The two-phase protocol — F-75 for stabilisation, then F-100 for rehabilitation — is specifically designed to prevent the potentially fatal electrolyte shifts of refeeding syndrome while still achieving nutritional recovery."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "24b0d6fe-861f-418e-9a7d-6807acda91f5",
+            "subContentId": "06d76941-308c-4f14-8fd3-e085ffa4a359",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 20-month-old with severe acute malnutr",
+              "title": "A child with complicated severe acute ma",
               "authors": [],
               "changes": []
             }
@@ -455,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>While explaining the diagnosis of failure to thrive to a mother, she becomes ups</p>",
+          "label": "<p>While counselling the mother of a child with failure to thrive, you notice she a</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>While explaining the diagnosis of failure to thrive to a mother, she becomes upset and says, 'Are you saying I'm not feeding my child properly?' Which response BEST reflects the recommended counselling approach?</p>",
+              "question": "<p>While counselling the mother of a child with failure to thrive, you notice she appears withdrawn and mentions she often cannot manage to prepare meals. Which approach best reflects the counselling principles described in the video?</p>",
               "answers": [
                 {
-                  "text": "<div>'The test results confirm that your child is malnourished, so we need to change his diet immediately.'</div>",
+                  "text": "<div>Focus entirely on the child's feeding plan and schedule a dietitian referral for the mother separately</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This response is blunt and implies blame. Using 'malnourished' accusingly can make the caregiver defensive and disengage from the counselling process entirely.</div>",
+                    "chosenFeedback": "<div>Addressing only the child's nutrition misses the root cause. The video emphasises that maternal mental health and psychosocial barriers are often the biggest drivers of non-organic FTT and must be addressed alongside feeding.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>'This is not about blame — many mothers face this. Here is a diet chart you should follow from today.'</div>",
+                  "text": "<div>Advise the father to take over all feeding responsibilities immediately</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While 'not about blame' is well-intentioned, jumping straight to a diet chart skips the essential step of exploring the mother's own perspective first. Overloading one visit with instructions is also cautioned against.</div>",
+                    "chosenFeedback": "<div>While involving other caregivers is valuable, abruptly reassigning all responsibility implies blame and undermines the mother-child bond. The video stresses a non-blaming approach that strengthens the caregiver-child relationship.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>'Let me refer you to our nutritionist who will explain everything in detail.'</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Deflecting to another professional at this point misses the opportunity to build rapport and understand the family's specific barriers — both of which are the clinician's responsibility.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>'I can see you are worried about your child, and you are right to be concerned. Can you tell me what you think might be causing his poor growth?'</div>",
+                  "text": "<div>Validate the mother's experience, screen for maternal depression, and provide practical feeding guidance alongside referral</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. This acknowledges the mother's concern, validates it, and opens a dialogue by asking her perspective first — exactly the recommended sequence: 'Acknowledge their worry… Ask what they think might be causing it before you explain anything yourself.'</div>",
+                    "chosenFeedback": "<div>Correct. The video emphasises that counselling must be non-blaming and empathetic. When maternal depression is suspected, the clinician should validate her experience, screen for depression, and offer referral — while simultaneously providing practical, achievable feeding advice. Both the child's nutrition and the mother's wellbeing are addressed together.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Document the mother's inability to feed the child as evidence of neglect and notify protective services</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This punitive response contradicts the video's core message: the goal of counselling is to change behaviour and strengthen the caregiver-child bond through empathy and practical support, not to assign blame.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The recommended approach is to first acknowledge the parent's worry, then ask what they think is causing the problem, and only then explain using simple, non-blaming language. Rapport must come before instructions."
+                  "feedback": "The video stresses that counselling must be non-blaming, empathetic, and practical. When a caregiver appears to be struggling, screening for depression and providing support alongside feeding guidance addresses the root cause of many non-organic FTT cases."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. Effective FTT counselling starts with acknowledging the parent's concern, building rapport, and exploring their understanding before explaining the diagnosis or giving practical advice."
+                  "feedback": "Excellent. Effective FTT counselling addresses both the child's nutritional needs and the caregiver's barriers simultaneously. A non-blaming, empathetic approach that validates the mother's experience produces lasting behavioural change."
                 }
               ],
               "behaviour": {
@@ -539,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "047dc570-eefc-4c71-8359-9ef3f5ff7729",
+            "subContentId": "b782bda7-c3fd-4212-a258-cc3f55f5008c",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "While explaining the diagnosis of failur",
+              "title": "While counselling the mother of a child",
               "authors": [],
               "changes": []
             }
@@ -602,7 +602,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "d867fda7-5a6a-4e65-aed8-6b19362ceee0",
+              "subContentId": "908f6a12-e162-4b7a-af47-1483d29388f3",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -625,7 +625,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "0569c5f8-a1a8-41b6-96ec-f8e0fdf57ddd",
+        "subContentId": "e18718e8-6303-41d5-8d68-e50b307b305c",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
