@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/6658aed8-2149-4458-a6b3-acd54e719f3b/playlist.m3u8",
+          "path": "https://vdo.cbme.in/578925e4-924f-4480-9229-af1258406c61/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PH4.1-11 | Cardiovascular and Blood Pharmacology — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for PH4.1-PH4.9."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for PH4.1-PH4.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,123 @@
       "interactions": [
         {
           "duration": {
-            "from": 188.825,
-            "to": 198.825
+            "from": 188.225,
+            "to": 198.225
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Peripheral oedema caused by amlodipine is due to fluid retention and should be t</p>",
+          "label": "<p>A 60-year-old woman on amlodipine 10 mg for hypertension develops bilateral ankl</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A 60-year-old woman on amlodipine 10 mg for hypertension develops bilateral ankle swelling. Urinalysis and serum albumin are normal. What is the most likely explanation?</p>",
+              "answers": [
+                {
+                  "text": "<div>Congestive heart failure requiring diuretic therapy</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Amlodipine-induced oedema is caused by precapillary arteriolar dilatation, not fluid overload. Diuretics do not resolve this type of swelling.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Dose-dependent precapillary vasodilation causing dependent oedema</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Dihydropyridine CCBs dilate arterioles more than venules, raising capillary hydrostatic pressure. This dose-dependent effect occurs in up to 40% of patients at high doses.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Nephrotic syndrome from drug-induced renal injury</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Normal albumin and urinalysis exclude nephrotic syndrome. Amlodipine does not cause significant renal injury.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Allergic angioedema requiring immediate drug withdrawal</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Angioedema typically involves the face and airway, not dependent ankle swelling. Amlodipine oedema is a pharmacological effect, not an allergic reaction.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The oedema is dose-related, caused by dihydropyridine-induced arteriolar vasodilation that raises capillary hydrostatic pressure. It affects up to 40% of patients at high doses and does not respond to diuretics."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. Amlodipine causes dose-dependent peripheral oedema through precapillary vasodilation — this is why diuretics do not help."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "b0d7bafa-0553-448e-a711-bf07d9365fd4",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A 60-year-old woman on amlodipine 10 mg",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 299.57499999999993,
+            "to": 309.57499999999993
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Aliskiren can be safely combined with an ACE inhibitor to achieve more complete </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,7 +186,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Peripheral oedema caused by amlodipine is due to fluid retention and should be treated with diuretics.</p>",
+              "question": "<p>Aliskiren can be safely combined with an ACE inhibitor to achieve more complete blockade of the renin-angiotensin-aldosterone system.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -94,16 +204,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. Amlodipine-induced oedema is caused by arteriolar vasodilation, not fluid overload. Diuretics are ineffective here; the correct approach is dose reduction or switching to another antihypertensive class.",
-                "correctAnswerMessage": "Correct! Amlodipine-induced pedal oedema results from precapillary arteriolar vasodilation raising capillary hydrostatic pressure — not fluid retention. It is dose-dependent, affecting up to 40% of patients at high doses, and does not respond to diuretics. Dose reduction or switching to another class is the appropriate step.",
+                "wrongAnswerMessage": "This combination is actually contraindicated. Trials showed that dual RAAS blockade with aliskiren plus an ACE inhibitor or ARB raised the risk of kidney failure and dangerously high potassium without added clinical benefit.",
+                "correctAnswerMessage": "Well done. Clinical trials demonstrated that combining aliskiren with an ACE inhibitor or ARB significantly increased the risk of renal failure and hyperkalaemia. This combination is now contraindicated.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "148ba7c2-4908-4613-adca-ebdf2e71d00a",
+            "subContentId": "0967db88-7cdb-4b11-b38a-73a330de6224",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Peripheral oedema caused by amlodipine i",
+              "title": "Aliskiren can be safely combined with an",
               "authors": [],
               "changes": []
             }
@@ -119,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 300.17499999999995,
-            "to": 310.17499999999995
+            "from": 409.74999999999994,
+            "to": 419.74999999999994
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 52-year-old man on enalapril for diabetic nephropathy develops a persistent dr</p>",
+          "label": "<p>How does the effect of thiazide diuretics on calcium handling differ from that o</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 52-year-old man on enalapril for diabetic nephropathy develops a persistent dry cough. His physician switches him to losartan. Which pharmacological property of ARBs best explains why they do not cause this cough?</p>",
+              "question": "<p>How does the effect of thiazide diuretics on calcium handling differ from that of loop diuretics?</p>",
               "answers": [
                 {
-                  "text": "<div>ARBs have a shorter half-life, reducing prolonged airway irritation</div>",
+                  "text": "<div>Both classes cause calcium loss, but thiazides cause less</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Half-life does not explain the cough. ACE inhibitor–induced cough is caused by bradykinin accumulation due to inhibition of its degradation, not by duration of drug exposure.</div>",
+                    "chosenFeedback": "<div>The difference is qualitative, not merely quantitative. Thiazides actually promote calcium retention, while loop diuretics promote calcium loss — opposite effects with distinct clinical applications.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>ARBs block the AT2 receptor, which mediates the cough reflex</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>ARBs selectively block the AT1 receptor, not AT2. Angiotensin II still stimulates the unblocked AT2 receptor, which actually promotes beneficial vasodilation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>ARBs do not inhibit bradykinin breakdown, so bradykinin does not accumulate in the airways</div>",
+                  "text": "<div>Thiazides promote calcium retention whereas loop diuretics promote calcium loss</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! ACE inhibitors block both the conversion of angiotensin I to II and the degradation of bradykinin. Accumulated bradykinin irritates airway sensory nerve endings, causing cough. ARBs bypass this pathway entirely by acting downstream at the AT1 receptor.</div>",
+                    "chosenFeedback": "<div>Correct. Thiazides enhance calcium reabsorption in the distal tubule, reducing urinary calcium — making them useful in recurrent calcium stone disease. Loop diuretics inhibit calcium reabsorption in the thick ascending limb, causing hypocalcaemia.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>ARBs are prodrugs activated in the liver, avoiding pulmonary first-pass effects</div>",
+                  "text": "<div>Loop diuretics retain calcium, which is why they are used to prevent osteoporosis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Not all ARBs are prodrugs, and hepatic activation does not explain the absence of cough. The key difference is that ARBs do not affect bradykinin metabolism at all.</div>",
+                    "chosenFeedback": "<div>It is the opposite. Loop diuretics cause calcium loss (hypocalcaemia). Thiazides retain calcium and are sometimes preferred when calcium conservation is desirable.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Neither class significantly affects calcium levels</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Both classes have clinically significant and opposite effects on calcium. This distinction is high-yield: thiazides retain calcium (useful in stone disease), while loop diuretics waste calcium (risk of hypocalcaemia).</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Recall the dual action of ACE: it converts angiotensin I to angiotensin II AND degrades bradykinin. ACE inhibitors block both pathways, causing bradykinin to accumulate and trigger cough. ARBs act downstream at the AT1 receptor and leave bradykinin metabolism untouched."
+                  "feedback": "Thiazides promote calcium retention (useful in calcium stone disease), while loop diuretics cause calcium loss. This opposite effect on calcium handling is determined by their different sites of action along the nephron."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done! The absence of bradykinin accumulation is the key pharmacological distinction that makes ARBs better tolerated than ACE inhibitors with respect to cough."
+                  "feedback": "Correct. This calcium-handling difference is clinically important: thiazides are preferred in calcium stone disease, while loop diuretics can cause hypocalcaemia."
                 }
               ],
               "behaviour": {
@@ -209,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "866f41d1-a35e-4af6-9b32-522eee07cf43",
+            "subContentId": "308c002e-22c6-41c8-90c9-5e762a31c525",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 52-year-old man on enalapril for diabe",
+              "title": "How does the effect of thiazide diuretic",
               "authors": [],
               "changes": []
             }
@@ -229,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 410.34999999999997,
-            "to": 420.34999999999997
+            "from": 646.2499999999999,
+            "to": 656.2499999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with recurrent calcium oxalate renal stones and co-existing hypertensi</p>",
+          "label": "<p>In a patient with heart failure with reduced ejection fraction and sinus rhythm,</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with recurrent calcium oxalate renal stones and co-existing hypertension requires a diuretic. Which class is most appropriate?</p>",
+              "question": "<p>In a patient with heart failure with reduced ejection fraction and sinus rhythm, digoxin is added to optimal quadruple therapy. What outcome should the patient expect?</p>",
               "answers": [
                 {
-                  "text": "<div>Loop diuretics, because they are the most potent and effectively reduce fluid load</div>",
+                  "text": "<div>Reduced mortality similar to ACE inhibitors</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Loop diuretics block the NKCC2 transporter in the thick ascending limb and increase urinary calcium excretion (cause hypocalcaemia). This would worsen calcium stone disease by raising the filtered calcium load in the urine.</div>",
+                    "chosenFeedback": "<div>Digoxin does NOT reduce mortality in sinus rhythm. Unlike the four mortality-reducing pillars (ACEi/ARNI, specific beta-blockers, MRAs, SGLT2 inhibitors), digoxin is purely a symptom-management drug.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Thiazide diuretics, because they reduce urinary calcium excretion</div>",
+                  "text": "<div>Reduced hospitalisations but no improvement in survival</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! Thiazides act on the early distal convoluted tubule and enhance calcium reabsorption, lowering urinary calcium. This makes them uniquely suited for preventing calcium stones while simultaneously treating hypertension.</div>",
+                    "chosenFeedback": "<div>Correct. The DIG trial showed that digoxin reduces heart failure hospitalisations and improves symptoms but has no effect on mortality in sinus rhythm. Its narrow therapeutic index also demands careful monitoring.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Carbonic anhydrase inhibitors, because they alkalinise the urine and dissolve stones</div>",
+                  "text": "<div>Improved survival only if combined with an SGLT2 inhibitor</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Acetazolamide alkalinises urine, which helps prevent uric acid stones, not calcium oxalate stones. It also produces only weak diuresis and causes metabolic acidosis.</div>",
+                    "chosenFeedback": "<div>Digoxin does not improve survival regardless of combination. SGLT2 inhibitors independently reduce mortality and are one of the four mortality-reducing pillars — their benefit is not linked to digoxin.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Potassium-sparing diuretics, because they prevent the hypokalaemia that promotes stone formation</div>",
+                  "text": "<div>No clinical benefit whatsoever; the drug should be avoided</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While hypokalaemia can indirectly increase calcium excretion, potassium-sparing diuretics do not directly reduce urinary calcium. Thiazides are the evidence-based choice for calcium stone prevention.</div>",
+                    "chosenFeedback": "<div>Digoxin does have a role: it reduces hospitalisations and improves symptoms. The crucial distinction is that it does not reduce mortality, unlike the four pillars of HFrEF therapy.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the key calcium distinction: loop diuretics waste calcium (cause hypocalcaemia), while thiazides retain calcium (can cause hypercalcaemia). For calcium stone prevention, you need reduced urinary calcium — that means thiazides."
+                  "feedback": "Digoxin reduces hospitalisations but does NOT improve survival in sinus rhythm. The four pillars that DO reduce mortality are: ACEi/ARNI, specific beta-blockers (carvedilol, bisoprolol, metoprolol succinate), MRAs, and SGLT2 inhibitors."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent! Thiazides are the only diuretic class that reduces urinary calcium — a direct consequence of their site of action at the early DCT, where they enhance calcium reabsorption."
+                  "feedback": "Well answered. Digoxin improves symptoms and reduces hospitalisations but does not reduce mortality — a crucial distinction from the four mortality-reducing HF drug pillars."
                 }
               ],
               "behaviour": {
@@ -319,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "4c48ad4d-dca3-4a9f-9c09-d96249f3d466",
+            "subContentId": "cab22215-c284-4c68-a2a4-683c5cef89ae",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with recurrent calcium oxalate",
+              "title": "In a patient with heart failure with red",
               "authors": [],
               "changes": []
             }
@@ -339,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 646.8499999999999,
-            "to": 656.8499999999999
+            "from": 770.5749999999999,
+            "to": 780.5749999999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with heart failure with reduced ejection fraction is on maximum tolera</p>",
+          "label": "<p>What property makes amiodarone pharmacologically unique among the antiarrhythmic</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with heart failure with reduced ejection fraction is on maximum tolerated carvedilol, but the resting heart rate remains 82 bpm. Which drug should be added to reduce heart rate without weakening cardiac contraction?</p>",
+              "question": "<p>What property makes amiodarone pharmacologically unique among the antiarrhythmic drugs?</p>",
               "answers": [
                 {
-                  "text": "<div>Digoxin</div>",
+                  "text": "<div>It is the only antiarrhythmic available in both oral and intravenous forms</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Digoxin does slow heart rate through vagal enhancement and AV nodal effects, but it also has a narrow therapeutic index and does not selectively target heart rate. In this specific scenario — HR above 70 bpm on maximum beta-blocker — ivabradine is the targeted first-line add-on.</div>",
+                    "chosenFeedback": "<div>Several antiarrhythmics have dual formulations. Amiodarone's uniqueness lies in its mechanism of action: it simultaneously blocks ion channels across all four Vaughan-Williams classes.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Diltiazem</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Diltiazem is a non-dihydropyridine calcium channel blocker with significant negative inotropic effects. It is contraindicated in heart failure with reduced ejection fraction because it worsens pump failure.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Ivabradine</div>",
+                  "text": "<div>It acts on ion channels corresponding to all four Vaughan-Williams classes</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! Ivabradine selectively blocks the If (funny) current in SA node pacemaker cells, reducing heart rate without any negative inotropic effect. It is specifically indicated when the heart rate exceeds 70 bpm despite maximum tolerated beta-blocker therapy in HFrEF.</div>",
+                    "chosenFeedback": "<div>Correct. Amiodarone blocks sodium channels (Class I), has antisympathetic properties (Class II), blocks potassium channels (Class III — its primary classification), and blocks calcium channels (Class IV). This broad action explains both its efficacy and its complex side-effect profile.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Verapamil</div>",
+                  "text": "<div>It selectively blocks the funny current in sinoatrial node pacemaker cells</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Verapamil has strong negative inotropic and chronotropic effects. Like diltiazem, it is contraindicated in HFrEF because it further depresses an already weakened myocardium.</div>",
+                    "chosenFeedback": "<div>Blocking the funny current (If) is the mechanism of ivabradine, not amiodarone. Amiodarone's primary classification is as a Class III potassium channel blocker, but it acts across all four classes.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It is the only antiarrhythmic that does not prolong the QT interval</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Amiodarone DOES prolong the QT interval through its Class III potassium channel blockade. Despite this, torsades de pointes is relatively rare with amiodarone compared to other QT-prolonging drugs.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In HFrEF, many rate-slowing drugs are contraindicated because they also weaken contraction (negative inotropy). Ivabradine is unique: it acts only on the SA node's funny current, reducing rate without affecting the force of contraction."
+                  "feedback": "Amiodarone is unique because it acts on all four Vaughan-Williams classes simultaneously: sodium channel blockade (I), antisympathetic effects (II), potassium channel blockade (III), and calcium channel blockade (IV)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done! Ivabradine's unique mechanism — pure heart rate reduction without affecting contractility — makes it the ideal add-on when beta-blockers alone cannot bring heart rate below 70 bpm in HFrEF."
+                  "feedback": "Exactly right. Amiodarone acts across all four Vaughan-Williams classes — Na⁺, K⁺, and Ca²⁺ channel blockade plus antisympathetic activity — making it the broadest-spectrum antiarrhythmic available."
                 }
               ],
               "behaviour": {
@@ -429,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "36ad5ef5-14fe-4c72-bc08-8fc76a830b26",
+            "subContentId": "2f24b647-1df4-4bc7-8358-9bd794661c5a",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with heart failure with reduce",
+              "title": "What property makes amiodarone pharmacol",
               "authors": [],
               "changes": []
             }
@@ -455,7 +565,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In Wolff-Parkinson-White syndrome with atrial fibrillation, verapamil can precip</p>",
+          "label": "<p>A 30-year-old man with known Wolff-Parkinson-White syndrome presents with an irr</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +574,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In Wolff-Parkinson-White syndrome with atrial fibrillation, verapamil can precipitate ventricular fibrillation. Which mechanism best explains this danger?</p>",
+              "question": "<p>A 30-year-old man with known Wolff-Parkinson-White syndrome presents with an irregularly irregular wide-complex tachycardia at 220 bpm. Which of the following is a safe treatment option?</p>",
               "answers": [
                 {
-                  "text": "<div>Verapamil directly accelerates conduction velocity through the accessory pathway</div>",
+                  "text": "<div>Intravenous verapamil</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Verapamil does not directly affect the accessory pathway. The danger lies in what happens indirectly — blocking the AV node removes the safer conduction route and leaves the accessory pathway as the sole rapidly conducting conduit.</div>",
+                    "chosenFeedback": "<div>Verapamil blocks the AV node but leaves the accessory pathway unaffected. In WPW with AF, this forces all fibrillatory impulses through the accessory pathway at rates up to 250–350 bpm, risking ventricular fibrillation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Verapamil blocks AV nodal conduction, diverting all fibrillatory impulses through the unblocked accessory pathway at rates up to 250–350 bpm</div>",
+                  "text": "<div>Intravenous adenosine</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Adenosine transiently blocks the AV node but has no effect on the accessory pathway. In WPW with AF, this can precipitate ventricular fibrillation by removing the competing slower pathway.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Oral digoxin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Digoxin slows AV nodal conduction but does not block the accessory pathway. Like verapamil and adenosine, it can cause lethal ventricular rates in WPW with atrial fibrillation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Intravenous amiodarone</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! By blocking the AV node, verapamil eliminates the normal rate-limiting conduction pathway. Atrial fibrillatory impulses then travel exclusively through the accessory pathway, which lacks the AV node's protective delay, driving ventricular rates of 250–350 bpm that can degenerate into VF.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Verapamil prolongs the QT interval, predisposing to torsades de pointes</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>QT prolongation is associated with Class IA and Class III antiarrhythmics (e.g., quinidine, amiodarone), not with verapamil. The danger in WPW with AF is about conduction pathway diversion, not repolarisation delay.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Verapamil causes profound vasodilation and hypotension, reducing coronary perfusion below a critical threshold</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While verapamil does cause some vasodilation, the life-threatening danger in WPW with AF is specifically the uncontrolled ventricular rate via the accessory pathway, not haemodynamic collapse from vasodilation.</div>",
+                    "chosenFeedback": "<div>Correct. Amiodarone prolongs refractoriness in both the AV node AND the accessory pathway, making it safe in WPW with AF. Procainamide and immediate DC cardioversion are also acceptable options.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +617,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The critical concept: four drugs (verapamil, diltiazem, digoxin, adenosine) block the AV node but leave the accessory pathway wide open. With the AV node blocked, fibrillatory impulses race through the accessory pathway at 250–350 bpm, which can degenerate into ventricular fibrillation. Safe alternatives are amiodarone, procainamide, or DC cardioversion."
+                  "feedback": "In WPW with AF, avoid all pure AV node blockers — verapamil, diltiazem, digoxin, and adenosine leave the accessory pathway wide open, risking ventricular fibrillation. Safe options are amiodarone, procainamide, or DC cardioversion."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent analysis! The safe alternatives — amiodarone (prolongs refractoriness in the accessory pathway), procainamide, or DC cardioversion — work precisely because they block conduction through the accessory pathway rather than just the AV node."
+                  "feedback": "Correct. In WPW with AF, all pure AV node blockers (verapamil, diltiazem, digoxin, adenosine) are contraindicated. Amiodarone, procainamide, or DC cardioversion are the safe choices."
                 }
               ],
               "behaviour": {
@@ -539,11 +649,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "b44e1e86-982c-4535-8089-079b517f9d1a",
+            "subContentId": "e649c945-fc7f-4064-ad30-6b2d2c76462a",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In Wolff-Parkinson-White syndrome with a",
+              "title": "A 30-year-old man with known Wolff-Parki",
               "authors": [],
               "changes": []
             }
@@ -610,7 +720,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "aee84716-8794-4445-8add-a29c6620987b",
+              "subContentId": "ad89e2a7-2fb6-41c7-ae93-df7f8b8e0fd5",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -633,7 +743,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "174b2ab6-a920-47fb-aed8-df8aab03d59d",
+        "subContentId": "d153373b-c09b-4139-ae70-e093e06e2ebc",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
