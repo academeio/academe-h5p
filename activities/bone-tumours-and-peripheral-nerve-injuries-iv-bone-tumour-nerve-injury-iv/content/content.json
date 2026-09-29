@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/0290adb5-ed06-4542-acae-2d1ae3b0818c/playlist.m3u8",
+          "path": "https://vdo.cbme.in/71f2e5d1-f7f3-4dae-a039-f432a3cd7b26/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OR10.1,OR11.1 | Bone Tumours and Peripheral Nerve Injuries — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for OR10.1."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for OR10.1."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,49 +61,101 @@
       "interactions": [
         {
           "duration": {
-            "from": 179.75,
-            "to": 189.75
+            "from": 267.025,
+            "to": 277.025
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In bone tumours, pain that increases with physical activity and improves with re</p>",
+          "label": "<p>Which X-ray finding is classically associated with Ewing's sarcoma?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In bone tumours, pain that increases with physical activity and improves with rest is the most important red flag for malignancy.</p>",
-              "correct": "false",
+              "question": "<p>Which X-ray finding is classically associated with Ewing's sarcoma?</p>",
+              "answers": [
+                {
+                  "text": "<div>Onion-skin periosteal reaction</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Ewing's sarcoma arises in the diaphysis of long bones and flat bones, and produces a characteristic onion-skin (lamellated) periosteal reaction — this, combined with fever and warmth, is why it is often called the great imitator of osteomyelitis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Codman's triangle with a sunburst pattern</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This is the classic sign of osteosarcoma, not Ewing's sarcoma. Osteosarcoma arises in the metaphysis and produces a mixed lytic-sclerotic lesion with a sunburst spiculated pattern and Codman's triangle at the periosteal margin.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Soap-bubble eccentric lysis in the epiphysis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This describes giant cell tumour, which occurs in skeletally mature adults (20–40 years) and characteristically affects the epiphysis, not the diaphysis where Ewing's sarcoma is found.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Permeative moth-eaten destruction in the axial skeleton</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This pattern is more typical of skeletal metastases in patients over 40 years, which preferentially settle in the axial skeleton where red marrow is richest — not the classic sign of Ewing's sarcoma.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Remember the pattern: osteosarcoma = metaphysis + sunburst/Codman's triangle; Ewing's = diaphysis + onion-skin; GCT = epiphysis + soap-bubble lysis; metastasis = axial skeleton + permeative destruction."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done — the diaphysis-onion skin combination is Ewing's sarcoma's signature, distinguishing it from osteosarcoma's metaphyseal sunburst pattern."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "That is not right. Pain that worsens with activity and improves with rest is characteristic of ordinary mechanical pain. The critical red flag for malignancy is pain that is constant, worsens at night, and persists despite rest — the opposite of the mechanical pattern.",
-                "correctAnswerMessage": "Correct. Activity-related pain that eases with rest is typical of mechanical or sports injuries. The hallmark red flag for bone tumour pain is that it is constant, worsens at night, and does not improve with rest. This pattern of rest pain and night pain is what should prompt urgent investigation.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "241973b0-63a3-438d-90a3-2cb6152f6feb",
+            "subContentId": "cdf48deb-d2b0-4f7e-a332-7f6fde40a1cf",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In bone tumours, pain that increases wit",
+              "title": "Which X-ray finding is classically assoc",
               "authors": [],
               "changes": []
             }
@@ -125,7 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why is a CT scan of the chest considered mandatory in the staging workup of a pr</p>",
+          "label": "<p>In staging a suspected osteosarcoma, why is a CT scan of the chest considered ma</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Why is a CT scan of the chest considered mandatory in the staging workup of a primary malignant bone tumour?</p>",
+              "question": "<p>In staging a suspected osteosarcoma, why is a CT scan of the chest considered mandatory rather than optional?</p>",
               "answers": [
                 {
-                  "text": "<div>It best demonstrates the extent of the primary tumour's soft-tissue involvement</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Soft-tissue extension is best assessed by MRI with contrast, which shows intramedullary extent, soft-tissue margins, and skip lesions with superior resolution. CT chest serves a different purpose in the staging workup.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The lungs are the most common site of haematogenous spread from primary bone malignancies</div>",
+                  "text": "<div>Because the lungs are the most common site of metastatic spread from osteosarcoma</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Osteosarcoma and Ewing's sarcoma spread haematogenously, and the lungs are by far the most common site for distant metastases. Detecting pulmonary deposits at staging changes both prognosis and the treatment plan.</div>",
+                    "chosenFeedback": "<div>Correct. Osteosarcoma metastasises haematogenously, and the lungs are by far the most common site, so chest CT is mandatory in every case to detect pulmonary metastases that a plain chest X-ray may miss.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It is needed to evaluate mediastinal lymph node involvement as a prognostic marker</div>",
+                  "text": "<div>Because it is needed to measure the local soft-tissue extent of the tumour</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Primary bone tumours predominantly spread via the bloodstream to the lungs, not via lymphatic drainage to mediastinal nodes. Lymph node staging is not a typical indication for CT chest in bone tumour workup.</div>",
+                    "chosenFeedback": "<div>Local soft-tissue extent and marrow involvement are assessed with contrast-enhanced MRI, not CT chest. CT chest is specifically for detecting pulmonary metastases.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It measures the tumour's metabolic activity through contrast enhancement</div>",
+                  "text": "<div>Because alkaline phosphatase cannot be measured without a chest CT</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Metabolic activity is assessed by PET-CT using a radiolabelled glucose tracer, not by standard CT chest. CT chest is specifically indicated to detect pulmonary metastases.</div>",
+                    "chosenFeedback": "<div>Alkaline phosphatase is a blood test, unrelated to chest CT. It is used separately to help track osteosarcoma activity and treatment response.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Because it replaces the need for a bone scan</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A bone scan and CT chest serve different purposes — the bone scan looks for other bone lesions or distant bone metastases, while CT chest specifically screens the lungs. Both are part of the staging workup.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The lungs are the most common destination for haematogenous metastases from primary bone tumours. That is why CT chest is a mandatory part of every staging workup, alongside MRI of the primary site and a bone scan."
+                  "feedback": "Recall the staging sequence: X-rays first, then MRI for local extent, CT chest (mandatory, since the lungs are the commonest metastatic site), bone scan/PET-CT for distant disease, and biopsy to confirm."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Recognising that the lungs are the most common metastatic target is key to understanding why CT chest is mandatory, not optional, in every bone tumour staging workup."
+                  "feedback": "Exactly right — pulmonary metastases are a leading cause of mortality in osteosarcoma, which is why chest CT is a non-negotiable part of staging."
                 }
               ],
               "behaviour": {
@@ -209,11 +261,69 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "7608cdb0-af2f-4c01-aa27-009bdf776ab9",
+            "subContentId": "484cca32-22f4-4eca-aedf-ade05fcace9c",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Why is a CT scan of the chest considered",
+              "title": "In staging a suspected osteosarcoma, why",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 475.575,
+            "to": 485.575
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>If a nerve injury leaves a limb in a non-functional position, the resulting fixe</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>If a nerve injury leaves a limb in a non-functional position, the resulting fixed contracture will resolve on its own once the nerve itself recovers.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is actually false. Once a fixed contracture develops from an unsplinted nerve injury, it does NOT resolve simply because the nerve recovers — the contracture is a separate, persistent problem caused by the muscles and joints being held in a shortened position. Early splinting prevents this from happening in the first place.",
+                "correctAnswerMessage": "Correct — this statement is false. A fixed contracture that develops while a nerve injury is unsplinted will persist even after the nerve recovers, because the muscles and joints themselves have shortened. This is exactly why early splinting — for example, a cock-up splint for wrist drop — is so important.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "db7c457d-9b35-4a23-9890-0529009bb0d2",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "If a nerve injury leaves a limb in a non",
               "authors": [],
               "changes": []
             }
@@ -235,7 +345,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient presents with inability to oppose the thumb following a deep laceratio</p>",
+          "label": "<p>A patient sustains a fracture at the neck of the fibula and develops foot drop w</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient presents with inability to oppose the thumb following a deep laceration at the wrist. Which nerve is most likely injured, and what is the resulting deformity called?</p>",
+              "question": "<p>A patient sustains a fracture at the neck of the fibula and develops foot drop with a high-stepping gait, but no hamstring weakness. Which nerve is injured, and which splint is used?</p>",
               "answers": [
                 {
-                  "text": "<div>Ulnar nerve; claw hand</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Ulnar nerve injury produces claw hand — hyperextension at the metacarpophalangeal joints of the ring and little fingers — not loss of thumb opposition. The ulnar nerve is vulnerable at the medial epicondyle or Guyon's canal.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Median nerve; ape hand</div>",
+                  "text": "<div>Common peroneal nerve — ankle-foot orthosis</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The median nerve supplies the thenar muscles responsible for thumb opposition. Injury at the wrist, including carpal tunnel lacerations, produces ape hand deformity where the thumb lies flat and cannot oppose. An opponens splint maintains the thumb in a functional position during recovery.</div>",
+                    "chosenFeedback": "<div>Correct. The common peroneal nerve winds around the neck of the fibula, making it vulnerable to compression or injury there. It causes isolated foot drop, managed with an ankle-foot orthosis holding the ankle in neutral.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Radial nerve; wrist drop</div>",
+                  "text": "<div>Sciatic nerve — ankle-foot orthosis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Radial nerve injury causes wrist drop due to paralysis of the wrist and finger extensors. It does not affect thumb opposition, which is a function of the thenar muscles innervated by the median nerve.</div>",
+                    "chosenFeedback": "<div>A sciatic nerve injury would combine foot drop WITH hamstring weakness, since the sciatic nerve supplies the hamstrings before dividing. Isolated foot drop without hamstring weakness points to the common peroneal nerve alone.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Posterior interosseous nerve; finger drop</div>",
+                  "text": "<div>Tibial nerve — knuckle-bender splint</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The posterior interosseous nerve is a deep branch of the radial nerve affecting finger and thumb extension at the metacarpophalangeal joints. It does not supply the thenar muscles, so thumb opposition remains intact.</div>",
+                    "chosenFeedback": "<div>The tibial nerve does not cause foot drop, and the knuckle-bender splint is used for ulnar nerve claw hand, not for any lower-limb nerve injury.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Femoral nerve — cock-up splint</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The femoral nerve causes quadriceps weakness and loss of knee extension, not foot drop. The cock-up splint is used for radial nerve wrist drop in the upper limb.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Loss of thumb opposition is the hallmark of median nerve injury, producing ape hand deformity. Remember the triad: mechanism (wrist laceration), motor deficit (loss of opposition), and sensory loss (thumb, index, and middle fingers)."
+                  "feedback": "Match the deficit precisely: isolated foot drop = common peroneal nerve at the fibular neck (AFO); foot drop plus hamstring weakness = sciatic nerve (posterior hip dislocation)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. Matching the clinical deficit to the injured nerve is the foundation of peripheral nerve injury diagnosis. Loss of thumb opposition always points to the median nerve."
+                  "feedback": "Well reasoned — the absence of hamstring weakness is exactly what separates an isolated common peroneal injury from a sciatic nerve injury."
                 }
               ],
               "behaviour": {
@@ -319,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "46a16b06-83fb-4217-8e90-281a4f903e0e",
+            "subContentId": "c2011bfc-1515-4fe6-94e4-1fa5d6029ddf",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient presents with inability to opp",
+              "title": "A patient sustains a fracture at the nec",
               "authors": [],
               "changes": []
             }
@@ -345,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>When applying a cock-up splint for radial nerve palsy, what is the correct wrist</p>",
+          "label": "<p>You are fitting an ankle-foot orthosis for a patient with foot drop following a </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>When applying a cock-up splint for radial nerve palsy, what is the correct wrist position?</p>",
+              "question": "<p>You are fitting an ankle-foot orthosis for a patient with foot drop following a common peroneal nerve injury. Which of the following is essential to correct application of this splint?</p>",
               "answers": [
                 {
-                  "text": "<div>Full flexion to rest the paralysed extensor muscles</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Full flexion is the very position the splint must prevent. With the extensors paralysed, the unopposed flexors pull the wrist into flexion. Leaving it there causes a fixed flexion contracture that persists even after nerve recovery.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Neutral position with all finger joints immobilised in extension</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Neutral position provides inadequate extension to counteract the pull of the intact flexor muscles. Additionally, immobilising the fingers causes joint stiffness — the finger joints must remain completely free to move.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>30 to 40 degrees of extension with the finger joints free to move</div>",
+                  "text": "<div>Hold the ankle at 90 degrees (neutral) and carefully pad over the fibular head</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The cock-up splint holds the wrist in 30 to 40 degrees of extension, counteracting the pull of the unopposed flexors, while keeping all finger joints completely free. This maintains a functional hand position and prevents fixed flexion contracture during nerve recovery.</div>",
+                    "chosenFeedback": "<div>Correct. The ankle must be held at neutral (90 degrees), and the fibular head — the exact site of the original nerve injury — must be well padded to prevent further compression and pressure damage.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>90 degrees of extension with all joints immobilised</div>",
+                  "text": "<div>Hold the ankle in plantarflexion to relax the peroneal muscles</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>90 degrees of hyperextension is excessive and risks soft-tissue injury. The correct angle is 30 to 40 degrees. Furthermore, immobilising all joints would cause widespread stiffness — only the wrist is held; the fingers must move freely.</div>",
+                    "chosenFeedback": "<div>Plantarflexion is the deformity you are trying to prevent, not the position to splint in. Holding the ankle in neutral (90 degrees) is what keeps the foot functional while the nerve recovers.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Hold the ankle in maximal dorsiflexion to stretch the anterior compartment</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Overstretching into maximal dorsiflexion is not the goal — the splint holds the ankle at a functional neutral (90 degrees), not at an extreme position.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Apply the splint only at night, since foot drop does not affect daytime gait</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Foot drop causes a high-stepping gait and significantly affects daytime walking, so the splint needs to be worn during ambulation, not just at night.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The cock-up splint must hold the wrist in 30 to 40 degrees of extension while keeping all finger joints free to move. Positional precision is what makes the splint therapeutic rather than harmful."
+                  "feedback": "Remember: the ankle-foot orthosis holds the ankle at 90 degrees neutral, with careful padding over the fibular head — the exact site of the nerve injury — to avoid further pressure damage."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Precise positioning — 30 to 40 degrees of wrist extension with free finger movement — is what makes the cock-up splint effective. A splint in the wrong position causes the very contracture it was meant to prevent."
+                  "feedback": "Correct — as with all three splints in this station, positional precision (here, neutral ankle plus fibular head padding) is what prevents contracture, not the thermoplastic material itself."
                 }
               ],
               "behaviour": {
@@ -429,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6fdeeeb2-17d3-468f-b2a7-2965c62dbfd4",
+            "subContentId": "88799b00-f714-40fa-94d8-9b96c4b417ad",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "When applying a cock-up splint for radia",
+              "title": "You are fitting an ankle-foot orthosis f",
               "authors": [],
               "changes": []
             }
@@ -455,7 +565,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 17-year-old presents with fever, raised ESR, and a warm tender swelling over t</p>",
+          "label": "<p>A 55-year-old woman with known breast cancer has a 3 cm lytic lesion in the femo</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +574,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 17-year-old presents with fever, raised ESR, and a warm tender swelling over the mid-shaft of the femur. X-ray shows a permeative lytic lesion with onion-skin periosteal layering. Blood cultures are negative. What is the most appropriate next step?</p>",
+              "question": "<p>A 55-year-old woman with known breast cancer has a 3 cm lytic lesion in the femoral neck with 60% cortical destruction and pain on walking. What is the most appropriate next step in management?</p>",
               "answers": [
                 {
-                  "text": "<div>Start empirical intravenous antibiotics and observe the clinical response</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While osteomyelitis is in the differential, starting antibiotics without a tissue diagnosis could mask an underlying Ewing's sarcoma and delay definitive chemotherapy. When two diagnoses are equally plausible, histological confirmation must come first.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Perform a bone biopsy at a specialist centre</div>",
+                  "text": "<div>Prophylactic internal fixation before the bone fractures</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Ewing's sarcoma and osteomyelitis can present almost identically — fever, local warmth, raised inflammatory markers, and even similar radiological findings. With negative blood cultures, clinical features alone cannot distinguish them. A core needle biopsy provides the definitive histological diagnosis needed to guide treatment.</div>",
+                    "chosenFeedback": "<div>Correct. With this degree of cortical destruction and significant pain, the fracture risk is high (a high Mirels score). Prophylactic fixation — such as an intramedullary nail or hemiarthroplasty — done before the bone breaks gives a far better functional outcome than waiting for a pathological fracture.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Repeat the X-ray in two weeks to reassess the lesion</div>",
+                  "text": "<div>Reassurance and clinical review in six months</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A two-week delay is inappropriate when a highly aggressive malignancy is in the differential. Ewing's sarcoma requires prompt diagnosis and neoadjuvant chemotherapy — waiting for radiological progression wastes critical time.</div>",
+                    "chosenFeedback": "<div>This lesion carries a high risk of imminent pathological fracture given the degree of cortical destruction and pain. Watchful waiting would risk a fracture that is much harder to treat than a planned prophylactic fixation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Begin neoadjuvant chemotherapy based on the radiological appearance alone</div>",
+                  "text": "<div>Immediate above-knee amputation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Starting chemotherapy without histological confirmation is inappropriate. Although the onion-skin periosteal reaction raises suspicion for Ewing's sarcoma, the same features can occur in osteomyelitis. A tissue diagnosis must be established before initiating any specific treatment.</div>",
+                    "chosenFeedback": "<div>Amputation is not indicated for metastatic bone disease of the femoral neck — the goal is palliative stabilisation of the bone, combined with bisphosphonates and radiotherapy, not limb ablation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Casting and strict non-weight-bearing until the lesion heals spontaneously</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A metastatic lytic lesion with this much cortical destruction will not heal spontaneously with casting alone, and prolonged immobility carries its own risks. Prophylactic surgical fixation is the standard of care.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +617,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Ewing's sarcoma is called the 'great imitator' because it mimics osteomyelitis with fever, warmth, and raised inflammatory markers. When the two cannot be distinguished clinically, a bone biopsy at a specialist centre is the essential next step."
+                  "feedback": "In metastatic bone disease with significant cortical destruction and mechanical pain, the priority is prophylactic fixation before the bone breaks, supported by bisphosphonates and radiotherapy for the underlying malignancy."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent clinical reasoning. When Ewing's sarcoma and osteomyelitis are both plausible and blood cultures are negative, biopsy at a specialist centre is the only reliable way to distinguish them and guide definitive treatment."
+                  "feedback": "Exactly — high cortical destruction plus pain on weight-bearing signals a high fracture risk, and prophylactic fixation (plus bisphosphonates and radiotherapy) is the management of choice."
                 }
               ],
               "behaviour": {
@@ -539,11 +649,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "268aad48-6980-4c1e-9e09-9f05e7dea187",
+            "subContentId": "e8d2a45f-971d-43af-b83b-5652a3b902c4",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 17-year-old presents with fever, raise",
+              "title": "A 55-year-old woman with known breast ca",
               "authors": [],
               "changes": []
             }
@@ -610,7 +720,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "06323561-26bb-4643-ba45-42c89bbbe10a",
+              "subContentId": "9af8879a-6f94-4af7-a089-a972eec03c8e",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -633,7 +743,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "3081c3dc-e66d-4e79-bb55-033e895c25b0",
+        "subContentId": "187f5c01-80a9-49b6-be4c-4cf3729341f4",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
