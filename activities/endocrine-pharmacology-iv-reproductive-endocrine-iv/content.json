@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/64f8daf3-d676-4d5b-9f0f-f7c6b85d296f/playlist.m3u8",
+          "path": "https://vdo.cbme.in/f723b85f-a501-4d82-a457-5eee02ef9e47/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PH7.1-9 | Endocrine Pharmacology — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 6 embedded questions for PH7.1-PH7.9."
+        "shortStartDescription": "Interactive lecture with 7 embedded questions for PH7.1-PH7.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,101 +61,49 @@
       "interactions": [
         {
           "duration": {
-            "from": 241.4,
-            "to": 251.4
+            "from": 108.125,
+            "to": 118.125
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 55-year-old man with benign prostatic hyperplasia is started on finasteride. S</p>",
+          "label": "<p>A man taking sildenafil can safely take sublingual glyceryl trinitrate for chest</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A 55-year-old man with benign prostatic hyperplasia is started on finasteride. Six months later his prostate has shrunk, but his muscle mass and strength remain unchanged. Which pharmacological property of finasteride best explains this selective outcome?</p>",
-              "answers": [
-                {
-                  "text": "<div>Finasteride blocks the androgen receptor only in prostatic tissue</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Finasteride does not block the androgen receptor at all. It inhibits the enzyme 5-alpha reductase, which converts testosterone to DHT.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Finasteride inhibits 5-alpha reductase, reducing DHT in the prostate while leaving testosterone's direct effects on muscle intact</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. DHT drives prostatic growth but muscle relies on testosterone itself, which is unaffected by finasteride. This tissue selectivity is why the prostate shrinks while muscle is spared.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Finasteride selectively binds oestrogen receptors in muscle, preventing testosterone breakdown</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Finasteride has no action on oestrogen receptors. Its sole target is 5-alpha reductase, the enzyme that converts testosterone to DHT.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Finasteride increases hepatic clearance of DHT without affecting circulating testosterone</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Finasteride does not alter hepatic clearance. It blocks the conversion of testosterone to DHT at the tissue level by inhibiting 5-alpha reductase.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Review the distinction: DHT dominates in the prostate and scalp via tighter androgen receptor binding, while testosterone acts directly on muscle. Finasteride blocks 5-alpha reductase (the enzyme converting T → DHT), so prostatic DHT falls while muscle-bound testosterone is unaffected."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. DHT binds the androgen receptor about five times more tightly than testosterone and dominates in the prostate and scalp, while testosterone acts directly on muscle and the hypothalamus — the basis for finasteride's selective clinical effect."
-                }
-              ],
+              "question": "<p>A man taking sildenafil can safely take sublingual glyceryl trinitrate for chest pain, as long as he waits a few hours after his sildenafil dose.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Not quite — this combination is dangerous regardless of spacing. Sildenafil and glyceryl trinitrate both act on the nitric oxide–cGMP pathway, and together they cause cGMP to build up far beyond what either drug alone would cause, producing severe hypotension. That is why it is an absolute contraindication with no safe interval.",
+                "correctAnswerMessage": "Correct — this is an absolute contraindication, not a timing issue. Both drugs converge on the same nitric oxide–cGMP pathway: nitrates raise cGMP and sildenafil blocks its breakdown, so together they cause a severe, sometimes fatal, drop in blood pressure. Nitrates must be avoided for the drug's full duration of action (about 24 hours for sildenafil/vardenafil, 48 hours for tadalafil), not just a few hours.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "dc6f8a12-8653-407f-bceb-10f26ae0c5a9",
+            "subContentId": "9f108e98-f661-4c8f-9d23-1b6b4ec8626c",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "A 55-year-old man with benign prostatic",
+              "title": "A man taking sildenafil can safely take",
               "authors": [],
               "changes": []
             }
@@ -171,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 365.25,
-            "to": 375.25
+            "from": 240.8,
+            "to": 250.8
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 62-year-old man with erectile dysfunction is prescribed sildenafil 50 mg. Whic</p>",
+          "label": "<p>A young man is prescribed finasteride for male pattern hair loss. Which of the f</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 62-year-old man with erectile dysfunction is prescribed sildenafil 50 mg. Which of the following drugs in his current medication list makes sildenafil absolutely contraindicated?</p>",
+              "question": "<p>A young man is prescribed finasteride for male pattern hair loss. Which of the following best explains why finasteride reduces hair loss and shrinks the prostate without significantly affecting his libido or muscle mass?</p>",
               "answers": [
                 {
-                  "text": "<div>Amlodipine 5 mg daily</div>",
+                  "text": "<div>Finasteride directly blocks the androgen receptor in all androgen-sensitive tissues</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Amlodipine is a calcium channel blocker used for hypertension. It does not act through the nitric oxide–cyclic GMP pathway and can be used alongside PDE5 inhibitors.</div>",
+                    "chosenFeedback": "<div>Finasteride is not an androgen receptor antagonist — it does not block the receptor itself. It acts upstream, on the enzyme that produces DHT.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Metformin 500 mg twice daily</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Metformin is an insulin sensitiser used in type 2 diabetes. It has no pharmacological interaction with PDE5 inhibitors.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Isosorbide mononitrate 20 mg twice daily</div>",
+                  "text": "<div>Finasteride inhibits 5-alpha-reductase, lowering DHT in tissues like the prostate and scalp that depend on DHT, while testosterone continues to act directly on muscle and brain</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Isosorbide mononitrate is an organic nitrate. Nitrates release nitric oxide, raising cyclic GMP; sildenafil blocks cGMP breakdown. Together they cause dangerous, potentially fatal hypotension.</div>",
+                    "chosenFeedback": "<div>Correct. DHT binds the androgen receptor far more tightly than testosterone and dominates in the prostate, scalp, and skin. Testosterone itself acts directly on muscle and the hypothalamus without needing conversion, so blocking DHT formation spares those effects.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Atorvastatin 40 mg daily</div>",
+                  "text": "<div>Finasteride increases hepatic clearance of testosterone specifically in scalp and prostate tissue</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Atorvastatin is a statin for hyperlipidaemia. It does not interact with the nitric oxide–cyclic GMP pathway and is safe with PDE5 inhibitors.</div>",
+                    "chosenFeedback": "<div>The liver does not selectively clear testosterone from particular peripheral tissues. Finasteride's action is enzymatic inhibition of 5-alpha-reductase at the tissue level, not altered hepatic metabolism.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Finasteride competes with testosterone for GnRH receptors at the pituitary</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Finasteride has no action at the pituitary or on GnRH receptors. Its target is the peripheral enzyme 5-alpha-reductase, which converts testosterone to DHT.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key rule: PDE5 inhibitors must never be combined with any nitrate. Both drugs raise cyclic GMP through the same pathway — nitrates by generating nitric oxide, PDE5 inhibitors by blocking cGMP breakdown — producing life-threatening hypotension."
+                  "feedback": "Review the androgen receptor mechanism: DHT dominates in DHT-dependent tissues (prostate, scalp, skin), while testosterone itself drives effects in muscle and brain — this is exactly why blocking DHT formation is tissue-selective."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Any nitrate — glyceryl trinitrate, isosorbide mononitrate, isosorbide dinitrate — is an absolute contraindication with PDE5 inhibitors because both amplify cyclic GMP–mediated vasodilation, risking severe hypotension."
+                  "feedback": "Well done — you've correctly linked the tissue-specific DHT dependence to finasteride's selective clinical effect."
                 }
               ],
               "behaviour": {
@@ -261,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "c65b3e06-f4b0-4039-8e17-4510c3c1ce75",
+            "subContentId": "ca12f6c6-bd23-4c09-b52a-816eab781176",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 62-year-old man with erectile dysfunct",
+              "title": "A young man is prescribed finasteride fo",
               "authors": [],
               "changes": []
             }
@@ -281,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 468.35,
-            "to": 478.35
+            "from": 364.65,
+            "to": 374.65
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 30-year-old woman takes the progestogen-only pill (mini-pill) correctly every </p>",
+          "label": "<p>A man with erectile dysfunction says he does not want to plan a PDE5 inhibitor d</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 30-year-old woman takes the progestogen-only pill (mini-pill) correctly every day. Despite this, she occasionally ovulates. Which mechanism continues to protect her from pregnancy in those cycles?</p>",
+              "question": "<p>A man with erectile dysfunction says he does not want to plan a PDE5 inhibitor dose around sexual activity and would prefer a medicine he can take once daily. Which drug best fits this preference, and why?</p>",
               "answers": [
                 {
-                  "text": "<div>Suppression of FSH prevents follicular development</div>",
+                  "text": "<div>Sildenafil, because food does not slow its absorption</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>FSH suppression is the primary mechanism of combined oral contraceptives, not the mini-pill. The fact that this woman is ovulating confirms that FSH suppression is not reliably occurring.</div>",
+                    "chosenFeedback": "<div>Food actually slows sildenafil's absorption, and it is taken on demand thirty to sixty minutes before sex — not suited to daily dosing.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Thickened cervical mucus blocks sperm transport</div>",
+                  "text": "<div>Tadalafil, because its long half-life allows once-daily dosing</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Progestogen makes cervical mucus thick and impenetrable to sperm. This is the primary protective mechanism of the mini-pill and works even in cycles where ovulation is not suppressed.</div>",
+                    "chosenFeedback": "<div>Correct. Tadalafil has a much longer half-life than the other PDE5 inhibitors, which is why it can be taken daily rather than on demand.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Accelerated tubal motility sweeps the ovum past the fertilisation window</div>",
+                  "text": "<div>Avanafil, because it acts within about fifteen minutes</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While progestogens can alter tubal motility, this is not the primary protective mechanism of the mini-pill. Cervical mucus thickening is the main barrier to sperm.</div>",
+                    "chosenFeedback": "<div>Avanafil's advantage is rapid onset for on-demand use, not a long duration suited to daily dosing.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Premature luteolysis shortens the luteal phase, preventing implantation</div>",
+                  "text": "<div>Vardenafil, because it has the shortest duration of action among PDE5 inhibitors</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The mini-pill does not cause premature luteolysis. Its primary mechanism is thickening cervical mucus to block sperm, with endometrial thinning as a secondary backup.</div>",
+                    "chosenFeedback": "<div>A short duration of action would make a drug less, not more, suitable for once-daily use; vardenafil is used on demand similarly to sildenafil.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the three targets: ovulation suppression (primary for COC/DMPA), cervical mucus thickening (primary for the mini-pill), and endometrial thinning (a backup). The mini-pill's main mechanism is making cervical mucus impenetrable to sperm."
+                  "feedback": "Recall the timing differences: sildenafil and vardenafil are on-demand, avanafil acts fastest, and tadalafil's long half-life is what makes daily dosing possible."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Right. The progestogen-only pill relies primarily on cervical mucus thickening to block sperm. Even when ovulation breaks through, sperm cannot reach the ovum — a key difference from the combined pill's reliance on ovulation suppression."
+                  "feedback": "Right — tadalafil's long half-life is exactly what supports daily rather than on-demand dosing."
                 }
               ],
               "behaviour": {
@@ -371,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5551cf54-2bbc-405b-9f90-601fead378b3",
+            "subContentId": "02dcd890-ea68-42b3-9609-eb9c1a7037b3",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 30-year-old woman takes the progestoge",
+              "title": "A man with erectile dysfunction says he",
               "authors": [],
               "changes": []
             }
@@ -391,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 582.7750000000001,
-            "to": 592.7750000000001
+            "from": 467.75,
+            "to": 477.75
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A woman at 30 weeks of gestation presents with preterm contractions. Her obstetr</p>",
+          "label": "<p>A breastfeeding woman is started on a progestogen-only ('mini') pill. Since this</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A woman at 30 weeks of gestation presents with preterm contractions. Her obstetrician decides to use a tocolytic drug. Based on the physiology of uterine contractility, which of the following is an appropriate drug mechanism to suppress her contractions?</p>",
+              "question": "<p>A breastfeeding woman is started on a progestogen-only ('mini') pill. Since this method does not reliably suppress ovulation, which mechanism is primarily responsible for its contraceptive effect?</p>",
               "answers": [
                 {
-                  "text": "<div>Stimulating oxytocin receptors to induce receptor desensitisation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Stimulating oxytocin receptors would trigger more contractions, not suppress them. Tocolytics work by blocking, not stimulating, the oxytocin receptor (e.g. atosiban).</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Blocking calcium entry into myometrial smooth muscle cells</div>",
+                  "text": "<div>Thickening of cervical mucus, preventing sperm from passing through</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Calcium entry is essential for myometrial contraction. Calcium channel blockers like nifedipine prevent this, relaxing the uterus — one of the established tocolytic strategies.</div>",
+                    "chosenFeedback": "<div>Correct. Progesterone thickens and stickens cervical mucus, blocking sperm penetration — this is the main mechanism of progestin-only methods and still works even in cycles where ovulation isn't fully blocked.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Increasing prostaglandin synthesis from the amnion and decidua</div>",
+                  "text": "<div>Complete suppression of FSH and LH at the hypothalamus and pituitary</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Prostaglandins stimulate uterine contractions and ripen the cervix. Increasing their synthesis would worsen preterm labour, not suppress it.</div>",
+                    "chosenFeedback": "<div>This is the primary mechanism of combined pills and DMPA, which reliably prevent ovulation. The question states ovulation is not reliably suppressed here, ruling this out.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Promoting gap junction formation between myometrial cells</div>",
+                  "text": "<div>Copper ion-mediated impairment of sperm function</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Gap junctions allow contractions to synchronise across the myometrium. Promoting them would strengthen coordinated contractions — the opposite of what a tocolytic should achieve.</div>",
+                    "chosenFeedback": "<div>This describes the copper IUD's mechanism, not a hormonal progestogen-only pill.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Irreversible thinning of the endometrium preventing any future implantation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Endometrial thinning is a real but secondary, reversible backup mechanism — not the primary or permanent mechanism of the mini-pill.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Recall the three tocolytic mechanisms: blocking the oxytocin receptor, blocking calcium entry into myometrial cells, or boosting cyclic AMP. Each reverses one of the pathways that switches the uterus from quiescence to active contraction."
+                  "feedback": "Re-examine the three targets: ovulation suppression (COC/DMPA), cervical mucus thickening (progestin-only pill's main action), and endometrial thinning (a backup mechanism)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. Tocolytics exploit the same pathways that drive labour — blocking oxytocin receptors, blocking calcium entry, or boosting cyclic AMP — to keep the uterus in its quiescent state."
+                  "feedback": "Exactly — cervical mucus thickening is the dominant, reliable mechanism when ovulation itself isn't consistently blocked."
                 }
               ],
               "behaviour": {
@@ -481,11 +429,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5554ce57-d029-40c1-a6b2-e0b09881f7c4",
+            "subContentId": "fcc5ed36-7b34-4685-818e-7a478aa798e3",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A woman at 30 weeks of gestation present",
+              "title": "A breastfeeding woman is started on a pr",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 582.1750000000001,
+            "to": 592.1750000000001
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Why does inducing labour with oxytocin at 32 weeks of gestation often require mu</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Why does inducing labour with oxytocin at 32 weeks of gestation often require much higher doses than induction at term?</p>",
+              "answers": [
+                {
+                  "text": "<div>Myometrial oxytocin receptor density is far lower before term, rising up to 300-fold as term approaches</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. As term approaches, oxytocin receptor density on uterine muscle cells increases up to 300-fold, making the uterus far more sensitive to even small amounts of oxytocin. Before this rise, much higher doses are needed to produce the same effect.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Progesterone levels are higher at 32 weeks than at term, increasing uterine sensitivity</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The opposite is true — progesterone dominates during pregnancy and keeps the uterus quiescent; it falls as term approaches, which is part of what allows the uterus to become sensitive to oxytocin.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Gap junctions between myometrial cells are more developed at 32 weeks than at term</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Gap junctions form and allow synchronised contractions as term approaches, not before — the reverse of this statement.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Placental nitric oxide production rises sharply at 32 weeks, relaxing the uterus further</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Nitric oxide-mediated relaxation is a feature of the quiescent state throughout pregnancy, but it is the fall in relaxing signals and rise in oxytocin receptors near term — not a 32-week nitric oxide surge — that explains the induction dose difference.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Recall the at-term shift: progesterone falls, oxytocin receptors surge up to 300-fold, and gap junctions form — none of which have happened yet at 32 weeks, which is why induction needs much higher doses."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Right — the dramatic rise in oxytocin receptor density near term is what makes the uterus responsive to normal induction doses."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "337462ea-71a2-493d-93c3-d49e0dd2b596",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Why does inducing labour with oxytocin a",
               "authors": [],
               "changes": []
             }
@@ -507,7 +565,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In a woman with infertility caused by hyperprolactinaemia, how do dopamine agoni</p>",
+          "label": "<p>A woman presents with anovulatory infertility, hyperandrogenism, and insulin res</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -516,41 +574,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In a woman with infertility caused by hyperprolactinaemia, how do dopamine agonists such as cabergoline restore ovulation?</p>",
+              "question": "<p>A woman presents with anovulatory infertility, hyperandrogenism, and insulin resistance consistent with polycystic ovary syndrome. Which drug combination is the most appropriate first-line management?</p>",
               "answers": [
                 {
-                  "text": "<div>They directly stimulate follicular development in the ovary</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Dopamine agonists do not act on the ovary. They act on the anterior pituitary to lower prolactin, which indirectly restores the hormonal cascade needed for ovulation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>They lower prolactin levels, removing the suppression of GnRH and thereby restoring FSH and LH secretion</div>",
+                  "text": "<div>Metformin plus an ovulation inducer such as letrozole or clomiphene</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Elevated prolactin suppresses GnRH pulsatility. By stimulating dopamine receptors on lactotrophs, cabergoline lowers prolactin, restoring normal GnRH, FSH, and LH secretion so ovulation can resume.</div>",
+                    "chosenFeedback": "<div>Correct. In PCOS, high androgens and insulin resistance prevent normal follicle development, so an insulin sensitiser like metformin is combined with an ovulation inducer like letrozole or clomiphene.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>They block oestrogen receptors in the hypothalamus, mimicking a low-oestrogen state that triggers FSH release</div>",
+                  "text": "<div>Bromocriptine plus pulsatile GnRH</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This describes the mechanism of clomiphene, a selective oestrogen receptor modulator used for anovulation in PCOS — not the mechanism of dopamine agonists.</div>",
+                    "chosenFeedback": "<div>This combination targets hyperprolactinaemia and hypogonadotropic hypogonadism respectively — different causes of anovulation, not PCOS.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>They increase ovarian sensitivity to circulating gonadotropins</div>",
+                  "text": "<div>Exogenous gonadotropins alone</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Dopamine agonists do not alter ovarian sensitivity. They work upstream at the pituitary, lowering prolactin to relieve GnRH suppression and restore normal gonadotropin secretion.</div>",
+                    "chosenFeedback": "<div>Gonadotropins are reserved for hypogonadotropic hypogonadism, where FSH and LH are too low to stimulate the follicle — not the primary approach for PCOS, where the axis is intact.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Progesterone supplementation alone</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Progesterone supports the uterine lining and is used for uterine factor infertility, not for restoring ovulation in PCOS.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -559,12 +617,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the cause–drug logic: hyperprolactinaemia suppresses GnRH, which drops FSH and LH, blocking ovulation. Dopamine agonists (cabergoline, bromocriptine) lower prolactin at the pituitary, lifting that suppression and restoring the ovulatory cascade."
+                  "feedback": "Match the cause to the drug: PCOS (insulin resistance + hyperandrogenism) needs metformin plus an ovulation inducer, hyperprolactinaemia needs a dopamine agonist, and hypogonadotropic hypogonadism needs gonadotropins or pulsatile GnRH."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The chain is: dopamine agonist → lowers prolactin → removes GnRH suppression → restores FSH and LH → ovulation resumes. Each infertility cause maps to a specific pharmacological target."
+                  "feedback": "Correct — metformin plus letrozole or clomiphene directly targets both the insulin resistance and the anovulation driving PCOS infertility."
                 }
               ],
               "behaviour": {
@@ -591,11 +649,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "c7ee73de-8795-4d8c-ad85-25ac9e8e15d4",
+            "subContentId": "a50807e4-5f6f-4bfd-85f6-07475d253630",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In a woman with infertility caused by hy",
+              "title": "A woman presents with anovulatory infert",
               "authors": [],
               "changes": []
             }
@@ -617,7 +675,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 65-year-old man with confirmed hypogonadism has a significantly enlarged prost</p>",
+          "label": "<p>A 68-year-old man on testosterone replacement therapy for confirmed hypogonadism</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -626,41 +684,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 65-year-old man with confirmed hypogonadism has a significantly enlarged prostate causing moderate lower urinary tract symptoms and also reports erectile dysfunction. Which single drug can address both his urinary symptoms and erectile dysfunction simultaneously?</p>",
+              "question": "<p>A 68-year-old man on testosterone replacement therapy for confirmed hypogonadism is newly diagnosed with untreated prostate cancer. What is the most appropriate next step regarding his testosterone therapy?</p>",
               "answers": [
                 {
-                  "text": "<div>Finasteride 5 mg daily</div>",
+                  "text": "<div>Continue TRT unchanged, since testosterone does not influence prostate cancer growth</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Finasteride shrinks the prostate over 3–6 months by blocking DHT production, but it does not treat erectile dysfunction and may even worsen sexual function as an adverse effect.</div>",
+                    "chosenFeedback": "<div>Testosterone can drive growth of androgen-dependent prostate cancer, which is exactly why anti-androgen therapy is used to treat it. Continuing TRT unchanged is not appropriate.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Tamsulosin 0.4 mg daily</div>",
+                  "text": "<div>Halve the TRT dose and monitor PSA more closely</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Tamsulosin is an alpha-1 blocker that relaxes prostatic and bladder-neck smooth muscle, relieving urinary symptoms rapidly. However, it does not treat erectile dysfunction and can cause retrograde ejaculation.</div>",
+                    "chosenFeedback": "<div>Dose reduction does not remove the risk — active prostate cancer is an absolute contraindication to testosterone therapy, not a dose-adjustment situation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Tadalafil 5 mg daily</div>",
+                  "text": "<div>Stop TRT immediately, since active prostate cancer is an absolute contraindication to testosterone therapy</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Low-dose daily tadalafil relaxes smooth muscle in both the prostate and the corpus cavernosum through PDE5 inhibition, making it uniquely suited to treat both BPH/LUTS and ED concurrently.</div>",
+                    "chosenFeedback": "<div>Correct. The video explicitly states testosterone therapy is completely contraindicated in active prostate cancer, since the tumour may depend on androgen signalling for growth.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Sildenafil 50 mg on demand</div>",
+                  "text": "<div>Switch from intramuscular testosterone to transdermal gel to lower prostate risk</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>On-demand sildenafil treats erectile dysfunction but is not indicated for BPH/LUTS. Tadalafil 5 mg daily is the PDE5 inhibitor with a dual indication for both conditions.</div>",
+                    "chosenFeedback": "<div>Changing the route of administration does not eliminate the androgen exposure driving a hormone-sensitive tumour — the contraindication applies regardless of delivery method.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -669,12 +727,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "When a patient has both BPH/LUTS and ED, tadalafil 5 mg daily covers both. Finasteride and tamsulosin address only the prostate, while on-demand sildenafil addresses only ED. Tadalafil's dual indication is a key prescribing advantage."
+                  "feedback": "Remember the key integration point: TRT restores androgen function in hypogonadism, but active prostate cancer is a hard stop for testosterone therapy because the tumour may depend on androgen signalling."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. Tadalafil 5 mg daily is the only PDE5 inhibitor approved for concurrent BPH/LUTS and ED management — its long half-life and smooth muscle relaxation in both the lower urinary tract and corpus cavernosum make it uniquely suited."
+                  "feedback": "Correct — active prostate cancer is an absolute contraindication to testosterone replacement therapy, regardless of dose or route."
                 }
               ],
               "behaviour": {
@@ -701,11 +759,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "42a78b78-aa37-4c05-8e1d-016d90a963a4",
+            "subContentId": "419538d4-ad02-4d99-9b33-425b1bff5585",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 65-year-old man with confirmed hypogon",
+              "title": "A 68-year-old man on testosterone replac",
               "authors": [],
               "changes": []
             }
@@ -768,7 +826,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "2e230eb2-bcbd-46e3-95c8-f4cc3e472293",
+              "subContentId": "c4c52cb8-5ad8-450f-a776-b5ccfeb6310f",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -791,7 +849,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "bd3a4089-0973-48e6-9c99-4f12d839dca6",
+        "subContentId": "14048160-6b75-49f4-8430-b89099a9b817",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
