@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/5937daf3-11a4-41a4-89f9-b38db561dd9d/playlist.m3u8",
+          "path": "https://vdo.cbme.in/3944a36d-fa61-4149-b5b1-e3de6134a5bd/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PH3.1-9 | Central Nervous System Pharmacology — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 6 embedded questions for PH3.1-PH3.9."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for PH3.1-PH3.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,101 +61,159 @@
       "interactions": [
         {
           "duration": {
+            "from": 93.85000000000001,
+            "to": 103.85000000000001
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Why is sevoflurane preferred for inhalational induction in a paediatric patient </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Why is sevoflurane preferred for inhalational induction in a paediatric patient who is afraid of needles?</p>",
+              "answers": [
+                {
+                  "text": "<div>It has the highest potency (lowest MAC) among all inhalational agents</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>MAC is inversely related to potency, and halothane actually has a lower MAC than sevoflurane. Potency alone does not determine suitability for paediatric mask induction.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It has a pleasant, non-pungent smell and produces rapid, smooth induction</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Sevoflurane's non-irritant odour makes mask induction tolerable for children, and its relatively low blood-gas partition coefficient allows rapid transfer from alveoli to blood, giving swift onset.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It provides superior muscle relaxation compared to other inhalational agents</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Muscle relaxation during surgery comes from neuromuscular blocking agents, not the inhalational anaesthetic. Sevoflurane is chosen for its induction profile, not for muscle relaxation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>It is the only inhalational agent that does not trigger malignant hyperthermia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>All halogenated volatile agents, including sevoflurane, can trigger malignant hyperthermia in susceptible individuals. The narration specifically warns about this risk.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The anaesthetist chose sevoflurane because of its pleasant smell and rapid onset — properties linked to its low blood-gas partition coefficient, not potency or safety from malignant hyperthermia."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. Sevoflurane's non-pungent smell and low blood-gas partition coefficient make it ideal for smooth, rapid inhalational induction in children."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "4e319b04-8085-4ee1-871b-c54beb0c47d4",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Why is sevoflurane preferred for inhalat",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
             "from": 270,
             "to": 280
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>During an abdominal surgery, a patient under general anaesthesia with sevofluran</p>",
+          "label": "<p>A single general anaesthetic agent can simultaneously provide all three componen</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>During an abdominal surgery, a patient under general anaesthesia with sevoflurane develops tachycardia and hypertension despite being fully unconscious. Which component of the anaesthetic triad is most likely inadequate?</p>",
-              "answers": [
-                {
-                  "text": "<div>Unconsciousness and amnesia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The patient is already fully unconscious, confirming that the inhalational agent is covering this limb of the triad adequately.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Analgesia</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. General anaesthetic agents produce unconsciousness but do not fully block nociceptive signals. Unblocked pain triggers sympathetic activation, causing tachycardia and hypertension — opioids or regional techniques are needed to address this limb separately.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Muscle relaxation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Inadequate muscle relaxation would present as patient movement or a tense surgical field, not as autonomic changes like tachycardia and hypertension.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Depth of sedation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The patient is already unconscious, indicating adequate sedation. The sympathetic response here points to uncontrolled nociceptive input, not insufficient depth of anaesthesia.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Remember: a general anaesthetic agent alone does not block all nociceptive signals. The triad requires separate drugs for unconsciousness (GA agent), analgesia (opioids or regional techniques), and muscle relaxation (neuromuscular blockers)."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "The anaesthetic triad separates unconsciousness, analgesia, and muscle relaxation as distinct targets — each addressed by a different drug class. Tachycardia and hypertension during surgery indicate that pain pathways are still active despite adequate unconsciousness."
-                }
-              ],
+              "question": "<p>A single general anaesthetic agent can simultaneously provide all three components of the anaesthetic triad — unconsciousness, analgesia, and muscle relaxation.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This is false. Each limb of the anaesthetic triad requires a different drug class: the GA agent provides unconsciousness and amnesia, opioids provide analgesia, and neuromuscular blockers provide muscle relaxation. No single agent covers all three effectively.",
+                "correctAnswerMessage": "Exactly right — this is false. The GA agent provides unconsciousness and amnesia, but analgesia requires opioids or regional techniques, and muscle relaxation requires neuromuscular blocking agents. That is why balanced anaesthesia combines multiple drugs at lower doses.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "d3495188-2c69-49a8-b285-20078403707f",
+            "subContentId": "5d8db0da-fd52-41e6-a300-34ca5631029f",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "During an abdominal surgery, a patient u",
+              "title": "A single general anaesthetic agent can s",
               "authors": [],
               "changes": []
             }
@@ -171,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 376.95,
-            "to": 386.95
+            "from": 479.375,
+            "to": 489.375
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 72-year-old patient with hepatic cirrhosis requires a benzodiazepine for acute</p>",
+          "label": "<p>A patient with juvenile absence epilepsy is mistakenly started on carbamazepine.</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 72-year-old patient with hepatic cirrhosis requires a benzodiazepine for acute anxiety. Which drug is most appropriate and why?</p>",
+              "question": "<p>A patient with juvenile absence epilepsy is mistakenly started on carbamazepine. Based on the mechanism-based classification of antiseizure drugs, what is the most likely consequence?</p>",
               "answers": [
                 {
-                  "text": "<div>Diazepam, because its long half-life provides sustained anxiolysis</div>",
+                  "text": "<div>Absence seizures improve because carbamazepine stabilises neuronal sodium channels</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Diazepam's active metabolite desmethyldiazepam has a half-life of up to 200 hours and undergoes oxidative metabolism, which is impaired in liver disease and old age. This leads to dangerous accumulation and prolonged sedation.</div>",
+                    "chosenFeedback": "<div>While carbamazepine does stabilise sodium channels, this mechanism treats focal and generalised tonic-clonic seizures. Absence seizures arise from thalamic T-type calcium channel activity, which sodium channel blockade does not address.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Midazolam, because its rapid onset ensures immediate relief</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Although midazolam acts fastest, it still undergoes hepatic oxidation. Its short duration makes it ideal for procedural sedation, not for managing ongoing anxiety in a patient with compromised hepatic function.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Lorazepam, because it is cleared by conjugation and produces no active metabolite</div>",
+                  "text": "<div>Absence seizures worsen because sodium channel blockade disrupts cortical-thalamic regulation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Lorazepam bypasses the oxidative pathway that is impaired in liver disease and produces no active metabolites, making it the safest benzodiazepine in hepatic impairment and elderly patients.</div>",
+                    "chosenFeedback": "<div>Correct. Sodium channel blockers like carbamazepine paradoxically worsen absence seizures by interfering with cortical-thalamic circuits. Ethosuximide (T-type Ca²⁺ blocker) or valproate (broad-spectrum) are the appropriate choices.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Flumazenil, because it can quickly reverse any excessive sedation</div>",
+                  "text": "<div>The patient develops visual field defects as a characteristic side effect of carbamazepine</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Flumazenil is a competitive benzodiazepine antagonist used to reverse overdose — it is not an anxiolytic agent. Its short half-life also means re-sedation is a risk if a longer-acting BZD is still present.</div>",
+                    "chosenFeedback": "<div>Visual field defects are associated with vigabatrin (irreversible GABA-transaminase inhibitor), not carbamazepine. The primary concern here is seizure exacerbation, not visual toxicity.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Carbamazepine has no effect because absence seizures require GABA-A receptor modulation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Absence seizures are driven by T-type calcium channels, not GABA-A receptors. Carbamazepine is a sodium channel blocker — and the problem is that it actively worsens absence seizures, not that it has no effect.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The critical distinction is the metabolic pathway: lorazepam uses conjugation (preserved in liver disease), while diazepam and midazolam use oxidation (impaired in cirrhosis). Active metabolites from diazepam cause prolonged sedation in these patients."
+                  "feedback": "Sodium channel blockers treat focal and GTC seizures but paradoxically worsen absence seizures. Absence seizures require T-type calcium channel blockers (ethosuximide) or broad-spectrum agents (valproate)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Lorazepam's glucuronide conjugation pathway is unaffected by hepatic impairment, and its lack of active metabolites prevents dangerous accumulation — the key pharmacokinetic advantage in elderly or cirrhotic patients."
+                  "feedback": "Well done. This is a high-yield point: sodium channel blockers (phenytoin, carbamazepine) can worsen absence seizures. Always match the drug's mechanism to the seizure type."
                 }
               ],
               "behaviour": {
@@ -261,121 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8e65e166-7b30-4720-a3f9-ac2cbb81b770",
+            "subContentId": "c55903ec-64ff-459b-abf7-0a4081518ad2",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 72-year-old patient with hepatic cirrh",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 586.8249999999999,
-            "to": 596.8249999999999
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A patient has been seizing continuously for 12 minutes. IV lorazepam was adminis</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A patient has been seizing continuously for 12 minutes. IV lorazepam was administered at the 5-minute mark but seizures persist. What is the most appropriate next step?</p>",
-              "answers": [
-                {
-                  "text": "<div>Repeat IV lorazepam at the same dose and wait another 5 minutes</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Once first-line benzodiazepines have failed, the algorithm advances to second-line agents. GABA-A receptor responsiveness declines with ongoing seizures, so simply repeating a benzodiazepine is unlikely to succeed.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Begin IV phenytoin infusion in normal saline with cardiac monitoring</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. After failed first-line benzodiazepines, IV phenytoin or fosphenytoin is the standard second-line agent. Phenytoin must be diluted in normal saline (not dextrose, which causes precipitation) and requires cardiac monitoring for arrhythmia risk.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Immediately intubate and begin propofol infusion targeting burst suppression</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Anaesthetic agents like propofol are reserved for refractory status epilepticus — seizures persisting beyond 30 minutes despite first- and second-line treatment. Moving to this step at 12 minutes skips the second-line phase.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Administer oral valproate loading via nasogastric tube</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>In status epilepticus, second-line agents must be given intravenously for rapid action. An oral loading dose through a nasogastric tube is too slow and unreliable during active seizures.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Remember the three phases: Phase 1 (0–5 min) = IV lorazepam or diazepam; Phase 2 (5–30 min) = IV phenytoin, fosphenytoin, or valproate; Phase 3 (>30 min) = propofol, midazolam infusion, or thiopental with intubation and EEG-guided burst suppression."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "The SE management algorithm is strictly time-based: benzodiazepines first (0–5 min), then IV phenytoin/fosphenytoin or IV valproate (5–30 min), then anaesthetic infusions for refractory SE (>30 min). Phenytoin requires normal saline and cardiac monitoring."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "89cf2a28-c8d2-40fc-84a1-52dd806e2751",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A patient has been seizing continuously",
+              "title": "A patient with juvenile absence epilepsy",
               "authors": [],
               "changes": []
             }
@@ -397,7 +345,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient on long-term morphine therapy for cancer pain is inadvertently given b</p>",
+          "label": "<p>A patient on long-term morphine for cancer pain is given buprenorphine. What is </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient on long-term morphine therapy for cancer pain is inadvertently given buprenorphine. What is the most likely pharmacological consequence?</p>",
+              "question": "<p>A patient on long-term morphine for cancer pain is given buprenorphine. What is the most likely pharmacological outcome?</p>",
               "answers": [
                 {
-                  "text": "<div>Enhanced analgesia from additive mu-receptor activation</div>",
+                  "text": "<div>Enhanced analgesia from additive mu-receptor activation by both drugs</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Buprenorphine is a partial mu-agonist with very high receptor affinity. It displaces morphine from mu receptors but can only partially activate them, reducing — not enhancing — the overall opioid effect.</div>",
+                    "chosenFeedback": "<div>Buprenorphine is a partial mu-agonist with very high binding affinity. It displaces morphine from mu receptors but activates them to a lower ceiling, so the net opioid effect decreases rather than increases.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Precipitated withdrawal, because buprenorphine displaces morphine but only partially activates mu receptors</div>",
+                  "text": "<div>No clinical effect because both drugs act on the same opioid receptor</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Both act on mu receptors, but their intrinsic activity differs — morphine is a full agonist while buprenorphine is a partial agonist. This qualitative difference is the source of the clinical problem.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Precipitated withdrawal because buprenorphine displaces morphine but provides only partial receptor activation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Buprenorphine binds mu receptors with higher affinity than morphine but produces only partial activation. In a dependent patient, this displacement abruptly reduces overall mu-receptor stimulation, precipitating withdrawal.</div>",
+                    "chosenFeedback": "<div>Correct. Buprenorphine binds mu receptors with very high affinity, displacing morphine, but as a partial agonist it produces less receptor activation. This sudden drop in mu-receptor stimulation precipitates withdrawal in a dependent patient.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>No significant clinical effect, since both drugs act on the same receptor type</div>",
+                  "text": "<div>Fatal respiratory depression from combined mu-receptor stimulation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Acting on the same receptor does not mean the same effect. A partial agonist displacing a full agonist lowers total receptor activation — a critical difference in a physically dependent patient.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Respiratory arrest from synergistic respiratory depression</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Buprenorphine has a ceiling effect on respiratory depression, making it safer than full agonists in overdose. By displacing morphine and providing only partial activation, it would more likely reduce respiratory depression than worsen it.</div>",
+                    "chosenFeedback": "<div>Buprenorphine has a ceiling effect on respiratory depression, making it safer than full agonists in this regard. The real risk here is precipitated withdrawal, not additive respiratory depression.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key concept is partial agonism: buprenorphine activates mu receptors only partially. When it displaces a full agonist in a dependent patient, the net opioid effect drops suddenly, triggering withdrawal. This same high-affinity binding also makes buprenorphine resistant to naloxone reversal."
+                  "feedback": "The key concept is partial agonism. Buprenorphine has higher receptor affinity than morphine but activates mu receptors to a lower maximum — displacing a full agonist with a partial one is equivalent to abruptly reducing the opioid dose."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Buprenorphine's high mu-receptor affinity and partial agonist activity mean it displaces full agonists like morphine, causing a net decrease in receptor stimulation and precipitating withdrawal in dependent patients — while also resisting reversal by naloxone."
+                  "feedback": "Excellent. Buprenorphine's high affinity and partial agonism create a clinical trap: it displaces full agonists and drops mu-receptor activation, triggering withdrawal in dependent patients."
                 }
               ],
               "behaviour": {
@@ -481,69 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ba24fc96-0138-4504-91ae-ae2306674706",
+            "subContentId": "df0589ba-c48f-41f3-a4ba-4152eae33195",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient on long-term morphine therapy",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 820.525,
-            "to": 830.525
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>In methanol poisoning, formaldehyde is the primary metabolite responsible for op</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>In methanol poisoning, formaldehyde is the primary metabolite responsible for optic nerve damage and severe metabolic acidosis.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is actually false. While formaldehyde is an intermediate in methanol metabolism, it is quickly converted to formic acid by aldehyde dehydrogenase. Formic acid is the true toxic culprit — it selectively damages the optic nerve and causes the life-threatening metabolic acidosis.",
-                "correctAnswerMessage": "Correct — this statement is false. Formaldehyde is only a transient intermediate that is rapidly oxidised by ALDH to formic acid. It is formic acid that selectively poisons the optic nerve (causing blindness) and drives the severe metabolic acidosis characteristic of methanol poisoning.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "38421264-455b-47c8-850f-c66b1ddb3019",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "In methanol poisoning, formaldehyde is t",
+              "title": "A patient on long-term morphine for canc",
               "authors": [],
               "changes": []
             }
@@ -565,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with methanol poisoning is being treated with IV ethanol because fomep</p>",
+          "label": "<p>A 35-year-old man presents 8 hours after consuming suspected methanol-contaminat</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -574,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with methanol poisoning is being treated with IV ethanol because fomepizole is unavailable. A junior doctor suggests adding disulfiram to 'help block methanol metabolism.' Why is this suggestion harmful?</p>",
+              "question": "<p>A 35-year-old man presents 8 hours after consuming suspected methanol-contaminated liquor with severe metabolic acidosis and blurred vision. Which pharmacological intervention should be started first?</p>",
               "answers": [
                 {
-                  "text": "<div>Disulfiram would compete with ethanol for ADH binding, reducing ethanol's antidotal effect</div>",
+                  "text": "<div>Disulfiram to block further alcohol metabolism</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Disulfiram does not act on alcohol dehydrogenase. Its mechanism is irreversible inhibition of aldehyde dehydrogenase (ALDH) — a different enzyme downstream in the metabolic pathway.</div>",
+                    "chosenFeedback": "<div>Disulfiram irreversibly inhibits aldehyde dehydrogenase and is used as a deterrent in chronic alcoholism, not for acute methanol poisoning. The goal here is to stop methanol from being converted to formaldehyde and formic acid in the first place.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Disulfiram would block ALDH, causing toxic acetaldehyde accumulation from the ethanol being used as the antidote</div>",
+                  "text": "<div>Fomepizole to competitively inhibit alcohol dehydrogenase and prevent formation of toxic metabolites</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Disulfiram irreversibly inhibits ALDH. Since the patient is receiving ethanol, ADH converts it to acetaldehyde — which normally gets cleared quickly by ALDH. With ALDH blocked, acetaldehyde accumulates dangerously, producing a severe disulfiram-like reaction on top of the methanol emergency.</div>",
+                    "chosenFeedback": "<div>Correct. Fomepizole is the first-line antidote. By competitively blocking alcohol dehydrogenase, it prevents conversion of methanol to formaldehyde and subsequently to formic acid — the metabolite responsible for metabolic acidosis and optic nerve damage.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Disulfiram would accelerate methanol conversion to formic acid by inducing CYP2E1</div>",
+                  "text": "<div>Naltrexone to block opioid receptors and reduce the toxic effects of methanol</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Disulfiram has no effect on CYP2E1 or the MEOS pathway. Its sole mechanism is irreversible ALDH inhibition, which affects downstream clearance of aldehydes, not their initial production.</div>",
+                    "chosenFeedback": "<div>Naltrexone is an opioid receptor antagonist used for long-term craving control in alcohol dependence. Methanol toxicity is not mediated through opioid receptors, and naltrexone has no role in acute poisoning.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Disulfiram would cause methanol to be excreted unchanged through the kidneys, worsening acidosis</div>",
+                  "text": "<div>Diazepam to prevent seizures caused by methanol withdrawal</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Disulfiram does not affect renal excretion of methanol. Methanol is primarily metabolised hepatically via ADH; its renal clearance is minimal and unaffected by ALDH inhibition.</div>",
+                    "chosenFeedback": "<div>This is acute methanol poisoning, not alcohol withdrawal. The metabolic acidosis and visual disturbances result from formic acid accumulation. Benzodiazepines are indicated for ethanol withdrawal seizures, not methanol intoxication.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -617,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key is to follow the metabolic pathway. Ethanol is converted to acetaldehyde by ADH, and acetaldehyde is normally cleared by ALDH. Disulfiram irreversibly blocks ALDH, so acetaldehyde accumulates whenever ethanol is metabolised — making concurrent ethanol administration dangerous."
+                  "feedback": "In methanol poisoning, formic acid causes the life-threatening damage. Fomepizole blocks alcohol dehydrogenase (the first enzyme in the pathway), preventing toxic metabolite formation. This is distinct from disulfiram (ALDH inhibitor for deterrence), naltrexone (opioid antagonist for craving), or diazepam (for withdrawal seizures)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Trace the pathway: ethanol → (ADH) → acetaldehyde → (ALDH) → acetate. Disulfiram blocks ALDH. With the patient receiving IV ethanol as an antidote, the acetaldehyde produced from ethanol cannot be cleared — causing flushing, vomiting, hypotension, and cardiovascular instability."
+                  "feedback": "Well done. In acute methanol poisoning, the priority is blocking formation of toxic metabolites by inhibiting alcohol dehydrogenase — fomepizole is first-line, with ethanol as an alternative if fomepizole is unavailable."
                 }
               ],
               "behaviour": {
@@ -649,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "a22722d6-4b9f-4535-b8cf-15f00910ae02",
+            "subContentId": "fa2da5e9-b90c-4874-8487-fb6066bb28f3",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with methanol poisoning is bei",
+              "title": "A 35-year-old man presents 8 hours after",
               "authors": [],
               "changes": []
             }
@@ -724,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "92e719dc-5faf-44d7-8256-fad71c4f7175",
+              "subContentId": "5e1722ee-2857-4f4f-853a-4438c973a050",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -747,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "c7d6f4bb-ce25-4100-b784-e8ea541a6e15",
+        "subContentId": "3c718292-3a9e-462e-b4fd-d4e63f856daf",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
