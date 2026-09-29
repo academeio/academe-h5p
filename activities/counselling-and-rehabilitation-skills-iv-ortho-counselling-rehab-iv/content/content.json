@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/2cbb49a0-4436-4230-90b8-ad7fec204899/playlist.m3u8",
+          "path": "https://vdo.cbme.in/48faae2e-86da-41ee-80d3-15d5a94dce7d/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OR14.1-4 | Counselling and Rehabilitation Skills — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 6 embedded questions for OR14.1-OR14.4."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for OR14.1-OR14.4."
       },
       "textTracks": {
         "videoTrack": [
@@ -67,43 +67,95 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A fracture that heals without residual disability but requires ten weeks of trac</p>",
+          "label": "<p>An 8-year-old boy with a femoral shaft fracture is placed in skeletal traction f</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A fracture that heals without residual disability but requires ten weeks of traction does not warrant structured prognosis counselling.</p>",
-              "correct": "false",
+              "question": "<p>An 8-year-old boy with a femoral shaft fracture is placed in skeletal traction for 8 weeks. Beyond the fracture management, which concern should be the PRIMARY focus of the initial counselling session with his parents?</p>",
+              "answers": [
+                {
+                  "text": "<div>Risk of post-traumatic arthritis in the hip joint</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Post-traumatic arthritis follows intra-articular fractures, not diaphyseal (shaft) fractures. The femoral shaft is not a joint surface injury.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Social, financial, and medical complications of prolonged immobilisation, including pressure sores and muscle wasting</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Prolonged traction causes real risks — pressure sores, deep vein thrombosis, infections, and muscle wasting — plus social costs like disrupted schooling and family burden. Early counselling prepares the family to manage these proactively.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The need for lifelong prosthetic rehabilitation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Femoral shaft fractures in children heal well with traction; amputation and prosthetics are not relevant here. The concern is the immobilisation period, not limb loss.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Genetic testing for hereditary bone fragility disorders</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A traumatic femoral shaft fracture does not indicate a genetic bone disorder. Genetic counselling belongs to the congenital disabilities category, not the prolonged-immobilisation category.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Review the four categories of prognosis counselling. Prolonged immobilisation carries its own burden: pressure sores, blood clots, muscle wasting, lost income, and family disruption. These must be addressed early."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. Fractures requiring prolonged bed rest or traction demand early counselling about social, financial, and medical complications — not just the fracture itself."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Not quite. The video identifies fractures needing prolonged bed rest as one of the four categories requiring prognosis counselling, regardless of long-term disability. The social, financial, and medical complications of weeks of immobilisation — including pressure sores, blood clots, and muscle wasting — make early counselling essential.",
-                "correctAnswerMessage": "Well done. Fractures requiring prolonged immobilisation are one of the four categories that need structured prognosis counselling, even when full recovery is expected. Weeks of traction carry real costs — job loss, family disruption, pressure sores, and blood clots — and the patient must be prepared for these early.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2f967087-f123-4090-a3ca-1cb20c428290",
+            "subContentId": "f8d49701-7e64-413b-894b-0fb5f826853d",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A fracture that heals without residual d",
+              "title": "An 8-year-old boy with a femoral shaft f",
               "authors": [],
               "changes": []
             }
@@ -125,7 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 55-year-old woman is diagnosed with osteosarcoma of the proximal tibia. She as</p>",
+          "label": "<p>You are counselling a manual labourer after surgery for a comminuted tibial plat</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 55-year-old woman is diagnosed with osteosarcoma of the proximal tibia. She asks whether amputation will definitely cure her. What is the most appropriate counselling response?</p>",
+              "question": "<p>You are counselling a manual labourer after surgery for a comminuted tibial plateau fracture. He asks whether he will fully recover. Which response BEST demonstrates appropriate prognostic communication?</p>",
               "answers": [
                 {
-                  "text": "<div>&quot;Amputation will guarantee a complete cure, so you should not worry.&quot;</div>",
+                  "text": "<div>&quot;The surgery was successful, so you should expect a complete recovery.&quot;</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Offering certainty about survival contradicts the counselling principle for bone tumours. The video emphasises reporting survival as probabilities, never certainties, and never offering false reassurance.</div>",
+                    "chosenFeedback": "<div>Fixing the bone does not guarantee full recovery after an intra-articular fracture. Cartilage damage from the original injury often leads to post-traumatic arthritis regardless of surgical success. This statement offers false reassurance.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>&quot;I will present the survival probabilities for both limb-salvage surgery and amputation so we can make an informed decision together.&quot;</div>",
+                  "text": "<div>&quot;You will manage walking at home and light activity, but returning to heavy manual work is unlikely.&quot;</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The video instructs using the SPIKES protocol, presenting both limb-salvage and amputation as legitimate options with their risks, and reporting survival figures as probabilities — never certainties.</div>",
+                    "chosenFeedback": "<div>Correct. This ties the prognosis to real functional benchmarks the patient understands. It is honest without being crushing, and preserves hope for achievable goals while setting realistic expectations.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>&quot;We should not discuss survival statistics as they will only cause unnecessary distress.&quot;</div>",
+                  "text": "<div>&quot;You will never walk normally again; you should prepare for a wheelchair.&quot;</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Withholding prognostic information contradicts the SPIKES framework. Bone tumour counselling requires full disclosure, including survival probabilities for each treatment option, delivered with empathy.</div>",
+                    "chosenFeedback": "<div>Absolute negative language is inappropriate when meaningful function is preserved. Many tibial plateau fracture patients walk independently — they may not return to heavy labour, but household and light activity are realistic goals.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>&quot;The oncologist will explain everything later; it is not the orthopaedic team's responsibility.&quot;</div>",
+                  "text": "<div>&quot;It is too early to predict anything; recovery depends entirely on your willpower.&quot;</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The video makes clear that the surgeon must disclose the diagnosis and discuss both limb-salvage and amputation. Deferring entirely to another specialist delays the patient's understanding and violates the disclosure obligation.</div>",
+                    "chosenFeedback": "<div>Vague responses that shift responsibility to the patient are neither helpful nor accurate. The orthopaedic team can and should provide a realistic range of functional outcomes based on the injury pattern and surgical findings.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the bone tumour counselling section. The key principles are: use the SPIKES protocol in full, explain both limb-salvage and amputation as legitimate options, and report survival figures as probabilities, never as certainties."
+                  "feedback": "For intra-articular fractures, use function-linked language: describe what the patient can realistically expect to do (household walking, light activity) rather than using absolutes, false reassurance, or vague statements."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. You correctly applied the bone tumour counselling principle: use the SPIKES protocol, present both surgical options honestly, and convey survival as probabilities — never guarantees."
+                  "feedback": "Excellent. Tying the prognosis to concrete functional milestones — walking, light activity, work capacity — gives the patient an honest and usable picture of the future."
                 }
               ],
               "behaviour": {
@@ -209,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "12c463e2-d489-441f-9d92-5da884a28703",
+            "subContentId": "13a9f179-4dc6-4240-9d80-50a0dd8b8c28",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 55-year-old woman is diagnosed with os",
+              "title": "You are counselling a manual labourer af",
               "authors": [],
               "changes": []
             }
@@ -235,95 +287,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In compartment syndrome, which clinical sign is the earliest and most reliable i</p>",
+          "label": "<p>In compartment syndrome, the diagnosis can be excluded if peripheral pulses are </p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>In compartment syndrome, which clinical sign is the earliest and most reliable indicator, even when distal pulses are still palpable?</p>",
-              "answers": [
-                {
-                  "text": "<div>Paralysis of the affected muscles</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Paralysis is a late sign indicating that irreversible nerve and muscle damage has already occurred. Waiting for paralysis means missing the critical window for fasciotomy.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Pulselessness distal to the injury</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Pulselessness is a late finding. The video explicitly warns that a palpable pulse does NOT rule out compartment syndrome — do not wait for this sign.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Visible pallor of the affected limb</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Pallor is a late sign that may not be present in early compartment syndrome. The limb may appear normal in the early stages, making this an unreliable early indicator.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Pain on passive stretching of the involved muscles</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The video identifies pain on passive stretch as the earliest and most reliable sign of compartment syndrome. Crucially, pulselessness and paralysis appear late — a normal pulse does not exclude the diagnosis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Remember the six P's of compartment syndrome taught in this section. Among them, pain on passive stretching is the earliest and most reliable sign. Pulselessness and paralysis appear late and indicate that tissue damage has already occurred."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Pain on passive stretch is the single most important early warning sign of compartment syndrome. Among the six P's, pulselessness and paralysis are late — never wait for them before acting."
-                }
-              ],
+              "question": "<p>In compartment syndrome, the diagnosis can be excluded if peripheral pulses are still palpable distal to the injury.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This is false. A palpable pulse does NOT rule out compartment syndrome — pulselessness appears only after irreversible damage has already begun. Among the six P's (pain, pain on passive stretch, pallor, paraesthesia, pulselessness, paralysis), the last two are late and ominous. Pain on passive muscle stretch is the earliest and most reliable sign.",
+                "correctAnswerMessage": "Correct — this statement is false. Pulselessness is a LATE sign in compartment syndrome. Compartment pressure can destroy muscle and nerve tissue while arterial inflow continues. Pain on passive stretching of the affected compartment muscles is the earliest and most reliable clinical sign.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "ab87907b-de37-4f8e-9f8f-de19afb09b90",
+            "subContentId": "aac9c458-4ea8-46a2-8ec6-c70ab0a1b9cc",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "In compartment syndrome, which clinical",
+              "title": "In compartment syndrome, the diagnosis c",
               "authors": [],
               "changes": []
             }
@@ -345,7 +345,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why is below-knee amputation considered the most functional level of lower limb </p>",
+          "label": "<p>A 60-year-old diabetic patient presents with gangrene limited to the forefoot. D</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Why is below-knee amputation considered the most functional level of lower limb amputation?</p>",
+              "question": "<p>A 60-year-old diabetic patient presents with gangrene limited to the forefoot. Doppler studies confirm adequate blood supply to the heel pad and ankle. Which amputation level preserves the MOST function while ensuring adequate healing?</p>",
               "answers": [
                 {
-                  "text": "<div>It preserves the knee joint, keeping energy expenditure low and maintaining proprioception</div>",
+                  "text": "<div>Above-knee amputation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Above-knee amputation sacrifices the knee joint entirely and demands far more energy for prosthetic walking. It is reserved for cases where blood supply above the knee has failed — not appropriate when distal vascularity is intact.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Through-knee disarticulation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Through-knee disarticulation preserves the femur but unnecessarily sacrifices the ankle and knee function. With a healthy heel pad and adequate ankle vascularity, a more distal level is achievable and preferable.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Below-knee amputation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Below-knee amputation preserves the knee joint and is highly functional, but when gangrene is limited to the forefoot and the heel pad has intact blood supply, a Syme's amputation retains even more function.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Syme's amputation at the ankle</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Preserving the knee joint dramatically reduces the energy cost of walking compared with above-knee amputation and maintains the patient's sense of joint position (proprioception), both critical for rehabilitation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It allows direct weight-bearing on the stump without any prosthesis</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Direct weight-bearing without a prosthesis is a feature of Syme's amputation, which preserves the heel pad for end-bearing. Below-knee amputation requires a prosthetic socket for walking.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It has the shortest surgical time and lowest complication rate of all levels</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The functional advantage of below-knee amputation is unrelated to operative duration. Its superiority lies in preserving the knee joint, not in surgical simplicity.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>It is the only amputation level compatible with modern prosthetic feet</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Modern prosthetic feet can be fitted at several amputation levels, including Syme's and through-knee. The advantage of below-knee lies specifically in knee preservation, not prosthetic foot compatibility.</div>",
+                    "chosenFeedback": "<div>Correct. Syme's amputation removes the foot at the ankle while preserving the heel pad for direct weight bearing. It suits limited diabetic gangrene when heel pad vascularity is intact — the most distal level that ensures a viable stump.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Revisit the amputation levels section. Below-knee amputation is the most functional because it preserves the knee joint — this reduces the energy cost of walking and maintains proprioception, both of which are critical for successful prosthetic rehabilitation."
+                  "feedback": "Remember the rule: amputate at the most distal level that ensures healing. With intact heel pad vascularity and limited forefoot gangrene, Syme's amputation preserves the most function while still healing reliably."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. The key trade-off in amputation surgery is healing certainty versus preserved function. Below-knee amputation offers the best functional outcome because it keeps the knee joint intact, reducing energy costs and preserving proprioception."
+                  "feedback": "Well done. The guiding principle is to amputate at the most distal level that gives a healthy, well-vascularised stump. Syme's amputation with an intact heel pad offers direct weight bearing and maximum preserved function."
                 }
               ],
               "behaviour": {
@@ -429,121 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2d16850a-ff7b-4cb1-846f-fedd0b58a80c",
+            "subContentId": "f72ba57f-eeac-40e5-a253-c1b02eb2effc",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Why is below-knee amputation considered",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 763.625,
-            "to": 773.625
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>Why does a below-knee amputee need prosthetic socket refitting at three, six, an</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>Why does a below-knee amputee need prosthetic socket refitting at three, six, and twelve months after the initial fitting?</p>",
-              "answers": [
-                {
-                  "text": "<div>Because prosthetic materials degrade with regular use and require scheduled replacement</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Socket refitting is driven by biological changes in the stump, not by material wear. The socket itself remains structurally sound for much longer than the refitting interval.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Because the patient's walking pattern stabilises at three-month intervals, requiring socket adjustment</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While gait does improve with training, the reason for refitting is the changing stump shape. A poorly fitting socket actually impedes gait improvement rather than the other way around.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Because the stump continues to change shape over twelve to eighteen months as swelling reduces and tissues remodel</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The residual limb undergoes progressive volume changes as post-operative oedema resolves and muscle atrophy occurs, requiring periodic socket adjustments to maintain proper fit, comfort, and function.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Because government prosthetic service protocols mandate fixed review intervals regardless of clinical need</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Refitting is based on the biological fact that the stump reshapes over twelve to eighteen months. It is a clinical necessity driven by anatomy, not merely a bureaucratic protocol.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Remember: the stump changes shape for twelve to eighteen months after amputation as swelling reduces and tissues remodel. This biological process is why refitting at three, six, and twelve months is standard practice — it is not about material wear or policy mandates."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Counselling patients about the expected schedule of socket refitting — and explaining that stump shape changes are normal — helps set realistic expectations and prevents complications from a poorly fitting prosthesis."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "c7bc0011-305c-4a33-896e-00bb57792a32",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "Why does a below-knee amputee need prost",
+              "title": "A 60-year-old diabetic patient presents",
               "authors": [],
               "changes": []
             }
@@ -565,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 65-year-old diabetic patient's below-knee amputation wound has healed well at </p>",
+          "label": "<p>A 30-year-old patient is 4 weeks post below-knee amputation. The wound is healin</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -574,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 65-year-old diabetic patient's below-knee amputation wound has healed well at six weeks. What is the most appropriate next step in the rehabilitation programme?</p>",
+              "question": "<p>A 30-year-old patient is 4 weeks post below-knee amputation. The wound is healing well, but the stump remains oedematous. Which rehabilitation phase is this patient in, and what is the MOST important priority?</p>",
               "answers": [
                 {
-                  "text": "<div>Fit the definitive prosthesis immediately and begin community walking training</div>",
+                  "text": "<div>Preparatory prosthesis phase; begin gait training with a temporary socket</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The definitive prosthesis is fitted at three to six months, not at six weeks. At this early stage, the stump is still changing shape rapidly, so a preparatory prosthesis is used first to allow adjustment.</div>",
+                    "chosenFeedback": "<div>The preparatory prosthesis phase begins around weeks 6–12, once the stump has healed and started to reduce in volume. At 4 weeks, the stump is still too oedematous for any socket fitting.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Fit a preparatory prosthesis and begin graded mobilisation — standing, then stepping, then walking</div>",
+                  "text": "<div>Pre-prosthetic phase; compression bandaging to reduce stump oedema and exercises to prevent joint contracture</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Between weeks six and twelve, once healing is solid, a preparatory prosthesis is fitted and the patient begins graded mobilisation. Expect high fatigue during this phase — that is normal, not a sign of failure.</div>",
+                    "chosenFeedback": "<div>Correct. The first 6 weeks constitute the pre-prosthetic phase. The priorities are wound healing, shrinking stump volume with compression bandaging, and maintaining knee range of motion to prevent flexion contracture — without this groundwork, socket fitting later becomes much harder.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Continue compression bandaging and bed rest for another six weeks before any prosthetic fitting</div>",
+                  "text": "<div>Definitive prosthesis phase; fit the permanent prosthesis and train community walking</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Once the wound has healed, delaying prosthetic fitting wastes valuable rehabilitation time and risks muscle atrophy and joint stiffness. The next phase is a preparatory prosthesis with graded mobilisation.</div>",
+                    "chosenFeedback": "<div>The definitive prosthesis is fitted at 3–6 months once the stump shape has stabilised. At 4 weeks, the stump is still actively changing shape and far from ready for a permanent socket.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Discharge with crutches and schedule the first prosthetic fitting at six months</div>",
+                  "text": "<div>Annual review phase; check the socket fit and inspect stump skin</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Delaying prosthetic fitting to six months results in stump muscle atrophy, joint contracture, and loss of motivation. Early fitting with a preparatory prosthesis between six and twelve weeks is the standard of care.</div>",
+                    "chosenFeedback": "<div>Annual reviews begin after the definitive prosthesis is in regular use. At 4 weeks post-amputation, the rehabilitation journey has barely begun.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -617,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the staged rehabilitation timeline. The programme has three phases: pre-prosthetic (0–6 weeks — wound healing and compression), preparatory prosthesis (6–12 weeks — graded mobilisation), and definitive prosthesis (3–6 months — community walking and functional training)."
+                  "feedback": "The rehabilitation timeline is: pre-prosthetic phase (0–6 weeks: healing, compression, exercises), preparatory prosthesis (6–12 weeks: temporary socket and early gait), definitive prosthesis (3–6 months), then long-term review. At 4 weeks, the patient is squarely in the pre-prosthetic phase."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. You correctly applied the rehabilitation timeline: once the wound heals at around six weeks, a preparatory prosthesis begins the graded transition from bed to standing to walking."
+                  "feedback": "Correct. Skipping the pre-prosthetic phase leaves a swollen, cone-shaped stump that cannot be properly fitted with a socket. Compression bandaging and joint exercises in the first 6 weeks lay the foundation for successful prosthetic rehabilitation."
                 }
               ],
               "behaviour": {
@@ -649,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "57c67a00-8e7e-4397-b042-b5ce81c8e030",
+            "subContentId": "46b55a01-07f5-4d28-a2e1-e4e520efa52e",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 65-year-old diabetic patient's below-k",
+              "title": "A 30-year-old patient is 4 weeks post be",
               "authors": [],
               "changes": []
             }
@@ -720,7 +610,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "8ea943cf-b7ef-4eab-b24a-807a440f6f9b",
+              "subContentId": "7fc90150-eb0c-427c-94b8-c8cec85cdb3b",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -743,7 +633,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "ac4e6e96-ac94-4a16-92e3-b003640f2173",
+        "subContentId": "cb801aec-6496-4fc7-a6b2-4376c9e2f3d9",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
