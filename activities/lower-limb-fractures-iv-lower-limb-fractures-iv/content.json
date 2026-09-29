@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/2b63d7da-c262-45e5-8718-1b5545ac3d1c/playlist.m3u8",
+          "path": "https://vdo.cbme.in/78fc06b5-20ab-4f6b-8f81-d969b739a118/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OR2.10-13 | Lower Limb Fractures — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for OR2.1-OR2.8."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for OR2.1-OR2.8."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,123 @@
       "interactions": [
         {
           "duration": {
+            "from": 120.00000000000001,
+            "to": 130
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In the motorcyclist with a comminuted patellar fracture and a lateral tibial pla</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In the motorcyclist with a comminuted patellar fracture and a lateral tibial plateau depression, which clinical finding is the strongest indicator of developing compartment syndrome?</p>",
+              "answers": [
+                {
+                  "text": "<div>Swelling of the knee with the leg held in 20 degrees of flexion</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Knee swelling and a flexed posture reflect the fracture itself and the resulting haemarthrosis, not rising pressure within a muscle compartment.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Pain on passive dorsiflexion of the ankle with a tense leg</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Pain elicited by passively stretching the muscles within a closed compartment — here, the anterior compartment — combined with tense swelling is the hallmark early sign of rising compartment pressure.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Numbness along the lateral aspect of the leg</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Lateral leg numbness suggests common peroneal nerve injury from the tibial plateau fracture, not necessarily compartment syndrome.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Inability to straighten the leg against gravity</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Loss of active knee extension reflects disruption of the extensor mechanism from the patellar fracture, not compartment pressure.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Review the case findings. Among the options listed, pain on passive dorsiflexion with a tense compartment is the hallmark of compartment syndrome — the other findings point to the fractures themselves or to nerve injury."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. Pain on passive stretching of the affected compartment's muscles is the earliest and most reliable clinical sign of compartment syndrome."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "19d9d8fa-87c5-49e1-8e24-049e5e3118ee",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In the motorcyclist with a comminuted pa",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
             "from": 301.6,
             "to": 311.6
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A palpable dorsalis pedis pulse reliably excludes compartment syndrome in a pati</p>",
+          "label": "<p>A palpable dorsalis pedis pulse rules out compartment syndrome in the leg.</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,7 +186,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A palpable dorsalis pedis pulse reliably excludes compartment syndrome in a patient with a tibial fracture and tense leg swelling.</p>",
+              "question": "<p>A palpable dorsalis pedis pulse rules out compartment syndrome in the leg.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -94,16 +204,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. A palpable pulse does NOT rule out compartment syndrome. Compartment pressure causes tissue ischaemia well before it reaches systolic blood pressure and abolishes the pulse. The earliest clinical sign is pain out of proportion to injury, especially on passive stretching of the compartment muscles. Fasciotomy is indicated when the clinical picture is suggestive, regardless of pulse status.",
-                "correctAnswerMessage": "Correct — this is false. Pulses disappear only after compartment pressure exceeds systolic blood pressure, by which time muscle and nerve damage is already irreversible. The earliest sign of compartment syndrome is pain out of proportion to the injury, particularly pain on passive stretch of the muscles within the affected compartment. Emergency fasciotomy must not be delayed while waiting for pulse loss.",
+                "wrongAnswerMessage": "This is a critical clinical pitfall. Pulses disappear only after compartment pressure exceeds systolic blood pressure — long after irreversible ischaemic damage has begun. Pain on passive muscle stretching is the earliest and most reliable sign. Never rely on pulse status alone to exclude compartment syndrome.",
+                "correctAnswerMessage": "Exactly right — this is a dangerous misconception. Peripheral pulses persist until compartment pressure exceeds systolic blood pressure, by which time irreversible muscle and nerve damage has already occurred. The earliest sign is pain out of proportion to the injury, especially on passive stretching of the affected compartment's muscles.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "c7faed62-f968-4bf2-ada8-b5c33633b0e7",
+            "subContentId": "fc4a700d-c6f0-4cd6-bda6-9665e706d7d2",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "A palpable dorsalis pedis pulse reliably",
+              "title": "A palpable dorsalis pedis pulse rules ou",
               "authors": [],
               "changes": []
             }
@@ -125,7 +235,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why is the tibia the long bone most commonly associated with open fractures?</p>",
+          "label": "<p>Which finding classifies an open tibial fracture as Gustilo-Anderson Grade IIIC?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Why is the tibia the long bone most commonly associated with open fractures?</p>",
+              "question": "<p>Which finding classifies an open tibial fracture as Gustilo-Anderson Grade IIIC?</p>",
               "answers": [
                 {
-                  "text": "<div>Its blood supply depends solely on a single periosteal artery, making the cortex structurally fragile</div>",
+                  "text": "<div>A skin wound larger than 10 cm with moderate contamination</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The tibia receives blood from periosteal, endosteal, and nutrient artery sources. Open fracture risk is determined by soft tissue cover, not cortical blood supply.</div>",
+                    "chosenFeedback": "<div>Wound size alone helps distinguish lower grades. A large wound without vascular compromise does not reach Grade IIIC.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The interosseous membrane concentrates shearing forces at the tibial cortex during impact</div>",
+                  "text": "<div>Extensive bone exposure requiring a soft tissue flap for coverage</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The interosseous membrane connects the tibia and fibula but does not concentrate forces in a way that predisposes to open injury. The key factor is how little soft tissue lies over the bone surface.</div>",
+                    "chosenFeedback": "<div>This describes Grade IIIB, where periosteal stripping and soft tissue loss necessitate flap coverage, but the vessels remain intact.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The fibula acts as a lateral splint, causing displaced tibial fragments to angulate medially through the skin</div>",
+                  "text": "<div>Multiple fracture fragments with significant bone loss</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Displacement direction depends on the mechanism of injury, not on the fibula acting as a splint. The real reason is the minimal soft tissue covering the tibia's exposed surfaces.</div>",
+                    "chosenFeedback": "<div>Comminution and bone loss indicate high-energy injury but do not by themselves define Grade IIIC. The grading hinges on vascular status.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Its anterior and medial surfaces are subcutaneous with minimal overlying soft tissue</div>",
+                  "text": "<div>Arterial injury requiring vascular repair</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The tibia's anterior and medial surfaces lie directly beneath the skin with almost no muscle or fat covering them, so even moderate-energy forces can breach the skin.</div>",
+                    "chosenFeedback": "<div>Correct. Grade IIIC is specifically defined by arterial damage that requires surgical vascular repair. These injuries demand a multidisciplinary team — orthopaedic, plastic, and vascular surgeons working together.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key factor is the tibia's subcutaneous position. Its anterior and medial surfaces have very little soft tissue cover — no muscle or fat cushion lies between the bone and the skin. This anatomical vulnerability explains why up to 25% of tibial shaft fractures are open injuries."
+                  "feedback": "Recall from the narration that the Gustilo-Anderson classification ranges from Grade I (a small, clean wound) up to Grade IIIC, defined specifically by vascular injury needing surgical repair."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The tibia's subcutaneous position, with its anterior and medial surfaces lying just beneath the skin, explains why up to 25% of tibial shaft fractures are open injuries — the highest rate among long bones."
+                  "feedback": "Correct. Vascular injury requiring repair is what elevates an open fracture to Grade IIIC — the most severe category in the Gustilo-Anderson system."
                 }
               ],
               "behaviour": {
@@ -209,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6830bd86-6f7e-4ad2-9b55-066b1c15e44c",
+            "subContentId": "cbaa71f7-6cf1-4825-a6aa-8d18835c75b6",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Why is the tibia the long bone most comm",
+              "title": "Which finding classifies an open tibial",
               "authors": [],
               "changes": []
             }
@@ -235,7 +345,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 24-year-old footballer presents with a transverse fracture of the fifth metata</p>",
+          "label": "<p>A true Jones fracture of the fifth metatarsal often requires surgical fixation r</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 24-year-old footballer presents with a transverse fracture of the fifth metatarsal approximately 1.5 cm distal to the tuberosity (a true Jones fracture). Why does this fracture pattern often require surgical fixation rather than conservative management?</p>",
+              "question": "<p>A true Jones fracture of the fifth metatarsal often requires surgical fixation rather than conservative management because:</p>",
               "answers": [
                 {
-                  "text": "<div>The peroneus brevis tendon inserts at this level and produces persistent fracture displacement</div>",
+                  "text": "<div>The peroneus brevis tendon displaces the fracture fragment</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The peroneus brevis inserts at the tuberosity (styloid process) of the fifth metatarsal base, not 1.5 cm distal to it. It is the pseudo-Jones avulsion fracture that involves the peroneus brevis insertion.</div>",
+                    "chosenFeedback": "<div>Peroneus brevis avulsion causes the pseudo-Jones fracture at the styloid tip — a different and typically benign injury that heals well with a firm shoe or boot.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>This region lies in a vascular watershed zone with poor blood supply, predisposing to non-union</div>",
+                  "text": "<div>The fracture site lies in a vascular watershed zone with poor blood supply</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The metaphyseal–diaphyseal junction of the fifth metatarsal is a vascular watershed zone where blood supply is poorest, leading to high rates of delayed union and non-union.</div>",
+                    "chosenFeedback": "<div>Correct. The true Jones fracture occurs 1.5–2 cm distal to the styloid process, in a watershed area between two vascular territories. This compromised blood supply impairs healing and frequently necessitates screw fixation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The fracture extends into the tarsometatarsal joint, compromising Lisfranc stability</div>",
+                  "text": "<div>The fracture extends into the metatarsophalangeal joint surface</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. A Jones fracture is distal to the tarsometatarsal (Lisfranc) joint and does not involve it. The concern is poor vascularity at this level, not joint instability.</div>",
+                    "chosenFeedback": "<div>A Jones fracture is at the metadiaphyseal junction, well away from the joint surface. Intra-articular involvement is not the reason for surgical intervention here.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Weight-bearing forces are maximal at this point along the metatarsal shaft</div>",
+                  "text": "<div>The fifth metatarsal bears the greatest load during the push-off phase of gait</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While loading does play a role in stress fractures, the primary reason a Jones fracture needs surgery is the poor blood supply at the metaphyseal–diaphyseal junction, which impairs healing.</div>",
+                    "chosenFeedback": "<div>The first and second metatarsals bear more load during push-off. The Jones fracture's poor healing is due to its vascular watershed location, not excessive mechanical loading.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The true Jones fracture occurs at the metaphyseal–diaphyseal junction of the fifth metatarsal — a vascular watershed zone where blood supply is poorest. This poor vascularity causes high rates of delayed union and non-union, making surgical fixation with a screw often necessary. By contrast, the pseudo-Jones avulsion at the tuberosity has better blood supply and heals well conservatively with a firm shoe or boot."
+                  "feedback": "The critical distinction is anatomical: the true Jones fracture sits in a vascular watershed zone 1.5–2 cm distal to the styloid, with poor blood supply. This distinguishes it from the more benign pseudo-Jones avulsion at the styloid tip."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The true Jones fracture sits in a vascular watershed zone at the metaphyseal–diaphyseal junction of the fifth metatarsal, where blood supply is poorest. This poor vascularity results in high non-union rates, often necessitating fixation with an intramedullary screw — unlike the pseudo-Jones avulsion at the tuberosity, which heals reliably with a supportive shoe."
+                  "feedback": "Well done. The watershed blood supply at the metadiaphyseal junction is the key reason the true Jones fracture heals poorly and often requires surgery."
                 }
               ],
               "behaviour": {
@@ -319,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6338c7c1-a28b-4098-bc20-d94e44cc2f73",
+            "subContentId": "71a214ea-414d-4d7a-94d0-e84c745e9934",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 24-year-old footballer presents with a",
+              "title": "A true Jones fracture of the fifth metat",
               "authors": [],
               "changes": []
             }
@@ -345,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A young man develops hypoxia, confusion, and a petechial rash 48 hours after int</p>",
+          "label": "<p>Which feature of fat embolism syndrome is considered the most distinctive and sp</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A young man develops hypoxia, confusion, and a petechial rash 48 hours after intramedullary nailing for a femoral shaft fracture. Which pathophysiological mechanism best explains the pulmonary injury in fat embolism syndrome?</p>",
+              "question": "<p>Which feature of fat embolism syndrome is considered the most distinctive and specific to this condition?</p>",
               "answers": [
                 {
-                  "text": "<div>Free fatty acids released by enzymatic breakdown of fat globules damage pulmonary endothelium and destroy surfactant</div>",
+                  "text": "<div>Tachypnoea with hypoxaemia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Respiratory distress is common to many conditions — pulmonary embolism, pneumonia, and ARDS can all present with tachypnoea and hypoxaemia. It is part of the triad but not the most distinctive feature.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Confusion and altered consciousness</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Neurological changes such as confusion occur in numerous settings — head injury, hypoxia, sepsis, and drug effects. While part of the triad, they are not specific to fat embolism.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Petechial rash on the chest, neck, and conjunctivae</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Lipase enzymes break down circulating fat globules into free fatty acids, which are toxic to the capillary endothelium and destroy lung surfactant. This biochemical cascade — not simple mechanical obstruction — explains the 24–72 hour delay and the ARDS-like picture.</div>",
+                    "chosenFeedback": "<div>Correct. Petechiae distributed across the chest, neck, and conjunctivae are the most distinctive sign of fat embolism syndrome. This distribution pattern, in the context of a recent long bone fracture, is virtually pathognomonic.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Fat globules mechanically obstruct the main pulmonary arteries, causing acute right heart failure</div>",
+                  "text": "<div>Fever with persistent tachycardia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. This describes the mechanism of a massive thrombotic pulmonary embolism, not fat embolism syndrome. Fat globules are small and pass through pulmonary capillaries; the lung injury results from a biochemical cascade involving free fatty acid toxicity, not large-vessel obstruction.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Bone marrow cells released into the circulation trigger a type I hypersensitivity reaction in the lungs</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Fat embolism syndrome is not an IgE-mediated allergic reaction. The pulmonary injury is caused by free fatty acids produced when enzymes break down the embolised fat globules, damaging endothelium and surfactant.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Air introduced into the medullary canal during nailing embolises to the pulmonary vasculature</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. This describes air embolism, a distinct entity. In fat embolism syndrome, it is fat globules from the fractured bone marrow — not air — that enter the venous circulation, and the subsequent enzymatic release of free fatty acids causes the pulmonary damage.</div>",
+                    "chosenFeedback": "<div>Fever and tachycardia are non-specific systemic responses seen in infection, inflammation, and many post-operative states. They are minor criteria in the Gurd and Wilson system, not the hallmark feature.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The pulmonary injury in fat embolism syndrome is primarily biochemical, not mechanical. Lipase enzymes break down circulating fat globules into free fatty acids, which damage the pulmonary endothelium and destroy surfactant. This causes increased capillary permeability and pulmonary oedema resembling ARDS. The 24–72 hour delay between injury and symptom onset reflects the time required for this enzymatic cascade."
+                  "feedback": "The classic triad comprises respiratory distress, neurological changes, and a petechial rash. Of these three, the narration identifies petechiae (on the chest, neck, and eyes) as the most distinctive sign of fat embolism syndrome."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The biochemical phase of fat embolism syndrome is the key to understanding the delayed onset of symptoms. Lipase converts fat globules into free fatty acids that injure the pulmonary capillary endothelium and destroy surfactant, producing oedema and hypoxia resembling acute respiratory distress syndrome."
+                  "feedback": "Correct. The petechial rash — on the chest, neck, and conjunctivae — is the most distinctive clinical sign of fat embolism syndrome and completes the classic triad alongside respiratory distress and neurological changes."
                 }
               ],
               "behaviour": {
@@ -429,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "767c109c-4251-4603-b5ca-4570524300c3",
+            "subContentId": "2e6127be-cd60-422b-bce4-76751e796adc",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A young man develops hypoxia, confusion,",
+              "title": "Which feature of fat embolism syndrome i",
               "authors": [],
               "changes": []
             }
@@ -508,7 +618,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "003abc06-9dbc-43dd-b83f-e128f614d455",
+              "subContentId": "7807ec90-ebbf-4e7e-b614-e5cfbe2c10b4",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -531,7 +641,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "b48196df-43d6-4a5e-8cf8-427246b10fbf",
+        "subContentId": "5c7ef27a-1b37-4929-b73d-f1bce8b164a7",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
