@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/eff2e6c0-a8dd-4eb2-863c-d1d053ff8a9c/playlist.m3u8",
+          "path": "https://vdo.cbme.in/caee9221-842c-42c7-9d46-533218294da3/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,13 +61,123 @@
       "interactions": [
         {
           "duration": {
-            "from": 113.35000000000001,
-            "to": 123.35000000000001
+            "from": 206.98308333333333,
+            "to": 216.98308333333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Provoked seizures, such as those caused by hypoglycaemia or alcohol withdrawal, </p>",
+          "label": "<p>A 50-year-old diabetic presents with a generalised tonic-clonic seizure during a</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A 50-year-old diabetic presents with a generalised tonic-clonic seizure during an episode of severe hypoglycaemia (blood glucose 35 mg/dL). Which of the following correctly explains why this event alone does not qualify as epilepsy?</p>",
+              "answers": [
+                {
+                  "text": "<div>Generalised tonic-clonic seizures are convulsions, not true seizures</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A convulsion is a motor subtype of seizure. A generalised tonic-clonic event is both a seizure and a convulsion — the terms are not mutually exclusive.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>This is a provoked seizure; the ILAE criteria require unprovoked seizures for an epilepsy diagnosis</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. This seizure was triggered by acute hypoglycaemia — a reversible metabolic cause. The ILAE 2014 definition requires unprovoked seizures. The right approach is to treat the hypoglycaemia, not start antiepileptic drugs.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A single seizure always requires a second episode before epilepsy can be diagnosed</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Not always. Even a single unprovoked seizure with a ≥60% recurrence risk over ten years can satisfy the ILAE criteria. The key issue here is that this seizure is provoked, not that it is a single episode.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Hypoglycaemia causes syncope, not seizures</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Severe hypoglycaemia can cause genuine seizures through neuronal energy failure. The generalised tonic-clonic movements described here are a seizure, not syncope.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "This seizure was provoked by acute hypoglycaemia. The ILAE 2014 criteria require unprovoked seizures for epilepsy. A provoked seizure needs treatment of the underlying cause, not antiepileptic drugs."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct! Provoked seizures due to reversible causes such as hypoglycaemia do not meet the ILAE 2014 criteria for epilepsy. Treat the cause first — antiepileptic drugs are reserved for unprovoked recurrence."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "29f22b05-3a78-4ec0-b64e-f54b37d75879",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A 50-year-old diabetic presents with a g",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 364.15554166666664,
+            "to": 374.15554166666664
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A normal electroencephalogram (EEG) result rules out the diagnosis of epilepsy.</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,7 +186,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Provoked seizures, such as those caused by hypoglycaemia or alcohol withdrawal, count towards a diagnosis of epilepsy under the ILAE 2014 criteria.</p>",
+              "question": "<p>A normal electroencephalogram (EEG) result rules out the diagnosis of epilepsy.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -94,16 +204,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "Not quite. Provoked seizures do not count towards a diagnosis of epilepsy. The ILAE 2014 criteria specifically require unprovoked seizures. When a reversible cause like hypoglycaemia or alcohol withdrawal is identified, the treatment is to address that cause — antiepileptic drugs are not indicated.",
-                "correctAnswerMessage": "Correct. The ILAE 2014 definition requires unprovoked seizures — two or more separated by at least 24 hours, one with at least 60% recurrence risk, or a recognised epilepsy syndrome. Provoked seizures have a reversible cause and need cause-directed treatment, not antiepileptic drugs.",
+                "wrongAnswerMessage": "A normal EEG does not rule out epilepsy. The EEG captures electrical activity only during the recording period, and many patients with epilepsy have normal interictal recordings. Sleep deprivation and photic stimulation can improve the yield.",
+                "correctAnswerMessage": "Correct! A normal interictal EEG does not exclude epilepsy. Many patients have entirely normal recordings between seizures. Sleep deprivation and photic stimulation improve the diagnostic yield of the EEG.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "086fbe5e-7ea1-4059-9e7e-bf47e814bfd3",
+            "subContentId": "3d00dd0b-74ce-4eec-b285-c65197b24c49",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Provoked seizures, such as those caused",
+              "title": "A normal electroencephalogram (EEG) resu",
               "authors": [],
               "changes": []
             }
@@ -119,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 351.85,
-            "to": 361.85
+            "from": 524.4150833333333,
+            "to": 534.4150833333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 28-year-old man has a first unprovoked generalised tonic-clonic seizure. His a</p>",
+          "label": "<p>Which of the following best explains why benzodiazepines become progressively le</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 28-year-old man has a first unprovoked generalised tonic-clonic seizure. His acute metabolic screen is entirely normal. An EEG performed the next day shows no epileptiform discharges. What is the most appropriate next step?</p>",
+              "question": "<p>Which of the following best explains why benzodiazepines become progressively less effective during prolonged status epilepticus?</p>",
               "answers": [
                 {
-                  "text": "<div>Reassure the patient that epilepsy has been excluded and discharge without follow-up</div>",
+                  "text": "<div>Hepatic metabolism of benzodiazepines accelerates during prolonged seizures</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A normal EEG does not exclude epilepsy. Further investigation, including neuroimaging, is essential before any conclusion can be drawn.</div>",
+                    "chosenFeedback": "<div>Hepatic metabolism is not the primary reason for benzodiazepine failure in status epilepticus. The mechanism is at the receptor level in the brain, not at the metabolic level in the liver.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Start carbamazepine empirically to prevent a second seizure</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Starting medication after a single seizure without completing the three-tier investigation is premature. The workup must be completed before treatment decisions are made.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Arrange an MRI brain with epilepsy protocol and consider repeating the EEG after sleep deprivation</div>",
+                  "text": "<div>GABA-A receptors are progressively internalised from the synaptic membrane</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. A normal EEG does not exclude epilepsy — sleep deprivation and photic stimulation improve the diagnostic yield. MRI with the epilepsy protocol (thin coronal FLAIR cuts through the hippocampi) completes the three-tier investigation framework.</div>",
+                    "chosenFeedback": "<div>Correct. During prolonged seizures, inhibitory GABA-A receptors are removed from the synapse through receptor internalisation. This reduces the target available for benzodiazepines, explaining why the status epilepticus protocol mandates timely escalation to second-line agents.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Perform an urgent lumbar puncture to rule out central nervous system infection</div>",
+                  "text": "<div>Benzodiazepines are redistributed to adipose tissue during prolonged infusion</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Lumbar puncture is indicated only when CNS infection is suspected. In the absence of fever, meningism, or immunocompromise, it is not part of the routine first-seizure workup.</div>",
+                    "chosenFeedback": "<div>Drug redistribution is a general pharmacokinetic phenomenon but is not the primary mechanism for benzodiazepine failure in status epilepticus. The key change is progressive loss of GABA-A receptors from the neuronal membrane.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Voltage-gated sodium channels become permanently inactivated, blocking drug access</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Sodium channels are involved in focal seizure propagation, but their inactivation is not the mechanism behind benzodiazepine failure. The issue is progressive removal of GABA-A receptors from the synaptic surface.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the three-tier investigation: acute metabolic screen, EEG (a normal result does not exclude epilepsy), and neuroimaging with MRI epilepsy protocol. Complete all tiers before making treatment decisions."
+                  "feedback": "During prolonged status epilepticus, GABA-A receptors are progressively removed from the synaptic membrane. This receptor internalisation makes benzodiazepines less effective the longer a seizure continues — and is the reason the protocol must escalate on time, not on hope."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Completing the three-tier investigation — metabolic screen, EEG, and neuroimaging — is essential before reaching a diagnosis or starting treatment."
+                  "feedback": "Correct! GABA-A receptor internalisation during prolonged seizures is why benzodiazepines lose effectiveness — and why the status epilepticus protocol mandates timely escalation to second-line agents rather than repeated benzodiazepine doses."
                 }
               ],
               "behaviour": {
@@ -209,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8693cea2-a44e-42f5-8fc3-704cfe4393cf",
+            "subContentId": "137dde31-2527-45ac-97f4-35d64a956f5a",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 28-year-old man has a first unprovoked",
+              "title": "Which of the following best explains why",
               "authors": [],
               "changes": []
             }
@@ -229,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 501.8,
-            "to": 511.8
+            "from": 681.0685416666666,
+            "to": 691.0685416666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient has been seizing continuously for 25 minutes. Intravenous lorazepam wa</p>",
+          "label": "<p>A 26-year-old woman with epilepsy well-controlled on sodium valproate is plannin</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient has been seizing continuously for 25 minutes. Intravenous lorazepam was given at 7 minutes and repeated at 12 minutes with no response. What is the most appropriate next step?</p>",
+              "question": "<p>A 26-year-old woman with epilepsy well-controlled on sodium valproate is planning pregnancy. What is the most appropriate counselling regarding her medication?</p>",
               "answers": [
                 {
-                  "text": "<div>Give a third dose of intravenous lorazepam</div>",
+                  "text": "<div>Continue valproate throughout pregnancy as seizure control is the top priority</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>After two benzodiazepine doses, repeating a third is unlikely to succeed. Progressive GABA-A receptor internalisation reduces benzodiazepine efficacy the longer a seizure continues.</div>",
+                    "chosenFeedback": "<div>Seizure control matters, but sodium valproate is the most teratogenic commonly used AED. It causes neural tube defects and must be switched to a safer alternative before conception.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Administer intravenous levetiracetam, valproate, or phenytoin</div>",
+                  "text": "<div>Switch to lamotrigine or levetiracetam and start high-dose folic acid before conception</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In the 20–40 minute window, after benzodiazepine failure, the protocol calls for a second-line intravenous AED. Delaying this transition is the most common error in status epilepticus management.</div>",
+                    "chosenFeedback": "<div>Correct. Sodium valproate causes neural tube defects — the most important AED safety issue in women of childbearing age. Before planned pregnancy, switch to a safer agent and begin high-dose folic acid supplementation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Intubate and start a propofol or thiopentone infusion</div>",
+                  "text": "<div>Stop all antiepileptic drugs immediately to protect the foetus</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Anaesthetic infusions are reserved for refractory status epilepticus — seizures persisting beyond 40 minutes despite first- and second-line agents. At 25 minutes, second-line AEDs should be tried first.</div>",
+                    "chosenFeedback": "<div>Abruptly stopping AEDs risks breakthrough seizures and potentially status epilepticus, which is dangerous for both mother and foetus. The correct approach is a supervised switch to a safer drug, not abrupt withdrawal.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Administer intramuscular midazolam 10 milligrams</div>",
+                  "text": "<div>Switch to carbamazepine as it has the best safety profile in pregnancy</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Intramuscular midazolam is a first-line alternative when IV access is unavailable. This patient already has IV access and has failed two benzodiazepine doses — switching to a different benzodiazepine is unlikely to help.</div>",
+                    "chosenFeedback": "<div>Carbamazepine is an enzyme inducer that reduces the efficacy of hormonal contraception and carries its own teratogenic risk. Lamotrigine or levetiracetam are the preferred alternatives when planning pregnancy.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the timed status epilepticus protocol: 0–5 min ABC and glucose, 5–20 min IV lorazepam or IM midazolam, 20–40 min second-line IV AED (levetiracetam, valproate, or phenytoin), beyond 40 min ICU with anaesthetic infusion."
+                  "feedback": "Sodium valproate causes neural tube defects and is the most critical AED safety issue for women of childbearing age. Before planned pregnancy, switch to lamotrigine or levetiracetam and start high-dose folic acid — never stop all AEDs abruptly."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. The timed protocol is: benzodiazepines first (5–20 min), second-line IV AEDs next (20–40 min), and ICU anaesthetic infusions if refractory (beyond 40 min)."
+                  "feedback": "Correct! Valproate teratogenicity is the most important AED safety concern in clinical practice. The standard approach is to switch to lamotrigine or levetiracetam and start high-dose folic acid before conception."
                 }
               ],
               "behaviour": {
@@ -319,117 +429,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "fa345195-c90f-4495-81ca-e58bf98f6047",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A patient has been seizing continuously",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 650.7,
-            "to": 660.7
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A 26-year-old woman with epilepsy well-controlled on sodium valproate wishes to </p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A 26-year-old woman with epilepsy well-controlled on sodium valproate wishes to plan a pregnancy. What is the most appropriate advice?</p>",
-              "answers": [
-                {
-                  "text": "<div>Continue sodium valproate and add standard-dose folic acid at 400 micrograms daily</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Sodium valproate is the most teratogenic AED, causing neural tube defects. Standard-dose folic acid alone does not adequately compensate for this risk. The drug must be switched before conception.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Stop all antiepileptic medication immediately to protect the foetus</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Abruptly stopping AEDs risks breakthrough seizures and status epilepticus, which are dangerous for both the mother and the foetus. A planned switch to a safer drug is the correct approach.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Switch to lamotrigine or levetiracetam before conception and start high-dose folic acid</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Sodium valproate causes neural tube defects and is the most important AED safety concern in women of childbearing age. Switching to lamotrigine or levetiracetam and starting high-dose folic acid before planned conception is the standard of care.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Delay pregnancy until she has been seizure-free and off all medication for at least two years</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Pregnancy is not contraindicated in women with epilepsy. Many women can safely carry a pregnancy on appropriate AEDs. The key is switching away from valproate to a safer alternative before conception.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Remember: sodium valproate causes neural tube defects and must be switched to a safer AED (lamotrigine or levetiracetam) before a planned pregnancy. High-dose folic acid should also be started."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Valproate teratogenicity is the most important AED safety issue in reproductive-age women. Pre-conception planning with drug switching and high-dose folic acid is essential."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "7364dca3-7d3f-49bb-b24f-675cb3f4d561",
+            "subContentId": "fd5f2a9c-13dc-414b-a3fe-93c3df571bb9",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -454,7 +454,7 @@
           "label": "Welcome to Seizure Disorders."
         },
         {
-          "time": 3,
+          "time": 2,
           "label": "A 24-year-old engineering student collapses in the cantee…"
         },
         {
@@ -462,37 +462,37 @@
           "label": "These three terms are distinct, and confusing them causes…"
         },
         {
-          "time": 113,
+          "time": 118,
           "label": "The International League Against Epilepsy published its l…"
         },
         {
-          "time": 200,
+          "time": 208,
           "label": "Every seizure reflects the same core problem: excitation…"
         },
         {
-          "time": 286,
+          "time": 296,
           "label": "Investigations in epilepsy follow three tiers."
         },
         {
-          "time": 352,
+          "time": 365,
           "label": "Three syndromes come up repeatedly in clinical practice."
         },
         {
-          "time": 418,
+          "time": 432,
           "label": "Recall the 28-year-old with epilepsy from earlier, now se…"
         },
         {
-          "time": 502,
+          "time": 525,
           "label": "Building on what you learned earlier in this course, the…"
         },
         {
-          "time": 582,
+          "time": 610,
           "label": "Earlier, our construction worker asked about driving and…"
         }
       ],
       "endscreens": [
         {
-          "time": 677,
+          "time": 708,
           "label": "End"
         }
       ]
@@ -504,7 +504,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "fb72a560-8c6b-4a95-9048-60e04c269c73",
+              "subContentId": "fc0896be-b7a8-4dd0-9e35-385e5870663c",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -527,7 +527,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "a28ee2ea-fa6d-4cb7-8ec7-c4ed261f40b2",
+        "subContentId": "cc3f1d4d-d582-4506-bc80-2c4241b714a3",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
