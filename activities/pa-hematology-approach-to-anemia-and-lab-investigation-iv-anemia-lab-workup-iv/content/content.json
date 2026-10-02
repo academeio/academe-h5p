@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/b38ebee0-0659-46e5-8f04-f16c46c8f4af/playlist.m3u8",
+          "path": "https://vdo.cbme.in/56bc46ef-7f3e-4887-bf71-1af1652528b8/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PA13.{2,4} | Approach to Anemia & Lab Investigation — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for PA13.2-PA13.4."
+        "shortStartDescription": "Interactive lecture with 7 embedded questions for PA13.2-PA13.4."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,123 @@
       "interactions": [
         {
           "duration": {
-            "from": 235.375,
-            "to": 245.375
+            "from": 146.14958333333334,
+            "to": 156.14958333333334
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>When a patient has both iron deficiency and vitamin B12 deficiency, the mean cor</p>",
+          "label": "<p>As per the WHO cut-offs discussed, what is the minimum haemoglobin level (g/dL) </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>As per the WHO cut-offs discussed, what is the minimum haemoglobin level (g/dL) below which a NON-PREGNANT woman aged 15 years or older is classified as anaemic?</p>",
+              "answers": [
+                {
+                  "text": "<div>10.5 g/dL</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>10.5 g/dL is the WHO threshold for pregnant women specifically in the second trimester, not for non-pregnant women.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>11 g/dL</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>11 g/dL is the threshold used for pregnant women overall (and for young children), not for non-pregnant adult women.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>12 g/dL</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. WHO sets 12 g/dL as the minimum haemoglobin for non-pregnant women aged 15 and above — the same threshold used for children aged 12-14.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>13 g/dL</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>13 g/dL is the WHO threshold for men aged 15 and older, which is higher than the female threshold due to androgen-driven erythropoiesis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "WHO thresholds vary by age, sex, and pregnancy status: 12 g/dL is the cut-off for non-pregnant women 15 years and above; review the scale before moving on."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Right — remembering these age- and sex-specific cut-offs lets you correctly flag borderline values instead of applying a single number to every patient."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "aae73434-adb4-4808-a92c-3c07f47b6013",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "As per the WHO cut-offs discussed, what",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 249.18533333333335,
+            "to": 259.18533333333335
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>If a patient's MCV falls within the normal range (80-100 fL), this rules out any</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,7 +186,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>When a patient has both iron deficiency and vitamin B12 deficiency, the mean corpuscular volume will always show an abnormal value reflecting at least one deficiency.</p>",
+              "question": "<p>If a patient's MCV falls within the normal range (80-100 fL), this rules out any underlying mixed red cell size abnormality contributing to her anaemia.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -94,16 +204,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "That is incorrect. When iron deficiency (microcytic) and B12 deficiency (macrocytic) coexist, the opposing effects on cell size can average to a falsely normal MCV. The clues are an elevated RDW and a dimorphic peripheral smear showing both small and large red cells. Never trust MCV alone.",
-                "correctAnswerMessage": "Correct. When iron deficiency pulls MCV down and B12 deficiency pushes it up, the opposing effects can cancel out, producing a falsely normal MCV. In such cases — common in vegetarian Indian women — the elevated RDW and a dimorphic peripheral smear showing both microcytes and macrocytes unmask the combined deficiency.",
+                "wrongAnswerMessage": "This statement is FALSE. A normal MCV can mask a dimorphic anaemia where microcytic and macrocytic cells average out. Always check the RDW and the peripheral smear before trusting the MCV alone.",
+                "correctAnswerMessage": "Correct, this is FALSE. Combined iron and B12/folate deficiency — common in vegetarian Indian women — can average microcytic and macrocytic cells into a falsely normal MCV. An elevated RDW and a dimorphic smear unmask the mixed picture.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "b0f435d4-1d53-4644-a9f1-330265b96153",
+            "subContentId": "e7465841-1504-4a31-9c2b-4fdc4b7957f8",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "When a patient has both iron deficiency",
+              "title": "If a patient's MCV falls within the norm",
               "authors": [],
               "changes": []
             }
@@ -119,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 422.275,
-            "to": 432.275
+            "from": 342.39604166666663,
+            "to": 352.39604166666663
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 40-year-old man presents with fatigue. His haemoglobin is 8 g/dL and the Retic</p>",
+          "label": "<p>An anaemic patient's reticulocyte count comes back HIGH. As explained in the eti</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 40-year-old man presents with fatigue. His haemoglobin is 8 g/dL and the Reticulocyte Production Index is 3.2. Which set of investigations should be prioritised?</p>",
+              "question": "<p>An anaemic patient's reticulocyte count comes back HIGH. As explained in the etiological classification, this finding points MOST strongly toward which mechanism?</p>",
               "answers": [
                 {
-                  "text": "<div>Serum ferritin and total iron-binding capacity</div>",
+                  "text": "<div>Decreased marrow production</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Ferritin and TIBC evaluate iron stores, relevant for microcytic production-defect anaemia (RPI below 2). An RPI of 3.2 indicates the marrow is compensating — the cause is haemolysis or blood loss, not iron deficiency.</div>",
+                    "chosenFeedback": "<div>A low, not high, reticulocyte count indicates the marrow is failing to produce enough red cells.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Bone marrow biopsy and serum erythropoietin</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Bone marrow biopsy is reserved for when non-invasive investigations are inconclusive. With RPI above 2, the marrow is responding adequately — the problem is peripheral destruction or loss, not marrow failure.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Direct Coombs test, LDH, and serum haptoglobin</div>",
+                  "text": "<div>Increased destruction or blood loss, with the marrow compensating</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. An RPI above 2 indicates the marrow is compensating, pointing to haemolysis or blood loss. The direct Coombs test detects autoimmune haemolysis, while raised LDH and low haptoglobin confirm red cell destruction.</div>",
+                    "chosenFeedback": "<div>Correct. A high reticulocyte count means the marrow is actively compensating — this points toward haemolysis (destruction) or ongoing blood loss rather than a production defect.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Serum vitamin B12 and red cell folate</div>",
+                  "text": "<div>Vitamin B12 or folate deficiency</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>B12 and folate levels investigate macrocytic, hypoproliferative anaemia (RPI below 2). An RPI of 3.2 signals active marrow compensation, directing the workup towards haemolysis or blood loss instead.</div>",
+                    "chosenFeedback": "<div>B12/folate deficiency impairs DNA synthesis in the marrow, producing a LOW reticulocyte response, not a high one.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Bone marrow failure</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Bone marrow failure is a production problem and would show a low, not elevated, reticulocyte count.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: RPI above 2 means the marrow is compensating adequately — the cause is haemolysis or blood loss, not production failure. This directs you towards the haemolytic workup: direct Coombs test, LDH, and haptoglobin."
+                  "feedback": "Remember: high reticulocytes mean the marrow IS compensating, pointing to destruction or blood loss; low reticulocytes mean the marrow is failing to produce cells."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. An RPI above 2 is the marrow's signal that it is working hard — the anaemia is driven by destruction or loss, not underproduction. The haemolytic workup (Coombs, LDH, haptoglobin) is the correct next step."
+                  "feedback": "Exactly — the reticulocyte count tells you whether the marrow is responding (high, destruction/loss) or failing (low, production problem)."
                 }
               ],
               "behaviour": {
@@ -209,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9a00498a-499d-4552-87fd-51ab2f3bc821",
+            "subContentId": "e18d8c16-bda2-4b40-a52b-5195e49568bf",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 40-year-old man presents with fatigue.",
+              "title": "An anaemic patient's reticulocyte count",
               "authors": [],
               "changes": []
             }
@@ -229,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 520.55,
-            "to": 530.55
+            "from": 450.1649166666666,
+            "to": 460.1649166666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient's complete blood count shows haemoglobin 9.2 g/dL with an MCV of 112 f</p>",
+          "label": "<p>An anaemic patient's Reticulocyte Production Index (RPI) is calculated as 2.5. W</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient's complete blood count shows haemoglobin 9.2 g/dL with an MCV of 112 fL. The Reticulocyte Production Index is 0.8. Following the five-step anemia workup, which second-line tests are most appropriate?</p>",
+              "question": "<p>An anaemic patient's Reticulocyte Production Index (RPI) is calculated as 2.5. What does this value indicate about the underlying mechanism?</p>",
               "answers": [
                 {
-                  "text": "<div>Serum ferritin and haemoglobin electrophoresis</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Ferritin and electrophoresis target microcytic anaemia (MCV below 80 fL). This patient's MCV of 112 fL classifies the anaemia as macrocytic, requiring a different investigation panel.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Serum vitamin B12 and folate levels</div>",
+                  "text": "<div>The marrow is responding appropriately — suggesting haemolysis or blood loss</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Step 2 classifies this as macrocytic (MCV 112 fL). Step 3 confirms a production defect (RPI 0.8, well below 2). Step 5 directs you to B12 and folate — the commonest causes of megaloblastic macrocytic anaemia from impaired DNA synthesis.</div>",
+                    "chosenFeedback": "<div>Correct. An RPI above 2 means the marrow is mounting an adequate compensatory response, which points toward increased destruction (haemolysis) or blood loss rather than a production defect.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Direct Coombs test, LDH, and haptoglobin</div>",
+                  "text": "<div>The marrow is failing to produce adequate red cells, suggesting iron deficiency</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The haemolytic workup is indicated when RPI is above 2, signalling that destruction or loss is driving the anaemia. This patient's RPI of 0.8 confirms underproduction, not haemolysis.</div>",
+                    "chosenFeedback": "<div>Iron deficiency is a production problem and would give an RPI BELOW 2, not above it.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Stool for occult blood and upper GI endoscopy</div>",
+                  "text": "<div>The marrow is failing to produce adequate red cells, suggesting B12 deficiency</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>GI investigation targets chronic blood loss, which typically presents with microcytic anaemia and an elevated RPI reflecting marrow compensation. This patient has macrocytic anaemia with a low RPI — a production defect, not blood loss.</div>",
+                    "chosenFeedback": "<div>B12 deficiency impairs DNA synthesis and causes marrow underproduction, which would give an RPI below 2.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The result indicates bone marrow failure</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Bone marrow failure is a production problem reflected by a LOW RPI, not a value above 2.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Follow the five steps in order: MCV 112 fL = macrocytic (Step 2); RPI 0.8 = underproduction (Step 3). For macrocytic underproduction anaemia, Step 5 directs you to check serum vitamin B12 and folate levels."
+                  "feedback": "An RPI above 2 signals adequate marrow compensation (hemolysis or blood loss); an RPI below 2 signals a production problem. Revisit the corrected reticulocyte count calculation."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. You applied the workup systematically: MCV classified the anaemia as macrocytic, RPI confirmed underproduction, and the targeted tests address the most common causes of megaloblastic anaemia."
+                  "feedback": "Correct — RPI above 2 means the marrow is compensating, so look for a hyperproliferative cause: haemolysis or blood loss."
                 }
               ],
               "behaviour": {
@@ -319,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9e6b4abb-9d46-40af-a5c6-fa304a49abad",
+            "subContentId": "dbe52ff9-dc00-4955-9e1e-2699253daf11",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient's complete blood count shows h",
+              "title": "An anaemic patient's Reticulocyte Produc",
               "authors": [],
               "changes": []
             }
@@ -339,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 678.9999999999999,
-            "to": 688.9999999999999
+            "from": 563.0152083333332,
+            "to": 573.0152083333332
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A student reports 78% neutrophils on a differential leucocyte count. The supervi</p>",
+          "label": "<p>Following the five-step CBC workup framework, a peripheral smear review on a new</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A student reports 78% neutrophils on a differential leucocyte count. The supervisor suspects a technical error. Which practice most likely caused the falsely elevated neutrophil percentage?</p>",
+              "question": "<p>Following the five-step CBC workup framework, a peripheral smear review on a newly anaemic patient shows blasts. What is the appropriate next step?</p>",
               "answers": [
                 {
-                  "text": "<div>Counting fewer than 100 cells in the monolayer</div>",
+                  "text": "<div>Start empirical oral iron therapy and review in 4 weeks</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Counting fewer cells increases random sampling error but does not systematically favour neutrophils. The bias described is a distributional artefact, not a sample-size problem.</div>",
+                    "chosenFeedback": "<div>Empirical iron therapy is appropriate for suspected iron deficiency, not when blasts raise concern for a haematological malignancy.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Counting cells at the feather edge of the smear</div>",
+                  "text": "<div>Refer immediately to haematology</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Neutrophils, being larger and heavier, are dragged towards the feather edge during smear preparation. Counting there inflates their percentage by 10 to 15 points. Always count in the monolayer zone using a battlements pattern.</div>",
+                    "chosenFeedback": "<div>Correct. As step 4 states, blasts on a peripheral smear demand immediate haematology referral — this finding overrides the routine stepwise work-up and needs urgent specialist evaluation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Using Giemsa stain instead of Leishman stain</div>",
+                  "text": "<div>Repeat the complete blood count in three months</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Both Giemsa and Leishman are Romanowsky stains that stain leucocytes adequately for differential counting. The choice of stain does not cause a systematic neutrophil bias.</div>",
+                    "chosenFeedback": "<div>Blasts on smear are an urgent finding; waiting three months risks missing a serious haematological disorder.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Scanning in a zigzag pattern instead of a battlements pattern</div>",
+                  "text": "<div>Proceed directly to serum ferritin testing only</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While a battlements pattern ensures systematic sampling, a zigzag within the monolayer zone does not preferentially concentrate neutrophils. The critical error is counting in the wrong zone of the smear, not the scanning pattern.</div>",
+                    "chosenFeedback": "<div>Serum ferritin is a step-5 test for microcytic anaemia, not the appropriate response to blasts, which demand urgent referral instead.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The feather edge of a wedge smear concentrates neutrophils due to their larger size, inflating their percentage by 10–15 points. The differential count must always be performed in the monolayer zone using a battlements pattern."
+                  "feedback": "Step 4 of the framework is non-negotiable: blasts on peripheral smear mean immediate haematology referral, not routine follow-up testing."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The feather edge concentrates larger cells like neutrophils, inflating their differential count. Always perform the DLC in the monolayer body of the smear."
+                  "feedback": "Right — blasts on the smear are a red flag that bypasses routine step-5 testing and triggers urgent haematology referral."
                 }
               ],
               "behaviour": {
@@ -429,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "70c3c2d1-6f61-4605-8daa-9c90f73e1c87",
+            "subContentId": "5bb479c4-5ed3-4a0f-8791-6d9316db12bd",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A student reports 78% neutrophils on a d",
+              "title": "Following the five-step CBC workup frame",
               "authors": [],
               "changes": []
             }
@@ -449,13 +559,13 @@
         },
         {
           "duration": {
-            "from": 847.375,
-            "to": 857.375
+            "from": 733.0455,
+            "to": 743.0455
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 55-year-old patient has Hb 8.2 g/dL, MCV 70 fL, and RPI 0.16. The smear shows </p>",
+          "label": "<p>While performing a differential leukocyte count on a Leishman-stained smear, whe</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +574,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 55-year-old patient has Hb 8.2 g/dL, MCV 70 fL, and RPI 0.16. The smear shows hypochromic microcytic cells with target cells. Iron studies reveal severely depleted stores and haemoglobin electrophoresis is normal. Which analysis correctly integrates these findings?</p>",
+              "question": "<p>While performing a differential leukocyte count on a Leishman-stained smear, where should you count cells to avoid falsely inflating the neutrophil percentage?</p>",
               "answers": [
                 {
-                  "text": "<div>Normal electrophoresis with target cells confirms beta-thalassemia trait</div>",
+                  "text": "<div>At the feather edge of the smear</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Target cells can appear in iron deficiency anaemia, not only in thalassemia. Normal haemoglobin electrophoresis specifically rules out beta-thalassemia trait — so target cells here are a feature of the severe iron depletion itself.</div>",
+                    "chosenFeedback": "<div>Neutrophils concentrate at the feather edge due to their size, inflating their counted percentage by 10-15 points — this is the trap to avoid.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Low MCV, depleted iron stores, and normal electrophoresis confirm iron deficiency anaemia — the next step is identifying the source of iron loss</div>",
+                  "text": "<div>In the monolayer body of the smear, using a battlements pattern</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Integrating the findings: microcytic (MCV 70) + hypoproliferative (RPI 0.16) + depleted iron + normal electrophoresis = iron deficiency anaemia. The critical next step is identifying WHY iron is depleted — in this case, stool examination revealed hookworm infestation as the underlying cause.</div>",
+                    "chosenFeedback": "<div>Correct. The monolayer gives an even, representative distribution of cell types. Scanning it in a battlements pattern avoids the size-based bias seen at the feather edge.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>An RPI of 0.16 with target cells indicates haemolytic anaemia requiring a Coombs test</div>",
+                  "text": "<div>At the thick head of the smear near the starting point</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>An RPI below 2 indicates the marrow is NOT compensating — this is a production defect, not haemolysis. Haemolytic anaemia would produce an RPI well above 2 as the marrow works to replace destroyed cells.</div>",
+                    "chosenFeedback": "<div>The thick head is where cells overlap and are hard to distinguish individually — it is not used for differential counting.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Depleted iron stores with MCV 70 fL are most consistent with anaemia of chronic disease</div>",
+                  "text": "<div>Along the lateral edges of the slide</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Anaemia of chronic disease typically shows normal or elevated serum ferritin due to iron trapping in macrophages. Severely depleted iron stores point to true iron deficiency, not the functional iron sequestration seen in chronic disease.</div>",
+                    "chosenFeedback": "<div>The lateral edges are not part of the standard counting protocol and do not represent the true cell distribution.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +617,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Integrate step by step: MCV 70 fL = microcytic; RPI 0.16 = underproduction; iron stores depleted = true iron deficiency (not chronic disease); normal electrophoresis = not thalassemia. Diagnosis: iron deficiency anaemia. Always then ask WHY iron is depleted."
+                  "feedback": "Remember the first trap: the feather edge concentrates neutrophils, inflating their percentage. Always scan the monolayer body in a battlements pattern instead."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well analysed. By integrating MCV, RPI, iron studies, and electrophoresis, you correctly identified iron deficiency anaemia and recognised the need to find the underlying cause — a step that led to discovering hookworm infestation."
+                  "feedback": "Exactly — always count in the monolayer; the feather edge over-represents neutrophils and will skew your differential."
                 }
               ],
               "behaviour": {
@@ -539,11 +649,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "78cb1a57-0cde-4f42-81d9-0e7c36d8eb27",
+            "subContentId": "f2c111e8-31b6-41cf-9321-d269c38aebc4",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 55-year-old patient has Hb 8.2 g/dL, M",
+              "title": "While performing a differential leukocyt",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 824.6995416666666,
+            "to": 834.6995416666666
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A patient's platelet count has shifted by 23% from the value recorded two days e</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient's platelet count has shifted by 23% from the value recorded two days earlier, triggering a delta check flag. As per the quality-control process described, what must happen before this report is released?</p>",
+              "answers": [
+                {
+                  "text": "<div>The result is auto-released since it is within the normal reference range</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The delta check flags the size of the CHANGE from the prior value, not whether the current result sits inside the normal range — it still requires review.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A human must review the result before the report goes out</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Any result shifting more than 20% from the patient's prior value is flagged by the delta check, and that flag mandates human review before reporting — this catches sample mix-ups and pre-analytical errors.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The test is simply repeated in one week as routine follow-up</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A delta check flag requires review before THIS report is released, not a routine repeat test at a later date.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The result is discarded as a lab error without further action</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A delta check flag does not mean automatic rejection — it means the result needs human review to confirm or explain the change, often via pre-analytical inspection or a repeat smear.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The delta check rule: any result shifting more than 20% from the patient's previous value must be reviewed by a human before the report is released."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct — a >20% shift from the prior value triggers mandatory human review before the report is signed out, catching errors like pseudothrombocytopenia or sample mix-ups."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "c43984f2-f3cb-4500-9b9f-bdd36aff16a3",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A patient's platelet count has shifted b",
               "authors": [],
               "changes": []
             }
@@ -561,52 +781,52 @@
       "bookmarks": [
         {
           "time": 0,
-          "label": "Welcome to PA Hematology — Approach to Anemia & Lab Inves…"
+          "label": "Welcome to Hematology — Approach to Anemia & Lab Investig…"
         },
         {
-          "time": 6,
+          "time": 5,
           "label": "A 28-year-old woman, eight months after delivery, comes t…"
         },
         {
-          "time": 61,
+          "time": 62,
           "label": "Anemia means the hemoglobin, hematocrit, or red cell coun…"
         },
         {
-          "time": 134,
+          "time": 146,
           "label": "The mean corpuscular volume, or M C V, is your first bran…"
         },
         {
-          "time": 236,
+          "time": 250,
           "label": "Etiological classification moves beyond the cell's shape…"
         },
         {
-          "time": 326,
+          "time": 342,
           "label": "Anemia speaks before the blood count does."
         },
         {
-          "time": 423,
+          "time": 451,
           "label": "Every time a complete blood count confirms anemia, this f…"
         },
         {
-          "time": 521,
+          "time": 564,
           "label": "Before you can catch the error in that Q C log, you need…"
         },
         {
-          "time": 611,
+          "time": 663,
           "label": "To count white blood cells manually, you use Turk's fluid."
         },
         {
-          "time": 680,
+          "time": 734,
           "label": "Every morning, before the first patient sample runs, you…"
         },
         {
-          "time": 769,
+          "time": 825,
           "label": "Two cases, each showing the thinking we built, not a reflex."
         }
       ],
       "endscreens": [
         {
-          "time": 888,
+          "time": 947,
           "label": "End"
         }
       ]
@@ -618,7 +838,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "cb958840-de03-44eb-990b-1bd39a89ebd8",
+              "subContentId": "be68b048-6b32-4d98-aa3c-41590855b667",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -641,7 +861,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "bcc92fbd-7fde-4f18-959e-3175329473f3",
+        "subContentId": "4676285c-9fa0-42fd-93ff-dc196b73cf60",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
