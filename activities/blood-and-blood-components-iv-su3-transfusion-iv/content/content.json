@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/1322f6e2-ab2a-4146-89fd-d6f151874863/playlist.m3u8",
+          "path": "https://vdo.cbme.in/687dfbf4-1656-49ea-ac6a-ecf47ef0e553/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "SU3.1-3 | Blood and Blood Components — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for SU3.1-SU3.3."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for SU3.1-SU3.3."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,8 +61,66 @@
       "interactions": [
         {
           "duration": {
-            "from": 190.575,
-            "to": 200.575
+            "from": 74.13358333333332,
+            "to": 84.13358333333332
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Most acute haemolytic transfusion reactions are caused by laboratory crossmatch </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>Most acute haemolytic transfusion reactions are caused by laboratory crossmatch errors rather than patient-identification mistakes at the bedside.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "The statement is actually false. The video explained that acute haemolytic reactions are 'almost always caused by giving the wrong blood to the wrong patient' — a clerical error, not a laboratory one. The bedside identity check is the final and most important safety barrier.",
+                "correctAnswerMessage": "Correct — the statement is false. Almost all acute haemolytic reactions result from clerical errors at the bedside, such as connecting the wrong unit to the wrong patient. The laboratory crossmatch is highly reliable; it is the bedside identity check that prevents the most common lethal error.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "a93ce159-cd1c-4a9c-9898-b36e92dbc6f2",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "Most acute haemolytic transfusion reacti",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 194.61654166666668,
+            "to": 204.61654166666668
           },
           "pause": true,
           "displayType": "poster",
@@ -83,7 +141,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Packed red blood cells are stored at 2–6 °C and last 35–42 days depending on the anticoagulant-additive solution used.</div>",
+                    "chosenFeedback": "<div>Packed red blood cells are stored at 2–6 °C and last 35–42 days depending on the preservative solution. The component requiring room-temperature storage with agitation is platelet concentrates.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -92,7 +150,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>FFP is stored at −30 °C or colder and remains viable for up to one year when kept frozen.</div>",
+                    "chosenFeedback": "<div>Fresh frozen plasma is stored at −30 °C or colder and keeps for up to one year. Platelet concentrates are the component that requires 20–24 °C with continuous agitation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -101,7 +159,7 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! Platelets require room-temperature storage (20–24 °C) with continuous gentle agitation to maintain their function, which limits shelf life to approximately five days.</div>",
+                    "chosenFeedback": "<div>Correct. Platelet concentrates must be stored at 20–24 °C with continuous gentle agitation to maintain platelet function. This room-temperature storage limits their shelf life to approximately five days — the shortest of all blood components.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -110,7 +168,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Cryoprecipitate is the cold-insoluble fraction recovered from FFP and is stored frozen. It is rich in fibrinogen, factor VIII, von Willebrand factor, and factor XIII.</div>",
+                    "chosenFeedback": "<div>Cryoprecipitate is stored frozen and is rich in fibrinogen, factor VIII, von Willebrand factor, and factor XIII. Platelet concentrates are the component stored at room temperature with agitation.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Platelet concentrates are stored at 20–24 °C with continuous gentle agitation. This room-temperature requirement preserves platelet function but limits shelf life to approximately five days — the shortest of all blood components."
+                  "feedback": "Review the storage conditions: packed RBCs at 2–6 °C (35–42 days), platelets at 20–24 °C with agitation (~5 days), FFP at ≤ −30 °C (~1 year), and cryoprecipitate also stored frozen."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! Platelets require room-temperature storage with continuous gentle agitation to maintain function. This makes them the most perishable blood component, with a shelf life of only about five days."
+                  "feedback": "Well done. Platelet concentrates are unique among blood components in requiring room-temperature storage with continuous agitation, which is why they have the shortest shelf life."
                 }
               ],
               "behaviour": {
@@ -151,7 +209,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "bff0c6d8-011b-43c3-b5e3-baa2858a2787",
+            "subContentId": "38dd4680-4bcd-41e4-91db-0a21b35e07d4",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -171,71 +229,13 @@
         },
         {
           "duration": {
-            "from": 406.62499999999994,
-            "to": 416.62499999999994
+            "from": 414.1169583333333,
+            "to": 424.1169583333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Transfusion-related acute lung injury (TRALI) is caused by fluid volume overload</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>Transfusion-related acute lung injury (TRALI) is caused by fluid volume overload from transfusing blood products too rapidly.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. TRALI is not a volume problem — that describes TACO (transfusion-associated circulatory overload). TRALI is an immunological reaction where donor antibodies activate recipient neutrophils in the lungs, producing non-cardiogenic pulmonary oedema within six hours of transfusion.",
-                "correctAnswerMessage": "Correct — this statement is false. TRALI is an immunological reaction where donor antibodies activate the recipient's neutrophils in the pulmonary vasculature, producing non-cardiogenic pulmonary oedema within six hours. Fluid overload describes a different complication: transfusion-associated circulatory overload (TACO).",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "6cab0ea1-d1f6-4993-98a9-57e6efefabce",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "Transfusion-related acute lung injury (T",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 513.2249999999999,
-            "to": 523.2249999999999
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>While observing a blood transfusion, the patient develops fever and rigors twelv</p>",
+          "label": "<p>Which of the following transfusion complications is classified as a non-immunolo</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>While observing a blood transfusion, the patient develops fever and rigors twelve minutes after starting the unit. What is your correct immediate first action?</p>",
+              "question": "<p>Which of the following transfusion complications is classified as a non-immunological reaction?</p>",
               "answers": [
                 {
-                  "text": "<div>Administer an antipyretic and continue the transfusion at a slower rate</div>",
+                  "text": "<div>Transfusion-related acute lung injury (TRALI)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Continuing the transfusion risks worsening what could be a serious haemolytic or septic reaction. The unit must be stopped before determining the cause.</div>",
+                    "chosenFeedback": "<div>TRALI is an immunological reaction. It occurs when donor antibodies activate the recipient's neutrophils in the pulmonary vasculature, producing non-cardiogenic pulmonary oedema within six hours.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Stop the transfusion and keep the intravenous line open with normal saline</div>",
+                  "text": "<div>Transfusion-associated circulatory overload (TACO)</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! The universal first step for any suspected transfusion reaction is to stop the infusion immediately and keep the line open with saline, preserving venous access for resuscitation.</div>",
+                    "chosenFeedback": "<div>Correct. TACO is a non-immunological complication caused by straightforward volume excess, not by any antibody-mediated mechanism. It is important to distinguish from TRALI, which appears similar but is immunological.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Send blood samples for a direct Coombs test before taking any other action</div>",
+                  "text": "<div>Febrile non-haemolytic transfusion reaction</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Laboratory investigations are important but follow after stopping the transfusion and stabilising the patient. Delay in stopping could prove fatal.</div>",
+                    "chosenFeedback": "<div>Febrile non-haemolytic reactions are immunological — they arise from antibodies against donor leucocyte antigens or from cytokines that accumulate in stored blood.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Increase the infusion rate to complete the unit before the reaction worsens</div>",
+                  "text": "<div>Delayed haemolytic reaction</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Completing the unit could be fatal if this is an acute haemolytic or septic reaction. The first priority is always to stop the transfusion immediately.</div>",
+                    "chosenFeedback": "<div>A delayed haemolytic reaction is immunological. A secondary IgG response gradually destroys the transfused red cells outside the bloodstream, typically appearing days after transfusion.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The correct action is to stop the transfusion immediately and keep the intravenous line open with normal saline. This preserves venous access for resuscitation while preventing further exposure to the potentially harmful blood component."
+                  "feedback": "Remember the classification: immunological reactions (acute and delayed haemolytic, FNHTR, allergic, TRALI, TA-GVHD) are antibody- or immune-mediated; non-immunological reactions (TACO, bacterial contamination, massive-transfusion metabolic effects) arise from physical or chemical causes."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! When you suspect any transfusion reaction, the immediate first action is always to stop the transfusion and keep the IV line open with normal saline. The most dangerous reactions declare themselves within the first fifteen minutes — early recognition and prompt stopping saves lives."
+                  "feedback": "Correct. TACO arises from simple volume overload — a physical rather than immunological mechanism — making it the key non-immunological complication to distinguish from the immune-mediated reactions."
                 }
               ],
               "behaviour": {
@@ -319,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9a7e4e25-1a20-4e88-92b5-cba21640910a",
+            "subContentId": "44c00bb5-da24-4bf8-9dcc-b1dca1026788",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "While observing a blood transfusion, the",
+              "title": "Which of the following transfusion compl",
               "authors": [],
               "changes": []
             }
@@ -339,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 718.925,
-            "to": 728.925
+            "from": 520.6743749999999,
+            "to": 530.6743749999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>When obtaining informed consent before a blood transfusion, which of the followi</p>",
+          "label": "<p>While observing a blood transfusion, you notice the patient develops rigors and </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>When obtaining informed consent before a blood transfusion, which of the following must you include in the counselling discussion?</p>",
+              "question": "<p>While observing a blood transfusion, you notice the patient develops rigors and a temperature spike at twelve minutes. What is the correct immediate sequence of actions?</p>",
               "answers": [
                 {
-                  "text": "<div>The exact laboratory crossmatch results and the donor's blood group</div>",
+                  "text": "<div>Slow the transfusion rate, give paracetamol, and continue observing</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While crossmatch results are vital for safety, informed consent focuses on helping the patient understand the clinical rationale, expected benefit, risks, and alternatives — not laboratory technicalities.</div>",
+                    "chosenFeedback": "<div>Slowing and continuing is unsafe during the first fifteen minutes — the most dangerous reactions declare themselves in this window. The correct response is to stop the transfusion immediately and then assess.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A guarantee that the blood products carry zero risk of infection</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>No such guarantee exists. Honest, proportionate disclosure of risks — including the small residual risk of transfusion-transmitted infection — is an essential part of valid consent.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The name and donation history of the blood donor</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Donor anonymity is maintained. Informed consent focuses on the patient's understanding of their own clinical situation, not on identifying the donor.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The indication, expected benefit, risks, and available alternatives</div>",
+                  "text": "<div>Stop the transfusion, keep the intravenous line open with saline, recheck identity against the unit, and call for senior help</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! Valid informed consent requires explaining why the transfusion is needed, the expected benefit, the risks (common and rare), and any alternatives such as iron supplementation or cell salvage. The patient then decides voluntarily.</div>",
+                    "chosenFeedback": "<div>Correct. Stop the transfusion immediately, maintain venous access with normal saline, recheck the patient's identity against the compatibility label, support airway-breathing-circulation, and escalate to a senior clinician.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Increase the infusion rate to complete the unit before the four-hour limit expires</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The four-hour limit applies to a safe transfusion, not to one with a suspected reaction. Increasing the rate would worsen any ongoing reaction. The first step is always to stop the transfusion.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Disconnect and discard the blood unit, then start a new unit from a different donor</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The blood unit must never be discarded — it must be returned to the blood bank for investigation. Stop the transfusion, keep the line open with saline, and recheck identity before taking any further steps.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Valid informed consent requires explaining the indication for transfusion, the expected benefit, the risks (both common and rare), and any available alternatives. The patient must understand, ask questions, and consent voluntarily — it is a conversation, not a form to sign."
+                  "feedback": "When a reaction is suspected during transfusion, the immediate sequence is: Stop → Saline (keep IV access) → Recheck identity → Support ABC → Escalate. Never continue or increase the rate."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! Pre-transfusion informed consent is a structured conversation covering the indication, expected benefit, risks (both common and rare), and alternatives. The patient must understand, have the opportunity to ask questions, and decide voluntarily."
+                  "feedback": "Well done. The universal reaction protocol is: stop the transfusion, keep the line open with saline, recheck patient identity against the unit, support ABC, and call for senior help."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "af1a271f-6ea3-416f-9fc9-bb0448ade718",
+            "subContentId": "4069ca23-c6bc-416e-b134-13d4504217fd",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "When obtaining informed consent before a",
+              "title": "While observing a blood transfusion, you",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 729.9808749999999,
+            "to": 739.9808749999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A 60-year-old man requires packed red cells before elective surgery. He asks, 'I</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A 60-year-old man requires packed red cells before elective surgery. He asks, 'Isn't there any other option?' Which response demonstrates correct pre-transfusion consent counselling?</p>",
+              "answers": [
+                {
+                  "text": "<div>'There is no alternative — you must have the transfusion for your safety.'</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Informed consent requires presenting alternatives where they exist. For elective surgery, options such as pre-operative iron therapy or intraoperative cell salvage should be discussed. Dismissing the patient's concern undermines autonomy.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>'We can discuss options such as iron supplementation or cell salvage. Let me explain the benefits and risks of each so you can decide.'</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Pre-transfusion counselling requires explaining the indication and expected benefit, disclosing risks honestly, offering available alternatives — such as iron therapy or cell salvage for elective procedures — and respecting the patient's right to accept or decline.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>'I will ask your family to decide — this is a complex medical decision.'</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Consent must come from the competent patient themselves. The patient has the right to understand the options and make a voluntary decision. Family involvement is appropriate only when the patient lacks capacity.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>'The risks are extremely rare, so there is really nothing to worry about.'</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Minimising risks violates the principle of honest, proportionate disclosure. Common mild reactions, rare serious complications, and residual infection risk should all be mentioned so the patient can make a truly informed decision.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Pre-transfusion consent is a structured conversation: explain the indication and expected benefit, disclose risks honestly, offer alternatives where available, invite questions, and respect the patient's decision."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. Structured consent counselling covers indication, benefit, risks, alternatives, and the patient's right to decide — a conversation, not a monologue."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "388d6dbc-6fd3-40a8-82f9-f822446955a9",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A 60-year-old man requires packed red ce",
               "authors": [],
               "changes": []
             }
@@ -462,29 +572,29 @@
           "label": "Modern blood transfusion is built around component therapy."
         },
         {
-          "time": 191,
+          "time": 195,
           "label": "As we covered earlier, red blood cells carry A and B anti…"
         },
         {
-          "time": 265,
+          "time": 272,
           "label": "Transfusion reactions divide into two groups based on mec…"
         },
         {
-          "time": 407,
+          "time": 415,
           "label": "Most preventable transfusion harm happens not in the labo…"
         },
         {
-          "time": 513,
+          "time": 521,
           "label": "Return to the obstetric patient from our opening."
         },
         {
-          "time": 628,
+          "time": 636,
           "label": "Counselling is a structured conversation, not a list to r…"
         }
       ],
       "endscreens": [
         {
-          "time": 788,
+          "time": 800,
           "label": "End"
         }
       ]
@@ -496,7 +606,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "56294b2d-bd4d-4666-ae9f-5dfbfda9c4e7",
+              "subContentId": "254cda06-6d26-4c8f-9dd7-18e8fe612965",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -519,7 +629,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "b8bc5593-cf4f-485a-973b-f1e5970c357b",
+        "subContentId": "e7c1041d-2e38-4248-917e-b920237861b5",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
