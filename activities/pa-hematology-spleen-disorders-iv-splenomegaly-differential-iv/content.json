@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/3dc2f6b9-63e2-4063-8af0-efde5bec4a61/playlist.m3u8",
+          "path": "https://vdo.cbme.in/4d36e929-721c-44f6-8f42-a88084e6ef41/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,49 +61,101 @@
       "interactions": [
         {
           "duration": {
-            "from": 144.25,
-            "to": 154.25
+            "from": 258.22875,
+            "to": 268.22875
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The spleen's pitting function destroys aged red blood cells that cannot deform t</p>",
+          "label": "<p>Hepatic cirrhosis causes splenomegaly through which mechanistic category?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The spleen's pitting function destroys aged red blood cells that cannot deform through the slit pores of the red pulp.</p>",
-              "correct": "false",
+              "question": "<p>Hepatic cirrhosis causes splenomegaly through which mechanistic category?</p>",
+              "answers": [
+                {
+                  "text": "<div>Infective — macrophage expansion from organism engulfment</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Infective splenomegaly involves macrophage expansion and immune follicular hyperplasia in response to microbial antigens, not passive venous congestion.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Congestive — raised splenic venous pressure</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Cirrhosis creates an intrahepatic block, raising portal venous pressure and passively engorging the red pulp sinusoids — the hallmark of congestive splenomegaly.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Infiltrative — metabolic substrate accumulation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Infiltrative splenomegaly involves accumulation of metabolic substrates (e.g. glucocerebroside in Gaucher disease) inside macrophages, not vascular congestion.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Haematological — malignant cell infiltration</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Haematological splenomegaly results from malignant haematopoietic cell infiltration (e.g. CML) or work hypertrophy from haemolysis, not venous backpressure from liver disease.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Cirrhosis raises portal venous pressure, causing passive sinusoidal congestion in the spleen — this is the congestive category, not infective, infiltrative, or haematological."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. Cirrhosis drives portal hypertension, which passively engorges the splenic sinusoids — a congestive mechanism."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement actually describes culling, not pitting. Culling destroys rigid or aged red blood cells unable to traverse the slit pores. Pitting removes inclusions like Howell-Jolly bodies, Heinz bodies, and parasites from red cells without destroying them — the cleaned cells re-enter the circulation.",
-                "correctAnswerMessage": "Correct — this statement describes culling, not pitting. Culling destroys rigid or aged red cells that cannot squeeze through the 3-micrometre slit pores. Pitting, by contrast, strips intracellular inclusions such as Howell-Jolly bodies and parasites from red cells and returns them intact to the circulation.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9f0badd5-120f-47d0-b197-b0aa12ae353d",
+            "subContentId": "13726ba0-3c59-4135-b9e1-d08b445f873f",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The spleen's pitting function destroys a",
+              "title": "Hepatic cirrhosis causes splenomegaly th",
               "authors": [],
               "changes": []
             }
@@ -119,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 360.975,
-            "to": 370.975
+            "from": 385.600125,
+            "to": 395.600125
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which cause of congestive splenomegaly characteristically produces massive splen</p>",
+          "label": "<p>A patient presents with massive splenomegaly and portal hypertension but near-no</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,14 +186,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which cause of congestive splenomegaly characteristically produces massive splenic enlargement while liver function remains largely preserved?</p>",
+              "question": "<p>A patient presents with massive splenomegaly and portal hypertension but near-normal liver function tests. Which cause of congestive splenomegaly best explains this combination?</p>",
               "answers": [
                 {
                   "text": "<div>Hepatic cirrhosis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Cirrhosis is the commonest cause of congestive splenomegaly in India but it impairs hepatocyte function, producing raised transaminases, low albumin, and coagulopathy — liver function is NOT preserved.</div>",
+                    "chosenFeedback": "<div>In cirrhosis, the intrahepatic fibrotic block typically impairs hepatocyte function, producing deranged LFTs, coagulopathy, and hypoalbuminaemia alongside splenomegaly.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -150,7 +202,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Budd-Chiari syndrome causes a post-hepatic block from hepatic vein thrombosis, leading to hepatic congestion, ascites, and impaired liver function.</div>",
+                    "chosenFeedback": "<div>Budd-Chiari syndrome (hepatic vein thrombosis) creates a post-hepatic block, usually presenting with painful hepatomegaly, ascites, and abnormal liver function.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -159,16 +211,16 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>NCPF (idiopathic hepatoportal sclerosis) causes a presinusoidal block, producing massive splenomegaly and variceal bleeding while hepatocyte function remains preserved — this is its key distinguishing feature from cirrhosis.</div>",
+                    "chosenFeedback": "<div>Non-cirrhotic portal fibrosis (idiopathic hepatoportal sclerosis) causes portal hypertension and massive splenomegaly while liver function remains largely preserved — a key distinguishing feature from cirrhosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Portal vein thrombosis</div>",
+                  "text": "<div>Chronic malaria</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Portal vein thrombosis is an extrahepatic cause that more commonly presents in children. While liver function may be preserved, it typically produces moderate rather than massive splenomegaly.</div>",
+                    "chosenFeedback": "<div>Chronic malaria causes infective splenomegaly through red pulp macrophage expansion and haemozoin deposition, not congestive splenomegaly from portal hypertension.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the congestive causes: cirrhosis impairs liver function, Budd-Chiari causes hepatic congestion, and portal vein thrombosis is usually moderate. NCPF is the condition that produces massive splenomegaly with largely normal liver function tests."
+                  "feedback": "The combination of massive splenomegaly with preserved liver function points to non-cirrhotic portal fibrosis. Cirrhosis and Budd-Chiari impair liver function; malaria is infective, not congestive."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. Non-cirrhotic portal fibrosis is an important Indian cause of massive splenomegaly where the preserved liver function distinguishes it from cirrhosis — a high-yield differentiating point for PA19.4."
+                  "feedback": "Correct. Non-cirrhotic portal fibrosis is an important Indian cause of massive splenomegaly where portal hypertension exists but hepatocyte function is preserved."
                 }
               ],
               "behaviour": {
@@ -209,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "7b4f69f9-b611-46d1-bd48-517d0b32a1ef",
+            "subContentId": "f6a1c72e-285e-4fcb-a55f-0f51cc245a7b",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which cause of congestive splenomegaly c",
+              "title": "A patient presents with massive splenome",
               "authors": [],
               "changes": []
             }
@@ -229,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 567.8000000000001,
-            "to": 577.8000000000001
+            "from": 606.8470416666667,
+            "to": 616.8470416666667
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which mechanism explains why Gaucher disease causes massive splenomegaly?</p>",
+          "label": "<p>Which of the following causes massive splenomegaly (spleen weight exceeding one </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which mechanism explains why Gaucher disease causes massive splenomegaly?</p>",
+              "question": "<p>Which of the following causes massive splenomegaly (spleen weight exceeding one kilogram)?</p>",
               "answers": [
                 {
-                  "text": "<div>Neoplastic myeloid cells proliferate within the splenic pulp</div>",
+                  "text": "<div>Autoimmune haemolytic anaemia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This is the mechanism in chronic myeloid leukaemia, where BCR-ABL-driven myeloid progenitors colonise and proliferate in the spleen.</div>",
+                    "chosenFeedback": "<div>AIHA causes moderate splenomegaly through Fc-receptor-mediated clearance of IgG-coated red blood cells. It does not produce massive enlargement.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Glucocerebroside accumulates in splenic macrophages due to enzyme deficiency</div>",
+                  "text": "<div>Infective endocarditis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Infective endocarditis causes mild reactive enlargement or small abscesses from septic emboli, but not massive splenomegaly.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Gaucher disease</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Glucocerebrosidase deficiency prevents breakdown of glucocerebroside, which distends macrophages and produces the characteristic crumpled tissue paper cytoplasm and massive splenic enlargement.</div>",
+                    "chosenFeedback": "<div>Gaucher disease (glucocerebrosidase deficiency) is one of the six classic causes of massive splenomegaly, alongside CML, myelofibrosis, kala-azar, chronic malaria, and thalassaemia major.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Parasitic amastigotes multiply inside red pulp macrophages</div>",
+                  "text": "<div>Niemann-Pick disease</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This is the mechanism in kala-azar (visceral leishmaniasis), where Leishmania donovani amastigotes proliferate within splenic macrophages.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Progressive marrow fibrosis forces haematopoiesis into the spleen</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This is the mechanism in myelofibrosis, where fibrotic replacement of bone marrow shifts blood cell production to the spleen (extramedullary haematopoiesis).</div>",
+                    "chosenFeedback": "<div>Niemann-Pick disease (sphingomyelinase deficiency) typically causes moderate splenomegaly with prominent neurological features, not massive enlargement.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Each option describes a real mechanism of massive splenomegaly but belongs to a different disease. Gaucher = glucocerebroside storage; CML = myeloid proliferation; kala-azar = parasitic macrophage infiltration; myelofibrosis = extramedullary haematopoiesis."
+                  "feedback": "Of these choices, only Gaucher disease causes massive splenomegaly. AIHA and Niemann-Pick cause moderate enlargement; endocarditis causes mild. Remember the six: CML, myelofibrosis, kala-azar, chronic malaria, Gaucher, thalassaemia major."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Gaucher disease is the classic infiltrative/storage cause of massive splenomegaly — enzyme replacement therapy is available and can reverse the organomegaly."
+                  "feedback": "Correct. Gaucher disease produces massive splenomegaly through glucocerebroside accumulation in macrophages. The six causes: CML, myelofibrosis, kala-azar, chronic malaria, Gaucher, and thalassaemia major."
                 }
               ],
               "behaviour": {
@@ -319,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "b0dc5865-571e-4be0-a7ea-5c42f339456b",
+            "subContentId": "2fd2a169-10ce-4e2c-bf79-90f4226173b0",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which mechanism explains why Gaucher dis",
+              "title": "Which of the following causes massive sp",
               "authors": [],
               "changes": []
             }
@@ -339,13 +391,13 @@
         },
         {
           "duration": {
-            "from": 737.2,
-            "to": 747.2
+            "from": 795.8009583333334,
+            "to": 805.8009583333334
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A child with thalassaemia major undergoes elective splenectomy. Which preventive</p>",
+          "label": "<p>Overwhelming Post-Splenectomy Infection (OPSI) is primarily caused by which grou</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A child with thalassaemia major undergoes elective splenectomy. Which preventive strategy is MOST critical to reduce the risk of overwhelming post-splenectomy infection?</p>",
+              "question": "<p>Overwhelming Post-Splenectomy Infection (OPSI) is primarily caused by which group of organisms?</p>",
               "answers": [
                 {
-                  "text": "<div>Vaccination against encapsulated organisms before surgery and lifelong oral penicillin prophylaxis</div>",
+                  "text": "<div>Intracellular parasites such as Leishmania and Plasmodium</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While the spleen helps clear parasitised red cells, OPSI specifically results from loss of IgM-mediated opsonisation of encapsulated bacteria, not intracellular parasites.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Anaerobic organisms such as Clostridium and Bacteroides</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Anaerobic infections are not primarily cleared by splenic opsonisation. OPSI targets organisms that require the IgM and complement pathway the spleen provides.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Encapsulated bacteria such as Streptococcus pneumoniae, Haemophilus influenzae type b, and Neisseria meningitidis</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>OPSI is caused by encapsulated bacteria — Streptococcus pneumoniae, Haemophilus influenzae type b, and Neisseria meningitidis. Pre-operative vaccination plus lifelong phenoxymethylpenicillin is the standard of care, and the patient must seek immediate medical attention for any fever.</div>",
+                    "chosenFeedback": "<div>The spleen's white pulp generates IgM that opsonises encapsulated bacteria. Without it, these organisms cause fulminant sepsis with 50–70% mortality. Vaccination against all three before elective splenectomy is mandatory.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Broad-spectrum antibiotics for the first post-operative year only</div>",
+                  "text": "<div>Gram-negative enteric bacilli such as Escherichia coli and Klebsiella</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Time-limited prophylaxis is insufficient. The risk of OPSI is lifelong because the spleen's role in clearing encapsulated bacteria cannot be replaced. Prophylaxis must continue indefinitely.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Annual influenza and hepatitis B vaccination without antibiotic prophylaxis</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Influenza and hepatitis B are not encapsulated bacteria. The critical vaccines target pneumococcus, H. influenzae type b, and meningococcus, and lifelong penicillin prophylaxis is also essential.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Monitoring platelet counts without antimicrobial prophylaxis</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Post-splenectomy thrombocytosis does occur and may raise thrombosis risk, but preventing OPSI — which carries 50–70% mortality once established — is the overriding priority.</div>",
+                    "chosenFeedback": "<div>Enteric gram-negative organisms are cleared by hepatic Kupffer cells and neutrophils. OPSI specifically involves encapsulated bacteria that depend on splenic IgM for opsonisation.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: OPSI targets encapsulated organisms (pneumococcus, H. influenzae type b, meningococcus). Prevention requires vaccination BEFORE surgery plus LIFELONG oral penicillin — not time-limited or organism-mismatched strategies."
+                  "feedback": "OPSI results from encapsulated bacteria (S. pneumoniae, H. influenzae type b, N. meningitidis) that require splenic IgM for opsonisation. Vaccination against all three before elective splenectomy is essential."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. The triad of pre-operative vaccination, lifelong penicillin, and patient education about fever is the cornerstone of OPSI prevention — a non-negotiable responsibility after any splenectomy."
+                  "feedback": "Correct. Loss of splenic IgM opsonisation makes encapsulated bacteria — pneumococcus, H. influenzae type b, and meningococcus — the primary threat after splenectomy."
                 }
               ],
               "behaviour": {
@@ -429,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9c6a5865-0d02-425c-94dd-893546cc1da1",
+            "subContentId": "2d5a3633-a226-4efa-a623-2fda1dc0d237",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A child with thalassaemia major undergoe",
+              "title": "Overwhelming Post-Splenectomy Infection",
               "authors": [],
               "changes": []
             }
@@ -451,44 +503,44 @@
       "bookmarks": [
         {
           "time": 0,
-          "label": "Welcome to PA Hematology — Spleen Disorders."
+          "label": "Welcome to Hematology — Spleen Disorders."
         },
         {
           "time": 4,
           "label": "A 34-year-old man from Bihar presents with mild fever for…"
         },
         {
-          "time": 64,
+          "time": 65,
           "label": "The adult spleen weighs between 150 and 200 grams."
         },
         {
-          "time": 144,
+          "time": 155,
           "label": "The spleen is considered enlarged when it becomes palpabl…"
         },
         {
-          "time": 245,
+          "time": 258,
           "label": "In congestive splenomegaly, raised venous pressure passiv…"
         },
         {
-          "time": 361,
+          "time": 386,
           "label": "Haematological splenomegaly arises through two mechanisms…"
         },
         {
-          "time": 459,
+          "time": 494,
           "label": "The fourth category covers infiltrative and storage splen…"
         },
         {
-          "time": 568,
+          "time": 607,
           "label": "Hypersplenism is defined by four criteria, and all four m…"
         },
         {
-          "time": 629,
+          "time": 676,
           "label": "Three axes guide the workup of splenomegaly."
         }
       ],
       "endscreens": [
         {
-          "time": 766,
+          "time": 830,
           "label": "End"
         }
       ]
@@ -500,7 +552,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "59d745a2-6fa9-4a15-8501-a7c5d3f0ac2f",
+              "subContentId": "acb6055a-a3e3-4e7f-b1b5-46e47bd72757",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -523,7 +575,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "635ab7e0-5b71-4fdf-94f5-4adf5db1e43e",
+        "subContentId": "63a44afc-b8ad-46ac-be0c-545105f8b1ac",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
