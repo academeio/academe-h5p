@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/898f0cb0-e20c-4e66-8adb-9613d6591bda/playlist.m3u8",
+          "path": "https://vdo.cbme.in/bfd06ad5-bb7c-43be-9669-01776bd958f4/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PA3.1-4,PA4.1 | Inflammation & Healing — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for PA2.1-PA3.4."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for PA2.1-PA3.4."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 138.225,
-            "to": 148.225
+            "from": 146.64508333333333,
+            "to": 156.64508333333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which vascular event in acute inflammation allows protein-rich fluid (&gt;3 g/dL) t</p>",
+          "label": "<p>During acute inflammation, endothelial cells contract and widen inter-endothelia</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which vascular event in acute inflammation allows protein-rich fluid (&gt;3 g/dL) to escape into the interstitium and form an exudate?</p>",
+              "question": "<p>During acute inflammation, endothelial cells contract and widen inter-endothelial gaps, allowing fluid to escape into the interstitium. This fluid is classified as an exudate because it:</p>",
               "answers": [
                 {
-                  "text": "<div>Transient arteriolar vasoconstriction lasting only seconds</div>",
+                  "text": "<div>Is formed by osmotic imbalance and contains less than 2 g/dL protein</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Vasoconstriction is the very first event and lasts only seconds. It restricts rather than permits protein escape, and does not open the vessel wall.</div>",
+                    "chosenFeedback": "<div>This describes a transudate, which results from hydrostatic or oncotic pressure imbalance without vessel-wall damage. An exudate is driven by active increases in vascular permeability, not pressure gradients.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Arteriolar dilation driven by histamine and nitric oxide</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Vasodilation increases blood flow and produces redness and heat, but does not by itself allow proteins to cross the vessel wall. Protein escape requires a separate permeability change.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Endothelial cell contraction widening inter-endothelial gaps</div>",
+                  "text": "<div>Contains more than 3 g/dL protein due to increased vascular permeability</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Mediators such as histamine and leukotrienes cause endothelial cells to contract, widening the gaps between them. This allows protein-rich exudate (&gt;3 g/dL) to escape — unlike a transudate, which forms from hydrostatic or oncotic imbalance without any permeability change.</div>",
+                    "chosenFeedback": "<div>Correct. Endothelial contraction widens gaps large enough for plasma proteins to escape, producing protein-rich fluid (&gt;3 g/dL) — the hallmark of an inflammatory exudate.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Stasis from loss of intravascular fluid</div>",
+                  "text": "<div>Results from hydrostatic pressure imbalance in the venous end of capillaries</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Stasis follows the permeability increase and slows blood flow, facilitating leucocyte margination. It does not initiate protein leakage — the endothelial contraction step precedes stasis.</div>",
+                    "chosenFeedback": "<div>Hydrostatic imbalance, as seen in congestive heart failure, produces a protein-poor transudate (&lt;2 g/dL). The key distinction is that exudates arise from active vascular permeability changes during inflammation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Has a protein content between 1 and 2 g/dL, similar to normal interstitial fluid</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Normal interstitial fluid and transudates have low protein content. An inflammatory exudate, by contrast, exceeds 3 g/dL because inflamed vessels allow large molecules to escape through widened endothelial gaps.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Recall the vascular sequence: vasoconstriction (seconds) → vasodilation → increased permeability via endothelial contraction → stasis. It is endothelial contraction that opens the vessel wall to protein and produces the exudate."
+                  "feedback": "The protein content and formation mechanism distinguish exudate from transudate. An exudate (>3 g/dL protein) is produced by increased vascular permeability in inflammation, while a transudate (<2 g/dL) results from hydrostatic or oncotic imbalance without vessel-wall damage."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Endothelial contraction is the permeability step that defines an exudate; stasis follows, and the cycle ends with leucocyte emigration."
+                  "feedback": "Correct! The defining feature of an exudate is its high protein content (>3 g/dL), resulting from increased vascular permeability during inflammation — distinguishing it sharply from a low-protein transudate."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "404a5236-5cbe-4902-af8c-b17d6ad7ae8b",
+            "subContentId": "736a0628-47fe-4c81-9973-daca84b60ef2",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which vascular event in acute inflammati",
+              "title": "During acute inflammation, endothelial c",
               "authors": [],
               "changes": []
             }
@@ -171,233 +171,13 @@
         },
         {
           "duration": {
-            "from": 318.425,
-            "to": 328.425
+            "from": 342.5552916666667,
+            "to": 352.5552916666667
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Aspirin blocks the cyclo-oxygenase (COX) pathway but does not inhibit the lipoxy</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>Aspirin blocks the cyclo-oxygenase (COX) pathway but does not inhibit the lipoxygenase pathway. Which inflammatory mediator therefore continues to attract neutrophils to a site of infection even after a therapeutic dose of aspirin?</p>",
-              "answers": [
-                {
-                  "text": "<div>Prostaglandin E2 (PGE2)</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>PGE2 is a COX-pathway product and is suppressed by aspirin. Its main roles are pain sensitisation and fever — not neutrophil chemotaxis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Thromboxane A2 (TXA2)</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>TXA2 is also a COX-pathway product blocked by aspirin. Its role is vasoconstriction and platelet aggregation, not neutrophil recruitment.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Leukotriene B4 (LTB4)</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. LTB4 is produced by the lipoxygenase pathway, which aspirin does not inhibit, making it the dominant chemo-attractant for neutrophils that persists despite COX blockade. The cysteinyl leukotrienes (LTC4, LTD4, LTE4) from the same pathway increase vascular permeability and cause bronchoconstriction.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Prostacyclin (PGI2)</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>PGI2 is a COX-pathway product from endothelial cells that promotes vasodilation and inhibits platelet aggregation. It is suppressed by aspirin and is not a neutrophil attractant.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Separate the two arachidonic acid pathways: COX → prostaglandins and thromboxane (blocked by aspirin and NSAIDs); lipoxygenase → leukotrienes (not blocked). LTB4 is the lipoxygenase-derived neutrophil attractant."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. LTB4 from the lipoxygenase pathway escapes aspirin's block, maintaining neutrophil influx even when COX products are suppressed — a key reason NSAIDs alone cannot abolish inflammation."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "4bf9d9b9-9a9c-42ed-b83c-51a90ee49105",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "Aspirin blocks the cyclo-oxygenase (COX)",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 492.5,
-            "to": 502.5
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A patient receiving a TNF-α inhibitor for rheumatoid arthritis develops fever, n</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A patient receiving a TNF-α inhibitor for rheumatoid arthritis develops fever, night sweats, and new upper-lobe pulmonary infiltrates. Which mechanism best explains this complication?</p>",
-              "answers": [
-                {
-                  "text": "<div>TNF-α normally recruits neutrophils via selectin up-regulation; its blockade prevents pus formation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Neutrophil recruitment in acute inflammation relies primarily on IL-8 and LTB4, not TNF-α. Selectin expression is part of the general endothelial activation response. TNF-α's critical role in granulomatous disease is sustaining macrophage activation within the granuloma, not directing neutrophil adhesion.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>TNF-α maintains granuloma integrity by sustaining Th1-driven macrophage activation; its blockade collapses the granuloma and allows mycobacterial reactivation</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. IFN-γ from Th1 cells drives macrophages into epithelioid cells; TNF-α then maintains this activated state and the structural integrity of the granuloma that contains latent mycobacteria. Removing TNF-α collapses the granuloma scaffold, releasing viable bacilli and causing reactivation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>TNF-α drives M2 macrophage polarisation; its blockade impairs repair within the granuloma</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>M2 polarisation is driven by IL-4 and IL-13, not TNF-α. TNF-α drives the destructive M1 phenotype and sustains granuloma maintenance — it is not a repair-promoting mediator.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>TNF-α activates complement C5a, which sustains mast cell degranulation inside the granuloma</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>C5a acts on mast cells in the context of acute inflammation, not granuloma maintenance. TNF-α's role in chronic granulomatous inflammation is to sustain Th1-driven epithelioid macrophage activation, not to activate complement.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Trace the granuloma circuit: IFN-γ from Th1 cells → M1 macrophage activation → epithelioid histiocytes → TNF-α maintains granuloma structure. Remove TNF-α and the granuloma fails, releasing latent mycobacteria."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. TNF-α is the molecular scaffold of the granuloma. This is why screening for latent TB is mandatory before starting any biologic anti-TNF therapy — a direct clinical application of this mechanism."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "118f9f82-cd9c-41c1-99c6-06b5b562c412",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A patient receiving a TNF-α inhibitor fo",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 663.375,
-            "to": 673.375
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A multinucleated giant cell with nuclei scattered randomly throughout its cytopl</p>",
+          "label": "<p>Lipoxins, derived from the lipoxygenase pathway, amplify neutrophil recruitment </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,7 +186,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A multinucleated giant cell with nuclei scattered randomly throughout its cytoplasm is a Langhans giant cell and indicates tuberculosis.</p>",
+              "question": "<p>Lipoxins, derived from the lipoxygenase pathway, amplify neutrophil recruitment and sustain the inflammatory response.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -424,16 +204,346 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "The statement is false. Nuclear arrangement is the distinguishing feature: peripheral horseshoe = Langhans giant cell (tuberculosis, fungi); randomly scattered cytoplasmic nuclei = foreign-body giant cell. Always examine nuclear position at high power when you identify a multinucleated giant cell on a slide.",
-                "correctAnswerMessage": "Correct — the statement is false. Randomly scattered nuclei identify a foreign-body giant cell. Langhans giant cells — characteristic of tuberculosis and fungi — have their nuclei arranged in a peripheral horseshoe or wreath pattern at the cell margin.",
+                "wrongAnswerMessage": "Lipoxins are indeed products of the lipoxygenase pathway, but unlike leukotrienes (LTB4, LTC4–E4), they are anti-inflammatory. They act as the natural brake on the inflammatory response by inhibiting neutrophil recruitment rather than amplifying it.",
+                "correctAnswerMessage": "Well done. Although lipoxins are derived from the same lipoxygenase pathway as pro-inflammatory leukotrienes, they serve the opposite function — they are the natural brake on inflammation, inhibiting neutrophil recruitment and helping to resolve the response.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "bbf2d5f4-a1d2-4e11-9fde-1f517944d00f",
+            "subContentId": "8b281a74-eaae-402b-b654-71d6d0e605b6",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "A multinucleated giant cell with nuclei",
+              "title": "Lipoxins, derived from the lipoxygenase",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 532.6950416666667,
+            "to": 542.6950416666667
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A patient on infliximab (anti-TNF-α) therapy for Crohn's disease develops reacti</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient on infliximab (anti-TNF-α) therapy for Crohn's disease develops reactivation of latent tuberculosis. Which mechanism best explains this complication?</p>",
+              "answers": [
+                {
+                  "text": "<div>Infliximab directly destroys the epithelioid histiocytes forming the granuloma wall</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Infliximab neutralises circulating TNF-α rather than directly killing cells. Without sustained TNF-α signalling, the granuloma loses structural cohesion, allowing contained mycobacteria to escape — an indirect, not direct, mechanism.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>TNF-α is required to maintain granuloma integrity; blocking it allows mycobacteria to escape containment</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The Th1–macrophage–TNF-α loop maintains the granuloma. When infliximab neutralises TNF-α, granuloma architecture collapses and dormant bacilli reactivate — hence mandatory TB screening before starting biologics.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Anti-TNF-α therapy prevents conversion of M2 macrophages into epithelioid cells</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>It is interferon-gamma from Th1 cells, not TNF-α, that drives the macrophage-to-epithelioid transformation. TNF-α's critical role lies in maintaining granuloma structure once formed, not in initiating epithelioid differentiation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Infliximab blocks interleukin-4, impairing the M1 macrophage response needed to contain TB</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Infliximab targets TNF-α specifically, not IL-4. Moreover, IL-4 drives M2 (repair) polarisation. The M1 (destructive) response depends on interferon-gamma from Th1 cells, not on IL-4 signalling.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "TNF-α, produced by activated M1 macrophages, is essential for maintaining the granuloma that walls off latent mycobacteria. Infliximab neutralises TNF-α, causing granuloma collapse and reactivation of contained bacilli — the reason mandatory TB screening precedes all anti-TNF-α therapy."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct! TNF-α is the key cytokine sustaining granuloma integrity. This is why every patient must be screened for latent TB before starting anti-TNF-α therapy."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "f73fc7fe-9fdb-4c5f-b462-b40dbd2cbdc3",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A patient on infliximab (anti-TNF-α) the",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 639.0889583333334,
+            "to": 649.0889583333334
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Following partial hepatectomy, the remaining liver regenerates to near-normal si</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Following partial hepatectomy, the remaining liver regenerates to near-normal size within weeks. This is possible because hepatocytes are classified as:</p>",
+              "answers": [
+                {
+                  "text": "<div>Labile cells that continuously divide throughout life</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Labile cells (e.g., skin epidermis, gut mucosal epithelium) are in constant replication. Hepatocytes are normally quiescent in G0 but can re-enter the cell cycle when stimulated by growth factors — a defining feature of stable, not labile, cells.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Stable cells that re-enter the cell cycle when stimulated, provided the extracellular scaffold is intact</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Hepatocytes are the classic stable (quiescent) cell population. They remain in G0 until stimulated by growth factors, and successful regeneration requires an intact extracellular matrix scaffold to guide new cell placement.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Permanent cells that compensate through cellular hypertrophy rather than division</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Permanent cells (neurons, cardiac myocytes) cannot divide and are replaced by scar. The liver grows back through actual cell division (hyperplasia of mature hepatocytes), confirming they are stable, not permanent, cells.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Cells that can only regenerate through activation of bone-marrow-derived precursors</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Liver regeneration after partial hepatectomy occurs primarily through re-entry of existing mature hepatocytes into the cell cycle, not through bone-marrow precursors. This ability to shift from G0 to the active cell cycle defines stable cells.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Hepatocytes are stable (quiescent) cells that normally reside in G0 but can re-enter the cell cycle when stimulated, provided the extracellular scaffold is intact. This distinguishes them from labile cells (continuously dividing, e.g., gut mucosa) and permanent cells (cannot divide, e.g., neurons, cardiac myocytes)."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct! Hepatocytes are the classic example of stable cells — quiescent in G0 until growth factors trigger re-entry into the cell cycle, enabling liver regeneration when the extracellular scaffold is preserved."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "4d861d75-112b-4d99-8072-a7acefef1d02",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Following partial hepatectomy, the remai",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 800.60675,
+            "to": 810.60675
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>On gross examination, a pericardial specimen shows a rough, shaggy surface with </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>On gross examination, a pericardial specimen shows a rough, shaggy surface with a characteristic 'bread-and-butter' appearance. Which morphological pattern of inflammation does this represent?</p>",
+              "answers": [
+                {
+                  "text": "<div>Serous inflammation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Serous inflammation produces thin, watery, protein-poor fluid — as seen in a skin blister or early pleural effusion. It does not deposit the fibrin strands responsible for the shaggy surface texture.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Suppurative inflammation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Suppurative (purulent) inflammation generates pus — dead neutrophils and liquefied tissue. When walled off it forms an abscess, as in staphylococcal skin infections. The roughened, shaggy pericardial surface points to fibrin deposition, not pus.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Fibrinous inflammation</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The bread-and-butter appearance is the hallmark of fibrinous pericarditis, where protein-rich exudate deposits fibrin strands on the pericardial serosa, creating the characteristic roughened, shaggy surface.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Granulomatous inflammation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Granulomatous inflammation features discrete collections of epithelioid histiocytes and giant cells, as in tuberculosis or sarcoidosis. The bread-and-butter appearance is specific to fibrinous inflammation on serosal surfaces.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The bread-and-butter appearance is pathognomonic of fibrinous pericarditis. In this pattern, protein-rich exudate deposits fibrin strands across the serosal surface, distinguishing it from serous (watery), suppurative (pus-filled), and granulomatous (epithelioid cell collections) patterns."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct! Fibrinous pericarditis is the classic example of fibrinous inflammation — fibrin strands deposited on the serosal surface create the unmistakable bread-and-butter gross appearance."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "3b0b43fd-a70d-4942-bfec-323205d002ee",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "On gross examination, a pericardial spec",
               "authors": [],
               "changes": []
             }
@@ -451,48 +561,48 @@
       "bookmarks": [
         {
           "time": 0,
-          "label": "Welcome to PA General Pathology — Inflammation & Healing."
+          "label": "Welcome to General Pathology — Inflammation & Healing."
         },
         {
-          "time": 5,
+          "time": 4,
           "label": "Stub your toe and within five seconds you feel redness, h…"
         },
         {
-          "time": 53,
+          "time": 52,
           "label": "The five cardinal signs of acute inflammation map directl…"
         },
         {
-          "time": 138,
+          "time": 147,
           "label": "Neutrophils reach infected tissue through a precise adhes…"
         },
         {
-          "time": 217,
+          "time": 236,
           "label": "Mediators are the molecular language of acute inflammation."
         },
         {
-          "time": 318,
+          "time": 343,
           "label": "Acute inflammation appears in four morphological patterns."
         },
         {
-          "time": 383,
+          "time": 408,
           "label": "Earlier in this course, you saw tuberculosis leave pale,…"
         },
         {
-          "time": 493,
+          "time": 533,
           "label": "Same hand, same tissue, two dramatically different scars."
         },
         {
-          "time": 589,
+          "time": 640,
           "label": "Your registrar slides in a section and asks: acute or chr…"
         },
         {
-          "time": 663,
+          "time": 727,
           "label": "Matching gross appearances to microscopic signatures is w…"
         }
       ],
       "endscreens": [
         {
-          "time": 757,
+          "time": 830,
           "label": "End"
         }
       ]
@@ -504,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "5e69ebc8-eb75-49a4-a22d-6cb7cb889ce8",
+              "subContentId": "51a3add9-648f-4a67-a564-65874da9b273",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -527,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "2fa30e83-24e7-4524-a777-f5cc787f0bb3",
+        "subContentId": "4ae730aa-b671-4270-9fbc-429ca3904e43",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
