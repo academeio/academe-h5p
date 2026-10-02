@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/2cfd2436-18e3-4fa1-a29d-089ec68b8361/playlist.m3u8",
+          "path": "https://vdo.cbme.in/e779d7d4-5582-4d93-a1ec-4613831bdd5f/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -11,7 +11,7 @@
         }
       ],
       "startScreenOptions": {
-        "title": "PA14.1-2 | Microcytic Anemias — Interactive Lecture (Part 3)",
+        "title": "PA14.1-2 | Microcytic Anemias — Interactive Lecture",
         "hideStartTitle": false,
         "shortStartDescription": "Interactive lecture with 4 embedded questions for PA14.1-PA14.2."
       },
@@ -61,101 +61,49 @@
       "interactions": [
         {
           "duration": {
-            "from": 78.325,
-            "to": 88.325
+            "from": 80.138,
+            "to": 90.138
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Both patients in the opening vignette had haemoglobin 9.5 g/dL and MCV 70 fL wit</p>",
+          "label": "<p>All patients presenting with microcytic hypochromic anaemia on peripheral smear </p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Both patients in the opening vignette had haemoglobin 9.5 g/dL and MCV 70 fL with identical hypochromic microcytic smears. Which single laboratory finding most reliably distinguished iron deficiency anaemia from thalassaemia trait?</p>",
-              "answers": [
-                {
-                  "text": "<div>Haemoglobin concentration</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Haemoglobin was identical at 9.5 g/dL in both patients and could not distinguish between the two diagnoses.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Mean corpuscular volume</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>MCV was 70 fL in both patients — identical — and therefore could not differentiate the two conditions.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Serum ferritin</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Patient B's ferritin of 4 ng/mL confirmed depleted iron stores (IDA), while Patient A's ferritin of 68 ng/mL indicated intact stores, pointing to thalassaemia trait. Misdiagnosing Patient A led to harmful iron loading.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Peripheral smear morphology</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The peripheral smear appeared hypochromic and microcytic in both patients, making it unable to differentiate IDA from thalassaemia trait in this vignette.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Haemoglobin, MCV, and the smear were identical in both patients. Serum ferritin was the critical discriminator — 4 ng/mL in Patient B (IDA) versus 68 ng/mL in Patient A (thalassaemia trait)."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. The CBC and smear were identical — only serum ferritin revealed whether iron stores were depleted (IDA) or intact (thalassaemia trait)."
-                }
-              ],
+              "question": "<p>All patients presenting with microcytic hypochromic anaemia on peripheral smear should receive iron supplementation as first-line treatment.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This is false. While iron deficiency is the commonest cause, thalassaemia trait and other microcytic anaemias have normal or elevated iron stores. Giving iron to a thalassaemia carrier causes dangerous accumulation, as Patient A's rising ferritin (180 → 340 ng/mL) and worsening liver enzymes demonstrated. Iron studies, ethnicity, and the smear must be read together before starting treatment.",
+                "correctAnswerMessage": "Correct. Iron supplementation is appropriate only when iron deficiency is confirmed by low ferritin. In thalassaemia trait, iron stores are intact; supplementation leads to progressive iron overload affecting the liver, heart, and endocrine organs — exactly what happened to Patient A, whose ferritin climbed to 340 ng/mL with rising liver enzymes.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "428780c4-fc72-4dfe-a603-34c272756f43",
+            "subContentId": "5b5aaf71-0519-41a3-8b7c-ca66ff8c11b1",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "Both patients in the opening vignette ha",
+              "title": "All patients presenting with microcytic",
               "authors": [],
               "changes": []
             }
@@ -171,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 250.8,
-            "to": 260.8
+            "from": 269.2696666666667,
+            "to": 279.2696666666667
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 20-year-old Sindhi woman has Hb 11.5 g/dL, MCV 64 fL, and a Mentzer Index of 1</p>",
+          "label": "<p>A 24-year-old Sindhi woman has a haemoglobin of 11.2 g/dL, MCV of 64 fL, and RBC</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,14 +134,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 20-year-old Sindhi woman has Hb 11.5 g/dL, MCV 64 fL, and a Mentzer Index of 11. Which investigation should be ordered next to confirm the suspected diagnosis?</p>",
+              "question": "<p>A 24-year-old Sindhi woman has a haemoglobin of 11.2 g/dL, MCV of 64 fL, and RBC count of 5.8 million/µL. Her Mentzer Index is approximately 11. Her ferritin is 45 ng/mL. Which investigation would best confirm the suspected diagnosis?</p>",
               "answers": [
                 {
-                  "text": "<div>Serum ferritin and TIBC</div>",
+                  "text": "<div>Serum iron and total iron-binding capacity</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Ferritin is typically normal in thalassaemia trait and would not confirm the diagnosis. The Mentzer Index below 13 already points away from iron deficiency.</div>",
+                    "chosenFeedback": "<div>Serum iron and TIBC help distinguish IDA from ACD, but this patient's normal ferritin and the combination of disproportionately low MCV with a high RBC count (Mentzer Index &lt; 13) point to thalassaemia trait, not iron deficiency.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -202,7 +150,7 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. A Mentzer Index below 13 favours thalassaemia trait. HPLC confirms beta-thalassaemia trait by demonstrating HbA2 above 3.5%. If HbA2 is normal with strong clinical suspicion, genetic testing for alpha-thalassaemia is indicated.</div>",
+                    "chosenFeedback": "<div>Correct. HPLC is the confirmatory test for beta-thalassaemia trait, showing HbA2 elevated above 3.5%. The disproportionately low MCV, high RBC count, normal ferritin, and Sindhi ethnicity (prevalence up to 15%) all strongly support this diagnosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -211,7 +159,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Bone marrow biopsy identifies ringed sideroblasts in sideroblastic anaemia. It is not required for screening thalassaemia trait.</div>",
+                    "chosenFeedback": "<div>Prussian blue staining identifies ringed sideroblasts in sideroblastic anaemia. This patient's uniformly small red cells with expected low-normal RDW and normal ferritin point to thalassaemia trait, not a sideroblastic process.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -220,7 +168,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The sTfR assay helps distinguish iron deficiency from anaemia of chronic disease in inflamed patients. It is not the confirmatory test for thalassaemia trait.</div>",
+                    "chosenFeedback": "<div>The sTfR/log-ferritin ratio is useful when ACD and IDA coexist in an inflamed patient. This patient has no features of chronic inflammation; the clinical picture points to thalassaemia trait, confirmed by HPLC.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "A Mentzer Index below 13 (MCV ÷ RBC count) favours thalassaemia trait over IDA. The next step is HPLC, which confirms beta-thalassaemia trait when HbA2 exceeds 3.5%."
+                  "feedback": "The combination of disproportionately low MCV (64 fL), high RBC count (5.8 million/µL), normal ferritin, and Sindhi ethnicity strongly suggests beta-thalassaemia trait. HPLC showing HbA2 > 3.5% is the confirmatory investigation."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. HPLC is the standard confirmatory test — HbA2 above 3.5% confirms beta-thalassaemia trait."
+                  "feedback": "Well done! HPLC is the standard confirmatory test for beta-thalassaemia trait. A HbA2 above 3.5% clinches the diagnosis."
                 }
               ],
               "behaviour": {
@@ -261,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ee2c28fc-832b-46cb-9ef8-596cdffba88b",
+            "subContentId": "c11b54d1-7bb7-4979-b580-52a33608450d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 20-year-old Sindhi woman has Hb 11.5 g",
+              "title": "A 24-year-old Sindhi woman has a haemogl",
               "authors": [],
               "changes": []
             }
@@ -281,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 442.05,
-            "to": 452.05
+            "from": 474.5760833333333,
+            "to": 484.5760833333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>What peripheral smear finding distinguishes sideroblastic anaemia from other cau</p>",
+          "label": "<p>A patient with microcytic anaemia shows two distinct red cell populations on the</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>What peripheral smear finding distinguishes sideroblastic anaemia from other causes of microcytic anaemia?</p>",
+              "question": "<p>A patient with microcytic anaemia shows two distinct red cell populations on the peripheral smear — normal cells alongside hypochromic microcytic cells — and the red cell distribution width is markedly elevated. Which condition does this dimorphic picture most strongly suggest?</p>",
               "answers": [
                 {
-                  "text": "<div>A dimorphic population of normal and microcytic, hypochromic cells</div>",
+                  "text": "<div>Iron deficiency anaemia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>In IDA, red cells show progressive microcytosis with anisopoikilocytosis and pencil cells as iron depletes. The RDW is high, but the smear is not truly dimorphic with two clearly distinct cell populations.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Beta-thalassaemia trait</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>In thalassaemia trait, all red cells carry the same globin defect, producing uniformly small cells. The RDW is characteristically low-normal, not markedly elevated, and the smear is not dimorphic.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Sideroblastic anaemia</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Defective haem synthesis affects only a proportion of erythroblasts, producing two distinct red cell populations — normal cells alongside microcytic, hypochromic ones. This dimorphic pattern drives a characteristically high RDW.</div>",
+                    "chosenFeedback": "<div>Correct. In sideroblastic anaemia, defective haem synthesis affects developing red cells unevenly, producing normal cells alongside hypochromic microcytic cells. This dimorphic picture drives a very high RDW. Bone marrow Prussian blue staining confirms the diagnosis by revealing ringed sideroblasts.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Uniformly microcytic, hypochromic cells with a low RDW</div>",
+                  "text": "<div>Anaemia of chronic disease</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Uniform microcytosis with a low-normal RDW is characteristic of thalassaemia trait, where all red cells are equally small due to reduced globin chain synthesis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Target cells with basophilic stippling</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Target cells are seen in thalassaemia and liver disease. Basophilic stippling suggests lead poisoning, not sideroblastic anaemia.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Pencil cells with marked anisopoikilocytosis</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Pencil cells (elliptocytes) are characteristic of iron deficiency anaemia, not sideroblastic anaemia.</div>",
+                    "chosenFeedback": "<div>ACD usually produces normocytic cells. Even when microcytic in prolonged cases, the picture is uniform rather than dimorphic, and the RDW is typically normal.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Sideroblastic anaemia produces a dimorphic smear — normal red cells alongside microcytic, hypochromic cells — because haem synthesis is defective in only a proportion of erythroblasts. This drives a very high RDW, contrasting with the uniform microcytosis of thalassaemia trait."
+                  "feedback": "A dimorphic peripheral smear — two distinct red cell populations — with a markedly elevated RDW is the hallmark of sideroblastic anaemia. The other microcytic anaemias produce more uniform cell populations."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The dimorphic smear with two distinct cell populations is a hallmark of sideroblastic anaemia, producing a very high RDW."
+                  "feedback": "Excellent! The dimorphic smear with a very high RDW is the peripheral blood clue to sideroblastic anaemia, confirmed by ringed sideroblasts on bone marrow Prussian blue staining."
                 }
               ],
               "behaviour": {
@@ -371,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "320c18f5-1d15-4d5e-bffe-e57ffc586dd5",
+            "subContentId": "71a9d051-a664-423a-a999-817a3e6a4c32",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "What peripheral smear finding distinguis",
+              "title": "A patient with microcytic anaemia shows",
               "authors": [],
               "changes": []
             }
@@ -391,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 638.5,
-            "to": 648.5
+            "from": 683.5076666666666,
+            "to": 693.5076666666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the stepwise diagnostic approach to microcytic anaemia, what should be assess</p>",
+          "label": "<p>A 45-year-old man with rheumatoid arthritis has an MCV of 78 fL, ferritin of 280</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In the stepwise diagnostic approach to microcytic anaemia, what should be assessed after finding that the patient's ferritin is 45 ng/mL?</p>",
+              "question": "<p>A 45-year-old man with rheumatoid arthritis has an MCV of 78 fL, ferritin of 280 ng/mL, and low total iron-binding capacity. Following the diagnostic algorithm for microcytic anaemia, what is the most likely diagnosis?</p>",
               "answers": [
                 {
-                  "text": "<div>Haemoglobin electrophoresis by HPLC</div>",
+                  "text": "<div>Iron deficiency anaemia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>HPLC is indicated when thalassaemia trait is suspected (disproportionately low MCV with high RBC count). The algorithm first evaluates for inflammation before considering thalassaemia.</div>",
+                    "chosenFeedback": "<div>IDA shows low ferritin (&lt; 12 ng/mL) and high TIBC — the iron-starved body makes more transferrin 'hooks' for iron. This patient's ferritin is markedly elevated and TIBC is low, the opposite pattern.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Bone marrow biopsy with Prussian blue stain</div>",
+                  "text": "<div>Beta-thalassaemia trait</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Bone marrow examination for ringed sideroblasts is reserved for when a dimorphic smear is identified. It is not the next step after finding a normal ferritin.</div>",
+                    "chosenFeedback": "<div>Thalassaemia trait shows a disproportionately low MCV (often &lt; 70 fL) with a high RBC count and normal ferritin. This patient's MCV is only mildly low (78 fL), and the clinical context of rheumatoid arthritis suggests chronic inflammation as the driver.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Blood lead level</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>A blood lead level is ordered when basophilic stippling and occupational exposure or paediatric pica are present, not as a routine next step after ferritin.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Inflammatory markers such as CRP and ESR</div>",
+                  "text": "<div>Anaemia of chronic disease</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. When ferritin is 12 ng/mL or above, iron deficiency is unlikely. The next step is to check for systemic inflammation (CRP, ESR) to evaluate for anaemia of chronic disease before considering thalassaemia trait or sideroblastic anaemia.</div>",
+                    "chosenFeedback": "<div>Correct. The algorithm identifies elevated ferritin (intact iron stores) plus low TIBC (reduced transferrin synthesis in inflammation) in a patient with chronic inflammatory disease (RA) — the classic pattern of anaemia of chronic disease. Treatment targets the underlying condition.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Sideroblastic anaemia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While sideroblastic anaemia also shows elevated ferritin, it presents with a dimorphic smear, high transferrin saturation (&gt; 50%), and no particular association with chronic inflammation. The clinical context of RA and low TIBC favour ACD.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The diagnostic algorithm begins with ferritin. When ferritin is not low (≥12 ng/mL), the next step is checking inflammatory markers (CRP, ESR) to assess for anaemia of chronic disease. HPLC and bone marrow come later in the sequence."
+                  "feedback": "Following the algorithm: MCV < 80 fL → check ferritin → ferritin elevated (280 ng/mL) → check for inflammation → RA with raised inflammatory markers + low TIBC = anaemia of chronic disease. The iron stores are full, but the marrow cannot access them."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. A ferritin of 12 ng/mL or above rules out simple iron deficiency, making inflammatory markers the logical next step to evaluate for anaemia of chronic disease."
+                  "feedback": "Correct! Elevated ferritin with low TIBC in the setting of chronic inflammation is the diagnostic fingerprint of anaemia of chronic disease."
                 }
               ],
               "behaviour": {
@@ -481,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "30288c89-b4e8-4ed6-a7d9-d6b3bca06aca",
+            "subContentId": "6ae9df2f-7858-48c7-a4a7-49694877dc62",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In the stepwise diagnostic approach to m",
+              "title": "A 45-year-old man with rheumatoid arthri",
               "authors": [],
               "changes": []
             }
@@ -510,33 +458,33 @@
           "label": "Two patients come in with the same blood count."
         },
         {
-          "time": 78,
+          "time": 80,
           "label": "When you see microcytosis on a blood film, the mean cell…"
         },
         {
-          "time": 158,
+          "time": 175,
           "label": "In thalassaemia trait, one globin gene is defective."
         },
         {
-          "time": 251,
+          "time": 269,
           "label": "In any chronic inflammatory state, interleukin 6 signals…"
         },
         {
-          "time": 348,
+          "time": 378,
           "label": "Sideroblastic anaemia is a story of iron in the wrong place."
         },
         {
-          "time": 445,
+          "time": 477,
           "label": "This table anchors your diagnostic memory for the four mi…"
         },
         {
-          "time": 537,
+          "time": 570,
           "label": "When the mean corpuscular volume falls below 80 femtolitr…"
         }
       ],
       "endscreens": [
         {
-          "time": 676,
+          "time": 721,
           "label": "End"
         }
       ]
@@ -548,7 +496,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "53625223-5850-471a-be26-4ac88464409a",
+              "subContentId": "bbfeee16-ef00-44c6-a81e-b70c89cf4274",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -571,7 +519,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "a095e928-b64a-4a09-963c-10c654da783d",
+        "subContentId": "7bb32581-c650-4631-9c5f-b024499098d0",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
