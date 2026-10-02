@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/1164cd8a-9bd4-4f7e-999f-87f9d83973db/playlist.m3u8",
+          "path": "https://vdo.cbme.in/81d97721-beb4-4cef-afc8-9a72c0b789a6/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "IM4.1-20 | Fever and Febrile Syndromes — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for IM4.1-IM4.9."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for IM4.1-IM4.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,71 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 131.325,
-            "to": 141.325
+            "from": 137.93041666666667,
+            "to": 147.93041666666667
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the febrile response, interleukin-1 beta directly raises the hypothalamic tem</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>In the febrile response, interleukin-1 beta directly raises the hypothalamic temperature set-point.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Incorrect. The pathway is sequential: IL-1β (along with IL-6 and TNF-α) reaches the hypothalamus → upregulates COX-2 → generates prostaglandin E2 → PGE2 raises the set-point in the preoptic area. IL-1β is an upstream signal; PGE2 is the direct mediator of set-point elevation.",
-                "correctAnswerMessage": "Correct. Interleukin-1β is an endogenous pyrogen released by macrophages, but it does not directly raise the set-point. It acts on the hypothalamus to upregulate cyclo-oxygenase-2, which generates prostaglandin E2. It is PGE2 that directly acts on the preoptic area to raise the temperature set-point. This distinction is why antipyretics targeting COX-2 are effective in fever.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "e87a2a3f-1344-4c55-a9e9-561663a96de7",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "In the febrile response, interleukin-1 b",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 387.825,
-            "to": 397.825
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A 30-year-old farmer from rural Meghalaya presents with high fever for five days</p>",
+          "label": "<p>Why are antipyretics such as paracetamol effective in fever but not in hyperther</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 30-year-old farmer from rural Meghalaya presents with high fever for five days. On complete undressing and systematic skin examination, a small painless eschar is found in the left axillary fold. This finding is pathognomonic of which condition?</p>",
+              "question": "<p>Why are antipyretics such as paracetamol effective in fever but not in hyperthermia?</p>",
               "answers": [
                 {
-                  "text": "<div>Enteric fever</div>",
+                  "text": "<div>Paracetamol directly stimulates sweating, which only occurs when the hypothalamic thermostat is intact</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Enteric fever (typhoid) produces rose spots — faint, blanching, salmon-coloured macules on the trunk — not localised eschars. Its characteristic feature is a step-ladder fever pattern, not a bite-site eschar.</div>",
+                    "chosenFeedback": "<div>Incorrect. Paracetamol works by blocking cyclo-oxygenase-2 in the hypothalamus, not by stimulating sweating. Its mechanism targets the prostaglandin E2 pathway that raises the set-point in fever.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Dengue fever</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Dengue produces a diffuse petechial or maculopapular rash, not a localised eschar. Dengue is typically urban and monsoon-associated, and its skin findings are widespread rather than focal.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Scrub typhus</div>",
+                  "text": "<div>In fever, prostaglandin E2 raises the hypothalamic set-point via COX-2, and antipyretics block this pathway; in hyperthermia, PGE2 is not driving the temperature rise</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. A small, painless eschar at the mite-bite site is pathognomonic of scrub typhus (Orientia tsutsugamushi). It is found in 50–70% of Indian cases and commonly hides in axillary folds, inguinal folds, the scalp, behind the ears, or between the toes. Only complete undressing and systematic inspection detects it.</div>",
+                    "chosenFeedback": "<div>Correct. In fever the pathway is: exogenous pyrogen → macrophage cytokines (IL-1β, IL-6, TNF-α) → COX-2 → PGE2 → set-point elevation. Antipyretics interrupt this at COX-2. In hyperthermia PGE2 plays no role, so blocking COX-2 has no therapeutic target.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Cutaneous leishmaniasis</div>",
+                  "text": "<div>Antipyretics are metabolised too rapidly at temperatures above 40°C to exert any effect</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Cutaneous leishmaniasis produces a larger, indurated nodulo-ulcerative lesion at the sandfly bite site, typically on exposed skin such as the face or limbs. It differs from the small, painless eschar characteristic of scrub typhus.</div>",
+                    "chosenFeedback": "<div>Incorrect. Antipyretic metabolism is not meaningfully altered by high body temperature. The reason they fail in hyperthermia is that PGE2-mediated set-point elevation is not the mechanism of the temperature rise.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Hyperthermia permanently damages the hypothalamus, preventing any pharmacological intervention</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. While severe hyperthermia can cause neuronal injury, the reason antipyretics fail is simpler: the temperature rise is not driven by PGE2, so blocking COX-2 has no therapeutic target. Physical cooling is needed instead.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the skin findings associated with febrile illnesses. A small painless eschar in a concealed skin fold, in a rural patient with acute fever, strongly points to scrub typhus."
+                  "feedback": "In fever, exogenous pyrogens trigger macrophage cytokines (IL-1β, IL-6, TNF-α), which activate COX-2 in the hypothalamus to produce PGE2, raising the set-point. Antipyretics block COX-2, reducing PGE2 and lowering the set-point. In hyperthermia PGE2 is not involved, so antipyretics have no target — only physical cooling works."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The pathognomonic eschar of scrub typhus is easily missed without systematic undressing and inspection of hidden skin folds — a key clinical pearl for Indian practice."
+                  "feedback": "Exactly right. In fever, prostaglandin E2 is the key mediator that raises the hypothalamic set-point. Antipyretics block COX-2 to reduce PGE2, lowering the set-point back to normal. In hyperthermia the set-point was never raised, so this entire pathway is irrelevant — physical cooling is the treatment."
                 }
               ],
               "behaviour": {
@@ -209,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "3f9029a2-25c8-49c7-a1d5-bc77540a490c",
+            "subContentId": "8bf454b9-d042-4667-9526-0a772ed27a28",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 30-year-old farmer from rural Meghalay",
+              "title": "Why are antipyretics such as paracetamol",
               "authors": [],
               "changes": []
             }
@@ -229,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 521.3,
-            "to": 531.3
+            "from": 271.6612083333333,
+            "to": 281.6612083333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>When drawing blood cultures from a febrile patient, which single factor is the m</p>",
+          "label": "<p>Why can a temperature of 37.9°C with confusion in an elderly diabetic patient in</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>When drawing blood cultures from a febrile patient, which single factor is the most important determinant of culture sensitivity?</p>",
+              "question": "<p>Why can a temperature of 37.9°C with confusion in an elderly diabetic patient indicate greater clinical danger than 40.5°C in a young athlete?</p>",
               "answers": [
                 {
-                  "text": "<div>Timing the draw to coincide with a temperature spike</div>",
+                  "text": "<div>The elderly have a lower baseline body temperature, so any rise above 37°C is always abnormal</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While traditionally emphasised, timing relative to fever spikes has less impact on sensitivity than volume. Bacteraemia is often continuous in serious infections, making timing less critical than ensuring adequate blood is collected per bottle.</div>",
+                    "chosenFeedback": "<div>Incorrect. While baseline temperature may be slightly lower in the elderly, that is not the key reason. The critical factor is their blunted immune response, which masks the severity of the underlying infection.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Collecting adequate volume (10 mL per bottle)</div>",
+                  "text": "<div>Young athletes can safely tolerate temperatures up to 42°C without organ damage</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. No individual can safely tolerate 42°C. The teaching point is that a blunted febrile response in the elderly masks the severity of the underlying infection — a modest rise may represent septic shock.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A blunted immune response in the elderly means even a modest temperature elevation can signal severe infection such as septic shock</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Adequate blood volume is the single most important determinant of blood culture sensitivity. In adults, 10 mL per bottle is the standard target. Each additional millilitre of blood increases the likelihood of isolating the pathogen.</div>",
+                    "chosenFeedback": "<div>Correct. The elderly mount an attenuated febrile response due to reduced cytokine production. A temperature of 37.9°C with altered sensorium may represent septic shock, while a young immunocompetent patient with a higher fever may have a less critical underlying cause.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Spacing the three sets at least 60 minutes apart</div>",
+                  "text": "<div>Confusion in elderly patients is always caused by medication side effects rather than infection</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The recommended interval between sets is 20–30 minutes, not 60. However, even optimal spacing is secondary to adequate volume in determining sensitivity.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Using aerobic bottles exclusively for the first set</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Both aerobic and anaerobic bottles should be inoculated from each set. The choice of bottle type does not override the importance of collecting adequate volume, which remains the key determinant of sensitivity.</div>",
+                    "chosenFeedback": "<div>Incorrect. Confusion in the elderly has many causes including infection. The key teaching point is that the host's immune status modifies how fever presents — a blunted response can mask life-threatening infection.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the key principle: volume matters more than timing. Ten millilitres per bottle is the target, and it is the single most important factor in blood culture sensitivity."
+                  "feedback": "In elderly or immunocompromised patients, the immune system produces fewer endogenous pyrogens, resulting in a blunted febrile response. A temperature of 37.9°C with confusion can therefore signal septic shock. Always assess the host alongside the temperature — treat the patient, not the number."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. In practice, ensuring 10 mL per bottle is the single most impactful step to improve blood culture yield — a point easily overlooked when technique protocols emphasise timing."
+                  "feedback": "Correct. The clinical pearl is: treat the patient, not the temperature number. A blunted immune response means fever may be minimal even in severe sepsis, making clinical signs like confusion more diagnostically important than the thermometer reading."
                 }
               ],
               "behaviour": {
@@ -319,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "94d745af-0756-421b-b79e-666659e4762a",
+            "subContentId": "93039190-1222-4be9-9812-ff4e16825739",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "When drawing blood cultures from a febri",
+              "title": "Why can a temperature of 37.9°C with con",
               "authors": [],
               "changes": []
             }
@@ -339,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 657.7749999999999,
-            "to": 667.7749999999999
+            "from": 403.4916666666667,
+            "to": 413.4916666666667
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which of the following correctly lists the four recognised categories of fever o</p>",
+          "label": "<p>A 35-year-old farmer from rural Meghalaya presents with high-grade fever for fiv</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which of the following correctly lists the four recognised categories of fever of unknown origin?</p>",
+              "question": "<p>A 35-year-old farmer from rural Meghalaya presents with high-grade fever for five days. During a thorough skin examination, you find a painless, dark, crusted lesion in the left axillary fold. This finding is most characteristic of:</p>",
               "answers": [
                 {
-                  "text": "<div>Classic, nosocomial, neutropenic, and HIV-associated</div>",
+                  "text": "<div>Scrub typhus eschar</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. These four categories are defined by the host's clinical context: classic (otherwise healthy), nosocomial (hospital-acquired, often related to lines and devices), neutropenic (requiring immediate empiric antibiotics and antifungals from day 7), and HIV-associated (stratified by CD4 count). Each has a distinct differential diagnosis and management approach.</div>",
+                    "chosenFeedback": "<div>Correct. The painless, dark, crusted eschar in a concealed body fold is pathognomonic of scrub typhus. Present in 50–70% of Indian cases, it hides in the axillae, groins, scalp, behind the ears, and between the toes — only a complete skin inspection will find it.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Acute, subacute, chronic, and relapsing</div>",
+                  "text": "<div>Cutaneous anthrax</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>These terms describe temporal patterns of fever, not the recognised FUO classification. FUO categories are defined by host context (immunocompetent, hospitalised, neutropenic, or HIV-positive), not by fever duration.</div>",
+                    "chosenFeedback": "<div>Incorrect. Anthrax eschars typically appear on exposed skin (hands, face, neck) at the site of inoculation. The axillary location and concealed nature of this lesion, combined with the rural febrile presentation, point to scrub typhus.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Bacterial, viral, fungal, and parasitic</div>",
+                  "text": "<div>Primary chancre of syphilis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>These are categories of infectious agents, not of FUO. The FUO classification is based on the clinical context of the host, not the type of pathogen. Infections are one aetiological group within classic FUO, alongside inflammatory, malignant, and miscellaneous causes.</div>",
+                    "chosenFeedback": "<div>Incorrect. A syphilitic chancre is painless but typically appears at the site of sexual inoculation (genitalia, oral mucosa). The rural occupational exposure and febrile illness with a lesion in the axillary fold are classic for scrub typhus.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Infectious, autoimmune, malignant, and drug-induced</div>",
+                  "text": "<div>Tubercular cold abscess</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>These represent aetiological subcategories within classic FUO — not the four recognised FUO categories themselves. The classification framework is based on host context, not aetiology.</div>",
+                    "chosenFeedback": "<div>Incorrect. Tubercular cold abscesses are fluctuant, non-tender swellings, not crusted eschars. They present differently from the discrete, dark, crusted lesion described here.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The four FUO categories are defined by host context: classic, nosocomial, neutropenic, and HIV-associated. Do not confuse them with aetiological subcategories or temporal fever patterns."
+                  "feedback": "The painless, dark, crusted eschar in a body fold (axilla, groin, scalp, behind ears, between toes) is pathognomonic of scrub typhus. Present in 50–70% of Indian cases, it is the single most valuable bedside finding — but only a complete skin inspection will find it."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Understanding these four host-context categories is essential because each has a distinct differential and guides a different workup strategy."
+                  "feedback": "Well done. The scrub typhus eschar clinches the diagnosis at the bedside — start doxycycline on clinical grounds. It is painless and hides in body folds, which is why undressing the patient fully for a complete skin inspection is mandatory in every febrile evaluation."
                 }
               ],
               "behaviour": {
@@ -429,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "a0a5bdfd-d33f-4e79-aba6-33da687d1357",
+            "subContentId": "4c6f0124-8feb-4464-b081-1660e3f3b99d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which of the following correctly lists t",
+              "title": "A 35-year-old farmer from rural Meghalay",
               "authors": [],
               "changes": []
             }
@@ -449,13 +391,13 @@
         },
         {
           "duration": {
-            "from": 785.3749999999999,
-            "to": 795.3749999999999
+            "from": 541.6884583333333,
+            "to": 551.6884583333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient has had fever of unknown cause for five weeks. Investigations remain i</p>",
+          "label": "<p>Two patients each have a weakly positive Widal test at the same titre. Patient A</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient has had fever of unknown cause for five weeks. Investigations remain inconclusive and tuberculosis has not been excluded. The treating physician considers starting empiric prednisolone to control the fever. What is the correct approach?</p>",
+              "question": "<p>Two patients each have a weakly positive Widal test at the same titre. Patient A is an urban software engineer with no travel history and two days of low-grade fever. Patient B has step-ladder fever and recently returned from a rural endemic area. How should these identical results be interpreted?</p>",
               "answers": [
                 {
-                  "text": "<div>Start prednisolone — if the fever responds, it confirms an inflammatory cause</div>",
+                  "text": "<div>Both results are diagnostic of enteric fever and warrant antibiotic treatment</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This is dangerous. The initial improvement from corticosteroids is deceptive. Both tuberculosis and kala-azar worsen catastrophically under immunosuppression, and fever resolution does not confirm an inflammatory aetiology.</div>",
+                    "chosenFeedback": "<div>Incorrect. A weakly positive Widal has different significance depending on the clinical context. Without a compatible clinical picture and epidemiological risk, a weak positive is likely non-specific reactivity.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Start a short low-dose prednisolone trial for 48 hours as a diagnostic test</div>",
+                  "text": "<div>Neither result is clinically useful; blood cultures should be the sole basis for diagnosis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Even a brief steroid trial is hazardous when TB or kala-azar have not been excluded. Corticosteroid-induced immunosuppression can trigger rapid dissemination of undiagnosed tuberculosis or kala-azar. There is no safe diagnostic steroid trial in this setting.</div>",
+                    "chosenFeedback": "<div>Incorrect. While blood cultures are the gold standard, serological tests like Widal are interpreted alongside clinical probability. Patient B's result, combined with the clinical picture, adds real diagnostic weight.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Start prednisolone with concurrent empiric anti-tubercular therapy as cover</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Adding anti-tubercular therapy alongside steroids may seem prudent, but the correct approach is to exclude TB and kala-azar first. Immunosuppression in active kala-azar remains equally dangerous regardless of concurrent ATT.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Withhold corticosteroids until tuberculosis and kala-azar have been definitively excluded</div>",
+                  "text": "<div>The result in Patient A is likely a false positive, while in Patient B it is clinically significant due to higher pre-test probability</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Never start empiric corticosteroids for prolonged fever without excluding tuberculosis and kala-azar. Both conditions worsen catastrophically under immunosuppression, and the apparent improvement from steroid-mediated fever suppression is deceptive. In FUO, investigation is the intervention — not empiric immunosuppression.</div>",
+                    "chosenFeedback": "<div>Correct. This is Bayes' theorem at the bedside. The same test result carries different predictive value depending on the pre-test probability. Patient B's step-ladder fever and endemic exposure create a high pre-test probability, making the weakly positive Widal clinically meaningful.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The result in Patient B is less reliable because endemic exposure increases the chance of non-specific cross-reactivity</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. While cross-reactivity exists, endemic exposure combined with a compatible clinical picture (step-ladder fever) increases the pre-test probability for enteric fever, making a positive Widal more significant, not less.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Never start empiric corticosteroids for prolonged fever without excluding tuberculosis and kala-azar. Both worsen catastrophically under immunosuppression, and the initial improvement is deceptive."
+                  "feedback": "Pre-test probability determines the meaning of any test result. A weakly positive Widal in a low-risk patient (no compatible symptoms, no endemic exposure) is likely non-specific. The same result in a patient with step-ladder fever from an endemic area is clinically significant. Always interpret investigations against the clinical picture."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. In prolonged fever of unknown origin, investigation is the primary intervention. Exclude TB and kala-azar before any corticosteroid trial — the initial improvement is deceptive."
+                  "feedback": "Exactly right. Pre-test probability, shaped by clinical features and epidemiological context, determines how any test result should be interpreted. The same titre is noise in one patient and a confirmatory finding in another — that is Bayes' theorem in clinical practice."
                 }
               ],
               "behaviour": {
@@ -539,11 +481,231 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f2e4d6c7-e17b-4744-b720-77b0bec0480b",
+            "subContentId": "16dc2dd0-c701-41d1-b29a-545d704f2012",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient has had fever of unknown cause",
+              "title": "Two patients each have a weakly positive",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 683.4991666666666,
+            "to": 693.4991666666666
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Compared to Western series, Indian fever of unknown origin has a distinct aetiol</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Compared to Western series, Indian fever of unknown origin has a distinct aetiological profile. Which statement best describes this difference?</p>",
+              "answers": [
+                {
+                  "text": "<div>Malignancies are more common in Indian FUO than in Western series, accounting for over 35% of cases</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Malignancies account for only 15–20% of Indian FUO, with lymphoma as the most common malignant cause. The dominant category in Indian FUO is infections.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Inflammatory causes account for the majority in both Indian and Western series</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Inflammatory causes (mainly adult-onset Still disease and SLE) account for 20–25% of Indian FUO — a significant proportion but not the majority. Infections are the leading category.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Drug fever is the leading cause of Indian FUO, accounting for over 30% of cases</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Drug fever falls in the miscellaneous category, which accounts for a small proportion of FUO. In Indian series, infections dominate the aetiological profile.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Infections dominate Indian FUO at 35–40%, led by extrapulmonary tuberculosis, whereas infections are far less prominent in Western series</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. In Indian FUO series, infections account for 35–40% of cases, with extrapulmonary tuberculosis as the leading cause, followed by endocarditis, kala-azar, and brucellosis. This infection-dominant profile differs markedly from Western data and directly shapes the initial diagnostic approach.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "In Indian FUO series, infections lead at 35–40%, with extrapulmonary tuberculosis as the commonest cause. Inflammatory conditions (mainly adult-onset Still disease and SLE) follow at 20–25%, and malignancies (mainly lymphoma) at 15–20%. This infection-dominant profile differs from Western series and should guide the initial workup."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. The Indian FUO profile is infection-dominant, with extrapulmonary TB as the leading cause. This has direct implications — always prioritise TB, kala-azar, and endocarditis in the initial workup of an Indian patient with FUO."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "70d5e779-36ec-4129-87fa-2db43c415501",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Compared to Western series, Indian fever",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 815.7847499999999,
+            "to": 825.7847499999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>During a fever of unknown origin workup, a colleague suggests starting empiric c</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>During a fever of unknown origin workup, a colleague suggests starting empiric corticosteroids because the patient's presentation suggests an inflammatory condition. What is the most important reason to withhold corticosteroids at this stage?</p>",
+              "answers": [
+                {
+                  "text": "<div>Corticosteroids are ineffective against inflammatory causes of prolonged fever</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Corticosteroids ARE effective in many inflammatory conditions (SLE, adult-onset Still disease), which is precisely why the initial improvement is deceptive. The danger lies in what they do to undiagnosed infections lurking beneath the inflammatory picture.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Tuberculosis and visceral leishmaniasis must be excluded first, as both worsen catastrophically under immunosuppression</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Empiric corticosteroids in a patient with undiagnosed TB or kala-azar cause disease flare and can be fatal. The initial clinical improvement is deceptive — it reflects suppression of the immune response, not disease control. Always exclude these infections before starting immunosuppressive therapy.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Corticosteroids interfere with blood culture sensitivity and make microbiological diagnosis impossible</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. While immunosuppression can affect some test results, the critical danger is clinical: undiagnosed tuberculosis and kala-azar worsen catastrophically under corticosteroids. The initial improvement is deceptive.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Empiric treatment of any kind is always contraindicated in fever of unknown origin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Empiric treatment IS appropriate in specific FUO settings — for example, neutropenic FUO requires immediate broad-spectrum antibiotics, and febrile neutropenia demands antibiotics within one hour. The specific concern here is about corticosteroids masking and worsening TB or kala-azar.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "In Indian FUO, tuberculosis and visceral leishmaniasis are common causes. Both worsen catastrophically under corticosteroids — the initial clinical improvement is deceptive and reflects immune suppression, not disease control. Always exclude TB and kala-azar before starting empiric corticosteroids."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. TB and kala-azar are leading causes of FUO in India, and both worsen dramatically under immunosuppression. The initial improvement with steroids is deceptive — never start empiric corticosteroids without first excluding these infections."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "e12fec90-92b9-432b-821e-02eb5b018a56",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "During a fever of unknown origin workup,",
               "authors": [],
               "changes": []
             }
@@ -568,57 +730,57 @@
           "label": "A 22-year-old agricultural worker from Odisha arrives on…"
         },
         {
-          "time": 55,
+          "time": 58,
           "label": "Building on what you know about the hypothalamic thermost…"
         },
         {
-          "time": 131,
+          "time": 138,
           "label": "In India, infectious diseases account for most cases of f…"
         },
         {
-          "time": 195,
+          "time": 203,
           "label": "Not every patient mounts a textbook fever."
         },
         {
-          "time": 261,
+          "time": 272,
           "label": "When a patient arrives with fever, your first task is not…"
         },
         {
-          "time": 322,
+          "time": 335,
           "label": "Fever pattern tells you which pathogen is most likely, be…"
         },
         {
-          "time": 388,
+          "time": 403,
           "label": "Sepsis is the most dangerous febrile syndrome."
         },
         {
-          "time": 449,
+          "time": 465,
           "label": "Every test must answer a specific question from your clin…"
         },
         {
-          "time": 521,
+          "time": 542,
           "label": "The Mantoux test injects five tuberculin units of purifie…"
         },
         {
-          "time": 579,
+          "time": 600,
           "label": "Think back to the opening case: five weeks of fever, thre…"
         },
         {
-          "time": 658,
+          "time": 683,
           "label": "The diagnostic strategy for fever of unknown origin follo…"
         },
         {
-          "time": 715,
+          "time": 742,
           "label": "Empiric treatment begins before the lab confirms your dia…"
         },
         {
-          "time": 785,
+          "time": 816,
           "label": "At forty-eight to seventy-two hours, assess the temperatu…"
         }
       ],
       "endscreens": [
         {
-          "time": 856,
+          "time": 890,
           "label": "End"
         }
       ]
@@ -630,7 +792,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "c6d6a26c-d61a-4ced-af79-0adc76a2e8f7",
+              "subContentId": "9dcd96cc-a3e7-4d6a-938a-57eb42432765",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -653,7 +815,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "67f50e05-b122-490c-87d1-37fd61af063f",
+        "subContentId": "81d3d135-8553-4367-97b1-0eef30a684c3",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
