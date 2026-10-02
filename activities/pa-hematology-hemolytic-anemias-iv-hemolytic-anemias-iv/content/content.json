@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/57637fe5-7a4a-457a-9b8f-f7d1d9694f1b/playlist.m3u8",
+          "path": "https://vdo.cbme.in/5f5c914b-cc83-4392-a5a8-2ce04b0efc22/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PA16.1-3 | Hemolytic Anemias — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 6 embedded questions for PA16.1-PA16.3."
+        "shortStartDescription": "Interactive lecture with 7 embedded questions for PA16.1-PA16.3."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,47 +61,99 @@
       "interactions": [
         {
           "duration": {
-            "from": 189.79999999999998,
-            "to": 199.79999999999998
+            "from": 193.75816666666665,
+            "to": 203.75816666666665
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Paroxysmal nocturnal haemoglobinuria is an acquired haemolytic anaemia, yet the </p>",
+          "label": "<p>Paroxysmal nocturnal haemoglobinuria is a unique exception in the classification</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Paroxysmal nocturnal haemoglobinuria is an acquired haemolytic anaemia, yet the underlying defect is intracorpuscular.</p>",
-              "correct": "true",
+              "question": "<p>Paroxysmal nocturnal haemoglobinuria is a unique exception in the classification of haemolytic anaemias because it is:</p>",
+              "answers": [
+                {
+                  "text": "<div>A hereditary condition with an extracorpuscular defect</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. PNH is an acquired disorder caused by a somatic PIG-A gene mutation, not an inherited one.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>An acquired condition with an intracorpuscular defect</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. PNH arises from a somatic PIG-A mutation within the haematopoietic stem cell, making the defect intracorpuscular. Yet it is acquired, not inherited — the only haemolytic anaemia that breaks the general rule that intracorpuscular defects are hereditary.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A hereditary condition that causes intravascular haemolysis only</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. PNH is acquired, not hereditary. While it does cause intravascular haemolysis, its uniqueness lies in being acquired yet intracorpuscular.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>An acquired condition with an extracorpuscular defect</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Most acquired haemolytic anaemias are extracorpuscular, but PNH is the exception — its defect (loss of CD55 and CD59) sits within the red cell itself.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "PNH is unique because it breaks the general rule: nearly all intracorpuscular defects are hereditary, but PNH is acquired. The somatic PIG-A mutation removes complement regulators from the cell surface — an intrinsic defect that is not inherited."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. PNH is the sole acquired intracorpuscular haemolytic anaemia, breaking the general rule that intracorpuscular defects are hereditary."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is true. PNH is both acquired (the PIG-A mutation arises somatically after birth) and intracorpuscular (the defect — loss of CD55 and CD59 from the red cell membrane — lies within the cell). It is the only acquired haemolytic anaemia with an intracorpuscular defect, breaking the general rule that intracorpuscular defects are hereditary.",
-                "correctAnswerMessage": "Correct. PNH arises from a somatic PIG-A mutation in haematopoietic stem cells, making it acquired. However, the resulting loss of GPI-anchored complement regulators (CD55 and CD59) is a defect within the red cell itself — intracorpuscular. This makes PNH the sole exception to the rule that intracorpuscular defects are hereditary.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f6bf9bb1-ac33-494b-88a4-5ac4afeb379a",
+            "subContentId": "8cef5faa-17bd-4d4c-8720-a49435a6c149",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
               "title": "Paroxysmal nocturnal haemoglobinuria is",
               "authors": [],
@@ -119,13 +171,71 @@
         },
         {
           "duration": {
-            "from": 393.17499999999995,
-            "to": 403.17499999999995
+            "from": 290.42516666666666,
+            "to": 300.42516666666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which single haematological parameter best distinguishes sickle cell disease fro</p>",
+          "label": "<p>In haemolytic anaemia, the jaundice produces dark-coloured urine and pale stools</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>In haemolytic anaemia, the jaundice produces dark-coloured urine and pale stools.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Haemolytic jaundice is acholuric. The unconjugated bilirubin produced by red cell destruction is not water-soluble and cannot pass into the urine. Both urine and stool colour remain normal. Dark urine and pale stools point to obstructive jaundice, where conjugated bilirubin cannot reach the gut.",
+                "correctAnswerMessage": "Correct. Haemolytic jaundice is acholuric — the excess unconjugated bilirubin is lipid-soluble and protein-bound, so it cannot be filtered by the kidneys. Urine and stool colour remain normal. Dark urine with pale stools is the hallmark of obstructive jaundice.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "4a39639e-8b67-4325-a0c0-20a6c8a2372e",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "In haemolytic anaemia, the jaundice prod",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 404.87220833333333,
+            "to": 414.87220833333333
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In sickle cell disease, Howell-Jolly bodies appear on the peripheral blood smear</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which single haematological parameter best distinguishes sickle cell disease from beta-thalassaemia major?</p>",
+              "question": "<p>In sickle cell disease, Howell-Jolly bodies appear on the peripheral blood smear because:</p>",
               "answers": [
                 {
-                  "text": "<div>Reticulocyte count</div>",
+                  "text": "<div>Haemoglobin S polymer damages the red cell nucleus directly</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Both sickle cell disease and thalassaemia show elevated reticulocytes as a marker of increased erythropoiesis. The reticulocyte count confirms haemolysis but does not differentiate between the two conditions.</div>",
+                    "chosenFeedback": "<div>Incorrect. Mature red cells are anucleate. Howell-Jolly bodies are nuclear remnants that a functional spleen would normally remove, not a result of direct nuclear damage.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Serum haptoglobin level</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Haptoglobin is reduced in both conditions as it binds free haemoglobin released during haemolysis. It confirms haemolysis but cannot distinguish between sickle cell disease and thalassaemia.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Mean corpuscular volume (MCV)</div>",
+                  "text": "<div>Repeated splenic infarctions render the patient functionally asplenic</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. MCV is normal in sickle cell disease but reduced (microcytic) in thalassaemia. This reflects the fundamental difference: SCD has a qualitative defect (abnormal HbS) with normal-sized cells, while thalassaemia has a quantitative defect (reduced chain production) yielding small, pale cells.</div>",
+                    "chosenFeedback": "<div>Correct. In sickle cell disease, sickled red cells repeatedly infarct the spleen, progressively destroying it by late childhood. Without a functioning spleen, nuclear remnants (Howell-Jolly bodies) persist in circulating red cells.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Haemoglobin F percentage</div>",
+                  "text": "<div>Bone marrow stress releases nucleated red cells prematurely</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>HbF is elevated in both conditions — it rises as a compensatory mechanism in sickle cell disease and dominates (&gt;90%) in beta-thalassaemia major due to absent beta-chain production. It does not reliably distinguish the two.</div>",
+                    "chosenFeedback": "<div>Incorrect. Nucleated red cells may be released under marrow stress, but Howell-Jolly bodies are small nuclear remnants in mature cells that persist because the spleen can no longer remove them.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Iron overload from chronic transfusions impairs splenic macrophage function</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. While transfusional iron overload can occur, Howell-Jolly bodies in sickle cell disease result from progressive autosplenectomy due to repeated splenic infarctions, not iron toxicity.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "MCV is the key discriminator. Sickle cell disease has a qualitative defect (abnormal HbS) producing normal-sized cells, while thalassaemia has a quantitative defect (reduced chain production) causing microcytosis."
+                  "feedback": "Howell-Jolly bodies appear because the spleen, which normally removes nuclear remnants, is progressively destroyed by repeated sickling-induced infarctions — a process called autosplenectomy."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done! MCV is normal in sickle cell disease (qualitative defect) and low in thalassaemia (quantitative defect) — a quick bedside discriminator between these two haemoglobinopathies."
+                  "feedback": "Well done. Autosplenectomy from repeated infarctions is a hallmark of sickle cell disease. Howell-Jolly bodies are the smear evidence that the spleen is no longer functional."
                 }
               ],
               "behaviour": {
@@ -209,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "175d9dc1-7002-448d-ac4a-c9397fa7b2dd",
+            "subContentId": "7d4008ab-59c4-4362-b715-053af8fb43dc",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which single haematological parameter be",
+              "title": "In sickle cell disease, Howell-Jolly bod",
               "authors": [],
               "changes": []
             }
@@ -229,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 532.825,
-            "to": 542.825
+            "from": 548.9870000000001,
+            "to": 558.9870000000001
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 22-year-old woman has microcytic hypochromic anaemia with a haemoglobin of 10 </p>",
+          "label": "<p>In beta-thalassaemia major, the predominant mechanism of anaemia is:</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 22-year-old woman has microcytic hypochromic anaemia with a haemoglobin of 10 g/dL. Which investigation will most reliably distinguish beta-thalassaemia trait from iron deficiency anaemia?</p>",
+              "question": "<p>In beta-thalassaemia major, the predominant mechanism of anaemia is:</p>",
               "answers": [
                 {
-                  "text": "<div>Peripheral blood smear morphology</div>",
+                  "text": "<div>Peripheral destruction of red cells by splenic macrophages</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Both conditions show microcytic hypochromic cells and may feature target cells. Morphological overlap is too significant for reliable discrimination on the smear alone.</div>",
+                    "chosenFeedback": "<div>Incorrect. While some peripheral destruction occurs, the predominant mechanism is ineffective erythropoiesis — destruction of red cell precursors within the marrow itself, before they are released.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Haemoglobin electrophoresis showing HbA2 level</div>",
+                  "text": "<div>Autoimmune-mediated red cell lysis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Thalassaemia is a genetic disorder of globin chain production, not an autoimmune process. The anaemia results from imbalanced globin chains damaging precursors in the marrow.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Precipitation of excess unpaired alpha chains destroying erythroid precursors in the marrow</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. HbA2 above 3.5% on electrophoresis or HPLC is the single most reliable discriminator for beta-thalassaemia trait. In iron deficiency, HbA2 remains normal or may be slightly reduced. This distinction is critical because iron therapy in thalassaemia is unnecessary and potentially harmful.</div>",
+                    "chosenFeedback": "<div>Correct. In beta-thalassaemia major, absent or reduced beta chains leave excess alpha chains that precipitate as inclusion bodies within developing erythroid precursors. This intramedullary destruction is called ineffective erythropoiesis and is the primary cause of anaemia.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Serum ferritin level</div>",
+                  "text": "<div>Reduced iron absorption leading to inadequate haemoglobin synthesis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Ferritin can be misleadingly normal in thalassaemia trait with concurrent iron deficiency. As an acute-phase reactant, it also rises during infection, reducing its discriminatory value in isolation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Reticulocyte count</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The reticulocyte count may be mildly elevated in thalassaemia trait and normal or low in iron deficiency, but this difference is not consistent enough for reliable discrimination between the two.</div>",
+                    "chosenFeedback": "<div>Incorrect. Iron absorption is actually increased in thalassaemia due to suppressed hepcidin. The anaemia is caused by destruction of red cell precursors from precipitated excess alpha chains, not iron deficiency.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "HbA2 level is the answer. In beta-thalassaemia trait, excess alpha chains pair with delta chains, raising HbA2 above 3.5%. In iron deficiency, HbA2 stays normal. This test prevents harmful iron therapy in thalassaemia."
+                  "feedback": "In beta-thalassaemia major, excess unpaired alpha chains precipitate as inclusion bodies within erythroid precursors in the bone marrow, destroying them before they mature. This process — ineffective erythropoiesis — is the primary mechanism, unlike sickle cell disease where destruction is peripheral."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent! HbA2 >3.5% on electrophoresis or HPLC confirms beta-thalassaemia trait and prevents inappropriate iron supplementation."
+                  "feedback": "Exactly right. Ineffective erythropoiesis — intramedullary destruction of precursors by precipitated alpha chain inclusions — distinguishes beta-thalassaemia from sickle cell disease, where haemolysis is peripheral."
                 }
               ],
               "behaviour": {
@@ -319,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "83d12c4b-218c-4b65-bc77-800b75d41b33",
+            "subContentId": "d601c8c4-5715-4dcc-b67a-526b3e1e1f26",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 22-year-old woman has microcytic hypoc",
+              "title": "In beta-thalassaemia major, the predomin",
               "authors": [],
               "changes": []
             }
@@ -339,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 808.025,
-            "to": 818.025
+            "from": 826.537375,
+            "to": 836.537375
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with autoimmune haemolytic anaemia has a positive direct antiglobulin </p>",
+          "label": "<p>In cold autoimmune haemolytic anaemia, the direct antiglobulin test (Coombs test</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +464,261 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with autoimmune haemolytic anaemia has a positive direct antiglobulin test showing C3d positivity but IgG negativity. Which type of AIHA does this pattern indicate?</p>",
+              "question": "<p>In cold autoimmune haemolytic anaemia, the direct antiglobulin test (Coombs test) typically shows:</p>",
+              "answers": [
+                {
+                  "text": "<div>IgG positive, C3d negative</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. This pattern indicates warm autoimmune haemolytic anaemia, where IgG antibodies bind red cells at body temperature. In cold AIHA, IgM is the pathogenic antibody.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>IgG negative, C3d positive</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. In cold AIHA, IgM antibodies bind red cells in the cool periphery and activate complement, depositing C3d. When blood returns to body temperature, IgM dissociates but C3d remains on the cell surface. The DAT therefore detects complement but not immunoglobulin.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Both IgG and C3d positive</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. A dual-positive result suggests mixed-type autoimmune haemolytic anaemia. Pure cold AIHA shows C3d positivity only because the IgM antibody dissociates at body temperature.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Both IgG and C3d negative</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. A completely negative DAT points toward non-immune causes of haemolysis. Cold AIHA does leave a complement footprint — C3d — on the red cell surface.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "In cold AIHA, IgM binds at low temperatures and activates complement (C3d) on red cells. At 37°C, IgM dissociates but C3d stays. The DAT therefore shows C3d positive with IgG negative — distinguishing it from warm AIHA, which shows IgG positive."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. The key insight is that IgM binds red cells only in the cold periphery and detaches at body temperature, but the complement it activates (C3d) remains fixed — giving the characteristic C3d-only pattern."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "24b0601a-cfee-439a-acbe-fe7656cc7073",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In cold autoimmune haemolytic anaemia, t",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 920.776625,
+            "to": 930.776625
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In thrombotic thrombocytopenic purpura, the pathological mechanism that drives r</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In thrombotic thrombocytopenic purpura, the pathological mechanism that drives red cell fragmentation is:</p>",
+              "answers": [
+                {
+                  "text": "<div>Shiga toxin–mediated endothelial injury in glomerular capillaries</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Shiga toxin–mediated endothelial damage is the mechanism in haemolytic uraemic syndrome, not TTP. Both produce schistocytes, but the underlying defect differs.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Deficiency of ADAMTS13 allowing ultra-large von Willebrand factor multimers to persist and seed platelet microthrombi</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. ADAMTS13 normally cleaves ultra-large VWF multimers. When deficient, these multimers persist and cause platelet microthrombi throughout the microvasculature. Red cells shearing against these fibrin-platelet strands fragment into schistocytes.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Somatic PIG-A mutation removing complement regulators from the red cell membrane</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Loss of complement regulators CD55 and CD59 from a PIG-A mutation describes paroxysmal nocturnal haemoglobinuria, not TTP.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Direct parasitic invasion and rupture of red blood cells</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Direct parasitic destruction of red cells describes malaria, particularly falciparum infection. TTP involves mechanical fragmentation of red cells by microthrombi, not infection.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "In TTP, ADAMTS13 deficiency lets ultra-large von Willebrand factor multimers persist in the circulation. These seed platelet microthrombi that mechanically shear red cells into schistocytes. This is a haematological emergency requiring urgent plasmapheresis."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. ADAMTS13 deficiency is the central defect in TTP. Urgent plasmapheresis to replace ADAMTS13 and remove the ultra-large multimers is the treatment — making this a haematological emergency."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "5bd81d54-17ea-462b-9b2b-c9e2bca39dfb",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In thrombotic thrombocytopenic purpura,",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 1075.1346666666666,
+            "to": 1085.1346666666666
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A patient with confirmed haemolysis has spherocytes on the peripheral blood smea</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient with confirmed haemolysis has spherocytes on the peripheral blood smear and a negative direct antiglobulin test. The most likely diagnosis is:</p>",
               "answers": [
                 {
                   "text": "<div>Warm autoimmune haemolytic anaemia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Warm AIHA is characterised by IgG positivity on the DAT, with or without C3d. IgG antibodies bind at body temperature and coat the red cell surface directly, making IgG the hallmark of warm disease.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Drug-induced haemolytic anaemia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Drug-induced haemolytic anaemia typically produces an IgG-positive DAT, resembling the warm AIHA pattern. The isolated C3d pattern without IgG is characteristic of cold agglutinin disease.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Mixed-type autoimmune haemolytic anaemia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Mixed-type AIHA shows both IgG and C3d positivity on the DAT. Isolated C3d positivity without IgG specifically points to cold AIHA, not a mixed pattern.</div>",
+                    "chosenFeedback": "<div>Incorrect. Warm AIHA does produce spherocytes, but the direct antiglobulin test would be positive for IgG. A negative DAT with spherocytes points to an intrinsic membrane defect.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
                   "text": "<div>Cold autoimmune haemolytic anaemia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Cold AIHA shows red cell agglutination on the smear, not isolated spherocytes. The DAT would also show C3d positivity.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Hereditary spherocytosis</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In cold AIHA, IgM antibodies bind at low temperatures in peripheral vessels and activate complement, depositing C3b (later degraded to C3d) on the red cell. At body temperature, IgM dissociates, leaving only C3d detectable on the DAT — hence the C3d-positive, IgG-negative pattern.</div>",
+                    "chosenFeedback": "<div>Correct. The diagnostic algorithm directs: spherocytes on the smear → perform DAT. A positive DAT confirms warm AIHA; a negative DAT points to hereditary spherocytosis, where an intrinsic membrane protein defect (spectrin, ankyrin, or band 3) produces spherocytes without immune coating.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Microangiopathic haemolytic anaemia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. MAHA produces schistocytes (fragmented helmet-shaped cells), not spherocytes. The morphological pattern on the smear is the first triage step in the diagnostic algorithm.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +727,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In cold AIHA, IgM binds at low temperatures and activates complement, depositing C3d on the red cell. At body temperature, IgM dissociates — so only C3d remains on the DAT. IgG positivity would indicate warm or mixed AIHA."
+                  "feedback": "The algorithm teaches: spherocytes → DAT. DAT positive = warm AIHA. DAT negative = hereditary spherocytosis. The membrane protein defect in hereditary spherocytosis produces spherocytes independently of any immune mechanism."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct! The C3d-only pattern on DAT is the signature of cold AIHA — IgM binds in the periphery, activates complement, then dissociates at body temperature, leaving only C3d behind."
+                  "feedback": "Well done. You applied the three-step algorithm correctly: confirm haemolysis, read the smear morphology, then use the DAT to distinguish immune from non-immune causes."
                 }
               ],
               "behaviour": {
@@ -429,231 +759,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "044718dc-6ea2-4538-ab49-730537ad8327",
+            "subContentId": "2a68deaa-3941-4dbc-9377-2768068bc372",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with autoimmune haemolytic ana",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 900.4,
-            "to": 910.4
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>Thrombotic thrombocytopenic purpura (TTP) is a haematological emergency. Which m</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>Thrombotic thrombocytopenic purpura (TTP) is a haematological emergency. Which mechanism underlies the formation of platelet microthrombi in TTP?</p>",
-              "answers": [
-                {
-                  "text": "<div>Autoantibodies against platelet glycoprotein IIb/IIIa</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Antibodies against glycoprotein IIb/IIIa cause immune thrombocytopenic purpura (ITP), which destroys platelets without causing microangiopathic haemolysis or schistocyte formation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Deficiency of ADAMTS13, allowing ultra-large von Willebrand factor multimers to persist</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. ADAMTS13 normally cleaves ultra-large von Willebrand factor multimers. When ADAMTS13 is deficient, these multimers persist and seed platelet-rich microthrombi in small vessels, shearing red cells into schistocytes. Urgent plasmapheresis replaces the missing enzyme.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Disseminated intravascular coagulation consuming clotting factors</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>DIC produces widespread fibrin deposition and can cause schistocytes, but through a different mechanism — consumption of clotting factors and fibrinogen. TTP specifically involves ADAMTS13 deficiency and ultra-large vWF multimers.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Somatic PIG-A mutation removing complement regulators from red cells</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>PIG-A mutation causes paroxysmal nocturnal haemoglobinuria (PNH), where unregulated complement activation lyses red cells. This is a separate mechanism from TTP's platelet-driven microangiopathic process.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "TTP is caused by ADAMTS13 deficiency. Without this enzyme, ultra-large von Willebrand factor multimers persist in the circulation and seed platelet microthrombi, causing schistocyte formation and the classic pentad. Urgent plasmapheresis is the treatment."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done! ADAMTS13 deficiency allows ultra-large vWF multimers to persist, seeding platelet microthrombi that shear red cells — the hallmark of TTP, treated with urgent plasmapheresis."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "b8c96a5b-38c5-4ca4-839b-0848f400b1c9",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "Thrombotic thrombocytopenic purpura (TTP",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 1051.7,
-            "to": 1061.7
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A patient presents with anaemia and jaundice. The peripheral smear shows fragmen</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A patient presents with anaemia and jaundice. The peripheral smear shows fragmented, helmet-shaped red cells (schistocytes). According to the diagnostic algorithm, the most appropriate next step is:</p>",
-              "answers": [
-                {
-                  "text": "<div>Direct antiglobulin test (Coombs test)</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The DAT is indicated when spherocytes (small dense cells without central pallor) are seen, pointing to immune-mediated haemolysis. Schistocytes indicate mechanical shearing, not antibody-mediated destruction.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Haemoglobin electrophoresis</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Electrophoresis is indicated when sickle cells or microcytic hypochromic cells with basophilic stippling are seen. Schistocytes point to a microangiopathic process, not a haemoglobinopathy.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Platelet count, coagulation screen, and ADAMTS13 activity</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Schistocytes indicate microangiopathic haemolytic anaemia, where fibrin strands and microthrombi shear red cells. The critical next step evaluates for thrombotic thrombocytopenic purpura — a haematological emergency requiring urgent plasmapheresis — alongside DIC and other causes of MAHA.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Glucose-6-phosphate dehydrogenase assay</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>G6PD assay is indicated when bite cells are seen, pointing to oxidative red cell damage. Schistocytes indicate mechanical fragmentation, requiring a microangiopathic haemolytic anaemia workup.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Schistocytes (fragmented, helmet-shaped cells) signal mechanical red cell shearing. The diagnostic algorithm directs you to a MAHA workup — platelet count, coagulation screen, and ADAMTS13 activity — because TTP is a haematological emergency requiring urgent plasmapheresis."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done! The smear-based algorithm maps each morphological pattern to a specific workup: schistocytes → MAHA investigation, because TTP is a treatable emergency that must not be missed."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "c85e9de4-68be-46fb-8003-887b926e639a",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A patient presents with anaemia and jaun",
+              "title": "A patient with confirmed haemolysis has",
               "authors": [],
               "changes": []
             }
@@ -671,48 +781,48 @@
       "bookmarks": [
         {
           "time": 0,
-          "label": "Welcome to PA Hematology — Hemolytic Anemias."
+          "label": "Welcome to Hematology — Hemolytic Anemias."
         },
         {
-          "time": 4,
+          "time": 3,
           "label": "A nineteen-year-old from Tamil Nadu has had yellow eyes s…"
         },
         {
-          "time": 96,
+          "time": 95,
           "label": "Every haemolytic anaemia maps onto three classification a…"
         },
         {
-          "time": 190,
+          "time": 194,
           "label": "Haemolytic anaemias present with a clinical triad: anaemi…"
         },
         {
-          "time": 284,
+          "time": 291,
           "label": "Building on our classification framework, think back to t…"
         },
         {
-          "time": 394,
+          "time": 405,
           "label": "Building on what you saw with sickle cell disease, thalas…"
         },
         {
-          "time": 533,
+          "time": 549,
           "label": "In hereditary spherocytosis, spectrin, ankyrin, or band 3…"
         },
         {
-          "time": 599,
+          "time": 617,
           "label": "A 28-year-old woman develops acute haemolysis days after…"
         },
         {
-          "time": 809,
+          "time": 827,
           "label": "These are non-immune haemolytic anaemias; the direct anti…"
         },
         {
-          "time": 901,
+          "time": 921,
           "label": "We've covered the individual causes of haemolytic anaemia…"
         }
       ],
       "endscreens": [
         {
-          "time": 1084,
+          "time": 1109,
           "label": "End"
         }
       ]
@@ -724,7 +834,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "077b06a1-2d4e-4b26-9d73-69653da0809e",
+              "subContentId": "d1e30f08-0122-4470-8ba3-1ab94ee152a1",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -747,7 +857,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "aef6d85d-22a4-4c9f-a7d8-ba4df3b45336",
+        "subContentId": "1b606f70-7bf3-4be3-bba8-1f05e60bc604",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
