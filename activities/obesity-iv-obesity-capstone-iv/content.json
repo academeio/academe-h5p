@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/596ae6ad-1dc5-4b8f-84b7-17ba7a8d2c5a/playlist.m3u8",
+          "path": "https://vdo.cbme.in/db6d0b8a-652d-4465-8d00-0936f9b887a6/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,71 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 64.325,
-            "to": 74.325
+            "from": 142.90004166666665,
+            "to": 152.90004166666665
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>According to Asian-Indian criteria, a BMI of 26 kg/m² is classified as overweigh</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>According to Asian-Indian criteria, a BMI of 26 kg/m² is classified as overweight.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. The video states that by Asian-Indian criteria, a BMI of 26 is frank obesity — not just overweight. Western charts may call it mildly overweight, but Indian thresholds are lower because of the higher visceral fat burden in South Asians.",
-                "correctAnswerMessage": "Well identified. By Asian-Indian criteria, a BMI of 26 is frank obesity, not merely overweight. South Asians accumulate more visceral fat at any given BMI, so the obesity threshold is set lower than in Western populations.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "b0d95c23-f905-424b-81a5-9ac2db340f83",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "According to Asian-Indian criteria, a BM",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 259.725,
-            "to": 269.725
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>In monogenic obesity, single-gene mutations disrupt a specific hypothalamic circ</p>",
+          "label": "<p>According to Asian-Indian consensus cut-offs, a patient with a BMI of 26 kg/m² i</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In monogenic obesity, single-gene mutations disrupt a specific hypothalamic circuit that controls appetite. Which pathway is primarily affected?</p>",
+              "question": "<p>According to Asian-Indian consensus cut-offs, a patient with a BMI of 26 kg/m² is classified as:</p>",
               "answers": [
                 {
-                  "text": "<div>Hypothalamic-pituitary-thyroid axis</div>",
+                  "text": "<div>Normal weight</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The HPT axis regulates metabolism through thyroid hormones. While hypothyroidism causes weight gain, it is a secondary cause of obesity — not the pathway disrupted in monogenic forms.</div>",
+                    "chosenFeedback": "<div>By Western criteria BMI 26 appears near-normal, but South Asians carry significantly more visceral fat at any given BMI. Indian thresholds are set lower to capture this risk.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Leptin-melanocortin pathway</div>",
+                  "text": "<div>Overweight</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Asian-Indian overweight begins at BMI 23, but BMI 26 exceeds the Indian obesity threshold of 25 kg/m². This patient has crossed into the obese category.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Obese</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The leptin-melanocortin pathway in the hypothalamus is the main circuit controlling appetite. Mutations at key points — including the leptin receptor, POMC, and MC4R (the commonest) — produce severe, early-onset obesity.</div>",
+                    "chosenFeedback": "<div>Correct. Asian-Indian consensus defines obesity as BMI ≥ 25 kg/m² because South Asians develop metabolically dangerous visceral fat at lower body weights than Western populations.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Renin-angiotensin-aldosterone system</div>",
+                  "text": "<div>Morbidly obese</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The RAAS regulates blood pressure and fluid balance, not appetite. Monogenic obesity results from disruption of the leptin-melanocortin pathway, the hypothalamic circuit controlling appetite.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Dopamine reward pathway</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While dopamine influences food reward and eating behaviour, monogenic obesity specifically involves mutations disrupting the leptin-melanocortin pathway — not the dopamine system.</div>",
+                    "chosenFeedback": "<div>Morbid obesity requires a substantially higher BMI (typically ≥ 37.5 by Indian standards). A BMI of 26 crosses the Indian obesity cut-off of 25 but is not in the morbid range.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Monogenic obesity results from single-gene mutations disrupting the leptin-melanocortin pathway — the hypothalamic circuit controlling appetite. Key mutation sites include LEPR, POMC, and MC4R (the commonest)."
+                  "feedback": "By Western criteria BMI 26 appears only mildly overweight. However, South Asians carry more visceral fat at the same BMI, so Indian consensus sets the obesity threshold at 25 kg/m², making BMI 26 frank obesity."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. The leptin-melanocortin pathway is the hypothalamic appetite-regulation circuit. MC4R mutations are the commonest single-gene disruption of this pathway."
+                  "feedback": "Exactly right. South Asians accumulate more visceral fat at any given BMI, which is why Indian obesity begins at 25 kg/m² — five points lower than the Western cut-off of 30."
                 }
               ],
               "behaviour": {
@@ -209,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "7834519c-920c-4f8d-8e70-1ce1099ba22f",
+            "subContentId": "b0102d86-1452-46b6-847f-d4e2ce189a88",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In monogenic obesity, single-gene mutati",
+              "title": "According to Asian-Indian consensus cut-",
               "authors": [],
               "changes": []
             }
@@ -229,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 450.625,
-            "to": 460.625
+            "from": 358.10254166666664,
+            "to": 368.10254166666664
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which of the following patients meets the criteria for a comprehensive obesity e</p>",
+          "label": "<p>According to the International Diabetes Federation criteria for metabolic syndro</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which of the following patients meets the criteria for a comprehensive obesity evaluation as described in this session?</p>",
+              "question": "<p>According to the International Diabetes Federation criteria for metabolic syndrome, which of the following is the MANDATORY starting criterion?</p>",
               "answers": [
                 {
-                  "text": "<div>A 25-year-old with BMI 22 and a family history of type 2 diabetes</div>",
+                  "text": "<div>Fasting glucose ≥ 100 mg/dL</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While a family history of diabetes warrants monitoring, a BMI of 22 does not meet the evaluation threshold. A full evaluation is triggered at BMI ≥23, an obesity-related complication, or weight gain ≥5 kg in 3 months.</div>",
+                    "chosenFeedback": "<div>Elevated fasting glucose is one of the four additional criteria. Any two of four must be present alongside the mandatory starting criterion of central obesity.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A 35-year-old with BMI 21 who gained 3 kg over 6 months</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Neither the BMI (21, below threshold) nor the weight gain (3 kg in 6 months, below the ≥5 kg in 3 months trigger) meets evaluation criteria.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>A 30-year-old with BMI 24 and no comorbidities</div>",
+                  "text": "<div>Central obesity defined by population-specific waist circumference thresholds</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. By Indian criteria, BMI ≥23 triggers a full evaluation regardless of comorbidities. A BMI of 24 is already overweight and warrants comprehensive assessment.</div>",
+                    "chosenFeedback": "<div>Correct. The IDF requires central obesity as the mandatory starting point — waist ≥ 90 cm in Indian men, ≥ 80 cm in Indian women — plus any two of four additional criteria (triglycerides, HDL, BP, glucose).</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A 40-year-old with BMI 22 and mild lower back pain</div>",
+                  "text": "<div>Triglycerides ≥ 150 mg/dL</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A BMI of 22 is below the evaluation threshold of 23, and non-specific back pain is not an obesity-related complication. This patient does not meet the evaluation triggers described.</div>",
+                    "chosenFeedback": "<div>Raised triglycerides are one of the four additional criteria, not the mandatory starting component of the IDF framework.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Blood pressure ≥ 130/85 mmHg</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Raised blood pressure is one of the four additional criteria. The IDF framework places central obesity — not any single metabolic marker — as the required entry point.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "A full obesity evaluation is warranted for any patient with BMI ≥23, any obesity-related complication, or weight gain ≥5 kg in 3 months. By Indian criteria, BMI 24 already exceeds the threshold — no comorbidity is needed to trigger evaluation."
+                  "feedback": "The IDF criteria require central obesity as the mandatory starting criterion, using population-specific waist cut-offs (≥ 90 cm for Indian men, ≥ 80 cm for Indian women). Then any two of four additional features — triglycerides, HDL, BP, or fasting glucose — complete the diagnosis."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The three triggers for obesity evaluation are: BMI ≥23 (Indian criteria), an obesity-related complication at any BMI, or weight gain ≥5 kg in 3 months."
+                  "feedback": "Well done. The IDF framework begins with central obesity because visceral adipose inflammation drives the insulin resistance that connects all other components of the syndrome."
                 }
               ],
               "behaviour": {
@@ -319,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "590a1bb5-b8b1-4de8-be32-915bb60c47ed",
+            "subContentId": "b1001332-2c7c-424d-bb2e-b8d41db23cd2",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which of the following patients meets th",
+              "title": "According to the International Diabetes",
               "authors": [],
               "changes": []
             }
@@ -339,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 616.1,
-            "to": 626.1
+            "from": 455.7175833333333,
+            "to": 465.7175833333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>According to the Five As framework for obesity counselling, what is the recommen</p>",
+          "label": "<p>A 42-year-old woman with BMI 35 and irregular menstrual cycles presents for obes</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,23 +296,133 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>According to the Five As framework for obesity counselling, what is the recommended first step before discussing a patient's weight?</p>",
+              "question": "<p>A 42-year-old woman with BMI 35 and irregular menstrual cycles presents for obesity evaluation. Which of the following history domains is MOST important to explore first, given her presenting features?</p>",
               "answers": [
                 {
-                  "text": "<div>Assess the patient's readiness to change</div>",
+                  "text": "<div>Twenty-four-hour dietary recall to quantify caloric intake</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Assessment is the second step in the Five As. The framework deliberately places Ask first — seeking permission before initiating a weight discussion — to establish respect and prevent stigma.</div>",
+                    "chosenFeedback": "<div>Dietary history is essential in every obesity evaluation, but this patient's irregular menstrual cycles point toward a secondary cause that must be screened for before attributing the obesity to lifestyle alone.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Advise dietary modifications</div>",
+                  "text": "<div>Physical activity assessment using a structured questionnaire</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Advising comes third in the Five As. Jumping straight to advice before seeking permission risks making the patient feel judged. The first step is Ask.</div>",
+                    "chosenFeedback": "<div>Physical activity is a standard domain, but the combination of obesity with menstrual irregularity suggests a secondary aetiology that should take clinical priority in the history.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Screening for secondary causes including polycystic ovary syndrome</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Irregular periods in a woman with obesity should prompt targeted screening for PCOS — one of the key secondary causes. Hypothyroidism and Cushing syndrome must also be considered.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Stages of Change motivational readiness assessment</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Assessing motivational readiness is important but comes after identifying potential secondary causes. A treatable secondary cause changes the entire management plan.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Although all seven domains of the obesity history are important, this patient's irregular menstrual cycles with obesity strongly suggest a secondary cause. Always screen for PCOS, hypothyroidism, and Cushing syndrome before attributing weight gain to lifestyle alone — missing a treatable cause is a serious clinical error."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly. While all seven history domains matter, clinical features like irregular menstrual cycles in the setting of obesity should trigger targeted screening for secondary causes — particularly PCOS — before labelling the condition as primary lifestyle obesity."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "16235e9b-1f04-44b7-9de3-48981676ab90",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A 42-year-old woman with BMI 35 and irre",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 624.5681666666666,
+            "to": 634.5681666666666
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Using the Five As framework for obesity counselling, what is the recommended FIR</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Using the Five As framework for obesity counselling, what is the recommended FIRST step when addressing weight with a patient?</p>",
+              "answers": [
+                {
+                  "text": "<div>Assess their current dietary habits and physical activity level</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Assessment is the second step in the framework. Before exploring habits, you must first ask the patient's permission to discuss weight — this respects autonomy and builds trust.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Advise them on evidence-based caloric reduction targets</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Advising comes third in the Five As. Jumping to prescriptive advice without seeking permission or assessing readiness can damage the therapeutic relationship and increase weight stigma.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -379,16 +431,16 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The Five As begin with Ask — seeking permission before discussing weight. This simple step prevents weight stigma, builds trust, and increases the chance of sustained patient engagement.</div>",
+                    "chosenFeedback": "<div>Correct. The first A is 'Ask' — requesting permission before discussing weight. This approach respects patient autonomy and reduces weight stigma, which otherwise drives patients away from seeking care.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Agree on realistic weight-loss targets</div>",
+                  "text": "<div>Agree on a shared target of 5–10% weight loss</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Agreeing on goals is the fourth step. The Five As framework deliberately places Ask first — requesting the patient's permission before raising the topic of weight.</div>",
+                    "chosenFeedback": "<div>Agreeing on goals comes fourth in the framework. Setting targets before asking permission and assessing readiness can feel prescriptive and undermine patient engagement.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The Five As begin with Ask — seeking the patient's permission before discussing weight. Skipping this step risks weight stigma, which drives delayed care and disengagement."
+                  "feedback": "The Five As framework starts with 'Ask' — asking permission before discussing weight. This is crucial because weight stigma drives delayed care and compensatory eating. The full sequence is: Ask permission, Assess readiness, Advise using person-first language, Agree on shared goals, Assist with concrete follow-up."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Starting with permission is deliberate — weight stigma drives patients away from care. The Five As (Ask, Assess, Advise, Agree, Assist) provide a non-judgemental counselling structure."
+                  "feedback": "Well done. The Five As — Ask, Assess, Advise, Agree, Assist — begin with seeking permission, reflecting the evidence that patients who feel shamed about their weight are less likely to return for follow-up."
                 }
               ],
               "behaviour": {
@@ -429,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "baf74480-8336-49ca-9111-e9ff225895d4",
+            "subContentId": "163fa6ee-fcad-49fa-8e83-2f0ef16bfe6b",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "According to the Five As framework for o",
+              "title": "Using the Five As framework for obesity",
               "authors": [],
               "changes": []
             }
@@ -449,13 +501,13 @@
         },
         {
           "duration": {
-            "from": 793.225,
-            "to": 803.225
+            "from": 730.1240833333333,
+            "to": 740.1240833333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>At what BMI threshold should secondary prevention measures, including brief life</p>",
+          "label": "<p>A patient with BMI 29 and newly diagnosed type 2 diabetes fails to achieve targe</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +516,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>At what BMI threshold should secondary prevention measures, including brief lifestyle counselling, be initiated for an Indian patient?</p>",
+              "question": "<p>A patient with BMI 29 and newly diagnosed type 2 diabetes fails to achieve target weight loss after 6 months of structured lifestyle modification. Which pharmacotherapy class offers the HIGHEST weight loss efficacy?</p>",
               "answers": [
                 {
-                  "text": "<div>BMI ≥ 25 kg/m²</div>",
+                  "text": "<div>Orlistat (lipase inhibitor)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This is the global WHO cut-off for overweight, but it underestimates risk in South Asians. Indian guidelines set the overweight threshold at BMI ≥23 kg/m², where secondary prevention should begin.</div>",
+                    "chosenFeedback": "<div>Orlistat blocks fat absorption and produces moderate weight loss but causes significant gastrointestinal side effects. It is less effective than GLP-1 receptor agonists.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>BMI ≥ 30 kg/m²</div>",
+                  "text": "<div>Naltrexone–bupropion combination</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A BMI of 30 is the Western obesity threshold. For Indian patients, metabolic risk appears much earlier. Secondary prevention should start at BMI ≥23 kg/m².</div>",
+                    "chosenFeedback": "<div>This combination targets reward and craving pathways and achieves meaningful weight loss, but it does not match the efficacy of GLP-1 receptor agonists.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>BMI ≥ 23 kg/m²</div>",
+                  "text": "<div>Glucagon-like peptide-1 receptor agonists</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The Indian overweight threshold is BMI ≥23 kg/m² — below the global cut-off of 25. Brief lifestyle counselling at this stage can prevent the progression to obesity and its complications.</div>",
+                    "chosenFeedback": "<div>Correct. GLP-1 RAs, particularly semaglutide, are the most effective pharmacotherapy class for obesity, achieving up to 15% weight loss. They are adjuncts to lifestyle modification, never replacements.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>BMI ≥ 27.5 kg/m²</div>",
+                  "text": "<div>Metformin</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>BMI 27.5 is the Indian threshold for pharmacotherapy (with a comorbidity), not for secondary prevention screening. Lifestyle counselling should begin earlier, at BMI ≥23 kg/m².</div>",
+                    "chosenFeedback": "<div>Metformin is primarily an antidiabetic agent with modest weight effects. It is not classified among the main pharmacotherapy options for obesity management discussed in current guidelines.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +559,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Secondary prevention in Indian patients starts at BMI ≥23 kg/m² — lower than the global threshold of 25. South Asians carry higher metabolic risk at lower body weights, making earlier intervention essential."
+                  "feedback": "GLP-1 receptor agonists — liraglutide and semaglutide — are the most effective pharmacotherapy class, with semaglutide achieving up to 15% weight loss. Pharmacotherapy is indicated at BMI ≥ 27.5 with a comorbidity, or ≥ 32.5 without, by Indian standards. All agents are adjuncts to lifestyle modification."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Early intervention at BMI ≥23 in Indian patients catches metabolic risk before complications develop — a key advantage of population-specific thresholds."
+                  "feedback": "Well done. GLP-1 receptor agonists like semaglutide lead the pharmacotherapy ladder with up to 15% weight loss, followed by naltrexone–bupropion and orlistat. All are adjuncts to ongoing lifestyle modification, never stand-alone treatments."
                 }
               ],
               "behaviour": {
@@ -539,11 +591,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "df66af09-2bd5-4792-a862-2093eb8a1903",
+            "subContentId": "92cc3136-589f-4aa8-8837-c8b8a1ac9370",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "At what BMI threshold should secondary p",
+              "title": "A patient with BMI 29 and newly diagnose",
               "authors": [],
               "changes": []
             }
@@ -568,41 +620,41 @@
           "label": "Meet Rajan, a 38-year-old software engineer here for a ro…"
         },
         {
-          "time": 64,
+          "time": 65,
           "label": "Body Mass Index, or B M I, is weight in kilograms divided…"
         },
         {
-          "time": 137,
+          "time": 143,
           "label": "Obesity develops when energy intake chronically exceeds e…"
         },
         {
-          "time": 260,
+          "time": 265,
           "label": "When fat cells in the visceral depot grow beyond their va…"
         },
         {
-          "time": 355,
+          "time": 359,
           "label": "Think back to the woman we met at the start of this modul…"
         },
         {
-          "time": 451,
+          "time": 456,
           "label": "Most obesity is primary: gradual onset, positive family h…"
         },
         {
-          "time": 544,
+          "time": 551,
           "label": "Think back to Ramesh."
         },
         {
-          "time": 616,
+          "time": 625,
           "label": "Treating obesity follows a stepwise ladder."
         },
         {
-          "time": 719,
+          "time": 731,
           "label": "Obesity prevention operates at three levels."
         }
       ],
       "endscreens": [
         {
-          "time": 844,
+          "time": 857,
           "label": "End"
         }
       ]
@@ -614,7 +666,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "bf3f91c5-2c2c-4ee2-b327-4a9bfdf35232",
+              "subContentId": "75038854-b6ca-4d04-ac52-c7ef39fd0567",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -637,7 +689,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "163819f6-f425-4b98-9309-e6ee01dce94c",
+        "subContentId": "9796c09b-6ba9-4985-937d-e88cff555854",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
