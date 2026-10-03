@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/f94635ed-6b7a-4bb2-ad0f-482e956c3841/playlist.m3u8",
+          "path": "https://vdo.cbme.in/5e8871ee-9835-4d4d-bc30-ffe227a438e0/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "FM12.1-6,FM14.{7,19} | Forensic Laboratory, Trace Evidence & Recent Advances — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for FM12.1-FM12.6."
+        "shortStartDescription": "Interactive lecture with 4 embedded questions for FM12.1-FM12.6."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 66.375,
-            "to": 76.375
+            "from": 64.75758333333334,
+            "to": 74.75758333333334
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>According to Locard's Exchange Principle, trace evidence is transferred only fro</p>",
+          "label": "<p>Locard's Exchange Principle states that trace evidence transfer occurs only from</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,7 +76,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>According to Locard's Exchange Principle, trace evidence is transferred only from the perpetrator to the crime scene, not in the reverse direction.</p>",
+              "question": "<p>Locard's Exchange Principle states that trace evidence transfer occurs only from the perpetrator to the crime scene, not in the reverse direction.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -94,16 +94,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "The principle is bidirectional. When two objects come into contact, each deposits material on the other and takes material away. In the poisoning example, the compound leaves metabolite traces in the victim's blood, while the packaging carries the perpetrator's fingerprints — evidence flows both ways.",
-                "correctAnswerMessage": "Correct — this statement is false. Locard's Exchange Principle describes a bidirectional transfer: whenever two objects come into contact, each deposits material on the other AND takes material away. The suspect carries traces from the scene just as the scene carries traces from the suspect.",
+                "wrongAnswerMessage": "Incorrect. Locard's Exchange Principle states that every contact leaves a trace in both directions. Material is deposited on each object and taken away from it. In a crime, the perpetrator leaves traces at the scene and carries traces away — which is why suspect clothing and belongings are examined.",
+                "correctAnswerMessage": "Correct! Locard's Exchange Principle is bidirectional — every contact results in material being both deposited on and taken away from each object. The perpetrator leaves traces at the scene AND carries traces away from it.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "fcc3e650-0294-457c-aa04-8564cd45851b",
+            "subContentId": "ea1a4210-ec4e-404b-aea8-efe0c5d1dc94",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "According to Locard's Exchange Principle",
+              "title": "Locard's Exchange Principle states that",
               "authors": [],
               "changes": []
             }
@@ -119,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 214.75,
-            "to": 224.75
+            "from": 294.0738333333333,
+            "to": 304.0738333333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A forensic officer collects a post-mortem blood sample to measure blood alcohol </p>",
+          "label": "<p>What is the primary legal consequence of an undocumented break in the chain of c</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A forensic officer collects a post-mortem blood sample to measure blood alcohol concentration. The sample is placed into a fluoride-oxalate tube. Why is sodium fluoride added to this tube?</p>",
+              "question": "<p>What is the primary legal consequence of an undocumented break in the chain of custody of a forensic specimen?</p>",
               "answers": [
                 {
-                  "text": "<div>It chelates calcium to prevent clotting during transport</div>",
+                  "text": "<div>The specimen must be recollected from the body at a second post-mortem examination</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Calcium chelation prevents clotting (that is the role of EDTA or oxalate). Sodium fluoride serves a different purpose — it is an enzyme inhibitor that blocks bacterial glycolysis, preventing spurious ethanol generation inside the tube.</div>",
+                    "chosenFeedback": "<div>Incorrect. Recollection is often impossible — the body may have been cremated or buried. The consequence is legal, not procedural.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It blocks bacterial glycolysis, preventing in-vitro ethanol generation</div>",
+                  "text": "<div>The defence gains grounds to challenge the specimen's admissibility in court</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Sodium fluoride inhibits enolase in the glycolytic pathway. Without it, post-mortem bacteria can convert glucose to ethanol inside the sealed tube, falsely elevating the measured alcohol concentration.</div>",
+                    "chosenFeedback": "<div>Correct! Any undocumented break allows the defence to argue that the specimen may have been tampered with or substituted, undermining its admissibility as evidence.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It stabilises DNA for later profiling if needed</div>",
+                  "text": "<div>The Forensic Science Laboratory is required to repeat all analyses at its own cost</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>DNA preservation requires EDTA, which chelates divalent cations and inhibits nucleases. Sodium fluoride does not protect DNA — it blocks glycolytic enzymes to prevent bacterial ethanol production.</div>",
+                    "chosenFeedback": "<div>Incorrect. Repeating the analysis does not remedy the custody gap. The issue is whether the specimen that reached the laboratory is the same one that was originally collected.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It fixes cellular architecture so the sample can serve dual toxicological and histopathological purposes</div>",
+                  "text": "<div>The investigating officer's testimony replaces the laboratory report in court</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Fixation of cellular architecture is the role of formalin (formaldehyde), which must never be used for toxicology specimens. Formalin chemically destroys the toxic compounds the analyst needs to detect.</div>",
+                    "chosenFeedback": "<div>Incorrect. Testimony cannot substitute for a broken chain of custody. The issue is the integrity of the physical specimen itself, which no oral account can restore.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The correct answer is that sodium fluoride blocks bacterial glycolysis. Without this inhibitor, bacteria in post-mortem blood can generate ethanol from glucose inside the tube, producing a falsely elevated alcohol reading."
+                  "feedback": "Review the five stages of the chain of custody. The purpose of documenting every handover — from collection to court — is to ensure that no undocumented gap allows the defence to question whether the specimen was tampered with."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Sodium fluoride in the fluoride-oxalate tube blocks bacterial glycolysis, ensuring that the measured ethanol level reflects the actual ante-mortem or peri-mortem concentration."
+                  "feedback": "Well done. The chain of custody protects the integrity of evidence. Each handover must be signed, dated, and condition-noted so the court can verify that the specimen was never compromised."
                 }
               ],
               "behaviour": {
@@ -209,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "34731a35-25c8-492e-a37f-c25f9e4107a9",
+            "subContentId": "cb520684-5ecc-40e0-9b54-35f2b7b4bfaf",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A forensic officer collects a post-morte",
+              "title": "What is the primary legal consequence of",
               "authors": [],
               "changes": []
             }
@@ -229,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 384.125,
-            "to": 394.125
+            "from": 529.777125,
+            "to": 539.777125
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A forensic medical officer dispatches specimens to the Forensic Science Laborato</p>",
+          "label": "<p>In a medicolegal report, a doctor writes under Examination Findings: 'The wound </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A forensic medical officer dispatches specimens to the Forensic Science Laboratory with a covering letter that reads: 'Please perform general toxicological analysis on the enclosed viscera.' Which critical deficiency in this requisition is most likely to be challenged in court?</p>",
+              "question": "<p>In a medicolegal report, a doctor writes under Examination Findings: 'The wound on the left forearm was inflicted by a sharp weapon.' Which principle of report writing does this statement violate?</p>",
               "answers": [
                 {
-                  "text": "<div>The letter should have been addressed to the presiding magistrate, not the laboratory director</div>",
+                  "text": "<div>The preamble must include the examining doctor's qualifications</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The covering letter is correctly addressed to the Director of the Forensic Science Laboratory. The laboratory report, not the covering letter, is what eventually reaches the court.</div>",
+                    "chosenFeedback": "<div>Incorrect. While the preamble does require qualifications, this sentence is in the Findings section. The violation is about the nature of the statement itself, not preamble requirements.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Specific named assays with rationale must be requested, not a vague general analysis</div>",
+                  "text": "<div>Examination findings must be strictly separated from opinion</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. A vague request for 'general toxicology' does not guide the analyst. The covering letter must specify named assays with rationale — for example, 'screen for organophosphorus compounds; history suggests insecticide ingestion' — so the analyst can target the relevant compounds.</div>",
+                    "chosenFeedback": "<div>Correct! 'Inflicted by a sharp weapon' is an interpretation, not a direct observation. The Findings section must contain only objective, measurement-based descriptions — site, dimensions, margins, and tissue condition. Interpretations belong exclusively in the Opinion section.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The covering letter must include a DNA profiling request alongside any toxicology request</div>",
+                  "text": "<div>History must be recorded as the informant's account, not the doctor's assessment</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>DNA profiling and toxicology are separate analyses serving different forensic objectives. Whether DNA profiling is needed depends on the case, not on whether toxicology was requested.</div>",
+                    "chosenFeedback": "<div>Incorrect. While that principle is important for the History section, this sentence appears in the Findings section. The violation is that an opinion has been embedded among objective observations.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A brief case history is useful but not a mandatory element of the requisition</div>",
+                  "text": "<div>Limitations of the examination must be stated before any conclusion</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A brief case history is one of the five mandatory elements. Without it, the analyst cannot distinguish a road-accident ethanol case from a suspected paracetamol overdose. The case history guides the entire analytical approach.</div>",
+                    "chosenFeedback": "<div>Incorrect. Stating limitations is part of good practice in the Opinion section. The specific violation here is more fundamental — an interpretive statement is presented as an objective finding.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The covering letter must specify named assays with rationale — not 'general toxicology.' The five mandatory elements are: case particulars with FIR number, numbered exhibit list, specific named assays with rationale, legal objective, and a brief case history."
+                  "feedback": "The key discipline in medicolegal reporting is the strict separation of findings from opinion. Findings record what was observed — measurements, margins, tissue condition. Any inference about cause or mechanism belongs in the Opinion section."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Vague toxicology requests are a common professional lapse. Specific named assays with rationale allow the analyst to focus on the relevant compounds and interpret findings in the correct clinical context."
+                  "feedback": "Exactly. The sharpest cross-examination attack targets opinion sentences buried in the findings section. Before finalising any report, ask: 'Did I directly observe this, or am I interpreting?'"
                 }
               ],
               "behaviour": {
@@ -319,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e27d8cab-f798-4a2a-8329-b1839721a322",
+            "subContentId": "37f2f04e-66ed-471e-8446-2e2a46295ada",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A forensic medical officer dispatches sp",
+              "title": "In a medicolegal report, a doctor writes",
               "authors": [],
               "changes": []
             }
@@ -339,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 493.675,
-            "to": 503.675
+            "from": 710.7296249999999,
+            "to": 720.7296249999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the Examination Findings section of a medicolegal report, a doctor writes: 'A</p>",
+          "label": "<p>Forward grouping of a blood sample shows agglutination with anti-A serum only (n</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In the Examination Findings section of a medicolegal report, a doctor writes: 'A 4 × 2 cm laceration on the left parietal region was caused by a blunt weapon.' What is the primary error in this sentence?</p>",
+              "question": "<p>Forward grouping of a blood sample shows agglutination with anti-A serum only (no reaction with anti-B). Which reverse grouping result is needed to confirm the blood group by Landsteiner's concordance?</p>",
               "answers": [
                 {
-                  "text": "<div>An interpretive opinion about causation has been embedded within the objective findings section</div>",
+                  "text": "<div>Agglutination with both Group A and Group B indicator cells</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Agglutination with both indicator cell types would indicate both anti-A and anti-B antibodies in the serum, corresponding to Group O — not concordant with a forward grouping showing A antigen.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Agglutination with Group A indicator cells only</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Agglutination with Group A cells would indicate anti-A antibody in the serum. By Landsteiner's Law, a person with A antigen cannot have anti-A antibody — this result would be a discrepancy requiring investigation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Agglutination with Group B indicator cells only</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The findings section must contain only what was directly observed — wound site, dimensions, margins, and surrounding tissue. The phrase 'caused by a blunt weapon' is a causal interpretation that belongs in the Opinion section. This is the most common error targeted in cross-examination.</div>",
+                    "chosenFeedback": "<div>Correct! A Group A individual has anti-B antibody in their serum (Landsteiner's Law: if A antigen is present, anti-A is absent and anti-B is present). This antibody agglutinates Group B indicator cells, confirming concordance.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The wound dimensions should be recorded in millimetres for greater precision</div>",
+                  "text": "<div>No agglutination with either Group A or Group B indicator cells</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While precision is important, the fundamental error here is not the unit of measurement. The sentence embeds an opinion ('caused by a blunt weapon') within a section that must contain only directly observed, objective findings.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The doctor should have identified the specific weapon rather than using the general term 'blunt weapon'</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Identifying the specific weapon from wound morphology alone is rarely possible and is not expected. The error is that any causal interpretation — whether general or specific — has been placed in the findings section instead of the opinion section.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The history section, not the findings section, is where the cause of injury should be recorded</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The history section records the account given by the patient or informant — it is not the doctor's assessment. Causal interpretation belongs in the Opinion section, clearly separated from both history and findings.</div>",
+                    "chosenFeedback": "<div>Incorrect. Absence of agglutination with both indicator cells would mean neither anti-A nor anti-B is present, corresponding to Group AB serum — not concordant with a Group A forward grouping.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The sentence mixes objective observation (4 × 2 cm laceration, left parietal region) with interpretive opinion (caused by a blunt weapon). Findings must be purely objective measurements and descriptions; causal interpretation belongs exclusively in the Opinion section."
+                  "feedback": "Recall Landsteiner's Law: if an antigen is present on red cells, the corresponding antibody is absent from serum. Group A (A antigen present) means anti-A is absent but anti-B is present. Reverse grouping must show this anti-B by agglutinating Group B indicator cells."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. The sharpest cross-examination attack targets opinion sentences buried in the findings section. Every findings sentence must pass one test: 'Did I directly observe this, or am I interpreting?' Causal interpretation goes only in the Opinion section."
+                  "feedback": "Well done. Forward grouping alone is never sufficient. Reverse grouping must agree by Landsteiner's Law — a mismatch between forward and reverse results demands repeat testing using tube agglutination as the reference standard."
                 }
               ],
               "behaviour": {
@@ -429,121 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "4e02e9ce-792c-49bb-be79-c332fad018e8",
+            "subContentId": "cc5d3166-16ca-4019-854f-28f545106dbf",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In the Examination Findings section of a",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 654.025,
-            "to": 664.025
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>During forward grouping, a blood sample shows agglutination with anti-A serum on</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>During forward grouping, a blood sample shows agglutination with anti-A serum only. In reverse grouping, the patient's serum agglutinates Group B indicator cells only. What is the correct interpretation?</p>",
-              "answers": [
-                {
-                  "text": "<div>Group B — reverse grouping takes precedence over forward grouping</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Neither test takes precedence. Landsteiner's Law requires concordance between forward and reverse grouping. Here, both tests point to the same group — anti-A agglutination (A antigen present) and anti-B in serum (Group B cell agglutination) are both hallmarks of Group A.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Group AB — agglutination in both forward and reverse tests indicates dual antigens</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Group AB would show agglutination with both anti-A and anti-B sera in forward grouping, and no agglutination with either indicator cell in reverse grouping (since AB serum has neither antibody). The pattern described here is consistent with Group A.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Group A — forward and reverse results are concordant</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Forward grouping detects the A antigen on red cells (agglutination with anti-A serum). Reverse grouping confirms anti-B antibody in serum (agglutination with Group B indicator cells). By Landsteiner's Law, if A antigen is present, anti-A must be absent and anti-B must be present — this concordant pattern establishes Group A.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The results are discordant and grouping must be repeated with tube agglutination</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>These results are concordant, not discordant. A antigen on cells (forward) paired with anti-B in serum (reverse) is the expected reciprocal pattern for Group A under Landsteiner's Law. Repeat testing is needed only when forward and reverse results contradict each other.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Forward grouping shows A antigen on red cells (agglutination with anti-A), and reverse grouping shows anti-B antibody in serum (agglutination with Group B indicator cells). By Landsteiner's Law, these concordant results confirm Group A."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Landsteiner's Law requires that forward and reverse grouping agree. A antigen on red cells and anti-B antibody in serum are the concordant reciprocal hallmarks of Group A."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "37ee2580-afa4-46a9-b287-c2b4b3f7925f",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "During forward grouping, a blood sample",
+              "title": "Forward grouping of a blood sample shows",
               "authors": [],
               "changes": []
             }
@@ -564,41 +454,41 @@
           "label": "Welcome to Forensic Laboratory, Trace Evidence & Recent A…"
         },
         {
-          "time": 6,
+          "time": 5,
           "label": "A twenty-eight-year-old woman is found unconscious, and t…"
         },
         {
-          "time": 66,
+          "time": 65,
           "label": "Every biological specimen contains a specific analyte, an…"
         },
         {
-          "time": 215,
+          "time": 220,
           "label": "The chain of custody is the continuous, documented record…"
         },
         {
-          "time": 284,
+          "time": 295,
           "label": "Imagine a sexual assault case in court."
         },
         {
-          "time": 384,
+          "time": 408,
           "label": "A medicolegal report must do two things at once."
         },
         {
-          "time": 494,
+          "time": 530,
           "label": "Imagine a bloodstain on a knife blade."
         },
         {
-          "time": 580,
+          "time": 633,
           "label": "Blood grouping under F M 14.7 begins with forward grouping."
         },
         {
-          "time": 654,
+          "time": 711,
           "label": "True agglutination forms stable clumps that stay intact w…"
         }
       ],
       "endscreens": [
         {
-          "time": 729,
+          "time": 788,
           "label": "End"
         }
       ]
@@ -610,7 +500,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "d2328e61-cad4-48b5-878a-2e76ab1206aa",
+              "subContentId": "fc642da2-049a-4d08-9cd5-8c5586677a58",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -633,7 +523,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "36b0afa0-f274-4203-961e-66b7167f029e",
+        "subContentId": "08ae76ae-9155-49af-83d4-0a816305425b",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
