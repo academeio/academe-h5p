@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/e97674a0-197f-4875-a9c9-faa1d3abe23f/playlist.m3u8",
+          "path": "https://vdo.cbme.in/1b624a64-d69a-4ebb-9715-af223fc9e5f0/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PA20.3 | Plasma Cell Dyscrasias (Multiple Myeloma) — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 3 embedded questions for PA20.3-PA20.3."
+        "shortStartDescription": "Interactive lecture with 4 embedded questions for PA20.3-PA20.3."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,8 +61,8 @@
       "interactions": [
         {
           "duration": {
-            "from": 190.8,
-            "to": 200.8
+            "from": 207.08391666666668,
+            "to": 217.08391666666668
           },
           "pause": true,
           "displayType": "poster",
@@ -79,38 +79,38 @@
               "question": "<p>Why are radionuclide bone scans often falsely negative in multiple myeloma?</p>",
               "answers": [
                 {
-                  "text": "<div>The M-protein coating on red cells interferes with radiotracer binding to bone</div>",
+                  "text": "<div>Myeloma lesions are too small to be detected by gamma cameras</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Bone scan tracers (technetium-99m bisphosphonates) bind to hydroxyapatite in newly forming bone, not to red cells. The false negative occurs because there is no osteoblastic activity for the tracer to detect.</div>",
+                    "chosenFeedback": "<div>Size is not the issue. The lesions can be quite large. The problem is that bone scans rely on osteoblast activity for tracer uptake, which is suppressed in myeloma.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Myeloma lesions are too small for gamma camera resolution</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Myeloma produces large, radiologically visible punched-out lytic lesions — size is not the problem. The issue is that these lesions lack the osteoblastic reaction needed for tracer uptake.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Myeloma cells secrete DKK1, which inhibits osteoblast Wnt signalling, so no new bone forms and no tracer is taken up</div>",
+                  "text": "<div>Myeloma cells secrete DKK1, which inhibits osteoblast activity needed for tracer uptake</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. DKK1 blocks Wnt-mediated osteoblast differentiation, producing purely lytic lesions with no osteoblastic reaction. Since bone scans detect sites of active bone formation, they miss myeloma entirely.</div>",
+                    "chosenFeedback": "<div>Correct. DKK1 blocks osteoblast Wnt signalling, so no new bone forms around the lesion. Since bone scans detect osteoblastic activity, not bone destruction, they miss purely lytic myeloma lesions. Plain X-ray or MRI is preferred.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Myeloma predominantly involves soft tissue outside the skeletal system</div>",
+                  "text": "<div>Bone scan tracers cannot penetrate the axial skeleton where myeloma lesions predominate</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Myeloma is a bone marrow malignancy that destroys bone at multiple skeletal sites. The false negative arises not from location but from the absence of osteoblast-mediated new bone formation.</div>",
+                    "chosenFeedback": "<div>Bone scan tracers reach the axial skeleton normally. The issue is that tracer uptake depends on osteoblast activity, which is specifically suppressed in myeloma by DKK1.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Myeloma produces sclerotic lesions that do not absorb the radiotracer</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Myeloma lesions are purely lytic, not sclerotic. Sclerotic lesions would actually show increased uptake on bone scan. The false negativity arises because DKK1 shuts down osteoblast activity entirely.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key mechanism is DKK1. Myeloma cells secrete DKK1, which inhibits osteoblast Wnt signalling. Without osteoblast activity, no new bone forms and no radiotracer is taken up — making plain X-ray or MRI, not bone scan, the appropriate imaging modality."
+                  "feedback": "Review the DKK1 pathway: myeloma cells secrete DKK1, which blocks osteoblast Wnt signalling. No osteoblast activity means no tracer uptake on bone scan, making it unreliable for detecting myeloma lesions."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. DKK1 shuts down osteoblast Wnt signalling, producing purely lytic lesions invisible to bone scans. Plain radiographs or MRI are the correct imaging choices for myeloma."
+                  "feedback": "Well done. DKK1 inhibition of osteoblasts is the mechanism behind the falsely negative bone scan — a favourite exam point in myeloma diagnosis."
                 }
               ],
               "behaviour": {
@@ -151,7 +151,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "749fe635-a013-4b26-90b9-388c71b71f92",
+            "subContentId": "61b7c18f-ca4c-48e7-a343-3ab6e2fa6e21",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 432.35,
-            "to": 442.35
+            "from": 337.77370833333333,
+            "to": 347.77370833333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with suspected multiple myeloma has a negative urine dipstick for prot</p>",
+          "label": "<p>In the bone marrow microenvironment, interleukin-6 produced by stromal cells and</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with suspected multiple myeloma has a negative urine dipstick for protein. What is the most appropriate next step to evaluate for urinary light chains?</p>",
+              "question": "<p>In the bone marrow microenvironment, interleukin-6 produced by stromal cells and myeloma cells primarily serves to:</p>",
               "answers": [
                 {
-                  "text": "<div>Conclude that there is no significant proteinuria and reassure the patient</div>",
+                  "text": "<div>Activate osteoclasts and promote lytic bone destruction</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A negative dipstick is falsely reassuring in myeloma. The dipstick reagent detects albumin, not free light chains (Bence-Jones protein), so light-chain proteinuria goes entirely undetected.</div>",
+                    "chosenFeedback": "<div>Osteoclast activation in myeloma is driven by RANK ligand (RANKL), not interleukin-6. IL-6 has a different role in sustaining the malignant clone itself.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Order urine protein electrophoresis or urine immunofixation</div>",
+                  "text": "<div>Drive clonal expansion of myeloma cells and block their apoptosis</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. UPEP and urine immunofixation specifically detect and characterise free light chains (Bence-Jones protein) that the standard albumin-based dipstick cannot identify.</div>",
+                    "chosenFeedback": "<div>Correct. IL-6 is the principal survival factor for the myeloma clone. Both stromal cells and the myeloma cells themselves produce it, creating a self-sustaining loop that drives proliferation and prevents programmed cell death.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Repeat the dipstick test using a first-morning concentrated specimen</div>",
+                  "text": "<div>Stimulate erythropoiesis to compensate for marrow replacement</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Concentrating the urine does not help — the dipstick reagent is specific for albumin and simply cannot detect free light chains regardless of their concentration.</div>",
+                    "chosenFeedback": "<div>IL-6 does not stimulate erythropoiesis. In fact, myeloma-associated IL-6 contributes to the inflammatory milieu that suppresses red cell production, worsening the anaemia.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Perform a 24-hour urine collection for total protein estimation only</div>",
+                  "text": "<div>Enhance glomerular filtration of free light chains</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While 24-hour total protein may be elevated, it does not identify the type of protein. Urine protein electrophoresis or immunofixation is needed to specifically detect and characterise Bence-Jones protein.</div>",
+                    "chosenFeedback": "<div>IL-6 has no role in renal filtration. Free light chains cross the glomerulus because of their small size, not because of any cytokine effect. Renal damage results from cast formation, not enhanced filtration.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: the urine dipstick detects albumin, not free light chains. Bence-Jones proteinuria is invisible to a dipstick. Always order urine protein electrophoresis or urine immunofixation when myeloma is suspected."
+                  "feedback": "IL-6 is the principal growth and survival factor for myeloma cells. Stromal cells and the myeloma cells themselves both produce it, forming a self-sustaining loop. Do not confuse it with RANKL, which drives osteoclast-mediated bone destruction."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The standard urine dipstick detects albumin only — free light chains pass through undetected. UPEP or urine immunofixation must be ordered whenever myeloma is on the differential."
+                  "feedback": "Exactly right. The IL-6 autocrine–paracrine loop is central to myeloma biology — it sustains the malignant clone and is a therapeutic target."
                 }
               ],
               "behaviour": {
@@ -261,7 +261,117 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "b27691c8-644d-40e0-9601-ddd4daf64202",
+            "subContentId": "c71354c7-ff34-42e8-b4a1-43c9bc19819b",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In the bone marrow microenvironment, int",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 463.48229166666664,
+            "to": 473.48229166666664
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A patient with suspected multiple myeloma has a negative urine dipstick for prot</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient with suspected multiple myeloma has a negative urine dipstick for protein. Which of the following best explains this finding?</p>",
+              "answers": [
+                {
+                  "text": "<div>The patient has no proteinuria and myeloma can be excluded</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>A negative dipstick does NOT exclude myeloma-related proteinuria. The dipstick detects albumin, not free light chains (Bence-Jones protein), so it can be falsely reassuring.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Monoclonal light chains are too large to pass through the glomerular filtration barrier</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Free light chains (kappa and lambda) are small enough to cross the glomerulus freely. That is precisely why they appear in urine as Bence-Jones protein.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The standard urine dipstick detects albumin but not free light chains (Bence-Jones protein)</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. The urine dipstick is designed to detect albumin. Free light chains are not picked up, making the dipstick falsely negative in myeloma. Always order urine protein electrophoresis (UPEP) or urine immunofixation when myeloma is suspected.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Bence-Jones protein is found only in serum and is never excreted in urine</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Bence-Jones protein is specifically defined as free light chains in the urine. They readily cross the glomerulus and are a hallmark urine finding in myeloma. The issue is that the dipstick method cannot detect them.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Remember: the standard urine dipstick detects albumin, not Bence-Jones protein (free light chains). A negative dipstick is falsely reassuring in myeloma. Order urine protein electrophoresis or immunofixation instead."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. This is a classic diagnostic pitfall — always request UPEP or urine immunofixation when myeloma is on the differential, regardless of dipstick results."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "05745e6b-c109-4ce7-966a-3103e578a361",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -281,13 +391,13 @@
         },
         {
           "duration": {
-            "from": 552.175,
-            "to": 562.175
+            "from": 582.9686666666666,
+            "to": 592.9686666666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 58-year-old woman has a small monoclonal band on serum protein electrophoresis</p>",
+          "label": "<p>A 58-year-old woman has an M-protein on serum protein electrophoresis. Bone marr</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,32 +406,23 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 58-year-old woman has a small monoclonal band on serum protein electrophoresis. Bone marrow biopsy shows 6% clonal plasma cells. Serum calcium, creatinine, and haemoglobin are all within normal limits, and skeletal survey shows no lytic lesions. What is the most likely diagnosis?</p>",
+              "question": "<p>A 58-year-old woman has an M-protein on serum protein electrophoresis. Bone marrow biopsy shows 6 percent clonal plasma cells. She has no anaemia, hypercalcaemia, renal impairment, or bone lesions. What is the most appropriate diagnosis?</p>",
               "answers": [
                 {
-                  "text": "<div>Active multiple myeloma</div>",
+                  "text": "<div>Active multiple myeloma requiring chemotherapy</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Active myeloma requires ≥10% clonal marrow plasma cells and at least one myeloma-defining event (a CRAB feature or qualifying biomarker). This patient meets neither criterion.</div>",
+                    "chosenFeedback": "<div>Active myeloma requires at least 10 percent clonal plasma cells in the marrow AND a myeloma-defining event (CRAB or biomarker criteria). This patient meets neither threshold.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Smouldering myeloma</div>",
+                  "text": "<div>Smouldering multiple myeloma requiring watchful waiting</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Smouldering myeloma requires ≥10% clonal marrow plasma cells or serum M-protein ≥30 g/L, without a myeloma-defining event. At only 6% plasma cells with a small M-band, the correct classification is MGUS.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Waldenström macroglobulinaemia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Waldenström macroglobulinaemia is a lymphoplasmacytic lymphoma that secretes IgM and characteristically presents with hyperviscosity syndrome, not with the features described here.</div>",
+                    "chosenFeedback": "<div>Smouldering myeloma requires 10 percent or more marrow plasma cells and/or an M-protein of 30 g/L or more, without CRAB features. With only 6 percent plasma cells, the threshold for smouldering myeloma is not met.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -330,7 +431,16 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. MGUS is defined by the presence of M-protein, bone marrow plasma cells below 10%, and the absence of any CRAB features or other myeloma-defining events. It carries approximately 1% annual risk of progression.</div>",
+                    "chosenFeedback": "<div>Correct. MGUS is defined by an M-protein with marrow plasma cells below 10 percent and no CRAB features. The annual progression risk to myeloma is approximately 1 percent, so these patients require long-term monitoring, not treatment.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Waldenström macroglobulinaemia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Waldenström macroglobulinaemia is a lymphoplasmacytic lymphoma that specifically secretes IgM and presents with hyperviscosity syndrome. Without knowing the immunoglobulin class is IgM or seeing hyperviscosity features, this diagnosis cannot be made.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Apply the IMWG framework: M-protein is present, but marrow plasma cells are below 10% and there are no CRAB features or qualifying biomarkers. This combination defines MGUS, which carries about 1% annual risk of progression to myeloma and requires monitoring, not treatment."
+                  "feedback": "Apply the IMWG framework: M-protein present + marrow plasma cells below 10 percent + no CRAB features = MGUS. Above 10 percent without CRAB = smouldering myeloma. Above 10 percent with any CRAB feature or biomarker criterion = active myeloma."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. With marrow plasma cells below 10% and no CRAB features, this is MGUS — requiring regular monitoring for the ~1% annual progression risk, but not treatment."
+                  "feedback": "Well analysed. Distinguishing MGUS from smouldering and active myeloma requires careful application of the IMWG thresholds — marrow plasma cell percentage and presence of myeloma-defining events are the key discriminators."
                 }
               ],
               "behaviour": {
@@ -371,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f7adfa45-7326-4109-8971-10cb1aa7841f",
+            "subContentId": "2d990d5f-fb72-417c-a3cf-aff2597f2d57",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 58-year-old woman has a small monoclon",
+              "title": "A 58-year-old woman has an M-protein on",
               "authors": [],
               "changes": []
             }
@@ -393,10 +503,10 @@
       "bookmarks": [
         {
           "time": 0,
-          "label": "Welcome to PA Hematology — Plasma Cell Dyscrasias (Multip…"
+          "label": "Welcome to Hematology — Plasma Cell Dyscrasias (Multiple…"
         },
         {
-          "time": 6,
+          "time": 5,
           "label": "A 62-year-old man comes in with six months of worsening b…"
         },
         {
@@ -404,25 +514,25 @@
           "label": "The mnemonic CRAB gives you four organ damage events that…"
         },
         {
-          "time": 191,
+          "time": 208,
           "label": "Building on the clinical picture you just saw, let us now…"
         },
         {
-          "time": 308,
+          "time": 338,
           "label": "Remember the lab calling about that peculiar band on seru…"
         },
         {
-          "time": 432,
+          "time": 464,
           "label": "Multiple myeloma diagnosis requires all three Internation…"
         },
         {
-          "time": 552,
+          "time": 584,
           "label": "Multiple myeloma is not yet curable in most patients, but…"
         }
       ],
       "endscreens": [
         {
-          "time": 643,
+          "time": 674,
           "label": "End"
         }
       ]
@@ -434,7 +544,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "be1384dd-b1ef-43dd-9c2b-2482e65f85d6",
+              "subContentId": "d92a53f2-218b-466b-a3cd-58808566ddb1",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -457,7 +567,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "a0d5f480-6e75-49f1-9d35-cffb83acad5f",
+        "subContentId": "10c98949-2c57-43bf-8c79-0f6ab9e256b4",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
