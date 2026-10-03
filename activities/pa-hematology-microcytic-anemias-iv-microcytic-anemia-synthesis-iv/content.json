@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/7e59af44-6756-46f4-ba54-e04273f855a0/playlist.m3u8",
+          "path": "https://vdo.cbme.in/9b20518d-3ea6-4203-a65a-36f26954a9f5/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 128.625,
-            "to": 138.625
+            "from": 126.300875,
+            "to": 136.30087500000002
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the case comparison, Patient A and Patient B had identical CBC values but dif</p>",
+          "label": "<p>Two patients have identical CBC findings — Hb 9.5 g/dL, MCV 70 fL, and microcyti</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In the case comparison, Patient A and Patient B had identical CBC values but different diagnoses. Which single lab finding most reliably distinguished iron deficiency anaemia from the other condition?</p>",
+              "question": "<p>Two patients have identical CBC findings — Hb 9.5 g/dL, MCV 70 fL, and microcytic hypochromic cells on the smear. Patient A has a ferritin of 68 ng/mL; Patient B has a ferritin of 4 ng/mL. Why is prescribing iron supplements to Patient A harmful?</p>",
               "answers": [
                 {
-                  "text": "<div>Mean cell volume of 70 fL</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Both patients had the same low MCV. A low MCV indicates microcytosis but does not distinguish between its causes — iron deficiency and thalassaemia trait both produce microcytic cells.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Haemoglobin of 9.5 g/dL</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Both patients shared the same haemoglobin level. The degree of anaemia alone cannot separate iron deficiency from thalassaemia trait or other microcytic causes.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Serum ferritin level</div>",
+                  "text": "<div>Patient A likely has thalassaemia trait, and supplementing iron causes progressive overload and organ damage</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Patient B's ferritin was 4 (depleted stores = IDA), while Patient A's was 68 (normal stores). Ferritin reflects total body iron stores and is the key test to confirm whether microcytic anaemia is due to true iron deficiency.</div>",
+                    "chosenFeedback": "<div>Correct. Patient A's normal ferritin indicates intact iron stores, pointing to thalassaemia trait rather than iron deficiency. The body has no efficient excretion pathway for excess iron, so unnecessary supplementation leads to progressive accumulation in the liver and heart.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Peripheral blood smear morphology</div>",
+                  "text": "<div>Iron at therapeutic doses triggers haemolysis in patients with adequate iron stores</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While the smear can offer clues (pencil cells in IDA, target cells in thalassaemia), both conditions produce a hypochromic microcytic picture. Ferritin is the more definitive discriminator.</div>",
+                    "chosenFeedback": "<div>Incorrect. Iron supplements do not trigger haemolysis. The danger lies in progressive iron accumulation — without an active excretion mechanism, excess iron deposits in parenchymal organs and causes tissue damage over time.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Excess iron is excreted renally, causing iron-induced nephrotoxicity</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. The body has no efficient renal excretion pathway for iron. Excess iron accumulates in organs like the liver and heart, not the kidneys, which is why iatrogenic overload is so dangerous.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Iron supplements suppress erythropoiesis when ferritin exceeds 50 ng/mL</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Iron does not suppress erythropoiesis at any ferritin level. The real risk is progressive iron overload in a patient whose microcytosis stems from a haemoglobin synthesis defect, not iron deficiency.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the case: both patients shared the same Hb, MCV, and smear appearance. The distinguishing finding was ferritin — low in Patient B (true IDA) and normal in Patient A (not iron deficient)."
+                  "feedback": "Patient A's ferritin of 68 ng/mL means iron stores are intact, pointing to thalassaemia trait. Giving iron to such a patient is harmful because the body cannot excrete excess iron — it accumulates in organs, causing progressive damage."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Serum ferritin is the most reliable single test to confirm depleted iron stores and distinguish IDA from other microcytic anaemias with normal stores."
+                  "feedback": "Well done. Distinguishing thalassaemia trait from iron deficiency before starting treatment is essential — Patient A's normal ferritin is the critical clue that prevents iatrogenic iron overload."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "689750bb-273d-4ffb-82e4-0defe723d12c",
+            "subContentId": "504d9fdf-1eb1-4eec-94af-392152413b2e",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In the case comparison, Patient A and Pa",
+              "title": "Two patients have identical CBC findings",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 318.5,
-            "to": 328.5
+            "from": 319.55525,
+            "to": 329.55525
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which laboratory parameter is the earliest to become abnormal when the body begi</p>",
+          "label": "<p>A 30-year-old woman with menorrhagia has a haemoglobin of 12.5 g/dL, an MCV of 8</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which laboratory parameter is the earliest to become abnormal when the body begins to run low on iron?</p>",
+              "question": "<p>A 30-year-old woman with menorrhagia has a haemoglobin of 12.5 g/dL, an MCV of 86 fL, and a serum ferritin of 8 ng/mL. What is the most accurate interpretation of her iron status?</p>",
               "answers": [
                 {
-                  "text": "<div>Haemoglobin concentration</div>",
+                  "text": "<div>Her iron status is normal because haemoglobin and MCV are within the reference range</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Haemoglobin falls only after both storage and transport pools are exhausted (stage 3). It is a late marker of iron deficiency.</div>",
+                    "chosenFeedback": "<div>Incorrect. Ferritin drops before haemoglobin or MCV, so waiting for these to fall means missing the earliest and most treatable stage of iron depletion.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Serum iron</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Serum iron reflects the transport pool, which is depleted in stage 2. The storage pool, measured by ferritin, is drawn down first.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Mean cell volume</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>MCV falls only when iron deficiency is severe enough to impair haemoglobin synthesis (stage 3). By then, stores and transport are already depleted.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Serum ferritin</div>",
+                  "text": "<div>Her body's iron stores are already exhausted even though haemoglobin production is still adequate</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Ferritin reflects total body iron stores. When iron balance turns negative, the body draws down storage iron first, so serum ferritin drops before serum iron or haemoglobin change — making it the earliest warning sign of iron deficiency.</div>",
+                    "chosenFeedback": "<div>Correct. Serum ferritin reflects body iron stores and is the first parameter to fall in iron depletion. A ferritin of 8 ng/mL with normal Hb and MCV indicates storage depletion — the earliest stage, when iron replacement is simplest and most effective.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The low ferritin is likely a laboratory artefact since all other parameters are normal</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. A ferritin of 8 ng/mL in a woman with menorrhagia is clinically consistent with depleted iron stores. This is not an artefact — it is the earliest laboratory signal of iron deficiency.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>She has sideroblastic anaemia with paradoxically low ferritin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. In sideroblastic anaemia, ferritin and serum iron are typically elevated, not low, because iron accumulates in mitochondria of erythroblasts and cannot be properly incorporated into haem.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the sequence: the body draws down storage iron first (ferritin falls), then transport iron drops (serum iron falls, TIBC rises), and only last does haemoglobin fall. Ferritin is the earliest change."
+                  "feedback": "Serum ferritin is the first parameter to fall in iron deficiency. A ferritin of 8 ng/mL, even with normal haemoglobin and MCV, means iron stores are already exhausted — this is the optimal window for early treatment."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. Serum ferritin is the earliest marker because storage iron is the first pool depleted. A low ferritin can signal iron deficiency even when the blood count is still completely normal."
+                  "feedback": "Exactly right. Ferritin is the earliest marker to fall in iron depletion — recognising this pre-anaemic stage allows intervention before symptomatic anaemia develops."
                 }
               ],
               "behaviour": {
@@ -261,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f1bf6b25-6cd2-4d47-a3d7-1c8475f8582c",
+            "subContentId": "01085257-fa26-4aa3-919a-607aed68431d",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which laboratory parameter is the earlie",
+              "title": "A 30-year-old woman with menorrhagia has",
               "authors": [],
               "changes": []
             }
@@ -281,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 513.35,
-            "to": 523.35
+            "from": 513.768875,
+            "to": 523.768875
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 58-year-old postmenopausal woman presents with iron deficiency anaemia. She ha</p>",
+          "label": "<p>A 60-year-old man presents with confirmed iron deficiency anaemia. He is a lifel</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 58-year-old postmenopausal woman presents with iron deficiency anaemia. She has no history of dietary restriction or malabsorption. Which etiological category should be investigated first?</p>",
+              "question": "<p>A 60-year-old man presents with confirmed iron deficiency anaemia. He is a lifelong vegetarian with no overt blood loss. What should be the first investigation priority?</p>",
               "answers": [
                 {
-                  "text": "<div>Decreased dietary intake</div>",
+                  "text": "<div>Start oral iron supplements and monitor the haemoglobin response over three months</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While poor intake can contribute, in postmenopausal women chronic blood loss must be excluded first — it is the most dangerous cause to miss, particularly because it may indicate an underlying malignancy.</div>",
+                    "chosenFeedback": "<div>Incorrect. Starting iron without investigating the cause in an elderly man is unsafe. Chronic occult GI blood loss from a colorectal malignancy is the most dangerous cause in this demographic and must be excluded first.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Increased physiological demand</div>",
+                  "text": "<div>Order HbA2 estimation by HPLC to rule out beta-thalassaemia trait</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Increased demand applies to pregnancy, lactation, infancy, and adolescent growth spurts. A 58-year-old postmenopausal woman does not fall into any of these categories.</div>",
+                    "chosenFeedback": "<div>Incorrect. Thalassaemia trait does not cause iron deficiency — ferritin is normal in thalassaemia. With confirmed iron deficiency in an older male, the priority is excluding GI malignancy, not haemoglobinopathy.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Decreased iron absorption</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Malabsorption (coeliac disease, gastrectomy, atrophic gastritis) is possible but was already excluded in the history. Chronic blood loss remains the priority to rule out.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Increased loss through chronic bleeding</div>",
+                  "text": "<div>Perform upper and lower GI endoscopy to exclude occult malignancy</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In postmenopausal women and older men, iron deficiency anaemia is gastrointestinal bleeding until proven otherwise. The priority is to exclude colorectal malignancy and other sources of occult GI blood loss.</div>",
+                    "chosenFeedback": "<div>Correct. In older men and postmenopausal women, iron deficiency anaemia is GI blood loss until proven otherwise. Even without overt bleeding, occult malignancy can cause chronic low-grade blood loss. Endoscopic evaluation is mandatory before attributing the anaemia to dietary insufficiency.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Prescribe a high-iron diet with vitamin C supplementation and reassess after six weeks</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. While dietary modification may complement treatment, attributing iron deficiency solely to diet in a 60-year-old man is dangerous — it risks delaying the diagnosis of a potentially curable GI malignancy.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Recall the principle: patient demographics point to the most likely cause. In postmenopausal women, chronic GI blood loss is the most important category to investigate first, particularly to rule out malignancy."
+                  "feedback": "In an older male with iron deficiency, GI malignancy must be excluded by endoscopy before attributing the anaemia to diet. Chronic blood loss from colorectal malignancy is the most common dangerous cause in this demographic."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Right. The video emphasises: in older men and postmenopausal women, think GI bleeding and rule out malignancy first. Demographics guide which etiological bucket to open."
+                  "feedback": "Correct. In elderly men and postmenopausal women, iron deficiency anaemia mandates gastrointestinal evaluation to exclude malignancy — even when a dietary explanation seems plausible."
                 }
               ],
               "behaviour": {
@@ -371,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "a31a9096-e919-4d5b-ac0e-33e27c143c53",
+            "subContentId": "a66a6484-d2e3-44fd-a9e0-e2c180217e59",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 58-year-old postmenopausal woman prese",
+              "title": "A 60-year-old man presents with confirme",
               "authors": [],
               "changes": []
             }
@@ -391,101 +391,49 @@
         },
         {
           "duration": {
-            "from": 753.45,
-            "to": 763.45
+            "from": 759.8407916666667,
+            "to": 769.8407916666667
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A student uses the TAILS mnemonic to list causes of microcytic anaemia. Which of</p>",
+          "label": "<p>Anaemia of chronic disease never produces microcytic red blood cells.</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A student uses the TAILS mnemonic to list causes of microcytic anaemia. Which of the following is the only condition in the differential that involves genuinely depleted total body iron stores?</p>",
-              "answers": [
-                {
-                  "text": "<div>Thalassaemia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>In thalassaemia, the defect is in globin chain synthesis, not iron depletion. Iron stores are normal or even increased — giving iron supplements is unnecessary and potentially harmful.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Anaemia of chronic disease</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>In ACD, total body iron stores are normal or high — iron is trapped in macrophages by hepcidin. The marrow is iron-starved, but the body's total iron is not depleted. This is functional, not absolute, deficiency.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Iron deficiency anaemia</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. IDA is the only microcytic anaemia where total body iron stores are truly depleted. The other TAILS conditions — thalassaemia, ACD, lead poisoning, and sideroblastic anaemia — all have normal or raised iron stores.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Sideroblastic anaemia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>In sideroblastic anaemia, iron accumulates in mitochondria of erythroblasts, forming ring sideroblasts. Serum iron and ferritin are elevated, not depleted.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Remember the central insight: iron deficiency anaemia is a diagnosis of depleted stores. Thalassaemia, ACD, lead poisoning, and sideroblastic anaemia all have normal or raised iron — treating them with iron is at best useless, at worst harmful."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly. IDA = depleted stores. The other four TAILS causes have normal or increased iron, making iron supplementation useless or harmful in those conditions."
-                }
-              ],
+              "question": "<p>Anaemia of chronic disease never produces microcytic red blood cells.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Not quite. Anaemia of chronic disease is usually normocytic, but in prolonged, severe cases it can become microcytic. An MCV of 75–78 in a patient with chronic tuberculosis or rheumatoid arthritis suggests advanced, long-standing disease rather than necessarily coexisting iron deficiency.",
+                "correctAnswerMessage": "Correct. While anaemia of chronic disease is typically normocytic (MCV 80–95 fL), it can become microcytic in prolonged, severe inflammation — for example, long-standing rheumatoid arthritis or tuberculosis — as sustained hepcidin activity progressively restricts iron delivery to the marrow.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "045337d1-faa0-4725-a15a-b74f2214fbc0",
+            "subContentId": "0dc5ff8a-940b-4d0e-8bda-f255345c8366",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "A student uses the TAILS mnemonic to lis",
+              "title": "Anaemia of chronic disease never produce",
               "authors": [],
               "changes": []
             }
@@ -501,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 948.75,
-            "to": 958.75
+            "from": 961.6784166666669,
+            "to": 971.6784166666669
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient has microcytic anaemia with MCV 63 fL, RBC count 5.6 × 10¹²/L, and a n</p>",
+          "label": "<p>A patient has microcytic anaemia with an MCV of 62 fL, an RBC count of 6.2 × 10¹</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -516,23 +464,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient has microcytic anaemia with MCV 63 fL, RBC count 5.6 × 10¹²/L, and a normal RDW. Ferritin and TIBC are both within normal range. Which diagnosis does this pattern most strongly suggest?</p>",
+              "question": "<p>A patient has microcytic anaemia with an MCV of 62 fL, an RBC count of 6.2 × 10¹²/L (elevated), and a normal RDW. Ferritin and TIBC are both within the normal range. Which condition does this pattern most likely represent?</p>",
               "answers": [
                 {
                   "text": "<div>Iron deficiency anaemia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In IDA, the RBC count is low (not raised), RDW is high (anisocytosis from uneven iron supply), ferritin is low, and TIBC is elevated. This patient's normal ferritin, normal TIBC, and high RBC count rule out IDA.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Anaemia of chronic disease</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>ACD typically shows normal or only mildly low MCV, a high ferritin, and a low TIBC — reflecting iron trapped by hepcidin. An MCV of 63 with a raised RBC count does not fit this pattern.</div>",
+                    "chosenFeedback": "<div>Incorrect. In iron deficiency anaemia, the RBC count is typically low (not elevated), RDW is high (reflecting anisocytosis from uneven iron supply), and ferritin is low with a raised TIBC.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -541,7 +480,16 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Beta-thalassaemia trait produces a very low MCV (often below 65 fL) with a normal or raised RBC count, a normal RDW (isocytic microcytes — all cells shrink uniformly), and normal iron studies. HbA2 on HPLC will be elevated to confirm.</div>",
+                    "chosenFeedback": "<div>Correct. Beta-thalassaemia trait shows a very low MCV with a normal or elevated RBC count, a normal RDW (all cells shrink uniformly — isocytic microcytes), and normal iron studies. This constellation distinguishes it from iron deficiency, where cells vary in size.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Anaemia of chronic disease</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. In anaemia of chronic disease, MCV is usually normal or only mildly low, ferritin is elevated, and TIBC is suppressed. An elevated RBC count with very low MCV is not characteristic of ACD.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -550,7 +498,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Sideroblastic anaemia shows a dimorphic smear with very high RDW, elevated serum iron and ferritin, and ring sideroblasts on marrow. This patient's normal RDW and normal ferritin do not fit.</div>",
+                    "chosenFeedback": "<div>Incorrect. Sideroblastic anaemia shows a dimorphic smear with two cell populations, driving a very high RDW. Ferritin and serum iron are typically elevated, not normal.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -559,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Use the comparison table: IDA = low RBC count, high RDW, low ferritin, high TIBC. Beta-thalassaemia trait = raised RBC count, normal RDW, normal iron studies, very low MCV. This patient's raised RBC count with normal RDW and normal iron studies points to thalassaemia trait."
+                  "feedback": "The key discriminators are: elevated RBC count (low in IDA), normal RDW (high in IDA, reflecting anisocytosis), and normal iron studies. This pattern — isocytic microcytes with preserved RBC mass — points to beta-thalassaemia trait."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Very low MCV + raised RBC count + normal RDW + normal iron studies is the classic pattern of beta-thalassaemia trait — confirmed by raised HbA2 on HPLC."
+                  "feedback": "Well done. The triad of very low MCV, elevated RBC count, and normal RDW with normal iron studies is the classic fingerprint of beta-thalassaemia trait — all cells shrink uniformly due to reduced globin chain synthesis."
                 }
               ],
               "behaviour": {
@@ -591,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "a25e7fee-c756-4678-82e2-eb906fcb74ce",
+            "subContentId": "64efcba7-7d35-4bd4-bed4-602677a7c020",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient has microcytic anaemia with MC",
+              "title": "A patient has microcytic anaemia with an",
               "authors": [],
               "changes": []
             }
@@ -613,14 +561,14 @@
       "bookmarks": [
         {
           "time": 0,
-          "label": "Welcome to PA Hematology — Microcytic Anemias."
+          "label": "Welcome to Hematology — Microcytic Anemias."
         },
         {
           "time": 4,
           "label": "A 28-year-old woman in her second trimester comes in with…"
         },
         {
-          "time": 129,
+          "time": 126,
           "label": "Iron in the body totals about three to four grams, and it…"
         },
         {
@@ -628,11 +576,11 @@
           "label": "Iron storage does two jobs at once."
         },
         {
-          "time": 319,
+          "time": 320,
           "label": "Iron deficiency doesn't happen all at once."
         },
         {
-          "time": 419,
+          "time": 421,
           "label": "Every case of iron deficiency anemia fits into one of fou…"
         },
         {
@@ -640,21 +588,21 @@
           "label": "Once you suspect iron deficiency anemia, work through the…"
         },
         {
-          "time": 665,
+          "time": 668,
           "label": "When you see microcytosis, meaning the mean cell volume i…"
         },
         {
-          "time": 753,
+          "time": 760,
           "label": "In any long-standing inflammatory illness, the cytokine i…"
         },
         {
-          "time": 844,
+          "time": 852,
           "label": "This table is where everything you have learned so far co…"
         }
       ],
       "endscreens": [
         {
-          "time": 982,
+          "time": 997,
           "label": "End"
         }
       ]
@@ -666,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "c1b164bc-9847-4b78-ae9d-fb3aeddf4acf",
+              "subContentId": "c984e263-6f51-4237-b09b-b4a97b3777ff",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -689,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "15af842e-0ec7-4fce-a62b-5e85e9db58d4",
+        "subContentId": "7c67996e-ba56-42e3-a3d0-be37326eaa41",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
