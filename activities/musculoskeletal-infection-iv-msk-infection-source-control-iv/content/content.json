@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/2a1c7c56-c44a-4ea7-b798-896bf141565a/playlist.m3u8",
+          "path": "https://vdo.cbme.in/5f0c7531-e37a-4143-8dc2-48ffa717b96c/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OR3.1-3 | Musculoskeletal Infection — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 6 embedded questions for OR3.1-OR3.3."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for OR3.1-OR3.3."
       },
       "textTracks": {
         "videoTrack": [
@@ -67,95 +67,43 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 9-year-old has point tenderness over the proximal tibial metaphysis with warmt</p>",
+          "label": "<p>In acute osteomyelitis, every direction of passive joint movement is severely pa</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A 9-year-old has point tenderness over the proximal tibial metaphysis with warmth and swelling. Passive knee movement causes mild discomfort but is far less painful than direct palpation of the bone. What does this pattern suggest?</p>",
-              "answers": [
-                {
-                  "text": "<div>Septic arthritis of the knee, because any pain on joint movement indicates joint infection</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. In septic arthritis, movement in every direction is exquisitely painful. When tenderness is worst over the metaphysis with relatively preserved joint movement, the infection is more likely in the bone, not the joint.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Acute osteomyelitis, because metaphyseal tenderness exceeding joint pain is the key early sign</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. In early osteomyelitis the infection lies in the metaphysis, not the joint. Point tenderness over the metaphysis with relatively preserved joint movement is the key examination finding distinguishing it from septic arthritis, where all directions of joint movement are painful.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>A soft tissue abscess, because localised swelling is the dominant finding</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. A soft tissue abscess is superficial and fluctuant, without the deep metaphyseal tenderness characteristic of bone infection. The combination of fever, metaphyseal tenderness, and swelling points to osteomyelitis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>A pathological fracture, because point tenderness over bone indicates cortical disruption</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While fractures cause point tenderness, the clinical context — fever, warmth, metaphyseal location, and no history of trauma — points to infection, not injury.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The key distinction: in osteomyelitis, tenderness is maximal over the metaphysis with relatively preserved joint movement. In septic arthritis, every direction of joint movement causes severe pain."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. In osteomyelitis, tenderness is maximal at the metaphysis with relatively preserved joint movement. In septic arthritis, movement in every direction is exquisitely painful — that is the key bedside distinction."
-                }
-              ],
+              "question": "<p>In acute osteomyelitis, every direction of passive joint movement is severely painful, which distinguishes it from septic arthritis.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Actually, it is the other way round. In osteomyelitis, tenderness is worst over the metaphysis, and the nearby joint moves with less pain. In septic arthritis, every direction of joint movement is painful. Remembering this pattern helps you distinguish the two conditions before imaging is available.",
+                "correctAnswerMessage": "Correct — this statement is false. In acute osteomyelitis, point tenderness is maximal over the metaphysis, and passive joint movement causes relatively less pain. It is in septic arthritis that every direction of joint movement is painful. This distinction is the key early clinical clue separating the two conditions.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "94ec14dc-18dd-4fb4-adb2-8d5d6ee5aafb",
+            "subContentId": "a3f7c471-f905-4604-b845-832108427ae5",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "A 9-year-old has point tenderness over t",
+              "title": "In acute osteomyelitis, every direction",
               "authors": [],
               "changes": []
             }
@@ -177,7 +125,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 28-year-old presents with progressive knee swelling over four months, low-grad</p>",
+          "label": "<p>A 35-year-old woman presents with knee swelling worsening over four months, acco</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 28-year-old presents with progressive knee swelling over four months, low-grade evening fever, and weight loss. ESR is mildly elevated but CRP is near-normal. Which feature most strongly suggests a tuberculous rather than pyogenic aetiology?</p>",
+              "question": "<p>A 35-year-old woman presents with knee swelling worsening over four months, accompanied by low-grade fever, night sweats, and weight loss. Her CRP is only mildly elevated. If this is misdiagnosed as pyogenic arthritis and treated with anti-staphylococcal antibiotics, what is the most likely consequence?</p>",
               "answers": [
                 {
-                  "text": "<div>Involvement of the knee joint</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Both pyogenic and tuberculous infections can involve the knee. The specific joint affected does not reliably distinguish between the two aetiologies.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Elevated ESR</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. ESR is elevated in both pyogenic and tuberculous infections. It is a general marker of inflammation and is not specific to either cause.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Insidious onset over months with predominantly constitutional symptoms</div>",
+                  "text": "<div>Delayed diagnosis of skeletal tuberculosis with potential drug resistance</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Tempo is the key discriminator. Pyogenic infection presents acutely over days with high fever and markedly raised inflammatory markers, whereas tuberculosis evolves insidiously over months with low-grade constitutional symptoms and only mildly elevated markers.</div>",
+                    "chosenFeedback": "<div>Correct. The indolent tempo over months, constitutional symptoms, and mildly raised CRP point to skeletal TB. Anti-staphylococcal antibiotics do not treat Mycobacterium tuberculosis; their use delays the correct diagnosis and can encourage drug resistance.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Male sex of the patient</div>",
+                  "text": "<div>Rapid clinical improvement within 48 hours</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Sex alone does not distinguish pyogenic from tuberculous musculoskeletal infection. The clinical tempo and pattern of systemic features are the key differentiators.</div>",
+                    "chosenFeedback": "<div>Anti-staphylococcal antibiotics do not treat Mycobacterium tuberculosis. The indolent course over months with constitutional symptoms and only mildly elevated CRP strongly suggests TB, which requires anti-tubercular therapy for 9–12 months.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Development of methicillin-resistant Staphylococcus aureus</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>MRSA arises from selective pressure in staphylococcal infections. The clinical picture here — months of symptoms, night sweats, weight loss, mild CRP — points to tuberculosis, not a staphylococcal infection.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Immediate need for joint replacement surgery</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Joint replacement is not indicated in active infection. The key issue is recognising the indolent tempo as tuberculous rather than pyogenic, since the treatments are entirely different and misdiagnosis in either direction causes harm.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Tempo is the key discriminator. Pyogenic infection is acute (days, high fever, markedly raised CRP), while tuberculosis is insidious (months, low-grade fever, weight loss, mildly raised markers). Misdiagnosis in either direction delays correct treatment."
+                  "feedback": "Remember the tempo-based distinction: pyogenic infection is acute (days), while skeletal TB is indolent (months) with constitutional symptoms. Treating TB with anti-staphylococcal antibiotics delays the correct diagnosis and encourages drug resistance in the tubercle bacillus."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Excellent. The insidious course with constitutional symptoms and mildly raised markers points to TB. Pyogenic infection would present acutely over days with high fever and a CRP surge. Getting this distinction wrong in either direction causes real harm."
+                  "feedback": "Well done. Tempo is the key discriminator: pyogenic infections present acutely over days with high inflammatory markers, while skeletal TB develops indolently over months with constitutional symptoms and mild markers. Getting this wrong delays correct treatment and risks drug resistance."
                 }
               ],
               "behaviour": {
@@ -261,69 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6351133e-0129-474b-bb73-f21b177d0175",
+            "subContentId": "d9a5ba77-9463-4eee-8223-60ffd9dec9e5",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 28-year-old presents with progressive",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 525.175,
-            "to": 535.175
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A normal plain radiograph in the first week of symptoms reliably excludes a diag</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>A normal plain radiograph in the first week of symptoms reliably excludes a diagnosis of acute osteomyelitis.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Incorrect. Plain radiographs are often normal in the first 7–10 days because bone must lose 30–50% of its mineral content before destruction appears. A normal X-ray does not rule out early osteomyelitis — MRI is far more sensitive in this window.",
-                "correctAnswerMessage": "Correct. Plain radiographs are often normal in the first 7–10 days because bone must lose 30–50% of its mineral content before lytic changes become visible. MRI is the gold standard for early detection, showing bone marrow oedema within days of onset.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "5f197fcc-1cde-4aa4-b329-22eb35887131",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "A normal plain radiograph in the first w",
+              "title": "A 35-year-old woman presents with knee s",
               "authors": [],
               "changes": []
             }
@@ -345,7 +235,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>During aspiration of a febrile patient's hot, swollen knee, you obtain turbid sy</p>",
+          "label": "<p>A febrile patient with an acutely swollen knee undergoes arthrocentesis. The asp</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>During aspiration of a febrile patient's hot, swollen knee, you obtain turbid synovial fluid. The laboratory reports a white cell count of 82,000/μL with 94% neutrophils and a synovial glucose less than half the serum level. What is the most appropriate interpretation?</p>",
+              "question": "<p>A febrile patient with an acutely swollen knee undergoes arthrocentesis. The aspirate is turbid with a white cell count of 38,000 cells/μL and 88 per cent neutrophils. Gram stain is negative. What is the most appropriate interpretation?</p>",
               "answers": [
                 {
-                  "text": "<div>Inflammatory arthritis requiring elective rheumatology referral</div>",
+                  "text": "<div>The count is below 50,000, so septic arthritis is excluded</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While inflammatory arthritis raises the white cell count, counts above 50,000/μL with &gt;90% neutrophils and low glucose cross the threshold for presumptive septic arthritis, which is an emergency — not an elective referral.</div>",
+                    "chosenFeedback": "<div>A borderline count of 25,000–50,000 in a febrile patient should still be treated as presumptive septic arthritis. The 50,000 threshold is not a rigid cut-off — clinical context always guides the decision.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Presumptive septic arthritis requiring urgent treatment</div>",
+                  "text": "<div>The negative Gram stain confirms the fluid is non-infectious</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Gram stain sensitivity for joint infections is only 50–70 per cent. A negative stain never rules out septic arthritis, especially when the clinical picture and neutrophil-predominant cell count are suggestive.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The fluid is inflammatory but needs repeat aspiration in 48 hours before treatment</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Delaying treatment in a febrile patient with a high neutrophil-predominant count risks irreversible cartilage destruction. Bacterial toxins and rising pressure can destroy cartilage within one to two days.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The aspirate warrants presumptive treatment for septic arthritis despite the borderline count</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Turbid fluid with &gt;50,000 white cells/μL, &gt;90% neutrophils, and glucose less than half the serum level is the standard threshold for presumptive septic arthritis. In a febrile patient, this mandates urgent antibiotics and surgical drainage.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Crystal arthropathy such as gout, based on the turbidity</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Gout can produce turbid fluid, but diagnosis requires identification of monosodium urate crystals under polarised light microscopy. This combination of very high white cell count, neutrophil predominance, and low glucose in a febrile patient strongly indicates septic arthritis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Normal post-traumatic effusion with reactive changes</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Post-traumatic effusions are typically haemorrhagic or only mildly elevated in cell count, not turbid with &gt;80,000 white cells and neutrophil predominance. This pattern indicates infection, not injury.</div>",
+                    "chosenFeedback": "<div>Correct. A borderline white cell count of 25,000–50,000 with neutrophil predominance in a febrile patient warrants presumptive treatment as septic arthritis. Gram stain sensitivity is only 50–70 per cent, so a negative result does not exclude infection.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Turbid fluid with >50,000 WCC, >90% neutrophils, and low glucose in a febrile patient is presumptive septic arthritis — an orthopaedic emergency requiring urgent antibiotics and joint drainage."
+                  "feedback": "Remember: a borderline WBC of 25,000–50,000 in a febrile patient with a turbid, neutrophil-predominant aspirate should be treated as presumptive septic arthritis. The 50,000 threshold is not a rigid cut-off, and Gram stain sensitivity is only 50–70 per cent."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The classic septic profile — >50,000 WCC, >90% neutrophils, and low glucose — in a febrile patient demands urgent treatment. Even borderline counts (25,000–50,000) in a febrile patient should be treated as septic until proven otherwise."
+                  "feedback": "Exactly right. In a febrile patient, a turbid aspirate with a borderline count and neutrophil predominance demands presumptive treatment. Waiting for a count above 50,000 or a positive Gram stain risks irreversible cartilage damage."
                 }
               ],
               "behaviour": {
@@ -429,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "42d29c40-e6a1-4fca-80dd-d03e50cdc466",
+            "subContentId": "7135fe07-864b-4fea-bca5-d80c6bfb0723",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "During aspiration of a febrile patient's",
+              "title": "A febrile patient with an acutely swolle",
               "authors": [],
               "changes": []
             }
@@ -455,7 +345,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with acute osteomyelitis fails to improve after 48 hours of appropriat</p>",
+          "label": "<p>A child with acute osteomyelitis has received appropriate intravenous antibiotic</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with acute osteomyelitis fails to improve after 48 hours of appropriate intravenous antibiotics. What is the primary reason surgical intervention is now indicated?</p>",
+              "question": "<p>A child with acute osteomyelitis has received appropriate intravenous antibiotics for 48 hours but remains febrile with worsening local swelling. Imaging shows a subperiosteal collection. Why is surgical drainage now indicated?</p>",
               "answers": [
                 {
-                  "text": "<div>Antibiotics are intrinsically ineffective against bone infections</div>",
+                  "text": "<div>Intravenous antibiotics are ineffective against the common causative organisms of osteomyelitis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Antibiotics are effective against bone infections when the tissue has adequate blood supply. The problem arises only when infection creates avascular zones or walled-off collections that antibiotics cannot penetrate.</div>",
+                    "chosenFeedback": "<div>Anti-staphylococcal antibiotics are effective against the most common organisms. The problem is not the drug's spectrum but the fact that antibiotics travel via the bloodstream and cannot penetrate a walled-off, avascular collection.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Antibiotics cannot penetrate avascular or walled-off tissue collections</div>",
+                  "text": "<div>The collection is avascular and walled off, making it unreachable by antibiotics in the bloodstream</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. This is the key principle: once infection creates an abscess or devitalised bone, antibiotics cannot cross the avascular barrier. Surgery drains collections and removes dead tissue, restoring a field where antibiotics can work.</div>",
+                    "chosenFeedback": "<div>Correct. This is the core principle: antibiotics travel via the blood supply and cannot reach tissue that is avascular or walled off. A subperiosteal abscess must be surgically drained to achieve source control.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Surgical debridement alone cures osteomyelitis without the need for antibiotics</div>",
+                  "text": "<div>Antibiotics should never be given for more than 48 hours without surgery</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Surgery and antibiotics work together. Surgery removes barriers to antibiotic penetration, while antibiotics clear residual bacteria. Neither alone is sufficient when an abscess has formed.</div>",
+                    "chosenFeedback": "<div>Duration alone does not determine the need for surgery. Surgery is indicated when there is clinical non-response AND an identifiable collection, because antibiotics cannot penetrate avascular, walled-off tissue.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Two days is always too short for antibiotics to show any clinical effect</div>",
+                  "text": "<div>The subperiosteal collection indicates a fungal superinfection requiring debridement</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Appropriate antibiotics should produce clinical improvement — reduced fever, decreasing pain — within 36–48 hours. Failure to improve in this window is a warning that a collection has formed, requiring surgical drainage.</div>",
+                    "chosenFeedback": "<div>Subperiosteal abscess in acute osteomyelitis is a progression of the bacterial infection, not a fungal superinfection. It forms when pus lifts the loosely attached periosteum in children, creating a space antibiotics cannot reach.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key principle: antibiotics cannot penetrate avascular or walled-off tissue. Failure to improve after 36–48 hours of appropriate antibiotics suggests an abscess or devitalised bone that requires surgical drainage."
+                  "feedback": "The key principle is that antibiotics travel in the bloodstream and cannot penetrate avascular or walled-off collections. When imaging confirms a subperiosteal abscess and the patient is not improving after 36–48 hours, surgical drainage is required to achieve source control."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. The guiding principle is that antibiotics cannot reach avascular or walled-off tissue. Failure to improve after 36–48 hours suggests an undrained abscess or dead bone acting as a barrier to treatment."
+                  "feedback": "Exactly. The two principles driving operative intervention are: antibiotics cannot reach avascular or walled-off tissue, and delay risks irreversible destruction. A subperiosteal abscess fulfils the first principle, and clinical non-response at 48 hours fulfils the second."
                 }
               ],
               "behaviour": {
@@ -539,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "420412cb-a9f6-40b7-883f-491a8fd235c7",
+            "subContentId": "7fa2bb36-4425-41d5-bc82-24a18644388f",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with acute osteomyelitis fails",
+              "title": "A child with acute osteomyelitis has rec",
               "authors": [],
               "changes": []
             }
@@ -565,7 +455,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>On post-operative day 1 following arthrotomy for hip septic arthritis, the surgi</p>",
+          "label": "<p>Twelve hours after surgical drainage of a proximal tibial abscess, the wound dra</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -574,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>On post-operative day 1 following arthrotomy for hip septic arthritis, the surgical drain output drops suddenly from 50 mL to zero, but the wound appears swollen and tense. What is the most likely cause?</p>",
+              "question": "<p>Twelve hours after surgical drainage of a proximal tibial abscess, the wound drain output drops suddenly to zero, but the wound appears swollen and tense. What should the team member do?</p>",
               "answers": [
                 {
-                  "text": "<div>Successful drainage with complete resolution of the effusion</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. If drainage were complete, you would not expect increasing wound swelling and tension. A sudden drop in output combined with wound swelling indicates fluid accumulation that cannot exit — not resolution.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Drain occlusion by fibrin clot</div>",
+                  "text": "<div>Suspect drain occlusion by fibrin and escalate promptly to the operating surgeon</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Fibrin occlusion of the drain is a common early post-operative complication. Sudden cessation of output combined with wound swelling means fluid is accumulating but cannot exit. Prompt recognition and drain flushing or replacement prevents secondary infection.</div>",
+                    "chosenFeedback": "<div>Correct. A sudden drop in drain output with increasing wound swelling in the first post-operative day suggests fibrin occlusion. Prompt escalation allows the surgeon to address the blockage before the wound converts back into a pus collection.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Avascular necrosis of the femoral head</div>",
+                  "text": "<div>Reassure that reduced drainage indicates the wound is healing</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Avascular necrosis is a late complication developing weeks to months after septic arthritis from sustained pressure compromising the femoral head blood supply. It does not present as wound swelling on post-operative day 1.</div>",
+                    "chosenFeedback": "<div>Healing would not cause the wound to become swollen and tense. A sudden drop in output with increasing local swelling is a warning sign of drain blockage, not resolution. A blocked drain can turn a draining wound back into a pus collection.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Deep vein thrombosis of the lower limb</div>",
+                  "text": "<div>Remove the drain since it is no longer functioning</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Deep vein thrombosis typically presents with diffuse calf swelling, pain, and tenderness — not localised wound swelling with cessation of drain output. The pattern here points to a mechanical drain problem.</div>",
+                    "chosenFeedback": "<div>Removing a potentially blocked drain without investigation would allow pus to re-accumulate. The sudden cessation of drainage with wound swelling suggests a mechanical blockage that the surgeon needs to assess and address.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Apply a tight compression bandage to reduce the swelling</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Compression over a blocked drain increases pressure without restoring drainage. The priority is escalation to the surgeon so the drain can be assessed and the blockage cleared before a pus collection reforms.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -617,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "A sudden drop in drain output with wound swelling and tension on post-operative day 1 indicates drain occlusion by fibrin. Early recognition prevents the drained wound from becoming a closed pus collection again."
+                  "feedback": "Remember: in the first post-operative days, a sudden drop in drain output with wound swelling suggests fibrin occlusion. Your job as a team member is to recognise the warning sign and escalate promptly — a drain blocked for even 12 hours can turn a draining wound back into a pus collection."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Sudden cessation of drain output with wound swelling on day 1 is fibrin occlusion until proven otherwise. This is one of three early complications to watch for — alongside wound haematoma and neurovascular compromise."
+                  "feedback": "Well done. The team member's role on the post-operative ward is to examine the limb, review drain output, and escalate promptly. A blocked drain missed early can undo the benefit of surgery by allowing pus to re-collect."
                 }
               ],
               "behaviour": {
@@ -649,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ea5128d1-3378-475e-8ed4-7f88a1ca81fd",
+            "subContentId": "0987b85c-00f7-417b-a840-10def68fdba5",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "On post-operative day 1 following arthro",
+              "title": "Twelve hours after surgical drainage of",
               "authors": [],
               "changes": []
             }
@@ -736,7 +626,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "3a91f6ca-8df9-4b0a-8a59-803ecb8d6764",
+              "subContentId": "3865b9d1-d7b8-4196-970f-c8661084c681",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -759,7 +649,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "8a1126f8-e644-4603-ab67-f12c15485fc9",
+        "subContentId": "acf9b164-ef2e-4754-90b7-535ee181cee2",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
