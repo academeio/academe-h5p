@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/4ff0755e-a693-4298-b915-ea0925985a50/playlist.m3u8",
+          "path": "https://vdo.cbme.in/5bd971e7-dbe1-46fb-afbe-efa551a145d1/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "IM5.1-17 | Liver Disease — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for IM5.1-IM5.9."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for IM5.1-IM5.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 149.425,
-            "to": 159.425
+            "from": 159.88416666666666,
+            "to": 169.88416666666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient presents with conjugated hyperbilirubinaemia, dark urine, and pale sto</p>",
+          "label": "<p>A patient presents with jaundice, dark urine, and pale clay-coloured stools. Bas</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient presents with conjugated hyperbilirubinaemia, dark urine, and pale stools. Which step of the bilirubin pathway is most likely impaired?</p>",
+              "question": "<p>A patient presents with jaundice, dark urine, and pale clay-coloured stools. Based on the four-step bilirubin pathway, which step is disrupted?</p>",
               "answers": [
                 {
-                  "text": "<div>Haem catabolism in the spleen</div>",
+                  "text": "<div>Breakdown of red blood cells in the reticuloendothelial system</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Splenic haem catabolism produces unconjugated bilirubin. If this step were excessive (e.g. haemolysis), the dominant fraction would be unconjugated and stool colour would remain normal.</div>",
+                    "chosenFeedback": "<div>Red blood cell breakdown (step 1) produces unconjugated bilirubin, which is water-insoluble. It cannot be excreted in urine (no dark urine), and stercobilin production from downstream bilirubin metabolism continues, so stools remain brown.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Hepatic conjugation by UDP-glucuronosyltransferase</div>",
+                  "text": "<div>Conjugation by UDP-glucuronosyltransferase in the hepatocyte</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Conjugation failure causes unconjugated hyperbilirubinaemia, as in Gilbert syndrome. The presence of conjugated bilirubin here means conjugation has already occurred successfully.</div>",
+                    "chosenFeedback": "<div>Conjugation failure (step 2) raises unconjugated bilirubin, which is water-insoluble and does not spill into urine. The triad of dark urine and pale stools requires accumulation of the water-soluble conjugated fraction downstream.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Canalicular excretion of conjugated bilirubin</div>",
+                  "text": "<div>Transport of conjugated bilirubin into the bile canaliculus</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Canalicular transport failure can raise conjugated bilirubin, but pale stools specifically indicate that bilirubin is not reaching the gut — pointing to biliary drainage obstruction rather than a canalicular defect.</div>",
+                    "chosenFeedback": "<div>Canalicular excretion failure (step 3) does accumulate conjugated bilirubin, but the classic triad of dark urine and pale stools is specifically attributed to obstruction of biliary drainage into the gut, where stercobilin formation ceases entirely.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Biliary drainage into the gut</div>",
+                  "text": "<div>Drainage of bile from the biliary system into the gut</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Obstruction of biliary drainage traps conjugated bilirubin (causing dark urine) and prevents its conversion to stercobilin in the gut, producing pale stools.</div>",
+                    "chosenFeedback": "<div>Correct! Biliary obstruction (step 4) traps conjugated bilirubin, which is water-soluble and excreted renally, producing dark urine. No bilirubin reaches the gut, so bacteria cannot convert it to stercobilin, and stools turn pale.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the four steps of bilirubin metabolism. Pale stools mean bilirubin is not reaching the gut, which localises the block to biliary drainage — step four of the pathway."
+                  "feedback": "Review the four steps: dark urine and pale stools specifically point to step 4 — biliary drainage obstruction. Unconjugated bilirubin (steps 1–2) is water-insoluble and cannot produce dark urine."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Biliary obstruction blocks conjugated bilirubin from reaching the gut, eliminating stercobilin formation and producing the classic triad of conjugated hyperbilirubinaemia, dark urine, and pale stools."
+                  "feedback": "Well done! Biliary obstruction prevents bilirubin from reaching the gut, blocking stercobilin formation. The water-soluble conjugated fraction spills into the blood and is excreted by the kidneys."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "c1e5fafb-9d40-4a5b-8904-a1af9a292fe1",
+            "subContentId": "a4eb8dc1-613d-407a-bfa1-7d17c2841209",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient presents with conjugated hyper",
+              "title": "A patient presents with jaundice, dark u",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 280.975,
-            "to": 290.975
+            "from": 292.2798333333333,
+            "to": 302.2798333333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The MELD score uses bilirubin, albumin, and INR to predict 90-day mortality in e</p>",
+          "label": "<p>Serum albumin is a component of both the Child-Pugh score and the MELD score.</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,7 +186,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>The MELD score uses bilirubin, albumin, and INR to predict 90-day mortality in end-stage liver disease.</p>",
+              "question": "<p>Serum albumin is a component of both the Child-Pugh score and the MELD score.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -204,16 +204,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "The MELD score uses bilirubin, creatinine, and INR. Albumin belongs to the Child-Pugh score, not MELD. Remember MELD as three lab values focused on organ function — liver (bilirubin), kidney (creatinine), and coagulation (INR).",
-                "correctAnswerMessage": "Well done. MELD uses three variables: bilirubin, creatinine, and INR — not albumin. Albumin is part of the Child-Pugh score, which grades five parameters: bilirubin, albumin, INR, ascites, and encephalopathy.",
+                "wrongAnswerMessage": "This statement is false. Albumin features in the Child-Pugh score (alongside bilirubin, INR, ascites, and encephalopathy) but is NOT part of the MELD score, which uses only three laboratory values: bilirubin, creatinine, and INR.",
+                "correctAnswerMessage": "Well done! Albumin is part of the Child-Pugh score (bilirubin, albumin, INR, ascites, encephalopathy) but is NOT included in the MELD score, which uses only bilirubin, creatinine, and INR to predict 90-day mortality.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "5e85654e-4782-487d-b0a6-9161391494c2",
+            "subContentId": "70ec115c-6886-4573-8afd-c505826b5ed2",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "The MELD score uses bilirubin, albumin,",
+              "title": "Serum albumin is a component of both the",
               "authors": [],
               "changes": []
             }
@@ -229,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 503.52500000000003,
-            "to": 513.5250000000001
+            "from": 417.9898749999999,
+            "to": 427.9898749999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient's liver function tests show ALT 1240 U/L, AST 610 U/L, and ALP 180 U/L</p>",
+          "label": "<p>In a patient with a confirmed history of chronic alcohol use, an AST-to-ALT rati</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient's liver function tests show ALT 1240 U/L, AST 610 U/L, and ALP 180 U/L, giving an AST:ALT ratio of approximately 0.5. Which interpretation is most accurate?</p>",
+              "question": "<p>In a patient with a confirmed history of chronic alcohol use, an AST-to-ALT ratio above 2:1 most strongly suggests which diagnosis?</p>",
               "answers": [
                 {
-                  "text": "<div>Cholestatic injury pattern consistent with biliary obstruction</div>",
+                  "text": "<div>Chronic hepatitis B infection</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In a cholestatic pattern, ALP and GGT dominate over transaminases. Here, ALT and AST are markedly elevated with a relatively low ALP, indicating hepatocellular — not cholestatic — injury.</div>",
+                    "chosenFeedback": "<div>In viral hepatitis, ALT typically exceeds AST, producing a ratio below 1. The reversed ratio with AST predominance is characteristic of alcohol-mediated liver injury, not viral hepatitis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Hepatocellular injury; the AST:ALT ratio below one argues against alcoholic aetiology</div>",
+                  "text": "<div>Drug-induced liver injury</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Drug-induced liver injury usually presents with an ALT-dominant hepatocellular pattern. The AST-to-ALT ratio above 2:1 with a confirmed alcohol history is a specific pointer to alcoholic liver disease.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Alcoholic liver disease</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Markedly elevated transaminases with ALT exceeding AST points to hepatocellular injury. An AST:ALT ratio below one makes alcoholic liver disease unlikely, as ALD characteristically produces a ratio above 2:1.</div>",
+                    "chosenFeedback": "<div>Correct! An AST-to-ALT ratio above 2:1 in a patient with confirmed chronic alcohol use is a strong diagnostic clue for alcoholic liver disease, distinguishing it from other hepatocellular injuries where ALT typically predominates.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Alcoholic hepatitis with characteristic enzyme elevation</div>",
+                  "text": "<div>Autoimmune hepatitis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Alcoholic hepatitis characteristically shows an AST:ALT ratio above 2:1, with transaminases usually below 300 U/L. Very high transaminases with ALT exceeding AST are inconsistent with alcoholic liver disease.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Mixed injury pattern suggesting drug-induced hepatotoxicity</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>A mixed pattern shows proportional elevation of both transaminases and ALP/GGT. Here the transaminases dominate overwhelmingly, indicating a pure hepatocellular pattern rather than a mixed one.</div>",
+                    "chosenFeedback": "<div>Autoimmune hepatitis typically presents with a marked ALT rise and is diagnosed with specific autoantibodies. The AST-dominant pattern with a confirmed alcohol history points to alcoholic liver disease.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Focus on two features: which enzymes dominate (transaminases vs ALP/GGT) to classify the injury pattern, and the AST:ALT ratio to narrow the aetiology. A ratio below one argues strongly against alcoholic liver disease."
+                  "feedback": "Remember: an AST-to-ALT ratio above 2:1 with confirmed alcohol use points strongly to alcoholic liver disease. In most other hepatocellular injuries, ALT exceeds AST."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. The dominant transaminase elevation identifies a hepatocellular pattern, and the low AST:ALT ratio effectively excludes alcoholic liver disease as the cause."
+                  "feedback": "Exactly right. The AST-to-ALT ratio above 2:1, combined with a confirmed alcohol history, is one of the key diagnostic clues in the three-question clinical framework for liver disease."
                 }
               ],
               "behaviour": {
@@ -319,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "4e07f3c0-8eb8-437c-be8f-2f81ae6bc6f7",
+            "subContentId": "ae38c70f-a66e-436f-9ab4-890e2bc681cf",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient's liver function tests show AL",
+              "title": "In a patient with a confirmed history of",
               "authors": [],
               "changes": []
             }
@@ -339,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 698.0250000000001,
-            "to": 708.0250000000001
+            "from": 611.5693749999999,
+            "to": 621.5693749999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A cirrhotic patient with ascites presents with fever. Diagnostic paracentesis re</p>",
+          "label": "<p>A patient presents with jaundice. Liver function tests show: ALT 45 U/L, AST 38 </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A cirrhotic patient with ascites presents with fever. Diagnostic paracentesis reveals 380 polymorphonuclear cells per cubic millimetre. What is the most appropriate immediate action?</p>",
+              "question": "<p>A patient presents with jaundice. Liver function tests show: ALT 45 U/L, AST 38 U/L, alkaline phosphatase 520 U/L, and GGT 380 U/L. According to the diagnostic sequence for liver disease, what should be the next investigation?</p>",
               "answers": [
                 {
-                  "text": "<div>Await ascitic fluid culture results before initiating antibiotics</div>",
+                  "text": "<div>Hepatitis B surface antigen and anti-HCV antibody</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In SBP, treatment must begin immediately once PMN count reaches the threshold. Culture results take days and must never delay antibiotic therapy — delayed treatment significantly increases mortality.</div>",
+                    "chosenFeedback": "<div>Hepatitis serology targets hepatocellular injury (ALT/AST-dominant patterns). This patient's cholestatic pattern (ALP and GGT dominant) directs the workup toward biliary imaging, not viral serology.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Perform large-volume paracentesis with albumin replacement</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Large-volume paracentesis with albumin is the treatment for refractory ascites, not for spontaneous bacterial peritonitis. This patient's immediate need is antimicrobial therapy.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Start ceftriaxone and administer albumin at 1.5 g/kg on day one</div>",
+                  "text": "<div>Abdominal ultrasound to evaluate the biliary tree</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. PMN ≥250/mm³ confirms SBP. A third-generation cephalosporin is started immediately without waiting for cultures. Albumin at 1.5 g/kg on day one and 1 g/kg on day three reduces the risk of hepatorenal syndrome.</div>",
+                    "chosenFeedback": "<div>Correct! The cholestatic pattern (ALP 520, GGT 380, with relatively normal ALT/AST) suggests bile duct pathology. Ultrasound is the first imaging step — it surveys the liver, bile ducts, portal vein, and ascites in one pass before escalating to MRCP if needed.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Begin lactulose and rifaximin for hepatic encephalopathy prophylaxis</div>",
+                  "text": "<div>Endoscopic retrograde cholangiopancreatography (ERCP)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Lactulose and rifaximin are used for hepatic encephalopathy management, not SBP. The elevated PMN count here demands immediate antibiotic and albumin therapy.</div>",
+                    "chosenFeedback": "<div>ERCP is invasive and carries risks including pancreatitis. It should be reserved for cases where therapeutic biliary intervention is planned, not as a first-line diagnostic investigation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Serum-ascites albumin gradient</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>SAAG is indicated only when ascites is present. The diagnostic algorithm for jaundice begins with the LFT pattern, which here is cholestatic, directing the workup toward biliary imaging.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The threshold for SBP is PMN ≥250/mm³. Once crossed, start ceftriaxone immediately and give albumin at 1.5 g/kg on day one and 1 g/kg on day three to prevent hepatorenal syndrome."
+                  "feedback": "The LFT pattern is the first branch point. Here, ALP and GGT dominate over ALT and AST, indicating cholestasis. The algorithm directs you to ultrasound of the biliary tree — not hepatitis serology or invasive procedures."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. SBP is diagnosed at PMN ≥250/mm³ and treated immediately with a third-generation cephalosporin plus albumin — cultures inform later adjustments but never delay initial therapy."
+                  "feedback": "Well done! The diagnostic algorithm anchors on the LFT pattern. A cholestatic picture (ALP/GGT-dominant) directs you to ultrasound as the first imaging step to evaluate biliary anatomy."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "3ba6329b-1b12-42b4-8d41-9cd71c03d459",
+            "subContentId": "fff49912-f23b-4f44-b83d-4b69465f68d3",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A cirrhotic patient with ascites present",
+              "title": "A patient presents with jaundice. Liver",
               "authors": [],
               "changes": []
             }
@@ -449,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 843.6000000000001,
-            "to": 853.6000000000001
+            "from": 720.4905416666666,
+            "to": 730.4905416666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 52-year-old cirrhotic patient has a MELD score of 18 and a single hepatocellul</p>",
+          "label": "<p>In a patient with suspected acute variceal bleeding, when should terlipressin an</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 52-year-old cirrhotic patient has a MELD score of 18 and a single hepatocellular carcinoma measuring 6 cm on imaging. What is the most important factor limiting this patient's transplant eligibility?</p>",
+              "question": "<p>In a patient with suspected acute variceal bleeding, when should terlipressin and ceftriaxone be administered?</p>",
               "answers": [
                 {
-                  "text": "<div>The MELD score of 18 is too low for transplant evaluation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>A MELD score ≥15 triggers transplant evaluation, so 18 is above the threshold. The MELD score does not limit eligibility here — it is the tumour characteristics that must be assessed against Milan criteria.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The tumour exceeds Milan criteria, making the patient ineligible for transplantation</div>",
+                  "text": "<div>On arrival, before endoscopy confirms the variceal source</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Milan criteria permit a single tumour ≤5 cm or up to three tumours each ≤3 cm, with no vascular invasion. A 6 cm tumour exceeds the size limit, closing the transplant window regardless of the MELD score.</div>",
+                    "chosenFeedback": "<div>Correct! Terlipressin reduces splanchnic blood flow and ceftriaxone prevents bacterial translocation. Both improve survival and must be given at arrival. Band ligation follows within 12 hours but should never delay these medications.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Transplant evaluation should be deferred until the MELD score reaches 20</div>",
+                  "text": "<div>Only after upper GI endoscopy confirms variceal bleeding</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>MELD ≥15 already triggers evaluation; deferring evaluation risks missing the treatment window. Moreover, the immediate barrier here is the tumour size exceeding Milan criteria, not the MELD score.</div>",
+                    "chosenFeedback": "<div>Waiting for endoscopic confirmation delays life-saving treatment. Terlipressin and ceftriaxone are given empirically on arrival when variceal bleeding is suspected in a known cirrhotic patient.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Any single HCC without vascular invasion qualifies for transplant under Milan criteria</div>",
+                  "text": "<div>After transfusion achieves a haemoglobin above 10 g/dL</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Milan criteria include a strict size limit: a single tumour must be ≤5 cm. Larger tumours carry a higher recurrence risk post-transplant, which is why the criteria set this upper bound.</div>",
+                    "chosenFeedback": "<div>In variceal bleeding, the resuscitation target is a haemoglobin of 7–8 g/dL, not higher. Over-transfusion can worsen portal pressure and increase the risk of rebleeding.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>After band ligation has been performed</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Band ligation is the definitive endoscopic treatment, performed within 12 hours. However, pharmacological therapy with terlipressin and ceftriaxone must begin immediately at arrival, well before endoscopy.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the Milan criteria: single tumour ≤5 cm, or up to three tumours each ≤3 cm, with no vascular invasion. A tumour exceeding these limits is the primary barrier to transplant eligibility in this case."
+                  "feedback": "The key principle: do not wait for endoscopy. Terlipressin and ceftriaxone are given on arrival. Resuscitate to haemoglobin 7–8 g/dL, and band ligation follows within 12 hours."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Milan criteria set strict size limits — a single tumour must be ≤5 cm. Exceeding this disqualifies the patient from transplant even when the MELD score meets the evaluation threshold."
+                  "feedback": "Exactly right. In variceal bleeding, both drugs save lives when given before endoscopic confirmation. Early pharmacological treatment is the management principle that drives outcomes."
                 }
               ],
               "behaviour": {
@@ -539,11 +539,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "a8dc8da0-f6e8-40ca-a198-d42472d02dd0",
+            "subContentId": "5dc24e16-43ba-4b7e-8a6a-1fb511c2b11b",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 52-year-old cirrhotic patient has a ME",
+              "title": "In a patient with suspected acute varice",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 867.1840833333333,
+            "to": 877.1840833333333
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Which of the following patients with hepatocellular carcinoma meets the Milan cr</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Which of the following patients with hepatocellular carcinoma meets the Milan criteria for liver transplantation?</p>",
+              "answers": [
+                {
+                  "text": "<div>A patient with a single tumour measuring 6 cm in diameter</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The Milan criteria allow a single tumour up to 5 cm. At 6 cm, this patient exceeds the size limit and does not qualify for transplant under these criteria.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A patient with four tumours, each measuring 2 cm</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The Milan criteria permit a maximum of three tumours. Four tumours, regardless of individual size, exceed the number limit and disqualify the patient.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A patient with two tumours, each measuring 4 cm</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>For multiple tumours, the Milan criteria require each to be no larger than 3 cm. Two tumours of 4 cm each exceed the per-tumour size limit for the multi-tumour pathway.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A patient with three tumours, each 2.5 cm, with no vascular invasion</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct! The Milan criteria allow up to three tumours, each ≤3 cm, with no vascular spread. Three tumours of 2.5 cm with no vascular invasion meets all the criteria for transplant eligibility.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Review the Milan criteria: a single tumour no larger than 5 cm, or up to three tumours each no larger than 3 cm, with no vascular spread. Apply both size and number limits to evaluate each case."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done! The Milan criteria are: a single tumour ≤5 cm, OR up to three tumours each ≤3 cm, with no vascular invasion. Both size and number thresholds must be met."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "39186f34-a614-4b2d-8f7c-a0c69bfdaa66",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Which of the following patients with hep",
               "authors": [],
               "changes": []
             }
@@ -564,45 +674,45 @@
           "label": "Welcome to Liver Disease."
         },
         {
-          "time": 3,
+          "time": 2,
           "label": "Meet Rahul, 38 years old, with yellow eyes, swollen legs,…"
         },
         {
-          "time": 62,
+          "time": 61,
           "label": "Building on what you've seen about normal hepatic physiol…"
         },
         {
-          "time": 149,
+          "time": 160,
           "label": "Liver injury falls into two broad patterns, each with a d…"
         },
         {
-          "time": 281,
+          "time": 293,
           "label": "At the bedside, the history comes first."
         },
         {
-          "time": 405,
+          "time": 419,
           "label": "Liver function tests reveal a pattern, not a single value."
         },
         {
-          "time": 504,
+          "time": 521,
           "label": "When ascites is new, or a cirrhotic patient deteriorates,…"
         },
         {
-          "time": 592,
+          "time": 612,
           "label": "Recall those three patients deteriorating at two in the m…"
         },
         {
-          "time": 698,
+          "time": 721,
           "label": "Viral hepatitis treatment follows the causative virus."
         },
         {
-          "time": 787,
+          "time": 811,
           "label": "Transplant referral has a window, and knowing when to ope…"
         }
       ],
       "endscreens": [
         {
-          "time": 884,
+          "time": 907,
           "label": "End"
         }
       ]
@@ -614,7 +724,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "48015e85-ad4e-48e7-b153-8883eaacaff4",
+              "subContentId": "7ecc4326-ecf2-453d-812b-b85b7f3a490d",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -637,7 +747,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "38182481-aa1f-416d-a5e9-7a7146293c4a",
+        "subContentId": "e1d7af76-2e18-412f-9f8c-a75b6c18c5fa",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
