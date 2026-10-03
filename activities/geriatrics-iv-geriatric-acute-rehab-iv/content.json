@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/8eb73353-8a50-4c2a-98cf-9c75933a6af5/playlist.m3u8",
+          "path": "https://vdo.cbme.in/676aeed7-b6b8-409a-a0cc-a2ad07d94822/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,13 +61,123 @@
       "interactions": [
         {
           "duration": {
-            "from": 61.074999999999996,
-            "to": 71.07499999999999
+            "from": 203.5582083333333,
+            "to": 213.5582083333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Stroke risk doubles with each decade after the age of 65.</p>",
+          "label": "<p>Why is aggressive blood pressure reduction avoided in the acute phase of ischaem</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Why is aggressive blood pressure reduction avoided in the acute phase of ischaemic stroke when thrombolysis is not planned?</p>",
+              "answers": [
+                {
+                  "text": "<div>Antihypertensive drugs interact with alteplase and increase haemorrhagic risk</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The question specifies thrombolysis is NOT planned, so alteplase interaction is irrelevant. When thrombolysis IS planned, blood pressure is lowered to below 185/110 before administration.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The ischaemic penumbra depends on maintained perfusion pressure to remain viable</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The ischaemic penumbra — the at-risk tissue surrounding the infarct core — relies on collateral blood flow driven by systemic pressure. Lowering BP reduces perfusion to this vulnerable zone, potentially converting salvageable tissue into permanent infarct.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Rapid blood pressure reduction causes rebound intracranial hypertension</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Rebound intracranial hypertension is not the mechanism. The concern is inadequate perfusion of the penumbra, not a pressure rebound effect.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Cerebral autoregulation is enhanced during acute stroke and compensates automatically</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Cerebral autoregulation is actually impaired in acute ischaemic stroke. This impairment is precisely why systemic blood pressure matters — the brain cannot compensate for pressure drops.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Not quite. In acute ischaemic stroke, the penumbra relies on systemic blood pressure for perfusion. Aggressive lowering can extend the infarct by starving salvageable tissue of blood flow."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. The ischaemic penumbra depends on adequate perfusion pressure. Permissive hypertension up to 220/120 mmHg protects salvageable brain tissue when thrombolysis is not planned."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "aeb579d2-b775-48fa-a73b-ddfef4bc9c30",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Why is aggressive blood pressure reducti",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 405.65174999999994,
+            "to": 415.65174999999994
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A DEXA scan showing a T-score of −2.5 or lower is required before a diagnosis of</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,7 +186,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Stroke risk doubles with each decade after the age of 65.</p>",
+              "question": "<p>A DEXA scan showing a T-score of −2.5 or lower is required before a diagnosis of osteoporosis can be made in a patient who has fractured after a standing-height fall.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -94,16 +204,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "Stroke risk doubles every decade after age 55, not 65. This is a clinically important distinction — delaying preventive action by a decade means missing a critical window for controlling hypertension, diabetes, and atrial fibrillation.",
-                "correctAnswerMessage": "Correct — stroke risk actually doubles every decade after age 55, not 65. Recognising this earlier onset is vital because vascular risk-factor screening and primary prevention should begin well before old age.",
+                "wrongAnswerMessage": "Not quite. A fragility fracture alone is diagnostic of osteoporosis. A DEXA scan quantifies bone density but is not a prerequisite when the fracture mechanism already demonstrates pathological bone weakness. Any fracture from a standing-height fall meets the clinical definition.",
+                "correctAnswerMessage": "Correct. A fragility fracture — any fracture from a fall at standing height or less — is clinically diagnostic of osteoporosis regardless of DEXA availability. The low-energy mechanism proves the bone is pathologically weak, meeting the definition without requiring densitometry.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "68771483-1c15-4db7-b7dc-b2f3d2f9b98f",
+            "subContentId": "336bf425-5447-403e-bc86-069e16004044",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Stroke risk doubles with each decade aft",
+              "title": "A DEXA scan showing a T-score of −2.5 or",
               "authors": [],
               "changes": []
             }
@@ -119,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 270,
-            "to": 280
+            "from": 567.6046666666666,
+            "to": 577.6046666666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 70-year-old man has a confirmed ischaemic stroke attributed to atrial fibrilla</p>",
+          "label": "<p>Why is the target oxygen saturation in a COPD exacerbation set at 88–92% rather </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 70-year-old man has a confirmed ischaemic stroke attributed to atrial fibrillation. What is the most appropriate long-term secondary prevention strategy?</p>",
+              "question": "<p>Why is the target oxygen saturation in a COPD exacerbation set at 88–92% rather than the usual 94–98%?</p>",
               "answers": [
                 {
-                  "text": "<div>Dual antiplatelet therapy with aspirin and clopidogrel</div>",
+                  "text": "<div>Pulse oximeters consistently overestimate saturation in chronic lung disease</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Dual antiplatelet therapy is the initial approach for atherothrombotic and lacunar strokes. Cardioembolic stroke from atrial fibrillation requires anticoagulation instead.</div>",
+                    "chosenFeedback": "<div>While oximetry can have limitations, the lower target is not due to measurement error. It is a deliberate therapeutic choice based on respiratory drive physiology in chronic CO₂ retainers.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Anticoagulation with a direct oral anticoagulant</div>",
+                  "text": "<div>Chronic CO₂ retainers rely on hypoxic drive for respiration; excessive oxygen suppresses this and risks hypercapnic coma</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Atrial fibrillation is the most important modifiable cardiac cause of stroke in the elderly. DOACs are preferred over warfarin in non-valvular AF due to a better safety profile and no need for INR monitoring.</div>",
+                    "chosenFeedback": "<div>In chronic CO₂ retainers, the normal hypercapnic drive is blunted and respiration depends on hypoxic drive. High-flow oxygen removes this stimulus, causing hypoventilation, CO₂ accumulation, and potentially fatal respiratory acidosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Aspirin combined with low-dose warfarin</div>",
+                  "text": "<div>Higher oxygen concentrations directly worsen bronchospasm and airway inflammation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Combining an antiplatelet with an anticoagulant adds no stroke protection and only increases the risk of major bleeding — a point the narration explicitly emphasises.</div>",
+                    "chosenFeedback": "<div>Oxygen does not worsen bronchospasm. The danger is suppression of the hypoxic respiratory drive, not worsening of airway disease.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>High-dose statin monotherapy</div>",
+                  "text": "<div>Elderly patients have physiologically lower oxygen requirements that need no correction</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Statins reduce atherosclerotic cardiovascular risk but do not address the embolic source. Atrial fibrillation requires anticoagulation to prevent clot formation in the left atrial appendage.</div>",
+                    "chosenFeedback": "<div>The lower target is specific to COPD patients with chronic CO₂ retention, not a general age-related adjustment. It applies because these patients depend on hypoxia as their breathing stimulus.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The narration explains that stroke mechanism determines the prevention strategy. Cardioembolic strokes from AF need anticoagulation (preferably a DOAC), not antiplatelet therapy. Never combine the two — it only increases bleeding risk."
+                  "feedback": "Not quite. COPD patients with chronic CO₂ retention rely on low oxygen levels to stimulate breathing. Raising SpO₂ above 92% can suppress this hypoxic drive, causing dangerous CO₂ accumulation."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Cardioembolic stroke from AF requires anticoagulation, with DOACs preferred in non-valvular AF. The CHA₂DS₂-VASc score guides this decision, and patients with prior stroke almost always meet the threshold."
+                  "feedback": "Correct. Chronic CO₂ retainers depend on hypoxic drive for breathing. Over-oxygenation removes that stimulus, leading to hypoventilation and potentially fatal hypercapnic coma — hence the conservative 88–92% target."
                 }
               ],
               "behaviour": {
@@ -209,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ab62791e-8e33-4067-9884-c5aae99f24f7",
+            "subContentId": "19f0402f-22f0-4627-b994-5c460552d41f",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 70-year-old man has a confirmed ischae",
+              "title": "Why is the target oxygen saturation in a",
               "authors": [],
               "changes": []
             }
@@ -229,118 +339,8 @@
         },
         {
           "duration": {
-            "from": 448.2,
-            "to": 458.2
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>In the management of osteoarthritis in an elderly patient, why is topical diclof</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>In the management of osteoarthritis in an elderly patient, why is topical diclofenac gel recommended as the first-line pharmacological agent rather than oral NSAIDs?</p>",
-              "answers": [
-                {
-                  "text": "<div>Topical gel has greater anti-inflammatory potency than oral formulations</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Topical NSAIDs actually deliver a lower systemic dose than oral forms. Their advantage lies in safety, not potency — they achieve local pain relief while minimising systemic side effects.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Oral NSAIDs are ineffective against osteoarthritis pain</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Oral NSAIDs are effective against OA pain, but they carry significant risks in the elderly including renal impairment and gastrointestinal complications, which is why the STOPP criteria flag them.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Topical application avoids the systemic risks of renal impairment and gastrointestinal harm that oral NSAIDs pose in the elderly</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The STOPP criteria specifically warn against oral NSAIDs in elderly patients with chronic kidney disease. Topical diclofenac delivers local anti-inflammatory action with minimal systemic absorption, making it the safer first step.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Oral NSAIDs interfere with bisphosphonate absorption in osteoporosis patients</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While bisphosphonate absorption can be affected by certain medications, this is not the reason topical NSAIDs are preferred. The key concern is the systemic toxicity of oral NSAIDs in elderly patients with reduced renal reserve.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The narration explains that oral NSAIDs like ibuprofen carry serious risks when kidney function is reduced, which the STOPP criteria specifically warn against. Topical diclofenac provides local relief with minimal systemic absorption, making it the safer first pharmacological step in the OA management ladder."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Topical diclofenac is first-line because it avoids the systemic risks of oral NSAIDs — particularly renal and gastrointestinal harm — which the STOPP criteria flag in elderly patients."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "20489171-49f7-47a5-b6b5-f20c3a2ba917",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "In the management of osteoarthritis in a",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 635,
-            "to": 645
+            "from": 661.1312499999999,
+            "to": 671.1312499999999
           },
           "pause": true,
           "displayType": "poster",
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 78-year-old woman on long-term prednisolone for rheumatoid arthritis requires emergency surgery for a hip fracture. What is the most critical perioperative medication step?</p>",
+              "question": "<p>A 78-year-old woman on long-term prednisolone for rheumatoid arthritis requires emergency surgery for a hip fracture. What is the correct perioperative corticosteroid management?</p>",
               "answers": [
                 {
-                  "text": "<div>Stop prednisolone to reduce post-operative infection risk</div>",
+                  "text": "<div>Taper and discontinue prednisolone 48 hours before surgery to reduce infection risk</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Abruptly stopping long-term corticosteroids before surgery risks adrenal crisis. The suppressed adrenal glands cannot mount the cortisol surge needed to cope with surgical stress.</div>",
+                    "chosenFeedback": "<div>Abruptly stopping long-term corticosteroids risks adrenal crisis — the suppressed hypothalamic-pituitary-adrenal axis cannot mount an adequate cortisol response to surgical stress, potentially causing cardiovascular collapse.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Replace prednisolone with an oral NSAID for pain control</div>",
+                  "text": "<div>Continue the usual maintenance dose without adjustment</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>NSAIDs are specifically cautioned against in elderly patients with renal vulnerability. More importantly, this does not address the adrenal suppression from chronic steroid use.</div>",
+                    "chosenFeedback": "<div>The usual maintenance dose is insufficient for surgical stress. The body normally surges cortisol output several-fold during surgery; a suppressed adrenal axis cannot produce this increase independently.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Administer stress-dose hydrocortisone perioperatively</div>",
+                  "text": "<div>Administer surgical stress-dose hydrocortisone perioperatively</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Long-term corticosteroid use suppresses the hypothalamic-pituitary-adrenal axis. Without stress-dose hydrocortisone, the patient cannot mount an adequate cortisol response to surgical stress, risking cardiovascular collapse.</div>",
+                    "chosenFeedback": "<div>Patients on long-term corticosteroids have a suppressed HPA axis and cannot generate the cortisol surge needed during surgery. Stress-dose hydrocortisone provides this critical support and prevents adrenal crisis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Halve the prednisolone dose on the day of surgery</div>",
+                  "text": "<div>Replace prednisolone with a non-steroidal anti-inflammatory drug before surgery</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Reducing the dose is insufficient. The surgical stress response requires supraphysiological cortisol levels that the suppressed adrenal glands cannot produce — full stress-dose hydrocortisone is needed.</div>",
+                    "chosenFeedback": "<div>NSAIDs cannot replace corticosteroids here. The issue is adrenal suppression from chronic steroid use, not anti-inflammatory coverage. Moreover, NSAIDs carry serious renal and gastrointestinal risks in elderly surgical patients.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The narration emphasises a key clinical pearl: patients on long-term corticosteroids need stress-dose hydrocortisone during surgery. Stopping steroids risks adrenal crisis because the suppressed adrenal glands cannot produce the cortisol surge needed for surgical stress."
+                  "feedback": "Not quite. Long-term corticosteroid use suppresses the adrenal glands. Without stress-dose hydrocortisone, the patient cannot produce the cortisol surge surgery demands, risking cardiovascular collapse from adrenal crisis."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Patients on long-term steroids need surgical stress-dose hydrocortisone, not steroid cessation. Stopping steroids abruptly risks adrenal crisis — a life-threatening perioperative emergency."
+                  "feedback": "Correct. Chronic steroid use suppresses the HPA axis, so the adrenals cannot mount a stress response. Stress-dose hydrocortisone prevents perioperative adrenal crisis — steroids must never be stopped abruptly before surgery."
                 }
               ],
               "behaviour": {
@@ -429,7 +429,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2e0227c4-fabd-4799-9003-44c8082fb4bd",
+            "subContentId": "e90cbfa1-baf4-4c39-8feb-4c30239094ff",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -449,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 782.6,
-            "to": 792.6
+            "from": 755.4991249999999,
+            "to": 765.4991249999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A rehabilitation referral for a 73-year-old post-stroke patient simply states: '</p>",
+          "label": "<p>A post-stroke patient scores 45 on the Barthel Index. What rehabilitation dispos</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A rehabilitation referral for a 73-year-old post-stroke patient simply states: 'Please rehabilitate.' What is the single most important element this referral is missing?</p>",
+              "question": "<p>A post-stroke patient scores 45 on the Barthel Index. What rehabilitation disposition does this score indicate?</p>",
               "answers": [
                 {
-                  "text": "<div>A detailed medical history and list of comorbidities</div>",
+                  "text": "<div>Home discharge with outpatient physiotherapy follow-up</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Medical details support clinical decision-making but are not the fundamental gap. Without a defined functional goal, the rehabilitation team has no target and no way to measure progress.</div>",
+                    "chosenFeedback": "<div>A Barthel score above 60 is needed to predict likely home discharge. At 45, the patient has too much functional dependence for safe discharge directly home.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A specific, measurable, patient-valued functional goal</div>",
+                  "text": "<div>Inpatient rehabilitation before considering home discharge</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The narration states that 'a referral that just says please rehabilitate is not a plan.' Every rehabilitation programme must have a concrete goal — such as 'safe transfers by day ten' or 'Barthel score of 65 for home discharge.'</div>",
+                    "chosenFeedback": "<div>The Barthel Index scores ten daily activities from 0 to 100. A score between 20 and 60 indicates moderate dependence requiring structured inpatient rehabilitation. The goal is to improve function above 60 — the threshold predicting successful home discharge.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A request for a specific duration of therapy</div>",
+                  "text": "<div>Intensive support with full-time nursing care</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Duration without a defined goal is meaningless. The rehabilitation team needs a functional milestone to target, and duration follows from the patient's rate of progress toward that goal.</div>",
+                    "chosenFeedback": "<div>Intensive support is indicated for scores below 20, reflecting severe dependence. A score of 45 indicates moderate dependence amenable to active rehabilitation, not custodial care.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A specification of which team member should lead the programme</div>",
+                  "text": "<div>Community-based rehabilitation with no inpatient stay required</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While team roles matter, the interdisciplinary team assigns leadership based on the patient's primary needs. The critical missing element is a measurable functional goal that guides the entire programme.</div>",
+                    "chosenFeedback": "<div>Community-based programmes lack the intensity and supervision needed at this level of functional dependence. Inpatient rehabilitation provides the structured, high-intensity practice that drives recovery.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The narration makes clear that 'a referral that just says please rehabilitate is not a plan.' The essential element is a specific, measurable, patient-valued functional goal — such as 'Barthel Index of 65 for home discharge' — combined with caregiver training for discharge success."
+                  "feedback": "Not quite. The Barthel Index has three key bands: above 60 predicts home discharge, 20–60 requires inpatient rehabilitation, and below 20 needs intensive support. A score of 45 falls squarely in the inpatient rehabilitation range."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Every rehabilitation plan requires a specific, measurable, patient-valued goal. Without one, neither progress nor discharge readiness can be assessed. Caregiver training must also be part of the discharge plan."
+                  "feedback": "Correct. A Barthel score of 45 falls in the 20–60 range, indicating moderate dependence requiring inpatient rehabilitation to reach the home-discharge threshold of above 60."
                 }
               ],
               "behaviour": {
@@ -539,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "571ecf93-13aa-4cbc-8310-a38683a8313a",
+            "subContentId": "9dddf892-97ba-4ce6-b0ac-14977efc2b01",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A rehabilitation referral for a 73-year-",
+              "title": "A post-stroke patient scores 45 on the B",
               "authors": [],
               "changes": []
             }
@@ -568,41 +568,41 @@
           "label": "At 10:30 in the morning, 73-year-old Govindswamy arrives…"
         },
         {
-          "time": 61,
+          "time": 62,
           "label": "Stroke is the second leading cause of death worldwide."
         },
         {
-          "time": 197,
+          "time": 204,
           "label": "The mechanism of a stroke determines its secondary preven…"
         },
         {
-          "time": 270,
+          "time": 282,
           "label": "Meenakshi's hip fracture brings us into the musculoskelet…"
         },
         {
-          "time": 389,
+          "time": 406,
           "label": "Osteoarthritis is the most prevalent musculoskeletal diso…"
         },
         {
-          "time": 448,
+          "time": 467,
           "label": "Subramaniam is on his third exacerbation of chronic obstr…"
         },
         {
-          "time": 545,
+          "time": 568,
           "label": "Subramaniam now faces an emergency laparotomy."
         },
         {
-          "time": 635,
+          "time": 662,
           "label": "You met Murugadoss earlier, five days after his stroke, w…"
         },
         {
-          "time": 726,
+          "time": 756,
           "label": "All three patients arrive at the same question: how do we…"
         }
       ],
       "endscreens": [
         {
-          "time": 827,
+          "time": 859,
           "label": "End"
         }
       ]
@@ -614,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "3cf47c55-fc46-4010-9a09-a8f52ac9cc9d",
+              "subContentId": "29a819f9-7474-435c-a185-f43a00e87960",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -637,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "36222ff7-1771-43e1-93a1-f63e23504ca8",
+        "subContentId": "ec8c9c99-d46e-45a4-a3f5-83d1bc920e88",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
