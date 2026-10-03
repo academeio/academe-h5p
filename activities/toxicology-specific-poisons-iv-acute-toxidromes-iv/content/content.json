@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/a56b8f6f-6d6e-4f50-86dc-5b4720e0cd9d/playlist.m3u8",
+          "path": "https://vdo.cbme.in/3d4d50df-d74a-417a-b546-eb2254a4fce9/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "FM13.11-20,FM14.{2-3,15-16} | Toxicology: Specific Poisons — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for FM13.1-FM13.9."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for FM13.1-FM13.9."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 238.65,
-            "to": 248.65
+            "from": 247.80870833333339,
+            "to": 257.80870833333336
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient presents with cholinergic crisis after insecticide exposure. The poiso</p>",
+          "label": "<p>Why must pralidoxime (PAM) be administered within 24–48 hours of organophosphate</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient presents with cholinergic crisis after insecticide exposure. The poison is identified as a carbamate. Why is pralidoxime (PAM) unnecessary in this case?</p>",
+              "question": "<p>Why must pralidoxime (PAM) be administered within 24–48 hours of organophosphate exposure, whereas atropine can be given at any time?</p>",
               "answers": [
                 {
-                  "text": "<div>Carbamates do not inhibit acetylcholinesterase</div>",
+                  "text": "<div>PAM is rapidly metabolised and excreted by the kidneys after 48 hours, leaving no active drug in the body</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Carbamates do inhibit acetylcholinesterase, producing the same SLUDGE pattern as organophosphates — but the bond is temporary, not permanent.</div>",
+                    "chosenFeedback": "<div>Incorrect. PAM's time limit is not about its own metabolism. The issue is a chemical change at the enzyme — the OP–AChE bond undergoes ageing and becomes permanent, so PAM can no longer break it.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The carbamate–acetylcholinesterase bond reverses spontaneously within hours, unlike the organophosphate bond which undergoes irreversible ageing</div>",
+                  "text": "<div>After 24–48 hours, the OP–AChE bond undergoes ageing and becomes irreversible, so PAM can no longer reactivate the enzyme</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The carbamate–AChE bond is inherently unstable and self-reverses within hours. Organophosphates, by contrast, undergo ageing — the bond becomes irreversible after 24–48 hours, which is why PAM must be given early for OP poisoning.</div>",
+                    "chosenFeedback": "<div>Correct. Ageing is a chemical change that makes the OP–AChE bond permanent. Once this occurs, PAM cannot reactivate acetylcholinesterase. Atropine blocks muscarinic receptors directly and is unaffected by enzyme ageing.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>PAM is effective only against organochlorines, not cholinesterase inhibitors</div>",
+                  "text": "<div>Atropine directly reactivates acetylcholinesterase, so enzyme ageing does not affect its efficacy</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>PAM reactivates acetylcholinesterase and is specifically used for organophosphate poisoning. Organochlorines act on sodium channels, not AChE, so PAM has no role there either.</div>",
+                    "chosenFeedback": "<div>Incorrect. Atropine does NOT reactivate acetylcholinesterase — it competitively blocks muscarinic receptors to counteract excess acetylcholine. That is why it has no time limit: it works regardless of what happens to the enzyme.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Carbamates cause only nicotinic blockade, which PAM cannot reverse</div>",
+                  "text": "<div>PAM is effective only against nicotinic effects, which resolve spontaneously within 48 hours</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Carbamates cause both muscarinic (SLUDGE) and nicotinic (fasciculations) effects through acetylcholine accumulation, just like organophosphates. The reason PAM is unnecessary is the spontaneous bond reversal.</div>",
+                    "chosenFeedback": "<div>Incorrect. PAM works by reactivating acetylcholinesterase, which reverses both muscarinic and nicotinic effects. Its time limit is due to enzyme ageing, not spontaneous symptom resolution.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the ageing concept: organophosphate–AChE bonds become irreversible after 24–48 hours (requiring timely PAM), whereas carbamate–AChE bonds reverse spontaneously within hours."
+                  "feedback": "The critical concept is 'ageing.' After 24–48 hours, the organophosphate–acetylcholinesterase bond undergoes a chemical change and becomes permanent. PAM can only reactivate the enzyme before this occurs. Atropine blocks muscarinic receptors directly, so enzyme ageing does not limit it."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The self-reversing carbamate–AChE bond is the key reason PAM is unnecessary — atropine alone suffices for carbamate poisoning."
+                  "feedback": "Exactly right. Ageing is the key concept — the OP–AChE bond changes from reversible to irreversible within 24–48 hours. PAM must be given before ageing occurs; atropine works at the receptor level and has no such constraint."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5e9adf19-8885-44f7-9d96-18036c1dbf59",
+            "subContentId": "e3411200-b361-42f7-9cb8-d1bc062b080f",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient presents with cholinergic cris",
+              "title": "Why must pralidoxime (PAM) be administer",
               "authors": [],
               "changes": []
             }
@@ -171,233 +171,13 @@
         },
         {
           "duration": {
-            "from": 340.775,
-            "to": 350.775
+            "from": 352.02137500000003,
+            "to": 362.02137500000003
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 24-year-old is resuscitated with naloxone after heroin overdose and regains co</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A 24-year-old is resuscitated with naloxone after heroin overdose and regains consciousness. Why must this patient be monitored closely for several hours afterward?</p>",
-              "answers": [
-                {
-                  "text": "<div>Naloxone itself causes delayed respiratory depression as a side effect</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Naloxone is a pure opioid antagonist with no respiratory depressant properties. The risk comes from the opioid itself outlasting the antidote.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Opioid metabolites reactivate in the liver after six hours, causing a second toxic peak</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Opioids are metabolised and excreted progressively — they do not reactivate. The concern is that the parent drug simply outlasts the short-acting antidote.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The opioid remains active far longer than naloxone, which lasts only 30 to 90 minutes, risking re-narcotisation</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Naloxone acts for only 30–90 minutes, whereas most opioids remain active for much longer. As naloxone wears off, the unopposed opioid can cause the patient to lapse back into respiratory depression — re-narcotisation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Repeated doses of naloxone are contraindicated, so the initial response must be sustained without further intervention</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Repeat naloxone dosing is both safe and often necessary. The critical issue is the pharmacokinetic mismatch: the antidote wears off while the opioid is still active.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Remember: naloxone lasts only 30–90 minutes, but opioids like heroin remain active for hours. As naloxone wears off, respiratory depression can return — this is re-narcotisation."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly. The short duration of naloxone relative to the opioid creates a window of vulnerability — continuous monitoring catches re-narcotisation before it becomes fatal."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "d2311fde-60c9-413a-b0be-34a66a33b950",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A 24-year-old is resuscitated with nalox",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 498.67499999999995,
-            "to": 508.67499999999995
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A snakebite victim develops progressive ptosis and respiratory weakness. Neostig</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A snakebite victim develops progressive ptosis and respiratory weakness. Neostigmine is administered but produces no improvement. Which snake is most likely responsible?</p>",
-              "answers": [
-                {
-                  "text": "<div>Cobra — its post-synaptic blockade is always completely irreversible</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Cobra venom blocks nicotinic receptors post-synaptically in a competitive manner. This type of block may partially respond to neostigmine, which increases acetylcholine concentration at the junction.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Krait — its pre-synaptic venom destroys the acetylcholine release machinery, making neostigmine ineffective</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Krait venom irreversibly destroys the nerve terminal's ability to release acetylcholine. Since no acetylcholine is being released, increasing its availability with neostigmine has no effect. Only mechanical ventilation and antivenom can help.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Russell's viper — its haemotoxic venom causes respiratory muscle ischaemia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Russell's viper is haemotoxic, causing disseminated intravascular coagulation and renal failure — not the neuromuscular paralysis with ptosis described here.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Saw-scaled viper — its neurotoxin specifically resists all cholinesterase inhibitors</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The saw-scaled viper is haemotoxic, not neurotoxic. It causes coagulopathy detectable by the 20-minute whole blood clotting test, not neuromuscular paralysis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Remember India's Big Four: cobra and krait are both neurotoxic, but cobra acts post-synaptically (neostigmine may help) while krait acts pre-synaptically (neostigmine is useless — only ventilation and antivenom save the patient)."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. The pre-synaptic vs post-synaptic distinction is the key — cobra's competitive post-synaptic block may respond to neostigmine, but krait's pre-synaptic destruction cannot."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "69a214d4-9eea-4ebc-b9e9-94694d24bce9",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A snakebite victim develops progressive",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 675.8249999999999,
-            "to": 685.8249999999999
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>In paracetamol overdose, an asymptomatic patient at 6 hours does not need N-acet</p>",
+          "label": "<p>A single intravenous dose of naloxone is sufficient to permanently reverse an op</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,7 +186,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>In paracetamol overdose, an asymptomatic patient at 6 hours does not need N-acetylcysteine because the absence of symptoms indicates a non-toxic dose.</p>",
+              "question": "<p>A single intravenous dose of naloxone is sufficient to permanently reverse an opioid overdose, because naloxone binds opioid receptors more strongly than morphine or heroin.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -424,16 +204,346 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This is a clinical trap. Paracetamol overdose is deceptively asymptomatic in the early hours while hepatic injury progresses silently. NAC started within 8 hours is critical — the Rumack–Matthew nomogram, not the patient's symptoms, guides the treatment decision.",
-                "correctAnswerMessage": "Correct — this is a dangerous misconception. Paracetamol overdose has a deceptively calm early phase; symptoms appear only after significant hepatic damage has already occurred. NAC is most effective within 8 hours, well before symptoms develop.",
+                "wrongAnswerMessage": "This statement is false. Naloxone's duration of action is only 30–90 minutes, much shorter than most opioids. As naloxone wears off, the opioid re-occupies mu-receptors, causing re-narcotisation — making continuous monitoring and repeated dosing essential.",
+                "correctAnswerMessage": "Well spotted. Although naloxone does displace opioids at mu-receptors, its duration of action is only 30–90 minutes — far shorter than most opioids. When naloxone wears off, the opioid reclaims the receptors, causing re-narcotisation. Repeated doses and close monitoring are essential.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "5bdff216-3f20-4966-b93d-c7e5e61bec30",
+            "subContentId": "2ad7390b-aca2-4e6e-88ae-5bf8ac80a177",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "In paracetamol overdose, an asymptomatic",
+              "title": "A single intravenous dose of naloxone is",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 446.1099166666667,
+            "to": 456.1099166666667
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Strong acids cause coagulation necrosis, yet the tissue damage is often self-lim</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Strong acids cause coagulation necrosis, yet the tissue damage is often self-limiting in depth. What explains this characteristic pattern?</p>",
+              "answers": [
+                {
+                  "text": "<div>Acids are rapidly neutralised by the plasma bicarbonate buffer before reaching deeper tissues</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. While the bicarbonate system buffers systemic pH, it does not neutralise a concentrated acid at the contact site. The self-limiting pattern is due to the physical protein eschar, not chemical buffering.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The denatured protein forms a firm eschar that acts as a physical barrier, preventing the acid from penetrating deeper layers</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Coagulation necrosis produces a leathery eschar of denatured protein that physically blocks further acid penetration. This barrier effect is why acid burns, though severe on the surface, tend to be more self-limiting in depth than alkali burns.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Acids only damage tissues with a pH below 2.0, and deeper tissues maintain a higher pH through active cellular buffering</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. There is no sharp pH threshold for acid tissue damage. The self-limiting pattern results from the physical barrier formed by coagulated surface protein, not a pH gradient in deeper tissues.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The inflammatory response quickly dilutes the acid by increasing tissue oedema and local blood flow</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. The inflammatory response is secondary to the initial injury and does not prevent acid penetration. The firm, denatured protein eschar at the surface is the primary factor limiting depth of injury.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "When a strong acid contacts tissue, it denatures surface proteins into a firm, leathery eschar. This eschar acts as a physical barrier, limiting further penetration — the hallmark of coagulation necrosis. Different acids leave characteristic colours: black (sulphuric), yellow (nitric), white (hydrochloric)."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly. The eschar — a coagulated layer of denatured protein — is the hallmark of acid-induced coagulation necrosis. Remember the colour clues at the bedside: black charring (sulphuric acid), yellow xanthoproteic staining (nitric acid), and white eschar (hydrochloric acid)."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "6334d571-f22f-46d4-ba31-3227177a550a",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Strong acids cause coagulation necrosis,",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 596.4963750000001,
+            "to": 606.4963750000001
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In Amanita phalloides (death cap) poisoning, patients often appear to recover be</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In Amanita phalloides (death cap) poisoning, patients often appear to recover between 24 and 48 hours after ingestion. Why is this 'false recovery' period clinically dangerous?</p>",
+              "answers": [
+                {
+                  "text": "<div>The patient develops temporary immunity to amatoxin, which wears off after 48 hours, causing relapse</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. There is no immune-mediated neutralisation of amatoxin. The toxin continues to block RNA polymerase II in hepatocytes during this period, silently destroying liver cells even as gastrointestinal symptoms temporarily improve.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Gastrointestinal symptoms resolve as initial irritation fades, but amatoxin has already blocked RNA polymerase II in hepatocytes — fulminant liver failure follows days later</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Amatoxin halts transcription by blocking RNA polymerase II, progressively destroying hepatocytes. The initial GI symptoms fade, creating a deceptive window of apparent recovery, while irreversible hepatic damage continues silently.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The toxin undergoes enterohepatic recirculation and re-enters the gut after 48 hours, triggering a second, more severe episode</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Although some enterohepatic recirculation may occur, the false recovery is not caused by toxin leaving and returning. It reflects a gap between resolving GI irritation and the delayed onset of hepatic failure from ongoing hepatocyte destruction.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A second, more lethal toxin in the mushroom is absorbed more slowly and reaches peak concentration only at 48 hours</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Amanita phalloides exerts its lethal effect through amatoxin alone. The false recovery reflects a temporal gap between early GI symptoms and delayed hepatotoxicity from the same toxin, not a second poison.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Amatoxin blocks RNA polymerase II in hepatocytes, halting protein synthesis. GI symptoms improve between 24–48 hours, creating a dangerous illusion of recovery. Meanwhile, liver destruction is progressing silently — fulminant hepatic failure follows. Never discharge these patients during the false recovery window."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. Amatoxin blocks RNA polymerase II, halting protein synthesis in hepatocytes. The key clinical rule: symptom onset after 6 hours suggests amatoxin. The 24–48 hour false recovery is a classic trap — never discharge a suspected amatoxin patient during this window."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "4db3862e-1f8b-4f0c-8252-d00d2f983bbf",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In Amanita phalloides (death cap) poison",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 703.5929583333334,
+            "to": 713.5929583333334
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A 28-year-old farmer ingests paraquat and arrives at the emergency department wi</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A 28-year-old farmer ingests paraquat and arrives at the emergency department within one hour, appearing deceptively well. The junior resident asks which specific antidote to start. What is the correct response?</p>",
+              "answers": [
+                {
+                  "text": "<div>Start pralidoxime and atropine — paraquat is a pesticide, so the standard organophosphate protocol applies</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Paraquat is a herbicide, not an organophosphate. It does not inhibit acetylcholinesterase, so atropine and pralidoxime have no role. Misclassifying paraquat as an organophosphate is a dangerous error.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Administer N-acetylcysteine to protect against the oxidative lung damage caused by paraquat</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Although N-acetylcysteine is an antioxidant used in paracetamol poisoning, it has no established role in paraquat management. There is no specific antidote for paraquat — management is strictly supportive.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>There is no specific antidote for paraquat — management is supportive care only, and supplemental oxygen must be withheld</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Paraquat causes fatal pulmonary fibrosis through superoxide radical generation via redox cycling. No antidote exists. Critically, supplemental oxygen accelerates the lung injury and must be avoided.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Give hydroxocobalamin to neutralise the free radicals generated by paraquat's redox cycling</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Hydroxocobalamin is the antidote for cyanide poisoning — it binds cyanide to form cyanocobalamin. It has no role in paraquat management. No agent effectively neutralises paraquat's redox cycling.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Paraquat has no specific antidote. It causes lethal pulmonary fibrosis through superoxide radical generation (redox cycling). Management is supportive care only. Remember: supplemental oxygen must be avoided — it accelerates the very lung injury that kills the patient."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly right. Paraquat is the one poison in this lecture with no specific antidote. Management is entirely supportive — and the critical additional point is that supplemental oxygen must be withheld, as it worsens pulmonary fibrosis through enhanced redox cycling."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "8dfb6492-0820-471b-9b2b-e080cbd60332",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A 28-year-old farmer ingests paraquat an",
               "authors": [],
               "changes": []
             }
@@ -454,45 +564,45 @@
           "label": "Welcome to Toxicology: Specific Poisons."
         },
         {
-          "time": 4,
+          "time": 3,
           "label": "How do you rapidly distinguish three different poisons, i…"
         },
         {
-          "time": 51,
+          "time": 52,
           "label": "Before treating any poisoned patient, secure the scene fi…"
         },
         {
-          "time": 124,
+          "time": 130,
           "label": "Organophosphates cause poisoning by blocking acetylcholin…"
         },
         {
-          "time": 239,
+          "time": 248,
           "label": "The opioid toxidrome has three defining features: pin-poi…"
         },
         {
-          "time": 341,
+          "time": 353,
           "label": "Strong acids injure tissue through coagulation necrosis."
         },
         {
-          "time": 431,
+          "time": 447,
           "label": "India's Big Four snakes split into two clinical groups."
         },
         {
-          "time": 499,
+          "time": 516,
           "label": "Cocaine and amphetamines share a sympathomimetic toxidrom…"
         },
         {
-          "time": 575,
+          "time": 597,
           "label": "Building on the toxidromes you just studied, each pattern…"
         },
         {
-          "time": 676,
+          "time": 704,
           "label": "Toxidrome recognition matters only when it drives the rig…"
         }
       ],
       "endscreens": [
         {
-          "time": 789,
+          "time": 823,
           "label": "End"
         }
       ]
@@ -504,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "5c89be1c-9b07-41c0-8a67-2dbb6dcc0f5e",
+              "subContentId": "42905c8a-b12b-4bc3-80ab-7c1b73901d36",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -527,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "3e75f70a-8173-4131-be16-994c97d9c7bc",
+        "subContentId": "9963ad33-30f5-41bf-a74f-5e35c7b92831",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
