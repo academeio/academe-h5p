@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/1880b30b-a71d-4f33-91a6-5f810f121d4f/playlist.m3u8",
+          "path": "https://vdo.cbme.in/7d4cb604-a336-49eb-b711-879567485a01/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PE9.1-7,PE10.1-6,PE11.1-4 | Nutrition Assessment and Support — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for PE9.1-PE9.7."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for PE9.1-PE9.7."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,101 +61,49 @@
       "interactions": [
         {
           "duration": {
-            "from": 238.39999999999998,
-            "to": 248.39999999999998
+            "from": 113.52808333333333,
+            "to": 123.52808333333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>According to the ICMR-NIN 2020 guidelines, the approximate daily energy requirem</p>",
+          "label": "<p>The recommended dietary allowance (RDA) is defined as the daily intake that meet</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>According to the ICMR-NIN 2020 guidelines, the approximate daily energy requirement for a child aged one to three years is:</p>",
-              "answers": [
-                {
-                  "text": "<div>800 kcal/day</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This is too low even for a one-year-old. An infant aged 6–12 months already needs about 98 kcal/kg/day, which totals more than 800 kcal for most infants.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>1000 kcal/day</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. The ICMR-NIN 2020 guideline recommends approximately 1000 kcal/day for children aged 1–3 years, rising to about 1350 for 4–6 year-olds and 1690 for 7–9 year-olds.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>1350 kcal/day</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This is the ICMR-NIN 2020 recommendation for a 4–6-year-old child, not for the 1–3-year age group.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>1690 kcal/day</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This figure corresponds to the requirement for a 7–9-year-old child. Energy needs rise with age, and each age bracket has a distinct benchmark.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Review the ICMR-NIN 2020 energy ladder: 1000 kcal/day at 1–3 years → 1350 at 4–6 → 1690 at 7–9 → 2190 (boys) or 1970 (girls) at 10–12 → up to 2640 in adolescent boys."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Knowing the age-specific energy benchmarks is the first step toward spotting a dietary gap and planning an appropriate diet."
-                }
-              ],
+              "question": "<p>The recommended dietary allowance (RDA) is defined as the daily intake that meets the nutrient needs of the average child in a given age group.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This is false. The RDA meets the needs of almost all healthy children in a given age group, not just the average. The average requirement (called the Estimated Average Requirement, or EAR) is a lower value. Confusing the two can lead to under-prescribing. The ICMR-NIN 2020 publishes RDA values specifically for Indian diets.",
+                "correctAnswerMessage": "Correct! The RDA is set to cover almost all healthy children in a given age group (approximately the 97.5th percentile of requirement), not just the average. Prescribing at the average would leave roughly half the children with inadequate intake. In India, the ICMR-NIN 2020 is the standard reference for these values.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "f0983762-b12c-4895-b10b-188cc828b889",
+            "subContentId": "34f5d81d-dd6a-41fa-a868-e4ca31db2a93",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "According to the ICMR-NIN 2020 guideline",
+              "title": "The recommended dietary allowance (RDA)",
               "authors": [],
               "changes": []
             }
@@ -171,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 418.875,
-            "to": 428.875
+            "from": 345.19141666666667,
+            "to": 355.19141666666667
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A community health worker needs to screen children for acute malnutrition in a v</p>",
+          "label": "<p>A vegetarian mother asks how to ensure her 18-month-old toddler gets adequate pr</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A community health worker needs to screen children for acute malnutrition in a village without access to growth charts or a calibrated scale. Which anthropometric measurement is most appropriate?</p>",
+              "question": "<p>A vegetarian mother asks how to ensure her 18-month-old toddler gets adequate protein from affordable foods. Based on the nutritional principles discussed, which dietary strategy is most effective?</p>",
               "answers": [
                 {
-                  "text": "<div>Weight-for-age plotted on a WHO chart</div>",
+                  "text": "<div>Increase the number of rice servings at each meal to raise total calorie intake</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Weight-for-age requires both a calibrated scale and a growth chart for interpretation, making it impractical for the scenario described.</div>",
+                    "chosenFeedback": "<div>Increasing rice alone adds energy but does not improve protein quality, since cereals have an incomplete amino acid profile. The child needs complementary amino acids from another food group.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Mid-upper arm circumference (MUAC)</div>",
+                  "text": "<div>Combine a cereal with a pulse at each meal, such as rice with dal</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. MUAC needs only a simple measuring tape and uses fixed cutoffs — below 11.5 cm indicates SAM, 11.5–12.5 cm indicates MAM — so no growth chart is needed for interpretation.</div>",
+                    "chosenFeedback": "<div>Correct! The cereal-pulse combination provides a nearly complete amino acid profile because the amino acids lacking in cereals (lysine) are supplied by pulses and vice versa (methionine). This is the most cost-effective strategy for Indian vegetarian households.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Head circumference</div>",
+                  "text": "<div>Rely primarily on fruits and vegetables for micronutrient-rich nutrition</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Head circumference tracks brain growth in the first two years of life, not acute nutritional status. It also requires a reference chart to interpret.</div>",
+                    "chosenFeedback": "<div>Fruits and vegetables provide essential vitamins and minerals but are low in protein and energy density. They cannot serve as the primary protein source for a growing toddler.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Skinfold thickness</div>",
+                  "text": "<div>Give only whole milk and curd as the main protein sources</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Skinfold measurement requires callipers and trained technique, and is used mainly in research settings — not suitable for routine community screening.</div>",
+                    "chosenFeedback": "<div>While dairy provides high-quality protein, depending solely on it is impractical and nutritionally incomplete. A cereal-pulse combination provides both energy and complementary amino acids at lower cost.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember: MUAC stands out because it needs no growth chart and no scale. Its fixed cutoffs (< 11.5 cm = SAM, 11.5–12.5 cm = MAM) allow instant classification in the field."
+                  "feedback": "The key principle is amino acid complementation: cereals are low in lysine but rich in methionine, while pulses are the opposite. Combining them provides a nearly complete amino acid profile — this is the most practical dietary advice for Indian families."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. MUAC's simplicity and fixed cutoffs make it the go-to screening tool in community settings where scales and charts are unavailable."
+                  "feedback": "Well done! The cereal-pulse combination (e.g., dal-chawal, roti with rajma) is the cornerstone of affordable, high-quality protein in Indian vegetarian diets."
                 }
               ],
               "behaviour": {
@@ -261,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "60b1acff-8eb3-4d19-a104-a0f7ece8e597",
+            "subContentId": "9f7c8bc4-4e17-4346-99bd-a4a28f2b537f",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A community health worker needs to scree",
+              "title": "A vegetarian mother asks how to ensure h",
               "authors": [],
               "changes": []
             }
@@ -281,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 568.825,
-            "to": 578.825
+            "from": 498.69149999999996,
+            "to": 508.69149999999996
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which clinical feature is the single defining criterion that separates kwashiork</p>",
+          "label": "<p>A 14-month-old child presents with faltering growth. When taking the nutritional</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which clinical feature is the single defining criterion that separates kwashiorkor from marasmus in a child with severe acute malnutrition?</p>",
+              "question": "<p>A 14-month-old child presents with faltering growth. When taking the nutritional history, which component is MOST critical for identifying the dietary cause?</p>",
               "answers": [
                 {
-                  "text": "<div>Severe muscle wasting with visible ribs</div>",
+                  "text": "<div>Family history of metabolic disorders and food allergies</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Severe wasting is the hallmark of marasmus, not kwashiorkor. In kwashiorkor, oedema may actually mask the degree of underlying wasting.</div>",
+                    "chosenFeedback": "<div>Family history is relevant for identifying secondary causes but does not reveal the child's actual dietary intake — the most direct way to find the nutritional gap causing faltering growth.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Bilateral pitting oedema of the feet</div>",
+                  "text": "<div>The child's birth weight and gestational age</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Birth weight provides baseline context but does not explain ongoing faltering growth. The chronological feeding history from birth to the present is far more informative for identifying current dietary gaps.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Breastfeeding history, complementary feeding timeline, and current dietary pattern</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Bilateral pitting oedema is the defining feature of kwashiorkor. It can extend upward to cause a swollen, moon-shaped face. When severe wasting and oedema coexist, the classification becomes marasmic-kwashiorkor.</div>",
+                    "chosenFeedback": "<div>Correct! The lecture emphasised tracing the entire feeding journey — when breastfeeding started and stopped, whether complementary feeds were timely and energy-dense, and the current meal pattern — as the systematic approach most likely to pinpoint the dietary gap.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Listless, apathetic behaviour with poor appetite</div>",
+                  "text": "<div>The mother's educational qualification and household income</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While apathy and anorexia are typical of kwashiorkor, they are not the defining criterion. A child with marasmus can also be lethargic if severely unwell. Oedema is what makes the classification.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Thin, discoloured hair that pulls out easily</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Hair changes (flag sign) are seen in kwashiorkor but are not the defining criterion. Hair changes can also occur in other micronutrient deficiencies. Bilateral pitting oedema is what formally distinguishes kwashiorkor.</div>",
+                    "chosenFeedback": "<div>Socioeconomic factors influence food access and choices but are contextual. The direct feeding history reveals the specific deficiency causing the child's faltering growth.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the classification rule: no oedema + severe wasting = marasmus; bilateral pitting oedema = kwashiorkor; both together = marasmic-kwashiorkor. Oedema is the single feature that shifts the classification."
+                  "feedback": "The structured nutritional history traces the feeding journey chronologically: breastfeeding (initiation, exclusivity, cessation), complementary feeding (timing, energy density, frequency), and current dietary pattern. This sequence directly reveals where the nutritional gap developed. A 24-hour dietary recall then quantifies the current deficit."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Right. Bilateral pitting oedema is the WHO's defining criterion for kwashiorkor. Its presence with severe wasting classifies the child as marasmic-kwashiorkor, which carries the highest mortality risk."
+                  "feedback": "Exactly right. A structured feeding journey — from breastfeeding through complementary feeding to the current diet — is the most reliable way to identify where the nutritional gap developed."
                 }
               ],
               "behaviour": {
@@ -371,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "efe1e126-785c-462d-b029-fbb6743bd2c3",
+            "subContentId": "87d1ef66-c329-42e6-b696-fbf286e45fdb",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which clinical feature is the single def",
+              "title": "A 14-month-old child presents with falte",
               "authors": [],
               "changes": []
             }
@@ -391,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 761.425,
-            "to": 771.425
+            "from": 665.2374166666666,
+            "to": 675.2374166666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Adolescent girls require approximately 21 mg of iron daily, nearly twice the rec</p>",
+          "label": "<p>A child with severe acute malnutrition is admitted to hospital. The treating tea</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Adolescent girls require approximately 21 mg of iron daily, nearly twice the recommendation for boys of the same age. Which physiological factor best explains this difference?</p>",
+              "question": "<p>A child with severe acute malnutrition is admitted to hospital. The treating team starts F-100 formula on day one to promote rapid catch-up growth. What is the most likely consequence of this approach?</p>",
               "answers": [
                 {
-                  "text": "<div>Girls undergo a faster linear growth spurt than boys</div>",
+                  "text": "<div>Rapid recovery with weight gain exceeding two grams per kilogram per day</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Boys actually have a more prolonged growth spurt and accumulate more muscle mass. The greater iron need in girls is not driven by growth velocity.</div>",
+                    "chosenFeedback": "<div>Rapid calorie loading in a metabolically unstable SAM child does not produce safe weight gain. The body's depleted phosphate and potassium stores cannot handle the sudden metabolic demand, leading to dangerous complications.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Girls deposit more iron into rapidly growing bone tissue</div>",
+                  "text": "<div>Lactose intolerance causing severe osmotic diarrhoea</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Calcium, not iron, is the mineral primarily deposited in bone during peak bone building. The iron difference has a different explanation.</div>",
+                    "chosenFeedback": "<div>While SAM children may have reduced lactase activity, the primary danger of premature high-calorie feeding is refeeding syndrome, not lactose intolerance.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Menstrual blood loss creates a recurring iron drain that boys do not experience</div>",
+                  "text": "<div>Refeeding syndrome with hypophosphataemia and cardiac failure</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Once menstruation begins, girls lose iron cyclically, raising their daily requirement to about 21 mg/day. This is compounded by the poor bioavailability of iron from plant-based Indian diets, making iron-deficiency anaemia very common.</div>",
+                    "chosenFeedback": "<div>Correct! The WHO protocol mandates F-75 during stabilisation (days 1–7) specifically because premature high-calorie feeding triggers refeeding syndrome — the leading cause of preventable death in hospitalised SAM children. F-100 is reserved for the rehabilitation phase only.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Girls have higher basal metabolic rates during puberty</div>",
+                  "text": "<div>Allergic reaction to the therapeutic formula requiring immediate discontinuation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Boys actually develop higher basal metabolic rates after puberty because they build more lean muscle mass. The iron gap is related to menstrual losses, not metabolic rate.</div>",
+                    "chosenFeedback": "<div>Allergic reactions to F-75 or F-100 are rare. The critical risk of starting F-100 prematurely is metabolic — refeeding syndrome from sudden carbohydrate loading in a body with depleted intracellular phosphate and potassium.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The critical point: menstruation creates a recurring iron loss that boys simply do not have. At 21 mg/day, the recommendation for adolescent girls is nearly double the 11–15 mg/day for boys — and even this is hard to meet on a purely vegetarian Indian diet."
+                  "feedback": "The WHO 10-step protocol requires stabilisation first (F-75, days 1–7), then rehabilitation (F-100, weeks 2–6). Pushing high-calorie nutrition before biochemical stabilisation causes refeeding syndrome — hypophosphataemia, hypokalaemia, and cardiac failure — the leading preventable cause of death in hospitalised SAM children."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. Menstrual losses are the key driver. Combined with poor iron absorption from predominantly plant-based Indian diets, this makes iron-deficiency anaemia one of the most prevalent nutritional problems in adolescent girls."
+                  "feedback": "Well done! The two-phase approach — stabilise with F-75 first, then rehabilitate with F-100 — exists specifically to prevent refeeding syndrome. Skipping or reordering these steps increases mortality."
                 }
               ],
               "behaviour": {
@@ -481,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "bc2272db-60d3-432d-933e-6d3a6cd11582",
+            "subContentId": "7186535e-e16c-4563-b0ca-f6895ef41afb",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Adolescent girls require approximately 2",
+              "title": "A child with severe acute malnutrition i",
               "authors": [],
               "changes": []
             }
@@ -501,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 939.3499999999999,
-            "to": 949.3499999999999
+            "from": 779.4360416666666,
+            "to": 789.4360416666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>During examination of an obese 14-year-old boy, you notice purple striae on his </p>",
+          "label": "<p>Why do adolescent girls require significantly more dietary iron (21 mg/day) comp</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -516,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>During examination of an obese 14-year-old boy, you notice purple striae on his abdomen alongside truncal obesity. Silver-white striae are present on his thighs. What is the most appropriate clinical interpretation?</p>",
+              "question": "<p>Why do adolescent girls require significantly more dietary iron (21 mg/day) compared to boys of the same age (11–15 mg/day)?</p>",
               "answers": [
                 {
-                  "text": "<div>Both types of striae are benign stretch marks from rapid weight gain and need no further investigation</div>",
+                  "text": "<div>Girls absorb dietary iron less efficiently due to hormonal differences during puberty</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Silver-white striae are indeed benign in simple obesity, but purple striae have a different clinical significance that should not be dismissed.</div>",
+                    "chosenFeedback": "<div>Iron absorption efficiency depends primarily on the form of iron consumed (haem vs non-haem) and dietary factors such as vitamin C, not on pubertal sex hormones. The higher requirement reflects increased iron losses, not decreased absorption.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Purple striae suggest possible Cushing syndrome and warrant further endocrine evaluation</div>",
+                  "text": "<div>Girls undergo a longer and more intense growth spurt, requiring more iron for new tissue synthesis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Boys actually have a more intense and prolonged growth spurt than girls, building more lean mass. The higher iron requirement in girls is driven by menstrual losses, not by greater growth demands.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Menstrual blood loss creates an ongoing additional iron demand beyond growth-related needs</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Purple striae indicate active collagen breakdown from cortisol excess, raising suspicion for Cushing syndrome — a secondary cause of obesity. Silver-white striae, by contrast, result from simple skin stretching in rapid weight gain.</div>",
+                    "chosenFeedback": "<div>Correct! Once menstruation begins, girls face regular iron losses that boys do not experience. Combined with the poor bioavailability of non-haem iron in plant-based Indian diets, this explains why iron-deficiency anaemia is especially prevalent among Indian adolescent girls.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Purple striae indicate insulin resistance, similar to acanthosis nigricans</div>",
+                  "text": "<div>Oestrogen increases the rate of red blood cell turnover, raising iron consumption</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Acanthosis nigricans — the velvety brown thickening of skin at the neck and axillae — is the marker of insulin resistance. Purple striae point toward cortisol excess, an entirely different pathological pathway.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The colour difference reflects the age of the striae; purple ones are recent and will turn white over time</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While striae do lighten with age, the clinical teaching here is that purple striae in an obese child should specifically prompt investigation for Cushing syndrome — they are not merely a stage in the natural fading process.</div>",
+                    "chosenFeedback": "<div>Oestrogen does not significantly increase red blood cell turnover. The additional iron requirement in post-menarcheal girls is directly attributable to menstrual blood loss, not to hormonal effects on haematopoiesis.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -559,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the colour rule for striae in an obese child: silver-white = simple stretching from weight gain (benign); purple = active cortisol-driven collagen breakdown, pointing toward Cushing syndrome and requiring endocrine work-up."
+                  "feedback": "Once menstruation begins, girls lose iron in menstrual blood every cycle — an additional demand that boys do not face. This raises their daily requirement to 21 mg/day. In Indian diets, non-haem iron from plant sources is poorly absorbed, making iron-deficiency anaemia the most common nutritional problem in adolescent girls."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well spotted. Distinguishing purple from silver-white striae during the obesity examination is a key step in separating simple primary obesity from secondary causes like Cushing syndrome."
+                  "feedback": "Exactly right. Menstrual iron losses are the key reason adolescent girls need nearly double the daily iron intake of boys. In India, where plant-based diets with low iron bioavailability are common, targeted supplementation and dietary counselling are especially important."
                 }
               ],
               "behaviour": {
@@ -591,11 +539,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "03f69e7a-0f37-4513-b405-e9c0bfadf066",
+            "subContentId": "42fb282c-2be5-454b-ab4e-cdf393022931",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "During examination of an obese 14-year-o",
+              "title": "Why do adolescent girls require signific",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 960.2936666666666,
+            "to": 970.2936666666666
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>During examination of an obese 12-year-old boy, you observe broad purple striae </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>During examination of an obese 12-year-old boy, you observe broad purple striae on the abdomen. Compared to silver-white striae, what does this finding suggest?</p>",
+              "answers": [
+                {
+                  "text": "<div>More recent and rapid weight gain, requiring only dietary counselling</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While rapid weight gain can produce striae, the purple colour specifically indicates active collagen breakdown from cortisol excess — not simply mechanical stretching from weight gain.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Iron-deficiency anaemia affecting dermal integrity</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Iron-deficiency anaemia can cause pallor and koilonychia but does not produce purple striae. Striae colour reflects the underlying mechanism of dermal damage, not nutritional status.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Cushing syndrome, warranting endocrine investigation</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct! The lecture distinguished striae by colour: silver-white striae are typical of simple obesity from gradual skin stretching, while purple striae indicate active cortisol-mediated collagen destruction — a hallmark of Cushing syndrome that requires endocrine investigation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>No clinical significance, as both types of striae are equivalent markers of obesity</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The colour distinction is clinically important. Silver-white striae are old, healed stretch marks from simple obesity, while purple striae indicate ongoing cortisol-driven collagen damage — a finding that should always prompt investigation for secondary causes.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Silver-white striae = gradual stretching from weight gain (simple obesity). Purple striae = active collagen breakdown from cortisol excess (Cushing syndrome). This distinction helps you differentiate primary from secondary obesity on clinical examination and guides further investigation."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done! Distinguishing striae colour is a key examination skill in paediatric obesity. Purple striae should always trigger investigation for Cushing syndrome — a treatable secondary cause."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "bbeca85e-0152-45dc-bf52-9028889c4fe1",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "During examination of an obese 12-year-o",
               "authors": [],
               "changes": []
             }
@@ -620,45 +678,45 @@
           "label": "A nine-month-old boy is brought to the clinic by his anxi…"
         },
         {
-          "time": 112,
+          "time": 114,
           "label": "Energy needs change dramatically as children grow, and th…"
         },
         {
-          "time": 238,
+          "time": 243,
           "label": "Knowing the calorie value of everyday Indian foods lets y…"
         },
         {
-          "time": 338,
+          "time": 346,
           "label": "Anthropometry means systematically measuring the body, an…"
         },
         {
-          "time": 419,
+          "time": 430,
           "label": "A thorough nutritional history is more than asking what a…"
         },
         {
-          "time": 486,
+          "time": 499,
           "label": "Let us look at the two faces of severe acute malnutrition…"
         },
         {
-          "time": 569,
+          "time": 583,
           "label": "The WHO ten-step protocol is the internationally validate…"
         },
         {
-          "time": 650,
+          "time": 666,
           "label": "Adolescent nutritional needs are higher than at any other…"
         },
         {
-          "time": 761,
+          "time": 779,
           "label": "Childhood obesity falls into two categories, and telling…"
         },
         {
-          "time": 867,
+          "time": 886,
           "label": "Examining an obese child means working through a systemat…"
         }
       ],
       "endscreens": [
         {
-          "time": 976,
+          "time": 997,
           "label": "End"
         }
       ]
@@ -670,7 +728,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "d63360f7-398a-4df3-ae33-6aa48c86246c",
+              "subContentId": "a0a116f7-f73b-4663-b614-d05dbafc51e8",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -693,7 +751,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "67fd95a7-5d58-4c1f-a1d4-4ae3c1ee346f",
+        "subContentId": "ad8bfd98-357f-4b12-a2dd-5c62eb9b2ad2",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
