@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/2044591e-cd20-46b0-b833-bfc7944c0b5d/playlist.m3u8",
+          "path": "https://vdo.cbme.in/bef546fa-1577-48ac-b95a-57062da2d7ff/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "SU2.1-3 | Shock and Resuscitation — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for SU2.1-SU2.2."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for SU2.1-SU2.2."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,71 @@
       "interactions": [
         {
           "duration": {
-            "from": 131.925,
-            "to": 141.925
+            "from": 61.37766666666667,
+            "to": 71.37766666666667
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Why does blood pressure remain near normal in the early stages of hypovolaemic s</p>",
+          "label": "<p>A trauma patient with a systolic blood pressure of 115 mmHg cannot be in haemorr</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>A trauma patient with a systolic blood pressure of 115 mmHg cannot be in haemorrhagic shock.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Incorrect. The motorcyclist with BP 115/95 mmHg was already in compensated shock. His narrow pulse pressure of 20 mmHg and heart rate of 130/min revealed what the systolic was hiding. Intense vasoconstriction defends the systolic reading long after significant volume has been lost.",
+                "correctAnswerMessage": "Correct. Compensatory vasoconstriction can hold systolic pressure near normal despite significant blood loss. A narrow pulse pressure and tachycardia reveal the shock that blood pressure conceals — hypotension is a late sign, not the definition of shock.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "8781f913-f18a-4661-bb59-f196207228b4",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "A trauma patient with a systolic blood p",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 237.95183333333335,
+            "to": 247.95183333333335
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A 30-year-old trauma patient has a heart rate of 120/min, blood pressure of 118/</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Why does blood pressure remain near normal in the early stages of hypovolaemic shock?</p>",
+              "question": "<p>A 30-year-old trauma patient has a heart rate of 120/min, blood pressure of 118/80 mmHg, capillary refill of 3 seconds, and is anxious but alert. According to the ATLS haemorrhage classification, which class of blood loss does this most likely represent?</p>",
               "answers": [
                 {
-                  "text": "<div>Blood loss has not yet reached a clinically significant volume</div>",
+                  "text": "<div>Class I — blood loss below 15%</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Clinically significant blood loss has already occurred — up to 30% can be lost before systolic pressure falls. The body actively masks the deficit through compensatory vasoconstriction.</div>",
+                    "chosenFeedback": "<div>Class I typically shows minimal tachycardia and normal capillary refill. A heart rate of 120/min and a capillary refill of 3 seconds exceed what Class I produces.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Intense sympathetic vasoconstriction raises systemic vascular resistance</div>",
+                  "text": "<div>Class II — blood loss of 15–30%</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Baroreceptors detect the pressure drop and trigger a sympathetic surge. The resulting arteriolar constriction raises SVR, which holds systolic pressure near normal even as cardiac output falls — this is why BP is a late sign of shock.</div>",
+                    "chosenFeedback": "<div>Correct. Class II haemorrhage shows tachycardia, anxiety, and prolonged capillary refill, but blood pressure remains normal. Hypotension only appears at Class III when blood loss exceeds 30%.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The kidneys rapidly replace lost fluid volume through increased reabsorption</div>",
+                  "text": "<div>Class III — blood loss of 30–40%</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While the RAAS and ADH do retain salt and water, renal reabsorption is too slow to restore circulating volume acutely. The immediate compensatory mechanism is sympathetic vasoconstriction raising SVR.</div>",
+                    "chosenFeedback": "<div>Class III presents with frank hypotension. This patient's near-normal blood pressure of 118/80 mmHg rules out Class III, where compensatory mechanisms have begun to fail.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Cardiac output increases sufficiently to offset the volume deficit</div>",
+                  "text": "<div>Class IV — blood loss exceeding 40%</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Although heart rate and contractility increase, stroke volume falls with reduced preload, so cardiac output actually drops. It is the rise in SVR through vasoconstriction — not a rise in cardiac output — that maintains blood pressure.</div>",
+                    "chosenFeedback": "<div>Class IV represents cardiovascular collapse with severe hypotension, marked tachycardia above 140/min, and obtundation. This patient's maintained blood pressure and alertness are incompatible with Class IV.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the haemodynamic equation: BP = CO × SVR. When volume falls, baroreceptor-driven sympathetic vasoconstriction raises SVR to compensate for the falling cardiac output. This is why hypotension is a late sign — it only appears when compensation fails."
+                  "feedback": "Review the ATLS classification. The key discriminator between Class II and Class III is the appearance of hypotension, which occurs only when blood loss exceeds 30%."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Sympathetic vasoconstriction is the main reason blood pressure is maintained in early shock — and precisely why a normal BP should never reassure you in a tachycardic, peripherally shut-down patient."
+                  "feedback": "Well done. Class II is the hidden danger zone — significant blood loss with a deceptively normal blood pressure."
                 }
               ],
               "behaviour": {
@@ -151,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2b810809-404c-4e32-86f4-1233a8ff1a76",
+            "subContentId": "eb989beb-427a-46b9-bea7-6f4acc4769d2",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Why does blood pressure remain near norm",
+              "title": "A 30-year-old trauma patient has a heart",
               "authors": [],
               "changes": []
             }
@@ -171,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 337.55,
-            "to": 347.55
+            "from": 356.2870833333333,
+            "to": 366.2870833333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which type of shock can initially present with elevated cardiac output despite i</p>",
+          "label": "<p>A patient presents with warm, flushed skin, bounding pulse, and a blood pressure</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,14 +244,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which type of shock can initially present with elevated cardiac output despite inadequate tissue perfusion?</p>",
+              "question": "<p>A patient presents with warm, flushed skin, bounding pulse, and a blood pressure of 80/40 mmHg. Which type of shock does this haemodynamic pattern most likely represent?</p>",
               "answers": [
                 {
                   "text": "<div>Hypovolaemic shock</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. In hypovolaemic shock, reduced preload leads to a fall in stroke volume and cardiac output. SVR rises as compensation.</div>",
+                    "chosenFeedback": "<div>Hypovolaemic shock presents with cold, pale, clammy peripheries because systemic vascular resistance rises as the body constricts vessels to compensate for lost volume.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -202,7 +260,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Cardiogenic shock is pump failure — the heart cannot move blood forward effectively, so cardiac output is reduced, not elevated.</div>",
+                    "chosenFeedback": "<div>Cardiogenic shock presents with cold peripheries, raised jugular venous pressure, and signs of pulmonary congestion — not the warm, flushed pattern described here.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -211,7 +269,7 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In distributive shock (septic, anaphylactic, neurogenic), systemic vascular resistance collapses due to widespread vasodilation. Early on, the heart compensates with elevated cardiac output, yet tissue perfusion remains inadequate because of the maldistribution of blood flow.</div>",
+                    "chosenFeedback": "<div>Correct. Warm, flushed peripheries indicate a dramatic fall in systemic vascular resistance — the hallmark of distributive shock. Septic, anaphylactic, and neurogenic shock all share this vasodilatory pattern.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -220,7 +278,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Obstructive shock involves a mechanical block (e.g., tension pneumothorax, tamponade) that prevents the heart from filling or ejecting, so cardiac output falls.</div>",
+                    "chosenFeedback": "<div>Obstructive shock, caused by tension pneumothorax or tamponade, mimics cardiogenic shock with cold peripheries and low cardiac output — not vasodilation.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Remember the haemodynamic fingerprints: hypovolaemic and cardiogenic shock both have reduced cardiac output with raised SVR. Distributive shock is the exception — SVR collapses, and cardiac output may actually rise early, yet tissue perfusion remains inadequate due to maldistributed flow."
+                  "feedback": "Recall the haemodynamic fingerprints: warm peripheries = low SVR = distributive. Cold peripheries = high SVR = hypovolaemic, cardiogenic, or obstructive."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The hallmark of distributive shock is a dramatic fall in SVR with a compensatory rise in cardiac output — yet perfusion is still inadequate. This 'warm shock' pattern is the opposite of what you see in hypovolaemic or cardiogenic shock."
+                  "feedback": "Exactly. The warm peripheries are the giveaway — only distributive shock drops systemic vascular resistance, producing vasodilation rather than vasoconstriction."
                 }
               ],
               "behaviour": {
@@ -261,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "662102b1-cc9c-4005-a6e2-6f542d72db7a",
+            "subContentId": "c4566ad2-24e1-4dd4-97c7-5d2e50d630b1",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which type of shock can initially presen",
+              "title": "A patient presents with warm, flushed sk",
               "authors": [],
               "changes": []
             }
@@ -281,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 560.3,
-            "to": 570.3
+            "from": 592.5249583333333,
+            "to": 602.5249583333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A trauma patient continues to bleed despite receiving two litres of warmed cryst</p>",
+          "label": "<p>A patient with uncontrolled abdominal haemorrhage is being resuscitated. Accordi</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A trauma patient continues to bleed despite receiving two litres of warmed crystalloid. Which is the most appropriate next step?</p>",
+              "question": "<p>A patient with uncontrolled abdominal haemorrhage is being resuscitated. According to the principle of permissive hypotension, what systolic blood pressure target should you accept until haemostasis is achieved?</p>",
               "answers": [
                 {
-                  "text": "<div>Continue crystalloid infusion at a faster rate to restore circulating volume</div>",
+                  "text": "<div>120–130 mmHg to ensure adequate organ perfusion</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Excessive crystalloid dilutes clotting factors, worsens hypothermia, and can dislodge forming clots. A bleeding patient needs blood, not endless crystalloid.</div>",
+                    "chosenFeedback": "<div>Driving blood pressure this high before achieving haemostasis dislodges forming clot and worsens bleeding. The old approach of chasing a normal blood pressure with aggressive fluids has been superseded.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Start a vasopressor infusion to raise blood pressure</div>",
+                  "text": "<div>100–110 mmHg as a safe intermediate target</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Vasopressors constrict vessels but do not replace what is being lost. In haemorrhagic shock, the priority is volume and oxygen-carrying capacity — not pharmacological pressure support.</div>",
+                    "chosenFeedback": "<div>Even this target is too high in uncontrolled haemorrhage. Higher pressure forces more blood past the injury, dilutes clotting factors, and disrupts the fragile clots the body is trying to form.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Switch to balanced blood product transfusion in a 1:1:1 ratio</div>",
+                  "text": "<div>80–90 mmHg with a palpable radial pulse and alert mentation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In major haemorrhage, move quickly to packed red cells, fresh frozen plasma, and platelets in roughly equal proportions (1:1:1). This replaces oxygen-carrying capacity, clotting factors, and platelets — addressing the developing coagulopathy that crystalloid alone cannot fix.</div>",
+                    "chosenFeedback": "<div>Correct. Permissive hypotension accepts a systolic of 80–90 mmHg. A palpable radial pulse and an alert patient confirm adequate perfusion to vital organs while minimising clot disruption at the bleeding site.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Administer colloid solutions to maintain oncotic pressure</div>",
+                  "text": "<div>60–70 mmHg to minimise all bleeding pressure</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Colloids do not provide clotting factors, platelets, or oxygen-carrying capacity. In ongoing haemorrhage, the patient needs blood products to replace what is being lost.</div>",
+                    "chosenFeedback": "<div>This level risks critical organ hypoperfusion and irreversible ischaemic damage. Permissive hypotension balances reduced bleeding against maintaining enough perfusion to protect the brain and kidneys.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -339,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key principle: a bleeding patient needs blood, not endless crystalloid. In major haemorrhage, switch early to balanced transfusion (packed red cells : FFP : platelets in a 1:1:1 ratio) to replace oxygen-carrying capacity and clotting factors simultaneously."
+                  "feedback": "Remember: in uncontrolled haemorrhage, target a systolic of 80–90 mmHg. The goal is a palpable radial pulse and an alert patient — not a normal blood pressure reading."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Recognising early that a bleeding patient needs blood — not endless crystalloid — is a key principle of damage-control resuscitation. The 1:1:1 ratio replaces what is being lost and combats the lethal triad of hypothermia, acidosis, and coagulopathy."
+                  "feedback": "Correct. Permissive hypotension is a deliberate strategy — accept a lower pressure to preserve clot, and resuscitate to clinical signs rather than a textbook number."
                 }
               ],
               "behaviour": {
@@ -371,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "7ce07f16-de69-45ce-9bc6-ba94e0d0555d",
+            "subContentId": "dd2e0420-e326-4c2b-9d7d-d99f8be0f19b",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A trauma patient continues to bleed desp",
+              "title": "A patient with uncontrolled abdominal ha",
               "authors": [],
               "changes": []
             }
@@ -391,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 693.025,
-            "to": 703.025
+            "from": 745.0072499999999,
+            "to": 755.0072499999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Comparing the haemorrhagic motorcyclist with the septic elderly patient, which b</p>",
+          "label": "<p>A 70-year-old woman arrives warm, flushed, and confused with BP 85/50 mmHg, elev</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Comparing the haemorrhagic motorcyclist with the septic elderly patient, which bedside finding most reliably differentiates distributive shock from hypovolaemic shock?</p>",
+              "question": "<p>A 70-year-old woman arrives warm, flushed, and confused with BP 85/50 mmHg, elevated lactate, and cloudy urine. Compared to managing a haemorrhagic shock patient, what is the most critical additional intervention for this patient?</p>",
               "answers": [
                 {
-                  "text": "<div>Level of consciousness</div>",
+                  "text": "<div>Balanced blood-product transfusion in a 1:1:1 ratio</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Both patients can present with confusion or altered mentation — this reflects inadequate cerebral perfusion common to all shock types, not a distinguishing feature.</div>",
+                    "chosenFeedback": "<div>The 1:1:1 transfusion protocol replaces lost blood components in major haemorrhage. This patient's warm, flushed peripheries and cloudy urine point to septic shock from a urinary source, not active blood loss.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Heart rate</div>",
+                  "text": "<div>Permissive hypotension with restricted fluid administration</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Tachycardia is a non-specific sympathetic response present in virtually all types of shock. It does not help distinguish the underlying mechanism.</div>",
+                    "chosenFeedback": "<div>Permissive hypotension is reserved for uncontrolled haemorrhage to prevent clot disruption. In septic shock, generous fluid resuscitation is needed, with vasopressors if hypotension persists.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Peripheral skin temperature and colour</div>",
+                  "text": "<div>Early broad-spectrum antibiotics with source control alongside fluid resuscitation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In hypovolaemic shock, sympathetic vasoconstriction shunts blood centrally, producing cold, pale, clammy peripheries. In distributive shock, vasodilation causes warm, flushed skin. This contrast at the bedside is a rapid and reliable discriminator between the two mechanisms.</div>",
+                    "chosenFeedback": "<div>Correct. In septic shock, antibiotics and source control are as critical as fluid resuscitation. Fluids alone without addressing the infection is a critical error in this setting.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Urine output</div>",
+                  "text": "<div>Immediate needle decompression of the chest</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Oliguria indicates inadequate renal perfusion and is seen in both hypovolaemic and distributive shock. It signals shock severity but does not help identify the mechanism.</div>",
+                    "chosenFeedback": "<div>Needle decompression treats obstructive shock from a tension pneumothorax. This patient's warm, flushed peripheries and infective source indicate distributive (septic) shock, not a mechanical obstruction.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -449,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key discriminator is peripheral skin: cold, pale, and clammy in hypovolaemic shock (vasoconstriction shunting blood centrally) versus warm and flushed in distributive shock (vasodilation). Tachycardia, altered mentation, and oliguria are common to both."
+                  "feedback": "Remember: same framework, different treatment. Haemorrhagic shock needs blood and haemostasis; septic shock needs antibiotics, cultures, and source control alongside fluids."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. Cold and shut down versus warm and flushed is the bedside hallmark that separates hypovolaemic from distributive shock — and it determines whether the first priority is blood products or antibiotics."
+                  "feedback": "Well done. The ABCDE framework is universal, but the cause-directed therapy changes with the mechanism — antibiotics and source control define septic shock management."
                 }
               ],
               "behaviour": {
@@ -481,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "4733476f-4130-4cf5-b579-b627873376cd",
+            "subContentId": "e56d02a7-8883-4db9-8ea4-a92ab2ad18e0",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Comparing the haemorrhagic motorcyclist",
+              "title": "A 70-year-old woman arrives warm, flushe",
               "authors": [],
               "changes": []
             }
@@ -510,37 +568,37 @@
           "label": "A 24-year-old motorcyclist arrives in the emergency depar…"
         },
         {
-          "time": 62,
+          "time": 61,
           "label": "Blood pressure equals cardiac output multiplied by system…"
         },
         {
-          "time": 132,
+          "time": 138,
           "label": "Building on the physiology from the previous scene, let's…"
         },
         {
-          "time": 233,
+          "time": 238,
           "label": "As you saw in the earlier scene, blood pressure equals ca…"
         },
         {
-          "time": 338,
+          "time": 357,
           "label": "Assessment and treatment run together from the start."
         },
         {
-          "time": 442,
+          "time": 474,
           "label": "Resuscitation rests on two principles that must happen si…"
         },
         {
-          "time": 560,
+          "time": 593,
           "label": "Think back to the motorcyclist from our opening scene."
         },
         {
-          "time": 612,
+          "time": 651,
           "label": "Building on the shock classification you worked through e…"
         }
       ],
       "endscreens": [
         {
-          "time": 737,
+          "time": 790,
           "label": "End"
         }
       ]
@@ -552,7 +610,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "1adfba72-0602-4f33-81ac-fc7220b95b33",
+              "subContentId": "9bfafc7b-aa28-40e7-80ea-6ffd4a07ca91",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -575,7 +633,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "258b6aa4-62bb-4c50-9d01-c417218cf688",
+        "subContentId": "592c9f59-ff5e-45a6-8f4a-51199b28487f",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
