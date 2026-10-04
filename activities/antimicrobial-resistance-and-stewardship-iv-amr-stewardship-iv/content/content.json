@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/28bbd23c-596f-43be-921d-38bdf8faf186/playlist.m3u8",
+          "path": "https://vdo.cbme.in/1bb1b624-889d-4eb1-a049-d01f0ca7bb14/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "MI11.1-3 | Antimicrobial Resistance & Stewardship — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 4 embedded questions for MI11.1-MI11.3."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for MI11.1-MI11.3."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 166.725,
-            "to": 176.725
+            "from": 177.48441666666668,
+            "to": 187.48441666666668
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The video describes three mechanisms of horizontal gene transfer that spread res</p>",
+          "label": "<p>A Mycoplasma pneumoniae isolate is identified in a patient's sputum. The treatin</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The video describes three mechanisms of horizontal gene transfer that spread resistance genes between bacteria. Which mechanism is clinically the most important and was responsible for the rapid spread of NDM-1 across unrelated species in Indian ICUs?</p>",
+              "question": "<p>A Mycoplasma pneumoniae isolate is identified in a patient's sputum. The treating physician immediately rules out amoxicillin without ordering susceptibility testing. Which statement best explains this decision?</p>",
               "answers": [
                 {
-                  "text": "<div>Transformation — bacteria pick up free DNA from their environment</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Transformation does occur but is relatively inefficient compared to direct cell-to-cell transfer. It plays a minor role in the rapid hospital spread of multi-drug resistance genes.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Conjugation — bacteria pass plasmids directly through a sex pilus</div>",
+                  "text": "<div>Mycoplasma species lack a cell wall, so beta-lactams like amoxicillin have no target to act on</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Conjugation enables direct plasmid transfer between even unrelated species. A single conjugative plasmid can carry NDM-1, ESBL, and aminoglycoside resistance genes simultaneously, which is why it drives resistance spread so rapidly in ICUs.</div>",
+                    "chosenFeedback": "<div>Correct. Mycoplasma species are intrinsically resistant to all beta-lactam antibiotics because they naturally lack a peptidoglycan cell wall — the very structure these drugs target. Because this resistance is predictable, AST is not needed to confirm it.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Transduction — a bacteriophage carries resistance genes between cells</div>",
+                  "text": "<div>Mycoplasma carries efflux pumps that rapidly expel all penicillin-class drugs before they can act</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Transduction does transfer genes via phages, but it has a narrower host range than conjugation and is less efficient at spreading resistance across diverse species in clinical settings.</div>",
+                    "chosenFeedback": "<div>Incorrect. Efflux pumps are a real resistance mechanism seen in organisms like Pseudomonas aeruginosa, but Mycoplasma's intrinsic resistance to beta-lactams arises from a more fundamental defect — the complete absence of a cell wall target.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Vertical transmission — resistance genes pass to daughter cells during binary fission</div>",
+                  "text": "<div>Mycoplasma acquires the mecA gene through conjugation, conferring beta-lactam resistance</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Vertical transmission passes genes to progeny of the same organism but does not spread resistance between different species. Horizontal gene transfer — especially conjugation — is what drives inter-species spread in hospitals.</div>",
+                    "chosenFeedback": "<div>Incorrect. The mecA gene encodes the altered penicillin-binding protein PBP2a responsible for methicillin resistance in MRSA (Staphylococcus aureus), not Mycoplasma. Mycoplasma's resistance is intrinsic, not acquired through horizontal gene transfer.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Mycoplasma produces beta-lactamases that enzymatically destroy amoxicillin's beta-lactam ring</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Beta-lactamase production is an important acquired resistance mechanism in organisms like ESBL-producing E. coli and Klebsiella, but Mycoplasma's resistance is intrinsic — it simply has no cell wall for beta-lactams to target.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the three HGT mechanisms: conjugation (plasmid transfer via sex pilus — most clinically important), transduction (phage-mediated), and transformation (free DNA uptake). Conjugation enables the rapid inter-species spread that drives hospital outbreaks."
+                  "feedback": "Review the concept of intrinsic resistance: it is a natural, built-in property of the species present before any antibiotic exposure. Think about what structure beta-lactams target and whether Mycoplasma possesses it."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Conjugation is the primary driver of horizontal resistance spread in hospitals. A single conjugative plasmid can carry multiple resistance determinants, enabling rapid dissemination across unrelated Enterobacteriaceae."
+                  "feedback": "Well done. Intrinsic resistance is predictable once you know the organism — Mycoplasma's wall-less biology makes every beta-lactam futile without needing AST."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "9d5eaf74-cf88-4cfb-a786-d80f8f6e8bdf",
+            "subContentId": "60ff350e-e9ac-451e-ad8c-1341a0337a91",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The video describes three mechanisms of",
+              "title": "A Mycoplasma pneumoniae isolate is ident",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 386.975,
-            "to": 396.975
+            "from": 282.16137499999996,
+            "to": 292.16137499999996
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>MRSA carries the mecA gene. Based on the video's explanation, how does the produ</p>",
+          "label": "<p>A district hospital laboratory performs disk diffusion testing on a wound isolat</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>MRSA carries the mecA gene. Based on the video's explanation, how does the product of this gene confer resistance to all beta-lactam antibiotics?</p>",
+              "question": "<p>A district hospital laboratory performs disk diffusion testing on a wound isolate and reports the organism as 'Intermediate' to ciprofloxacin. What is the correct interpretation for the treating clinician?</p>",
               "answers": [
                 {
-                  "text": "<div>It produces a beta-lactamase enzyme that hydrolyses the beta-lactam ring before the drug reaches its target</div>",
+                  "text": "<div>The organism is fully susceptible and ciprofloxacin at standard dosing will be effective</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Beta-lactamase enzymes (such as ESBLs or NDM-1) do destroy beta-lactams enzymatically, but this is the mechanism used by ESBL-producing Enterobacteriaceae, not MRSA. MRSA's resistance works through target alteration, not enzymatic destruction.</div>",
+                    "chosenFeedback": "<div>Incorrect. 'Intermediate' does not mean susceptible. It indicates a borderline result where standard dosing may not achieve adequate drug concentration at the infection site.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It produces an altered penicillin-binding protein that beta-lactam antibiotics cannot bind effectively</div>",
+                  "text": "<div>The result falls in a borderline zone; higher dosing or an alternative antibiotic may be needed depending on the infection site</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. mecA encodes PBP2a, a modified penicillin-binding protein with low affinity for beta-lactams. Since all beta-lactams work by binding PBPs to inhibit cell wall synthesis, this single alteration confers resistance to the entire class — including cephalosporins and carbapenems.</div>",
+                    "chosenFeedback": "<div>Correct. An 'Intermediate' (or 'susceptible, dose-dependent') result means the infection may respond to higher doses or at body sites where the drug naturally concentrates, but standard dosing carries uncertainty. The clinician should consider dose adjustment or a different agent.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It activates an efflux pump system that rapidly expels all beta-lactam drugs from the cell</div>",
+                  "text": "<div>The organism is resistant and ciprofloxacin must not be used under any circumstances</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Efflux pumps do contribute to resistance in organisms like Pseudomonas aeruginosa, but MRSA's primary beta-lactam resistance mechanism is target alteration through PBP2a, not drug efflux.</div>",
+                    "chosenFeedback": "<div>Incorrect. 'Intermediate' is distinct from 'Resistant'. It represents a borderline zone where clinical success may still be achievable with dose optimisation or at anatomical sites where the drug concentrates well.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>It reduces the number of outer membrane porins, limiting beta-lactam entry into the cell</div>",
+                  "text": "<div>The disk diffusion test has failed and broth microdilution must be performed before any treatment decision</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Reduced porin expression contributes to resistance in Gram-negative bacteria. Staphylococcus aureus is Gram-positive and lacks an outer membrane with porins — its resistance is through the altered penicillin-binding protein PBP2a.</div>",
+                    "chosenFeedback": "<div>Incorrect. An 'Intermediate' result on disk diffusion is a valid, interpretable finding — it indicates borderline susceptibility, not test failure. Broth microdilution can provide a precise MIC if needed, but the disk result itself guides initial management.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "MRSA's resistance is through target alteration, not enzyme production or efflux. The mecA gene encodes an altered penicillin-binding protein (PBP2a) with low affinity for beta-lactams, rendering the entire class ineffective — which is why vancomycin or linezolid is needed for serious MRSA infections."
+                  "feedback": "Revisit the three AST interpretation categories: Susceptible (standard dosing works), Intermediate (borderline — consider higher dose or alternative), and Resistant (standard therapy will fail)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "mecA → PBP2a is a classic example of target alteration resistance. Because every beta-lactam depends on binding PBPs, a single altered target protein neutralises the entire antibiotic class. Treatment requires drugs that bypass PBPs entirely, such as vancomycin or linezolid."
+                  "feedback": "Exactly. The S/I/R framework is a clinical tool — 'Intermediate' means the usual dose may fall short, prompting dose adjustment or a switch to a more reliably effective agent."
                 }
               ],
               "behaviour": {
@@ -261,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "5ceac75d-1126-420f-8805-22a4bdf7ad04",
+            "subContentId": "8eca48d5-bac2-47fb-8e7f-42dbc92ced58",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "MRSA carries the mecA gene. Based on the",
+              "title": "A district hospital laboratory performs",
               "authors": [],
               "changes": []
             }
@@ -281,13 +281,123 @@
         },
         {
           "duration": {
-            "from": 538.175,
-            "to": 548.175
+            "from": 399.1909166666666,
+            "to": 409.1909166666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Continuing broad-spectrum antibiotics beyond 72 hours without reviewing culture </p>",
+          "label": "<p>MRSA is resistant to all beta-lactam antibiotics, including cephalosporins and c</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>MRSA is resistant to all beta-lactam antibiotics, including cephalosporins and carbapenems. Which mechanism underlies this broad resistance?</p>",
+              "answers": [
+                {
+                  "text": "<div>Production of NDM-1, a metallo-beta-lactamase that hydrolyses all beta-lactam rings</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. NDM-1 (New Delhi metallo-beta-lactamase) is found in Gram-negative organisms like Klebsiella pneumoniae, not in Staphylococcus aureus. MRSA's resistance arises from target modification, not enzymatic drug destruction.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Upregulation of efflux pumps that actively expel beta-lactam molecules before they reach their target</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Efflux pump–mediated resistance is characteristic of organisms like Pseudomonas aeruginosa. MRSA's beta-lactam resistance is due to an altered drug target, not active drug expulsion.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The mecA gene encodes PBP2a, an altered penicillin-binding protein with low affinity for beta-lactams</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. mecA produces PBP2a, an altered penicillin-binding protein that beta-lactam antibiotics bind poorly. Because PBP2a can still carry out cell-wall synthesis, the bacterium survives in the presence of any beta-lactam — which is why treatment requires vancomycin, linezolid, or daptomycin.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Loss of outer membrane porins prevents beta-lactam antibiotics from entering the bacterial cell</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. S. aureus is a Gram-positive organism and does not possess an outer membrane with porins. Porin loss is a resistance mechanism seen in Gram-negative bacteria like Pseudomonas.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Review how MRSA resists beta-lactams: the mecA gene produces an altered target protein (PBP2a) that beta-lactams cannot effectively bind, rather than destroying or expelling the drug."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. MRSA's resistance is a target-modification mechanism — PBP2a still builds the cell wall but beta-lactams cannot bind it, which is why non-beta-lactam agents are required."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "e4fab9f1-1fc7-4645-b238-4d765da35bb2",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "MRSA is resistant to all beta-lactam ant",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 555.9164999999999,
+            "to": 565.9164999999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>The primary goal of an antimicrobial stewardship programme is to restrict antibi</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -296,7 +406,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Continuing broad-spectrum antibiotics beyond 72 hours without reviewing culture results is acceptable practice if the patient is clinically improving.</p>",
+              "question": "<p>The primary goal of an antimicrobial stewardship programme is to restrict antibiotic prescribing in hospitals.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -314,16 +424,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. Even if the patient is improving, a mandatory time-out at 48–72 hours requires reviewing culture results and de-escalating to targeted therapy. Continuing unnecessary broad-spectrum exposure is one of the commonest antibiotic misuse patterns in Indian hospitals, driving resistance and risking complications like Clostridioides difficile infection.",
-                "correctAnswerMessage": "Correct — this is false. The antimicrobial stewardship programme mandates a time-out at 48–72 hours to review every prescription against culture and susceptibility data, regardless of clinical improvement. Continuing unnecessary broad-spectrum therapy drives resistance and increases the risk of Clostridioides difficile infection.",
+                "wrongAnswerMessage": "Incorrect. While formulary restriction is one tool within stewardship, the overall goal is broader: to optimise antibiotic use (right drug, right dose, right route, right duration) so infections are treated effectively while minimising resistance, side effects, and complications. Restriction alone would deny patients needed therapy — stewardship is about smarter prescribing, not less prescribing.",
+                "correctAnswerMessage": "Correct — this is false. An AMSP aims to optimise antimicrobial use: ensuring the right drug, right dose, right route, and right duration to treat infection effectively while limiting resistance, adverse effects, and C. difficile infection. Formulary restriction is just one of several strategies within stewardship, alongside audit and feedback, de-escalation, IV-to-oral switch, and the 48–72 hour time-out.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "e9fbc520-2a70-428f-837c-fa77a808f141",
+            "subContentId": "8081b639-04b6-4e92-9eba-57235740ca81",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Continuing broad-spectrum antibiotics be",
+              "title": "The primary goal of an antimicrobial ste",
               "authors": [],
               "changes": []
             }
@@ -339,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 681.925,
-            "to": 691.925
+            "from": 701.7153333333333,
+            "to": 711.7153333333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The Chennai XDR Klebsiella pneumoniae isolate was resistant to beta-lactams, car</p>",
+          "label": "<p>A tertiary hospital starts empirical broad-spectrum antibiotics for a suspected </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The Chennai XDR Klebsiella pneumoniae isolate was resistant to beta-lactams, carbapenems, fluoroquinolones, aminoglycosides, and colistin. Evaluating the resistance mechanisms discussed in this video, which explanation best accounts for how a single organism acquired resistance across so many antibiotic classes?</p>",
+              "question": "<p>A tertiary hospital starts empirical broad-spectrum antibiotics for a suspected Gram-negative infection. At 48 hours, culture and AST results identify a pathogen susceptible to a narrower-spectrum antibiotic. The treating team chooses to continue the original broad-spectrum drug because the patient is clinically improving. Which evaluation of this decision is most defensible?</p>",
               "answers": [
                 {
-                  "text": "<div>A single chromosomal point mutation altered all antibiotic targets simultaneously</div>",
+                  "text": "<div>The decision is correct — changing antibiotics during clinical improvement risks treatment failure</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Individual point mutations typically affect one drug target (e.g., a fluoroquinolone target site). Resistance across five structurally different antibiotic classes, each with distinct cellular targets, requires multiple independent resistance mechanisms — not a single genetic event.</div>",
+                    "chosenFeedback": "<div>Incorrect. Clinical improvement is not a reason to continue unnecessarily broad therapy. The 48–72 hour time-out exists precisely for this decision: once culture results are available, continuing broader coverage than needed exposes gut flora to selection pressure without patient benefit.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Klebsiella pneumoniae has intrinsic resistance to all these antibiotic classes as a natural property of the species</div>",
+                  "text": "<div>The decision should be deferred to a specialist review at 72 hours before any change is made</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Klebsiella has some intrinsic resistances (e.g., to ampicillin), but it is naturally susceptible to carbapenems, fluoroquinolones, aminoglycosides, and colistin. This pan-drug pattern was acquired, not intrinsic — which is precisely why it alarmed clinicians.</div>",
+                    "chosenFeedback": "<div>Incorrect. Deferring the de-escalation decision extends unnecessary broad-spectrum exposure. The 48–72 hour time-out is designed for the prescribing team to act on culture results promptly, not to wait for further consultation while resistance pressure builds.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Multiple acquired resistance mechanisms — including carbapenemases like NDM-1 and ESBL enzymes — accumulated via conjugative plasmids carrying several resistance genes together</div>",
+                  "text": "<div>The decision is acceptable because broad-spectrum coverage provides an additional safety margin for a recovering patient</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Broader coverage does not add meaningful benefit when the pathogen and its susceptibilities are already known. Instead, it drives resistance by exerting selection pressure on commensal flora, promoting organisms like NDM-1-producing Klebsiella.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The decision is unjustified — failing to de-escalate to targeted therapy drives resistance and mirrors the prescribing pattern behind outbreaks like the Chennai XDR cluster</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Conjugative plasmids can carry NDM-1 (carbapenem resistance), ESBL genes (cephalosporin resistance), and aminoglycoside-modifying enzymes simultaneously. Combined with chromosomal mutations affecting fluoroquinolone targets and acquired colistin resistance, this produces pan-drug resistance through the accumulation of multiple mechanisms.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The isolate acquired all resistance exclusively through transformation by absorbing free DNA from hospital drains</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>While transformation can transfer some resistance genes, conjugation is the clinically dominant route for plasmid-mediated resistance spread in ICU settings. The accumulation of resistance to this many classes implicates repeated horizontal gene transfer events, predominantly via conjugation — not a single environmental uptake event.</div>",
+                    "chosenFeedback": "<div>Correct. The narration identifies failure to de-escalate as a key driver of resistance. Continuing broad-spectrum therapy after cultures show a narrower-spectrum option exposes gut flora to unnecessary selection pressure, promoting carbapenem-resistant organisms — the same trajectory that led to the pan-drug-resistant Klebsiella cluster reported in Chennai.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Resistance across five structurally different antibiotic classes cannot arise from a single mechanism or from intrinsic properties alone. Multiple acquired resistance determinants — carried on conjugative plasmids and supplemented by chromosomal mutations — accumulate through successive horizontal gene transfer events, producing the pan-drug resistance pattern seen in the Chennai outbreak."
+                  "feedback": "Revisit the stewardship cycle: empirical broad-spectrum therapy is justified initially, but once AST results arrive, continuing it instead of narrowing to a targeted agent is the very prescribing pattern that drives resistance."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Pan-drug resistance reflects the accumulation of multiple acquired mechanisms — enzymatic destruction, target alteration, efflux, and reduced uptake — often co-carried on conjugative plasmids. This is why stewardship and infection control are critical: once these genes accumulate, treatment options may be exhausted entirely."
+                  "feedback": "Well reasoned. The 48–72 hour time-out guided by culture results is where stewardship decisions prevent the next resistance report from reading like Chennai's."
                 }
               ],
               "behaviour": {
@@ -429,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "aee978bc-5510-4e1c-b620-1e57db965fc2",
+            "subContentId": "2228ca55-6598-4fb8-8d05-dacbeb6d509e",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The Chennai XDR Klebsiella pneumoniae is",
+              "title": "A tertiary hospital starts empirical bro",
               "authors": [],
               "changes": []
             }
@@ -458,33 +568,33 @@
           "label": "Ward 7, a tertiary government hospital in Chennai."
         },
         {
-          "time": 48,
+          "time": 49,
           "label": "Antimicrobial resistance mechanisms fall into two broad g…"
         },
         {
-          "time": 167,
+          "time": 177,
           "label": "Antimicrobial susceptibility testing, or A S T, tells us…"
         },
         {
-          "time": 271,
+          "time": 283,
           "label": "Now let's look at some of the most clinically important r…"
         },
         {
-          "time": 387,
+          "time": 399,
           "label": "'Pradofloxacin-resistant E."
         },
         {
-          "time": 424,
+          "time": 441,
           "label": "An antimicrobial stewardship programme, or AMSP, is a coo…"
         },
         {
-          "time": 539,
+          "time": 557,
           "label": "A fifty-five-year-old diabetic man in Ward seven, a terti…"
         }
       ],
       "endscreens": [
         {
-          "time": 732,
+          "time": 757,
           "label": "End"
         }
       ]
@@ -496,7 +606,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "06fdd2d9-a866-40ac-be09-bc06f743ee31",
+              "subContentId": "16b6a3f8-0979-4149-b5f1-8df5db306cd7",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -519,7 +629,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "09d009a8-394e-40e5-bd06-f80a3168908a",
+        "subContentId": "ffdc83dd-982f-4d2f-9f63-1fed1f6c9460",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
