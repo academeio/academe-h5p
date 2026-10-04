@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/977d40a1-b481-47a8-afdb-a39d562e3b55/playlist.m3u8",
+          "path": "https://vdo.cbme.in/ab9e30bb-d618-414d-92cc-be640efcaba2/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "IM19.1-8 | Movement Disorders — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for IM19.1-IM19.8."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for IM19.1-IM19.8."
       },
       "textTracks": {
         "videoTrack": [
@@ -67,7 +67,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In Parkinson's disease, loss of dopaminergic neurons in the substantia nigra par</p>",
+          "label": "<p>In Parkinson's disease, dopaminergic neurons in the substantia nigra pars compac</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In Parkinson's disease, loss of dopaminergic neurons in the substantia nigra pars compacta leads to which change in the basal ganglia circuit?</p>",
+              "question": "<p>In Parkinson's disease, dopaminergic neurons in the substantia nigra pars compacta are lost. Which mechanism best explains the resulting hypokinesia?</p>",
               "answers": [
                 {
-                  "text": "<div>Decreased direct pathway activity and increased indirect pathway activity, causing thalamic over-inhibition</div>",
+                  "text": "<div>The motor cortex loses direct excitatory input from the cerebellum</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The cerebellum modulates coordination but is a separate system. Parkinson's hypokinesia arises from the basal ganglia circuit, not cerebellar output.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Striatal neurons degenerate, reducing their inhibitory output to the external globus pallidus</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Striatal degeneration describes Huntington's disease, which produces hyperkinesia — the opposite pattern. In Parkinson's, the striatum is intact but deprived of dopamine.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The internal globus pallidus produces excessive inhibitory output to the thalamus</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Dopamine normally facilitates the direct pathway (via D1 receptors) and suppresses the indirect pathway (via D2 receptors). When dopamine neurons are lost, the direct pathway weakens and the indirect pathway strengthens, leading to excessive GPi output that over-inhibits the thalamus — producing hypokinesia.</div>",
+                    "chosenFeedback": "<div>Correct. Without dopamine, the direct pathway weakens and the indirect pathway is disinhibited, both increasing GPi output. The over-inhibited thalamus can no longer facilitate cortical motor activity.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Increased direct pathway activity, leading to excessive thalamic excitation and hyperkinesia</div>",
+                  "text": "<div>The subthalamic nucleus becomes underactive, reducing movement drive</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Dopamine loss weakens the direct pathway, not strengthens it. Excessive thalamic excitation with hyperkinesia occurs in conditions like Huntington's disease, where striatal neurons degenerate and GPi output falls.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Loss of subthalamic nucleus function, resulting in reduced internal globus pallidus output</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. In Parkinson's disease the subthalamic nucleus actually becomes more active — it is disinhibited via the indirect pathway — driving increased GPi output, not decreased.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Selective loss of D2 receptor signalling with preserved D1 function in the striatum</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Dopamine loss affects both D1 and D2 receptor signalling simultaneously, since the dopaminergic neurons supplying both receptor types degenerate together in the substantia nigra pars compacta.</div>",
+                    "chosenFeedback": "<div>The opposite occurs. In Parkinson's disease the subthalamic nucleus becomes overactive because the external globus pallidus can no longer restrain it, contributing to excessive GPi output.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the direct and indirect pathways. Dopamine facilitates movement through both: it activates the direct pathway (via D1) and suppresses the indirect pathway (via D2). Losing dopamine weakens the direct and strengthens the indirect, resulting in excessive GPi output and thalamic over-inhibition."
+                  "feedback": "Review DeLong's circuit model. Dopamine normally facilitates the direct pathway (via D1) and suppresses the indirect pathway (via D2). Losing it tips both toward excessive GPi output, which over-inhibits the thalamus and slows movement."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The dual-pathway model explains why dopamine loss produces hypokinesia: the direct pathway weakens and the indirect pathway strengthens, tipping the circuit toward excessive thalamic suppression."
+                  "feedback": "Well done. Dopamine loss shifts the balance toward excessive internal globus pallidus output, over-inhibiting the thalamus and impoverishing movement — DeLong's circuit model in action."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "42e1cd81-6bde-4cc0-92c6-cd63f16731e1",
+            "subContentId": "6b2a8d58-0c16-46f6-86da-b0787a0bef26",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In Parkinson's disease, loss of dopamine",
+              "title": "In Parkinson's disease, dopaminergic neu",
               "authors": [],
               "changes": []
             }
@@ -177,65 +177,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Alcohol reliably improves the tremor of Parkinson's disease, making it a useful </p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>Alcohol reliably improves the tremor of Parkinson's disease, making it a useful discriminator from essential tremor.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "Incorrect. The statement reverses the association. Alcohol reliably improves essential tremor, not Parkinson's tremor. This modifying factor is diagnostically powerful and is a key discriminator in the movement disorder history.",
-                "correctAnswerMessage": "Correct. Alcohol reliably improves essential tremor, not Parkinson's tremor. This is one of the most useful modifying factors in the movement disorder history — always ask about alcohol response when evaluating a patient with tremor.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "aa98681b-2d07-4418-b6a7-9bdfbfc1004f",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "Alcohol reliably improves the tremor of",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 584.32575,
-            "to": 594.32575
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A patient with bilateral rest tremor, rigidity, and bradykinesia shows only a 10</p>",
+          "label": "<p>A 55-year-old man presents with a hand tremor that worsens when he holds his arm</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with bilateral rest tremor, rigidity, and bradykinesia shows only a 10% improvement on MDS-UPDRS Part III after three months of adequate levodopa therapy. What does this response pattern indicate?</p>",
+              "question": "<p>A 55-year-old man presents with a hand tremor that worsens when he holds his arms outstretched and reliably improves after a small amount of alcohol. Which diagnosis do these modifying factors most strongly support?</p>",
               "answers": [
                 {
-                  "text": "<div>The diagnosis is confirmed as idiopathic Parkinson's disease</div>",
+                  "text": "<div>Parkinson's disease</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Idiopathic Parkinson's disease typically shows a strong levodopa response (≥30% improvement on MDS-UPDRS Part III). A poor response of only 10% argues against this diagnosis.</div>",
+                    "chosenFeedback": "<div>Parkinson's disease causes a rest tremor that diminishes with voluntary movement. Alcohol does not reliably improve parkinsonian tremor.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A Parkinson-plus syndrome should be considered, as idiopathic PD typically shows ≥30% improvement</div>",
+                  "text": "<div>Essential tremor</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The MDS-UPDRS Part III is scored at baseline and repeated after three months of levodopa. A reduction of 30% or more supports idiopathic PD. A poor response (here only 10%) shifts suspicion toward a Parkinson-plus syndrome such as progressive supranuclear palsy or multiple system atrophy, where post-synaptic dopamine receptor pathology limits the therapeutic effect.</div>",
+                    "chosenFeedback": "<div>Correct. A postural tremor that improves with alcohol is the classic pattern of essential tremor — both modifying factors are diagnostically powerful.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The initial localisation to the basal ganglia was incorrect and should be revised</div>",
+                  "text": "<div>Cerebellar tremor</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The clinical features — rest tremor, rigidity, and bradykinesia — correctly localise to the basal ganglia. The localisation step was sound; it is the aetiological step in the three-part formulation that needs revision.</div>",
+                    "chosenFeedback": "<div>Cerebellar tremor is an intention tremor that worsens as the hand approaches a target, not a postural tremor worsening with outstretched arms.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The patient has essential tremor rather than a parkinsonian syndrome</div>",
+                  "text": "<div>Drug-induced parkinsonism</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Essential tremor is a postural tremor without rigidity or bradykinesia. This patient's phenomenology — rest tremor with rigidity and bradykinesia — clearly identifies a parkinsonian syndrome; the question is which subtype.</div>",
+                    "chosenFeedback": "<div>Drug-induced parkinsonism mimics Parkinson's disease with rest tremor and rigidity. It does not present as an alcohol-responsive postural tremor.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the levodopa response criterion: ≥30% improvement on MDS-UPDRS Part III supports idiopathic PD; a poor response (<30%) raises suspicion for Parkinson-plus syndromes. This therapeutic trial is a key step in the diagnostic formulation."
+                  "feedback": "Remember the activation distinction: rest tremor points to Parkinson's, intention tremor to the cerebellum, and postural tremor to essential tremor. Alcohol reliably improves essential tremor but not Parkinson's tremor."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. A poor levodopa response is a red flag that shifts the differential from idiopathic PD toward Parkinson-plus syndromes — a critical application of the three-part diagnostic formulation."
+                  "feedback": "Exactly. Activation pattern (rest vs posture vs intention) and response to alcohol are two of the most powerful modifying factors in movement disorder history-taking."
                 }
               ],
               "behaviour": {
@@ -319,11 +261,121 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "90b9adbe-645c-4b42-ac44-608bf55765c0",
+            "subContentId": "f0942539-8207-4db5-a131-2d4496d97bba",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with bilateral rest tremor, ri",
+              "title": "A 55-year-old man presents with a hand t",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 495.60958333333326,
+            "to": 505.60958333333326
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>You ask a patient with suspected parkinsonism to tap the index finger against th</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>You ask a patient with suspected parkinsonism to tap the index finger against the thumb repeatedly, as fast and wide as possible. Which observation is most specific for parkinsonism?</p>",
+              "answers": [
+                {
+                  "text": "<div>The tapping rhythm becomes irregular but amplitude is maintained</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Irregular rhythm with maintained amplitude suggests cerebellar dysdiadochokinesia — impaired coordination of rapid alternating movements without the characteristic fatiguing pattern.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A tremor appears in the contralateral hand during the task</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Observing the contralateral hand during movement is part of Froment's manoeuvre for detecting subtle rigidity, not a test for bradykinesia.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The patient cannot perform the task at all from the outset</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Complete inability from the start suggests a pyramidal or peripheral motor lesion. Parkinsonian bradykinesia starts normally but fatigues progressively.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The tapping speed and amplitude progressively decrease with repetition</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. This fatiguing decrement — movements getting smaller and slower with repetition — is highly specific for parkinsonism and distinguishes it from cerebellar impairment.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The key distinction: parkinsonian bradykinesia produces a fatiguing decrement (movements get progressively smaller and slower), whereas cerebellar dysdiadochokinesia is irregular but does not show this progressive decline."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. The fatiguing decrement on repetitive finger tapping is the hallmark of parkinsonian bradykinesia and distinguishes it from cerebellar dysdiadochokinesia, which is irregular but does not fatigue."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "906fad30-4ab9-4182-942b-f60c06b8733f",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "You ask a patient with suspected parkins",
               "authors": [],
               "changes": []
             }
@@ -345,7 +397,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 50-year-old patient on long-term metoclopramide develops parkinsonian features</p>",
+          "label": "<p>A 48-year-old patient on long-term metoclopramide develops bilateral tremor and </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 50-year-old patient on long-term metoclopramide develops parkinsonian features. Which investigation best distinguishes drug-induced parkinsonism from underlying Parkinson's disease?</p>",
+              "question": "<p>A 48-year-old patient on long-term metoclopramide develops bilateral tremor and rigidity. A DAT-SPECT scan is ordered. What result would you expect if the parkinsonism is drug-induced?</p>",
               "answers": [
                 {
-                  "text": "<div>MRI brain with T2-weighted sequences</div>",
+                  "text": "<div>Asymmetric reduction of dopamine transporter uptake in the putamen</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. MRI identifies structural lesions and Parkinson-plus signs (hummingbird sign in PSP, hot cross bun sign in MSA) but cannot distinguish drug-induced from degenerative parkinsonism at the presynaptic level.</div>",
+                    "chosenFeedback": "<div>Asymmetric putaminal reduction is the characteristic pattern in idiopathic Parkinson's disease, where presynaptic dopaminergic terminals are degenerating.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Serum ceruloplasmin and 24-hour urinary copper</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. These tests screen specifically for Wilson's disease and would not help differentiate drug-induced from degenerative parkinsonism.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>DAT-SPECT (dopamine transporter scan)</div>",
+                  "text": "<div>Normal dopamine transporter uptake bilaterally</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. DAT-SPECT measures presynaptic dopamine transporter density. It is abnormal in Parkinson's disease (degenerating presynaptic terminals) but normal in drug-induced parkinsonism (intact terminals, blocked post-synaptic receptors). This distinction is the key clinical indication for DAT-SPECT.</div>",
+                    "chosenFeedback": "<div>Correct. In drug-induced parkinsonism the presynaptic dopaminergic terminals are intact — the problem is postsynaptic receptor blockade by the offending drug, so DAT-SPECT is normal.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>MIBG cardiac scintigraphy</div>",
+                  "text": "<div>Bilaterally increased uptake in the caudate nucleus</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. MIBG scintigraphy assesses cardiac sympathetic innervation and is used to distinguish Lewy body dementia from multiple system atrophy — not to evaluate drug-induced parkinsonism.</div>",
+                    "chosenFeedback": "<div>Increased caudate uptake is not a recognised pattern. DAT-SPECT shows reduced or normal uptake depending on whether presynaptic terminals are diseased or intact.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Absent uptake throughout the basal ganglia bilaterally</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Complete bilateral absence would suggest advanced end-stage neurodegeneration. Drug-induced parkinsonism does not damage presynaptic terminals at all.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the imaging indications: DAT-SPECT is the investigation of choice when parkinsonism occurs in a patient on a dopamine-blocking drug. It is normal when presynaptic terminals are intact (drug-induced) and abnormal when they are degenerating (PD)."
+                  "feedback": "Remember: DAT-SPECT measures presynaptic dopamine transporter density. It is abnormal in Parkinson's disease (terminals degenerating) and normal in drug-induced parkinsonism and essential tremor (terminals intact)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. DAT-SPECT is the key investigation when drug-induced and degenerative parkinsonism cannot be distinguished clinically — it directly visualises presynaptic dopaminergic terminal integrity."
+                  "feedback": "Exactly. A normal DAT-SPECT in a patient with parkinsonian features on a dopamine-blocking drug confirms the parkinsonism is drug-induced, not degenerative — a distinction that changes management entirely."
                 }
               ],
               "behaviour": {
@@ -429,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "bbcc5503-da23-4a34-8239-59e0df88d60f",
+            "subContentId": "969f83ce-62fa-4c4a-a77c-3d026779ccfa",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 50-year-old patient on long-term metoc",
+              "title": "A 48-year-old patient on long-term metoc",
               "authors": [],
               "changes": []
             }
@@ -455,7 +507,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with Parkinson's disease on long-term levodopa-carbidopa develops end-</p>",
+          "label": "<p>A patient with Parkinson's disease on levodopa-carbidopa reports that tremor and</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +516,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with Parkinson's disease on long-term levodopa-carbidopa develops end-of-dose wearing-off, with parkinsonian symptoms returning before the next scheduled dose. Which pharmacological addition best addresses this complication?</p>",
+              "question": "<p>A patient with Parkinson's disease on levodopa-carbidopa reports that tremor and rigidity return one hour before each dose is due. Which drug should be added to address this wearing-off?</p>",
               "answers": [
                 {
-                  "text": "<div>Trihexyphenidyl, an anticholinergic</div>",
+                  "text": "<div>Amantadine</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Anticholinergics like trihexyphenidyl target tremor in younger patients only. They do not address wearing-off and should be avoided entirely over age 70 due to the risk of confusion and cognitive decline.</div>",
+                    "chosenFeedback": "<div>Amantadine is a glutamate receptor antagonist used to manage peak-dose dyskinesias, not wearing-off. Each motor complication has its own specific pharmacological fix.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Amantadine, a glutamate receptor antagonist</div>",
+                  "text": "<div>Trihexyphenidyl</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Amantadine is the specific treatment for peak-dose dyskinesias (involuntary writhing movements at peak drug levels), not for wearing-off. Each motor complication of levodopa has its own pharmacological fix.</div>",
+                    "chosenFeedback": "<div>Trihexyphenidyl is an anticholinergic used for tremor-predominant disease in younger patients. It does not extend levodopa's duration and should be avoided entirely over age 70.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Entacapone, a COMT inhibitor</div>",
+                  "text": "<div>Pethidine</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Pethidine is absolutely contraindicated with MAO-B inhibitors due to serotonin syndrome risk. It is an opioid analgesic with no role in Parkinson's management.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Entacapone</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Entacapone inhibits catechol-O-methyltransferase, the enzyme that degrades levodopa peripherally. By blocking this breakdown, it extends levodopa's duration of action and specifically addresses end-of-dose wearing-off.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Pramipexole as a complete replacement for levodopa</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Dopamine agonists like pramipexole are preferred as first-line in younger patients to delay levodopa initiation, but completely replacing levodopa in an established patient would worsen motor control. The specific fix for wearing-off is a COMT inhibitor.</div>",
+                    "chosenFeedback": "<div>Correct. Entacapone inhibits catechol-O-methyltransferase (COMT), which degrades levodopa peripherally. This extends levodopa's plasma half-life and smooths out end-of-dose wearing-off.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +559,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Review the two motor complications of long-term levodopa: wearing-off (symptoms return before next dose → add entacapone, a COMT inhibitor) and peak-dose dyskinesias (involuntary movements at peak levels → add amantadine, a glutamate antagonist). Each complication has its own specific fix."
+                  "feedback": "Remember the two motor complications and their fixes: wearing-off (symptoms return before the next dose) → add entacapone (COMT inhibitor). Peak-dose dyskinesias (involuntary movements at peak levels) → add amantadine (glutamate antagonist)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Entacapone extends levodopa's action by inhibiting peripheral COMT — the specific pharmacological answer to wearing-off. Remember: wearing-off → entacapone; dyskinesias → amantadine."
+                  "feedback": "Well done. Wearing-off responds to entacapone (COMT inhibitor), which extends levodopa's action. Dyskinesias respond to amantadine. Matching the complication to its fix is a high-yield pharmacology point."
                 }
               ],
               "behaviour": {
@@ -539,11 +591,69 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2a921201-fc3e-4a11-9a35-e473391f5445",
+            "subContentId": "0075bc13-aff0-4864-87c1-c116d43d8404",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient with Parkinson's disease on lo",
+              "title": "A patient with Parkinson's disease on le",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 920.912875,
+            "to": 930.912875
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In Sydenham's chorea, the involuntary dance-like movements result from degenerat</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "True/False Question",
+          "action": {
+            "library": "H5P.TrueFalse 1.8",
+            "params": {
+              "question": "<p>In Sydenham's chorea, the involuntary dance-like movements result from degeneration of dopamine-producing neurons in the substantia nigra pars compacta.</p>",
+              "correct": "false",
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false
+              },
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "This statement is false. Substantia nigra dopamine neuron loss causes the hypokinetic pattern of Parkinson's disease. Sydenham's chorea localises to immune-mediated striatal injury — the damaged striatum can no longer restrain the thalamus via the internal globus pallidus, so unwanted hyperkinetic movements emerge.",
+                "correctAnswerMessage": "Correct — the statement is false. Sydenham's chorea results from immune-mediated injury to the striatum, not dopaminergic neuron loss. Damaged striatal neurons reduce inhibitory output to the internal globus pallidus, releasing the thalamus from suppression and producing hyperkinetic movements — the opposite mechanism to Parkinson's disease.",
+                "scoreBarLabel": "You got :num out of :total points"
+              }
+            },
+            "subContentId": "a1e436ab-2f1c-4b26-a1d2-01c53cfc188a",
+            "metadata": {
+              "contentType": "True/False Question",
+              "license": "U",
+              "title": "In Sydenham's chorea, the involuntary da",
               "authors": [],
               "changes": []
             }
@@ -614,7 +724,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "b2ed52b9-9610-4e0c-961d-c2971ef80a8d",
+              "subContentId": "93700ea3-150b-4bcf-802c-24e55a512d1a",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -637,7 +747,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "66ea882a-3282-41df-b96a-6be15117f8ff",
+        "subContentId": "6cd4f653-76d2-4ace-a8df-39a5c2bc3790",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
