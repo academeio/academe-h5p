@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/a9e48618-e8b9-41ae-9f6f-69eeac1a497f/playlist.m3u8",
+          "path": "https://vdo.cbme.in/f8077a2f-47c1-4f73-9329-7f31dc3d61e3/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "MI10.1-5 | Healthcare-Associated Infections — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 6 embedded questions for MI10.1-MI10.5."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for MI10.1-MI10.5."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 147.55,
-            "to": 157.55
+            "from": 160.45279166666668,
+            "to": 170.45279166666668
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>CAUTI, CLABSI, and VAP are grouped together in HAI classification because they s</p>",
+          "label": "<p>Which of the following healthcare-associated infections is NOT device-related?</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>CAUTI, CLABSI, and VAP are grouped together in HAI classification because they share which key feature?</p>",
+              "question": "<p>Which of the following healthcare-associated infections is NOT device-related?</p>",
               "answers": [
                 {
-                  "text": "<div>They are all caused exclusively by Gram-negative organisms</div>",
+                  "text": "<div>Catheter-associated urinary tract infection (CAUTI)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Not quite. While many HAI organisms are Gram-negative, CLABSI is commonly caused by Gram-positive coagulase-negative staphylococci and MRSA. The shared feature is their association with indwelling devices, not a common organism profile.</div>",
+                    "chosenFeedback": "<div>CAUTI is directly linked to an indwelling urinary catheter — it is defined as a UTI occurring ≥48 hours after catheter insertion.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>They are all associated with indwelling medical devices</div>",
+                  "text": "<div>Central line-associated bloodstream infection (CLABSI)</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>CLABSI is defined by the presence of a central venous catheter and is a classic device-related HAI.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Ventilator-associated pneumonia (VAP)</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>VAP develops ≥48 hours after endotracheal intubation, making it device-related and preventable through ventilator care bundles.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Clostridioides difficile infection (CDI)</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. CAUTI involves urinary catheters, CLABSI involves central venous catheters, and VAP involves endotracheal tubes. This device association makes them targetable through bundled care — standardised insertion and maintenance practices.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>They all develop within 24 hours of hospital admission</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. CAUTI requires at least 2 days of catheterisation, and VAP develops 48 hours or more after intubation. The timing varies, but the unifying feature is their link to indwelling devices.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>They all respond to the same empirical antibiotic regimen</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Each HAI type involves different organisms with different resistance profiles — E. coli and Klebsiella in CAUTI differ significantly from Pseudomonas and Acinetobacter in VAP.</div>",
+                    "chosenFeedback": "<div>CDI results from antibiotic-induced disruption of normal gut flora, not from an indwelling device. It is confirmed by detecting C. difficile toxins.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key feature is device association. CAUTI, CLABSI, and VAP each involve an indwelling device (catheter, central line, endotracheal tube), which is why bundled prevention care targeting device insertion and maintenance is so effective."
+                  "feedback": "Review the five HAI types: CAUTI (urinary catheter), CLABSI (central line), and VAP (ventilator) are device-related. SSI relates to a surgical procedure. CDI follows antibiotic use and is not device-related."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done! Recognising device association is clinically important because it means prevention bundles — standardised insertion, daily review of device necessity, and timely removal — can significantly reduce all three infections."
+                  "feedback": "Correct! CDI is triggered by antibiotic use disrupting normal gut flora, unlike CAUTI, CLABSI, and VAP, which are all associated with indwelling devices and targeted through bundled prevention care."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "588a388c-0c69-40c7-91d6-f88f9e774de3",
+            "subContentId": "ae980447-58fa-4dd4-bc94-c880c1a0b301",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "CAUTI, CLABSI, and VAP are grouped toget",
+              "title": "Which of the following healthcare-associ",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 261.29999999999995,
-            "to": 271.29999999999995
+            "from": 393.29412500000007,
+            "to": 403.29412500000007
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the chain of transmission of healthcare-associated infections, which link is </p>",
+          "label": "<p>How does the carbapenem-resistance determinant NDM-1 spread between different ba</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In the chain of transmission of healthcare-associated infections, which link is the primary target of most infection control interventions?</p>",
+              "question": "<p>How does the carbapenem-resistance determinant NDM-1 spread between different bacterial species within a hospital?</p>",
               "answers": [
                 {
-                  "text": "<div>Infectious agent</div>",
+                  "text": "<div>Through spontaneous chromosomal mutations during binary fission</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While identifying the causative organism is essential for treatment, we cannot eliminate all pathogens from the hospital environment. Most interventions focus on how organisms move between patients.</div>",
+                    "chosenFeedback": "<div>Chromosomal mutations produce resistance within a single organism's lineage but cannot transfer resistance genes to a different species.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Susceptible host</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Host factors such as immunosuppression and extremes of age increase risk, but these are often not modifiable. The largest number of interventions target an earlier, more actionable link.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Mode of transmission</div>",
+                  "text": "<div>Through horizontal transfer of plasmids carrying the resistance gene</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Contact transmission via healthcare workers' hands is the most common route. Hand hygiene alone prevents more HAIs than any other single intervention, making this the most actionable link in the chain.</div>",
+                    "chosenFeedback": "<div>NDM-1 is carried on mobile plasmids that can hop between entirely different bacterial species — this horizontal gene transfer is why it spread globally so rapidly after first being identified in New Delhi.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Portal of entry</div>",
+                  "text": "<div>Through clonal expansion of a single resistant lineage</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Reducing portals of entry — for example, removing catheters early — does help, but the mode of transmission is targeted by the greatest number of interventions, from hand hygiene to barrier precautions to surface disinfection.</div>",
+                    "chosenFeedback": "<div>Clonal spread passes one resistant organism from patient to patient (usually on hands), but it occurs within the same species and does not explain inter-species spread of resistance.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Through bacteriophage-mediated transduction</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Transduction is a real mechanism of gene transfer, but NDM-1 is characteristically carried on conjugative plasmids, which is what makes its inter-species spread so efficient.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -229,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The mode of transmission is the primary target. Contact transmission — especially via healthcare workers' hands — accounts for the majority of HAI spread, and hand hygiene is the single most effective intervention."
+                  "feedback": "The narration distinguishes two modes of resistance spread: clonal spread (same organism, patient to patient via hands) and horizontal gene transfer (resistance genes hop between different species via plasmids). NDM-1 spreads through the latter."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. Contact transmission is the dominant mode, and hand hygiene is the single most effective intervention in preventing HAIs — this is why infection control programmes focus heavily on this link."
+                  "feedback": "Correct! Plasmid-mediated horizontal gene transfer allows resistance genes like NDM-1 to jump between entirely different bacterial species, making this mechanism far more dangerous than clonal spread alone."
                 }
               ],
               "behaviour": {
@@ -261,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "7afc01af-c730-4aa7-ab63-408c786de34c",
+            "subContentId": "d90f796e-9faa-4b43-9c89-fee12a44e863",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In the chain of transmission of healthca",
+              "title": "How does the carbapenem-resistance deter",
               "authors": [],
               "changes": []
             }
@@ -281,343 +281,13 @@
         },
         {
           "duration": {
-            "from": 377.47499999999997,
-            "to": 387.47499999999997
+            "from": 512.4789166666667,
+            "to": 522.4789166666667
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>NDM-1 (New Delhi metallo-beta-lactamase) resistance has spread rapidly across di</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>NDM-1 (New Delhi metallo-beta-lactamase) resistance has spread rapidly across different bacterial species, primarily through which mechanism?</p>",
-              "answers": [
-                {
-                  "text": "<div>Intrinsic impermeability encoded in the bacterial chromosome</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Intrinsic resistance is a fixed, species-specific trait — for example, Pseudomonas's naturally impermeable outer membrane. NDM-1 is acquired resistance that transfers between entirely different species, requiring a mobile genetic mechanism.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Spontaneous chromosomal point mutations under antibiotic selective pressure</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Chromosomal mutations can produce resistance, but they are slow and remain within one lineage. NDM-1 crosses species boundaries rapidly because it is carried on transferable genetic elements, not on the chromosome.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Clonal spread of a single resistant strain from patient to patient</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Clonal spread transmits the same resistant strain between patients, typically on hands. NDM-1, however, moves between entirely different bacterial species — Klebsiella to E. coli, for instance — which requires horizontal gene transfer.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Horizontal gene transfer via plasmids</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. NDM-1 is encoded on plasmids — self-replicating mobile genetic elements that transfer between unrelated bacterial species during conjugation. This is why NDM-1 disseminated globally so rapidly after its identification in New Delhi.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "NDM-1 spreads via plasmids — mobile DNA elements that hop between different bacterial species through horizontal gene transfer. This is fundamentally different from clonal spread or chromosomal mutations and explains its rapid global dissemination."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. Plasmid-mediated horizontal gene transfer is the key reason NDM-1 poses such a serious threat — it can jump between species, making containment far harder than for clonally spreading resistance."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "ff4cf512-aa0c-4d0e-80df-b9948f30dd24",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "NDM-1 (New Delhi metallo-beta-lactamase)",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 488.32499999999993,
-            "to": 498.32499999999993
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A patient with active pulmonary tuberculosis requires which category of transmis</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A patient with active pulmonary tuberculosis requires which category of transmission-based precautions beyond standard precautions?</p>",
-              "answers": [
-                {
-                  "text": "<div>Contact precautions with dedicated equipment</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Contact precautions are for organisms spread by direct or indirect touch, such as MRSA and C. difficile. Tuberculosis spreads through the air as tiny droplet nuclei, requiring a higher level of respiratory protection.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Droplet precautions with a surgical mask and one-metre separation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Droplet precautions protect against larger respiratory particles (&gt;5 μm) from organisms like influenza. TB spreads via droplet nuclei (&lt;5 μm) that remain suspended in air for hours — a surgical mask cannot filter these effectively.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Airborne precautions with an N95 respirator and negative-pressure room</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Mycobacterium tuberculosis spreads via droplet nuclei that remain airborne and can travel long distances. Negative pressure prevents contaminated air from escaping, and an N95 respirator filters particles down to 0.3 μm.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Protective (reverse) isolation to shield the patient</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Protective isolation shields immunocompromised patients from environmental organisms. TB isolation does the opposite — it protects others from the patient's infectious respiratory secretions.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Tuberculosis requires airborne precautions — a negative-pressure room, an N95 respirator, and a closed door — because its droplet nuclei are small enough to remain suspended in air and travel long distances."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. TB, measles, and varicella are the classic airborne-precaution organisms because their droplet nuclei can float and linger in air, requiring negative pressure and N95-level filtration."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "ba8afbd1-86ca-47c0-9757-266abda22db4",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A patient with active pulmonary tubercul",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 680.5249999999999,
-            "to": 690.5249999999999
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>During doffing (removal) of PPE after caring for a patient on contact precaution</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>During doffing (removal) of PPE after caring for a patient on contact precautions, which item should be removed first to minimise the risk of self-contamination?</p>",
-              "answers": [
-                {
-                  "text": "<div>Gloves</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Gloves are the most heavily contaminated item and are removed first using the glove-into-glove technique. Hand hygiene follows immediately, before touching any other equipment. The full doffing order is: gloves → hand hygiene → eye protection → gown → mask → hand hygiene.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Gown</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The gown is removed after eye protection, not first. Removing it while wearing contaminated gloves would transfer organisms from the glove surface to your scrubs and skin.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Eye protection</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Eye protection is removed after gloves and hand hygiene, using only the ear pieces. The correct doffing order is: gloves → hand hygiene → eye protection → gown → mask → hand hygiene.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Mask or respirator</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The mask or respirator is removed last during doffing. Removing it first would expose your face to contamination while handling other contaminated PPE items.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Gloves are removed first because they are the most contaminated item. The full doffing sequence is: gloves → hand hygiene → eye protection → gown → mask → hand hygiene. Every step protects you from the contaminated surfaces being removed."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well done. The doffing sequence is designed so that each step avoids transferring contamination — gloves off first (most contaminated), mask off last (protects your airway throughout the process)."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "fcb2aa12-7795-4316-94dc-a7d1125ba0a7",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "During doffing (removal) of PPE after ca",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 899.9999999999999,
-            "to": 909.9999999999999
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>The acceptable standard for Escherichia coli in hospital drinking water is fewer</p>",
+          "label": "<p>Droplet precautions require a negative-pressure isolation room and an N95 respir</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -626,7 +296,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>The acceptable standard for Escherichia coli in hospital drinking water is fewer than 10 colony-forming units per 100 millilitres.</p>",
+              "question": "<p>Droplet precautions require a negative-pressure isolation room and an N95 respirator.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -644,16 +314,236 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "The standard is stricter than you might expect — it requires ZERO E. coli per 100 mL. Because E. coli is a faecal indicator organism, even a single colony signals contamination and makes the water unacceptable for consumption.",
-                "correctAnswerMessage": "Well done. The standard is ZERO E. coli per 100 mL of drinking water. E. coli is a faecal indicator organism — any detectable presence signals contamination from human or animal waste, making the water unsafe regardless of how few organisms are found.",
+                "wrongAnswerMessage": "Not quite. Droplet precautions (for organisms like influenza) require only a surgical mask and one metre of spatial separation. A negative-pressure room and N95 respirator are features of airborne precautions, needed for TB, measles, and varicella, whose particles are small enough to float and linger in the air.",
+                "correctAnswerMessage": "Correct! Droplet precautions require only a surgical mask and one metre of spatial separation. A negative-pressure room and N95 respirator are reserved for airborne precautions, used for organisms like Mycobacterium tuberculosis, measles, and varicella that spread via tiny droplet nuclei.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "5b04fba3-6d3b-4278-a0d8-ebaf98ec891c",
+            "subContentId": "1f422cad-964c-4bf4-8fa9-29132b761da1",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "The acceptable standard for Escherichia",
+              "title": "Droplet precautions require a negative-p",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 716.8741249999999,
+            "to": 726.8741249999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>After caring for a patient on contact precautions, a nurse begins removing her P</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>After caring for a patient on contact precautions, a nurse begins removing her PPE. What is the correct doffing order?</p>",
+              "answers": [
+                {
+                  "text": "<div>Mask → gown → eye protection → gloves</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This order is reversed. Gloves are the most contaminated item and must come off first; the mask is removed last because its ties are the least contaminated surface.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Gown → gloves → mask → eye protection</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The gown is removed third, not first. Starting with gloves is essential because their outer surface carries the heaviest contamination from direct patient contact.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Gloves → eye protection → gown → mask</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct! Gloves come off first (highest contamination), followed by hand hygiene, then eye protection (by ear pieces only), gown (rolled inside-out), and mask last (by ties or loops). Hand hygiene is performed again after the mask.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Eye protection → gown → gloves → mask</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Eye protection is removed second, not first. Removing it before gloves risks transferring contamination from the glove surface to your face.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The correct doffing order is: gloves first (most contaminated), then eye protection (by ear pieces), then gown (rolled inside-out), and mask last (by ties or loops). Hand hygiene is performed after glove removal and again at the end."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct! The doffing order — gloves, eye protection, gown, mask — is designed so that each step avoids transferring contamination from outer surfaces to skin or mucous membranes. Hand hygiene follows glove removal and again after the mask."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "8d3f1b97-2c15-4b79-88d0-e5c199a23fa8",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "After caring for a patient on contact pr",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 946.7474583333333,
+            "to": 956.7474583333333
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In hospital water surveillance, Escherichia coli and total coliforms are tested </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In hospital water surveillance, Escherichia coli and total coliforms are tested as indicator organisms primarily because their presence signals:</p>",
+              "answers": [
+                {
+                  "text": "<div>Biofilm formation in the hospital water distribution system</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Biofilms are a concern in hospital plumbing (especially for Legionella), but E. coli and coliforms are not biofilm indicators — they specifically signal faecal contamination.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Faecal contamination of the water supply</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>E. coli and total coliforms are enteric organisms whose presence in water indicates faecal contamination. The standard is strict: zero E. coli per 100 mL of drinking water.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Legionella proliferation in cooling towers</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Legionella is tested separately using culture or PCR, particularly in cooling towers and hot water systems. E. coli and coliforms serve a different purpose as faecal contamination markers.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Chemical contamination from hospital effluent</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Chemical contamination requires separate analytical methods. E. coli and coliforms are biological indicators specifically for faecal contamination of water.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "E. coli and total coliforms are enteric organisms used as indicators because their presence in water signals faecal contamination. Membrane filtration is the most sensitive detection method, and the standard demands zero E. coli per 100 mL of drinking water."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct! E. coli and total coliforms are classic faecal indicator organisms. Their detection in hospital drinking water signals faecal contamination, and the standard demands zero E. coli per 100 mL."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "85edcc12-aa55-41ff-a02f-f7ccbf748a12",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In hospital water surveillance, Escheric",
               "authors": [],
               "changes": []
             }
@@ -678,41 +568,41 @@
           "label": "A 62-year-old patient admitted to the ICU for cardiac sur…"
         },
         {
-          "time": 37,
+          "time": 38,
           "label": "Healthcare-associated infections are often grouped by whe…"
         },
         {
-          "time": 148,
+          "time": 160,
           "label": "Every infection follows a chain of six links, and healthc…"
         },
         {
-          "time": 262,
+          "time": 277,
           "label": "Antimicrobial resistance in healthcare-associated infecti…"
         },
         {
-          "time": 377,
+          "time": 393,
           "label": "Standard precautions apply to every patient, no matter th…"
         },
         {
-          "time": 489,
+          "time": 513,
           "label": "There are three main ways we clean our hands in a clinica…"
         },
         {
-          "time": 579,
+          "time": 613,
           "label": "Personal protective equipment works only if you put it on…"
         },
         {
-          "time": 681,
+          "time": 717,
           "label": "Biomedical waste in Indian hospitals is sorted into four…"
         },
         {
-          "time": 785,
+          "time": 825,
           "label": "Hospitals don't test their water, food, and air all the t…"
         }
       ],
       "endscreens": [
         {
-          "time": 942,
+          "time": 991,
           "label": "End"
         }
       ]
@@ -724,7 +614,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "cb5b2ad7-5a3a-4097-ab4d-c7b70af3b5bb",
+              "subContentId": "aa4ff4e8-9e18-48cd-ac59-980e3ac7a9a3",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -747,7 +637,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "eac02d87-0a84-4bcb-b012-28ddfd0bfcda",
+        "subContentId": "5189a2c0-dc39-4144-b981-ca39c5bc6bda",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
