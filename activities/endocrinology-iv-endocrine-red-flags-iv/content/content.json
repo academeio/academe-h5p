@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/13ab70e0-9aed-40a3-b7d6-877d70d9cf30/playlist.m3u8",
+          "path": "https://vdo.cbme.in/edbc34b9-b699-45fa-b5b4-854fe73b4ec6/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,47 +61,99 @@
       "interactions": [
         {
           "duration": {
-            "from": 218.475,
-            "to": 228.475
+            "from": 229.94691666666668,
+            "to": 239.94691666666668
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A neonate with congenital hypothyroidism who appears unusually calm, sleeps exce</p>",
+          "label": "<p>A neonate with congenital hypothyroidism is often described by the mother as a '</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A neonate with congenital hypothyroidism who appears unusually calm, sleeps excessively, and rarely cries is displaying signs of a good temperament.</p>",
-              "correct": "false",
+              "question": "<p>A neonate with congenital hypothyroidism is often described by the mother as a 'good, quiet baby who sleeps well.' Which of the following best explains this observation?</p>",
+              "answers": [
+                {
+                  "text": "<div>The infant has normal neurological development with only peripheral hypothyroid effects</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Thyroid hormone deficiency profoundly affects the neonatal central nervous system. The quiet behaviour reflects generalised metabolic suppression, not preserved neurological function.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Sluggish metabolism due to thyroid hormone deficiency causes lethargy mistaken for calm temperament</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct! The 'good baby' appearance is actually a red flag — low body temperature, slow heart rate, and hypotonia from thyroid hormone deficiency produce lethargy that mimics a calm, easy baby.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Residual maternal thyroid hormones keep the baby comfortable and pain-free</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Maternal thyroid hormones do offer some early protection, but by the time clinical signs appear, that protection is waning. The quiet behaviour reflects the infant's own hypothyroid state, not maternal hormone comfort.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Hypothyroid infants preferentially sleep to conserve energy for brain myelination</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Brain myelination is actually impaired by thyroid hormone deficiency. The excessive sleeping is not a compensatory mechanism but a sign of metabolic depression from inadequate thyroid hormone.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The deceptively calm behaviour in congenital hypothyroidism results from generalised metabolic sluggishness. These babies are lethargic, not content. Low body temperature, bradycardia, and hypotonia accompany this presentation."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. Recognising that a 'good baby' presentation can mask congenital hypothyroidism is key to early diagnosis — every week of delayed treatment risks irreversible neurodevelopmental harm."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This is actually false. What appears to be a calm, easy baby is a classic clinical trap. The excessive sleepiness and placidity reflect sluggish metabolism from low thyroid hormone, not normal temperament. Always consider hypothyroidism when a neonate seems unusually quiet and placid.",
-                "correctAnswerMessage": "Correct — this is false. The 'good baby' appearance is deceptive. Excessive sleepiness and placidity actually reflect metabolic sluggishness from thyroid hormone deficiency, not a calm temperament. This is a well-known clinical trap in congenital hypothyroidism.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "af71d012-6331-412f-a2b9-432aea5e32d3",
+            "subContentId": "32b3421f-1e20-45e9-8a0a-da58a407c372",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
               "title": "A neonate with congenital hypothyroidism",
               "authors": [],
@@ -119,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 344.72499999999997,
-            "to": 354.72499999999997
+            "from": 370.32237499999997,
+            "to": 380.32237499999997
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In Type 1 diabetes, what is the mechanism that causes polyuria (excessive urinat</p>",
+          "label": "<p>Which clinical finding most reliably suggests Type 2 rather than Type 1 diabetes</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In Type 1 diabetes, what is the mechanism that causes polyuria (excessive urination) in children?</p>",
+              "question": "<p>Which clinical finding most reliably suggests Type 2 rather than Type 1 diabetes in a paediatric patient?</p>",
               "answers": [
                 {
-                  "text": "<div>Insulin resistance in the renal tubules reduces water reabsorption</div>",
+                  "text": "<div>Polyuria and polydipsia lasting several weeks</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Type 1 diabetes is characterised by absolute insulin deficiency, not insulin resistance. The polyuria results from glucose in the tubular fluid causing osmotic water loss, not direct tubular insulin action.</div>",
+                    "chosenFeedback": "<div>Incorrect. Polyuria and polydipsia occur in both Type 1 and Type 2 diabetes due to osmotic diuresis from hyperglycaemia. They do not distinguish between the two types.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Glucose exceeding the renal threshold of approximately 180 mg/dL spills into urine and draws water by osmotic diuresis</div>",
+                  "text": "<div>A random blood glucose above 200 mg/dL</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Marked hyperglycaemia occurs in both types and does not differentiate them. The clinical context and associated features are what help distinguish one from the other.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Acanthosis nigricans in an obese adolescent with a family history of diabetes</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! When blood glucose exceeds the kidney's reabsorption capacity (~180 mg/dL), glucose enters the urine and osmotically pulls water along, producing the large-volume dilute urine characteristic of uncontrolled diabetes.</div>",
+                    "chosenFeedback": "<div>Correct! Acanthosis nigricans — velvety darkening at the neck and axillae — signals insulin resistance. Its combination with obesity and a positive family history strongly points to Type 2 diabetes.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Ketone bodies directly stimulate the bladder to increase urine output</div>",
+                  "text": "<div>Presence of ketone bodies in the urine</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While ketonuria occurs in DKA, polyuria is primarily driven by glycosuria and osmotic diuresis, not by direct bladder stimulation from ketones.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Autoimmune inflammation of the kidneys increases glomerular filtration rate</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The autoimmune process in Type 1 diabetes targets pancreatic beta cells, not the kidneys. Polyuria results from osmotic diuresis due to glycosuria, not from renal inflammation.</div>",
+                    "chosenFeedback": "<div>Incorrect. While significant ketonuria is more characteristic of Type 1, it can occasionally occur in Type 2 as well. Acanthosis nigricans with obesity and family history is a far more reliable distinguishing feature.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key mechanism is osmotic diuresis: blood glucose above ~180 mg/dL exceeds the renal threshold, glucose spills into urine, and water follows osmotically — causing the polyuria that initiates the symptom cascade."
+                  "feedback": "Type 2 diabetes in children is characterised by obesity, acanthosis nigricans (a marker of insulin resistance), positive family history, and gradual onset. In Indian children, watch also for the thin-fat phenotype, where body fat is disproportionately high despite normal weight."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Understanding this osmotic diuresis pathway explains the entire triad: glucose pulls water (polyuria), fluid loss drives thirst (polydipsia), and lack of insulin causes fat and protein catabolism (weight loss)."
+                  "feedback": "Correct. Type 2 diabetes in children typically presents in overweight or obese adolescents with signs of insulin resistance, a strong family history, and gradual onset — very different from the acute ketosis-prone presentation of Type 1."
                 }
               ],
               "behaviour": {
@@ -209,11 +261,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f6a7b2fb-ae0c-4d0a-8394-9f5bbe1f1542",
+            "subContentId": "ffd733ba-3d46-4aa3-84c8-ee03bbebc4af",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In Type 1 diabetes, what is the mechanis",
+              "title": "Which clinical finding most reliably sug",
               "authors": [],
               "changes": []
             }
@@ -229,13 +281,13 @@
         },
         {
           "duration": {
-            "from": 469.15,
-            "to": 479.15
+            "from": 507.72574999999995,
+            "to": 517.72575
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In a neonate with ambiguous genitalia who develops vomiting, lethargy, and dehyd</p>",
+          "label": "<p>A newborn with ambiguous genitalia develops poor feeding, vomiting, and progress</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In a neonate with ambiguous genitalia who develops vomiting, lethargy, and dehydration between day 5 and day 15 of life, what is the underlying cause of the electrolyte disturbance (low sodium, high potassium)?</p>",
+              "question": "<p>A newborn with ambiguous genitalia develops poor feeding, vomiting, and progressive dehydration on day 10 of life. Serum electrolytes show hyponatraemia and hyperkalaemia. What is the most likely diagnosis?</p>",
               "answers": [
                 {
-                  "text": "<div>Excess cortisol production causing inappropriate sodium excretion</div>",
+                  "text": "<div>Neonatal sepsis with adrenal haemorrhage</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. In 21-hydroxylase deficiency, cortisol production is deficient, not excessive. The enzyme block reduces synthesis of both cortisol and aldosterone.</div>",
+                    "chosenFeedback": "<div>Incorrect. Adrenal haemorrhage from sepsis can cause adrenal insufficiency, but the combination of ambiguous genitalia with a salt-wasting electrolyte pattern specifically between days 5 and 15 points to congenital adrenal hyperplasia.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Aldosterone deficiency from 21-hydroxylase deficiency impairing renal sodium conservation</div>",
+                  "text": "<div>Congenital hypothyroidism with feeding difficulty</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Congenital hypothyroidism causes poor feeding and lethargy, but it does not produce the hyponatraemia–hyperkalaemia pattern seen here. That electrolyte combination indicates mineralocorticoid deficiency.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Congenital adrenal hyperplasia due to 21-hydroxylase deficiency</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! The 21-hydroxylase block prevents aldosterone synthesis. Without aldosterone, the kidneys waste sodium and retain potassium, producing the characteristic hyponatraemia and hyperkalaemia of the salt-wasting crisis.</div>",
+                    "chosenFeedback": "<div>Correct! Classic 21-hydroxylase deficiency causes both virilisation (ambiguous genitalia) and aldosterone deficiency. The salt-wasting crisis typically strikes between days 5 and 15, presenting with hyponatraemia, hyperkalaemia, and dehydration.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Excess androgen production directly inhibiting renal sodium channels</div>",
+                  "text": "<div>Pyloric stenosis with secondary electrolyte disturbance</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While 21-hydroxylase deficiency does cause androgen excess (leading to virilisation), androgens do not directly inhibit renal sodium channels. The salt wasting is specifically due to aldosterone deficiency.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Growth hormone deficiency reducing renal perfusion pressure</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Growth hormone is not involved in this crisis. The problem is specific to adrenal steroid biosynthesis — the 21-hydroxylase enzyme block prevents aldosterone production, causing renal sodium loss.</div>",
+                    "chosenFeedback": "<div>Incorrect. Pyloric stenosis causes projectile vomiting with hypochloraemic metabolic alkalosis (low potassium, high bicarbonate), not the hyperkalaemic pattern seen here. It also does not cause ambiguous genitalia.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In 21-hydroxylase deficiency, the enzyme block prevents aldosterone synthesis. Without aldosterone, the kidneys cannot conserve sodium or excrete potassium, leading to the dangerous hyponatraemia and hyperkalaemia of the salt-wasting crisis."
+                  "feedback": "When a neonate with ambiguous genitalia develops vomiting, dehydration, hyponatraemia, and hyperkalaemia between days 5 and 15 of life, the diagnosis is a salt-wasting crisis from 21-hydroxylase deficiency until proven otherwise. This requires emergency IV hydrocortisone and normal saline."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. The 21-hydroxylase block prevents both cortisol and aldosterone synthesis. It is the aldosterone deficiency that causes the life-threatening salt-wasting crisis — requiring immediate IV hydrocortisone and saline."
+                  "feedback": "Well done. A neonate with ambiguous genitalia who becomes unwell in the first two weeks must be treated as a salt-wasting crisis until proven otherwise — immediate IV hydrocortisone and saline can be life-saving."
                 }
               ],
               "behaviour": {
@@ -319,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ea19ef35-4981-4fd8-9ff5-9ac44390a737",
+            "subContentId": "33c52f40-77d7-4d87-8e68-058b530fd9c3",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In a neonate with ambiguous genitalia wh",
+              "title": "A newborn with ambiguous genitalia devel",
               "authors": [],
               "changes": []
             }
@@ -339,13 +391,13 @@
         },
         {
           "duration": {
-            "from": 596.275,
-            "to": 606.275
+            "from": 646.2347083333333,
+            "to": 656.2347083333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which feature best distinguishes central precocious puberty from peripheral prec</p>",
+          "label": "<p>A 7-year-old boy presents with bilateral testicular enlargement, pubic hair, and</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +406,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Which feature best distinguishes central precocious puberty from peripheral precocious puberty in girls?</p>",
+              "question": "<p>A 7-year-old boy presents with bilateral testicular enlargement, pubic hair, and deepening of voice. What is the single most important investigation to perform?</p>",
               "answers": [
                 {
-                  "text": "<div>Central precocious puberty follows the normal sequence: breast development, then pubic hair, then menarche</div>",
+                  "text": "<div>Serum testosterone and LH/FSH levels to confirm pubertal activation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. While hormonal confirmation is useful, brain MRI takes priority in boys because a central nervous system lesion is found in approximately half of all cases of male precocious puberty.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Bone age X-ray to assess skeletal maturation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Incorrect. Bone age assessment documents advanced skeletal maturation but does not identify the potentially dangerous intracranial causes that are common in boys with precocious puberty.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Brain MRI to rule out a central nervous system lesion</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! Central precocious puberty activates the entire hypothalamic-pituitary-gonadal axis prematurely, so pubertal changes follow the normal physiological order — just earlier than expected.</div>",
+                    "chosenFeedback": "<div>Correct! Boys with precocious puberty always need a brain MRI. Unlike girls, where central precocious puberty is often idiopathic, boys have an identifiable CNS cause — such as a hypothalamic tumour — in about 50% of cases.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Central precocious puberty presents with vaginal bleeding before any breast development</div>",
+                  "text": "<div>Thyroid function tests to exclude a secondary endocrine disorder</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Vaginal bleeding without prior breast development suggests peripheral precocious puberty, where oestrogen exposure occurs independently of the central axis, breaking the normal developmental sequence.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Central precocious puberty is associated with café-au-lait spots and bone abnormalities</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Café-au-lait spots with bone abnormalities and early puberty describe McCune-Albright syndrome, which causes peripheral precocious puberty through autonomous ovarian activation.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Central precocious puberty does not advance bone age</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Both central and peripheral precocious puberty can advance bone age due to sex steroid exposure. Bone age advancement alone does not distinguish the two forms.</div>",
+                    "chosenFeedback": "<div>Incorrect. Severe longstanding hypothyroidism can rarely cause precocious puberty, but this is an uncommon scenario. The immediate priority in a boy with precocious puberty is brain MRI because about half of cases have an identifiable central cause.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key distinction is the sequence. Central precocious puberty follows the normal order (breast → pubic hair → periods) because the entire HPG axis activates. Peripheral forms break this order — for example, vaginal bleeding before breast development."
+                  "feedback": "In boys with precocious puberty, brain MRI is always required because a central nervous system cause is identified in approximately half of cases. This contrasts with girls, where central precocious puberty is more often idiopathic."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Central precocious puberty preserves the normal order (thelarche → pubarche → menarche) because the entire HPG axis is activated prematurely. Peripheral forms bypass this axis and disrupt the sequence."
+                  "feedback": "Correct. The high rate of identifiable CNS pathology in boys with precocious puberty makes brain MRI a non-negotiable investigation — missing a hypothalamic or pineal lesion can have grave consequences."
                 }
               ],
               "behaviour": {
@@ -429,11 +481,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "20b5f304-6992-4726-b057-93c9a49e79e5",
+            "subContentId": "897a6f28-f6dc-4d7b-b9a2-ca0f3ff1b339",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Which feature best distinguishes central",
+              "title": "A 7-year-old boy presents with bilateral",
               "authors": [],
               "changes": []
             }
@@ -449,101 +501,49 @@
         },
         {
           "duration": {
-            "from": 700.775,
-            "to": 710.775
+            "from": 762.8572499999999,
+            "to": 772.8572499999999
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 10-year-old boy's father is 170 cm tall and his mother is 156 cm tall. Using t</p>",
+          "label": "<p>When calculating mid-parental height for a girl, the formula is (father's height</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "Multiple Choice",
+          "libraryTitle": "True/False Question",
           "action": {
-            "library": "H5P.MultiChoice 1.16",
+            "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A 10-year-old boy's father is 170 cm tall and his mother is 156 cm tall. Using the mid-parental height formula, what is this boy's genetic height target?</p>",
-              "answers": [
-                {
-                  "text": "<div>163.0 cm</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. This result comes from simply averaging the parents' heights without the sex correction factor. For boys, you must add 13 cm before dividing: (170 + 156 + 13) ÷ 2 = 169.5 cm.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>169.5 cm</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct! For boys: (father's height + mother's height + 13) ÷ 2 = (170 + 156 + 13) ÷ 2 = 169.5 cm. The target range is this value ± 8.5 cm, i.e. 161–178 cm.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>156.5 cm</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. This uses the formula for girls, where 13 is subtracted: (170 + 156 − 13) ÷ 2 = 156.5 cm. For boys, you add 13 to the sum of parental heights before dividing.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>176.0 cm</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. This likely comes from adding 13 to the father's height alone without proper averaging. The correct formula averages both parents' heights after adding the correction: (170 + 156 + 13) ÷ 2 = 169.5 cm.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "For boys: (father's height + mother's height + 13) ÷ 2. For girls: subtract 13 instead. Here: (170 + 156 + 13) ÷ 2 = 169.5 cm. The target range is ± 8.5 cm around this value."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Well calculated. The mid-parental height gives a genetic target; the ± 8.5 cm range helps decide whether a child's height deviation warrants further investigation with bone age and growth velocity."
-                }
-              ],
+              "question": "<p>When calculating mid-parental height for a girl, the formula is (father's height + mother's height + 13) divided by 2.</p>",
+              "correct": "false",
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
+                "autoCheck": false
               },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
+              "l10n": {
+                "trueText": "True",
+                "falseText": "False",
+                "score": "You got @score of @total points",
+                "checkAnswer": "Check",
+                "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
+                "tryAgain": "Retry",
+                "wrongAnswerMessage": "Actually, for girls you subtract 13 centimetres: (father's height + mother's height − 13) ÷ 2. The +13 version is for boys. Mixing these up shifts the predicted target by a full 13 cm — enough to miss genuine short stature or trigger a needless workup.",
+                "correctAnswerMessage": "Right! For girls, the formula subtracts 13 centimetres: (father's height + mother's height − 13) ÷ 2. The +13 version is for boys. The target range is this figure ± 8.5 cm. Mixing them up shifts the genetic target by 13 cm, which could lead to unnecessary investigation or false reassurance.",
+                "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "bdba01f3-fee3-49f9-91b7-660a3bec1010",
+            "subContentId": "9c611f6f-ac9a-4380-9e2d-d882df8a76f9",
             "metadata": {
-              "contentType": "Multiple Choice",
+              "contentType": "True/False Question",
               "license": "U",
-              "title": "A 10-year-old boy's father is 170 cm tal",
+              "title": "When calculating mid-parental height for",
               "authors": [],
               "changes": []
             }
@@ -559,13 +559,13 @@
         },
         {
           "duration": {
-            "from": 821.7,
-            "to": 831.7
+            "from": 899.6239166666666,
+            "to": 909.6239166666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A newborn's heel-prick screening shows a TSH of 28 mU/L, confirmed on serum samp</p>",
+          "label": "<p>A newborn's heel-prick screening returns a TSH of 30 mU/L, confirmed on serum te</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -574,41 +574,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A newborn's heel-prick screening shows a TSH of 28 mU/L, confirmed on serum sampling. The paediatrician wants to obtain a thyroid scan before initiating treatment. What is the correct approach?</p>",
+              "question": "<p>A newborn's heel-prick screening returns a TSH of 30 mU/L, confirmed on serum testing. What is the correct next step?</p>",
               "answers": [
                 {
-                  "text": "<div>Wait for the thyroid scan results to guide the choice of medication</div>",
+                  "text": "<div>Obtain a thyroid ultrasound to determine the cause before starting treatment</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Delaying treatment to image the gland risks irreversible brain damage. The scan tells you why the gland failed (dysgenesis vs dyshormonogenesis) but does not change the urgency of starting thyroid hormone replacement.</div>",
+                    "chosenFeedback": "<div>Incorrect. Imaging tells you why the gland failed (dysgenesis, ectopia, dyshormonogenesis), but it does not change the urgency of treatment. Every day without levothyroxine risks irreversible neurodevelopmental damage.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Start levothyroxine immediately; thyroid imaging can be arranged later</div>",
+                  "text": "<div>Start levothyroxine at 10–15 micrograms/kg/day the same day, and arrange imaging later</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct! Treatment must begin the same day the elevated TSH is confirmed. Imaging only identifies the cause of hypothyroidism — it does not alter the immediate need for thyroid hormone to protect the developing brain.</div>",
+                    "chosenFeedback": "<div>Correct! The rule is 'treat first, image later.' Newborns receive a higher dose per kilogram (10–15 µg/kg/day) than older children because brain myelination demands peak in the first three years of life.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Start a low dose of levothyroxine and increase only after the scan confirms the aetiology</div>",
+                  "text": "<div>Repeat the screening test in two weeks to confirm persistence before treating</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Newborns require a high dose of 10–15 μg/kg/day from the start because brain myelination demands are at their peak in early infancy. A cautious low-dose approach risks inadequate neuroprotection.</div>",
+                    "chosenFeedback": "<div>Incorrect. Once the elevated screening TSH is confirmed on a serum sample, treatment must begin immediately. Waiting two more weeks allows further neurodevelopmental harm during the critical window for brain growth.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Repeat the TSH in two weeks to confirm persistence before starting treatment</div>",
+                  "text": "<div>Start levothyroxine at 2–3 micrograms/kg/day and titrate up slowly</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Waiting two weeks wastes the critical window for brain development. Once a screening TSH is elevated and confirmed on serum, treatment starts that same day — every day of delay matters.</div>",
+                    "chosenFeedback": "<div>Incorrect. A dose of 2–3 µg/kg/day is far too low for a neonate. Newborns need 10–15 µg/kg/day because the brain's demand for thyroid hormone during myelination is at its peak. Under-dosing risks incomplete neurodevelopmental rescue.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -617,12 +617,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The rule is simple: treat before imaging. A confirmed elevated TSH means levothyroxine starts that same day at full neonatal dose (10–15 μg/kg/day). Imaging only explains why the gland failed — it must never delay treatment."
+                  "feedback": "The key principle is 'treat first, image later.' Once screening TSH is confirmed on serum, start levothyroxine at 10–15 µg/kg/day the same day. Imaging classifies the cause but must never delay treatment — brain myelination cannot wait."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly right. 'Treat first, image later' is the cardinal rule. Every day without thyroid hormone during early infancy is a day of potentially irreversible neurological compromise."
+                  "feedback": "Exactly right. Immediate high-dose levothyroxine on the day of confirmatory serum results is the standard of care. Imaging is for classification, not for deciding whether to treat."
                 }
               ],
               "behaviour": {
@@ -649,11 +649,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "be38a0dc-1ab2-430d-a785-8d89bd22b198",
+            "subContentId": "7b7c3741-ae32-43d7-b91d-e3e9578977b5",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A newborn's heel-prick screening shows a",
+              "title": "A newborn's heel-prick screening returns",
               "authors": [],
               "changes": []
             }
@@ -678,33 +678,33 @@
           "label": "A six-week-old baby comes in for a routine vaccination, a…"
         },
         {
-          "time": 104,
+          "time": 106,
           "label": "In children, hypothyroidism looks completely different de…"
         },
         {
-          "time": 219,
+          "time": 231,
           "label": "Type 1 diabetes in children classically presents with thr…"
         },
         {
-          "time": 345,
+          "time": 371,
           "label": "Ambiguous genitalia means the external genitals cannot be…"
         },
         {
-          "time": 470,
+          "time": 508,
           "label": "Recognising abnormal pubertal timing starts with knowing…"
         },
         {
-          "time": 597,
+          "time": 647,
           "label": "Let us walk through how you'd actually work up a child wi…"
         },
         {
-          "time": 701,
+          "time": 763,
           "label": "Let's walk through the two decisions that trip people up…"
         }
       ],
       "endscreens": [
         {
-          "time": 867,
+          "time": 944,
           "label": "End"
         }
       ]
@@ -716,7 +716,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "325b3266-60e9-4da0-b2b5-fea06ee016b6",
+              "subContentId": "17173485-d5df-4049-aaee-f07af21ebf4e",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -739,7 +739,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "f062924b-68eb-4825-b9f2-4ed87bf3bd56",
+        "subContentId": "d62a26e3-7cc0-499d-8925-6f1891c5e2c4",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
