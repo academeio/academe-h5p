@@ -1065,9 +1065,10 @@ H5P.VideoHtml5 = (function ($) {
   var PREFERRED_FORMAT = 'mp4';
 
   /** @constant {Object} */
-  // 0.75 added by Academe (27-09-2026): Hindi and Tamil tracks are fitted to the English timing and run up to ~1.7x;
-  // learners can slow any language. Speeds apply to the one <video> element, so every audio track follows.
-  var PLAYBACK_RATES = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 2];
+  // Academe: Hindi and Tamil tracks are fitted to the English timing and run up to ~1.7x, and Tamil runs long,
+  // so learners can slow any language. 0.75 added 27-09-2026; 0.1 (-90%) and 0.05 (-95%) added and 0.25 and 0.5
+  // removed 05-10-2026 to keep the menu short. Speeds apply to the one <video> element, so every audio track follows.
+  var PLAYBACK_RATES = [0.05, 0.1, 0.75, 1, 1.25, 1.5, 2];
 
   if (navigator.userAgent.indexOf('Android') !== -1) {
     // We have Android, check version.
