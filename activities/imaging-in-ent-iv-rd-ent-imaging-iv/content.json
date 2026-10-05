@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/5b434d6c-b504-4ac4-b7dc-7d8219628341/playlist.m3u8",
+          "path": "https://vdo.cbme.in/01bb6417-22b1-40ce-bcc1-5bbd556d7d5a/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 78.175,
-            "to": 88.175
+            "from": 81.69579166666666,
+            "to": 91.69579166666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Every child presenting with acute suppurative otitis media should receive a CT s</p>",
+          "label": "<p>Every child presenting with acute suppurative otitis media should undergo HRCT o</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,7 +76,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Every child presenting with acute suppurative otitis media should receive a CT scan of the temporal bone to rule out mastoiditis.</p>",
+              "question": "<p>Every child presenting with acute suppurative otitis media should undergo HRCT of the temporal bone to exclude complications.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -94,12 +94,12 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "ASOM is diagnosed clinically and treated with antibiotics. Routine CT is unjustified because it adds radiation without changing the plan. Imaging is warranted only when red flags (post-auricular swelling, facial droop, vertigo, altered consciousness) suggest complications beyond the middle-ear cleft.",
-                "correctAnswerMessage": "Exactly right. Uncomplicated ASOM is a clinical diagnosis treated with antibiotics. CT adds radiation without changing management. Imaging is reserved for red flags — post-auricular swelling, facial palsy, vertigo, or altered consciousness — indicating infection has spread beyond the middle-ear cleft.",
+                "wrongAnswerMessage": "ASOM is a clinical diagnosis. Routine imaging exposes children to unnecessary radiation. HRCT and MRI are reserved for red flags — post-auricular swelling, facial nerve palsy, vertigo, or altered consciousness — which suggest the infection has spread beyond the middle-ear cleft.",
+                "correctAnswerMessage": "Correct. ASOM is a clinical diagnosis — earache, fever, and a bulging eardrum warrant antibiotics, not a CT scan. Imaging only adds unjustified radiation unless red flags such as post-auricular swelling, facial palsy, vertigo, or altered consciousness suggest the infection has escaped the middle-ear cleft.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "c41246b3-3b9b-41e7-a1f2-17068427f6cc",
+            "subContentId": "24dac921-c705-48ee-aad8-2d77005a710e",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
@@ -119,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 192.42499999999998,
-            "to": 202.42499999999998
+            "from": 207.99891666666667,
+            "to": 217.99891666666667
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient who underwent mastoid surgery for cholesteatoma two years ago requires</p>",
+          "label": "<p>A patient with CSOM has undergone mastoid surgery for cholesteatoma. On follow-u</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,23 +134,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient who underwent mastoid surgery for cholesteatoma two years ago requires surveillance imaging to detect possible recurrence. Which modality is most appropriate?</p>",
+              "question": "<p>A patient with CSOM has undergone mastoid surgery for cholesteatoma. On follow-up, the surgeon suspects recurrence. Which imaging modality best distinguishes recurrent cholesteatoma from post-operative granulation tissue?</p>",
               "answers": [
                 {
-                  "text": "<div>Plain mastoid radiograph (Schüller view)</div>",
+                  "text": "<div>High-resolution CT of the temporal bone</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Plain mastoid radiographs are obsolete. They cannot resolve the scutum, ossicles, or fine canal structures required for post-operative assessment.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>HRCT of the temporal bone</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>HRCT maps bone detail exquisitely but cannot distinguish cholesteatoma from granulation tissue or fluid — all appear as identical soft-tissue opacity.</div>",
+                    "chosenFeedback": "<div>HRCT maps bone with exquisite clarity but cannot distinguish one soft tissue from another — cholesteatoma, granulation, and pus all appear identical on the bone window.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -159,16 +150,25 @@
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Non-EPI DWI detects cholesteatoma because its packed keratin restricts water diffusion, appearing bright on DWI. Granulation tissue does not restrict. This is the modality of choice for detecting recurrence without re-opening the ear.</div>",
+                    "chosenFeedback": "<div>Correct. Cholesteatoma's packed keratin restricts water diffusion, appearing bright on DWI. Granulation tissue does not restrict diffusion, allowing reliable distinction without re-opening the ear.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Contrast-enhanced CT of the temporal bone</div>",
+                  "text": "<div>Plain mastoid radiograph (Schüller view)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Contrast-enhanced CT slightly improves soft-tissue visualisation but still cannot reliably distinguish cholesteatoma from granulation tissue.</div>",
+                    "chosenFeedback": "<div>Plain mastoid radiographs are now obsolete. They cannot resolve the scutum, ossicles, or critical canals needed for modern surgical decisions.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Gadolinium-enhanced T1-weighted MRI of the internal auditory meatus</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Gadolinium-enhanced MRI of the IAM is used to screen for vestibular schwannoma in sensorineural hearing loss, not to evaluate post-mastoidectomy cholesteatoma recurrence.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "HRCT is the workhorse for bone anatomy, but it cannot differentiate soft tissues. Non-echo-planar DWI-MRI detects cholesteatoma recurrence by exploiting its diffusion restriction, without re-opening the ear."
+                  "feedback": "HRCT shows bone detail but all soft tissue looks the same. Non-echo-planar DWI-MRI resolves this: cholesteatoma restricts water diffusion and appears bright; granulation tissue does not."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Non-EPI DWI-MRI is the modality of choice for post-surgical cholesteatoma surveillance — cholesteatoma restricts diffusion and appears bright, while granulation tissue does not."
+                  "feedback": "Non-echo-planar DWI-MRI is the key modality — cholesteatoma restricts diffusion (bright on DWI), granulation tissue does not."
                 }
               ],
               "behaviour": {
@@ -209,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "105d6233-49a0-4280-a2c6-fd39978310a1",
+            "subContentId": "e68b6979-81fd-46d8-908b-408bb844f0e9",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient who underwent mastoid surgery",
+              "title": "A patient with CSOM has undergone mastoi",
               "authors": [],
               "changes": []
             }
@@ -229,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 399.7,
-            "to": 409.7
+            "from": 443.259625,
+            "to": 453.259625
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A temporal bone CT in a patient with cholesteatomatous CSOM reveals erosion of t</p>",
+          "label": "<p>HRCT of a patient with cholesteatoma reveals erosion of the tegmen tympani, and </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A temporal bone CT in a patient with cholesteatomatous CSOM reveals erosion of the tegmen tympani with a small epidural collection. What is the most immediate clinical implication?</p>",
+              "question": "<p>HRCT of a patient with cholesteatoma reveals erosion of the tegmen tympani, and contrast MRI shows a filling defect in the sigmoid sinus. What is the most important immediate change in management?</p>",
               "answers": [
                 {
-                  "text": "<div>The patient should be scheduled for elective canal-wall-up mastoidectomy</div>",
+                  "text": "<div>Schedule an elective canal-wall-up mastoidectomy</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Canal-wall-up mastoidectomy is considered for limited cholesteatoma with an intact posterior canal wall. Tegmen erosion with intracranial extension demands far more urgent intervention.</div>",
+                    "chosenFeedback": "<div>Canal-wall-up mastoidectomy is appropriate for limited cholesteatoma with an intact posterior canal wall — not when tegmen erosion and sigmoid sinus thrombosis indicate intracranial spread.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The case converts from elective to a surgical emergency requiring neurosurgical backup</div>",
+                  "text": "<div>Arrange serial MRI surveillance every six months</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Serial MRI surveillance is the approach for small vestibular schwannomas confined to the internal auditory canal. Active intracranial complication from CSOM requires urgent intervention, not watchful waiting.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Convert to an emergency procedure with neurosurgical backup and consider anticoagulation</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Tegmen erosion with an intracranial collection is life-threatening. The timeline compresses, neurosurgical backup enters the plan, and the case becomes an emergency.</div>",
+                    "chosenFeedback": "<div>Correct. Tegmen erosion signals intracranial spread and a sigmoid sinus filling defect confirms venous thrombosis. The entire plan compresses: the case becomes a surgical emergency, neurosurgical backup is called, and anticoagulation joins the management.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>A repeat scan should be obtained in 6 weeks to assess progression</div>",
+                  "text": "<div>Obtain a non-echo-planar DWI-MRI to confirm the cholesteatoma before any intervention</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Delaying when intracranial spread is demonstrated risks meningitis, brain abscess, or death. Interval scanning is inappropriate here.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Medical management with intravenous antibiotics alone should be trialled first</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>An established intracranial collection from cholesteatoma requires surgical evacuation. Antibiotics alone are insufficient when there is frank intracranial extension.</div>",
+                    "chosenFeedback": "<div>While DWI-MRI can confirm cholesteatoma, the critical finding here is intracranial complication — tegmen erosion and sinus thrombosis demand immediate action, not further diagnostic workup.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "When imaging shows tegmen erosion or an intracranial collection, the case is no longer elective. The timeline compresses, neurosurgical backup is required, and urgent surgical intervention is mandatory."
+                  "feedback": "When HRCT shows tegmen erosion and MRI confirms sigmoid sinus thrombosis, the infection has reached intracranial structures. This converts an elective cholesteatoma operation to a surgical emergency requiring neurosurgical backup and consideration of anticoagulation."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Tegmen erosion with intracranial extension converts an elective case to a surgical emergency — the finding directly changes the decision, timeline, and team involved."
+                  "feedback": "Tegmen erosion plus sigmoid sinus thrombosis converts an elective case to a surgical emergency with neurosurgical backup and anticoagulation."
                 }
               ],
               "behaviour": {
@@ -319,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "90d89494-b29a-4469-bc2c-26132ea06a39",
+            "subContentId": "0db43bb3-fbc2-4a54-aea9-b44c480a16d3",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A temporal bone CT in a patient with cho",
+              "title": "HRCT of a patient with cholesteatoma rev",
               "authors": [],
               "changes": []
             }
@@ -339,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 560.9499999999999,
-            "to": 570.9499999999999
+            "from": 618.4655,
+            "to": 628.4655
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>On gadolinium-enhanced MRI, an avidly enhancing mass centred on the internal aud</p>",
+          "label": "<p>A 3-year-old child with congenital profound sensorineural hearing loss is evalua</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>On gadolinium-enhanced MRI, an avidly enhancing mass centred on the internal auditory meatus extends into the cerebellopontine angle with an 'ice-cream cone' shape. Which feature most reliably distinguishes this lesion from a meningioma in the same region?</p>",
+              "question": "<p>A 3-year-old child with congenital profound sensorineural hearing loss is evaluated for cochlear implantation. Heavily T2-weighted MRI shows an absent nerve in the anteroinferior quadrant of the internal auditory meatus. What does this finding mean for implant candidacy?</p>",
               "answers": [
                 {
-                  "text": "<div>The schwannoma shows a dural tail sign</div>",
+                  "text": "<div>The finding is a normal anatomical variant and cochlear implantation can proceed</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The dural tail sign is associated with meningioma, not schwannoma. It represents thickened enhancing dura adjacent to the tumour.</div>",
+                    "chosenFeedback": "<div>An absent cochlear nerve is not a normal variant — it is aplasia, the single most important contraindication to cochlear implantation.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The schwannoma does not enhance after gadolinium administration</div>",
+                  "text": "<div>Cochlear implantation can proceed because the implant stimulates the cochlea directly, bypassing the nerve</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Vestibular schwannoma enhances avidly on gadolinium MRI. A non-enhancing CPA lesion would suggest an epidermoid cyst instead.</div>",
+                    "chosenFeedback": "<div>A cochlear implant converts sound into electrical signals delivered to the cochlear nerve. Without the nerve, there is no neural pathway to carry those signals to the brainstem — the implant cannot function.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The meningioma restricts on diffusion-weighted imaging</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Meningioma does not characteristically restrict on DWI. Diffusion restriction in the CPA is a feature of epidermoid cysts, not meningiomas.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The meningioma is centred on the dura rather than the internal auditory meatus</div>",
+                  "text": "<div>Cochlear implantation is ruled out because the implant requires an intact cochlear nerve to transmit signals to the brainstem</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Both schwannoma and meningioma enhance avidly. The distinguishing feature is location: schwannoma is centred on the IAM (ice-cream cone), while meningioma is centred on the dura of the posterior fossa.</div>",
+                    "chosenFeedback": "<div>Correct. The cochlear nerve carries electrical signals from the implant to the brainstem. Its absence means the implant has no neural pathway to stimulate, making cochlear implantation futile.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The child needs HRCT of the temporal bone before any decision can be made about implantation</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While HRCT may be added to assess cochlear lumen patency, the T2W MRI finding of cochlear nerve aplasia is itself definitive — it rules out cochlear implantation regardless of what HRCT shows.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Both vestibular schwannoma and meningioma enhance on gadolinium MRI. The distinguishing feature is the centre of the mass: schwannoma arises from the IAM (forming the ice-cream cone), while meningioma is based on the dura of the posterior fossa."
+                  "feedback": "An absent cochlear nerve on heavily T2-weighted MRI means the implant has no nerve to stimulate. This single finding rules out cochlear implantation entirely."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Location is the key discriminator: vestibular schwannoma is centred on the IAM while meningioma is dural-based — both enhance avidly on gadolinium MRI, so enhancement alone does not distinguish them."
+                  "feedback": "Cochlear nerve aplasia on T2W MRI is the single finding that closes the door on cochlear implantation — the implant needs an intact nerve to function."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "142b0e4c-7c0e-47b8-bee0-2327ec7f821f",
+            "subContentId": "fd659ba1-0040-47d7-8cd4-29b430eab698",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "On gadolinium-enhanced MRI, an avidly en",
+              "title": "A 3-year-old child with congenital profo",
               "authors": [],
               "changes": []
             }
@@ -449,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 706.75,
-            "to": 716.75
+            "from": 770.2715416666667,
+            "to": 780.2715416666667
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 55-year-old presents with six months of progressive unilateral sensorineural h</p>",
+          "label": "<p>A 55-year-old man presents with six months of progressive right-sided hearing lo</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,32 +464,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 55-year-old presents with six months of progressive unilateral sensorineural hearing loss and poor speech discrimination scores. Which imaging study should be ordered first?</p>",
+              "question": "<p>A 55-year-old man presents with six months of progressive right-sided hearing loss and poor speech discrimination scores. His left ear is normal. Which is the most appropriate first imaging investigation?</p>",
               "answers": [
                 {
-                  "text": "<div>Gadolinium-enhanced MRI of the internal auditory canal</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Progressive unilateral SNHL with poor speech discrimination is a red flag for a retrocochlear lesion. Gadolinium-enhanced MRI of the IAM and cerebellopontine angle is the modality of choice to detect vestibular schwannoma.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>HRCT of the temporal bone</div>",
+                  "text": "<div>High-resolution CT of the temporal bone</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>HRCT is the first investigation for chronic otitis media and bony pathology. For suspected retrocochlear pathology causing SNHL, MRI is the modality of choice because it images soft tissues along the auditory pathway.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Non-contrast CT of the brain</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Non-contrast brain CT has poor sensitivity for small CPA lesions and does not adequately visualise the internal auditory canal. It would miss an early vestibular schwannoma.</div>",
+                    "chosenFeedback": "<div>HRCT excels at imaging bone and is used for CSOM evaluation or congenital bony causes of hearing loss. For progressive unilateral SNHL, the primary concern is a retrocochlear soft-tissue mass — a question CT cannot answer well.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -498,7 +480,25 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Plain mastoid radiographs are obsolete. They cannot resolve the internal auditory canal or CPA and provide no useful information for sensorineural hearing loss evaluation.</div>",
+                    "chosenFeedback": "<div>Plain mastoid radiographs are obsolete. They cannot visualise the internal auditory canal or cerebellopontine angle where a vestibular schwannoma would arise.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Gadolinium-enhanced MRI of the internal auditory canals and cerebellopontine angles</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Unilateral progressive SNHL with poor speech discrimination raises the clinical fear of vestibular schwannoma. Gadolinium-enhanced MRI is the modality of choice — a schwannoma enhances avidly and is centred on the IAM.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Non-echo-planar diffusion-weighted MRI of the temporal bone</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Non-echo-planar DWI-MRI is the sequence used to distinguish cholesteatoma from granulation tissue in CSOM. For suspected retrocochlear pathology, gadolinium-enhanced T1-weighted MRI is the appropriate choice.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Asymmetric or unilateral SNHL is a red flag for a retrocochlear lesion such as vestibular schwannoma. Gadolinium-enhanced MRI is the investigation of choice because it images the soft tissues of the IAM and CPA with high sensitivity."
+                  "feedback": "Progressive unilateral SNHL with poor speech discrimination demands gadolinium-enhanced MRI of the internal auditory canals and cerebellopontine angles. The clinical fear is vestibular schwannoma — a soft-tissue mass that MRI, not CT, can reveal."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Progressive unilateral SNHL with poor speech discrimination warrants gadolinium-enhanced MRI to exclude vestibular schwannoma — the modality matches the tissue question."
+                  "feedback": "Asymmetric or unilateral SNHL with poor discrimination is a red flag for vestibular schwannoma — gadolinium-enhanced MRI of the IAM and CPA is the investigation of choice."
                 }
               ],
               "behaviour": {
@@ -539,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "6588e1a8-d94b-4638-ae13-36940434fffc",
+            "subContentId": "03dc7dfc-3a89-423e-a5c4-46135c1037b2",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 55-year-old presents with six months o",
+              "title": "A 55-year-old man presents with six mont",
               "authors": [],
               "changes": []
             }
@@ -568,37 +568,37 @@
           "label": "A 9-year-old girl arrives in casualty on day 5 of a disch…"
         },
         {
-          "time": 78,
+          "time": 82,
           "label": "Modality choice follows one physical principle."
         },
         {
-          "time": 192,
+          "time": 209,
           "label": "When you read a temporal bone scan, ask two questions."
         },
         {
-          "time": 309,
+          "time": 340,
           "label": "As you saw earlier, the guiding principle is this: image…"
         },
         {
-          "time": 400,
+          "time": 444,
           "label": "You met him in the opening case."
         },
         {
-          "time": 474,
+          "time": 528,
           "label": "Reading temporal bone imaging for sensorineural hearing l…"
         },
         {
-          "time": 561,
+          "time": 619,
           "label": "The scan doesn't just name the diagnosis."
         },
         {
-          "time": 636,
+          "time": 697,
           "label": "Building on the imaging logic from both topics, here are…"
         }
       ],
       "endscreens": [
         {
-          "time": 774,
+          "time": 839,
           "label": "End"
         }
       ]
@@ -610,7 +610,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "382e8d4d-a6ca-467b-bb60-dbdfee770394",
+              "subContentId": "cf571fcd-6376-4eaf-9d0e-3eca4bb245bf",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -633,7 +633,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "b7e25d6d-bf13-4e32-9c4b-dacddc4d4767",
+        "subContentId": "034766cf-0edf-49aa-bd42-d27177c00300",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
