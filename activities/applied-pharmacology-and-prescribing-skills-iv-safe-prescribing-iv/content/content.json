@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/ce4e669b-2662-496a-a73a-25bf303b1dd9/playlist.m3u8",
+          "path": "https://vdo.cbme.in/7fe96300-ae94-4671-9f8e-c7442fd59bad/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 183.525,
-            "to": 193.525
+            "from": 197.022875,
+            "to": 207.022875
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A drug advertisement states its product 'reduces stroke risk by 50%.' On reading</p>",
+          "label": "<p>A promotional brochure claims a new antihypertensive reduces stroke risk by 50%,</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A drug advertisement states its product 'reduces stroke risk by 50%.' On reading the full study, you find the event rate dropped from 1.0% in the control group to 0.5% in the treatment group. Which critical appraisal concept best explains why the headline figure overstates the drug's real-world clinical benefit?</p>",
+              "question": "<p>A promotional brochure claims a new antihypertensive reduces stroke risk by 50%, based on a study comparing the drug against placebo in 200 patients. At which stage of critical appraisal does this claim FIRST reveal a fundamental flaw?</p>",
               "answers": [
                 {
-                  "text": "<div>Publication bias — only positive trial results were published</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Publication bias concerns whether negative trials are suppressed from the literature. The issue here is the discrepancy between the relative risk reduction (50%) and the absolute risk reduction (0.5%), which is a statistical literacy problem, not a publication bias problem.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The absolute risk reduction is only 0.5%, translating to a number needed to treat of 200</div>",
+                  "text": "<div>PICO framing — the comparator should be an existing standard treatment, not placebo</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. The relative risk reduction of 50% sounds dramatic, but converting it to an absolute risk reduction (1.0% − 0.5% = 0.5%) and then to a number needed to treat (1 ÷ 0.005 = 200) reveals that 200 patients must be treated to prevent one stroke — a far more clinically meaningful figure than the headline '50%'.</div>",
+                    "chosenFeedback": "<div>Correct. PICO framing is Stage 1 of critical appraisal. Comparing against placebo rather than the existing standard treatment makes the study irrelevant for deciding whether this drug is better than current therapy — a flaw caught before you even reach the statistics.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The PICO framework was not correctly applied in the study</div>",
+                  "text": "<div>Statistical literacy — a 50% relative risk reduction may hide a tiny absolute benefit</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>A PICO framing issue would involve problems like comparing against placebo instead of the current standard treatment. While that may also apply, the specific distortion highlighted here — a large relative figure masking a tiny absolute benefit — is a statistical literacy issue.</div>",
+                    "chosenFeedback": "<div>Converting relative to absolute risk reduction is important (Stage 3), but the more fundamental flaw is caught earlier at Stage 1: the comparator is placebo, not standard treatment, so the entire comparison is clinically misleading.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The study population is unlikely to be representative of Indian patients</div>",
+                  "text": "<div>Assessing study design — 200 patients is an inadequate sample size</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>External validity (applicability to your patients) is the fourth stage of critical appraisal and is always worth checking. However, the core deception in this claim is statistical: a 50% relative reduction masking a 0.5% absolute reduction.</div>",
+                    "chosenFeedback": "<div>Sample size is a valid concern under Stage 2 (study design and bias), but the claim's fundamental problem — comparing against placebo rather than standard treatment — is identified at Stage 1, PICO framing, before design assessment begins.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Checking conflicts of interest — the manufacturer funded the study</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Checking funding and conflicts of interest (Stage 4) is essential, but it comes after identifying the basic structure. The comparator choice — placebo instead of standard therapy — is a Stage 1 flaw in PICO framing.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key concept here is statistical literacy — stage three of the critical appraisal framework. A 50% relative risk reduction sounds impressive, but the absolute risk reduction is only 0.5% (NNT = 200). Always convert RRR to ARR and NNT before judging a drug's real clinical impact."
+                  "feedback": "Review the four stages of critical appraisal. PICO framing comes first: Patient, Intervention, Comparator, Outcome. Many promotional claims fail right here by comparing against placebo instead of the existing standard of care."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Converting relative risk reduction to absolute risk reduction and number needed to treat is one of the most important statistical literacy skills in critical appraisal. It prevents inflated promotional claims from distorting prescribing decisions."
+                  "feedback": "Well done. PICO framing is always Stage 1 — if the comparator is wrong, nothing downstream can salvage the claim."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "196a2595-5c6a-4572-861c-e6e4ce0aae51",
+            "subContentId": "566db43b-3388-4aac-9831-0423f5efb625",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A drug advertisement states its product",
+              "title": "A promotional brochure claims a new anti",
               "authors": [],
               "changes": []
             }
@@ -171,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 377.35,
-            "to": 387.35
+            "from": 400.6144583333333,
+            "to": 410.6144583333333
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A fixed-dose combination of two drugs is considered rational if it reduces the n</p>",
+          "label": "<p>A fixed-dose combination is considered rational if both drugs are needed by the </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,7 +186,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A fixed-dose combination of two drugs is considered rational if it reduces the number of tablets a patient needs to take, even when one of the included drugs has no proven benefit for the patient's condition.</p>",
+              "question": "<p>A fixed-dose combination is considered rational if both drugs are needed by the same patient at the same time, even when there is no evidence that the combination outperforms giving the drugs separately.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -204,16 +204,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. Convenience alone does not make an FDC rational. All four criteria must hold together: both drugs must be needed by the same patient at the same time, the combination must outperform giving them separately, the fixed ratio must suit most patients, and the cost must be justified. An analgesic combined with a vitamin that has no role in pain relief fails the most fundamental criterion.",
-                "correctAnswerMessage": "Correct — this is false. Reducing pill burden is a convenience benefit, not a pharmacological justification. For an FDC to be rational, both drugs must be individually needed for the same condition, and the combination must demonstrably outperform giving them separately. Paracetamol combined with vitamin B complex is a classic example of an irrational FDC that exists for marketing rather than therapeutic reasons.",
+                "wrongAnswerMessage": "This statement is actually false. Needing both drugs is necessary but not sufficient. Four conditions must hold together — and one of them requires the combination to genuinely outperform giving the drugs separately. Without that evidence, the FDC is irrational, regardless of whether both drugs are individually indicated.",
+                "correctAnswerMessage": "Correct — this statement is false. All four conditions must hold together for a rational FDC. Even if both drugs are indicated, the combination must demonstrably outperform separate administration in efficacy, safety, or adherence. Paracetamol + vitamin B complex fails precisely because there is no evidence the vitamin adds any benefit to pain relief.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "c48892e3-7487-4674-a9cb-8cf1bf98b44a",
+            "subContentId": "ae82e9a7-a8d9-49a4-9cb8-b1c8e4c6ada0",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "A fixed-dose combination of two drugs is",
+              "title": "A fixed-dose combination is considered r",
               "authors": [],
               "changes": []
             }
@@ -229,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 549.525,
-            "to": 559.525
+            "from": 579.8130833333332,
+            "to": 589.8130833333332
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 68-year-old patient with a creatinine clearance of 25 mL/min is prescribed gen</p>",
+          "label": "<p>A 68-year-old patient with chronic kidney disease (eGFR 25 mL/min) is prescribed</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 68-year-old patient with a creatinine clearance of 25 mL/min is prescribed gentamicin for a serious gram-negative infection. Which pharmacokinetic principle most directly explains why this patient requires dose adjustment?</p>",
+              "question": "<p>A 68-year-old patient with chronic kidney disease (eGFR 25 mL/min) is prescribed gentamicin for a serious gram-negative infection. What is the MOST important pharmacokinetic concern?</p>",
               "answers": [
                 {
-                  "text": "<div>Hepatic first-pass metabolism is increased in elderly patients</div>",
+                  "text": "<div>Hepatic first-pass metabolism will be increased, raising gentamicin's bioavailability</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Gentamicin is not significantly metabolised by the liver and does not undergo first-pass metabolism. It is administered parenterally and eliminated almost entirely by the kidneys.</div>",
+                    "chosenFeedback": "<div>Gentamicin is not significantly metabolised by the liver — it is eliminated almost entirely through renal excretion. Hepatic first-pass metabolism is relevant for drugs like propranolol and morphine, not aminoglycosides.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Protein binding is decreased in renal impairment, increasing the volume of distribution</div>",
+                  "text": "<div>Drug accumulation will be gradual and proportional to the drop in GFR</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While protein binding changes can occur in renal impairment, the primary concern with gentamicin is impaired renal clearance. With a GFR this low, the drug accumulates to potentially toxic levels.</div>",
+                    "chosenFeedback": "<div>The narration explicitly states that below critical GFR thresholds, drug concentrations climb disproportionately — not gradually. This non-linear rise is precisely why missed renal adjustments are among the most common and dangerous prescribing errors in hospitals.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Drugs cleared by the kidneys accumulate exponentially below critical GFR thresholds</div>",
+                  "text": "<div>Below critical GFR thresholds, gentamicin concentrations rise disproportionately, demanding dose adjustment and close monitoring</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Gentamicin is cleared almost entirely by the kidneys. Below critical filtration thresholds, plasma concentrations rise exponentially rather than linearly. At a creatinine clearance of 25 mL/min, standard dosing risks nephrotoxicity and ototoxicity — missed renal dose adjustments are among the most common prescribing errors in hospitals.</div>",
+                    "chosenFeedback": "<div>Correct. Gentamicin is renally cleared, and at an eGFR of 25 mL/min the drug accumulates non-linearly. This is why aminoglycosides are high on the list of drugs requiring therapeutic drug monitoring in renal impairment.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Gastric absorption is delayed due to age-related mucosal changes</div>",
+                  "text": "<div>Age-related reduction in plasma protein binding is the primary safety concern</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Gentamicin is given intravenously or intramuscularly, not orally, so gastric absorption changes are irrelevant. The dose adjustment is required because of impaired renal elimination.</div>",
+                    "chosenFeedback": "<div>While elderly patients do have altered protein binding, gentamicin's primary clearance route is renal. With an eGFR of 25 mL/min, the dominant risk is disproportionate drug accumulation due to impaired kidney excretion.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key principle is that drugs cleared by the kidneys, like gentamicin, accumulate exponentially below critical GFR thresholds. With a creatinine clearance of 25 mL/min, standard dosing would lead to dangerously high plasma levels. Always check renal function before prescribing aminoglycosides."
+                  "feedback": "Remember: drugs cleared by the kidneys accumulate non-linearly below critical GFR thresholds. Gentamicin is a classic example requiring dose adjustment and monitoring in renal impairment."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Recognising that renally cleared drugs accumulate exponentially — not linearly — below critical GFR thresholds is essential for safe prescribing of aminoglycosides, vancomycin, digoxin, and similar drugs."
+                  "feedback": "Exactly right. Renal impairment is the single most common cause of drug accumulation errors in hospital practice."
                 }
               ],
               "behaviour": {
@@ -319,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "3e0b614a-5577-4861-8074-ec7eea7d53be",
+            "subContentId": "fccbb334-e2ab-4b95-a9e8-512a446f8b07",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 68-year-old patient with a creatinine",
+              "title": "A 68-year-old patient with chronic kidne",
               "authors": [],
               "changes": []
             }
@@ -339,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 753.275,
-            "to": 763.275
+            "from": 795.5201666666666,
+            "to": 805.5201666666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A breastfeeding mother prescribed codeine for post-operative pain is found to be</p>",
+          "label": "<p>A breastfeeding mother is prescribed codeine for post-caesarean pain. Pharmacoge</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A breastfeeding mother prescribed codeine for post-operative pain is found to be a CYP2D6 ultrarapid metaboliser. What is the primary clinical risk to her nursing infant?</p>",
+              "question": "<p>A breastfeeding mother is prescribed codeine for post-caesarean pain. Pharmacogenomic testing reveals she is a CYP2D6 ultrarapid metaboliser. What is the PRIMARY clinical risk?</p>",
               "answers": [
                 {
-                  "text": "<div>Inadequate pain relief in the mother, leading to breastfeeding difficulties</div>",
+                  "text": "<div>Codeine will be ineffective because it is cleared from the body too rapidly</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Ultrarapid metabolisers actually convert codeine to morphine faster than normal, so pain relief is not reduced — if anything, it may be excessive. The danger lies in where that excess morphine goes.</div>",
+                    "chosenFeedback": "<div>This confuses drug elimination with prodrug activation. In ultrarapid metabolisers, codeine is converted to its active metabolite morphine faster than normal — the problem is excessive morphine production, not inadequate drug levels.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Accumulation of unmetabolised codeine in the infant's circulation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Codeine is the prodrug. In ultrarapid metabolisers, the problem is too-rapid conversion to the active metabolite morphine, not accumulation of the parent compound codeine.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Excessive morphine formation in the mother, transferred via breast milk, causing neonatal opioid toxicity</div>",
+                  "text": "<div>Morphine will form excessively fast from codeine, risking opioid toxicity in both the mother and the breastfed infant</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In CYP2D6 ultrarapid metabolisers, codeine is converted to morphine at an accelerated rate. The high morphine concentrations pass into breast milk, risking respiratory depression and death in the nursing infant. Documented neonatal fatalities from this mechanism led to FDA safety warnings against codeine use in breastfeeding mothers.</div>",
+                    "chosenFeedback": "<div>Correct. CYP2D6 ultrarapid metabolisers convert the prodrug codeine to morphine at dangerously high rates. The excess morphine passes into breast milk, and this mechanism caused neonatal deaths that prompted FDA safety warnings.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Induction of neonatal hepatic enzymes, leading to drug interactions in the infant</div>",
+                  "text": "<div>Codeine will accumulate unchanged, causing gastrointestinal toxicity in the mother</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Neonatal enzyme induction is not the mechanism. The danger is direct morphine exposure through breast milk, caused by the mother's accelerated CYP2D6-mediated conversion of codeine to morphine.</div>",
+                    "chosenFeedback": "<div>Accumulation of unchanged codeine occurs in poor metabolisers who lack functional CYP2D6. Ultrarapid metabolisers have the opposite problem — they convert codeine to morphine too quickly, producing excessive active metabolite.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The infant's own immature liver enzymes will independently convert codeine to toxic levels of morphine</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Neonatal enzyme immaturity is a valid pharmacological concern, but the primary danger here is the mother producing excessive morphine through ultrarapid CYP2D6 metabolism, which then reaches the infant through breast milk.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In CYP2D6 ultrarapid metabolisers, codeine is converted to morphine far too quickly. The excess morphine passes into breast milk, causing opioid toxicity in the infant — including documented neonatal deaths. This is why the FDA issued specific warnings, and why pharmacogenomic testing before prescribing can be life-saving."
+                  "feedback": "Remember: codeine is a prodrug activated by CYP2D6 to morphine. Ultrarapid metabolisers produce morphine excessively fast — in breastfeeding mothers, this excess morphine reaches the infant via breast milk, risking fatal opioid toxicity."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. This is a landmark pharmacogenomic case — ultrarapid CYP2D6 metabolisers generate dangerously high morphine levels from codeine. Pre-emptive genetic testing allows clinicians to predict and prevent such outcomes rather than react to them."
+                  "feedback": "Well identified. This real-world case drove FDA black-box warnings and illustrates why pre-emptive pharmacogenomic testing can prevent fatal outcomes."
                 }
               ],
               "behaviour": {
@@ -429,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "7f7e58f6-4dd0-457a-8eea-02ab7f8151f4",
+            "subContentId": "179cf410-d383-4dc4-9333-24813e77de13",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A breastfeeding mother prescribed codein",
+              "title": "A breastfeeding mother is prescribed cod",
               "authors": [],
               "changes": []
             }
@@ -449,13 +449,13 @@
         },
         {
           "duration": {
-            "from": 904.025,
-            "to": 914.025
+            "from": 952.5564583333332,
+            "to": 962.5564583333332
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient on long-term benzodiazepines requests an increased dose and reports ha</p>",
+          "label": "<p>A patient on long-term benzodiazepines for insomnia presents requesting an early</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +464,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient on long-term benzodiazepines requests an increased dose and reports having 'lost' their prescription twice in the past month. Which level of the prescriber's responsibility framework for drug dependence does this scenario most directly activate?</p>",
+              "question": "<p>A patient on long-term benzodiazepines for insomnia presents requesting an early refill, claiming the tablets were lost. According to the three-level prescriber responsibility framework, this scenario belongs to which level?</p>",
               "answers": [
                 {
-                  "text": "<div>Prevention — prescribe at the lowest effective dose for the shortest duration</div>",
+                  "text": "<div>Prevention — benzodiazepines should never have been prescribed for insomnia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Prevention strategies apply at the point of initial prescribing — lowest dose, shortest duration, exit plan from day one. This patient is already on long-term treatment and showing behavioural warning signs that need to be recognised now.</div>",
+                    "chosenFeedback": "<div>Prevention focuses on prescribing decisions made before therapy begins — lowest effective dose, shortest duration, with a clear stopping plan. Once a patient is already on long-term therapy and showing warning signs, you are past the prevention stage.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Detection — recognise early signs of developing dependence</div>",
+                  "text": "<div>Detection — lost prescriptions are a recognised warning sign of possible dependence</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Dose escalation requests and repeated reports of lost prescriptions are classic detection signals for developing drug dependence. Recognising these patterns early allows the prescriber to intervene — through careful reassessment and discussion — before dependence becomes fully entrenched.</div>",
+                    "chosenFeedback": "<div>Correct. The narration specifically lists lost or stolen prescriptions among the detection signals, alongside dose escalation requests, multiple prescribers, and withdrawal symptoms after missed doses. Detection does not confirm dependence, but it triggers a careful clinical assessment.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Management — initiate supervised tapering immediately</div>",
+                  "text": "<div>Management — supervised tapering should be initiated immediately at this visit</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>While tapering may ultimately be needed, the immediate clinical task is recognising these behaviours as dependence warning signs. Jumping to management without careful assessment may be premature or may miss the actual pattern of use.</div>",
+                    "chosenFeedback": "<div>Jumping to tapering is premature. A lost-prescription report is a detection signal that warrants further evaluation — not an automatic trigger for management. Dependence must first be properly assessed before deciding on tapering or referral.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Regulation — report the patient under Schedule X provisions</div>",
+                  "text": "<div>Regulation — Schedule X provisions automatically prohibit issuing any early refill</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Schedule X regulations set prescribing formats and quantity limits for controlled substances, but the clinical priority here is detecting dependence behaviour through pattern recognition. Regulatory steps do not replace the clinical assessment.</div>",
+                    "chosenFeedback": "<div>While Schedule X sets dispensing rules, the clinical framework discussed positions this primarily as a detection signal. The prescriber's responsibility is to recognise the warning sign and evaluate the patient, not simply defer to regulatory prohibition.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +507,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The three levels of prescriber responsibility are prevention (before dependence starts), detection (recognising early signs), and management (tapering or referral). Dose escalation requests and repeated 'lost' prescriptions are classic detection signals — recognising them is the critical step before deciding on management."
+                  "feedback": "The three levels are prevention (before prescribing), detection (recognising warning signs during therapy), and management (acting on confirmed dependence). Lost or stolen prescriptions are a detection signal that warrants careful clinical assessment."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Dose escalation requests, lost prescriptions, and visits to multiple prescribers are key detection signals for developing dependence. Early recognition allows timely intervention before the pattern becomes entrenched."
+                  "feedback": "Correct. Recognising detection signals is the prescriber's clinical responsibility — regulatory rules alone cannot replace this judgment."
                 }
               ],
               "behaviour": {
@@ -539,11 +539,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "2a699a00-4e53-44fe-8b9f-a46ebbdfe842",
+            "subContentId": "a8c718d3-ba2b-4eda-b6ae-621066ad7104",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient on long-term benzodiazepines r",
+              "title": "A patient on long-term benzodiazepines f",
               "authors": [],
               "changes": []
             }
@@ -564,49 +564,49 @@
           "label": "Welcome to Applied Pharmacology and Prescribing Skills."
         },
         {
-          "time": 5,
+          "time": 4,
           "label": "You are a junior resident, and a pharmaceutical represent…"
         },
         {
-          "time": 92,
+          "time": 94,
           "label": "Critical appraisal is the structured process of checking…"
         },
         {
-          "time": 184,
+          "time": 198,
           "label": "When we look up information about a drug, where we look m…"
         },
         {
-          "time": 298,
+          "time": 321,
           "label": "A fixed-dose combination is a single product that packs t…"
         },
         {
-          "time": 378,
+          "time": 401,
           "label": "The World Health Organization's Guide to Good Prescribing…"
         },
         {
-          "time": 466,
+          "time": 493,
           "label": "Why does a standard drug dose that works for most patient…"
         },
         {
-          "time": 550,
+          "time": 580,
           "label": "Drug regulation is one of the most important applications…"
         },
         {
-          "time": 639,
+          "time": 670,
           "label": "Pharmacogenomics looks at how a person's genes shape thei…"
         },
         {
-          "time": 754,
+          "time": 796,
           "label": "When you sit down to counsel a patient about a new drug,…"
         },
         {
-          "time": 828,
+          "time": 876,
           "label": "Drug dependence is not a failure of willpower."
         }
       ],
       "endscreens": [
         {
-          "time": 936,
+          "time": 983,
           "label": "End"
         }
       ]
@@ -618,7 +618,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "941e7b6d-3913-4aa2-8a11-d0dd29a9a652",
+              "subContentId": "6850262c-23dd-4c56-8b92-fd84797ce4e1",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -641,7 +641,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "0c89ed26-02af-4d4b-bfac-3812f8c1d285",
+        "subContentId": "1686a4b3-2720-405c-a3f3-b7a1e44bf5e7",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
