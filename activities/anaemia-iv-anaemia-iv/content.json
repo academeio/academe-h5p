@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/afaf58bd-111d-47d2-873d-93b473a8b41b/playlist.m3u8",
+          "path": "https://vdo.cbme.in/c98eef42-15c8-4ff0-adc4-bca34ea23831/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 203.125,
-            "to": 213.125
+            "from": 206.19041666666666,
+            "to": 216.19041666666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with anaemia has a reticulocyte count of 6% and a haematocrit of 22.5%</p>",
+          "label": "<p>A patient with anaemia has a reticulocyte production index (RPI) of 0.8. Which o</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with anaemia has a reticulocyte count of 6% and a haematocrit of 22.5%. What does the reticulocyte production index (RPI) indicate about this patient's bone marrow?</p>",
+              "question": "<p>A patient with anaemia has a reticulocyte production index (RPI) of 0.8. Which of the following is the most likely underlying mechanism?</p>",
               "answers": [
                 {
-                  "text": "<div>An adequate marrow response, pointing to haemolysis or blood loss as the cause</div>",
+                  "text": "<div>Haemolysis causing premature red cell destruction</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Haemolysis triggers a vigorous marrow response, producing an RPI of 2 or above. A low RPI rules out a hyperproliferative cause.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Acute blood loss stimulating increased marrow output</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Acute blood loss also drives the marrow to increase output, producing an RPI of 2 or above — not 0.8.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Bone marrow hypoproliferation from a deficiency state or marrow suppression</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>RPI = 6 × (22.5 ÷ 45) = 3.0. A value ≥ 2 signals hyperproliferation — the marrow is working well, so the anaemia is from peripheral red-cell destruction or blood loss.</div>",
+                    "chosenFeedback": "<div>Correct. An RPI below 2 means the marrow is not compensating adequately, pointing to iron, B12 or folate deficiency, renal failure, or primary marrow suppression.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>The marrow is failing to respond and a nutritional deficiency is likely</div>",
+                  "text": "<div>Increased splenic pooling of reticulocytes</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The RPI here is 3.0 (6 × 22.5 ÷ 45), well above the threshold of 2. This indicates hyperproliferation, not marrow failure or nutritional deficiency.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The reticulocyte count is falsely elevated and the true marrow output is normal</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The RPI correction already accounts for the reduced red-cell denominator. A corrected value of 3.0 confirms genuine marrow hyperactivity, not a statistical artefact.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Ineffective erythropoiesis consistent with a myelodysplastic process</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Ineffective erythropoiesis produces a low RPI (below 2). The high RPI here indicates cells are being produced effectively but destroyed peripherally.</div>",
+                    "chosenFeedback": "<div>Splenic pooling alone does not produce a low RPI. Conditions with splenomegaly and haemolysis typically show an elevated RPI.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The RPI is 3.0 (6 × 22.5 ÷ 45). Values ≥ 2 indicate hyperproliferation, meaning the marrow is working well. Look for peripheral causes like haemolysis or blood loss."
+                  "feedback": "An RPI below 2 indicates hypoproliferation — the marrow is not compensating adequately. Haemolysis and acute blood loss both produce an RPI of 2 or above because the marrow responds vigorously."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. RPI ≥ 2 means the marrow is responding appropriately — the cause lies outside the marrow, in haemolysis or blood loss."
+                  "feedback": "Correct. An RPI below 2 signals hypoproliferation — the marrow is underperforming. Combined with MCV, this two-axis framework narrows the differential to specific causes."
                 }
               ],
               "behaviour": {
@@ -151,7 +151,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "1569d4cd-efe1-4f1d-8a1d-f53faed6b991",
+            "subContentId": "cf392543-1c55-47e8-929d-c8ad5c85c664",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -171,343 +171,13 @@
         },
         {
           "duration": {
-            "from": 380.475,
-            "to": 390.475
+            "from": 388.4679166666666,
+            "to": 398.4679166666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which combination of laboratory findings constitutes the diagnostic fingerprint </p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>Which combination of laboratory findings constitutes the diagnostic fingerprint of haemolytic anaemia?</p>",
-              "answers": [
-                {
-                  "text": "<div>Low ferritin, elevated total iron-binding capacity, and low transferrin saturation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This pattern indicates iron deficiency anaemia — depleted iron stores, not premature red-cell destruction.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Elevated reticulocytes, raised lactate dehydrogenase, low haptoglobin, and raised unconjugated bilirubin</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Red-cell destruction releases LDH and haemoglobin (which consumes haptoglobin), produces unconjugated bilirubin, and stimulates compensatory reticulocytosis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Elevated mean corpuscular volume, oval macrocytes, and hypersegmented neutrophils</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This pattern indicates megaloblastic anaemia from vitamin B12 or folate deficiency — impaired DNA synthesis, not peripheral red-cell destruction.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Pancytopaenia with a hypocellular bone marrow on biopsy</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Pancytopaenia with a hypocellular marrow indicates aplastic anaemia — marrow failure, not haemolysis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Haemolytic anaemia is diagnosed by elevated reticulocytes, raised LDH, low haptoglobin, and raised unconjugated bilirubin — all consequences of premature red-cell destruction."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. These four markers together confirm accelerated red-cell destruction and help distinguish haemolytic anaemia from other causes."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "f7933d51-f8f8-41c9-974b-19ac886f8a81",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "Which combination of laboratory findings",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 555.025,
-            "to": 565.025
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>Ramesh, a 52-year-old man, presents with iron deficiency anaemia and melaena. Wh</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>Ramesh, a 52-year-old man, presents with iron deficiency anaemia and melaena. Which step in the differential diagnosis process ensures that a dangerous underlying cause such as gastrointestinal malignancy is not missed?</p>",
-              "answers": [
-                {
-                  "text": "<div>Pattern recognition — matching his clinical findings to iron deficiency anaemia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Pattern recognition correctly identifies the haematological type but stops there. It does not prompt you to look beyond the obvious classification for a potentially dangerous cause.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Probability estimation — ranking iron deficiency as the most likely diagnosis in his demographic</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Probability estimation ranks diagnoses by likelihood, but anchoring on the most common cause risks missing malignancy in a middle-aged man with GI bleeding.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Safety-netting — actively considering dangerous diagnoses that can hide behind common ones</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Safety-netting forces you to ask: what dangerous diagnosis could be masquerading as this common one? In a 52-year-old with IDA and melaena, GI malignancy must be excluded even when a benign cause seems apparent.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Therapeutic trial — starting oral iron and reassessing after four weeks</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Delaying investigation with a therapeutic trial in a middle-aged man with GI bleeding risks missing a malignancy at a treatable stage. The diagnosis must be pursued before empirical treatment.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Safety-netting is the step that guards against missing dangerous diagnoses. In a 52-year-old man with IDA and melaena, iron deficiency is the blood picture — but gastrointestinal malignancy is the diagnosis that cannot be missed."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. Safety-netting ensures dangerous diagnoses like gastrointestinal malignancy are not missed, even when a benign explanation seems apparent."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "759eac35-0f25-43df-94ec-358919c93897",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "Ramesh, a 52-year-old man, presents with",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 715.875,
-            "to": 725.875
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>In the evaluation of anaemia, which clinical scenario warrants bone marrow aspir</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>In the evaluation of anaemia, which clinical scenario warrants bone marrow aspiration rather than relying on peripheral blood tests alone?</p>",
-              "answers": [
-                {
-                  "text": "<div>Microcytic anaemia in a young woman with menorrhagia and low ferritin</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The clinical picture and low ferritin confirm iron deficiency anaemia. Bone marrow biopsy would add nothing — peripheral tests have already answered the question.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Macrocytic anaemia with elevated methylmalonic acid and elevated homocysteine</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Elevated methylmalonic acid confirms vitamin B12 deficiency. The functional markers have established the diagnosis without marrow examination.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Normocytic anaemia in a patient with chronic kidney disease and low erythropoietin</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The cause is explained by erythropoietin deficiency from renal failure. Marrow examination is unnecessary when the aetiology is already clear from clinical context.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Pancytopaenia of unclear aetiology that has not responded to initial therapy</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Bone marrow aspiration is reserved for unexplained pancytopaenia, suspected marrow infiltration, or anaemia refractory to treatment — situations where peripheral tests cannot establish the diagnosis.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Bone marrow aspiration is reserved for unexplained pancytopaenia, suspected marrow infiltration, or anaemia that does not respond to treatment. It should not be used as a shortcut when simpler tests can establish the diagnosis."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. Bone marrow aspiration is indicated when peripheral tests cannot explain the findings, as in unexplained pancytopaenia or refractory anaemia."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "25b99d8e-c88f-4bc1-b07e-48b2085ccb8c",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "In the evaluation of anaemia, which clin",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 895.275,
-            "to": 905.275
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>Under India's Anaemia Mukt Bharat programme, pregnant women receive weekly iron </p>",
+          "label": "<p>In anaemia of chronic disease, serum ferritin is typically low because iron stor</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -516,7 +186,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Under India's Anaemia Mukt Bharat programme, pregnant women receive weekly iron and folic acid supplementation.</p>",
+              "question": "<p>In anaemia of chronic disease, serum ferritin is typically low because iron stores are depleted.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -534,16 +204,346 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is false. Under Anaemia Mukt Bharat, pregnant women receive daily iron and folic acid, not weekly. Weekly supplementation is the schedule for adolescents. The increased iron demand during pregnancy necessitates daily dosing.",
-                "correctAnswerMessage": "Correct — this statement is false. Pregnant women receive daily iron and folic acid throughout pregnancy and for 180 days postpartum. It is adolescents who receive weekly supplementation. The higher physiological demand during pregnancy requires daily dosing.",
+                "wrongAnswerMessage": "In anaemia of chronic disease, ferritin is actually normal or elevated. Interleukin-6 drives hepcidin production, which traps iron inside macrophages — the iron is sequestered, not depleted. Low ferritin points to iron deficiency anaemia, making this the crucial distinguishing test.",
+                "correctAnswerMessage": "Correct — the statement is false. In anaemia of chronic disease, hepcidin traps iron inside macrophages, so ferritin is normal or elevated. Iron is sequestered, not depleted. This is the key differentiator from iron deficiency anaemia, where ferritin is genuinely low.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "23defc3e-dd5a-44d8-8e41-4de2fe7f3252",
+            "subContentId": "62dcdd5c-01c6-4557-bae9-66e1d8c39a3f",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Under India's Anaemia Mukt Bharat progra",
+              "title": "In anaemia of chronic disease, serum fer",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 564.9546666666666,
+            "to": 574.9546666666666
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A 52-year-old man presents with fatigue, pallor without jaundice, and melaena. H</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A 52-year-old man presents with fatigue, pallor without jaundice, and melaena. His haemoglobin is 8.5 g/dL, MCV is 68 fL, and serum ferritin is low. After confirming iron deficiency anaemia, what should the clinician prioritise next?</p>",
+              "answers": [
+                {
+                  "text": "<div>Start oral iron replacement and review in three months</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Starting iron alone without investigating the cause of bleeding in a middle-aged man with melaena risks missing a gastrointestinal malignancy — the dangerous diagnosis hiding behind the obvious label.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Order haemoglobin electrophoresis to exclude thalassaemia trait</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Ferritin is already low, confirming iron deficiency. Thalassaemia trait presents with normal ferritin, so electrophoresis is not the priority here.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Investigate for underlying gastrointestinal malignancy</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Safety-netting requires excluding dangerous diagnoses even when a benign cause is apparent. In a middle-aged man with melaena, gastrointestinal malignancy must be excluded.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Check serum vitamin B12 and folate levels</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The MCV of 68 fL indicates microcytic anaemia. B12 and folate deficiency cause macrocytic anaemia (MCV above 100 fL), so these tests are not relevant here.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Iron deficiency anaemia is confirmed, but the clinical story does not end there. In a 52-year-old man with melaena, safety-netting demands investigation for gastrointestinal malignancy — the dangerous diagnosis hiding beneath the obvious one."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. This is safety-netting in action — iron deficiency anaemia is the haematological classification, but gastrointestinal malignancy is the diagnosis that cannot be missed in a middle-aged man with melaena."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "a98324bc-aba8-466c-b553-1ee13c5590e6",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A 52-year-old man presents with fatigue,",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 731.0184166666667,
+            "to": 741.0184166666667
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In which of the following clinical scenarios is bone marrow aspiration most appr</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In which of the following clinical scenarios is bone marrow aspiration most appropriately indicated?</p>",
+              "answers": [
+                {
+                  "text": "<div>A young woman with microcytic anaemia and a markedly low serum ferritin</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Low ferritin already confirms iron deficiency as the cause. The diagnosis is established, and bone marrow aspiration would not add useful information.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>A patient with macrocytic anaemia and elevated serum methylmalonic acid</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Elevated methylmalonic acid is the most specific confirmatory test for vitamin B12 deficiency. The diagnosis is clear without bone marrow examination.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Unexplained pancytopaenia that has not responded to empirical treatment</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Bone marrow aspiration is reserved for situations where simpler tests have not yielded a diagnosis — unexplained pancytopaenia, suspected marrow infiltration, or treatment-refractory anaemia.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Normocytic anaemia in a patient with known chronic kidney disease</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The mechanism is clear — reduced erythropoietin production by the diseased kidneys. Bone marrow aspiration is unnecessary when the aetiology is already explained.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Bone marrow aspiration is reserved for situations where simpler investigations have not established the diagnosis — unexplained pancytopaenia, suspected marrow infiltration, or anaemia that fails to respond to appropriate treatment."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. Bone marrow aspiration is not a shortcut around interpreting simpler tests. It is indicated when the diagnosis remains unexplained after standard investigations — such as in unexplained pancytopaenia or treatment-refractory anaemia."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "039d3703-a6ed-41e7-a7f1-9523c2b352b1",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In which of the following clinical scena",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 915.944625,
+            "to": 925.944625
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A community health worker is planning iron and folic acid supplementation under </p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A community health worker is planning iron and folic acid supplementation under the Anaemia Mukt Bharat programme. Which schedule is correct for a 24-year-old pregnant woman?</p>",
+              "answers": [
+                {
+                  "text": "<div>Weekly iron and folic acid tablets throughout pregnancy</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Weekly supplementation is the Anaemia Mukt Bharat schedule for adolescents, not for pregnant women. Pregnant women need daily tablets because of increased iron demands during gestation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Daily iron and folic acid tablets throughout pregnancy and for 180 days postpartum</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Under the Anaemia Mukt Bharat programme, pregnant women receive daily iron and folic acid throughout pregnancy and continuing for 180 days postpartum to rebuild depleted stores.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Iron tablets only during the first trimester</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Iron demands increase progressively through gestation and into lactation. Supplementation must continue throughout pregnancy and for 180 days postpartum, not just the first trimester.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Monthly intramuscular iron injections from the second trimester onward</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The programme uses oral iron and folic acid tablets for routine supplementation, not intramuscular injections. Parenteral iron is reserved for cases of oral intolerance or malabsorption.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Under the Anaemia Mukt Bharat programme, pregnant women receive daily iron and folic acid throughout pregnancy and for 180 days postpartum. The weekly schedule is reserved for adolescents."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. The Anaemia Mukt Bharat programme prescribes daily iron and folic acid for pregnant women throughout pregnancy and for 180 days postpartum — in contrast to the weekly schedule for adolescents."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "4050aae2-cbff-4e04-a866-26f59fc2eb69",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A community health worker is planning ir",
               "authors": [],
               "changes": []
             }
@@ -572,45 +572,45 @@
           "label": "Anaemia is defined by the World Health Organisation as a…"
         },
         {
-          "time": 142,
+          "time": 145,
           "label": "A reticulocyte is a young red blood cell, freshly release…"
         },
         {
-          "time": 204,
+          "time": 207,
           "label": "Iron deficiency anaemia passes through three stages."
         },
         {
-          "time": 302,
+          "time": 306,
           "label": "Rounding out our aetiology survey, we reach haemolytic an…"
         },
         {
-          "time": 381,
+          "time": 389,
           "label": "Think back to Meena from our earlier case."
         },
         {
-          "time": 479,
+          "time": 487,
           "label": "Building on the anaemia profiles from earlier, a differen…"
         },
         {
-          "time": 556,
+          "time": 566,
           "label": "Investigations must follow your clinical hypothesis, not…"
         },
         {
-          "time": 644,
+          "time": 656,
           "label": "Building on the blood film findings from our earlier scen…"
         },
         {
-          "time": 716,
+          "time": 732,
           "label": "Treatment is always cause-directed."
         },
         {
-          "time": 817,
+          "time": 835,
           "label": "Managing anaemia means working across three fronts: trans…"
         }
       ],
       "endscreens": [
         {
-          "time": 935,
+          "time": 959,
           "label": "End"
         }
       ]
@@ -622,7 +622,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "15261631-2037-4c66-a8a2-4a350417f156",
+              "subContentId": "fc603175-1c8d-481e-ab06-ec8ba512e303",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -645,7 +645,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "351576ef-6158-4ee3-b8b6-a7a651a03be7",
+        "subContentId": "08ab926a-f7c7-47bb-b4bc-761547a398a2",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
