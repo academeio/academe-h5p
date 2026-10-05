@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/9b20518d-3ea6-4203-a65a-36f26954a9f5/playlist.m3u8",
+          "path": "https://vdo.cbme.in/7166abe6-bc1f-4f0b-965d-a34498348a80/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PA14.1-2 | Microcytic Anemias — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for PA14.1-PA14.2."
+        "shortStartDescription": "Interactive lecture with 6 embedded questions for PA14.1-PA14.2."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 126.300875,
-            "to": 136.30087500000002
+            "from": 126.30758333333334,
+            "to": 136.30758333333335
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Two patients have identical CBC findings — Hb 9.5 g/dL, MCV 70 fL, and microcyti</p>",
+          "label": "<p>Two patients present with identical haemoglobin (9.5 g/dL) and MCV (70 fL). Pati</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Two patients have identical CBC findings — Hb 9.5 g/dL, MCV 70 fL, and microcytic hypochromic cells on the smear. Patient A has a ferritin of 68 ng/mL; Patient B has a ferritin of 4 ng/mL. Why is prescribing iron supplements to Patient A harmful?</p>",
+              "question": "<p>Two patients present with identical haemoglobin (9.5 g/dL) and MCV (70 fL). Patient A has a ferritin of 68 ng/mL; Patient B has a ferritin of 4 ng/mL. Which single investigation most reliably distinguishes iron deficiency anaemia from other causes of microcytic anaemia?</p>",
               "answers": [
                 {
-                  "text": "<div>Patient A likely has thalassaemia trait, and supplementing iron causes progressive overload and organ damage</div>",
+                  "text": "<div>Red cell distribution width (RDW)</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>RDW is higher in IDA (anisocytosis) than in thalassaemia trait, which is a useful clue — but it can be elevated in other conditions too, making it less specific than a direct measure of iron stores.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Serum ferritin level</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Patient A's normal ferritin indicates intact iron stores, pointing to thalassaemia trait rather than iron deficiency. The body has no efficient excretion pathway for excess iron, so unnecessary supplementation leads to progressive accumulation in the liver and heart.</div>",
+                    "chosenFeedback": "<div>Correct. Ferritin directly reflects total body iron stores. A low ferritin confirms iron deficiency, while a normal or raised ferritin in a microcytic patient points to thalassaemia trait or another non-IDA cause.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Iron at therapeutic doses triggers haemolysis in patients with adequate iron stores</div>",
+                  "text": "<div>Reticulocyte count</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Iron supplements do not trigger haemolysis. The danger lies in progressive iron accumulation — without an active excretion mechanism, excess iron deposits in parenchymal organs and causes tissue damage over time.</div>",
+                    "chosenFeedback": "<div>The reticulocyte count is low in both IDA and thalassaemia trait, so it does not help distinguish between them.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Excess iron is excreted renally, causing iron-induced nephrotoxicity</div>",
+                  "text": "<div>Mean corpuscular haemoglobin concentration (MCHC)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. The body has no efficient renal excretion pathway for iron. Excess iron accumulates in organs like the liver and heart, not the kidneys, which is why iatrogenic overload is so dangerous.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Iron supplements suppress erythropoiesis when ferritin exceeds 50 ng/mL</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Iron does not suppress erythropoiesis at any ferritin level. The real risk is progressive iron overload in a patient whose microcytosis stems from a haemoglobin synthesis defect, not iron deficiency.</div>",
+                    "chosenFeedback": "<div>MCHC can be low in both IDA and thalassaemia trait; it reflects haemoglobin concentration per cell but does not identify the underlying cause of microcytosis.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "Patient A's ferritin of 68 ng/mL means iron stores are intact, pointing to thalassaemia trait. Giving iron to such a patient is harmful because the body cannot excrete excess iron — it accumulates in organs, causing progressive damage."
+                  "feedback": "The key discriminator is serum ferritin, which directly measures iron stores. Patient A's normal ferritin (68 ng/mL) indicated she did not have iron deficiency — her microcytosis was from another cause, likely thalassaemia trait."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Distinguishing thalassaemia trait from iron deficiency before starting treatment is essential — Patient A's normal ferritin is the critical clue that prevents iatrogenic iron overload."
+                  "feedback": "Exactly. Ferritin is the most reliable first-line test to separate iron deficiency from non-iron-deficiency causes of microcytosis. As seen in the case, Patient A's normal ferritin should have prevented unnecessary iron therapy."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "504d9fdf-1eb1-4eec-94af-392152413b2e",
+            "subContentId": "f4b6ff07-126d-4912-aedc-0dca81b797ee",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Two patients have identical CBC findings",
+              "title": "Two patients present with identical haem",
               "authors": [],
               "changes": []
             }
@@ -171,233 +171,13 @@
         },
         {
           "duration": {
-            "from": 319.55525,
-            "to": 329.55525
+            "from": 316.53666666666663,
+            "to": 326.53666666666663
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 30-year-old woman with menorrhagia has a haemoglobin of 12.5 g/dL, an MCV of 8</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A 30-year-old woman with menorrhagia has a haemoglobin of 12.5 g/dL, an MCV of 86 fL, and a serum ferritin of 8 ng/mL. What is the most accurate interpretation of her iron status?</p>",
-              "answers": [
-                {
-                  "text": "<div>Her iron status is normal because haemoglobin and MCV are within the reference range</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Ferritin drops before haemoglobin or MCV, so waiting for these to fall means missing the earliest and most treatable stage of iron depletion.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Her body's iron stores are already exhausted even though haemoglobin production is still adequate</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Serum ferritin reflects body iron stores and is the first parameter to fall in iron depletion. A ferritin of 8 ng/mL with normal Hb and MCV indicates storage depletion — the earliest stage, when iron replacement is simplest and most effective.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>The low ferritin is likely a laboratory artefact since all other parameters are normal</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. A ferritin of 8 ng/mL in a woman with menorrhagia is clinically consistent with depleted iron stores. This is not an artefact — it is the earliest laboratory signal of iron deficiency.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>She has sideroblastic anaemia with paradoxically low ferritin</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. In sideroblastic anaemia, ferritin and serum iron are typically elevated, not low, because iron accumulates in mitochondria of erythroblasts and cannot be properly incorporated into haem.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Serum ferritin is the first parameter to fall in iron deficiency. A ferritin of 8 ng/mL, even with normal haemoglobin and MCV, means iron stores are already exhausted — this is the optimal window for early treatment."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Exactly right. Ferritin is the earliest marker to fall in iron depletion — recognising this pre-anaemic stage allows intervention before symptomatic anaemia develops."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "01085257-fa26-4aa3-919a-607aed68431d",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A 30-year-old woman with menorrhagia has",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 513.768875,
-            "to": 523.768875
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A 60-year-old man presents with confirmed iron deficiency anaemia. He is a lifel</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A 60-year-old man presents with confirmed iron deficiency anaemia. He is a lifelong vegetarian with no overt blood loss. What should be the first investigation priority?</p>",
-              "answers": [
-                {
-                  "text": "<div>Start oral iron supplements and monitor the haemoglobin response over three months</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Starting iron without investigating the cause in an elderly man is unsafe. Chronic occult GI blood loss from a colorectal malignancy is the most dangerous cause in this demographic and must be excluded first.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Order HbA2 estimation by HPLC to rule out beta-thalassaemia trait</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Thalassaemia trait does not cause iron deficiency — ferritin is normal in thalassaemia. With confirmed iron deficiency in an older male, the priority is excluding GI malignancy, not haemoglobinopathy.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Perform upper and lower GI endoscopy to exclude occult malignancy</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. In older men and postmenopausal women, iron deficiency anaemia is GI blood loss until proven otherwise. Even without overt bleeding, occult malignancy can cause chronic low-grade blood loss. Endoscopic evaluation is mandatory before attributing the anaemia to dietary insufficiency.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Prescribe a high-iron diet with vitamin C supplementation and reassess after six weeks</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. While dietary modification may complement treatment, attributing iron deficiency solely to diet in a 60-year-old man is dangerous — it risks delaying the diagnosis of a potentially curable GI malignancy.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "In an older male with iron deficiency, GI malignancy must be excluded by endoscopy before attributing the anaemia to diet. Chronic blood loss from colorectal malignancy is the most common dangerous cause in this demographic."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. In elderly men and postmenopausal women, iron deficiency anaemia mandates gastrointestinal evaluation to exclude malignancy — even when a dietary explanation seems plausible."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "a66a6484-d2e3-44fd-a9e0-e2c180217e59",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "A 60-year-old man presents with confirme",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 759.8407916666667,
-            "to": 769.8407916666667
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>Anaemia of chronic disease never produces microcytic red blood cells.</p>",
+          "label": "<p>In the earliest stage of iron depletion, serum iron falls before serum ferritin </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -406,7 +186,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>Anaemia of chronic disease never produces microcytic red blood cells.</p>",
+              "question": "<p>In the earliest stage of iron depletion, serum iron falls before serum ferritin because the transport pool is depleted before the storage pool.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -424,16 +204,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "Not quite. Anaemia of chronic disease is usually normocytic, but in prolonged, severe cases it can become microcytic. An MCV of 75–78 in a patient with chronic tuberculosis or rheumatoid arthritis suggests advanced, long-standing disease rather than necessarily coexisting iron deficiency.",
-                "correctAnswerMessage": "Correct. While anaemia of chronic disease is typically normocytic (MCV 80–95 fL), it can become microcytic in prolonged, severe inflammation — for example, long-standing rheumatoid arthritis or tuberculosis — as sustained hepcidin activity progressively restricts iron delivery to the marrow.",
+                "wrongAnswerMessage": "The sequence is actually the reverse. Stage 1 of iron depletion affects stores — serum ferritin falls while serum iron remains normal. Serum iron only drops in Stage 2 (transport depletion). That is why ferritin is the earliest and most sensitive warning sign.",
+                "correctAnswerMessage": "Correct — the statement is false. The body draws on its storage pool first, so serum ferritin (reflecting stores) drops before serum iron (reflecting transport) changes. This makes ferritin the earliest laboratory marker of iron deficiency.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "0dc5ff8a-940b-4d0e-8bda-f255345c8366",
+            "subContentId": "e48fcc67-3837-4a61-9b73-09797fa63d6c",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "Anaemia of chronic disease never produce",
+              "title": "In the earliest stage of iron depletion,",
               "authors": [],
               "changes": []
             }
@@ -449,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 961.6784166666669,
-            "to": 971.6784166666669
+            "from": 510.7405833333333,
+            "to": 520.7405833333332
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient has microcytic anaemia with an MCV of 62 fL, an RBC count of 6.2 × 10¹</p>",
+          "label": "<p>A 62-year-old man presents with microcytic hypochromic anaemia and a serum ferri</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient has microcytic anaemia with an MCV of 62 fL, an RBC count of 6.2 × 10¹²/L (elevated), and a normal RDW. Ferritin and TIBC are both within the normal range. Which condition does this pattern most likely represent?</p>",
+              "question": "<p>A 62-year-old man presents with microcytic hypochromic anaemia and a serum ferritin of 6 ng/mL. Which cause of iron deficiency must be investigated first in this patient?</p>",
               "answers": [
                 {
-                  "text": "<div>Iron deficiency anaemia</div>",
+                  "text": "<div>Inadequate dietary iron intake from a vegetarian diet</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Incorrect. In iron deficiency anaemia, the RBC count is typically low (not elevated), RDW is high (reflecting anisocytosis from uneven iron supply), and ferritin is low with a raised TIBC.</div>",
+                    "chosenFeedback": "<div>Dietary deficiency alone rarely causes severe IDA in adults. In an elderly man, chronic blood loss is statistically far more common and clinically more dangerous.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Beta-thalassaemia trait</div>",
+                  "text": "<div>Coeliac disease causing iron malabsorption</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Coeliac disease is a recognised cause of iron malabsorption and should be considered, but excluding GI malignancy takes priority in this age group because of its life-threatening nature.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Chronic H. pylori gastritis reducing gastric acid</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>H. pylori gastritis can impair iron absorption and is worth testing, but the first priority in an elderly male with IDA is to rule out an occult GI malignancy.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Gastrointestinal malignancy causing chronic occult blood loss</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Beta-thalassaemia trait shows a very low MCV with a normal or elevated RBC count, a normal RDW (all cells shrink uniformly — isocytic microcytes), and normal iron studies. This constellation distinguishes it from iron deficiency, where cells vary in size.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Anaemia of chronic disease</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. In anaemia of chronic disease, MCV is usually normal or only mildly low, ferritin is elevated, and TIBC is suppressed. An elevated RBC count with very low MCV is not characteristic of ACD.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Sideroblastic anaemia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Incorrect. Sideroblastic anaemia shows a dimorphic smear with two cell populations, driving a very high RDW. Ferritin and serum iron are typically elevated, not normal.</div>",
+                    "chosenFeedback": "<div>Correct. In older men and postmenopausal women, iron deficiency anaemia is GI bleeding until proven otherwise. Colorectal carcinoma must be excluded first, as delayed diagnosis significantly worsens prognosis.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key discriminators are: elevated RBC count (low in IDA), normal RDW (high in IDA, reflecting anisocytosis), and normal iron studies. This pattern — isocytic microcytes with preserved RBC mass — points to beta-thalassaemia trait."
+                  "feedback": "In this demographic, the most important cause to exclude is gastrointestinal malignancy. The rule: in older men and postmenopausal women, iron deficiency anaemia is GI bleeding until proven otherwise."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The triad of very low MCV, elevated RBC count, and normal RDW with normal iron studies is the classic fingerprint of beta-thalassaemia trait — all cells shrink uniformly due to reduced globin chain synthesis."
+                  "feedback": "Well done. The key clinical rule: in elderly men and postmenopausal women, IDA demands mandatory GI evaluation to exclude malignancy before considering other causes."
                 }
               ],
               "behaviour": {
@@ -539,11 +319,341 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "64efcba7-7d35-4bd4-bed4-602677a7c020",
+            "subContentId": "39a92043-3ba3-46f5-9947-ab3bb5f68637",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient has microcytic anaemia with an",
+              "title": "A 62-year-old man presents with microcyt",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 664.6631249999999,
+            "to": 674.6631249999999
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A patient with active rheumatoid arthritis has microcytic anaemia with low serum</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient with active rheumatoid arthritis has microcytic anaemia with low serum iron. Ferritin is 55 ng/mL (within the normal range). Which additional investigation best determines whether this patient also has true iron deficiency?</p>",
+              "answers": [
+                {
+                  "text": "<div>Erythrocyte sedimentation rate (ESR)</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>ESR confirms the presence of inflammation but provides no information about iron stores or iron availability to the marrow.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Soluble transferrin receptor (sTfR)</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. sTfR rises when erythroblasts are starved of iron and, crucially, is not elevated by inflammation. It reliably detects true iron deficiency even when ferritin is falsely raised by the acute-phase response.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Total iron binding capacity (TIBC)</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>In uncomplicated cases TIBC helps (high in IDA, low in ACD), but chronic inflammation suppresses transferrin synthesis, reducing TIBC's discriminatory power when both conditions coexist.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Serum hepcidin level</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Hepcidin is elevated in both ACD and iron-replete states and is not yet a routine clinical test for diagnosing concurrent iron deficiency.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The correct answer is soluble transferrin receptor (sTfR). Ferritin — an acute-phase reactant — can appear falsely normal during inflammation. sTfR is unaffected by the acute-phase response, so it reliably identifies iron-starved erythroblasts even in the setting of chronic disease."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Exactly. Because ferritin is an acute-phase reactant, a 'normal' ferritin during active inflammation does not exclude iron deficiency. Soluble transferrin receptor is the key to resolving this ambiguity."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "205d7080-287b-443f-894f-3e6416314ffc",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A patient with active rheumatoid arthrit",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 841.7897083333334,
+            "to": 851.7897083333334
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>In anaemia of chronic disease, elevated hepcidin causes degradation of ferroport</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>In anaemia of chronic disease, elevated hepcidin causes degradation of ferroportin. What is the direct consequence of this on iron distribution?</p>",
+              "answers": [
+                {
+                  "text": "<div>Iron is released more rapidly from macrophages to compensate for the anaemia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Hepcidin does the opposite — by destroying ferroportin, it blocks iron export from macrophages, not enhances it.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Iron is trapped inside macrophages and enterocytes, creating functional iron deficiency despite adequate total stores</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Ferroportin is the only known cellular iron exporter. When hepcidin degrades it, iron cannot leave macrophages or gut cells. The marrow is starved even though total body iron is adequate — this is functional iron deficiency.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Serum ferritin falls rapidly as stored iron is consumed by inflammatory cells</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>In ACD, ferritin actually rises or remains normal because iron accumulates within storage cells. Hepcidin traps iron in macrophages — it does not deplete stores.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Intestinal iron absorption increases to offset the iron withheld from the marrow</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Hepcidin blocks ferroportin on enterocytes too, reducing intestinal iron absorption — not increasing it.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Hepcidin degrades ferroportin, trapping iron inside macrophages and enterocytes. Despite adequate total body iron stores, the marrow cannot access the iron it needs — this functional iron deficiency is the hallmark of anaemia of chronic disease."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct. The hepcidin–ferroportin axis is the central mechanism of ACD: iron is locked away in macrophages, creating a state of functional deficiency where the body has iron it cannot use."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "f4e88efb-32a2-40cf-abc8-d0a688571cd5",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "In anaemia of chronic disease, elevated",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 952.4328333333334,
+            "to": 962.4328333333334
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>A patient has microcytic anaemia with MCV 62 fL. The RBC count is 5.8 × 10¹²/L (</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>A patient has microcytic anaemia with MCV 62 fL. The RBC count is 5.8 × 10¹²/L (elevated), RDW is normal, and serum ferritin is 72 ng/mL. Which diagnosis does this pattern most strongly suggest?</p>",
+              "answers": [
+                {
+                  "text": "<div>Iron deficiency anaemia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>In IDA, the RBC count is low (not high), RDW is elevated (anisocytosis from variable cell sizes), and ferritin is low — the opposite of this patient's findings.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Anaemia of chronic disease</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>ACD is usually normocytic. When it does turn microcytic, the MCV is only mildly reduced, and the RBC count is not characteristically elevated.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Beta-thalassaemia trait</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Beta-thalassaemia trait shows a very low MCV with a normal or elevated RBC count (many small, uniformly sized cells), normal RDW (isocytic microcytes), and normal iron studies. HbA2 on HPLC would confirm the diagnosis.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Sideroblastic anaemia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Sideroblastic anaemia produces a dimorphic smear with high RDW and elevated serum iron and ferritin — not the uniform microcytic pattern seen here.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "This pattern — very low MCV, elevated RBC count, normal RDW, and normal ferritin — is classic for beta-thalassaemia trait. The key discriminator from IDA: thalassaemia trait produces many small but uniform cells (normal RDW, high RBC count), while IDA produces fewer, variably-sized cells (high RDW, low RBC count)."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. The high RBC count with low MCV and normal RDW is the hallmark of beta-thalassaemia trait — many small, uniformly sized red cells. Normal iron studies confirm iron deficiency is not the cause."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "dbb68816-1700-457a-932b-f78706d11455",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "A patient has microcytic anaemia with MC",
               "authors": [],
               "changes": []
             }
@@ -576,33 +686,33 @@
           "label": "Iron storage does two jobs at once."
         },
         {
-          "time": 320,
+          "time": 317,
           "label": "Iron deficiency doesn't happen all at once."
         },
         {
-          "time": 421,
+          "time": 418,
           "label": "Every case of iron deficiency anemia fits into one of fou…"
         },
         {
-          "time": 514,
+          "time": 511,
           "label": "Once you suspect iron deficiency anemia, work through the…"
         },
         {
-          "time": 668,
+          "time": 665,
           "label": "When you see microcytosis, meaning the mean cell volume i…"
         },
         {
-          "time": 760,
+          "time": 757,
           "label": "In any long-standing inflammatory illness, the cytokine i…"
         },
         {
-          "time": 852,
+          "time": 842,
           "label": "This table is where everything you have learned so far co…"
         }
       ],
       "endscreens": [
         {
-          "time": 997,
+          "time": 988,
           "label": "End"
         }
       ]
@@ -614,7 +724,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "c984e263-6f51-4237-b09b-b4a97b3777ff",
+              "subContentId": "ec9722d6-b683-4e50-82ef-70a6e6b6eb3d",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -637,7 +747,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "7c67996e-ba56-42e3-a3d0-be37326eaa41",
+        "subContentId": "be5e2bb7-6dbf-4e8b-b360-6178e5e69d7d",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
