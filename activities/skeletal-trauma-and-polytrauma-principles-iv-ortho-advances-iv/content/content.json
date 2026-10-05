@@ -3,7 +3,7 @@
     "video": {
       "files": [
         {
-          "path": "https://vdo.cbme.in/626683b0-6c05-4040-9ed1-7b3c10523f09/playlist.m3u8",
+          "path": "https://vdo.cbme.in/fd90d5f2-e3d0-4551-9fe1-67eeba881ba8/playlist.m3u8",
           "mime": "application/vnd.apple.mpegurl",
           "copyright": {
             "license": "U"
@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OR1.1-6 | Skeletal Trauma and Polytrauma Principles — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 3 embedded questions for OR1.1-OR1.6."
+        "shortStartDescription": "Interactive lecture with 4 embedded questions for OR1.1-OR1.6."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,71 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 225.575,
-            "to": 235.575
+            "from": 228.065875,
+            "to": 238.065875
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In damage control orthopaedics, all long bone fractures in an unstable polytraum</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "True/False Question",
-          "action": {
-            "library": "H5P.TrueFalse 1.8",
-            "params": {
-              "question": "<p>In damage control orthopaedics, all long bone fractures in an unstable polytrauma patient should be definitively fixed with intramedullary nailing within the first twenty-four hours.</p>",
-              "correct": "false",
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false
-              },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "This statement is actually false. DCO specifically avoids early definitive fixation in unstable polytrauma. Temporary external fixation is applied first; definitive nailing or ORIF follows three to five days later once physiology has stabilised. Immediate definitive surgery in an unstable patient carries an unacceptable mortality risk.",
-                "correctAnswerMessage": "Correct — this statement is false. DCO stages treatment: temporary external fixation in the acute phase restores length and alignment without added physiological stress. Definitive fixation follows three to five days later once the patient is stable, significantly reducing rates of ARDS, multi-organ failure, and death.",
-                "scoreBarLabel": "You got :num out of :total points"
-              }
-            },
-            "subContentId": "46ed56cd-b9e3-4afd-957e-c3432425517f",
-            "metadata": {
-              "contentType": "True/False Question",
-              "license": "U",
-              "title": "In damage control orthopaedics, all long",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 334.19999999999993,
-            "to": 344.19999999999993
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A 22-year-old university-level football player presents with a confirmed complet</p>",
+          "label": "<p>In damage control orthopaedics, why is definitive fracture fixation delayed for </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -134,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 22-year-old university-level football player presents with a confirmed complete ACL tear and wishes to return to competitive sport. Which graft option is most appropriate for this patient?</p>",
+              "question": "<p>In damage control orthopaedics, why is definitive fracture fixation delayed for 3–5 days in an unstable polytrauma patient?</p>",
               "answers": [
                 {
-                  "text": "<div>Bone–patellar tendon–bone autograft</div>",
+                  "text": "<div>To allow sufficient time for complete radiological imaging of all injuries</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Imaging can be completed early. The delay is about physiological recovery — avoiding a second surgical insult while the patient's circulation is still unstable.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>To avoid the added physiological stress of prolonged definitive surgery during circulatory instability</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. BPTB autograft is considered the gold standard for high-demand athletes. It provides strong bone-to-bone fixation, though it does carry more donor site morbidity than a hamstring graft.</div>",
+                    "chosenFeedback": "<div>Early definitive fixation in a haemodynamically unstable patient triggers a 'second hit' — additional surgical insult on top of the initial trauma — raising the risk of ARDS and multi-organ failure.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Hamstring tendon autograft</div>",
+                  "text": "<div>To reduce the use of expensive operating-theatre resources during the acute phase</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Hamstring autograft is widely used and causes less donor site discomfort, but the video identifies BPTB autograft as the gold standard specifically for high-demand athletes returning to competitive sport.</div>",
+                    "chosenFeedback": "<div>DCO is driven by patient physiology, not cost. Temporary external fixation is done urgently; the delay before definitive surgery exists solely to let the patient stabilise.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Cadaveric allograft</div>",
+                  "text": "<div>To wait until an intramedullary nail of the correct size is available</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Allograft tissue is typically reserved for older patients or complex multi-ligament reconstructions, not for young competitive athletes — it avoids donor morbidity but carries higher re-rupture risk in high-demand individuals.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Direct arthroscopic suture repair of the torn ACL</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>The ACL cannot be reliably repaired by suturing — its poor blood supply and synovial fluid environment prevent healing. Graft-based reconstruction is the standard of care.</div>",
+                    "chosenFeedback": "<div>Implant logistics are a practical concern, but DCO staging is determined by the patient's physiological stability, not implant availability.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -177,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "For a young, high-demand athlete, bone–patellar tendon–bone autograft is the gold standard. It balances stronger fixation against more donor site discomfort compared to hamstring grafts, while allografts are reserved for older or multi-ligament cases."
+                  "feedback": "Not quite. DCO stages treatment specifically to avoid the physiological second hit of prolonged definitive surgery in an unstable patient. Temporary external fixation stabilises fractures while the patient recovers enough for definitive fixation."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. BPTB autograft is the gold standard for young, competitive athletes despite increased donor site morbidity, because it offers reliable bone-to-bone healing and strong initial fixation."
+                  "feedback": "Correct! DCO stages surgery to prevent the 'second hit' — definitive fixation is deferred until the patient's circulation stabilises, significantly reducing mortality from ARDS and multi-organ failure."
                 }
               ],
               "behaviour": {
@@ -209,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "7930f823-ac83-421e-96e9-4d457cd0fc4d",
+            "subContentId": "f62665d5-de0c-4641-b59e-74a711e31054",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 22-year-old university-level football",
+              "title": "In damage control orthopaedics, why is d",
               "authors": [],
               "changes": []
             }
@@ -229,13 +171,13 @@
         },
         {
           "duration": {
-            "from": 612.3,
-            "to": 622.3
+            "from": 339.3605416666667,
+            "to": 349.3605416666667
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>The video describes the failure of metal-on-metal hip implants and the controver</p>",
+          "label": "<p>Why is a torn anterior cruciate ligament reconstructed with a graft rather than </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +186,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>The video describes the failure of metal-on-metal hip implants and the controversy around bone morphogenetic protein trials. What common thread links these two cautionary examples?</p>",
+              "question": "<p>Why is a torn anterior cruciate ligament reconstructed with a graft rather than repaired by direct suturing?</p>",
               "answers": [
                 {
-                  "text": "<div>Both technologies were developed outside established orthopaedic research centres</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Both technologies were developed within mainstream orthopaedic research. The shared failure was in the evidence evaluation process, not in where the research originated.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Both were adopted widely before adequate long-term follow-up and independent evidence were available</div>",
+                  "text": "<div>The ACL has a poor blood supply and lies in a synovial fluid environment that resists healing</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Metal-on-metal implants were recalled after long-term follow-up revealed cobalt-chromium toxicity, and BMP's off-label use was driven by industry-sponsored trials later found to have manipulated data. Both illustrate why independent, long-term evidence is essential before widespread adoption.</div>",
+                    "chosenFeedback": "<div>The intra-articular, synovial environment and poor vascularity of the ACL mean that a sutured repair would not heal reliably, making graft reconstruction the established standard.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Both failed because of manufacturing defects rather than inherent design problems</div>",
+                  "text": "<div>Modern suture materials cannot withstand the mechanical forces across the knee joint</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Metal-on-metal bearings failed because the design itself released harmful metal ions — an inherent property of the bearing couple. BMP's problems were linked to off-label dosing and biased evidence, not manufacturing quality.</div>",
+                    "chosenFeedback": "<div>Current suture materials are strong enough for many ligament repairs. The limitation with the ACL is biological — its poor healing environment — not mechanical.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Both were abandoned after randomised controlled trials showed inferior outcomes to older techniques</div>",
+                  "text": "<div>Direct repair would require open surgery, which has been entirely replaced by arthroscopy</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The problems were identified through post-market surveillance, registry data, and re-analysis of trial data — not through prospective RCTs. This highlights why post-market monitoring and critical reading of trial funding sources are essential.</div>",
+                    "chosenFeedback": "<div>While arthroscopy is preferred, the reason for graft reconstruction is the ACL's inability to heal when sutured, not the surgical approach used.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>The torn ACL contracts and shortens within hours, making direct end-to-end repair technically impossible</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>While torn ends do retract over time, the primary reason for using a graft is the ACL's poor healing capacity in its synovial environment, not the physical retraction of the stumps.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +229,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key lesson from both examples is that wide adoption preceded adequate independent evidence. Always ask: is there long-term follow-up, and who funded the trials?"
+                  "feedback": "The key reason is biological, not mechanical or technical. The ACL sits in a synovial fluid environment with a poor blood supply — conditions that prevent a sutured repair from healing. This is why surgeons reconstruct it using a tendon graft."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. Both examples reinforce a core principle: promising innovation must be backed by independent, long-term data before widespread adoption. Funding sources and follow-up duration are essential to critical appraisal."
+                  "feedback": "Correct! The ACL's poor blood supply and its location within synovial fluid prevent reliable healing even with direct suturing — which is why graft-based reconstruction is the standard of care."
                 }
               ],
               "behaviour": {
@@ -319,11 +261,231 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "acf2ff87-2d85-41a2-9ec3-c901fd0ac8d1",
+            "subContentId": "9111666c-3108-4269-9c49-8f997164c9fb",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "The video describes the failure of metal",
+              "title": "Why is a torn anterior cruciate ligament",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 485.41729166666676,
+            "to": 495.41729166666676
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>What is the single most common cause of long-term failure of total hip replaceme</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>What is the single most common cause of long-term failure of total hip replacements?</p>",
+              "answers": [
+                {
+                  "text": "<div>Deep prosthetic joint infection</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Infection is an important cause of revision but is not the most common. Aseptic loosening accounts for more hip replacement failures than any other single cause.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Aseptic loosening triggered by polyethylene wear particles</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Tiny polyethylene particles shed from the bearing surface provoke an inflammatory response that gradually destroys surrounding bone, loosening the implant. This drove the development of highly cross-linked polyethylene (95% less wear) and ceramic-on-ceramic bearings.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Fracture of a ceramic bearing component during high-impact activity</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Ceramic fracture is a recognised but rare complication of ceramic-on-ceramic bearings. Aseptic loosening from polyethylene wear is far more common overall.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Breakdown of bone cement in patients with osteoporosis</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Cement can degrade over decades, but the dominant failure mechanism across hip replacements overall is aseptic loosening driven by polyethylene wear debris, not cement failure itself.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The most common cause is aseptic loosening. Tiny polyethylene particles trigger an inflammatory reaction that gradually destroys surrounding bone, loosening the implant. This failure mechanism is the reason newer bearing surfaces — XLPE and ceramic-on-ceramic — were developed."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct! Aseptic loosening from polyethylene wear particles is the leading cause of hip replacement failure — this is precisely why modern bearing materials like highly cross-linked polyethylene and ceramics were developed."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "bf630498-7df4-4f44-a126-4c5b5a86f99f",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "What is the single most common cause of",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "visuals": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "boxShadow": true
+          },
+          "goto": {
+            "type": "timecode",
+            "visualize": false
+          }
+        },
+        {
+          "duration": {
+            "from": 618.3570000000001,
+            "to": 628.3570000000001
+          },
+          "pause": true,
+          "displayType": "poster",
+          "buttonOnMobile": false,
+          "label": "<p>Which of the following best illustrates why long-term follow-up data and indepen</p>",
+          "x": 30,
+          "y": 30,
+          "width": 40,
+          "height": 25,
+          "libraryTitle": "Multiple Choice",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "question": "<p>Which of the following best illustrates why long-term follow-up data and independent registries are essential before widespread adoption of an orthopaedic innovation?</p>",
+              "answers": [
+                {
+                  "text": "<div>Highly cross-linked polyethylene reduced wear by up to 95% compared with conventional polyethylene</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This is an example of a successful innovation confirmed by follow-up data — it shows the system working well, not the consequences of adopting technology without adequate long-term evidence.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Robotic-assisted knee replacement improves implant positioning, but whether this improves long-term outcomes is still being studied</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This describes an ongoing uncertainty but not an actual adverse outcome. It is a reason to collect more data, not a demonstration of what happens when data are insufficient.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Metal-on-metal hip bearings were widely adopted but later recalled after cobalt-chromium ion release caused tissue damage and pseudotumours</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Metal-on-metal bearings initially showed promising short-term results, but longer follow-up revealed severe local tissue reactions. National joint registries in the UK and Australia were instrumental in detecting this signal and driving the recall — exactly the surveillance India currently lacks.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Bone-patellar tendon-bone autografts cause more donor-site pain than hamstring tendon autografts</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>This describes a well-characterised trade-off between two established graft choices, not a situation where inadequate follow-up data led to patient harm from an adopted innovation.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "The metal-on-metal recall is the most telling example. These bearings were widely adopted based on encouraging short-term data, but national registries later revealed cobalt-chromium toxicity and pseudotumours, prompting mass recall. This underscores why long-term follow-up and independent registries are essential."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Correct! The metal-on-metal recall is the clearest cautionary example — promising short-term results masked serious complications that only emerged with long-term registry data. India's lack of a national arthroplasty registry limits our ability to detect similar signals."
+                }
+              ],
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
+              },
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Retry"
+              }
+            },
+            "subContentId": "d7f9b287-0aec-412d-b8d8-67190d279e33",
+            "metadata": {
+              "contentType": "Multiple Choice",
+              "license": "U",
+              "title": "Which of the following best illustrates",
               "authors": [],
               "changes": []
             }
@@ -348,25 +510,25 @@
           "label": "In 1980, a patient with a torn anterior cruciate ligament…"
         },
         {
-          "time": 91,
+          "time": 92,
           "label": "Trauma orthopaedics has been transformed by three major a…"
         },
         {
-          "time": 226,
+          "time": 228,
           "label": "Arthroscopy has transformed sports orthopaedics."
         },
         {
-          "time": 335,
+          "time": 340,
           "label": "Joint replacement surgery keeps improving in four main ar…"
         },
         {
-          "time": 481,
+          "time": 485,
           "label": "Understanding recent advances means more than knowing wha…"
         }
       ],
       "endscreens": [
         {
-          "time": 667,
+          "time": 672,
           "label": "End"
         }
       ]
@@ -378,7 +540,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "d7c7ff92-e3bf-4c9b-ac61-0dfae0d2a8b9",
+              "subContentId": "11e5c801-5b7c-416e-93c2-1531b192efa3",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -401,7 +563,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "c6fdeffe-d198-44b2-8d15-d7ea28cdfbb0",
+        "subContentId": "6d309f16-8517-43dc-a3e5-df47fb91e53c",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
