@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "PA14.1-2 | Microcytic Anemias — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 6 embedded questions for PA14.1-PA14.2."
+        "shortStartDescription": "Interactive lecture with 5 embedded questions for PA14.1-PA14.2."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,13 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 126.30758333333334,
-            "to": 136.30758333333335
+            "from": 316.53666666666663,
+            "to": 326.53666666666663
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Two patients present with identical haemoglobin (9.5 g/dL) and MCV (70 fL). Pati</p>",
+          "label": "<p>A patient's blood test shows serum ferritin of 8 ng/mL, but haemoglobin, MCV, an</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -76,41 +76,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>Two patients present with identical haemoglobin (9.5 g/dL) and MCV (70 fL). Patient A has a ferritin of 68 ng/mL; Patient B has a ferritin of 4 ng/mL. Which single investigation most reliably distinguishes iron deficiency anaemia from other causes of microcytic anaemia?</p>",
+              "question": "<p>A patient's blood test shows serum ferritin of 8 ng/mL, but haemoglobin, MCV, and serum iron are all normal. Which iron pool is being depleted at this stage?</p>",
               "answers": [
                 {
-                  "text": "<div>Red cell distribution width (RDW)</div>",
+                  "text": "<div>Transport pool (transferrin-bound iron)</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>RDW is higher in IDA (anisocytosis) than in thalassaemia trait, which is a useful clue — but it can be elevated in other conditions too, making it less specific than a direct measure of iron stores.</div>",
+                    "chosenFeedback": "<div>The transport pool depletes in stage 2, when serum iron falls and TIBC rises. Normal serum iron here means transport iron is still intact.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Serum ferritin level</div>",
+                  "text": "<div>Functional pool (haemoglobin iron)</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>The functional pool depletes last (stage 3), producing low haemoglobin and low MCV. Normal haemoglobin confirms this pool is untouched.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Storage pool (ferritin and hemosiderin)</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Ferritin directly reflects total body iron stores. A low ferritin confirms iron deficiency, while a normal or raised ferritin in a microcytic patient points to thalassaemia trait or another non-IDA cause.</div>",
+                    "chosenFeedback": "<div>Correct. Ferritin directly reflects storage iron in the liver and macrophages. A low ferritin with normal haemoglobin and serum iron indicates isolated storage depletion — the earliest and most treatable stage of iron deficiency.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Reticulocyte count</div>",
+                  "text": "<div>All three pools are depleting simultaneously</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The reticulocyte count is low in both IDA and thalassaemia trait, so it does not help distinguish between them.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Mean corpuscular haemoglobin concentration (MCHC)</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>MCHC can be low in both IDA and thalassaemia trait; it reflects haemoglobin concentration per cell but does not identify the underlying cause of microcytosis.</div>",
+                    "chosenFeedback": "<div>Iron depletion follows a strict sequence: storage → transport → functional. Simultaneous depletion would show low serum iron and low haemoglobin, neither of which is present here.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -119,12 +119,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The key discriminator is serum ferritin, which directly measures iron stores. Patient A's normal ferritin (68 ng/mL) indicated she did not have iron deficiency — her microcytosis was from another cause, likely thalassaemia trait."
+                  "feedback": "Iron depletion follows a predictable sequence: the storage pool (ferritin) empties first, then the transport pool (serum iron falls, TIBC rises), and finally the functional pool (haemoglobin drops). A low ferritin with otherwise normal values pinpoints stage 1 — storage depletion."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. Ferritin is the most reliable first-line test to separate iron deficiency from non-iron-deficiency causes of microcytosis. As seen in the case, Patient A's normal ferritin should have prevented unnecessary iron therapy."
+                  "feedback": "Exactly right. Iron depletion is sequential — storage ferritin falls first, well before serum iron or haemoglobin change. This makes ferritin the earliest laboratory warning of iron deficiency."
                 }
               ],
               "behaviour": {
@@ -151,11 +151,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "f4b6ff07-126d-4912-aedc-0dca81b797ee",
+            "subContentId": "0b2bbb2d-a045-4c94-baf1-c505e3d4b5e8",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "Two patients present with identical haem",
+              "title": "A patient's blood test shows serum ferri",
               "authors": [],
               "changes": []
             }
@@ -171,49 +171,101 @@
         },
         {
           "duration": {
-            "from": 316.53666666666663,
-            "to": 326.53666666666663
+            "from": 417.04587499999997,
+            "to": 427.04587499999997
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In the earliest stage of iron depletion, serum iron falls before serum ferritin </p>",
+          "label": "<p>A 30-year-old woman has serum ferritin of 10 ng/mL, serum iron of 35 µg/dL, TIBC</p>",
           "x": 30,
           "y": 30,
           "width": 40,
           "height": 25,
-          "libraryTitle": "True/False Question",
+          "libraryTitle": "Multiple Choice",
           "action": {
-            "library": "H5P.TrueFalse 1.8",
+            "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In the earliest stage of iron depletion, serum iron falls before serum ferritin because the transport pool is depleted before the storage pool.</p>",
-              "correct": "false",
+              "question": "<p>A 30-year-old woman has serum ferritin of 10 ng/mL, serum iron of 35 µg/dL, TIBC of 450 µg/dL, and transferrin saturation of 8%. Her haemoglobin is 12.5 g/dL and MCV is 84 fL. Which stage of iron deficiency is she in?</p>",
+              "answers": [
+                {
+                  "text": "<div>Stage 1 — storage depletion</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>In stage 1, only ferritin is low. Serum iron, TIBC, and transferrin saturation are still normal. This patient's abnormal transport markers place her beyond stage 1.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Stage 2 — transport depletion</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. Both storage (low ferritin) and transport (low serum iron, high TIBC, transferrin saturation below 15%) are compromised, but haemoglobin and MCV remain normal — the hallmark of stage 2.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Stage 3 — iron deficiency anaemia</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Stage 3 requires low haemoglobin and low MCV with a microcytic hypochromic smear. This patient's normal haemoglobin of 12.5 and MCV of 84 rule out stage 3.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Functional iron deficiency</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Functional iron deficiency refers to iron trapped in macrophages during chronic inflammation, with high ferritin. This patient's low ferritin indicates genuinely depleted stores, not sequestered iron.</div>",
+                    "notChosenFeedback": ""
+                  }
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 50,
+                  "feedback": "Review the three stages: Stage 1 = only low ferritin. Stage 2 = low ferritin PLUS low serum iron, high TIBC, and low transferrin saturation, but haemoglobin still normal. Stage 3 = all of the above PLUS low Hb and MCV. This patient has abnormal storage and transport markers but normal Hb — stage 2."
+                },
+                {
+                  "from": 51,
+                  "to": 100,
+                  "feedback": "Well done. The combination of depleted storage markers AND depleted transport markers, with preserved haemoglobin, defines stage 2 — the window where treatment prevents progression to frank anaemia."
+                }
+              ],
               "behaviour": {
                 "enableRetry": true,
                 "enableSolutionsButton": true,
                 "enableCheckButton": true,
+                "type": "auto",
+                "singlePoint": false,
+                "randomAnswers": true,
+                "showSolutionsRequiresInput": true,
                 "confirmCheckDialog": false,
                 "confirmRetryDialog": false,
-                "autoCheck": false
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": true
               },
-              "l10n": {
-                "trueText": "True",
-                "falseText": "False",
-                "score": "You got @score of @total points",
-                "checkAnswer": "Check",
-                "submitAnswer": "Submit",
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check",
+                "submitAnswerButton": "Submit",
                 "showSolutionButton": "Show solution",
-                "tryAgain": "Retry",
-                "wrongAnswerMessage": "The sequence is actually the reverse. Stage 1 of iron depletion affects stores — serum ferritin falls while serum iron remains normal. Serum iron only drops in Stage 2 (transport depletion). That is why ferritin is the earliest and most sensitive warning sign.",
-                "correctAnswerMessage": "Correct — the statement is false. The body draws on its storage pool first, so serum ferritin (reflecting stores) drops before serum iron (reflecting transport) changes. This makes ferritin the earliest laboratory marker of iron deficiency.",
-                "scoreBarLabel": "You got :num out of :total points"
+                "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "e48fcc67-3837-4a61-9b73-09797fa63d6c",
+            "subContentId": "773651c1-727f-4a90-bf0e-07d3b61cad01",
             "metadata": {
-              "contentType": "True/False Question",
+              "contentType": "Multiple Choice",
               "license": "U",
-              "title": "In the earliest stage of iron depletion,",
+              "title": "A 30-year-old woman has serum ferritin o",
               "authors": [],
               "changes": []
             }
@@ -235,7 +287,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A 62-year-old man presents with microcytic hypochromic anaemia and a serum ferri</p>",
+          "label": "<p>A 62-year-old man with no dietary restrictions presents with iron deficiency ana</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +296,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A 62-year-old man presents with microcytic hypochromic anaemia and a serum ferritin of 6 ng/mL. Which cause of iron deficiency must be investigated first in this patient?</p>",
+              "question": "<p>A 62-year-old man with no dietary restrictions presents with iron deficiency anaemia. He has no history of gastrectomy or coeliac disease. Which investigation is the highest priority to determine the cause?</p>",
               "answers": [
                 {
-                  "text": "<div>Inadequate dietary iron intake from a vegetarian diet</div>",
+                  "text": "<div>Haemoglobin electrophoresis</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Dietary deficiency alone rarely causes severe IDA in adults. In an elderly man, chronic blood loss is statistically far more common and clinically more dangerous.</div>",
+                    "chosenFeedback": "<div>Hb electrophoresis evaluates thalassaemia and haemoglobinopathies. Iron studies have already confirmed iron deficiency, so the priority is finding the cause of iron loss, not re-evaluating the type of anaemia.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Coeliac disease causing iron malabsorption</div>",
+                  "text": "<div>Anti-tissue transglutaminase antibodies</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Coeliac disease is a recognised cause of iron malabsorption and should be considered, but excluding GI malignancy takes priority in this age group because of its life-threatening nature.</div>",
+                    "chosenFeedback": "<div>TTG antibodies screen for coeliac disease (decreased absorption). While reasonable, in an elderly male without GI symptoms of malabsorption, chronic blood loss is statistically far more likely and more dangerous to miss.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Chronic H. pylori gastritis reducing gastric acid</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>H. pylori gastritis can impair iron absorption and is worth testing, but the first priority in an elderly male with IDA is to rule out an occult GI malignancy.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Gastrointestinal malignancy causing chronic occult blood loss</div>",
+                  "text": "<div>Upper and lower gastrointestinal endoscopy</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. In older men and postmenopausal women, iron deficiency anaemia is GI bleeding until proven otherwise. Colorectal carcinoma must be excluded first, as delayed diagnosis significantly worsens prognosis.</div>",
+                    "chosenFeedback": "<div>Correct. In elderly men and postmenopausal women with IDA and no clear dietary or malabsorption cause, GI bleeding from occult malignancy must be excluded first. Endoscopy is mandatory before attributing the anaemia to any other cause.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Bone marrow biopsy with Perls' stain</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Bone marrow biopsy is the gold standard for confirming absent iron stores but is rarely needed when serum iron studies already confirm deficiency. The clinical priority is identifying the bleeding source.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +339,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "In this demographic, the most important cause to exclude is gastrointestinal malignancy. The rule: in older men and postmenopausal women, iron deficiency anaemia is GI bleeding until proven otherwise."
+                  "feedback": "Remember the four buckets: decreased intake, decreased absorption, increased loss, and increased demand. In an elderly man without dietary restrictions or malabsorption, the most likely and most dangerous cause is chronic GI blood loss. Endoscopy is mandatory to exclude malignancy."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The key clinical rule: in elderly men and postmenopausal women, IDA demands mandatory GI evaluation to exclude malignancy before considering other causes."
+                  "feedback": "Correct. In an elderly male with IDA and no obvious dietary or malabsorption cause, the most dangerous possibility — GI malignancy causing chronic occult blood loss — must be ruled out by endoscopy before any other workup."
                 }
               ],
               "behaviour": {
@@ -319,11 +371,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "39a92043-3ba3-46f5-9947-ab3bb5f68637",
+            "subContentId": "6e2cc023-f164-48b3-896c-61257d136276",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A 62-year-old man presents with microcyt",
+              "title": "A 62-year-old man with no dietary restri",
               "authors": [],
               "changes": []
             }
@@ -345,7 +397,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A patient with active rheumatoid arthritis has microcytic anaemia with low serum</p>",
+          "label": "<p>A patient with active rheumatoid arthritis has microcytic anaemia and a serum fe</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,32 +406,14 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A patient with active rheumatoid arthritis has microcytic anaemia with low serum iron. Ferritin is 55 ng/mL (within the normal range). Which additional investigation best determines whether this patient also has true iron deficiency?</p>",
+              "question": "<p>A patient with active rheumatoid arthritis has microcytic anaemia and a serum ferritin of 55 ng/mL. Her clinician suspects concurrent iron deficiency despite the normal ferritin. Which additional test would best resolve this diagnostic uncertainty?</p>",
               "answers": [
                 {
-                  "text": "<div>Erythrocyte sedimentation rate (ESR)</div>",
+                  "text": "<div>Repeat serum ferritin after two weeks</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>ESR confirms the presence of inflammation but provides no information about iron stores or iron availability to the marrow.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Soluble transferrin receptor (sTfR)</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. sTfR rises when erythroblasts are starved of iron and, crucially, is not elevated by inflammation. It reliably detects true iron deficiency even when ferritin is falsely raised by the acute-phase response.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Total iron binding capacity (TIBC)</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>In uncomplicated cases TIBC helps (high in IDA, low in ACD), but chronic inflammation suppresses transferrin synthesis, reducing TIBC's discriminatory power when both conditions coexist.</div>",
+                    "chosenFeedback": "<div>Repeating ferritin is unhelpful because the inflammation driving the false elevation persists. The ferritin will remain misleadingly elevated as long as the disease is active.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -388,7 +422,25 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Hepcidin is elevated in both ACD and iron-replete states and is not yet a routine clinical test for diagnosing concurrent iron deficiency.</div>",
+                    "chosenFeedback": "<div>Hepcidin rises in both inflammation and iron sufficiency, making it difficult to interpret in this clinical context. It is not a standard test for distinguishing IDA from ACD.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Soluble transferrin receptor (sTfR)</div>",
+                  "correct": true,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Correct. sTfR rises when erythroblasts are iron-starved and, crucially, is not affected by inflammation. A high sTfR in this setting confirms true iron deficiency masked by an inflammation-elevated ferritin.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Total iron binding capacity alone</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>TIBC is suppressed by inflammation (reduced transferrin synthesis), so it may be falsely low in active RA, reducing its discriminating power. sTfR is the more reliable marker in inflammatory states.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +449,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The correct answer is soluble transferrin receptor (sTfR). Ferritin — an acute-phase reactant — can appear falsely normal during inflammation. sTfR is unaffected by the acute-phase response, so it reliably identifies iron-starved erythroblasts even in the setting of chronic disease."
+                  "feedback": "The trap: ferritin is an acute phase reactant that rises with inflammation independently of iron stores. In active inflammatory disease, a ferritin of 55 does not reliably exclude iron deficiency. Soluble transferrin receptor (sTfR) is the solution — it reflects erythroblast iron demand and is not affected by the acute phase response."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Exactly. Because ferritin is an acute-phase reactant, a 'normal' ferritin during active inflammation does not exclude iron deficiency. Soluble transferrin receptor is the key to resolving this ambiguity."
+                  "feedback": "Exactly. Ferritin is an acute phase reactant — a 'normal' value of 55 in active inflammation may be masking depleted stores. Soluble transferrin receptor is unaffected by inflammation and rises specifically when erythroblasts lack iron, making it the key test in this scenario."
                 }
               ],
               "behaviour": {
@@ -429,7 +481,7 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "205d7080-287b-443f-894f-3e6416314ffc",
+            "subContentId": "4d82dd95-643e-428e-b6c0-e8c17be0c43a",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
@@ -455,7 +507,7 @@
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>In anaemia of chronic disease, elevated hepcidin causes degradation of ferroport</p>",
+          "label": "<p>A patient with chronic pulmonary tuberculosis has haemoglobin of 9.2 g/dL, MCV o</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,142 +516,32 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>In anaemia of chronic disease, elevated hepcidin causes degradation of ferroportin. What is the direct consequence of this on iron distribution?</p>",
-              "answers": [
-                {
-                  "text": "<div>Iron is released more rapidly from macrophages to compensate for the anaemia</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Hepcidin does the opposite — by destroying ferroportin, it blocks iron export from macrophages, not enhances it.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Iron is trapped inside macrophages and enterocytes, creating functional iron deficiency despite adequate total stores</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Correct. Ferroportin is the only known cellular iron exporter. When hepcidin degrades it, iron cannot leave macrophages or gut cells. The marrow is starved even though total body iron is adequate — this is functional iron deficiency.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Serum ferritin falls rapidly as stored iron is consumed by inflammatory cells</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>In ACD, ferritin actually rises or remains normal because iron accumulates within storage cells. Hepcidin traps iron in macrophages — it does not deplete stores.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Intestinal iron absorption increases to offset the iron withheld from the marrow</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Hepcidin blocks ferroportin on enterocytes too, reducing intestinal iron absorption — not increasing it.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "Hepcidin degrades ferroportin, trapping iron inside macrophages and enterocytes. Despite adequate total body iron stores, the marrow cannot access the iron it needs — this functional iron deficiency is the hallmark of anaemia of chronic disease."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. The hepcidin–ferroportin axis is the central mechanism of ACD: iron is locked away in macrophages, creating a state of functional deficiency where the body has iron it cannot use."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "f4e88efb-32a2-40cf-abc8-d0a688571cd5",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "In anaemia of chronic disease, elevated",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 952.4328333333334,
-            "to": 962.4328333333334
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A patient has microcytic anaemia with MCV 62 fL. The RBC count is 5.8 × 10¹²/L (</p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>A patient has microcytic anaemia with MCV 62 fL. The RBC count is 5.8 × 10¹²/L (elevated), RDW is normal, and serum ferritin is 72 ng/mL. Which diagnosis does this pattern most strongly suggest?</p>",
+              "question": "<p>A patient with chronic pulmonary tuberculosis has haemoglobin of 9.2 g/dL, MCV of 78 fL, serum iron of 25 µg/dL, ferritin of 310 ng/mL, and low TIBC. What is the most likely diagnosis?</p>",
               "answers": [
                 {
                   "text": "<div>Iron deficiency anaemia</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>In IDA, the RBC count is low (not high), RDW is elevated (anisocytosis from variable cell sizes), and ferritin is low — the opposite of this patient's findings.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>Anaemia of chronic disease</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>ACD is usually normocytic. When it does turn microcytic, the MCV is only mildly reduced, and the RBC count is not characteristically elevated.</div>",
+                    "chosenFeedback": "<div>IDA shows low ferritin and high TIBC, because the body builds more transferrin to scavenge scarce iron. This patient's high ferritin and low TIBC are the opposite pattern.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
                   "text": "<div>Beta-thalassaemia trait</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>Beta-thalassaemia trait shows normal iron studies (normal ferritin, normal TIBC) and is identified by raised HbA2 on HPLC. The abnormal iron studies and inflammatory context point elsewhere.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Anaemia of chronic disease</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Correct. Beta-thalassaemia trait shows a very low MCV with a normal or elevated RBC count (many small, uniformly sized cells), normal RDW (isocytic microcytes), and normal iron studies. HbA2 on HPLC would confirm the diagnosis.</div>",
+                    "chosenFeedback": "<div>Correct. Chronic TB drives IL-6 → hepcidin → ferroportin degradation, trapping iron inside macrophages. The hallmark pattern is high ferritin (stores are full), low serum iron (iron locked away), and low TIBC (inflammation suppresses transferrin synthesis). Prolonged severe inflammation explains the microcytosis.</div>",
                     "notChosenFeedback": ""
                   }
                 },
@@ -608,7 +550,7 @@
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Sideroblastic anaemia produces a dimorphic smear with high RDW and elevated serum iron and ferritin — not the uniform microcytic pattern seen here.</div>",
+                    "chosenFeedback": "<div>Sideroblastic anaemia produces a dimorphic smear with very high RDW. While ferritin and serum iron are high, TIBC is typically normal and diagnosis requires ringed sideroblasts on marrow examination.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -617,12 +559,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "This pattern — very low MCV, elevated RBC count, normal RDW, and normal ferritin — is classic for beta-thalassaemia trait. The key discriminator from IDA: thalassaemia trait produces many small but uniform cells (normal RDW, high RBC count), while IDA produces fewer, variably-sized cells (high RDW, low RBC count)."
+                  "feedback": "Remember the TIBC hook analogy: think of TIBC as iron-carrying hooks the body builds. In iron deficiency, the body builds MORE hooks (high TIBC) to grab scarce iron. In chronic inflammation, hepcidin locks iron inside macrophages and the body SUPPRESSES hook production (low TIBC). High ferritin + low TIBC + chronic infection = ACD, not IDA."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Well done. The high RBC count with low MCV and normal RDW is the hallmark of beta-thalassaemia trait — many small, uniformly sized red cells. Normal iron studies confirm iron deficiency is not the cause."
+                  "feedback": "Correct. The TIBC logic is the key discriminator: an iron-starved body builds more transferrin hooks (high TIBC in IDA), while an inflamed body suppresses hook production (low TIBC in ACD). High ferritin + low TIBC + chronic infection = anaemia of chronic disease."
                 }
               ],
               "behaviour": {
@@ -649,11 +591,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "dbb68816-1700-457a-932b-f78706d11455",
+            "subContentId": "f7526540-9481-46e5-9f9e-43bde6d6141b",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A patient has microcytic anaemia with MC",
+              "title": "A patient with chronic pulmonary tubercu",
               "authors": [],
               "changes": []
             }
@@ -724,7 +666,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "ec9722d6-b683-4e50-82ef-70a6e6b6eb3d",
+              "subContentId": "a3b4833b-702f-4c26-be48-d861372cae13",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -747,7 +689,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "be5e2bb7-6dbf-4e8b-b360-6178e5e69d7d",
+        "subContentId": "6ee7c701-5da4-4d3f-9b0a-000db5a97876",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
