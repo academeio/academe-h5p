@@ -13,7 +13,7 @@
       "startScreenOptions": {
         "title": "OG1.1-5 | Demographic and Vital Statistics — Interactive Lecture",
         "hideStartTitle": false,
-        "shortStartDescription": "Interactive lecture with 5 embedded questions for OG1.1-OG1.5."
+        "shortStartDescription": "Interactive lecture with 4 embedded questions for OG1.1-OG1.5."
       },
       "textTracks": {
         "videoTrack": [
@@ -61,123 +61,13 @@
       "interactions": [
         {
           "duration": {
-            "from": 219.81729166666665,
-            "to": 229.81729166666665
+            "from": 297.7385416666666,
+            "to": 307.7385416666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>Which of the following deaths would NOT be classified as a maternal death under </p>",
-          "x": 30,
-          "y": 30,
-          "width": 40,
-          "height": 25,
-          "libraryTitle": "Multiple Choice",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "question": "<p>Which of the following deaths would NOT be classified as a maternal death under the WHO definition?</p>",
-              "answers": [
-                {
-                  "text": "<div>A woman dying of eclampsia 30 days after delivery</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Eclampsia is a direct obstetric cause, and death within 42 days of delivery from a pregnancy-related complication meets the WHO definition of a maternal death.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>A woman with rheumatic heart disease dying 20 days after caesarean section</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>This is an indirect obstetric death. Rheumatic heart disease is a pre-existing condition aggravated by the physiological burden of pregnancy, so it fits the WHO definition.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>A pregnant woman dying in a road traffic accident at 36 weeks of gestation</div>",
-                  "correct": true,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>A road traffic accident is an accidental cause unrelated to the pregnancy or its management. The WHO definition explicitly excludes deaths from accidental or incidental causes, even if the woman is pregnant.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>A woman dying of puerperal sepsis 10 days after delivery</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Puerperal sepsis is a direct obstetric complication. Death within 42 days from this cause clearly qualifies as a maternal death under the WHO definition.</div>",
-                    "notChosenFeedback": ""
-                  }
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 50,
-                  "feedback": "The WHO definition of maternal death specifically excludes accidental or incidental causes. A road traffic accident — regardless of the woman's pregnancy status — is not related to the pregnancy itself and is therefore not counted as a maternal death."
-                },
-                {
-                  "from": 51,
-                  "to": 100,
-                  "feedback": "Correct. The WHO definition of maternal death excludes deaths from accidental or incidental causes, even if the woman is pregnant. Only deaths related to or aggravated by the pregnancy or its management qualify."
-                }
-              ],
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": true,
-                "enableCheckButton": true,
-                "type": "auto",
-                "singlePoint": false,
-                "randomAnswers": true,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": true
-              },
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Retry"
-              }
-            },
-            "subContentId": "4d58087e-98b9-46d6-ad47-e5b1b11662dc",
-            "metadata": {
-              "contentType": "Multiple Choice",
-              "license": "U",
-              "title": "Which of the following deaths would NOT",
-              "authors": [],
-              "changes": []
-            }
-          },
-          "visuals": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "boxShadow": true
-          },
-          "goto": {
-            "type": "timecode",
-            "visualize": false
-          }
-        },
-        {
-          "duration": {
-            "from": 373.7053333333333,
-            "to": 383.7053333333333
-          },
-          "pause": true,
-          "displayType": "poster",
-          "buttonOnMobile": false,
-          "label": "<p>A fresh (intrapartum) stillbirth typically shows skin desquamation, greenish dis</p>",
+          "label": "<p>A woman who dies from injuries sustained in a road traffic accident at 36 weeks </p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -186,7 +76,7 @@
           "action": {
             "library": "H5P.TrueFalse 1.8",
             "params": {
-              "question": "<p>A fresh (intrapartum) stillbirth typically shows skin desquamation, greenish discolouration, and collapsed tissues.</p>",
+              "question": "<p>A woman who dies from injuries sustained in a road traffic accident at 36 weeks of pregnancy is classified as a maternal death.</p>",
               "correct": "false",
               "behaviour": {
                 "enableRetry": true,
@@ -204,16 +94,16 @@
                 "submitAnswer": "Submit",
                 "showSolutionButton": "Show solution",
                 "tryAgain": "Retry",
-                "wrongAnswerMessage": "These features describe a macerated stillbirth, not a fresh one. Desquamation, greenish discolouration, and collapsed tissues indicate the foetus died well before delivery. A fresh (intrapartum) stillbirth shows no signs of maceration, meaning death occurred near the time of delivery — and many such deaths are preventable.",
-                "correctAnswerMessage": "Correct. These features — skin peeling, discolouration, and tissue softening — are hallmarks of a macerated stillbirth, where the foetus died in the womb hours to days before delivery. A fresh stillbirth shows no maceration, indicating death occurred close to delivery, often from acute events like cord prolapse or placental abruption.",
+                "wrongAnswerMessage": "Incorrect. The WHO definition requires the cause of death to be related to or aggravated by the pregnancy or its management. Deaths from accidental or incidental causes — such as a road traffic accident — are explicitly excluded. They do not enter either the direct or indirect obstetric death category.",
+                "correctAnswerMessage": "Correct. The WHO definition specifies that a maternal death must be caused by or related to the pregnancy or its management. Accidental or incidental causes such as road traffic injuries are explicitly excluded, even if the woman was pregnant at the time of death.",
                 "scoreBarLabel": "You got :num out of :total points"
               }
             },
-            "subContentId": "e0887c44-a52d-419e-9e56-96a26e6af242",
+            "subContentId": "a019e9ad-b67c-44ec-aae3-e79a32dd900d",
             "metadata": {
               "contentType": "True/False Question",
               "license": "U",
-              "title": "A fresh (intrapartum) stillbirth typical",
+              "title": "A woman who dies from injuries sustained",
               "authors": [],
               "changes": []
             }
@@ -229,13 +119,13 @@
         },
         {
           "duration": {
-            "from": 555.0091666666666,
-            "to": 565.0091666666666
+            "from": 455.6799166666666,
+            "to": 465.6799166666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A district hospital's caesarean section rate is 32%, well above the WHO benchmar</p>",
+          "label": "<p>A pregnant woman develops severe postpartum haemorrhage in a remote village. Her</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -244,41 +134,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A district hospital's caesarean section rate is 32%, well above the WHO benchmark of 10–15%. What is the primary purpose of conducting a structured caesarean audit at this facility?</p>",
+              "question": "<p>A pregnant woman develops severe postpartum haemorrhage in a remote village. Her family recognises the danger and calls an ambulance immediately, but it takes three hours to arrive due to poor roads. She reaches the district hospital alive but dies because no blood is available for transfusion. Which delays from the Thaddeus-Maine model contributed to this death?</p>",
               "answers": [
                 {
-                  "text": "<div>To penalise individual obstetricians who perform caesarean sections beyond the benchmark</div>",
+                  "text": "<div>Delay I only — the family failed to recognise the danger signs in time</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Caesarean audit is a quality improvement tool, not a punitive measure. Its goal is to understand delivery patterns across patient groups, not to assign blame to individual clinicians.</div>",
+                    "chosenFeedback": "<div>The scenario states the family recognised the danger and called an ambulance immediately. There was no delay in deciding to seek care (Delay I).</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>To ban all elective caesarean sections until the rate drops below 15 per cent</div>",
+                  "text": "<div>Delay II only — the ambulance took three hours due to poor roads</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Audit aims to understand and improve practice, not to impose blanket restrictions. Some elective caesareans are clinically necessary and appropriate.</div>",
+                    "chosenFeedback": "<div>While Delay II (reaching a facility) was present due to geographic isolation, the absence of blood at the hospital is a separate failure — Delay III (receiving adequate care at the facility).</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>To identify which patient subgroups are driving the high rate and determine whether it reflects genuine clinical need</div>",
+                  "text": "<div>Delays II and III — delayed transport to the facility and inadequate care on arrival</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Caesarean audit classifies every delivery to reveal which patient groups — such as women with a previous caesarean, induced nulliparous women, or preterm cases — contribute most to the rate, and whether clinical indications justify those caesareans.</div>",
+                    "chosenFeedback": "<div>Correct. The three-hour journey represents Delay II (reaching a facility), caused by geographic isolation and poor roads. The lack of blood for transfusion represents Delay III (receiving adequate care at the facility). Most Indian maternal deaths involve more than one delay simultaneously.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>To calculate the facility's maternal mortality ratio for national reporting</div>",
+                  "text": "<div>Delays I, II, and III — all three delays contributed to this death</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The maternal mortality ratio uses maternal deaths and live births as its inputs. Caesarean audit focuses specifically on the caesarean rate and its clinical appropriateness — a separate quality metric.</div>",
+                    "chosenFeedback": "<div>Delay I is a delay in deciding to seek care, often due to failure to recognise danger signs or financial barriers. Here the family acted immediately — no Delay I occurred. Only Delays II (transport) and III (facility care) contributed.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -287,12 +177,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "The primary purpose of caesarean audit is quality improvement — identifying which patient subgroups (e.g. women with a prior caesarean, induced nulliparous women) drive the rate, and determining whether it reflects genuine clinical need or other pressures like litigation fear or staffing gaps."
+                  "feedback": "Review the three delays model: Delay I = deciding to seek care, Delay II = reaching a facility, Delay III = receiving adequate care at the facility. In this case the family acted promptly (no Delay I), but the ambulance took hours (Delay II) and the hospital lacked blood (Delay III)."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Caesarean audit examines which patient groups contribute to the rate and whether those caesareans were clinically justified, guiding targeted interventions rather than blanket restrictions."
+                  "feedback": "Well done. Identifying which specific delays apply is the first step in a structured maternal death review, guiding targeted interventions at the community, transport, or facility level."
                 }
               ],
               "behaviour": {
@@ -319,11 +209,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "ef8cd614-8f12-4e93-bbbc-90aead8999c7",
+            "subContentId": "06973cc7-f44f-4862-b02c-39f4f9f48a02",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A district hospital's caesarean section",
+              "title": "A pregnant woman develops severe postpar",
               "authors": [],
               "changes": []
             }
@@ -339,13 +229,13 @@
         },
         {
           "duration": {
-            "from": 764.3957916666666,
-            "to": 774.3957916666666
+            "from": 653.6114583333332,
+            "to": 663.6114583333332
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>How do Janani Suraksha Yojana (JSY) and Janani Shishu Suraksha Karyakram (JSSK) </p>",
+          "label": "<p>You are setting up a caesarean section audit at your district hospital using the</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -354,41 +244,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>How do Janani Suraksha Yojana (JSY) and Janani Shishu Suraksha Karyakram (JSSK) differ in their approach to promoting institutional deliveries?</p>",
+              "question": "<p>You are setting up a caesarean section audit at your district hospital using the Robson classification. A colleague suggests recording only the mode of delivery and maternal age for each patient. What essential obstetric information would this approach fail to capture?</p>",
               "answers": [
                 {
-                  "text": "<div>JSY provides free hospital services, while JSSK provides a conditional cash transfer to eligible women</div>",
+                  "text": "<div>Blood group, Rh status, and maternal haemoglobin level</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This reverses the two schemes. JSY is the conditional cash transfer programme (launched 2005), while JSSK (launched 2011) eliminates out-of-pocket costs by providing free services at the facility.</div>",
+                    "chosenFeedback": "<div>These are important clinical parameters, but they are not among the six characteristics used in the Robson classification. The system uses purely obstetric variables to sort patients into its ten mutually exclusive groups.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>JSY covers only urban women, while JSSK covers only rural women</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Both schemes cover rural and urban women. In low-performing states, JSY covers all pregnant women regardless of income or area. JSSK applies to all government facility deliveries.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>JSY guarantees respectful maternity care, while JSSK provides iron and folic acid supplementation</div>",
-                  "correct": false,
-                  "tipsAndFeedback": {
-                    "tip": "",
-                    "chosenFeedback": "<div>Respectful maternity care is guaranteed under SUMAN (2019), not JSY. Iron and folic acid supplementation falls under Anaemia Mukt Bharat (2018), not JSSK.</div>",
-                    "notChosenFeedback": ""
-                  }
-                },
-                {
-                  "text": "<div>JSY provides a conditional cash transfer to encourage facility delivery, while JSSK eliminates out-of-pocket costs for delivery and newborn care</div>",
+                  "text": "<div>Fetal presentation, onset of labour, and previous caesarean section history</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>JSY (2005) incentivises women to choose institutional delivery through direct cash payments. JSSK (2011) removes the financial barrier at the facility — free delivery, drugs, diagnostics, blood transfusions, meals, and transport for mothers and sick newborns.</div>",
+                    "chosenFeedback": "<div>Correct. The Robson system classifies every delivery using six obstetric characteristics: parity, previous caesarean section, fetal presentation, onset of labour (spontaneous, induced, or pre-labour caesarean), gestational age, and number of fetuses. Neither mode of delivery nor maternal age is a classification variable.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Neonatal birth weight, Apgar scores, and NICU admission status</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>These are neonatal outcome measures, not classification inputs. The Robson system classifies patients prospectively using maternal and obstetric characteristics known before or at the time of delivery.</div>",
+                    "notChosenFeedback": ""
+                  }
+                },
+                {
+                  "text": "<div>Surgeon's experience level, duration of surgery, and anaesthesia type</div>",
+                  "correct": false,
+                  "tipsAndFeedback": {
+                    "tip": "",
+                    "chosenFeedback": "<div>These are operative details, not Robson classification variables. The system groups patients by obstetric profile — parity, previous caesarean, presentation, labour onset, gestational age, and fetal number — not by surgical factors.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -397,12 +287,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "JSY (2005) is a conditional cash transfer that incentivises institutional delivery. JSSK (2011) removes costs at the facility entirely — free delivery, drugs, diagnostics, blood transfusions, meals, and transport. Together they tackle different barriers: the decision to seek facility care (JSY) and the cost of receiving it (JSSK)."
+                  "feedback": "The Robson Ten-Group Classification uses six obstetric characteristics: parity, previous caesarean section, fetal presentation, onset of labour, gestational age, and number of fetuses. Maternal age and mode of delivery are not classification parameters."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. JSY and JSSK are complementary. JSY encourages women to choose a facility through cash incentives, while JSSK ensures no out-of-pocket expense once they arrive — covering delivery, drugs, diagnostics, blood, meals, and transport."
+                  "feedback": "Exactly. Accurate Robson classification depends on prospective recording of all six obstetric parameters at the time of delivery — a clinical responsibility, not an administrative one."
                 }
               ],
               "behaviour": {
@@ -429,11 +319,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "8b69d407-f576-41f6-ba1f-42d70c0a6b16",
+            "subContentId": "983bccf2-4295-41fb-9b29-3004e1d4dfb3",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "How do Janani Suraksha Yojana (JSY) and",
+              "title": "You are setting up a caesarean section a",
               "authors": [],
               "changes": []
             }
@@ -449,13 +339,13 @@
         },
         {
           "duration": {
-            "from": 961.6202916666666,
-            "to": 971.6202916666666
+            "from": 880.1585416666666,
+            "to": 890.1585416666666
           },
           "pause": true,
           "displayType": "poster",
           "buttonOnMobile": false,
-          "label": "<p>A woman with severe anaemia arrives in labour at your government district hospit</p>",
+          "label": "<p>A pregnant woman delivers at a government hospital and receives a direct cash pa</p>",
           "x": 30,
           "y": 30,
           "width": 40,
@@ -464,41 +354,41 @@
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
-              "question": "<p>A woman with severe anaemia arrives in labour at your government district hospital and delivers by emergency caesarean section. As the attending medical officer, which of the following actions correctly applies your clinical responsibilities?</p>",
+              "question": "<p>A pregnant woman delivers at a government hospital and receives a direct cash payment afterwards. Her ASHA worker also receives a separate incentive for facilitating the institutional delivery. Under which national programme were these cash transfers made?</p>",
               "answers": [
                 {
-                  "text": "<div>Discharge her after delivery without screening for scheme eligibility, since programme enrolment is handled by the ASHA worker at the community level</div>",
+                  "text": "<div>Janani Shishu Suraksha Karyakram (JSSK) — which provides free delivery and newborn care services</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Programme eligibility screening is a clinical responsibility at the point of care. The attending medical officer must identify entitlements under JSSK, SUMAN, and Anaemia Mukt Bharat — this cannot be deferred to the community level.</div>",
+                    "chosenFeedback": "<div>JSSK (2011) removes costs by making delivery, drugs, diagnostics, blood transfusions, meals, and transport entirely free. It does not provide cash payments — it eliminates out-of-pocket expenditure.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Register the birth within twenty-four hours, screen her entitlements under JSSK and SUMAN, classify the delivery in a Robson group, and escalate her anaemia management under Anaemia Mukt Bharat protocols</div>",
+                  "text": "<div>Janani Suraksha Yojana (JSY) — which provides conditional cash transfers for institutional delivery</div>",
                   "correct": true,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>This integrates all four domains of clinical responsibility: timely birth registration (legal requirement), programme enrolment (entitlement screening), prospective Robson classification for audit, and protocol-based management.</div>",
+                    "chosenFeedback": "<div>Correct. JSY, launched in 2005 under the National Rural Health Mission, is a conditional cash transfer scheme. Both the mother and the ASHA worker receive cash incentives for institutional delivery. This scheme is credited with raising India's institutional delivery rate from around 40% in 2005 to over 80% by the mid-2010s.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Refer her to a private hospital for blood transfusion, since government facilities do not provide this service free of cost</div>",
+                  "text": "<div>Surakshit Matritva Aashwasan (SUMAN) — which guarantees respectful maternity care</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>Under JSSK, blood transfusions during delivery are provided free at government facilities. Referring her to a private hospital contradicts the programme guarantee and delays care.</div>",
+                    "chosenFeedback": "<div>SUMAN (2019) guarantees respectful, dignified, free care with specific entitlements such as four antenatal visits, a skilled birth attendant, and 48-hour postnatal care. It is a rights and quality guarantee built on top of JSSK's free services, not a cash transfer programme.</div>",
                     "notChosenFeedback": ""
                   }
                 },
                 {
-                  "text": "<div>Classify the delivery under the Robson system only if the caesarean was planned before labour, since Robson grouping does not apply to emergency procedures</div>",
+                  "text": "<div>Anaemia Mukt Bharat (AMB) — which provides iron and folic acid supplementation</div>",
                   "correct": false,
                   "tipsAndFeedback": {
                     "tip": "",
-                    "chosenFeedback": "<div>The Robson classification covers every obstetric patient — whether vaginal, elective caesarean, or emergency caesarean. The onset-of-labour variable (spontaneous, induced, or pre-labour caesarean) is one of six recorded elements, and all values are valid Robson groups.</div>",
+                    "chosenFeedback": "<div>AMB (2018) is a national strategy to reduce anaemia using a 6×6×6 framework — six beneficiary groups, six interventions, and six institutional mechanisms. It provides supplementation and deworming, not cash transfers.</div>",
                     "notChosenFeedback": ""
                   }
                 }
@@ -507,12 +397,12 @@
                 {
                   "from": 0,
                   "to": 50,
-                  "feedback": "As the attending medical officer, you must register every birth within twenty-four hours, screen each woman's entitlements under JSSK, SUMAN, and Anaemia Mukt Bharat, assign a Robson group at discharge regardless of mode of delivery, and participate in audit. These are clinical responsibilities at the point of care."
+                  "feedback": "Remember the core mechanism of each programme: JSY (2005) = cash transfer for institutional delivery, JSSK (2011) = free services including delivery, drugs, blood, and transport, AMB (2018) = anaemia reduction through the 6×6×6 framework, SUMAN (2019) = rights guarantee for respectful, free care."
                 },
                 {
                   "from": 51,
                   "to": 100,
-                  "feedback": "Correct. Your responsibilities as the attending medical officer include registering every birth within twenty-four hours, screening for national programme entitlements, classifying every delivery in a Robson group at discharge, and participating in clinical audit — these are clinical duties, not administrative formalities."
+                  "feedback": "Well identified. JSY is India's cash incentive scheme; JSSK removes costs; SUMAN guarantees rights and quality. Knowing which programme applies to which entitlement is part of your clinical responsibility."
                 }
               ],
               "behaviour": {
@@ -539,11 +429,11 @@
                 "tryAgainButton": "Retry"
               }
             },
-            "subContentId": "cdb7bc29-1042-43e2-ba5c-fbbbd4ded7db",
+            "subContentId": "0bee4cdd-1b08-4ffd-8dbe-aedc53ad17f9",
             "metadata": {
               "contentType": "Multiple Choice",
               "license": "U",
-              "title": "A woman with severe anaemia arrives in l",
+              "title": "A pregnant woman delivers at a governmen",
               "authors": [],
               "changes": []
             }
@@ -618,7 +508,7 @@
           "intro": "Course summary",
           "summaries": [
             {
-              "subContentId": "fded17e1-e5a4-458b-bac3-78d3e64865dc",
+              "subContentId": "41378c79-ff63-45c4-88ff-3dae2a26c3f1",
               "tip": "",
               "summary": [
                 "Review the video interactions to check your understanding."
@@ -641,7 +531,7 @@
           "tipButtonLabel": "Show tip",
           "scoreLabel": "False statements:"
         },
-        "subContentId": "b5c94edc-b8ff-4d42-ac9a-d6a39ac9305f",
+        "subContentId": "b888092e-25a8-4dcb-8e74-8e90bd87e5a5",
         "metadata": {
           "contentType": "Summary",
           "license": "U",
