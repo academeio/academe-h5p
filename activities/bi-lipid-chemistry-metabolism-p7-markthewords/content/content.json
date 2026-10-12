@@ -1,0 +1,17 @@
+{
+  "taskDescription": "<p>Read this lipid profile report. Mark every value or condition that makes the Friedewald LDL cholesterol calculation unreliable or invalid.</p>",
+  "textField": "A 42-year-old man's fasting lipid profile after a myocardial infarction: total cholesterol 236 mg/dL, triacylglycerol *410* mg/dL, HDL cholesterol 31 mg/dL. The laboratory reports LDL cholesterol as not calculable. The Friedewald formula estimates VLDL cholesterol as triacylglycerol divided by 5, but this approximation breaks when triacylglycerol exceeds *400* mg/dL, when *chylomicrons* are present in the sample, or when the patient is *non-fasting*. In such cases a direct LDL assay must replace the calculation.",
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100,
+      "feedback": "The Friedewald equation (LDL-C = TC − HDL-C − TG/5) assumes VLDL carries triacylglycerol and cholesterol in a roughly 5:1 ratio. When TG exceeds 400 mg/dL (this patient's is 410), or chylomicrons are present, or the sample is non-fasting, the ratio shifts and TG/5 no longer estimates VLDL-C accurately — a direct LDL measurement is required. The total cholesterol and HDL values do not themselves invalidate the equation."
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "enableCheckButton": true,
+    "showScorePoints": true
+  }
+}
